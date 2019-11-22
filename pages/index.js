@@ -1,8 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Nav from '~/views/components/nav'
-import css from '~/style/main.scss'
-
+import css from '~/style/index.scss'
 
 const Home = () => (
   <div>

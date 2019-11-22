@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
 import styled from 'styled-components/macro'
-import '~/style/components/nav.scss'
 
 const links = [
   { href: 'https://zeit.co/now', label: 'ZEIT' },
