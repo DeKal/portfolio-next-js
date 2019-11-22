@@ -1,0 +1,9 @@
+{
+  "processors": ["stylelint-processor-styled-components"],
+  "extends": "stylelint-config-standard",
+  "syntax": "scss",
+  "rules": {
+    "no-empty-source": null,
+    "declaration-colon-newline-after": null
+  }
+}
