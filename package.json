@@ -5,11 +5,32 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint '**/*.js'",
+    "lint:css": "stylelint '**/*.scss'"
   },
   "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
     "next": "9.1.4",
+    "node-sass": "^4.13.0",
     "react": "16.12.0",
-    "react-dom": "16.12.0"
+    "react-dom": "16.12.0",
+    "recompose": "^0.30.0",
+    "styled-components": "^4.4.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-macros": "^2.7.0",
+    "babel-plugin-root-import": "^6.4.1",
+    "babel-plugin-styled-components": "^1.10.6",
+    "eslint": "^6.6.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "fs": "^0.0.1-security",
+    "prettier": "^1.19.1",
+    "stylelint": "^12.0.0"
+  },
+  "babelMacros": {
+    "styledComponents": {}
   }
 }
