@@ -1,13 +1,14 @@
 {
   "name": "portfolio-next-js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint '**/*.js'",
-    "lint:css": "stylelint '**/*.js'"
+    "lint:css": "stylelint '**/*.js'",
+    "version": "auto-changelog -p && git add CHANGELOG.md"
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
@@ -19,6 +20,7 @@
     "styled-components": "^4.4.1"
   },
   "devDependencies": {
+    "auto-changelog": "^1.16.2",
     "babel-eslint": "^10.0.3",
     "babel-plugin-macros": "^2.7.0",
     "babel-plugin-root-import": "^6.4.1",
@@ -27,6 +29,7 @@
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.16.0",
     "fs": "^0.0.1-security",
+    "lerna": "^3.19.0",
     "prettier": "^1.19.1",
     "stylelint": "^12.0.0",
     "stylelint-config-standard": "^19.0.0",
