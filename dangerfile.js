@@ -28,7 +28,7 @@ if (firstChar.toUpperCase() !== firstChar) {
 const availableLabels = Object.keys(labels)
 const assignedLabels = issue.labels
   .map(label => label.name)
-  .filter(name => availableLabels.indexOf(name) !== -1)
+  .filter(name => availableLabels.filter(label => label.includes(name)).length)
 
 if (!assignedLabels.length) {
   fail(
