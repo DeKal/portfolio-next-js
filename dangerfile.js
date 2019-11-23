@@ -31,7 +31,7 @@ const assignedLabels = issue.labels
   .filter(name => availableLabels.indexOf(name) !== -1)
 
 if (!assignedLabels.length) {
-  warn(
+  fail(
     `Requires one of these labels: [\`${availableLabels.join(
       '`, `'
     )}\`] to be referenced in CHANGELOG.md`
