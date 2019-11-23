@@ -31,13 +31,19 @@ Use `stylelint` to check SCSS embedded in JS code
 ```bash
 yarn lint:css
 ```
+### Release a version
+User `auto-changelog` to generate CHANGELOG.md
+```bash
+yarn release
+```
+
 ## Config files
-#### Prettier config: `.prettierrc`
-#### Babel config: `.bababelrc`
+#### Prettier config: `.prettierrc`
+#### Babel config: `.bababelrc`
 #### Eslint config: `.eslintrc`
 #### Stylelint config: `.stylelintrc`
 #### VScode config: `jsconfig.json`
-#### Nextjs config: `next.config.js`
+#### Nextjs config: `next.config.js`
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
