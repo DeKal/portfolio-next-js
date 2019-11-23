@@ -30,7 +30,7 @@
     "babel-core": "6.26.3",
     "babel-eslint": "10.0.3",
     "babel-jest": "24.9.0",
-    "babel-plugin-macros": "2.7.0",
+    "babel-plugin-macros": "2.7.1",
     "babel-plugin-root-import": "6.4.1",
     "babel-plugin-styled-components": "1.10.6",
     "babel-preset-env": "1.7.0",
