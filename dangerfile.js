@@ -1,4 +1,4 @@
-import { danger, warn, fail, markdown } from 'danger'
+import { danger, fail, markdown } from 'danger'
 
 // No PR is too small to include a description of why you made a change
 if (danger.github.pr.body.length < 8) {
