@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint '**/*.js'",
     "lint:css": "stylelint '**/*.js'",
-    "release": "auto-changelog -p && git add CHANGELOG.md"
+    "release": "auto-changelog -p && git add CHANGELOG.md",
+    "test": "pwd"
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
@@ -25,6 +26,7 @@
     "babel-plugin-macros": "^2.7.0",
     "babel-plugin-root-import": "^6.4.1",
     "babel-plugin-styled-components": "^1.10.6",
+    "danger": "^9.2.8",
     "eslint": "^6.6.0",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.16.0",
