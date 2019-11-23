@@ -9,7 +9,9 @@
     "lint": "eslint '**/*.js'",
     "lint:css": "stylelint '**/*.js'",
     "release": "auto-changelog -p && git add CHANGELOG.md",
-    "test": "pwd"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
@@ -21,21 +23,33 @@
     "styled-components": "^4.4.1"
   },
   "devDependencies": {
+    "@types/enzyme": "^3.10.3",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/jest": "^24.0.23",
     "auto-changelog": "^1.16.2",
+    "babel-core": "^6.26.3",
     "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
     "babel-plugin-macros": "^2.7.0",
     "babel-plugin-root-import": "^6.4.1",
     "babel-plugin-styled-components": "^1.10.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
     "danger": "^9.2.8",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
     "eslint": "^6.6.0",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.16.0",
     "fs": "^0.0.1-security",
+    "jest": "^24.9.0",
     "lerna": "^3.19.0",
     "prettier": "^1.19.1",
     "stylelint": "^12.0.0",
     "stylelint-config-standard": "^19.0.0",
-    "stylelint-processor-styled-components": "^1.8.0"
+    "stylelint-processor-styled-components": "^1.8.0",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.2"
   },
   "babelMacros": {
     "styledComponents": {}

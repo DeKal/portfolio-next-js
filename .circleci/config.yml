@@ -41,4 +41,7 @@ jobs:
       - run: yarn lint
       - run: yarn lint:css
       # run tests!
-      - run: yarn test
+      - run: yarn test:coverage
+      - store_artifacts:
+          path: coverage
+          destination: /coverage
