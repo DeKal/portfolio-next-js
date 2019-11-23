@@ -14,7 +14,6 @@ Use yarn to install dependencies.
 yarn
 ```
 
-
 ## Development
 ### Dev
 To Dev using
@@ -31,11 +30,36 @@ Use `stylelint` to check SCSS embedded in JS code
 ```bash
 yarn lint:css
 ```
+### Dangerjs
+DangerJs is running to check PRs info when pulling request
+
+### Testing
+Testing is supported by Jester and using typescript
+## Config
+Jest config: `jest.config.js`
+Typescript config for jest: `jest.tsconfig.json`
+Jest init script: `enzyme.js`
+## Running Test
+Run test `yarn test`
+Run test while developing `yarn test:watch`
+Run test coverage `yarn test:coverage`
+
+## Release
 ### Release a version
-User `auto-changelog` to generate CHANGELOG.md
+Only release a version when git status is clean and on branch `master`
+Use `auto-changelog` to generate CHANGELOG.md
 ```bash
 yarn release
 ```
+
+## CD/CI
+CD/CI is supported by **Circle.io**.
+Circle.io will run through (Looking at .circleci/config.yml for details)
+- `yarn`
+- `yarn danger ci`
+- `yarn lint`
+- `yarn lint:css`
+- `yarn test:coverage`
 
 ## Config files
 #### Prettier config: `.prettierrc`
