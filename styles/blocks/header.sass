@@ -1,0 +1,24 @@
+
+// First navbar with languages menu and second nav toggle icon
+.first-nav
+	+gs()
+	&__languages,
+	&__links
+		+gs-column(9)
+		@media screen and (max-width: 600px)
+			+gs-column(11)
+
+	// Second nav toggle icon
+	&__navcontrol
+		+gs-column(3)
+		@media screen and (max-width: 600px)
+			+gs-column(1)
+
+
+// Second nav with anchor links and logo
+.second-nav
+	+gs()
+
+// Page menu with anchor links
+.menu
+	+gs-column(12)

@@ -1,42 +1,28 @@
-import React from 'react'
-import Head from 'next/head'
-import Nav from '~/views/components/nav'
-import css from '~/style/index.scss'
+import React, { Fragment } from 'react'
 
-const Home = () => (
-  <div>
-    <Head>
-      <title>Home</title>
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
+import Head from '~views/components/Head'
+import Nav from '~/views/components/Nav'
+// import Footer from '~/views/components/Footer'
+// import Home from '~/views/components/Home'
+// import About from '~/views/components/About'
+// import Service from '~/views/components/Service'
+// import Project from '~/views/components/Project'
+// import Certification from '~/views/components/Certification'
+// import Contact from '~/views/components/Contact'
+// Import Global CSS
 
+const HomePage = () => (
+  <Fragment>
+    <Head />
     <Nav />
-
-    <div className={css.hero}>
-      <h1 className={css.title}>Welcome to Next.js!</h1>
-      <p className={css.description}>
-        To get started, edit <code>pages/index.js</code> and save to reload.
-      </p>
-
-      <div className={css.row}>
-        <a href="https://nextjs.org/docs" className={css.card}>
-          <h3>Documentation &rarr;</h3>
-          <p>Learn more about Next.js in the documentation.</p>
-        </a>
-        <a href="https://nextjs.org/learn" className={css.card}>
-          <h3>Next.js Learn &rarr;</h3>
-          <p>Learn about Next.js by following an interactive tutorial!</p>
-        </a>
-        <a
-          href="https://github.com/zeit/next.js/tree/master/examples"
-          className={css.card}
-        >
-          <h3>Examples &rarr;</h3>
-          <p>Find other example boilerplates on the Next.js GitHub.</p>
-        </a>
-      </div>
-    </div>
-  </div>
+    {/* <Home />
+    <About />
+    <Service />
+    <Project />
+    <Certification />
+    <Contact /> 
+    <Footer />*/}
+  </Fragment>
 )
 
-export default Home
+export default HomePage

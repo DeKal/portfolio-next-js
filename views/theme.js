@@ -1,19 +1,16 @@
 const theme = {
   font:
     '-apple-system, blinkmacsystemfont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif',
-  header: {
-    height: 49
-  },
-  topMenu: {
-    height: 49
-  },
-  smartBanner: {
-    height: 44
-  },
-  bottomNav: {
-    height: 50
-  },
+  navHeaderHeight: '40px',
+  navContentMinHeight: '80px',
   colors: {
+    // Color variables
+    colorLight: '#ecf0f1',
+    colorDarken: '#bdc3c7',
+    colorDark: '#2c3e50',
+    colorAccent: '#FFA726',
+    colorOverlayBg: `rgba(#2c3e50, 0.3)`,
+
     // primary colors
     lightPrimary: '#fff',
     darkPrimary: '#000',
@@ -85,6 +82,11 @@ const theme = {
      * spaces.small is the most popular one, then it is choosen.
      */
     gutter: 16
+  },
+  fonts: {
+    fontSans: '"Open Sans", Tahoma, Verdana, Arial, sans-serif',
+    fontSerif: 'Georgia, Times, "Times New Roman", serif',
+    fontCondensed: '"Open Sans Condensed", Tahoma, Verdana, Arial, sans-serif'
   },
   fontSizes: {
     base: '14px',
