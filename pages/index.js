@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 
 import Head from '~views/components/Head'
-import Nav from '~/views/components/Nav'
+import Nav from '~/views/components/Navbar'
 // import Footer from '~/views/components/Footer'
 // import Home from '~/views/components/Home'
 // import About from '~/views/components/About'

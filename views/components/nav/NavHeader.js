@@ -2,18 +2,13 @@ import React from 'react'
 import styled from 'styled-components/macro'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { MdClose } from 'react-icons/md'
+import NavLang from '~/views/components/nav/NavLang'
 import PropTypes from 'prop-types'
 
 const NavHeader = ({ isShowNavContent, switchNav }) => (
   <NavContainer className="first-nav">
     <div className="container">
-      <nav className="first-nav__links">
-        <ul>
-          <NavLinkItem>
-            <NavLink isSelected>english</NavLink>
-          </NavLinkItem>
-        </ul>
-      </nav>
+      <NavLang />
       <NavControl
         data-test-id="switch-nav-content"
         className="first-nav__navcontrol"
@@ -44,32 +39,6 @@ const NavContainer = styled.div`
   box-shadow: ${props => props.theme.extra.boxShadow};
 `
 
-const NavLinkItem = styled.li`
-  display: inline-block;
-  margin: 0 10px;
-
-  @media screen and (max-width: 800px) {
-    margin: 0 7px;
-  }
-`
-
-const NavLink = styled.a`
-  color: ${props =>
-    props.isSelected
-      ? props.theme.colors.colorDark
-      : props.theme.colors.colorLight};
-  border: ${props => (props.isSelected ? 'none' : 'initial')};
-  border-color: ${props => props.theme.colors.colorLight};
-  font-family: ${props => props.theme.font};
-  font-style: italic;
-  line-height: ${props => props.theme.navHeaderHeight};
-  transition: color 0.5s;
-
-  &:hover {
-    color: ${props => props.theme.colors.colorDark};
-    border: none;
-  }
-`
 const NavControl = styled.a`
   color: ${props => props.theme.colors.colorLight};
   line-height: ${props => props.theme.navHeaderHeight};

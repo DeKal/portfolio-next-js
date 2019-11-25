@@ -1,11 +1,11 @@
 import * as React from 'react'
 import { shallowWithTheme } from '~/utils/withThemeProviders'
-import Nav from '~/views/components/Nav'
+import NavLang from '~/views/components/nav/NavLang'
 
-describe('Nav', () => {
+describe('Nav Lang', () => {
 
   it('should render without throwing an error', function () {
-    const wrap = shallowWithTheme(<Nav />)
+    const wrap = shallowWithTheme(<NavLang />)
     expect(wrap).toMatchSnapshot()
   })
 

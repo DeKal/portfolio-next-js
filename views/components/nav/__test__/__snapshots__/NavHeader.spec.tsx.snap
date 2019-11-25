@@ -1,36 +1,775 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Nav Header should render without throwing an error 1`] = `
-<NavHeader__NavContainer
-  className="first-nav"
->
-  <div
-    className="container"
+exports[`Nav Header should render when not show NavContent 1`] = `
+<NavHeader>
+  <NavHeader__NavContainer
+    className="first-nav"
   >
-    <nav
-      className="first-nav__links"
+    <StyledComponent
+      className="first-nav"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "NavHeader__NavContainer-twnsn2-0",
+            "isStatic": false,
+            "lastClassName": "ffkEdX",
+            "rules": Array [
+              "position:absolute;z-index:200;top:0;left:0;height:",
+              [Function],
+              ";overflow:hidden;background-color:",
+              [Function],
+              ";box-shadow:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "NavHeader__NavContainer",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "NavHeader__NavContainer-twnsn2-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
     >
-      <ul>
-        <NavHeader__NavLinkItem>
-          <NavHeader__NavLink
-            isSelected={true}
+      <div
+        className="NavHeader__NavContainer-twnsn2-0 ffkEdX first-nav"
+      >
+        <div
+          className="container"
+        >
+          <NavLang>
+            <NavLang__NotSelectableDiv
+              className="first-nav__links"
+            >
+              <StyledComponent
+                className="first-nav__links"
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "NavLang__NotSelectableDiv-sc-7efc3x-0",
+                      "isStatic": false,
+                      "lastClassName": "jjunQF",
+                      "rules": Array [
+                        "-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;",
+                      ],
+                    },
+                    "displayName": "NavLang__NotSelectableDiv",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "NavLang__NotSelectableDiv-sc-7efc3x-0",
+                    "target": "nav",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <nav
+                  className="NavLang__NotSelectableDiv-sc-7efc3x-0 jjunQF first-nav__links"
+                >
+                  <ul>
+                    <NavLang__NavLinkItem>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "NavLang__NavLinkItem-sc-7efc3x-1",
+                              "isStatic": false,
+                              "lastClassName": "gISzZC",
+                              "rules": Array [
+                                "display:inline-block;margin:0 10px;cursor:pointer;@media screen and (max-width:800px){margin:0 7px;}",
+                              ],
+                            },
+                            "displayName": "NavLang__NavLinkItem",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "NavLang__NavLinkItem-sc-7efc3x-1",
+                            "target": "li",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <li
+                          className="NavLang__NavLinkItem-sc-7efc3x-1 gISzZC"
+                        >
+                          <NavLink
+                            lang="en"
+                            selectedLang="en"
+                            setSelectedLang={[Function]}
+                          >
+                            <NavLink__Container
+                              isSelected={true}
+                              onClick={[Function]}
+                            >
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "NavLink__Container-v6tuz9-0",
+                                      "isStatic": false,
+                                      "lastClassName": "bfwuOx",
+                                      "rules": Array [
+                                        "color:",
+                                        [Function],
+                                        ";border:",
+                                        [Function],
+                                        ";border-color:",
+                                        [Function],
+                                        ";font-family:",
+                                        [Function],
+                                        ";font-style:italic;line-height:",
+                                        [Function],
+                                        ";transition:color 0.5s;&:hover{color:",
+                                        [Function],
+                                        ";border:none;}",
+                                      ],
+                                    },
+                                    "displayName": "NavLink__Container",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "NavLink__Container-v6tuz9-0",
+                                    "target": "a",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                isSelected={true}
+                                onClick={[Function]}
+                              >
+                                <a
+                                  className="NavLink__Container-v6tuz9-0 fMGHjQ"
+                                  onClick={[Function]}
+                                >
+                                  english
+                                </a>
+                              </StyledComponent>
+                            </NavLink__Container>
+                          </NavLink>
+                          <NavLang__InlineBlock>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "NavLang__InlineBlock-sc-7efc3x-2",
+                                    "isStatic": false,
+                                    "lastClassName": "eBtnkR",
+                                    "rules": Array [
+                                      "display:inline-block;padding:5px;",
+                                    ],
+                                  },
+                                  "displayName": "NavLang__InlineBlock",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "NavLang__InlineBlock-sc-7efc3x-2",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <div
+                                className="NavLang__InlineBlock-sc-7efc3x-2 eBtnkR"
+                              >
+                                /
+                              </div>
+                            </StyledComponent>
+                          </NavLang__InlineBlock>
+                          <NavLink
+                            lang="vn"
+                            selectedLang="en"
+                            setSelectedLang={[Function]}
+                          >
+                            <NavLink__Container
+                              isSelected={false}
+                              onClick={[Function]}
+                            >
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "NavLink__Container-v6tuz9-0",
+                                      "isStatic": false,
+                                      "lastClassName": "bfwuOx",
+                                      "rules": Array [
+                                        "color:",
+                                        [Function],
+                                        ";border:",
+                                        [Function],
+                                        ";border-color:",
+                                        [Function],
+                                        ";font-family:",
+                                        [Function],
+                                        ";font-style:italic;line-height:",
+                                        [Function],
+                                        ";transition:color 0.5s;&:hover{color:",
+                                        [Function],
+                                        ";border:none;}",
+                                      ],
+                                    },
+                                    "displayName": "NavLink__Container",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "NavLink__Container-v6tuz9-0",
+                                    "target": "a",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                isSelected={false}
+                                onClick={[Function]}
+                              >
+                                <a
+                                  className="NavLink__Container-v6tuz9-0 bfwuOx"
+                                  onClick={[Function]}
+                                >
+                                  vietnamese
+                                </a>
+                              </StyledComponent>
+                            </NavLink__Container>
+                          </NavLink>
+                        </li>
+                      </StyledComponent>
+                    </NavLang__NavLinkItem>
+                  </ul>
+                </nav>
+              </StyledComponent>
+            </NavLang__NotSelectableDiv>
+          </NavLang>
+          <NavHeader__NavControl
+            className="first-nav__navcontrol"
+            data-test-id="switch-nav-content"
+            href="#"
+            onClick={[Function]}
           >
-            english
-          </NavHeader__NavLink>
-        </NavHeader__NavLinkItem>
-      </ul>
-    </nav>
-    <NavHeader__NavControl
-      className="first-nav__navcontrol"
-      data-test-id="switch-nav-content"
-      href="#"
-      onClick={[Function]}
+            <StyledComponent
+              className="first-nav__navcontrol"
+              data-test-id="switch-nav-content"
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "NavHeader__NavControl-twnsn2-1",
+                    "isStatic": false,
+                    "lastClassName": "eOqBsR",
+                    "rules": Array [
+                      "color:",
+                      [Function],
+                      ";line-height:",
+                      [Function],
+                      ";text-align:right;border:none;transition:color 0.5s;@media screen and (max-width:600px){margin-left:0;font-size:0;}&::before{display:inline-block;margin-right:10px;color:",
+                      [Function],
+                      ";font-size:",
+                      [Function],
+                      ";transition:color 0.5s;@media screen and (max-width:600px){margin-right:0;}}&.is-open,&.is-closed{display:block;}&:hover,&:hover::before{color:",
+                      [Function],
+                      ";}",
+                    ],
+                  },
+                  "displayName": "NavHeader__NavControl",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "NavHeader__NavControl-twnsn2-1",
+                  "target": "a",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              href="#"
+              onClick={[Function]}
+            >
+              <a
+                className="NavHeader__NavControl-twnsn2-1 eOqBsR first-nav__navcontrol"
+                data-test-id="switch-nav-content"
+                href="#"
+                onClick={[Function]}
+              >
+                <NavHeader__HamburgerIcon>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "NavHeader__HamburgerIcon-twnsn2-2",
+                          "isStatic": false,
+                          "lastClassName": "btPVzD",
+                          "rules": Array [
+                            "display:inline;padding-bottom:5px;",
+                          ],
+                        },
+                        "displayName": "NavHeader__HamburgerIcon",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "NavHeader__HamburgerIcon-twnsn2-2",
+                        "target": [Function],
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <GiHamburgerMenu
+                      className="NavHeader__HamburgerIcon-twnsn2-2 btPVzD"
+                    >
+                      <IconBase
+                        attr={
+                          Object {
+                            "viewBox": "0 0 512 512",
+                          }
+                        }
+                        className="NavHeader__HamburgerIcon-twnsn2-2 btPVzD"
+                      >
+                        <svg
+                          className="NavHeader__HamburgerIcon-twnsn2-2 btPVzD"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": undefined,
+                            }
+                          }
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M32 96v64h448V96H32zm0 128v64h448v-64H32zm0 128v64h448v-64H32z"
+                            key="0"
+                          />
+                        </svg>
+                      </IconBase>
+                    </GiHamburgerMenu>
+                  </StyledComponent>
+                </NavHeader__HamburgerIcon>
+                 Menu
+              </a>
+            </StyledComponent>
+          </NavHeader__NavControl>
+        </div>
+      </div>
+    </StyledComponent>
+  </NavHeader__NavContainer>
+</NavHeader>
+`;
+
+exports[`Nav Header should render when show NavContent 1`] = `
+<NavHeader
+  isShowNavContent={true}
+>
+  <NavHeader__NavContainer
+    className="first-nav"
+  >
+    <StyledComponent
+      className="first-nav"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "NavHeader__NavContainer-twnsn2-0",
+            "isStatic": false,
+            "lastClassName": "ffkEdX",
+            "rules": Array [
+              "position:absolute;z-index:200;top:0;left:0;height:",
+              [Function],
+              ";overflow:hidden;background-color:",
+              [Function],
+              ";box-shadow:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "NavHeader__NavContainer",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "NavHeader__NavContainer-twnsn2-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
     >
-      <NavHeader__HamburgerIcon />
-       Menu
-    </NavHeader__NavControl>
-  </div>
-</NavHeader__NavContainer>
+      <div
+        className="NavHeader__NavContainer-twnsn2-0 ffkEdX first-nav"
+      >
+        <div
+          className="container"
+        >
+          <NavLang>
+            <NavLang__NotSelectableDiv
+              className="first-nav__links"
+            >
+              <StyledComponent
+                className="first-nav__links"
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "NavLang__NotSelectableDiv-sc-7efc3x-0",
+                      "isStatic": false,
+                      "lastClassName": "jjunQF",
+                      "rules": Array [
+                        "-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;",
+                      ],
+                    },
+                    "displayName": "NavLang__NotSelectableDiv",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "NavLang__NotSelectableDiv-sc-7efc3x-0",
+                    "target": "nav",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <nav
+                  className="NavLang__NotSelectableDiv-sc-7efc3x-0 jjunQF first-nav__links"
+                >
+                  <ul>
+                    <NavLang__NavLinkItem>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "NavLang__NavLinkItem-sc-7efc3x-1",
+                              "isStatic": false,
+                              "lastClassName": "gISzZC",
+                              "rules": Array [
+                                "display:inline-block;margin:0 10px;cursor:pointer;@media screen and (max-width:800px){margin:0 7px;}",
+                              ],
+                            },
+                            "displayName": "NavLang__NavLinkItem",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "NavLang__NavLinkItem-sc-7efc3x-1",
+                            "target": "li",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <li
+                          className="NavLang__NavLinkItem-sc-7efc3x-1 gISzZC"
+                        >
+                          <NavLink
+                            lang="en"
+                            selectedLang="en"
+                            setSelectedLang={[Function]}
+                          >
+                            <NavLink__Container
+                              isSelected={true}
+                              onClick={[Function]}
+                            >
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "NavLink__Container-v6tuz9-0",
+                                      "isStatic": false,
+                                      "lastClassName": "bfwuOx",
+                                      "rules": Array [
+                                        "color:",
+                                        [Function],
+                                        ";border:",
+                                        [Function],
+                                        ";border-color:",
+                                        [Function],
+                                        ";font-family:",
+                                        [Function],
+                                        ";font-style:italic;line-height:",
+                                        [Function],
+                                        ";transition:color 0.5s;&:hover{color:",
+                                        [Function],
+                                        ";border:none;}",
+                                      ],
+                                    },
+                                    "displayName": "NavLink__Container",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "NavLink__Container-v6tuz9-0",
+                                    "target": "a",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                isSelected={true}
+                                onClick={[Function]}
+                              >
+                                <a
+                                  className="NavLink__Container-v6tuz9-0 fMGHjQ"
+                                  onClick={[Function]}
+                                >
+                                  english
+                                </a>
+                              </StyledComponent>
+                            </NavLink__Container>
+                          </NavLink>
+                          <NavLang__InlineBlock>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "NavLang__InlineBlock-sc-7efc3x-2",
+                                    "isStatic": false,
+                                    "lastClassName": "eBtnkR",
+                                    "rules": Array [
+                                      "display:inline-block;padding:5px;",
+                                    ],
+                                  },
+                                  "displayName": "NavLang__InlineBlock",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "NavLang__InlineBlock-sc-7efc3x-2",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <div
+                                className="NavLang__InlineBlock-sc-7efc3x-2 eBtnkR"
+                              >
+                                /
+                              </div>
+                            </StyledComponent>
+                          </NavLang__InlineBlock>
+                          <NavLink
+                            lang="vn"
+                            selectedLang="en"
+                            setSelectedLang={[Function]}
+                          >
+                            <NavLink__Container
+                              isSelected={false}
+                              onClick={[Function]}
+                            >
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "NavLink__Container-v6tuz9-0",
+                                      "isStatic": false,
+                                      "lastClassName": "bfwuOx",
+                                      "rules": Array [
+                                        "color:",
+                                        [Function],
+                                        ";border:",
+                                        [Function],
+                                        ";border-color:",
+                                        [Function],
+                                        ";font-family:",
+                                        [Function],
+                                        ";font-style:italic;line-height:",
+                                        [Function],
+                                        ";transition:color 0.5s;&:hover{color:",
+                                        [Function],
+                                        ";border:none;}",
+                                      ],
+                                    },
+                                    "displayName": "NavLink__Container",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "NavLink__Container-v6tuz9-0",
+                                    "target": "a",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                isSelected={false}
+                                onClick={[Function]}
+                              >
+                                <a
+                                  className="NavLink__Container-v6tuz9-0 bfwuOx"
+                                  onClick={[Function]}
+                                >
+                                  vietnamese
+                                </a>
+                              </StyledComponent>
+                            </NavLink__Container>
+                          </NavLink>
+                        </li>
+                      </StyledComponent>
+                    </NavLang__NavLinkItem>
+                  </ul>
+                </nav>
+              </StyledComponent>
+            </NavLang__NotSelectableDiv>
+          </NavLang>
+          <NavHeader__NavControl
+            className="first-nav__navcontrol"
+            data-test-id="switch-nav-content"
+            href="#"
+            onClick={[Function]}
+          >
+            <StyledComponent
+              className="first-nav__navcontrol"
+              data-test-id="switch-nav-content"
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "NavHeader__NavControl-twnsn2-1",
+                    "isStatic": false,
+                    "lastClassName": "eOqBsR",
+                    "rules": Array [
+                      "color:",
+                      [Function],
+                      ";line-height:",
+                      [Function],
+                      ";text-align:right;border:none;transition:color 0.5s;@media screen and (max-width:600px){margin-left:0;font-size:0;}&::before{display:inline-block;margin-right:10px;color:",
+                      [Function],
+                      ";font-size:",
+                      [Function],
+                      ";transition:color 0.5s;@media screen and (max-width:600px){margin-right:0;}}&.is-open,&.is-closed{display:block;}&:hover,&:hover::before{color:",
+                      [Function],
+                      ";}",
+                    ],
+                  },
+                  "displayName": "NavHeader__NavControl",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "NavHeader__NavControl-twnsn2-1",
+                  "target": "a",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              href="#"
+              onClick={[Function]}
+            >
+              <a
+                className="NavHeader__NavControl-twnsn2-1 eOqBsR first-nav__navcontrol"
+                data-test-id="switch-nav-content"
+                href="#"
+                onClick={[Function]}
+              >
+                <NavHeader__CloseIcon>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "NavHeader__CloseIcon-twnsn2-3",
+                          "isStatic": false,
+                          "lastClassName": "cCiHVk",
+                          "rules": Array [
+                            "display:inline;font-size:",
+                            [Function],
+                            ";font-weight:bolder;padding-bottom:3px;",
+                          ],
+                        },
+                        "displayName": "NavHeader__CloseIcon",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "NavHeader__CloseIcon-twnsn2-3",
+                        "target": [Function],
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <MdClose
+                      className="NavHeader__CloseIcon-twnsn2-3 cCiHVk"
+                    >
+                      <IconBase
+                        attr={
+                          Object {
+                            "viewBox": "0 0 24 24",
+                          }
+                        }
+                        className="NavHeader__CloseIcon-twnsn2-3 cCiHVk"
+                      >
+                        <svg
+                          className="NavHeader__CloseIcon-twnsn2-3 cCiHVk"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            Object {
+                              "color": undefined,
+                            }
+                          }
+                          viewBox="0 0 24 24"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                            key="0"
+                          />
+                        </svg>
+                      </IconBase>
+                    </MdClose>
+                  </StyledComponent>
+                </NavHeader__CloseIcon>
+                 Menu
+              </a>
+            </StyledComponent>
+          </NavHeader__NavControl>
+        </div>
+      </div>
+    </StyledComponent>
+  </NavHeader__NavContainer>
+</NavHeader>
 `;
 
 exports[`Nav Header should switchNav from Off to On 1`] = `
@@ -40,19 +779,7 @@ exports[`Nav Header should switchNav from Off to On 1`] = `
   <div
     className="container"
   >
-    <nav
-      className="first-nav__links"
-    >
-      <ul>
-        <NavHeader__NavLinkItem>
-          <NavHeader__NavLink
-            isSelected={true}
-          >
-            english
-          </NavHeader__NavLink>
-        </NavHeader__NavLinkItem>
-      </ul>
-    </nav>
+    <NavLang />
     <NavHeader__NavControl
       className="first-nav__navcontrol"
       data-test-id="switch-nav-content"
@@ -73,26 +800,14 @@ exports[`Nav Header should switchNav from On to Off 1`] = `
   <div
     className="container"
   >
-    <nav
-      className="first-nav__links"
-    >
-      <ul>
-        <NavHeader__NavLinkItem>
-          <NavHeader__NavLink
-            isSelected={true}
-          >
-            english
-          </NavHeader__NavLink>
-        </NavHeader__NavLinkItem>
-      </ul>
-    </nav>
+    <NavLang />
     <NavHeader__NavControl
       className="first-nav__navcontrol"
       data-test-id="switch-nav-content"
       href="#"
       onClick={[Function]}
     >
-      <NavHeader__HamburgerIcon />
+      <NavHeader__CloseIcon />
        Menu
     </NavHeader__NavControl>
   </div>

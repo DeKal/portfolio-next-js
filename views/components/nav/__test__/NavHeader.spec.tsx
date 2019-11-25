@@ -3,18 +3,24 @@ import { mountWithTheme, shallowWithTheme } from '~/utils/withThemeProviders'
 import NavHeader from '~/views/components/nav/NavHeader'
 
 describe('Nav Header', () => {
-  it('should render without throwing an error', function() {
+  it('should render when show NavContent', function() {
     const wrap = mountWithTheme(<NavHeader />)
 
-    expect(shallowWithTheme(<NavHeader />)).toMatchSnapshot()
+    expect(mountWithTheme(<NavHeader isShowNavContent />)).toMatchSnapshot()
+  })
+
+  it('should render when not show NavContent', function() {
+    const wrap = mountWithTheme(<NavHeader />)
+
+    expect(mountWithTheme(<NavHeader />)).toMatchSnapshot()
   })
 
   it('should switchNav from Off to On', function() {
     const switchNav = jest.fn()
     const wrap = shallowWithTheme(
-      <NavHeader isShowNavContent={false} switchNav={switchNav} />
+      <NavHeader switchNav={switchNav} />
     )
-    expect(shallowWithTheme(<NavHeader />)).toMatchSnapshot()
+    expect(wrap).toMatchSnapshot()
 
     wrap.find('[data-test-id="switch-nav-content"]').simulate('click')
     
@@ -27,7 +33,7 @@ describe('Nav Header', () => {
     const wrap = shallowWithTheme(
       <NavHeader isShowNavContent switchNav={switchNav} />
     )
-    expect(shallowWithTheme(<NavHeader />)).toMatchSnapshot()
+    expect(wrap).toMatchSnapshot()
 
     wrap.find('[data-test-id="switch-nav-content"]').simulate('click')
     

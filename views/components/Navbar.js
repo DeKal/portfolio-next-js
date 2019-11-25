@@ -5,7 +5,7 @@ import NavHeader from '~/views/components/nav/NavHeader'
 import NavContent from '~/views/components/nav/NavContent'
 import { INIT_NAV_CONTENT_SHOW } from '~/consts/initState'
 
-const Nav = () => {
+const Navbar = () => {
   const [isShowNavContent, switchNav] = useState(INIT_NAV_CONTENT_SHOW)
 
   return (
@@ -22,4 +22,4 @@ const MainHeader = styled.header`
   width: 100%;
 `
 
-export default Nav
+export default Navbar

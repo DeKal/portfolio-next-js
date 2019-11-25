@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Nav should render without throwing an error 1`] = `
-<Nav__MainHeader>
+exports[`Navbar should render without throwing an error 1`] = `
+<Navbar__MainHeader>
   <NavHeader
     isShowNavContent={false}
     switchNav={[Function]}
@@ -9,5 +9,5 @@ exports[`Nav should render without throwing an error 1`] = `
   <NavContent
     isShowNavContent={false}
   />
-</Nav__MainHeader>
+</Navbar__MainHeader>
 `;
