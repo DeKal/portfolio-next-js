@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav Lang should render without throwing an error 1`] = `
+<NavLang__NotSelectableDiv
+  className="first-nav__links"
+>
+  <ul>
+    <NavLang__NavLinkItem>
+      <NavLink
+        lang="en"
+        selectedLang="en"
+        setSelectedLang={[Function]}
+      />
+      <NavLang__InlineBlock>
+        /
+      </NavLang__InlineBlock>
+      <NavLink
+        lang="vn"
+        selectedLang="en"
+        setSelectedLang={[Function]}
+      />
+    </NavLang__NavLinkItem>
+  </ul>
+</NavLang__NotSelectableDiv>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav Link should change Language when clicking 1`] = `
+<NavLink__Container
+  isSelected={false}
+  onClick={[Function]}
+>
+  vietnamese
+</NavLink__Container>
+`;
+
+exports[`Nav Link should render with English selected 1`] = `
+<NavLink__Container
+  isSelected={true}
+  onClick={[Function]}
+>
+  english
+</NavLink__Container>
+`;
+
+exports[`Nav Link should render with Vietnamese selected 1`] = `
+<NavLink__Container
+  isSelected={true}
+  onClick={[Function]}
+>
+  vietnamese
+</NavLink__Container>
+`;

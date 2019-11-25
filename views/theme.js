@@ -1,19 +1,14 @@
 const theme = {
   font:
     '-apple-system, blinkmacsystemfont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif',
-  header: {
-    height: 49
-  },
-  topMenu: {
-    height: 49
-  },
-  smartBanner: {
-    height: 44
-  },
-  bottomNav: {
-    height: 50
-  },
+  navHeaderHeight: '40px',
+  navContentMinHeight: '80px',
   colors: {
+    // Color variables
+    colorLight: '#ecf0f1',
+    colorDarken: '#bdc3c7',
+    colorDark: '#2c3e50',
+    colorAccent: '#FFA726',
     // primary colors
     lightPrimary: '#fff',
     darkPrimary: '#000',
@@ -86,6 +81,11 @@ const theme = {
      */
     gutter: 16
   },
+  fonts: {
+    fontSans: '"Open Sans", Tahoma, Verdana, Arial, sans-serif',
+    fontSerif: 'Georgia, Times, "Times New Roman", serif',
+    fontCondensed: '"Open Sans Condensed", Tahoma, Verdana, Arial, sans-serif'
+  },
   fontSizes: {
     base: '14px',
     XS: '10px',
@@ -100,4 +100,11 @@ const theme = {
   defaultLineHeight: 1.57
 }
 
-export default theme
+const themeExtra = {
+  ...theme,
+  extra: {
+    boxShadow: `0 1px 2px -1px ${theme.colors.colorDark}`
+  }
+}
+
+export default themeExtra
