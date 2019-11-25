@@ -9,7 +9,6 @@ import Nav from '~/views/components/Nav'
 // import Project from '~/views/components/Project'
 // import Certification from '~/views/components/Certification'
 // import Contact from '~/views/components/Contact'
-// Import Global CSS
 
 const HomePage = () => (
   <Fragment>

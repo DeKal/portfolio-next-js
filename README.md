@@ -54,7 +54,7 @@ yarn release
 
 ## CD/CI
 CD/CI is supported by **Circle.io**.\
-Circle.io will run through (Looking at .circleci/config.yml for details)\
+Circle.io will run through (Looking at .circleci/config.yml for details)
 - `yarn`
 - `yarn danger ci`
 - `yarn lint`

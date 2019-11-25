@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav should render without throwing an error 1`] = `
+<Nav__MainHeader>
+  <NavHeader
+    isShowNavContent={false}
+    switchNav={[Function]}
+  />
+  <NavContent
+    isShowNavContent={false}
+  />
+</Nav__MainHeader>
+`;

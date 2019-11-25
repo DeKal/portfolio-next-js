@@ -43,7 +43,7 @@ const Container = styled.div`
     props.isShowNavContent
       ? props.theme.navHeaderHeight
       : `-${props.theme.navHeaderHeight}`};
-  box-shadow: 0 1px 2px -1px ${props => props.theme.colors.colorDark};
+  box-shadow: ${props => props.theme.extra.boxShadow};
   transition: all 0.5s;
 
   @media screen and (max-width: 800px) {

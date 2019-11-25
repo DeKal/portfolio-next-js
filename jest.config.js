@@ -15,9 +15,9 @@ module.exports = {
   coveragePathIgnorePatterns: ['/node_modules/', 'enzyme.js'],
   setupFilesAfterEnv: ['<rootDir>/enzyme.js'],
   coverageReporters: ['json', 'lcov', 'text', 'text-summary'],
+  collectCoverageFrom: ['pages/**/*.js', 'views/**/*.js'],
   moduleNameMapper: {
-    '\\.(css|less|sass|scss)$': '<rootDir>/__mocks__/styleMock.js',
-    '\\.(gif|ttf|eot|svg)$': '<rootDir>/__mocks__/fileMock.js'
+    '~/(.*)': '<rootDir>/$1'
   },
-  collectCoverageFrom: ['pages/**/*.js', 'views/**/*.js']
+  snapshotSerializers: ['enzyme-to-json/serializer']
 }

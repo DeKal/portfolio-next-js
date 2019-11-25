@@ -16,9 +16,9 @@ const Logo = styled.a`
   left: 20px;
   width: ${props => props.theme.navContentMinHeight};
   color: ${props => props.theme.colors.colorLight};
-  font-size: 40px;
+  font-size: ${props => props.theme.navHeaderHeight};
   line-height: ${props => props.theme.navContentMinHeight};
-  font-family: ${props => props.theme.fonts.fontSans};
+  font-family: ${props => props.theme.fonts.fontSerif};
   letter-spacing: -5px;
   font-weight: bold;
   text-align: center;
@@ -55,7 +55,7 @@ const LogoText = styled.span`
     width: 50px;
     height: 5px;
     background-color: transparent;
-    box-shadow: 0 1px 2px -1px ${props => props.theme.colors.colorDark};
+    box-shadow: ${props => props.theme.extra.boxShadow};
     transform: rotate(-37deg);
   }
 
@@ -67,7 +67,7 @@ const LogoText = styled.span`
     width: 50px;
     height: 5px;
     background-color: transparent;
-    box-shadow: 0 1px 2px -1px ${props => props.theme.colors.colorDark};
+    box-shadow: ${props => props.theme.extra.boxShadow};
     transform: rotate(37deg);
   }
 `

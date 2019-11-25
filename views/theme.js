@@ -9,8 +9,6 @@ const theme = {
     colorDarken: '#bdc3c7',
     colorDark: '#2c3e50',
     colorAccent: '#FFA726',
-    colorOverlayBg: `rgba(#2c3e50, 0.3)`,
-
     // primary colors
     lightPrimary: '#fff',
     darkPrimary: '#000',
@@ -102,4 +100,11 @@ const theme = {
   defaultLineHeight: 1.57
 }
 
-export default theme
+const themeExtra = {
+  ...theme,
+  extra: {
+    boxShadow: `0 1px 2px -1px ${theme.colors.colorDark}`
+  }
+}
+
+export default themeExtra

@@ -15,6 +15,7 @@ const NavHeader = ({ isShowNavContent, switchNav }) => (
         </ul>
       </nav>
       <NavControl
+        data-test-id="switch-nav-content"
         className="first-nav__navcontrol"
         onClick={() => switchNav(!isShowNavContent)}
         href="#"
@@ -40,7 +41,7 @@ const NavContainer = styled.div`
   height: ${props => props.theme.navHeaderHeight};
   overflow: hidden;
   background-color: ${props => props.theme.colors.colorAccent};
-  box-shadow: ${props => `0 1px 2px -1px ${props.theme.colors.colorDark}`};
+  box-shadow: ${props => props.theme.extra.boxShadow};
 `
 
 const NavLinkItem = styled.li`
@@ -59,9 +60,9 @@ const NavLink = styled.a`
       : props.theme.colors.colorLight};
   border: ${props => (props.isSelected ? 'none' : 'initial')};
   border-color: ${props => props.theme.colors.colorLight};
-  font-family: ${props => props.theme.fonts.fontSerif};
+  font-family: ${props => props.theme.font};
   font-style: italic;
-  line-height: 40px;
+  line-height: ${props => props.theme.navHeaderHeight};
   transition: color 0.5s;
 
   &:hover {
@@ -71,7 +72,7 @@ const NavLink = styled.a`
 `
 const NavControl = styled.a`
   color: ${props => props.theme.colors.colorLight};
-  line-height: 40px;
+  line-height: ${props => props.theme.navHeaderHeight};
   text-align: right;
   border: none;
   transition: color 0.5s;
@@ -85,7 +86,7 @@ const NavControl = styled.a`
     display: inline-block;
     margin-right: 10px;
     color: ${props => props.theme.colors.colorLight};
-    font-size: 20px;
+    font-size: ${props => props.theme.fontSizes.XL};
     transition: color 0.5s;
 
     @media screen and (max-width: 600px) {
@@ -111,7 +112,7 @@ const HamburgerIcon = styled(GiHamburgerMenu)`
 
 const CloseIcon = styled(MdClose)`
   display: inline;
-  font-size: 25px;
+  font-size: ${props => props.theme.fontSizes.XXL};
   font-weight: bolder;
   padding-bottom: 3px;
 `

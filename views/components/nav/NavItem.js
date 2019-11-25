@@ -7,6 +7,7 @@ const NavItem = ({ page, isSelected, setSelectedPage }) => {
     <SelectedContainer>{page}</SelectedContainer>
   ) : (
     <Container
+      data-test-id="nav-link"
       href={`#${page}`}
       onClick={() => {
         setSelectedPage(page)
@@ -27,7 +28,7 @@ export default NavItem
 
 const Container = styled.a`
   line-height: ${props => props.theme.navContentMinHeight};
-  font-size: 20px;
+  font-size: ${props => props.theme.fontSizes.XXL};
   transition: color 0.5s;
 
   &:hover {
@@ -36,7 +37,7 @@ const Container = styled.a`
   }
 
   @media screen and (max-width: 800px) {
-    font-size: 18px;
+    font-size: ${props => props.theme.fontSizes.XL};
     line-height: 2;
     border-bottom: none;
   }

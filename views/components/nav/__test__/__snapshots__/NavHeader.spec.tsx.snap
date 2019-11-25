@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav Header should render without throwing an error 1`] = `
+<NavHeader__NavContainer
+  className="first-nav"
+>
+  <div
+    className="container"
+  >
+    <nav
+      className="first-nav__links"
+    >
+      <ul>
+        <NavHeader__NavLinkItem>
+          <NavHeader__NavLink
+            isSelected={true}
+          >
+            english
+          </NavHeader__NavLink>
+        </NavHeader__NavLinkItem>
+      </ul>
+    </nav>
+    <NavHeader__NavControl
+      className="first-nav__navcontrol"
+      data-test-id="switch-nav-content"
+      href="#"
+      onClick={[Function]}
+    >
+      <NavHeader__HamburgerIcon />
+       Menu
+    </NavHeader__NavControl>
+  </div>
+</NavHeader__NavContainer>
+`;
+
+exports[`Nav Header should switchNav from Off to On 1`] = `
+<NavHeader__NavContainer
+  className="first-nav"
+>
+  <div
+    className="container"
+  >
+    <nav
+      className="first-nav__links"
+    >
+      <ul>
+        <NavHeader__NavLinkItem>
+          <NavHeader__NavLink
+            isSelected={true}
+          >
+            english
+          </NavHeader__NavLink>
+        </NavHeader__NavLinkItem>
+      </ul>
+    </nav>
+    <NavHeader__NavControl
+      className="first-nav__navcontrol"
+      data-test-id="switch-nav-content"
+      href="#"
+      onClick={[Function]}
+    >
+      <NavHeader__HamburgerIcon />
+       Menu
+    </NavHeader__NavControl>
+  </div>
+</NavHeader__NavContainer>
+`;
+
+exports[`Nav Header should switchNav from On to Off 1`] = `
+<NavHeader__NavContainer
+  className="first-nav"
+>
+  <div
+    className="container"
+  >
+    <nav
+      className="first-nav__links"
+    >
+      <ul>
+        <NavHeader__NavLinkItem>
+          <NavHeader__NavLink
+            isSelected={true}
+          >
+            english
+          </NavHeader__NavLink>
+        </NavHeader__NavLinkItem>
+      </ul>
+    </nav>
+    <NavHeader__NavControl
+      className="first-nav__navcontrol"
+      data-test-id="switch-nav-content"
+      href="#"
+      onClick={[Function]}
+    >
+      <NavHeader__HamburgerIcon />
+       Menu
+    </NavHeader__NavControl>
+  </div>
+</NavHeader__NavContainer>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav Item should render Normal NavItem 1`] = `
+<NavItem__Container
+  data-test-id="nav-link"
+  href="#Home"
+  onClick={[Function]}
+>
+  Home
+</NavItem__Container>
+`;
+
+exports[`Nav Item should render Selected NavItem 1`] = `
+<NavItem__SelectedContainer>
+  Home
+</NavItem__SelectedContainer>
+`;
