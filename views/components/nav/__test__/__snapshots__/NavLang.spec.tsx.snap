@@ -6,7 +6,7 @@ exports[`Nav Lang should render without throwing an error 1`] = `
 >
   <ul>
     <NavLang__NavLinkItem>
-      <NavLink
+      <LocalizedComponent
         lang="en"
         selectedLang="en"
         setSelectedLang={[Function]}
@@ -14,7 +14,7 @@ exports[`Nav Lang should render without throwing an error 1`] = `
       <NavLang__InlineBlock>
         /
       </NavLang__InlineBlock>
-      <NavLink
+      <LocalizedComponent
         lang="vn"
         selectedLang="en"
         setSelectedLang={[Function]}

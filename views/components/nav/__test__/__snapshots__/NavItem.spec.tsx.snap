@@ -6,12 +6,16 @@ exports[`Nav Item should render Normal NavItem 1`] = `
   href="#Home"
   onClick={[Function]}
 >
-  Home
+  <Translate
+    id="Home"
+  />
 </NavItem__Container>
 `;
 
 exports[`Nav Item should render Selected NavItem 1`] = `
 <NavItem__SelectedContainer>
-  Home
+  <Translate
+    id="Home"
+  />
 </NavItem__SelectedContainer>
 `;
