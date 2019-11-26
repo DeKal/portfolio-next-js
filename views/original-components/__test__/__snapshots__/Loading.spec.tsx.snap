@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading should render without throwing an error 1`] = `
+<div
+  className="jsx-642462187 progress-theme"
+>
+  <div
+    className="jsx-642462187 inner"
+  >
+    <div
+      className="jsx-642462187 loader"
+    >
+      <Loader
+        color="#FFA726"
+        css={Object {}}
+        height={150}
+        heightUnit="px"
+        loading={true}
+        margin="2px"
+        radius={2}
+        radiusUnit="px"
+        sizeUnit="px"
+        width={15}
+        widthUnit="px"
+      />
+      Loading...
+    </div>
+  </div>
+  <JSXStyle
+    dynamic={
+      Array [
+        "24px",
+      ]
+    }
+    id="3237718512"
+  >
+    .progress-theme.__jsx-style-dynamic-selector{-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-webkit-transition:all 0.2s ease-out;transition:all 0.2s ease-out;z-index:9999999;position:fixed;left:0;right:0;top:0;bottom:0;}.inner.__jsx-style-dynamic-selector{height:100%;width:100%;-webkit-transition:all 0.3s ease-out;-moz-transition:all 0.3s ease-out;-o-transition:all 0.3s ease-out;-webkit-transition:all 0.3s ease-out;transition:all 0.3s ease-out;}.loader.__jsx-style-dynamic-selector{position:absolute;top:40%;left:50%;display:block;width:200px;height:120px;margin-left:-100px;margin-top:-60px;text-align:center;font-size:24px;line-height:90px;}
+  </JSXStyle>
+</div>
+`;
