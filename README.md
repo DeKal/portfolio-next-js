@@ -69,5 +69,6 @@ Circle.io will run through (Looking at .circleci/config.yml for details)
 #### VScode config: `jsconfig.json`
 #### Nextjs config: `next.config.js`
 
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
