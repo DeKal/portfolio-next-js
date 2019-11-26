@@ -1,9 +1,10 @@
 import React from 'react'
 import styled from 'styled-components/macro'
+import PropTypes from 'prop-types'
+import { Translate } from 'react-localize-redux'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { MdClose } from 'react-icons/md'
 import NavLang from '~/views/components/nav/NavLang'
-import PropTypes from 'prop-types'
 
 const NavHeader = ({ isShowNavContent, switchNav }) => (
   <NavContainer className="first-nav">
@@ -15,7 +16,8 @@ const NavHeader = ({ isShowNavContent, switchNav }) => (
         onClick={() => switchNav(!isShowNavContent)}
         href="#"
       >
-        {!isShowNavContent ? <HamburgerIcon /> : <CloseIcon />} Menu
+        {!isShowNavContent ? <HamburgerIcon /> : <CloseIcon />}{' '}
+        <Translate id="Menu" />
       </NavControl>
     </div>
   </NavContainer>

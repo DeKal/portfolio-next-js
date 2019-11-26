@@ -9,7 +9,6 @@ describe('Nav Item', () => {
     const tree = shallowWithTheme(
       <NavItem page={'Home'} isSelected setSelectedPage={setSelectedPage} />
     )
-    expect(tree.text()).toMatch('Home')
     expect(tree).toMatchSnapshot()
   })
 
@@ -19,7 +18,6 @@ describe('Nav Item', () => {
     const tree = shallowWithTheme(
       <NavItem page={'Home'} setSelectedPage={setSelectedPage} />
     )
-    expect(tree.text()).toMatch('Home')
     expect(tree).toMatchSnapshot()
   })
 

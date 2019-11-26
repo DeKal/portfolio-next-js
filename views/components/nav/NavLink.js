@@ -2,16 +2,24 @@ import React from 'react'
 import styled from 'styled-components/macro'
 import PropTypes from 'prop-types'
 import { EN } from '~/consts/langs'
+import { Translate, withLocalize } from 'react-localize-redux'
 
-const NavLink = ({ lang, selectedLang, setSelectedLang }) => {
+const NavLink = ({
+  lang,
+  selectedLang,
+  setSelectedLang,
+  setActiveLanguage
+}) => {
   return (
     <Container
       isSelected={selectedLang === lang}
       onClick={() => {
         setSelectedLang(lang)
+        setActiveLanguage(lang)
+        window.localStorage.setItem('lang', lang)
       }}
     >
-      {lang === EN ? 'english' : 'vietnamese'}
+      {lang === EN ? <Translate id="english" /> : <Translate id="vietnamese" />}
     </Container>
   )
 }
@@ -19,10 +27,11 @@ const NavLink = ({ lang, selectedLang, setSelectedLang }) => {
 NavLink.propTypes = {
   lang: PropTypes.string,
   selectedLang: PropTypes.string,
-  setSelectedLang: PropTypes.func
+  setSelectedLang: PropTypes.func,
+  setActiveLanguage: PropTypes.func
 }
 
-export default NavLink
+export default withLocalize(NavLink)
 
 const Container = styled.a`
   color: ${props =>

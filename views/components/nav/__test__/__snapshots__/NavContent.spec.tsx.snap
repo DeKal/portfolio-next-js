@@ -247,7 +247,29 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                               <a
                                 className="NavItem__Container-a312fv-0 NavItem__SelectedContainer-a312fv-1 bHJkXU"
                               >
-                                Home
+                                <Translate
+                                  id="Home"
+                                >
+                                  <WrappedTranslate
+                                    context={
+                                      Object {
+                                        "activeLanguage": undefined,
+                                        "addTranslation": [Function],
+                                        "addTranslationForLanguage": [Function],
+                                        "defaultLanguage": undefined,
+                                        "ignoreTranslateChildren": false,
+                                        "initialize": [Function],
+                                        "languages": Array [],
+                                        "renderToStaticMarkup": false,
+                                        "setActiveLanguage": [Function],
+                                        "translate": [Function],
+                                      }
+                                    }
+                                    id="Home"
+                                  >
+                                    Missing translationId: Home for language: \${ languageCode }
+                                  </WrappedTranslate>
+                                </Translate>
                               </a>
                             </StyledComponent>
                           </NavItem__SelectedContainer>
@@ -340,7 +362,29 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                 href="#About"
                                 onClick={[Function]}
                               >
-                                About
+                                <Translate
+                                  id="About"
+                                >
+                                  <WrappedTranslate
+                                    context={
+                                      Object {
+                                        "activeLanguage": undefined,
+                                        "addTranslation": [Function],
+                                        "addTranslationForLanguage": [Function],
+                                        "defaultLanguage": undefined,
+                                        "ignoreTranslateChildren": false,
+                                        "initialize": [Function],
+                                        "languages": Array [],
+                                        "renderToStaticMarkup": false,
+                                        "setActiveLanguage": [Function],
+                                        "translate": [Function],
+                                      }
+                                    }
+                                    id="About"
+                                  >
+                                    Missing translationId: About for language: \${ languageCode }
+                                  </WrappedTranslate>
+                                </Translate>
                               </a>
                             </StyledComponent>
                           </NavItem__Container>
@@ -433,7 +477,29 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                 href="#Experiences"
                                 onClick={[Function]}
                               >
-                                Experiences
+                                <Translate
+                                  id="Experiences"
+                                >
+                                  <WrappedTranslate
+                                    context={
+                                      Object {
+                                        "activeLanguage": undefined,
+                                        "addTranslation": [Function],
+                                        "addTranslationForLanguage": [Function],
+                                        "defaultLanguage": undefined,
+                                        "ignoreTranslateChildren": false,
+                                        "initialize": [Function],
+                                        "languages": Array [],
+                                        "renderToStaticMarkup": false,
+                                        "setActiveLanguage": [Function],
+                                        "translate": [Function],
+                                      }
+                                    }
+                                    id="Experiences"
+                                  >
+                                    Missing translationId: Experiences for language: \${ languageCode }
+                                  </WrappedTranslate>
+                                </Translate>
                               </a>
                             </StyledComponent>
                           </NavItem__Container>
@@ -526,7 +592,29 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                 href="#Certifications"
                                 onClick={[Function]}
                               >
-                                Certifications
+                                <Translate
+                                  id="Certifications"
+                                >
+                                  <WrappedTranslate
+                                    context={
+                                      Object {
+                                        "activeLanguage": undefined,
+                                        "addTranslation": [Function],
+                                        "addTranslationForLanguage": [Function],
+                                        "defaultLanguage": undefined,
+                                        "ignoreTranslateChildren": false,
+                                        "initialize": [Function],
+                                        "languages": Array [],
+                                        "renderToStaticMarkup": false,
+                                        "setActiveLanguage": [Function],
+                                        "translate": [Function],
+                                      }
+                                    }
+                                    id="Certifications"
+                                  >
+                                    Missing translationId: Certifications for language: \${ languageCode }
+                                  </WrappedTranslate>
+                                </Translate>
                               </a>
                             </StyledComponent>
                           </NavItem__Container>
@@ -619,7 +707,29 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                 href="#Projects"
                                 onClick={[Function]}
                               >
-                                Projects
+                                <Translate
+                                  id="Projects"
+                                >
+                                  <WrappedTranslate
+                                    context={
+                                      Object {
+                                        "activeLanguage": undefined,
+                                        "addTranslation": [Function],
+                                        "addTranslationForLanguage": [Function],
+                                        "defaultLanguage": undefined,
+                                        "ignoreTranslateChildren": false,
+                                        "initialize": [Function],
+                                        "languages": Array [],
+                                        "renderToStaticMarkup": false,
+                                        "setActiveLanguage": [Function],
+                                        "translate": [Function],
+                                      }
+                                    }
+                                    id="Projects"
+                                  >
+                                    Missing translationId: Projects for language: \${ languageCode }
+                                  </WrappedTranslate>
+                                </Translate>
                               </a>
                             </StyledComponent>
                           </NavItem__Container>
@@ -712,7 +822,29 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                 href="#Contacts"
                                 onClick={[Function]}
                               >
-                                Contacts
+                                <Translate
+                                  id="Contacts"
+                                >
+                                  <WrappedTranslate
+                                    context={
+                                      Object {
+                                        "activeLanguage": undefined,
+                                        "addTranslation": [Function],
+                                        "addTranslationForLanguage": [Function],
+                                        "defaultLanguage": undefined,
+                                        "ignoreTranslateChildren": false,
+                                        "initialize": [Function],
+                                        "languages": Array [],
+                                        "renderToStaticMarkup": false,
+                                        "setActiveLanguage": [Function],
+                                        "translate": [Function],
+                                      }
+                                    }
+                                    id="Contacts"
+                                  >
+                                    Missing translationId: Contacts for language: \${ languageCode }
+                                  </WrappedTranslate>
+                                </Translate>
                               </a>
                             </StyledComponent>
                           </NavItem__Container>
@@ -978,7 +1110,29 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                               <a
                                 className="NavItem__Container-a312fv-0 NavItem__SelectedContainer-a312fv-1 bHJkXU"
                               >
-                                Home
+                                <Translate
+                                  id="Home"
+                                >
+                                  <WrappedTranslate
+                                    context={
+                                      Object {
+                                        "activeLanguage": undefined,
+                                        "addTranslation": [Function],
+                                        "addTranslationForLanguage": [Function],
+                                        "defaultLanguage": undefined,
+                                        "ignoreTranslateChildren": false,
+                                        "initialize": [Function],
+                                        "languages": Array [],
+                                        "renderToStaticMarkup": false,
+                                        "setActiveLanguage": [Function],
+                                        "translate": [Function],
+                                      }
+                                    }
+                                    id="Home"
+                                  >
+                                    Missing translationId: Home for language: \${ languageCode }
+                                  </WrappedTranslate>
+                                </Translate>
                               </a>
                             </StyledComponent>
                           </NavItem__SelectedContainer>
@@ -1071,7 +1225,29 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                 href="#About"
                                 onClick={[Function]}
                               >
-                                About
+                                <Translate
+                                  id="About"
+                                >
+                                  <WrappedTranslate
+                                    context={
+                                      Object {
+                                        "activeLanguage": undefined,
+                                        "addTranslation": [Function],
+                                        "addTranslationForLanguage": [Function],
+                                        "defaultLanguage": undefined,
+                                        "ignoreTranslateChildren": false,
+                                        "initialize": [Function],
+                                        "languages": Array [],
+                                        "renderToStaticMarkup": false,
+                                        "setActiveLanguage": [Function],
+                                        "translate": [Function],
+                                      }
+                                    }
+                                    id="About"
+                                  >
+                                    Missing translationId: About for language: \${ languageCode }
+                                  </WrappedTranslate>
+                                </Translate>
                               </a>
                             </StyledComponent>
                           </NavItem__Container>
@@ -1164,7 +1340,29 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                 href="#Experiences"
                                 onClick={[Function]}
                               >
-                                Experiences
+                                <Translate
+                                  id="Experiences"
+                                >
+                                  <WrappedTranslate
+                                    context={
+                                      Object {
+                                        "activeLanguage": undefined,
+                                        "addTranslation": [Function],
+                                        "addTranslationForLanguage": [Function],
+                                        "defaultLanguage": undefined,
+                                        "ignoreTranslateChildren": false,
+                                        "initialize": [Function],
+                                        "languages": Array [],
+                                        "renderToStaticMarkup": false,
+                                        "setActiveLanguage": [Function],
+                                        "translate": [Function],
+                                      }
+                                    }
+                                    id="Experiences"
+                                  >
+                                    Missing translationId: Experiences for language: \${ languageCode }
+                                  </WrappedTranslate>
+                                </Translate>
                               </a>
                             </StyledComponent>
                           </NavItem__Container>
@@ -1257,7 +1455,29 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                 href="#Certifications"
                                 onClick={[Function]}
                               >
-                                Certifications
+                                <Translate
+                                  id="Certifications"
+                                >
+                                  <WrappedTranslate
+                                    context={
+                                      Object {
+                                        "activeLanguage": undefined,
+                                        "addTranslation": [Function],
+                                        "addTranslationForLanguage": [Function],
+                                        "defaultLanguage": undefined,
+                                        "ignoreTranslateChildren": false,
+                                        "initialize": [Function],
+                                        "languages": Array [],
+                                        "renderToStaticMarkup": false,
+                                        "setActiveLanguage": [Function],
+                                        "translate": [Function],
+                                      }
+                                    }
+                                    id="Certifications"
+                                  >
+                                    Missing translationId: Certifications for language: \${ languageCode }
+                                  </WrappedTranslate>
+                                </Translate>
                               </a>
                             </StyledComponent>
                           </NavItem__Container>
@@ -1350,7 +1570,29 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                 href="#Projects"
                                 onClick={[Function]}
                               >
-                                Projects
+                                <Translate
+                                  id="Projects"
+                                >
+                                  <WrappedTranslate
+                                    context={
+                                      Object {
+                                        "activeLanguage": undefined,
+                                        "addTranslation": [Function],
+                                        "addTranslationForLanguage": [Function],
+                                        "defaultLanguage": undefined,
+                                        "ignoreTranslateChildren": false,
+                                        "initialize": [Function],
+                                        "languages": Array [],
+                                        "renderToStaticMarkup": false,
+                                        "setActiveLanguage": [Function],
+                                        "translate": [Function],
+                                      }
+                                    }
+                                    id="Projects"
+                                  >
+                                    Missing translationId: Projects for language: \${ languageCode }
+                                  </WrappedTranslate>
+                                </Translate>
                               </a>
                             </StyledComponent>
                           </NavItem__Container>
@@ -1443,7 +1685,29 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                 href="#Contacts"
                                 onClick={[Function]}
                               >
-                                Contacts
+                                <Translate
+                                  id="Contacts"
+                                >
+                                  <WrappedTranslate
+                                    context={
+                                      Object {
+                                        "activeLanguage": undefined,
+                                        "addTranslation": [Function],
+                                        "addTranslationForLanguage": [Function],
+                                        "defaultLanguage": undefined,
+                                        "ignoreTranslateChildren": false,
+                                        "initialize": [Function],
+                                        "languages": Array [],
+                                        "renderToStaticMarkup": false,
+                                        "setActiveLanguage": [Function],
+                                        "translate": [Function],
+                                      }
+                                    }
+                                    id="Contacts"
+                                  >
+                                    Missing translationId: Contacts for language: \${ languageCode }
+                                  </WrappedTranslate>
+                                </Translate>
                               </a>
                             </StyledComponent>
                           </NavItem__Container>

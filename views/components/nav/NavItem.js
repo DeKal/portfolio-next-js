@@ -1,10 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components/macro'
+import { Translate } from 'react-localize-redux'
 
 const NavItem = ({ page, isSelected, setSelectedPage }) => {
   return isSelected ? (
-    <SelectedContainer>{page}</SelectedContainer>
+    <SelectedContainer>
+      <Translate id={page} />
+    </SelectedContainer>
   ) : (
     <Container
       data-test-id="nav-link"
@@ -13,7 +16,7 @@ const NavItem = ({ page, isSelected, setSelectedPage }) => {
         setSelectedPage(page)
       }}
     >
-      {page}
+      <Translate id={page} />
     </Container>
   )
 }
