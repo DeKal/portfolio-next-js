@@ -6,9 +6,6 @@ import enTrans from '~/public/translations/en.json'
 import vnTrans from '~/public/translations/vn.json'
 import { EN } from '~/consts/langs'
 
-const onMissingTranslation = ({ translationId }) => {
-  return translationId
-}
 const defaultLanguage = EN
 
 class LocalizedComponent extends React.Component {
@@ -22,7 +19,6 @@ class LocalizedComponent extends React.Component {
       options: {
         renderToStaticMarkup,
         defaultLanguage,
-        onMissingTranslation,
         renderInnerHtml: true
       }
     })

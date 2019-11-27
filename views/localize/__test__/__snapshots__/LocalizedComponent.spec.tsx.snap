@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocalizedComponent should render without throwing an error 1`] = `
+<LocalizedComponent>
+  <LocalizedComponent
+    addTranslation={[Function]}
+    addTranslationForLanguage={[Function]}
+    ignoreTranslateChildren={false}
+    initialize={[Function]}
+    languages={Array []}
+    renderToStaticMarkup={false}
+    setActiveLanguage={[Function]}
+    translate={[Function]}
+  >
+    <Translate
+      id="Home"
+    >
+      <WrappedTranslate
+        context={
+          Object {
+            "activeLanguage": undefined,
+            "addTranslation": [Function],
+            "addTranslationForLanguage": [Function],
+            "defaultLanguage": undefined,
+            "ignoreTranslateChildren": false,
+            "initialize": [Function],
+            "languages": Array [],
+            "renderToStaticMarkup": false,
+            "setActiveLanguage": [Function],
+            "translate": [Function],
+          }
+        }
+        id="Home"
+      >
+        Missing translationId: Home for language: \${ languageCode }
+      </WrappedTranslate>
+    </Translate>
+  </LocalizedComponent>
+</LocalizedComponent>
+`;

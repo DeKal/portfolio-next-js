@@ -2,18 +2,32 @@ import App from 'next/app'
 import React from 'react'
 import { ThemeProvider } from 'styled-components/macro'
 import { LocalizeProvider } from 'react-localize-redux'
-import LocalizedComponent from '~/localize/LocalizedComponent'
 import { IconContext } from 'react-icons/lib/'
-
+import Router from 'next/router'
 import theme from '~/views/theme'
+import LocalizedComponent from '~/views/localize/LocalizedComponent'
+import Loading from '~/views/original-components/Loading'
 
 //Import Global style
 import '~/styles/globalStyle.sass'
 
 export default class MyApp extends App {
+  state = {
+    loading: true
+  }
+
+  componentDidMount() {
+    this.setState({ loading: false })
+
+    Router.onRouteChangeStart = () => this.setState({ loading: true })
+    Router.onRouteChangeComplete = () => this.setState({ loading: false })
+  }
+
   render() {
     const { Component, pageProps } = this.props
-    return (
+    return this.state.loading ? (
+      <Loading />
+    ) : (
       <IconContext.Provider value={{ style: { verticalAlign: 'middle' } }}>
         <ThemeProvider theme={theme}>
           <LocalizeProvider>
