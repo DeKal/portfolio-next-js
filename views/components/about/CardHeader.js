@@ -1,14 +1,19 @@
 import * as React from 'react'
 import styled from 'styled-components/macro'
+import { Translate, withLocalize } from 'react-localize-redux'
 
 const CardHeader = () => (
   <Header>
-    <MainText>About me</MainText>
-    <SubText>Well skip it if you&apos;re bored!!</SubText>
+    <MainText>
+      <Translate id="About me" />
+    </MainText>
+    <SubText>
+      <Translate id="About Me: Subtext" />
+    </SubText>
   </Header>
 )
 
-export default CardHeader
+export default withLocalize(CardHeader)
 
 const Header = styled.header`
   padding: 20px;
