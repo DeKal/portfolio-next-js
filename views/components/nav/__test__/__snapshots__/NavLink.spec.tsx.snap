@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Nav Link should change Language when clicking 1`] = `
+exports[`Nav Link Big Device >= 600px should change Language when clicking 1`] = `
 <LocalizedComponent
   lang="vn"
   selectedLang="en"
@@ -153,7 +153,7 @@ exports[`Nav Link should change Language when clicking 1`] = `
 </LocalizedComponent>
 `;
 
-exports[`Nav Link should render with English selected 1`] = `
+exports[`Nav Link Big Device >= 600px should render with English selected 1`] = `
 <LocalizedComponent
   lang="en"
   selectedLang="en"
@@ -247,7 +247,7 @@ exports[`Nav Link should render with English selected 1`] = `
 </LocalizedComponent>
 `;
 
-exports[`Nav Link should render with Vietnamese selected 1`] = `
+exports[`Nav Link Big Device >= 600px should render with Vietnamese selected 1`] = `
 <LocalizedComponent
   lang="vn"
   selectedLang="vn"
@@ -334,6 +334,150 @@ exports[`Nav Link should render with Vietnamese selected 1`] = `
               Missing translationId: vietnamese for language: \${ languageCode }
             </WrappedTranslate>
           </Translate>
+        </a>
+      </StyledComponent>
+    </NavLink__Container>
+  </NavLink>
+</LocalizedComponent>
+`;
+
+exports[`Nav Link Small Device < 600px should render with English selected 1`] = `
+<LocalizedComponent
+  lang="en"
+  selectedLang="en"
+>
+  <NavLink
+    addTranslation={[Function]}
+    addTranslationForLanguage={[Function]}
+    ignoreTranslateChildren={false}
+    initialize={[Function]}
+    lang="en"
+    languages={Array []}
+    renderToStaticMarkup={false}
+    selectedLang="en"
+    setActiveLanguage={[Function]}
+    translate={[Function]}
+  >
+    <NavLink__Container
+      isSelected={true}
+      onClick={[Function]}
+    >
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "NavLink__Container-v6tuz9-0",
+              "isStatic": false,
+              "lastClassName": "fMGHjQ",
+              "rules": Array [
+                "color:",
+                [Function],
+                ";border:",
+                [Function],
+                ";border-color:",
+                [Function],
+                ";font-family:",
+                [Function],
+                ";font-style:italic;line-height:",
+                [Function],
+                ";transition:color 0.5s;&:hover{color:",
+                [Function],
+                ";border:none;}",
+              ],
+            },
+            "displayName": "NavLink__Container",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "NavLink__Container-v6tuz9-0",
+            "target": "a",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+        isSelected={true}
+        onClick={[Function]}
+      >
+        <a
+          className="NavLink__Container-v6tuz9-0 fMGHjQ"
+          onClick={[Function]}
+        >
+          en
+        </a>
+      </StyledComponent>
+    </NavLink__Container>
+  </NavLink>
+</LocalizedComponent>
+`;
+
+exports[`Nav Link Small Device < 600px should render with Vietnamese selected 1`] = `
+<LocalizedComponent
+  lang="vn"
+  selectedLang="vn"
+>
+  <NavLink
+    addTranslation={[Function]}
+    addTranslationForLanguage={[Function]}
+    ignoreTranslateChildren={false}
+    initialize={[Function]}
+    lang="vn"
+    languages={Array []}
+    renderToStaticMarkup={false}
+    selectedLang="vn"
+    setActiveLanguage={[Function]}
+    translate={[Function]}
+  >
+    <NavLink__Container
+      isSelected={true}
+      onClick={[Function]}
+    >
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "NavLink__Container-v6tuz9-0",
+              "isStatic": false,
+              "lastClassName": "fMGHjQ",
+              "rules": Array [
+                "color:",
+                [Function],
+                ";border:",
+                [Function],
+                ";border-color:",
+                [Function],
+                ";font-family:",
+                [Function],
+                ";font-style:italic;line-height:",
+                [Function],
+                ";transition:color 0.5s;&:hover{color:",
+                [Function],
+                ";border:none;}",
+              ],
+            },
+            "displayName": "NavLink__Container",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "NavLink__Container-v6tuz9-0",
+            "target": "a",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+        isSelected={true}
+        onClick={[Function]}
+      >
+        <a
+          className="NavLink__Container-v6tuz9-0 fMGHjQ"
+          onClick={[Function]}
+        >
+          vn
         </a>
       </StyledComponent>
     </NavLink__Container>

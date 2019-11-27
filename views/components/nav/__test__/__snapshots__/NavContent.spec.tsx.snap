@@ -17,7 +17,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
           "componentStyle": ComponentStyle {
             "componentId": "NavContent__Container-sc-1bgb07m-0",
             "isStatic": false,
-            "lastClassName": "UYfuG",
+            "lastClassName": "zSPze",
             "rules": Array [
               "position:relative;min-height:",
               [Function],
@@ -27,7 +27,9 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
               [Function],
               ";box-shadow:",
               [Function],
-              ";transition:all 0.5s;@media screen and (max-width:800px){margin-top:-100%;}",
+              ";transition:all 0.5s;@media screen and (max-width:800px){margin-top:",
+              [Function],
+              ";}",
             ],
           },
           "displayName": "NavContent__Container",
@@ -44,7 +46,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
       isShowNavContent={false}
     >
       <div
-        className="NavContent__Container-sc-1bgb07m-0 UYfuG second-nav"
+        className="NavContent__Container-sc-1bgb07m-0 zSPze second-nav"
       >
         <div
           className="container"
@@ -880,7 +882,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
           "componentStyle": ComponentStyle {
             "componentId": "NavContent__Container-sc-1bgb07m-0",
             "isStatic": false,
-            "lastClassName": "hrdLbJ",
+            "lastClassName": "HUsBT",
             "rules": Array [
               "position:relative;min-height:",
               [Function],
@@ -890,7 +892,9 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
               [Function],
               ";box-shadow:",
               [Function],
-              ";transition:all 0.5s;@media screen and (max-width:800px){margin-top:-100%;}",
+              ";transition:all 0.5s;@media screen and (max-width:800px){margin-top:",
+              [Function],
+              ";}",
             ],
           },
           "displayName": "NavContent__Container",
@@ -907,7 +911,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
       isShowNavContent={true}
     >
       <div
-        className="NavContent__Container-sc-1bgb07m-0 hrdLbJ second-nav"
+        className="NavContent__Container-sc-1bgb07m-0 HUsBT second-nav"
       >
         <div
           className="container"
