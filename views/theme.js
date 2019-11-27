@@ -71,15 +71,6 @@ const theme = {
     medium: 25,
     large: 35,
     xlarge: 45,
-
-    /**
-     * After discussing with Ameen,
-     * We haven't defined this value globally.
-     * This creates inconsistent paddings between pages,
-     * or even with elements in a page.
-     *
-     * spaces.small is the most popular one, then it is choosen.
-     */
     gutter: 16
   },
   fonts: {

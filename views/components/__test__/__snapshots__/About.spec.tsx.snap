@@ -1,0 +1,332 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About should render without throwing an error 1`] = `
+<About>
+  <About__Container
+    className="container"
+    id="About"
+  >
+    <StyledComponent
+      className="container"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "About__Container-sc-1ka41xo-0",
+            "isStatic": false,
+            "lastClassName": "hwdjFy",
+            "rules": Array [
+              "padding-top:200px;",
+            ],
+          },
+          "displayName": "About__Container",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "About__Container-sc-1ka41xo-0",
+          "target": "section",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      id="About"
+    >
+      <section
+        className="About__Container-sc-1ka41xo-0 hwdjFy container"
+        id="About"
+      >
+        <About__Card
+          className="about-card"
+        >
+          <StyledComponent
+            className="about-card"
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "About__Card-sc-1ka41xo-1",
+                  "isStatic": false,
+                  "lastClassName": "ioNjdP",
+                  "rules": Array [
+                    "box-shadow:2px 2px 4px -2px ",
+                    [Function],
+                    ";float:none;margin:0 auto;",
+                  ],
+                },
+                "displayName": "About__Card",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "About__Card-sc-1ka41xo-1",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="About__Card-sc-1ka41xo-1 ioNjdP about-card"
+            >
+              <CardHeader>
+                <CardHeader__Header>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "CardHeader__Header-sc-13bb8as-0",
+                          "isStatic": false,
+                          "lastClassName": "cFfPVC",
+                          "rules": Array [
+                            "padding:20px;background-color:",
+                            [Function],
+                            ";",
+                          ],
+                        },
+                        "displayName": "CardHeader__Header",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "CardHeader__Header-sc-13bb8as-0",
+                        "target": "header",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <header
+                      className="CardHeader__Header-sc-13bb8as-0 cFfPVC"
+                    >
+                      <CardHeader__MainText>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "CardHeader__MainText-sc-13bb8as-1",
+                                "isStatic": false,
+                                "lastClassName": "iRqFfm",
+                                "rules": Array [
+                                  "color:",
+                                  [Function],
+                                  ";",
+                                ],
+                              },
+                              "displayName": "CardHeader__MainText",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "CardHeader__MainText-sc-13bb8as-1",
+                              "target": "h2",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <h2
+                            className="CardHeader__MainText-sc-13bb8as-1 iRqFfm"
+                          >
+                            About me
+                          </h2>
+                        </StyledComponent>
+                      </CardHeader__MainText>
+                      <CardHeader__SubText>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "CardHeader__SubText-sc-13bb8as-2",
+                                "isStatic": false,
+                                "lastClassName": "ldGRiD",
+                                "rules": Array [],
+                              },
+                              "displayName": "CardHeader__SubText",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "CardHeader__SubText-sc-13bb8as-2",
+                              "target": "h4",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <h4
+                            className="CardHeader__SubText-sc-13bb8as-2 ldGRiD"
+                          >
+                            Well skip it if you're bored!!
+                          </h4>
+                        </StyledComponent>
+                      </CardHeader__SubText>
+                    </header>
+                  </StyledComponent>
+                </CardHeader__Header>
+              </CardHeader>
+              <CardInfo>
+                <CardInfo__Container>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "CardInfo__Container-j7wviz-0",
+                          "isStatic": false,
+                          "lastClassName": "bbuDlN",
+                          "rules": Array [
+                            "padding:20px;background-color:",
+                            [Function],
+                            ";",
+                          ],
+                        },
+                        "displayName": "CardInfo__Container",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "CardInfo__Container-j7wviz-0",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="CardInfo__Container-j7wviz-0 bbuDlN"
+                    >
+                      <p>
+                        Exposing to problem solving at a very young age, I passionate with disentangling sticky situations that can be occured in software engineer as well as real life. My little hobby is to find solution for competitive problems using optimized algorithm. I also have great interest in software architecture, and always seek to learn new things. Down to earth, I am human. I do find it interested to go cycling, jogging, reading books, listen to music, and stuffs that a normal human being would love to do.
+                      </p>
+                      <CardInfo__Quote>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "CardInfo__Quote-j7wviz-1",
+                                "isStatic": false,
+                                "lastClassName": "ehtIde",
+                                "rules": Array [
+                                  "margin:20px 0 20px 20px;font-family:",
+                                  [Function],
+                                  ";font-style:italic;font-size:",
+                                  [Function],
+                                  ";font-weight:bold;",
+                                ],
+                              },
+                              "displayName": "CardInfo__Quote",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "CardInfo__Quote-j7wviz-1",
+                              "target": "blockquote",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <blockquote
+                            className="CardInfo__Quote-j7wviz-1 ehtIde"
+                          >
+                            Where there's a will, there's a way
+                          </blockquote>
+                        </StyledComponent>
+                      </CardInfo__Quote>
+                      <p>
+                        I have the believe that all the problems in the world will be solved as long as you keep the positive mental attitude and a cold head.
+                      </p>
+                      <CardInfo__Status>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "CardInfo__Status-j7wviz-2",
+                                "isStatic": false,
+                                "lastClassName": "kRJTQt",
+                                "rules": Array [
+                                  "margin-top:20px;padding-top:",
+                                  [Function],
+                                  ";font-weight:normal;border-top:1px dashed ",
+                                  [Function],
+                                  ";",
+                                ],
+                              },
+                              "displayName": "CardInfo__Status",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "CardInfo__Status-j7wviz-2",
+                              "target": "p",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <p
+                            className="CardInfo__Status-j7wviz-2 kRJTQt"
+                          >
+                            <CardInfo__Bold>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "CardInfo__Bold-j7wviz-3",
+                                      "isStatic": false,
+                                      "lastClassName": "iggTuy",
+                                      "rules": Array [
+                                        "font-weight:bold;text-transform:uppercase;",
+                                      ],
+                                    },
+                                    "displayName": "CardInfo__Bold",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "CardInfo__Bold-j7wviz-3",
+                                    "target": "span",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <span
+                                  className="CardInfo__Bold-j7wviz-3 iggTuy"
+                                >
+                                  Current Status:
+                                </span>
+                              </StyledComponent>
+                            </CardInfo__Bold>
+                             Available for Freelance job
+                          </p>
+                        </StyledComponent>
+                      </CardInfo__Status>
+                    </div>
+                  </StyledComponent>
+                </CardInfo__Container>
+              </CardInfo>
+            </div>
+          </StyledComponent>
+        </About__Card>
+      </section>
+    </StyledComponent>
+  </About__Container>
+</About>
+`;

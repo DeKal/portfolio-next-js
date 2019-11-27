@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Header should render without throwing an error 1`] = `
+<CardHeader>
+  <CardHeader__Header>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "CardHeader__Header-sc-13bb8as-0",
+            "isStatic": false,
+            "lastClassName": "cFfPVC",
+            "rules": Array [
+              "padding:20px;background-color:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "CardHeader__Header",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "CardHeader__Header-sc-13bb8as-0",
+          "target": "header",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <header
+        className="CardHeader__Header-sc-13bb8as-0 cFfPVC"
+      >
+        <CardHeader__MainText>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "CardHeader__MainText-sc-13bb8as-1",
+                  "isStatic": false,
+                  "lastClassName": "iRqFfm",
+                  "rules": Array [
+                    "color:",
+                    [Function],
+                    ";",
+                  ],
+                },
+                "displayName": "CardHeader__MainText",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "CardHeader__MainText-sc-13bb8as-1",
+                "target": "h2",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <h2
+              className="CardHeader__MainText-sc-13bb8as-1 iRqFfm"
+            >
+              About me
+            </h2>
+          </StyledComponent>
+        </CardHeader__MainText>
+        <CardHeader__SubText>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "CardHeader__SubText-sc-13bb8as-2",
+                  "isStatic": false,
+                  "lastClassName": "ldGRiD",
+                  "rules": Array [],
+                },
+                "displayName": "CardHeader__SubText",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "CardHeader__SubText-sc-13bb8as-2",
+                "target": "h4",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <h4
+              className="CardHeader__SubText-sc-13bb8as-2 ldGRiD"
+            >
+              Well skip it if you're bored!!
+            </h4>
+          </StyledComponent>
+        </CardHeader__SubText>
+      </header>
+    </StyledComponent>
+  </CardHeader__Header>
+</CardHeader>
+`;
