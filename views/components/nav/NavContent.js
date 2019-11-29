@@ -47,7 +47,8 @@ const Container = styled.div`
   transition: all 0.5s;
 
   @media screen and (max-width: 800px) {
-    margin-top: -100%;
+    margin-top: ${props =>
+      props.isShowNavContent ? props.theme.navHeaderHeight : `-200px`};
   }
 `
 const NavMenu = styled.nav`

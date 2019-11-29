@@ -349,13 +349,13 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                   "componentStyle": ComponentStyle {
                     "componentId": "NavHeader__NavControl-twnsn2-1",
                     "isStatic": false,
-                    "lastClassName": "eOqBsR",
+                    "lastClassName": "eYjaKG",
                     "rules": Array [
                       "color:",
                       [Function],
                       ";line-height:",
                       [Function],
-                      ";text-align:right;border:none;transition:color 0.5s;@media screen and (max-width:600px){margin-left:0;font-size:0;}&::before{display:inline-block;margin-right:10px;color:",
+                      ";text-align:right;border:none;transition:color 0.5s;@media screen and (max-width:600px){margin-left:0;}&::before{display:inline-block;margin-right:10px;color:",
                       [Function],
                       ";font-size:",
                       [Function],
@@ -379,7 +379,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
               onClick={[Function]}
             >
               <a
-                className="NavHeader__NavControl-twnsn2-1 eOqBsR first-nav__navcontrol"
+                className="NavHeader__NavControl-twnsn2-1 eYjaKG first-nav__navcontrol"
                 data-test-id="switch-nav-content"
                 href="#"
                 onClick={[Function]}
@@ -830,13 +830,13 @@ exports[`Nav Header should render when show NavContent 1`] = `
                   "componentStyle": ComponentStyle {
                     "componentId": "NavHeader__NavControl-twnsn2-1",
                     "isStatic": false,
-                    "lastClassName": "eOqBsR",
+                    "lastClassName": "eYjaKG",
                     "rules": Array [
                       "color:",
                       [Function],
                       ";line-height:",
                       [Function],
-                      ";text-align:right;border:none;transition:color 0.5s;@media screen and (max-width:600px){margin-left:0;font-size:0;}&::before{display:inline-block;margin-right:10px;color:",
+                      ";text-align:right;border:none;transition:color 0.5s;@media screen and (max-width:600px){margin-left:0;}&::before{display:inline-block;margin-right:10px;color:",
                       [Function],
                       ";font-size:",
                       [Function],
@@ -860,7 +860,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
               onClick={[Function]}
             >
               <a
-                className="NavHeader__NavControl-twnsn2-1 eOqBsR first-nav__navcontrol"
+                className="NavHeader__NavControl-twnsn2-1 eYjaKG first-nav__navcontrol"
                 data-test-id="switch-nav-content"
                 href="#"
                 onClick={[Function]}

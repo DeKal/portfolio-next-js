@@ -50,7 +50,6 @@ const NavControl = styled.a`
 
   @media screen and (max-width: 600px) {
     margin-left: 0;
-    font-size: 0;
   }
 
   &::before {

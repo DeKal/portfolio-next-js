@@ -3,6 +3,7 @@ import styled from 'styled-components/macro'
 import PropTypes from 'prop-types'
 import { EN } from '~/consts/langs'
 import { Translate, withLocalize } from 'react-localize-redux'
+import useWindowDimensions from '~/utils/useWindowDimensions'
 
 const NavLink = ({
   lang,
@@ -10,6 +11,7 @@ const NavLink = ({
   setSelectedLang,
   setActiveLanguage
 }) => {
+  const { width } = useWindowDimensions()
   return (
     <Container
       isSelected={selectedLang === lang}
@@ -19,7 +21,17 @@ const NavLink = ({
         window.localStorage.setItem('lang', lang)
       }}
     >
-      {lang === EN ? <Translate id="english" /> : <Translate id="vietnamese" />}
+      {width < 600 ? (
+        lang === EN ? (
+          'en'
+        ) : (
+          'vn'
+        )
+      ) : lang === EN ? (
+        <Translate id="english" />
+      ) : (
+        <Translate id="vietnamese" />
+      )}
     </Container>
   )
 }
