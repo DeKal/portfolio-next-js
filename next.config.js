@@ -1,4 +1,6 @@
 const withSass = require('@zeit/next-sass')
+const withImages = require('next-images')
+
 module.exports = withSass({
   /* config options here */
   cssModules: true,
@@ -7,3 +9,5 @@ module.exports = withSass({
     localIdentName: '[local]'
   }
 })
+
+module.exports = withImages(withSass({}))

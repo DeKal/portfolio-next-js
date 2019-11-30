@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 
 import Head from '~views/components/Head'
 import Nav from '~/views/components/Navbar'
-// import Home from '~/views/components/Home'
+import Home from '~/views/components/Home'
 // import About from '~/views/components/About'
 // import Service from '~/views/components/Service'
 // import Project from '~/views/components/Project'
@@ -14,8 +14,8 @@ const HomePage = () => (
   <Fragment>
     <Head />
     <Nav />
-    {/* <Home />
-    <About />
+    <Home />
+    {/*<About />
     <Service />
     <Project />
     <Certification />

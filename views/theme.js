@@ -98,6 +98,11 @@ const theme = {
     XXL: '22px',
     XXXL: '24px'
   },
+  image: {
+    background: '/bg.jpg',
+    overlay:
+      'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC'
+  },
   productImageRatio: '143%',
   defaultLineHeight: 1.57,
   icons: {
