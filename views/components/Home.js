@@ -20,6 +20,18 @@ const ContentWrapper = styled.div`
   position: relative;
   width: 100%;
   overflow: hidden;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 0;
+    clear: both;
+    box-shadow: 0 0 2px 1px ${props => props.theme.colors.colorDark};
+  }
 `
 
 const TitleName = styled.h1`
@@ -38,7 +50,7 @@ const TitleName = styled.h1`
 
 const TitleJob = styled.h2`
   color: ${props => props.theme.colors.colorLight};
-  font-family: 'Open Sans Condensed'
+  font-family: Trebuchet MS, sans-serif;
   text-shadow: 1px 1px 2px ${props => props.theme.colors.colorDark};
 `
 
@@ -47,33 +59,17 @@ const Background = styled.div`
   min-width: 100%;
   min-height: 100%;
   z-index: 0;
-  background-attachment: fixed;
-  background-size: cover;
   background: transparent url(${props => props.theme.image.background}) center 0
     no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 `
 
-// const After = styled.div`
-//   content: "";
-//   position: absolute
-//   left: 0
-//   bottom: 0
-//   display: block
-//   width: 100%
-//   height: 0
-//   clear: both
-//   box-shadow: 0 0 2px 1px ${props => props.theme.colors.colorDark};
-// `
-
 const Overlay = styled.div`
-  padding: 6em;
   position: relative;
   width: 100%;
   height: 100%;
-  min-height: 100%;
-  background-color: transparent;
-  background-color: rgba(#2c3e50, 0.3);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000);
+  background-color: rgba(44, 62, 80, 0.3);
   zoom: 1;
   background-image: url(${props => props.theme.image.overlay});
   background-repeat: repeat;
@@ -81,11 +77,15 @@ const Overlay = styled.div`
 `
 
 const Header = styled.div`
-  padding: 200px 10px 400px
-  text-align: left
-  @media screen and (max-width: 800px)
-    text-align: center
-  @media screen and (max-width: 600px)
-    padding: 100px 0 300px
+  padding: 200px 10px 400px;
+  text-align: left;
+
+  @media screen and (max-width: 800px) {
+    text-align: center;
+  }
+
+  @media screen and (max-width: 600px) {
+    padding: 100px 0 300px;
+  }
 `
 export default Home
