@@ -2,13 +2,17 @@
 
 Basically it is my profile :)
 
+## Prerequisites
+
+- Prefer Node >= v12.
+
+- Install dependencies
+`yarn`
+
 ## Installation
 
-Use the node package manager [npm] to install dependencies.
+Use the yarn to install dependencies.
 
-```bash
-npm install
-```
 Use yarn to install dependencies.
 ```bash
 yarn
