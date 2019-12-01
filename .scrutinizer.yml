@@ -12,6 +12,7 @@ build:
             coverage:
               file: 'coverage/lcov.info'
               format: 'lcov'
+
 checks:
   javascript:
     no_else_return: true
