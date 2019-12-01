@@ -1,0 +1,23 @@
+build:
+  environment:
+    node:
+      version: 12.11.1
+  nodes:
+    analysis:
+      tests:
+        override:
+          - yarn lint
+          - yarn lint:css
+          - command: 'CI=true yarn test:coverage'
+            coverage:
+              file: 'coverage/lcov.info'
+              format: 'lcov'
+checks:
+  javascript:
+    no_else_return: true
+    no_implicit_undefined_return: true
+    no_loop_var_assign: true
+    no_param_assign: true
+    no_var: true
+    no_alert: true
+    eqeqeq: true
