@@ -10,8 +10,8 @@ build:
           - yarn lint:css
           - command: 'CI=true yarn test:coverage'
             coverage:
-              file: 'coverage/coverage-final.json'
-              format: 'lcov'
+              file: 'coverage/clover.xml'
+              format: 'clover'
 
 checks:
   javascript:

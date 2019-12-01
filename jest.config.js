@@ -14,7 +14,7 @@ module.exports = {
   },
   coveragePathIgnorePatterns: ['/node_modules/', 'enzyme.js'],
   setupFilesAfterEnv: ['<rootDir>/enzyme.js'],
-  coverageReporters: ['json', 'lcov', 'text', 'text-summary'],
+  coverageReporters: ['json', 'lcov', 'text', 'clover'],
   collectCoverageFrom: ['pages/**/*.js', 'views/**/*.js'],
   moduleNameMapper: {
     '~/(.*)': '<rootDir>/$1'
