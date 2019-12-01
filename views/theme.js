@@ -3,6 +3,7 @@ const theme = {
     '-apple-system, blinkmacsystemfont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif',
   navHeaderHeight: '40px',
   navContentMinHeight: '80px',
+  footerHeight: '50px',
   colors: {
     // Color variables
     colorLight: '#ecf0f1',
@@ -84,7 +85,8 @@ const theme = {
   fonts: {
     fontSans: '"Open Sans", Tahoma, Verdana, Arial, sans-serif',
     fontSerif: 'Georgia, Times, "Times New Roman", serif',
-    fontCondensed: '"Open Sans Condensed", Tahoma, Verdana, Arial, sans-serif'
+    fontCondensed: '"Open Sans Condensed", Tahoma, Verdana, Arial, sans-serif',
+    fontIp: '"ip", sans-serif'
   },
   fontSizes: {
     base: '14px',
@@ -97,7 +99,10 @@ const theme = {
     XXXL: '24px'
   },
   productImageRatio: '143%',
-  defaultLineHeight: 1.57
+  defaultLineHeight: 1.57,
+  icons: {
+    goTop: '\\e817'
+  }
 }
 
 const themeExtra = {
