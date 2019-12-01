@@ -15,9 +15,9 @@ exports[`About should render without throwing an error 1`] = `
           "componentStyle": ComponentStyle {
             "componentId": "About__Container-sc-1ka41xo-0",
             "isStatic": false,
-            "lastClassName": "hwdjFy",
+            "lastClassName": "iOOKdN",
             "rules": Array [
-              "padding-top:200px;",
+              "margin-top:-200px;",
             ],
           },
           "displayName": "About__Container",
@@ -34,7 +34,7 @@ exports[`About should render without throwing an error 1`] = `
       id="About"
     >
       <section
-        className="About__Container-sc-1ka41xo-0 hwdjFy container"
+        className="About__Container-sc-1ka41xo-0 iOOKdN container"
         id="About"
       >
         <About__Card
