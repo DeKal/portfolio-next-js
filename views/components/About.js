@@ -14,7 +14,7 @@ const About = () => (
 )
 
 const Container = styled.section`
-  padding-top: 200px;
+  margin-top: -200px;
 `
 
 const Card = styled.div`
