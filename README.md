@@ -1,4 +1,4 @@
-[![Code Coverage](https://scrutinizer-ci.com/g/DeKal/portfolio-next-js/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/DeKal/portfolio-next-js/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/DeKal/portfolio-next-js/badges/build.png?b=master)](https://scrutinizer-ci.com/g/DeKal/portfolio-next-js/build-status/master) [![CircleCI](https://circleci.com/gh/DeKal/portfolio-next-js/tree/master.svg?style=svg)](https://circleci.com/gh/DeKal/portfolio-next-js/tree/master)
+[![Code Coverage](https://scrutinizer-ci.com/g/DeKal/portfolio-next-js/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/DeKal/portfolio-next-js/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/DeKal/portfolio-next-js/badges/build.png?b=master)](https://scrutinizer-ci.com/g/DeKal/portfolio-next-js/build-status/master)
 
 # DeKal Portfolio
 
