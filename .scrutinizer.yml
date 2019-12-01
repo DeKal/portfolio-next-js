@@ -10,7 +10,7 @@ build:
           - yarn lint:css
           - command: 'CI=true yarn test:coverage'
             coverage:
-              file: 'coverage/lcov.info'
+              file: 'coverage/coverage-final.json'
               format: 'lcov'
 
 checks:
