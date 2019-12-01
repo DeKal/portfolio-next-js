@@ -1,3 +1,5 @@
+[![Code Coverage](https://scrutinizer-ci.com/g/DeKal/portfolio-next-js/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/DeKal/portfolio-next-js/?branch=master)[![Build Status](https://scrutinizer-ci.com/g/DeKal/portfolio-next-js/badges/build.png?b=master)](https://scrutinizer-ci.com/g/DeKal/portfolio-next-js/build-status/master)
+
 # DeKal Portfolio
 
 Basically it is my profile :)
@@ -48,8 +50,8 @@ Testing is supported by Jester and using typescript.
 - Run test while developing `yarn test:watch`
 - Run test coverage `yarn test:coverage`
 
-## Release
-### Release a version
+### Release
+## Release a version
 Only release a version when git status is clean and on branch `master`.\
 Use `auto-changelog` to generate CHANGELOG.md.
 ```bash
