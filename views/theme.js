@@ -86,7 +86,8 @@ const theme = {
     fontSans: '"Open Sans", Tahoma, Verdana, Arial, sans-serif',
     fontSerif: 'Georgia, Times, "Times New Roman", serif',
     fontCondensed: '"Open Sans Condensed", Tahoma, Verdana, Arial, sans-serif',
-    fontIp: '"ip", sans-serif'
+    fontIp: '"ip", sans-serif',
+    fontTrebuchet: 'Trebuchet MS, sans-serif'
   },
   fontSizes: {
     base: '14px',
@@ -98,7 +99,7 @@ const theme = {
     XXL: '22px',
     XXXL: '24px'
   },
-  image: {
+  images: {
     background: '/images/bg.jpg',
     overlay:
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC'
@@ -107,7 +108,8 @@ const theme = {
   defaultLineHeight: 1.57,
   icons: {
     goTop: '\\e817'
-  }
+  },
+  headerPadding: '200px 10px 400px'
 }
 
 const themeExtra = {

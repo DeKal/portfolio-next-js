@@ -3,7 +3,7 @@ import * as React from 'react'
 import styled from 'styled-components/macro'
 
 const Home = () => (
-  <ContentWrapper>
+  <HomeSection>
     <Background />
     <Overlay>
       <div className="container">
@@ -13,10 +13,10 @@ const Home = () => (
         </Header>
       </div>
     </Overlay>
-  </ContentWrapper>
+  </HomeSection>
 )
 
-const ContentWrapper = styled.div`
+const HomeSection = styled.section`
   position: relative;
   width: 100%;
   overflow: hidden;
@@ -50,7 +50,7 @@ const TitleName = styled.h1`
 
 const TitleJob = styled.h2`
   color: ${props => props.theme.colors.colorLight};
-  font-family: Trebuchet MS, sans-serif;
+  font-family: ${props => props.theme.fonts.fontTrebuchet};
   text-shadow: 1px 1px 2px ${props => props.theme.colors.colorDark};
 `
 
@@ -59,8 +59,8 @@ const Background = styled.div`
   min-width: 100%;
   min-height: 100%;
   z-index: 0;
-  background: transparent url(${props => props.theme.image.background}) center 0
-    no-repeat;
+  background: transparent url(${props => props.theme.images.background}) center
+    0 no-repeat;
   background-attachment: fixed;
   background-size: cover;
 `
@@ -71,13 +71,13 @@ const Overlay = styled.div`
   height: 100%;
   background-color: rgba(44, 62, 80, 0.3);
   zoom: 1;
-  background-image: url(${props => props.theme.image.overlay});
+  background-image: url(${props => props.theme.images.overlay});
   background-repeat: repeat;
   background-attachment: fixed;
 `
 
-const Header = styled.div`
-  padding: 200px 10px 400px;
+const Header = styled.header`
+  padding: ${props => props.theme.headerPadding};
   text-align: left;
 
   @media screen and (max-width: 800px) {
