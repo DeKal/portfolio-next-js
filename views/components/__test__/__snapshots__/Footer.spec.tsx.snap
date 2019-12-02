@@ -11,9 +11,9 @@ exports[`Footer should render without throwing an error 1`] = `
           "componentStyle": ComponentStyle {
             "componentId": "Footer__FooterContainer-sc-1914e3q-0",
             "isStatic": false,
-            "lastClassName": "bjqVID",
+            "lastClassName": "gEIrPK",
             "rules": Array [
-              "position:absolute;bottom:0;left:0;z-index:100;width:100%;background-color:",
+              "position:relative;z-index:100;width:100%;background-color:",
               [Function],
               ";color:",
               [Function],
@@ -39,7 +39,7 @@ exports[`Footer should render without throwing an error 1`] = `
       forwardedRef={null}
     >
       <footer
-        className="Footer__FooterContainer-sc-1914e3q-0 bjqVID"
+        className="Footer__FooterContainer-sc-1914e3q-0 gEIrPK"
       >
         <div
           className="container"
