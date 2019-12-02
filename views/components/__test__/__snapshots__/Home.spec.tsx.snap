@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render without throwing an error 1`] = `
+<Home>
+  <Home__HomeSection>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Home__HomeSection-sc-1eskvms-0",
+            "isStatic": false,
+            "lastClassName": "blNagb",
+            "rules": Array [
+              "position:relative;width:100%;overflow:hidden;&::after{content:'';position:absolute;left:0;bottom:0;display:block;width:100%;height:0;clear:both;box-shadow:0 0 2px 1px ",
+              [Function],
+              ";}",
+            ],
+          },
+          "displayName": "Home__HomeSection",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Home__HomeSection-sc-1eskvms-0",
+          "target": "section",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <section
+        className="Home__HomeSection-sc-1eskvms-0 blNagb"
+      >
+        <Home__Background>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "Home__Background-sc-1eskvms-3",
+                  "isStatic": false,
+                  "lastClassName": "eTDPSm",
+                  "rules": Array [
+                    "position:absolute;min-width:100%;min-height:100%;z-index:0;background:transparent url(",
+                    [Function],
+                    ") center 0 no-repeat;background-attachment:fixed;background-size:cover;",
+                  ],
+                },
+                "displayName": "Home__Background",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "Home__Background-sc-1eskvms-3",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="Home__Background-sc-1eskvms-3 eTDPSm"
+            />
+          </StyledComponent>
+        </Home__Background>
+        <Home__Overlay>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "Home__Overlay-sc-1eskvms-4",
+                  "isStatic": false,
+                  "lastClassName": "kzYHcr",
+                  "rules": Array [
+                    "position:relative;width:100%;height:100%;background-color:rgba(44,62,80,0.3);zoom:1;background-image:url(",
+                    [Function],
+                    ");background-repeat:repeat;background-attachment:fixed;",
+                  ],
+                },
+                "displayName": "Home__Overlay",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "Home__Overlay-sc-1eskvms-4",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="Home__Overlay-sc-1eskvms-4 kzYHcr"
+            >
+              <div
+                className="container"
+              >
+                <Home__Header>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Home__Header-sc-1eskvms-5",
+                          "isStatic": false,
+                          "lastClassName": "goxKxF",
+                          "rules": Array [
+                            "padding:",
+                            [Function],
+                            ";text-align:left;@media screen and (max-width:800px){text-align:center;}@media screen and (max-width:600px){padding:100px 0 300px;}",
+                          ],
+                        },
+                        "displayName": "Home__Header",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Home__Header-sc-1eskvms-5",
+                        "target": "header",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <header
+                      className="Home__Header-sc-1eskvms-5 goxKxF"
+                    >
+                      <Home__TitleName>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Home__TitleName-sc-1eskvms-1",
+                                "isStatic": false,
+                                "lastClassName": "klbGLv",
+                                "rules": Array [
+                                  "margin-bottom:10px;font-size:100px;text-shadow:1px 1px 1px ",
+                                  [Function],
+                                  ";@media screen and (max-width:1200px){font-size:75px;}@media screen and (max-width:800px){font-size:50px;}",
+                                ],
+                              },
+                              "displayName": "Home__TitleName",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Home__TitleName-sc-1eskvms-1",
+                              "target": "h1",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <h1
+                            className="Home__TitleName-sc-1eskvms-1 klbGLv"
+                          >
+                             Phat Ho
+                          </h1>
+                        </StyledComponent>
+                      </Home__TitleName>
+                      <Home__TitleJob>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Home__TitleJob-sc-1eskvms-2",
+                                "isStatic": false,
+                                "lastClassName": "fKrioB",
+                                "rules": Array [
+                                  "color:",
+                                  [Function],
+                                  ";font-family:",
+                                  [Function],
+                                  ";text-shadow:1px 1px 2px ",
+                                  [Function],
+                                  ";",
+                                ],
+                              },
+                              "displayName": "Home__TitleJob",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Home__TitleJob-sc-1eskvms-2",
+                              "target": "h2",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <h2
+                            className="Home__TitleJob-sc-1eskvms-2 fKrioB"
+                          >
+                             Fullstack Developer
+                          </h2>
+                        </StyledComponent>
+                      </Home__TitleJob>
+                    </header>
+                  </StyledComponent>
+                </Home__Header>
+              </div>
+            </div>
+          </StyledComponent>
+        </Home__Overlay>
+      </section>
+    </StyledComponent>
+  </Home__HomeSection>
+</Home>
+`;

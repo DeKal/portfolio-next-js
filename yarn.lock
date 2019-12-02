@@ -5332,10 +5332,10 @@ eslint-visitor-keys@^1.0.0, eslint-visitor-keys@^1.1.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.1.0.tgz#e2a82cea84ff246ad6fb57f9bde5b46621459ec2"
   integrity sha512-8y9YjtM1JBJU/A9Kc+SbaOV4y29sSWckBwMHa+FGtVj5gN/sbnKDf6xJUl+8g7FAij9LVaP8C24DUiH/f/2Z9A==
 
-eslint@6.7.0:
-  version "6.7.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-6.7.0.tgz#766162e383b236e61d873697f82c3a3e41392020"
-  integrity sha512-dQpj+PaHKHfXHQ2Imcw5d853PTvkUGbHk/MR68KQUl98EgKDCdh4vLRH1ZxhqeQjQFJeg8fgN0UwmNhN3l8dDQ==
+eslint@6.7.1:
+  version "6.7.1"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-6.7.1.tgz#269ccccec3ef60ab32358a44d147ac209154b919"
+  integrity sha512-UWzBS79pNcsDSxgxbdjkmzn/B6BhsXMfUaOHnNwyE8nD+Q6pyT96ow2MccVayUTV4yMid4qLhMiQaywctRkBLA==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     ajv "^6.10.0"
@@ -10476,7 +10476,7 @@ react-localize-redux@3.5.3:
     prop-types "^15.6.1"
     reselect "^3.0.1"
 
-react-spinners@^0.6.1:
+react-spinners@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/react-spinners/-/react-spinners-0.6.1.tgz#c4f31a1d0e4c85cdb1785a8bdbe17311cf269b0a"
   integrity sha512-bMCOvwAlzuIDC6Zh69E1EbyKUbvWSl4sMzLXOgnsF4Q/kkAnCNaonWyskMFytbaJSYxBCCOiaeCH2moDJ5y5Pg==
@@ -11803,10 +11803,10 @@ stylelint-config-standard@19.0.0:
   dependencies:
     stylelint-config-recommended "^3.0.0"
 
-stylelint-processor-styled-components@1.8.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/stylelint-processor-styled-components/-/stylelint-processor-styled-components-1.8.0.tgz#7dc48c6c95f9c3c9daa49efa5f3d1be49e7296e2"
-  integrity sha512-sADydhLPwtR9YJBydlO6X209sjT3rG9nr7sn/cEFZtoeZF3tI60HtxIOFC12vVVMvpKFS+E0smMiKA6FcVZO9A==
+stylelint-processor-styled-components@1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/stylelint-processor-styled-components/-/stylelint-processor-styled-components-1.9.0.tgz#597fc40b5a2e02c9e01a810212406c3a7ff2e3ef"
+  integrity sha512-tWsCnURm8uqqVySWsGfXdto1qR/0MaATGx2ovWu/hqG+gnrjGZZOdeNEIEb12tpIbCnLV0a6q1Bb3yhDjGGzSQ==
   dependencies:
     "@babel/parser" "^7.0.0"
     "@babel/traverse" "^7.0.0"
