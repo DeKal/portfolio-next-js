@@ -16,9 +16,7 @@ const Footer = () => (
 export default Footer
 
 const FooterContainer = styled.footer`
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  position: relative;
   z-index: 100;
   width: 100%;
   background-color: ${props => props.theme.colors.colorAccent};

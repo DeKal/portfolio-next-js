@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Info should render without throwing an error 1`] = `
+<LocalizedComponent>
+  <CardInfo
+    addTranslation={[Function]}
+    addTranslationForLanguage={[Function]}
+    ignoreTranslateChildren={false}
+    initialize={[Function]}
+    languages={Array []}
+    renderToStaticMarkup={false}
+    setActiveLanguage={[Function]}
+    translate={[Function]}
+  >
+    <CardInfo__Container>
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "CardInfo__Container-j7wviz-0",
+              "isStatic": false,
+              "lastClassName": "bbuDlN",
+              "rules": Array [
+                "padding:20px;background-color:",
+                [Function],
+                ";",
+              ],
+            },
+            "displayName": "CardInfo__Container",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "CardInfo__Container-j7wviz-0",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+      >
+        <div
+          className="CardInfo__Container-j7wviz-0 bbuDlN"
+        >
+          <p>
+            <Translate
+              id="About me: Card Info Verse 1"
+            >
+              <WrappedTranslate
+                context={
+                  Object {
+                    "activeLanguage": undefined,
+                    "addTranslation": [Function],
+                    "addTranslationForLanguage": [Function],
+                    "defaultLanguage": undefined,
+                    "ignoreTranslateChildren": false,
+                    "initialize": [Function],
+                    "languages": Array [],
+                    "renderToStaticMarkup": false,
+                    "setActiveLanguage": [Function],
+                    "translate": [Function],
+                  }
+                }
+                id="About me: Card Info Verse 1"
+              >
+                Missing translationId: About me: Card Info Verse 1 for language: \${ languageCode }
+              </WrappedTranslate>
+            </Translate>
+          </p>
+          <CardInfo__Quote>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "CardInfo__Quote-j7wviz-1",
+                    "isStatic": false,
+                    "lastClassName": "ehtIde",
+                    "rules": Array [
+                      "margin:20px 0 20px 20px;font-family:",
+                      [Function],
+                      ";font-style:italic;font-size:",
+                      [Function],
+                      ";font-weight:bold;",
+                    ],
+                  },
+                  "displayName": "CardInfo__Quote",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "CardInfo__Quote-j7wviz-1",
+                  "target": "blockquote",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <blockquote
+                className="CardInfo__Quote-j7wviz-1 ehtIde"
+              >
+                <Translate
+                  id="About me: Card Info Quote"
+                >
+                  <WrappedTranslate
+                    context={
+                      Object {
+                        "activeLanguage": undefined,
+                        "addTranslation": [Function],
+                        "addTranslationForLanguage": [Function],
+                        "defaultLanguage": undefined,
+                        "ignoreTranslateChildren": false,
+                        "initialize": [Function],
+                        "languages": Array [],
+                        "renderToStaticMarkup": false,
+                        "setActiveLanguage": [Function],
+                        "translate": [Function],
+                      }
+                    }
+                    id="About me: Card Info Quote"
+                  >
+                    Missing translationId: About me: Card Info Quote for language: \${ languageCode }
+                  </WrappedTranslate>
+                </Translate>
+              </blockquote>
+            </StyledComponent>
+          </CardInfo__Quote>
+          <p>
+            <Translate
+              id="About me: Card Info Verse 2"
+            >
+              <WrappedTranslate
+                context={
+                  Object {
+                    "activeLanguage": undefined,
+                    "addTranslation": [Function],
+                    "addTranslationForLanguage": [Function],
+                    "defaultLanguage": undefined,
+                    "ignoreTranslateChildren": false,
+                    "initialize": [Function],
+                    "languages": Array [],
+                    "renderToStaticMarkup": false,
+                    "setActiveLanguage": [Function],
+                    "translate": [Function],
+                  }
+                }
+                id="About me: Card Info Verse 2"
+              >
+                Missing translationId: About me: Card Info Verse 2 for language: \${ languageCode }
+              </WrappedTranslate>
+            </Translate>
+          </p>
+          <CardInfo__Status>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "CardInfo__Status-j7wviz-2",
+                    "isStatic": false,
+                    "lastClassName": "kRJTQt",
+                    "rules": Array [
+                      "margin-top:20px;padding-top:",
+                      [Function],
+                      ";font-weight:normal;border-top:1px dashed ",
+                      [Function],
+                      ";",
+                    ],
+                  },
+                  "displayName": "CardInfo__Status",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "CardInfo__Status-j7wviz-2",
+                  "target": "p",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <p
+                className="CardInfo__Status-j7wviz-2 kRJTQt"
+              >
+                <CardInfo__Bold>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "CardInfo__Bold-j7wviz-3",
+                          "isStatic": false,
+                          "lastClassName": "iggTuy",
+                          "rules": Array [
+                            "font-weight:bold;text-transform:uppercase;",
+                          ],
+                        },
+                        "displayName": "CardInfo__Bold",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "CardInfo__Bold-j7wviz-3",
+                        "target": "span",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <span
+                      className="CardInfo__Bold-j7wviz-3 iggTuy"
+                    >
+                      Current Status:
+                    </span>
+                  </StyledComponent>
+                </CardInfo__Bold>
+                 
+                <Translate
+                  id="About me: Current status"
+                >
+                  <WrappedTranslate
+                    context={
+                      Object {
+                        "activeLanguage": undefined,
+                        "addTranslation": [Function],
+                        "addTranslationForLanguage": [Function],
+                        "defaultLanguage": undefined,
+                        "ignoreTranslateChildren": false,
+                        "initialize": [Function],
+                        "languages": Array [],
+                        "renderToStaticMarkup": false,
+                        "setActiveLanguage": [Function],
+                        "translate": [Function],
+                      }
+                    }
+                    id="About me: Current status"
+                  >
+                    Missing translationId: About me: Current status for language: \${ languageCode }
+                  </WrappedTranslate>
+                </Translate>
+              </p>
+            </StyledComponent>
+          </CardInfo__Status>
+        </div>
+      </StyledComponent>
+    </CardInfo__Container>
+  </CardInfo>
+</LocalizedComponent>
+`;
