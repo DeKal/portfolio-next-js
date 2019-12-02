@@ -206,9 +206,9 @@ exports[`Footer should render without throwing an error 1`] = `
                                 "componentStyle": ComponentStyle {
                                   "componentId": "Icon__Symbol-sc-1aleqew-0",
                                   "isStatic": false,
-                                  "lastClassName": "fYBJAw",
+                                  "lastClassName": "fUifJe",
                                   "rules": Array [
-                                    "&::before{font-family:",
+                                    "display:inline-block;&::before{font-family:",
                                     [Function],
                                     ";font-style:normal;font-weight:normal;content:'",
                                     [Function],
@@ -229,7 +229,7 @@ exports[`Footer should render without throwing an error 1`] = `
                             name="goTop"
                           >
                             <div
-                              className="Icon__Symbol-sc-1aleqew-0 fYBJAw GoTop__GoTopIcon-sc-18ceaec-1 gjeSlo"
+                              className="Icon__Symbol-sc-1aleqew-0 fUifJe GoTop__GoTopIcon-sc-18ceaec-1 gjeSlo"
                               name="goTop"
                             />
                           </StyledComponent>

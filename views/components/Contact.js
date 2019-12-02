@@ -1,67 +1,43 @@
-import * as React from 'react'
+import React from 'react'
+import styled from 'styled-components/macro'
+import { CONTACTS } from '~/consts/pages'
+import Map from '~/views/components/contact/Map'
+import Content from '~/views/components/contact/Content'
+import Header from '~/views/components/contact/Header'
 
 const Contact = () => (
-  <div className="contacts-section" id="contacts">
+  <Container id={CONTACTS}>
     <div className="container">
-      <section className="contact-card">
-        <header className="contact-card__header">
-          <h2>Contact information</h2>
-          <h4>My pleasure to meet you!!</h4>
-        </header>
-        <div className="contact-info">
-          <div className="contact-info__logo">JD</div>
-          <div className="contact-info__group">
-            <div className="contact-info__additional">
-              <p>Do you need a professional for lending a hand?</p>
-              <p>Are you facing unfathomable problem?</p>
-            </div>
-            <div className="contact-info__vcard vcard">
-              <h4 className="fn org">Phat Ho</h4>
-              <p className="role title">Fullstack Developer</p>
-              <p className="icon icon_location">
-                <a className="adr js-anchor" href="#gmap">
-                  <span className="country-name">VietNam</span>
-                  ,&nbsp;
-                  <span className="locality">Dist 1, Ho Chi Minh City</span>
-                </a>
-              </p>
-              <p className="icon icon_mail">
-                <a className="email" href="#contact">
-                  hohuuphat22@gmail.com
-                </a>
-              </p>
-              <p className="icon icon_phone">
-                <a className="email" href="#contact">
-                  +84 906323761
-                </a>
-              </p>
-            </div>
-            <ul className="contact-info__social">
-              <li>
-                <a
-                  className="icon icon_fb"
-                  rel="nofollow"
-                  href="https://www.facebook.com/dekal.dev"
-                >
-                  I&apos;m on Facebook
-                </a>
-              </li>
-              <li>
-                <a
-                  className="icon icon_in"
-                  rel="nofollow"
-                  href="https://www.linkedin.com/in/huu-phat-ho-1170b09b/"
-                >
-                  My Linkedin profile
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
+      <Card>
+        <Header />
+        <Content />
+      </Card>
     </div>
-    <div className="gmap" id="gmap"></div>
-  </div>
+    <Map />
+  </Container>
 )
 
 export default Contact
+
+const Container = styled.div`
+  position: relative;
+  padding-top: 300px;
+
+  @media screen and (max-width: 800px) {
+    padding-top: 250px;
+  }
+`
+const Card = styled.section`
+  position: absolute;
+  top: -200px;
+  z-index: 50;
+  margin-left: calc((100% - calc(75% - 40px)) / 2);
+  box-shadow: 2px 2px 4px -2px ${props => props.theme.colors.colorDark};
+  width: calc(75% - 40px);
+
+  @media screen and (max-width: 800px) {
+    width: calc(100% - 20px);
+    margin-left: 10px;
+    float: none;
+  }
+`

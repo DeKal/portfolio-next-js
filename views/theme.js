@@ -98,7 +98,12 @@ const theme = {
   productImageRatio: '143%',
   defaultLineHeight: 1.57,
   icons: {
-    goTop: '\\e817'
+    goTop: '\\e817',
+    location: '\\e806',
+    mail: '\\e800',
+    phone: '\\e81a',
+    fb: '\\e811',
+    linkedin: '\\e815'
   },
   headerPadding: '200px 10px 400px'
 }

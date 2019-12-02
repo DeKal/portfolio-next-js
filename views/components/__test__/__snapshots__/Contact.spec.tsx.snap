@@ -1,0 +1,1209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render without throwing an error 1`] = `
+<Contact>
+  <Contact__Container
+    id="Contacts"
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Contact__Container-h6hh4w-0",
+            "isStatic": false,
+            "lastClassName": "erQPZI",
+            "rules": Array [
+              "position:relative;padding-top:300px;@media screen and (max-width:800px){padding-top:250px;}",
+            ],
+          },
+          "displayName": "Contact__Container",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Contact__Container-h6hh4w-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      id="Contacts"
+    >
+      <div
+        className="Contact__Container-h6hh4w-0 erQPZI"
+        id="Contacts"
+      >
+        <div
+          className="container"
+        >
+          <Contact__Card>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Contact__Card-h6hh4w-1",
+                    "isStatic": false,
+                    "lastClassName": "iSAhbx",
+                    "rules": Array [
+                      "position:absolute;top:-200px;z-index:50;margin-left:calc((100% - calc(75% - 40px)) / 2);box-shadow:2px 2px 4px -2px ",
+                      [Function],
+                      ";width:calc(75% - 40px);@media screen and (max-width:800px){width:calc(100% - 20px);margin-left:10px;float:none;}",
+                    ],
+                  },
+                  "displayName": "Contact__Card",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "Contact__Card-h6hh4w-1",
+                  "target": "section",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <section
+                className="Contact__Card-h6hh4w-1 iSAhbx"
+              >
+                <Header>
+                  <Header__Container
+                    className="contact-card__header"
+                  >
+                    <StyledComponent
+                      className="contact-card__header"
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "Header__Container-sc-14hfkna-0",
+                            "isStatic": false,
+                            "lastClassName": "jDUYxS",
+                            "rules": Array [
+                              "padding:20px;background-color:",
+                              [Function],
+                              ";color:",
+                              [Function],
+                              ";",
+                            ],
+                          },
+                          "displayName": "Header__Container",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "Header__Container-sc-14hfkna-0",
+                          "target": "header",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <header
+                        className="Header__Container-sc-14hfkna-0 jDUYxS contact-card__header"
+                      >
+                        <h2>
+                          Contact information
+                        </h2>
+                        <h4>
+                          My pleasure to meet you!!
+                        </h4>
+                      </header>
+                    </StyledComponent>
+                  </Header__Container>
+                </Header>
+                <Content>
+                  <Content__Container>
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "Content__Container-sc-1ywa3jt-0",
+                            "isStatic": false,
+                            "lastClassName": "cGOLLO",
+                            "rules": Array [
+                              "position:relative;min-height:300px;padding:20px 60px 20px 20px;background-color:",
+                              [Function],
+                              ";overflow:hidden;white-space:nowrap;",
+                            ],
+                          },
+                          "displayName": "Content__Container",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "Content__Container-sc-1ywa3jt-0",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <div
+                        className="Content__Container-sc-1ywa3jt-0 cGOLLO"
+                      >
+                        <Logo>
+                          <Logo__Container>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "Logo__Container-sc-1vmvcng-0",
+                                    "isStatic": false,
+                                    "lastClassName": "gNddhR",
+                                    "rules": Array [
+                                      "display:inline-block;color:",
+                                      [Function],
+                                      ";font-size:80px;line-height:60px;letter-spacing:-5px;font-family:",
+                                      [Function],
+                                      ";font-weight:bold;text-align:center;border:none;vertical-align:top;@media screen and (max-width:800px){display:none;}",
+                                    ],
+                                  },
+                                  "displayName": "Logo__Container",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "Logo__Container-sc-1vmvcng-0",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <div
+                                className="Logo__Container-sc-1vmvcng-0 gNddhR"
+                              >
+                                JD
+                              </div>
+                            </StyledComponent>
+                          </Logo__Container>
+                        </Logo>
+                        <Content__Group>
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "Content__Group-sc-1ywa3jt-1",
+                                  "isStatic": false,
+                                  "lastClassName": "ljiebZ",
+                                  "rules": Array [
+                                    "display:inline-block;padding-left:20px;white-space:normal;vertical-align:top;@media screen and (max-width:800px){padding-left:0;}",
+                                  ],
+                                },
+                                "displayName": "Content__Group",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "Content__Group-sc-1ywa3jt-1",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                          >
+                            <div
+                              className="Content__Group-sc-1ywa3jt-1 ljiebZ"
+                            >
+                              <Description>
+                                <Description__Container>
+                                  <StyledComponent
+                                    forwardedComponent={
+                                      Object {
+                                        "$$typeof": Symbol(react.forward_ref),
+                                        "attrs": Array [],
+                                        "componentStyle": ComponentStyle {
+                                          "componentId": "Description__Container-sc-1mwo04n-0",
+                                          "isStatic": false,
+                                          "lastClassName": "kulVUm",
+                                          "rules": Array [
+                                            "margin-bottom:20px;font-style:italic;font-family:",
+                                            [Function],
+                                            ";@media screen and (max-width:800px){margin-left:0;}",
+                                          ],
+                                        },
+                                        "displayName": "Description__Container",
+                                        "foldedComponentIds": Array [],
+                                        "render": [Function],
+                                        "styledComponentId": "Description__Container-sc-1mwo04n-0",
+                                        "target": "div",
+                                        "toString": [Function],
+                                        "warnTooManyClasses": [Function],
+                                        "withComponent": [Function],
+                                      }
+                                    }
+                                    forwardedRef={null}
+                                  >
+                                    <div
+                                      className="Description__Container-sc-1mwo04n-0 kulVUm"
+                                    >
+                                      <p>
+                                        Do you need a professional for lending a hand?
+                                      </p>
+                                      <p>
+                                        Are you facing unfathomable problem?
+                                      </p>
+                                    </div>
+                                  </StyledComponent>
+                                </Description__Container>
+                              </Description>
+                              <Info>
+                                <Info__Container>
+                                  <StyledComponent
+                                    forwardedComponent={
+                                      Object {
+                                        "$$typeof": Symbol(react.forward_ref),
+                                        "attrs": Array [],
+                                        "componentStyle": ComponentStyle {
+                                          "componentId": "Info__Container-sc-1i3mfcy-0",
+                                          "isStatic": false,
+                                          "lastClassName": "kKRKoG",
+                                          "rules": Array [
+                                            "@media screen and (max-width:800px){margin-left:0;}",
+                                          ],
+                                        },
+                                        "displayName": "Info__Container",
+                                        "foldedComponentIds": Array [],
+                                        "render": [Function],
+                                        "styledComponentId": "Info__Container-sc-1i3mfcy-0",
+                                        "target": "div",
+                                        "toString": [Function],
+                                        "warnTooManyClasses": [Function],
+                                        "withComponent": [Function],
+                                      }
+                                    }
+                                    forwardedRef={null}
+                                  >
+                                    <div
+                                      className="Info__Container-sc-1i3mfcy-0 kKRKoG"
+                                    >
+                                      <Info__Name>
+                                        <StyledComponent
+                                          forwardedComponent={
+                                            Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "attrs": Array [],
+                                              "componentStyle": ComponentStyle {
+                                                "componentId": "Info__Name-sc-1i3mfcy-1",
+                                                "isStatic": false,
+                                                "lastClassName": "fZWWyK",
+                                                "rules": Array [
+                                                  "margin-bottom:10px;font-weight:bold;",
+                                                ],
+                                              },
+                                              "displayName": "Info__Name",
+                                              "foldedComponentIds": Array [],
+                                              "render": [Function],
+                                              "styledComponentId": "Info__Name-sc-1i3mfcy-1",
+                                              "target": "h4",
+                                              "toString": [Function],
+                                              "warnTooManyClasses": [Function],
+                                              "withComponent": [Function],
+                                            }
+                                          }
+                                          forwardedRef={null}
+                                        >
+                                          <h4
+                                            className="Info__Name-sc-1i3mfcy-1 fZWWyK"
+                                          >
+                                            Phat Ho
+                                          </h4>
+                                        </StyledComponent>
+                                      </Info__Name>
+                                      <Info__Role>
+                                        <StyledComponent
+                                          forwardedComponent={
+                                            Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "attrs": Array [],
+                                              "componentStyle": ComponentStyle {
+                                                "componentId": "Info__Role-sc-1i3mfcy-3",
+                                                "isStatic": false,
+                                                "lastClassName": "bpqLRD",
+                                                "rules": Array [
+                                                  "margin-bottom:10px;font-size:18px;line-height:1.5;font-weight:lighter;&::before{float:left;display:block;width:25px;height:25px;border:none;vertical-align:top;}",
+                                                ],
+                                              },
+                                              "displayName": "Info__Role",
+                                              "foldedComponentIds": Array [
+                                                "Info__Paragraph-sc-1i3mfcy-2",
+                                              ],
+                                              "render": [Function],
+                                              "styledComponentId": "Info__Role-sc-1i3mfcy-3",
+                                              "target": "div",
+                                              "toString": [Function],
+                                              "warnTooManyClasses": [Function],
+                                              "withComponent": [Function],
+                                            }
+                                          }
+                                          forwardedRef={null}
+                                        >
+                                          <div
+                                            className="Info__Paragraph-sc-1i3mfcy-2 Info__Role-sc-1i3mfcy-3 bpqLRD"
+                                          >
+                                            Fullstack Developer
+                                          </div>
+                                        </StyledComponent>
+                                      </Info__Role>
+                                      <Info__Location>
+                                        <StyledComponent
+                                          forwardedComponent={
+                                            Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "attrs": Array [],
+                                              "componentStyle": ComponentStyle {
+                                                "componentId": "Info__Location-sc-1i3mfcy-4",
+                                                "isStatic": false,
+                                                "lastClassName": "jYWMVS",
+                                                "rules": Array [
+                                                  "margin-bottom:10px;font-size:18px;line-height:1.5;font-weight:lighter;&::before{float:left;display:block;width:25px;height:25px;border:none;vertical-align:top;}",
+                                                ],
+                                              },
+                                              "displayName": "Info__Location",
+                                              "foldedComponentIds": Array [
+                                                "Info__Paragraph-sc-1i3mfcy-2",
+                                              ],
+                                              "render": [Function],
+                                              "styledComponentId": "Info__Location-sc-1i3mfcy-4",
+                                              "target": "div",
+                                              "toString": [Function],
+                                              "warnTooManyClasses": [Function],
+                                              "withComponent": [Function],
+                                            }
+                                          }
+                                          forwardedRef={null}
+                                        >
+                                          <div
+                                            className="Info__Paragraph-sc-1i3mfcy-2 Info__Location-sc-1i3mfcy-4 jYWMVS"
+                                          >
+                                            <Info__LocationIcon
+                                              name="location"
+                                            >
+                                              <StyledComponent
+                                                forwardedComponent={
+                                                  Object {
+                                                    "$$typeof": Symbol(react.forward_ref),
+                                                    "attrs": Array [],
+                                                    "componentStyle": ComponentStyle {
+                                                      "componentId": "Info__LocationIcon-sc-1i3mfcy-11",
+                                                      "isStatic": false,
+                                                      "lastClassName": "cvzoM",
+                                                      "rules": Array [
+                                                        "padding-right:15px;",
+                                                      ],
+                                                    },
+                                                    "displayName": "Info__LocationIcon",
+                                                    "foldedComponentIds": Array [],
+                                                    "render": [Function],
+                                                    "styledComponentId": "Info__LocationIcon-sc-1i3mfcy-11",
+                                                    "target": [Function],
+                                                    "toString": [Function],
+                                                    "warnTooManyClasses": [Function],
+                                                    "withComponent": [Function],
+                                                  }
+                                                }
+                                                forwardedRef={null}
+                                                name="location"
+                                              >
+                                                <Icon
+                                                  className="Info__LocationIcon-sc-1i3mfcy-11 cvzoM"
+                                                  name="location"
+                                                >
+                                                  <Icon__Symbol
+                                                    className="Info__LocationIcon-sc-1i3mfcy-11 cvzoM"
+                                                    name="location"
+                                                  >
+                                                    <StyledComponent
+                                                      className="Info__LocationIcon-sc-1i3mfcy-11 cvzoM"
+                                                      forwardedComponent={
+                                                        Object {
+                                                          "$$typeof": Symbol(react.forward_ref),
+                                                          "attrs": Array [],
+                                                          "componentStyle": ComponentStyle {
+                                                            "componentId": "Icon__Symbol-sc-1aleqew-0",
+                                                            "isStatic": false,
+                                                            "lastClassName": "jwScwA",
+                                                            "rules": Array [
+                                                              "display:inline-block;&::before{font-family:",
+                                                              [Function],
+                                                              ";font-style:normal;font-weight:normal;content:'",
+                                                              [Function],
+                                                              "';}",
+                                                            ],
+                                                          },
+                                                          "displayName": "Icon__Symbol",
+                                                          "foldedComponentIds": Array [],
+                                                          "render": [Function],
+                                                          "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
+                                                          "target": "div",
+                                                          "toString": [Function],
+                                                          "warnTooManyClasses": [Function],
+                                                          "withComponent": [Function],
+                                                        }
+                                                      }
+                                                      forwardedRef={null}
+                                                      name="location"
+                                                    >
+                                                      <div
+                                                        className="Icon__Symbol-sc-1aleqew-0 lpckLA Info__LocationIcon-sc-1i3mfcy-11 cvzoM"
+                                                        name="location"
+                                                      />
+                                                    </StyledComponent>
+                                                  </Icon__Symbol>
+                                                </Icon>
+                                              </StyledComponent>
+                                            </Info__LocationIcon>
+                                            <Info__Underline
+                                              href="#map"
+                                            >
+                                              <StyledComponent
+                                                forwardedComponent={
+                                                  Object {
+                                                    "$$typeof": Symbol(react.forward_ref),
+                                                    "attrs": Array [],
+                                                    "componentStyle": ComponentStyle {
+                                                      "componentId": "Info__Underline-sc-1i3mfcy-10",
+                                                      "isStatic": false,
+                                                      "lastClassName": "gJrtQS",
+                                                      "rules": Array [
+                                                        "display:inline-block;vertical-align:top;",
+                                                      ],
+                                                    },
+                                                    "displayName": "Info__Underline",
+                                                    "foldedComponentIds": Array [],
+                                                    "render": [Function],
+                                                    "styledComponentId": "Info__Underline-sc-1i3mfcy-10",
+                                                    "target": "a",
+                                                    "toString": [Function],
+                                                    "warnTooManyClasses": [Function],
+                                                    "withComponent": [Function],
+                                                  }
+                                                }
+                                                forwardedRef={null}
+                                                href="#map"
+                                              >
+                                                <a
+                                                  className="Info__Underline-sc-1i3mfcy-10 gJrtQS"
+                                                  href="#map"
+                                                >
+                                                  <Info__Country>
+                                                    <StyledComponent
+                                                      forwardedComponent={
+                                                        Object {
+                                                          "$$typeof": Symbol(react.forward_ref),
+                                                          "attrs": Array [],
+                                                          "componentStyle": ComponentStyle {
+                                                            "componentId": "Info__Country-sc-1i3mfcy-8",
+                                                            "isStatic": false,
+                                                            "lastClassName": "dCdbHX",
+                                                            "rules": Array [
+                                                              "display:inline-block;",
+                                                            ],
+                                                          },
+                                                          "displayName": "Info__Country",
+                                                          "foldedComponentIds": Array [
+                                                            "Info__Inline-sc-1i3mfcy-7",
+                                                          ],
+                                                          "render": [Function],
+                                                          "styledComponentId": "Info__Country-sc-1i3mfcy-8",
+                                                          "target": "span",
+                                                          "toString": [Function],
+                                                          "warnTooManyClasses": [Function],
+                                                          "withComponent": [Function],
+                                                        }
+                                                      }
+                                                      forwardedRef={null}
+                                                    >
+                                                      <span
+                                                        className="Info__Inline-sc-1i3mfcy-7 Info__Country-sc-1i3mfcy-8 dCdbHX"
+                                                      >
+                                                        VietNam
+                                                      </span>
+                                                    </StyledComponent>
+                                                  </Info__Country>
+                                                  , 
+                                                  <Info__Address>
+                                                    <StyledComponent
+                                                      forwardedComponent={
+                                                        Object {
+                                                          "$$typeof": Symbol(react.forward_ref),
+                                                          "attrs": Array [],
+                                                          "componentStyle": ComponentStyle {
+                                                            "componentId": "Info__Address-sc-1i3mfcy-9",
+                                                            "isStatic": false,
+                                                            "lastClassName": "jgUBaW",
+                                                            "rules": Array [
+                                                              "display:inline-block;",
+                                                            ],
+                                                          },
+                                                          "displayName": "Info__Address",
+                                                          "foldedComponentIds": Array [
+                                                            "Info__Inline-sc-1i3mfcy-7",
+                                                          ],
+                                                          "render": [Function],
+                                                          "styledComponentId": "Info__Address-sc-1i3mfcy-9",
+                                                          "target": "span",
+                                                          "toString": [Function],
+                                                          "warnTooManyClasses": [Function],
+                                                          "withComponent": [Function],
+                                                        }
+                                                      }
+                                                      forwardedRef={null}
+                                                    >
+                                                      <span
+                                                        className="Info__Inline-sc-1i3mfcy-7 Info__Address-sc-1i3mfcy-9 jgUBaW"
+                                                      >
+                                                        Dist 1, Ho Chi Minh City
+                                                      </span>
+                                                    </StyledComponent>
+                                                  </Info__Address>
+                                                </a>
+                                              </StyledComponent>
+                                            </Info__Underline>
+                                          </div>
+                                        </StyledComponent>
+                                      </Info__Location>
+                                      <Info__Email>
+                                        <StyledComponent
+                                          forwardedComponent={
+                                            Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "attrs": Array [],
+                                              "componentStyle": ComponentStyle {
+                                                "componentId": "Info__Email-sc-1i3mfcy-5",
+                                                "isStatic": false,
+                                                "lastClassName": "eXRWot",
+                                                "rules": Array [
+                                                  "margin-bottom:10px;font-size:18px;line-height:1.5;font-weight:lighter;&::before{float:left;display:block;width:25px;height:25px;border:none;vertical-align:top;}",
+                                                ],
+                                              },
+                                              "displayName": "Info__Email",
+                                              "foldedComponentIds": Array [
+                                                "Info__Paragraph-sc-1i3mfcy-2",
+                                              ],
+                                              "render": [Function],
+                                              "styledComponentId": "Info__Email-sc-1i3mfcy-5",
+                                              "target": "div",
+                                              "toString": [Function],
+                                              "warnTooManyClasses": [Function],
+                                              "withComponent": [Function],
+                                            }
+                                          }
+                                          forwardedRef={null}
+                                        >
+                                          <div
+                                            className="Info__Paragraph-sc-1i3mfcy-2 Info__Email-sc-1i3mfcy-5 eXRWot"
+                                          >
+                                            <Info__EmailIcon
+                                              name="mail"
+                                            >
+                                              <StyledComponent
+                                                forwardedComponent={
+                                                  Object {
+                                                    "$$typeof": Symbol(react.forward_ref),
+                                                    "attrs": Array [],
+                                                    "componentStyle": ComponentStyle {
+                                                      "componentId": "Info__EmailIcon-sc-1i3mfcy-12",
+                                                      "isStatic": false,
+                                                      "lastClassName": "jGuzkk",
+                                                      "rules": Array [
+                                                        "padding-right:8px;",
+                                                      ],
+                                                    },
+                                                    "displayName": "Info__EmailIcon",
+                                                    "foldedComponentIds": Array [],
+                                                    "render": [Function],
+                                                    "styledComponentId": "Info__EmailIcon-sc-1i3mfcy-12",
+                                                    "target": [Function],
+                                                    "toString": [Function],
+                                                    "warnTooManyClasses": [Function],
+                                                    "withComponent": [Function],
+                                                  }
+                                                }
+                                                forwardedRef={null}
+                                                name="mail"
+                                              >
+                                                <Icon
+                                                  className="Info__EmailIcon-sc-1i3mfcy-12 jGuzkk"
+                                                  name="mail"
+                                                >
+                                                  <Icon__Symbol
+                                                    className="Info__EmailIcon-sc-1i3mfcy-12 jGuzkk"
+                                                    name="mail"
+                                                  >
+                                                    <StyledComponent
+                                                      className="Info__EmailIcon-sc-1i3mfcy-12 jGuzkk"
+                                                      forwardedComponent={
+                                                        Object {
+                                                          "$$typeof": Symbol(react.forward_ref),
+                                                          "attrs": Array [],
+                                                          "componentStyle": ComponentStyle {
+                                                            "componentId": "Icon__Symbol-sc-1aleqew-0",
+                                                            "isStatic": false,
+                                                            "lastClassName": "jwScwA",
+                                                            "rules": Array [
+                                                              "display:inline-block;&::before{font-family:",
+                                                              [Function],
+                                                              ";font-style:normal;font-weight:normal;content:'",
+                                                              [Function],
+                                                              "';}",
+                                                            ],
+                                                          },
+                                                          "displayName": "Icon__Symbol",
+                                                          "foldedComponentIds": Array [],
+                                                          "render": [Function],
+                                                          "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
+                                                          "target": "div",
+                                                          "toString": [Function],
+                                                          "warnTooManyClasses": [Function],
+                                                          "withComponent": [Function],
+                                                        }
+                                                      }
+                                                      forwardedRef={null}
+                                                      name="mail"
+                                                    >
+                                                      <div
+                                                        className="Icon__Symbol-sc-1aleqew-0 iXTpeZ Info__EmailIcon-sc-1i3mfcy-12 jGuzkk"
+                                                        name="mail"
+                                                      />
+                                                    </StyledComponent>
+                                                  </Icon__Symbol>
+                                                </Icon>
+                                              </StyledComponent>
+                                            </Info__EmailIcon>
+                                            <Info__Underline>
+                                              <StyledComponent
+                                                forwardedComponent={
+                                                  Object {
+                                                    "$$typeof": Symbol(react.forward_ref),
+                                                    "attrs": Array [],
+                                                    "componentStyle": ComponentStyle {
+                                                      "componentId": "Info__Underline-sc-1i3mfcy-10",
+                                                      "isStatic": false,
+                                                      "lastClassName": "gJrtQS",
+                                                      "rules": Array [
+                                                        "display:inline-block;vertical-align:top;",
+                                                      ],
+                                                    },
+                                                    "displayName": "Info__Underline",
+                                                    "foldedComponentIds": Array [],
+                                                    "render": [Function],
+                                                    "styledComponentId": "Info__Underline-sc-1i3mfcy-10",
+                                                    "target": "a",
+                                                    "toString": [Function],
+                                                    "warnTooManyClasses": [Function],
+                                                    "withComponent": [Function],
+                                                  }
+                                                }
+                                                forwardedRef={null}
+                                              >
+                                                <a
+                                                  className="Info__Underline-sc-1i3mfcy-10 gJrtQS"
+                                                >
+                                                  hohuuphat22@gmail.com
+                                                </a>
+                                              </StyledComponent>
+                                            </Info__Underline>
+                                          </div>
+                                        </StyledComponent>
+                                      </Info__Email>
+                                      <Info__Phone>
+                                        <StyledComponent
+                                          forwardedComponent={
+                                            Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "attrs": Array [],
+                                              "componentStyle": ComponentStyle {
+                                                "componentId": "Info__Phone-sc-1i3mfcy-6",
+                                                "isStatic": false,
+                                                "lastClassName": "gmRyPl",
+                                                "rules": Array [
+                                                  "margin-bottom:10px;font-size:18px;line-height:1.5;font-weight:lighter;&::before{float:left;display:block;width:25px;height:25px;border:none;vertical-align:top;}",
+                                                ],
+                                              },
+                                              "displayName": "Info__Phone",
+                                              "foldedComponentIds": Array [
+                                                "Info__Paragraph-sc-1i3mfcy-2",
+                                              ],
+                                              "render": [Function],
+                                              "styledComponentId": "Info__Phone-sc-1i3mfcy-6",
+                                              "target": "div",
+                                              "toString": [Function],
+                                              "warnTooManyClasses": [Function],
+                                              "withComponent": [Function],
+                                            }
+                                          }
+                                          forwardedRef={null}
+                                        >
+                                          <div
+                                            className="Info__Paragraph-sc-1i3mfcy-2 Info__Phone-sc-1i3mfcy-6 gmRyPl"
+                                          >
+                                            <Info__PhoneIcon
+                                              name="phone"
+                                            >
+                                              <StyledComponent
+                                                forwardedComponent={
+                                                  Object {
+                                                    "$$typeof": Symbol(react.forward_ref),
+                                                    "attrs": Array [],
+                                                    "componentStyle": ComponentStyle {
+                                                      "componentId": "Info__PhoneIcon-sc-1i3mfcy-13",
+                                                      "isStatic": false,
+                                                      "lastClassName": "gBsUZU",
+                                                      "rules": Array [
+                                                        "padding-right:10px;",
+                                                      ],
+                                                    },
+                                                    "displayName": "Info__PhoneIcon",
+                                                    "foldedComponentIds": Array [],
+                                                    "render": [Function],
+                                                    "styledComponentId": "Info__PhoneIcon-sc-1i3mfcy-13",
+                                                    "target": [Function],
+                                                    "toString": [Function],
+                                                    "warnTooManyClasses": [Function],
+                                                    "withComponent": [Function],
+                                                  }
+                                                }
+                                                forwardedRef={null}
+                                                name="phone"
+                                              >
+                                                <Icon
+                                                  className="Info__PhoneIcon-sc-1i3mfcy-13 gBsUZU"
+                                                  name="phone"
+                                                >
+                                                  <Icon__Symbol
+                                                    className="Info__PhoneIcon-sc-1i3mfcy-13 gBsUZU"
+                                                    name="phone"
+                                                  >
+                                                    <StyledComponent
+                                                      className="Info__PhoneIcon-sc-1i3mfcy-13 gBsUZU"
+                                                      forwardedComponent={
+                                                        Object {
+                                                          "$$typeof": Symbol(react.forward_ref),
+                                                          "attrs": Array [],
+                                                          "componentStyle": ComponentStyle {
+                                                            "componentId": "Icon__Symbol-sc-1aleqew-0",
+                                                            "isStatic": false,
+                                                            "lastClassName": "jwScwA",
+                                                            "rules": Array [
+                                                              "display:inline-block;&::before{font-family:",
+                                                              [Function],
+                                                              ";font-style:normal;font-weight:normal;content:'",
+                                                              [Function],
+                                                              "';}",
+                                                            ],
+                                                          },
+                                                          "displayName": "Icon__Symbol",
+                                                          "foldedComponentIds": Array [],
+                                                          "render": [Function],
+                                                          "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
+                                                          "target": "div",
+                                                          "toString": [Function],
+                                                          "warnTooManyClasses": [Function],
+                                                          "withComponent": [Function],
+                                                        }
+                                                      }
+                                                      forwardedRef={null}
+                                                      name="phone"
+                                                    >
+                                                      <div
+                                                        className="Icon__Symbol-sc-1aleqew-0 cyiXON Info__PhoneIcon-sc-1i3mfcy-13 gBsUZU"
+                                                        name="phone"
+                                                      />
+                                                    </StyledComponent>
+                                                  </Icon__Symbol>
+                                                </Icon>
+                                              </StyledComponent>
+                                            </Info__PhoneIcon>
+                                            <Info__Underline>
+                                              <StyledComponent
+                                                forwardedComponent={
+                                                  Object {
+                                                    "$$typeof": Symbol(react.forward_ref),
+                                                    "attrs": Array [],
+                                                    "componentStyle": ComponentStyle {
+                                                      "componentId": "Info__Underline-sc-1i3mfcy-10",
+                                                      "isStatic": false,
+                                                      "lastClassName": "gJrtQS",
+                                                      "rules": Array [
+                                                        "display:inline-block;vertical-align:top;",
+                                                      ],
+                                                    },
+                                                    "displayName": "Info__Underline",
+                                                    "foldedComponentIds": Array [],
+                                                    "render": [Function],
+                                                    "styledComponentId": "Info__Underline-sc-1i3mfcy-10",
+                                                    "target": "a",
+                                                    "toString": [Function],
+                                                    "warnTooManyClasses": [Function],
+                                                    "withComponent": [Function],
+                                                  }
+                                                }
+                                                forwardedRef={null}
+                                              >
+                                                <a
+                                                  className="Info__Underline-sc-1i3mfcy-10 gJrtQS"
+                                                >
+                                                  +84 906323761
+                                                </a>
+                                              </StyledComponent>
+                                            </Info__Underline>
+                                          </div>
+                                        </StyledComponent>
+                                      </Info__Phone>
+                                    </div>
+                                  </StyledComponent>
+                                </Info__Container>
+                              </Info>
+                              <Socials>
+                                <Socials__Container>
+                                  <StyledComponent
+                                    forwardedComponent={
+                                      Object {
+                                        "$$typeof": Symbol(react.forward_ref),
+                                        "attrs": Array [],
+                                        "componentStyle": ComponentStyle {
+                                          "componentId": "Socials__Container-sc-1umla0t-0",
+                                          "isStatic": false,
+                                          "lastClassName": "jpsFiL",
+                                          "rules": Array [
+                                            "position:absolute;width:40px;height:100%;top:0;right:0;list-style-type:none;background-color:",
+                                            [Function],
+                                            ";",
+                                          ],
+                                        },
+                                        "displayName": "Socials__Container",
+                                        "foldedComponentIds": Array [],
+                                        "render": [Function],
+                                        "styledComponentId": "Socials__Container-sc-1umla0t-0",
+                                        "target": "ul",
+                                        "toString": [Function],
+                                        "warnTooManyClasses": [Function],
+                                        "withComponent": [Function],
+                                      }
+                                    }
+                                    forwardedRef={null}
+                                  >
+                                    <ul
+                                      className="Socials__Container-sc-1umla0t-0 jpsFiL"
+                                    >
+                                      <Socials__Item>
+                                        <StyledComponent
+                                          forwardedComponent={
+                                            Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "attrs": Array [],
+                                              "componentStyle": ComponentStyle {
+                                                "componentId": "Socials__Item-sc-1umla0t-1",
+                                                "isStatic": false,
+                                                "lastClassName": "gTTfuv",
+                                                "rules": Array [
+                                                  "display:block;width:40px;height:50px;text-align:center;overflow:hidden;background-color:",
+                                                  [Function],
+                                                  ";border-top:1px solid ",
+                                                  [Function],
+                                                  ";&:hover{background-color:transparent;}",
+                                                ],
+                                              },
+                                              "displayName": "Socials__Item",
+                                              "foldedComponentIds": Array [],
+                                              "render": [Function],
+                                              "styledComponentId": "Socials__Item-sc-1umla0t-1",
+                                              "target": "li",
+                                              "toString": [Function],
+                                              "warnTooManyClasses": [Function],
+                                              "withComponent": [Function],
+                                            }
+                                          }
+                                          forwardedRef={null}
+                                        >
+                                          <li
+                                            className="Socials__Item-sc-1umla0t-1 gTTfuv"
+                                          >
+                                            <Socials__IconWrapper
+                                              href="https://www.facebook.com/dekal.dev"
+                                              name="fb"
+                                              rel="nofollow"
+                                            >
+                                              <StyledComponent
+                                                forwardedComponent={
+                                                  Object {
+                                                    "$$typeof": Symbol(react.forward_ref),
+                                                    "attrs": Array [],
+                                                    "componentStyle": ComponentStyle {
+                                                      "componentId": "Socials__IconWrapper-sc-1umla0t-2",
+                                                      "isStatic": false,
+                                                      "lastClassName": "fjrQYH",
+                                                      "rules": Array [
+                                                        "display:inline-block;width:40px;color:",
+                                                        [Function],
+                                                        ";font-size:0;cursor:default;border:none;&::before{display:inline-block;width:40px;text-align:center;font-size:25px;line-height:50px;color:",
+                                                        [Function],
+                                                        ";}&:hover::before{color:",
+                                                        [Function],
+                                                        ";}",
+                                                      ],
+                                                    },
+                                                    "displayName": "Socials__IconWrapper",
+                                                    "foldedComponentIds": Array [],
+                                                    "render": [Function],
+                                                    "styledComponentId": "Socials__IconWrapper-sc-1umla0t-2",
+                                                    "target": [Function],
+                                                    "toString": [Function],
+                                                    "warnTooManyClasses": [Function],
+                                                    "withComponent": [Function],
+                                                  }
+                                                }
+                                                forwardedRef={null}
+                                                href="https://www.facebook.com/dekal.dev"
+                                                name="fb"
+                                                rel="nofollow"
+                                              >
+                                                <Icon
+                                                  className="Socials__IconWrapper-sc-1umla0t-2 fjrQYH"
+                                                  href="https://www.facebook.com/dekal.dev"
+                                                  name="fb"
+                                                  rel="nofollow"
+                                                >
+                                                  <Icon__Symbol
+                                                    className="Socials__IconWrapper-sc-1umla0t-2 fjrQYH"
+                                                    name="fb"
+                                                  >
+                                                    <StyledComponent
+                                                      className="Socials__IconWrapper-sc-1umla0t-2 fjrQYH"
+                                                      forwardedComponent={
+                                                        Object {
+                                                          "$$typeof": Symbol(react.forward_ref),
+                                                          "attrs": Array [],
+                                                          "componentStyle": ComponentStyle {
+                                                            "componentId": "Icon__Symbol-sc-1aleqew-0",
+                                                            "isStatic": false,
+                                                            "lastClassName": "jwScwA",
+                                                            "rules": Array [
+                                                              "display:inline-block;&::before{font-family:",
+                                                              [Function],
+                                                              ";font-style:normal;font-weight:normal;content:'",
+                                                              [Function],
+                                                              "';}",
+                                                            ],
+                                                          },
+                                                          "displayName": "Icon__Symbol",
+                                                          "foldedComponentIds": Array [],
+                                                          "render": [Function],
+                                                          "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
+                                                          "target": "div",
+                                                          "toString": [Function],
+                                                          "warnTooManyClasses": [Function],
+                                                          "withComponent": [Function],
+                                                        }
+                                                      }
+                                                      forwardedRef={null}
+                                                      name="fb"
+                                                    >
+                                                      <div
+                                                        className="Icon__Symbol-sc-1aleqew-0 dvXwJP Socials__IconWrapper-sc-1umla0t-2 fjrQYH"
+                                                        name="fb"
+                                                      />
+                                                    </StyledComponent>
+                                                  </Icon__Symbol>
+                                                </Icon>
+                                              </StyledComponent>
+                                            </Socials__IconWrapper>
+                                          </li>
+                                        </StyledComponent>
+                                      </Socials__Item>
+                                      <Socials__Item>
+                                        <StyledComponent
+                                          forwardedComponent={
+                                            Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "attrs": Array [],
+                                              "componentStyle": ComponentStyle {
+                                                "componentId": "Socials__Item-sc-1umla0t-1",
+                                                "isStatic": false,
+                                                "lastClassName": "gTTfuv",
+                                                "rules": Array [
+                                                  "display:block;width:40px;height:50px;text-align:center;overflow:hidden;background-color:",
+                                                  [Function],
+                                                  ";border-top:1px solid ",
+                                                  [Function],
+                                                  ";&:hover{background-color:transparent;}",
+                                                ],
+                                              },
+                                              "displayName": "Socials__Item",
+                                              "foldedComponentIds": Array [],
+                                              "render": [Function],
+                                              "styledComponentId": "Socials__Item-sc-1umla0t-1",
+                                              "target": "li",
+                                              "toString": [Function],
+                                              "warnTooManyClasses": [Function],
+                                              "withComponent": [Function],
+                                            }
+                                          }
+                                          forwardedRef={null}
+                                        >
+                                          <li
+                                            className="Socials__Item-sc-1umla0t-1 gTTfuv"
+                                          >
+                                            <Socials__IconWrapper
+                                              href="https://www.linkedin.com/in/phat-ho/"
+                                              name="linkedin"
+                                              rel="nofollow"
+                                            >
+                                              <StyledComponent
+                                                forwardedComponent={
+                                                  Object {
+                                                    "$$typeof": Symbol(react.forward_ref),
+                                                    "attrs": Array [],
+                                                    "componentStyle": ComponentStyle {
+                                                      "componentId": "Socials__IconWrapper-sc-1umla0t-2",
+                                                      "isStatic": false,
+                                                      "lastClassName": "fjrQYH",
+                                                      "rules": Array [
+                                                        "display:inline-block;width:40px;color:",
+                                                        [Function],
+                                                        ";font-size:0;cursor:default;border:none;&::before{display:inline-block;width:40px;text-align:center;font-size:25px;line-height:50px;color:",
+                                                        [Function],
+                                                        ";}&:hover::before{color:",
+                                                        [Function],
+                                                        ";}",
+                                                      ],
+                                                    },
+                                                    "displayName": "Socials__IconWrapper",
+                                                    "foldedComponentIds": Array [],
+                                                    "render": [Function],
+                                                    "styledComponentId": "Socials__IconWrapper-sc-1umla0t-2",
+                                                    "target": [Function],
+                                                    "toString": [Function],
+                                                    "warnTooManyClasses": [Function],
+                                                    "withComponent": [Function],
+                                                  }
+                                                }
+                                                forwardedRef={null}
+                                                href="https://www.linkedin.com/in/phat-ho/"
+                                                name="linkedin"
+                                                rel="nofollow"
+                                              >
+                                                <Icon
+                                                  className="Socials__IconWrapper-sc-1umla0t-2 fjrQYH"
+                                                  href="https://www.linkedin.com/in/phat-ho/"
+                                                  name="linkedin"
+                                                  rel="nofollow"
+                                                >
+                                                  <Icon__Symbol
+                                                    className="Socials__IconWrapper-sc-1umla0t-2 fjrQYH"
+                                                    name="linkedin"
+                                                  >
+                                                    <StyledComponent
+                                                      className="Socials__IconWrapper-sc-1umla0t-2 fjrQYH"
+                                                      forwardedComponent={
+                                                        Object {
+                                                          "$$typeof": Symbol(react.forward_ref),
+                                                          "attrs": Array [],
+                                                          "componentStyle": ComponentStyle {
+                                                            "componentId": "Icon__Symbol-sc-1aleqew-0",
+                                                            "isStatic": false,
+                                                            "lastClassName": "jwScwA",
+                                                            "rules": Array [
+                                                              "display:inline-block;&::before{font-family:",
+                                                              [Function],
+                                                              ";font-style:normal;font-weight:normal;content:'",
+                                                              [Function],
+                                                              "';}",
+                                                            ],
+                                                          },
+                                                          "displayName": "Icon__Symbol",
+                                                          "foldedComponentIds": Array [],
+                                                          "render": [Function],
+                                                          "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
+                                                          "target": "div",
+                                                          "toString": [Function],
+                                                          "warnTooManyClasses": [Function],
+                                                          "withComponent": [Function],
+                                                        }
+                                                      }
+                                                      forwardedRef={null}
+                                                      name="linkedin"
+                                                    >
+                                                      <div
+                                                        className="Icon__Symbol-sc-1aleqew-0 jwScwA Socials__IconWrapper-sc-1umla0t-2 fjrQYH"
+                                                        name="linkedin"
+                                                      />
+                                                    </StyledComponent>
+                                                  </Icon__Symbol>
+                                                </Icon>
+                                              </StyledComponent>
+                                            </Socials__IconWrapper>
+                                          </li>
+                                        </StyledComponent>
+                                      </Socials__Item>
+                                    </ul>
+                                  </StyledComponent>
+                                </Socials__Container>
+                              </Socials>
+                            </div>
+                          </StyledComponent>
+                        </Content__Group>
+                      </div>
+                    </StyledComponent>
+                  </Content__Container>
+                </Content>
+              </section>
+            </StyledComponent>
+          </Contact__Card>
+        </div>
+        <Map>
+          <Map__Container
+            id="map"
+          >
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Map__Container-sc-1fmu8sw-0",
+                    "isStatic": false,
+                    "lastClassName": "XqlCR",
+                    "rules": Array [
+                      "position:relative;width:100%;height:600px;overflow:hidden;background-position:top center;background-size:cover;background-image:url(/images/map.jpg);box-shadow:0 0 2px 1px ",
+                      [Function],
+                      ";",
+                    ],
+                  },
+                  "displayName": "Map__Container",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "Map__Container-sc-1fmu8sw-0",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              id="map"
+            >
+              <div
+                className="Map__Container-sc-1fmu8sw-0 XqlCR"
+                id="map"
+              />
+            </StyledComponent>
+          </Map__Container>
+        </Map>
+      </div>
+    </StyledComponent>
+  </Contact__Container>
+</Contact>
+`;

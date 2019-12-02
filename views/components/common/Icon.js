@@ -17,6 +17,8 @@ Icon.propTypes = {
 export default Icon
 
 const Symbol = styled.div`
+  display: inline-block;
+
   &::before {
     font-family: ${props => props.theme.fonts.fontIp};
     font-style: normal;

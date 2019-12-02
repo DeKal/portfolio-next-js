@@ -7,7 +7,7 @@ import About from '~/views/components/About'
 // import Service from '~/views/components/Service'
 // import Project from '~/views/components/Project'
 // import Certification from '~/views/components/Certification'
-// import Contact from '~/views/components/Contact'
+import Contact from '~/views/components/Contact'
 import Footer from '~/views/components/Footer'
 
 const HomePage = () => (
@@ -18,8 +18,8 @@ const HomePage = () => (
     <About />
     {/*<Service />
     <Project />
-    <Certification />
-    <Contact /> */}
+    <Certification /> */}
+    <Contact />
     <Footer />
   </Fragment>
 )
