@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render without throwing an error 1`] = `
+<Home__HomeSection>
+  <Home__Background />
+  <Home__Overlay>
+    <div
+      className="container"
+    >
+      <Home__Header>
+        <Home__TitleName>
+           Phat Ho
+        </Home__TitleName>
+        <Home__TitleJob>
+           Fullstack Developer
+        </Home__TitleJob>
+      </Home__Header>
+    </div>
+  </Home__Overlay>
+</Home__HomeSection>
+`;
