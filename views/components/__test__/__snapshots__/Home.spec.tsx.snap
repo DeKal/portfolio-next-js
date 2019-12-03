@@ -2,7 +2,9 @@
 
 exports[`Home should render without throwing an error 1`] = `
 <Home>
-  <Home__HomeSection>
+  <Home__HomeSection
+    id="Home"
+  >
     <StyledComponent
       forwardedComponent={
         Object {
@@ -29,9 +31,11 @@ exports[`Home should render without throwing an error 1`] = `
         }
       }
       forwardedRef={null}
+      id="Home"
     >
       <section
         className="Home__HomeSection-sc-1eskvms-0 blNagb"
+        id="Home"
       >
         <Home__Background>
           <StyledComponent

@@ -1,9 +1,9 @@
 import * as React from 'react'
-
+import { HOME } from '~/consts/pages'
 import styled from 'styled-components/macro'
 
 const Home = () => (
-  <HomeSection>
+  <HomeSection id={HOME}>
     <Background />
     <Overlay>
       <div className="container">
