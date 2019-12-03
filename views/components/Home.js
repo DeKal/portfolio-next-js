@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { HOME } from '~/consts/pages'
 import styled from 'styled-components/macro'
+import { Translate } from 'react-localize-redux'
 
 const Home = () => (
   <HomeSection id={HOME}>
@@ -8,8 +9,13 @@ const Home = () => (
     <Overlay>
       <div className="container">
         <Header>
-          <TitleName> Phat Ho</TitleName>
-          <TitleJob> Fullstack Developer</TitleJob>
+          <TitleName>
+            <Translate id="Name" />
+          </TitleName>
+          <TitleJob>
+            {' '}
+            <Translate id="Job" />
+          </TitleJob>
         </Header>
       </div>
     </Overlay>
