@@ -227,7 +227,6 @@ exports[`Home should render without throwing an error 1`] = `
                           <h2
                             className="Home__TitleJob-sc-1eskvms-2 fKrioB"
                           >
-                             
                             <Translate
                               id="Job"
                             >
