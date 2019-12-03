@@ -3,11 +3,9 @@
 exports[`Home should render without throwing an error 1`] = `
 <Home>
   <Home__HomeSection
-    className="container"
     id="Home"
   >
     <StyledComponent
-      className="container"
       forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
@@ -36,7 +34,7 @@ exports[`Home should render without throwing an error 1`] = `
       id="Home"
     >
       <section
-        className="Home__HomeSection-sc-1eskvms-0 blNagb container"
+        className="Home__HomeSection-sc-1eskvms-0 blNagb"
         id="Home"
       >
         <Home__Background>
