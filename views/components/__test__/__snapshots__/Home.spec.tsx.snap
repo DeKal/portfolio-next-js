@@ -166,7 +166,29 @@ exports[`Home should render without throwing an error 1`] = `
                           <h1
                             className="Home__TitleName-sc-1eskvms-1 klbGLv"
                           >
-                             Phat Ho
+                            <Translate
+                              id="Name"
+                            >
+                              <WrappedTranslate
+                                context={
+                                  Object {
+                                    "activeLanguage": undefined,
+                                    "addTranslation": [Function],
+                                    "addTranslationForLanguage": [Function],
+                                    "defaultLanguage": undefined,
+                                    "ignoreTranslateChildren": false,
+                                    "initialize": [Function],
+                                    "languages": Array [],
+                                    "renderToStaticMarkup": false,
+                                    "setActiveLanguage": [Function],
+                                    "translate": [Function],
+                                  }
+                                }
+                                id="Name"
+                              >
+                                Missing translationId: Name for language: \${ languageCode }
+                              </WrappedTranslate>
+                            </Translate>
                           </h1>
                         </StyledComponent>
                       </Home__TitleName>
@@ -205,7 +227,29 @@ exports[`Home should render without throwing an error 1`] = `
                           <h2
                             className="Home__TitleJob-sc-1eskvms-2 fKrioB"
                           >
-                             Fullstack Developer
+                            <Translate
+                              id="Job"
+                            >
+                              <WrappedTranslate
+                                context={
+                                  Object {
+                                    "activeLanguage": undefined,
+                                    "addTranslation": [Function],
+                                    "addTranslationForLanguage": [Function],
+                                    "defaultLanguage": undefined,
+                                    "ignoreTranslateChildren": false,
+                                    "initialize": [Function],
+                                    "languages": Array [],
+                                    "renderToStaticMarkup": false,
+                                    "setActiveLanguage": [Function],
+                                    "translate": [Function],
+                                  }
+                                }
+                                id="Job"
+                              >
+                                Missing translationId: Job for language: \${ languageCode }
+                              </WrappedTranslate>
+                            </Translate>
                           </h2>
                         </StyledComponent>
                       </Home__TitleJob>
