@@ -1,10 +1,15 @@
 import React from 'react'
 import styled from 'styled-components/macro'
+import { Translate } from 'react-localize-redux'
 
 const Description = () => (
   <Container>
-    <p>Do you need a professional for lending a hand?</p>
-    <p>Are you facing unfathomable problem?</p>
+    <p>
+      <Translate id="Contact: Description 1" />
+    </p>
+    <p>
+      <Translate id="Contact: Description 2" />
+    </p>
   </Container>
 )
 

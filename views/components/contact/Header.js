@@ -1,10 +1,15 @@
 import React from 'react'
 import styled from 'styled-components/macro'
+import { Translate } from 'react-localize-redux'
 
 const Header = () => (
   <Container className="contact-card__header">
-    <h2>Contact information</h2>
-    <h4>My pleasure to meet you!!</h4>
+    <h2>
+      <Translate id="Contact: Header 1" />
+    </h2>
+    <h4>
+      <Translate id="Contact: Header 2" />
+    </h4>
   </Container>
 )
 

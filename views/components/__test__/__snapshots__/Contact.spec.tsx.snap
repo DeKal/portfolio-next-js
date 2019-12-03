@@ -107,10 +107,54 @@ exports[`Footer should render without throwing an error 1`] = `
                         className="Header__Container-sc-14hfkna-0 jDUYxS contact-card__header"
                       >
                         <h2>
-                          Contact information
+                          <Translate
+                            id="Contact: Header 1"
+                          >
+                            <WrappedTranslate
+                              context={
+                                Object {
+                                  "activeLanguage": undefined,
+                                  "addTranslation": [Function],
+                                  "addTranslationForLanguage": [Function],
+                                  "defaultLanguage": undefined,
+                                  "ignoreTranslateChildren": false,
+                                  "initialize": [Function],
+                                  "languages": Array [],
+                                  "renderToStaticMarkup": false,
+                                  "setActiveLanguage": [Function],
+                                  "translate": [Function],
+                                }
+                              }
+                              id="Contact: Header 1"
+                            >
+                              Missing translationId: Contact: Header 1 for language: \${ languageCode }
+                            </WrappedTranslate>
+                          </Translate>
                         </h2>
                         <h4>
-                          My pleasure to meet you!!
+                          <Translate
+                            id="Contact: Header 2"
+                          >
+                            <WrappedTranslate
+                              context={
+                                Object {
+                                  "activeLanguage": undefined,
+                                  "addTranslation": [Function],
+                                  "addTranslationForLanguage": [Function],
+                                  "defaultLanguage": undefined,
+                                  "ignoreTranslateChildren": false,
+                                  "initialize": [Function],
+                                  "languages": Array [],
+                                  "renderToStaticMarkup": false,
+                                  "setActiveLanguage": [Function],
+                                  "translate": [Function],
+                                }
+                              }
+                              id="Contact: Header 2"
+                            >
+                              Missing translationId: Contact: Header 2 for language: \${ languageCode }
+                            </WrappedTranslate>
+                          </Translate>
                         </h4>
                       </header>
                     </StyledComponent>
@@ -249,10 +293,54 @@ exports[`Footer should render without throwing an error 1`] = `
                                       className="Description__Container-sc-1mwo04n-0 kulVUm"
                                     >
                                       <p>
-                                        Do you need a professional for lending a hand?
+                                        <Translate
+                                          id="Contact: Description 1"
+                                        >
+                                          <WrappedTranslate
+                                            context={
+                                              Object {
+                                                "activeLanguage": undefined,
+                                                "addTranslation": [Function],
+                                                "addTranslationForLanguage": [Function],
+                                                "defaultLanguage": undefined,
+                                                "ignoreTranslateChildren": false,
+                                                "initialize": [Function],
+                                                "languages": Array [],
+                                                "renderToStaticMarkup": false,
+                                                "setActiveLanguage": [Function],
+                                                "translate": [Function],
+                                              }
+                                            }
+                                            id="Contact: Description 1"
+                                          >
+                                            Missing translationId: Contact: Description 1 for language: \${ languageCode }
+                                          </WrappedTranslate>
+                                        </Translate>
                                       </p>
                                       <p>
-                                        Are you facing unfathomable problem?
+                                        <Translate
+                                          id="Contact: Description 2"
+                                        >
+                                          <WrappedTranslate
+                                            context={
+                                              Object {
+                                                "activeLanguage": undefined,
+                                                "addTranslation": [Function],
+                                                "addTranslationForLanguage": [Function],
+                                                "defaultLanguage": undefined,
+                                                "ignoreTranslateChildren": false,
+                                                "initialize": [Function],
+                                                "languages": Array [],
+                                                "renderToStaticMarkup": false,
+                                                "setActiveLanguage": [Function],
+                                                "translate": [Function],
+                                              }
+                                            }
+                                            id="Contact: Description 2"
+                                          >
+                                            Missing translationId: Contact: Description 2 for language: \${ languageCode }
+                                          </WrappedTranslate>
+                                        </Translate>
                                       </p>
                                     </div>
                                   </StyledComponent>
@@ -317,7 +405,29 @@ exports[`Footer should render without throwing an error 1`] = `
                                           <h4
                                             className="Info__Name-sc-1i3mfcy-1 fZWWyK"
                                           >
-                                            Phat Ho
+                                            <Translate
+                                              id="Contact: Info Name"
+                                            >
+                                              <WrappedTranslate
+                                                context={
+                                                  Object {
+                                                    "activeLanguage": undefined,
+                                                    "addTranslation": [Function],
+                                                    "addTranslationForLanguage": [Function],
+                                                    "defaultLanguage": undefined,
+                                                    "ignoreTranslateChildren": false,
+                                                    "initialize": [Function],
+                                                    "languages": Array [],
+                                                    "renderToStaticMarkup": false,
+                                                    "setActiveLanguage": [Function],
+                                                    "translate": [Function],
+                                                  }
+                                                }
+                                                id="Contact: Info Name"
+                                              >
+                                                Missing translationId: Contact: Info Name for language: \${ languageCode }
+                                              </WrappedTranslate>
+                                            </Translate>
                                           </h4>
                                         </StyledComponent>
                                       </Info__Name>
@@ -352,7 +462,29 @@ exports[`Footer should render without throwing an error 1`] = `
                                           <div
                                             className="Info__Paragraph-sc-1i3mfcy-2 Info__Role-sc-1i3mfcy-3 bpqLRD"
                                           >
-                                            Fullstack Developer
+                                            <Translate
+                                              id="Contact: Info Role"
+                                            >
+                                              <WrappedTranslate
+                                                context={
+                                                  Object {
+                                                    "activeLanguage": undefined,
+                                                    "addTranslation": [Function],
+                                                    "addTranslationForLanguage": [Function],
+                                                    "defaultLanguage": undefined,
+                                                    "ignoreTranslateChildren": false,
+                                                    "initialize": [Function],
+                                                    "languages": Array [],
+                                                    "renderToStaticMarkup": false,
+                                                    "setActiveLanguage": [Function],
+                                                    "translate": [Function],
+                                                  }
+                                                }
+                                                id="Contact: Info Role"
+                                              >
+                                                Missing translationId: Contact: Info Role for language: \${ languageCode }
+                                              </WrappedTranslate>
+                                            </Translate>
                                           </div>
                                         </StyledComponent>
                                       </Info__Role>
@@ -528,7 +660,29 @@ exports[`Footer should render without throwing an error 1`] = `
                                                       <span
                                                         className="Info__Inline-sc-1i3mfcy-7 Info__Country-sc-1i3mfcy-8 dCdbHX"
                                                       >
-                                                        VietNam
+                                                        <Translate
+                                                          id="Contact: Info Country"
+                                                        >
+                                                          <WrappedTranslate
+                                                            context={
+                                                              Object {
+                                                                "activeLanguage": undefined,
+                                                                "addTranslation": [Function],
+                                                                "addTranslationForLanguage": [Function],
+                                                                "defaultLanguage": undefined,
+                                                                "ignoreTranslateChildren": false,
+                                                                "initialize": [Function],
+                                                                "languages": Array [],
+                                                                "renderToStaticMarkup": false,
+                                                                "setActiveLanguage": [Function],
+                                                                "translate": [Function],
+                                                              }
+                                                            }
+                                                            id="Contact: Info Country"
+                                                          >
+                                                            Missing translationId: Contact: Info Country for language: \${ languageCode }
+                                                          </WrappedTranslate>
+                                                        </Translate>
                                                       </span>
                                                     </StyledComponent>
                                                   </Info__Country>
@@ -564,7 +718,29 @@ exports[`Footer should render without throwing an error 1`] = `
                                                       <span
                                                         className="Info__Inline-sc-1i3mfcy-7 Info__Address-sc-1i3mfcy-9 jgUBaW"
                                                       >
-                                                        Dist 1, Ho Chi Minh City
+                                                        <Translate
+                                                          id="Contact: Info Dist"
+                                                        >
+                                                          <WrappedTranslate
+                                                            context={
+                                                              Object {
+                                                                "activeLanguage": undefined,
+                                                                "addTranslation": [Function],
+                                                                "addTranslationForLanguage": [Function],
+                                                                "defaultLanguage": undefined,
+                                                                "ignoreTranslateChildren": false,
+                                                                "initialize": [Function],
+                                                                "languages": Array [],
+                                                                "renderToStaticMarkup": false,
+                                                                "setActiveLanguage": [Function],
+                                                                "translate": [Function],
+                                                              }
+                                                            }
+                                                            id="Contact: Info Dist"
+                                                          >
+                                                            Missing translationId: Contact: Info Dist for language: \${ languageCode }
+                                                          </WrappedTranslate>
+                                                        </Translate>
                                                       </span>
                                                     </StyledComponent>
                                                   </Info__Address>
@@ -907,9 +1083,9 @@ exports[`Footer should render without throwing an error 1`] = `
                                               "componentStyle": ComponentStyle {
                                                 "componentId": "Socials__Item-sc-1umla0t-1",
                                                 "isStatic": false,
-                                                "lastClassName": "gTTfuv",
+                                                "lastClassName": "gLogpD",
                                                 "rules": Array [
-                                                  "display:block;width:40px;height:50px;text-align:center;overflow:hidden;background-color:",
+                                                  "display:block;text-align:center;overflow:hidden;background-color:",
                                                   [Function],
                                                   ";border-top:1px solid ",
                                                   [Function],
@@ -929,7 +1105,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                           forwardedRef={null}
                                         >
                                           <li
-                                            className="Socials__Item-sc-1umla0t-1 gTTfuv"
+                                            className="Socials__Item-sc-1umla0t-1 gLogpD"
                                           >
                                             <Socials__IconWrapper
                                               href="https://www.facebook.com/dekal.dev"
@@ -944,11 +1120,11 @@ exports[`Footer should render without throwing an error 1`] = `
                                                     "componentStyle": ComponentStyle {
                                                       "componentId": "Socials__IconWrapper-sc-1umla0t-2",
                                                       "isStatic": false,
-                                                      "lastClassName": "fjrQYH",
+                                                      "lastClassName": "bFtsyN",
                                                       "rules": Array [
-                                                        "display:inline-block;width:40px;color:",
+                                                        "display:inline-block;color:",
                                                         [Function],
-                                                        ";font-size:0;cursor:default;border:none;&::before{display:inline-block;width:40px;text-align:center;font-size:25px;line-height:50px;color:",
+                                                        ";border:none;&::before{display:inline-block;text-align:center;font-size:25px;line-height:50px;color:",
                                                         [Function],
                                                         ";}&:hover::before{color:",
                                                         [Function],
@@ -971,17 +1147,17 @@ exports[`Footer should render without throwing an error 1`] = `
                                                 rel="nofollow"
                                               >
                                                 <Icon
-                                                  className="Socials__IconWrapper-sc-1umla0t-2 fjrQYH"
+                                                  className="Socials__IconWrapper-sc-1umla0t-2 bFtsyN"
                                                   href="https://www.facebook.com/dekal.dev"
                                                   name="fb"
                                                   rel="nofollow"
                                                 >
                                                   <Icon__Symbol
-                                                    className="Socials__IconWrapper-sc-1umla0t-2 fjrQYH"
+                                                    className="Socials__IconWrapper-sc-1umla0t-2 bFtsyN"
                                                     name="fb"
                                                   >
                                                     <StyledComponent
-                                                      className="Socials__IconWrapper-sc-1umla0t-2 fjrQYH"
+                                                      className="Socials__IconWrapper-sc-1umla0t-2 bFtsyN"
                                                       forwardedComponent={
                                                         Object {
                                                           "$$typeof": Symbol(react.forward_ref),
@@ -1012,7 +1188,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                                       name="fb"
                                                     >
                                                       <div
-                                                        className="Icon__Symbol-sc-1aleqew-0 dvXwJP Socials__IconWrapper-sc-1umla0t-2 fjrQYH"
+                                                        className="Icon__Symbol-sc-1aleqew-0 dvXwJP Socials__IconWrapper-sc-1umla0t-2 bFtsyN"
                                                         name="fb"
                                                       />
                                                     </StyledComponent>
@@ -1032,9 +1208,9 @@ exports[`Footer should render without throwing an error 1`] = `
                                               "componentStyle": ComponentStyle {
                                                 "componentId": "Socials__Item-sc-1umla0t-1",
                                                 "isStatic": false,
-                                                "lastClassName": "gTTfuv",
+                                                "lastClassName": "gLogpD",
                                                 "rules": Array [
-                                                  "display:block;width:40px;height:50px;text-align:center;overflow:hidden;background-color:",
+                                                  "display:block;text-align:center;overflow:hidden;background-color:",
                                                   [Function],
                                                   ";border-top:1px solid ",
                                                   [Function],
@@ -1054,7 +1230,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                           forwardedRef={null}
                                         >
                                           <li
-                                            className="Socials__Item-sc-1umla0t-1 gTTfuv"
+                                            className="Socials__Item-sc-1umla0t-1 gLogpD"
                                           >
                                             <Socials__IconWrapper
                                               href="https://www.linkedin.com/in/phat-ho/"
@@ -1069,11 +1245,11 @@ exports[`Footer should render without throwing an error 1`] = `
                                                     "componentStyle": ComponentStyle {
                                                       "componentId": "Socials__IconWrapper-sc-1umla0t-2",
                                                       "isStatic": false,
-                                                      "lastClassName": "fjrQYH",
+                                                      "lastClassName": "bFtsyN",
                                                       "rules": Array [
-                                                        "display:inline-block;width:40px;color:",
+                                                        "display:inline-block;color:",
                                                         [Function],
-                                                        ";font-size:0;cursor:default;border:none;&::before{display:inline-block;width:40px;text-align:center;font-size:25px;line-height:50px;color:",
+                                                        ";border:none;&::before{display:inline-block;text-align:center;font-size:25px;line-height:50px;color:",
                                                         [Function],
                                                         ";}&:hover::before{color:",
                                                         [Function],
@@ -1096,17 +1272,17 @@ exports[`Footer should render without throwing an error 1`] = `
                                                 rel="nofollow"
                                               >
                                                 <Icon
-                                                  className="Socials__IconWrapper-sc-1umla0t-2 fjrQYH"
+                                                  className="Socials__IconWrapper-sc-1umla0t-2 bFtsyN"
                                                   href="https://www.linkedin.com/in/phat-ho/"
                                                   name="linkedin"
                                                   rel="nofollow"
                                                 >
                                                   <Icon__Symbol
-                                                    className="Socials__IconWrapper-sc-1umla0t-2 fjrQYH"
+                                                    className="Socials__IconWrapper-sc-1umla0t-2 bFtsyN"
                                                     name="linkedin"
                                                   >
                                                     <StyledComponent
-                                                      className="Socials__IconWrapper-sc-1umla0t-2 fjrQYH"
+                                                      className="Socials__IconWrapper-sc-1umla0t-2 bFtsyN"
                                                       forwardedComponent={
                                                         Object {
                                                           "$$typeof": Symbol(react.forward_ref),
@@ -1137,7 +1313,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                                       name="linkedin"
                                                     >
                                                       <div
-                                                        className="Icon__Symbol-sc-1aleqew-0 jwScwA Socials__IconWrapper-sc-1umla0t-2 fjrQYH"
+                                                        className="Icon__Symbol-sc-1aleqew-0 jwScwA Socials__IconWrapper-sc-1umla0t-2 bFtsyN"
                                                         name="linkedin"
                                                       />
                                                     </StyledComponent>

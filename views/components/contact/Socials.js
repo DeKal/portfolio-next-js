@@ -34,8 +34,6 @@ const Container = styled.ul`
 `
 const Item = styled.li`
   display: block;
-  width: 40px;
-  height: 50px;
   text-align: center;
   overflow: hidden;
   background-color: ${props => props.theme.colors.colorDarken};
@@ -48,15 +46,11 @@ const Item = styled.li`
 
 const IconWrapper = styled(Icon)`
   display: inline-block;
-  width: 40px;
   color: ${props => props.theme.colors.colorLight};
-  font-size: 0;
-  cursor: default;
   border: none;
 
   &::before {
     display: inline-block;
-    width: 40px;
     text-align: center;
     font-size: 25px;
     line-height: 50px;

@@ -1,17 +1,26 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import Icon from '~/views/components/common/Icon'
+import { Translate } from 'react-localize-redux'
 
 const Info = () => (
   <Container>
-    <Name>Phat Ho</Name>
-    <Role>Fullstack Developer</Role>
+    <Name>
+      <Translate id="Contact: Info Name" />
+    </Name>
+    <Role>
+      <Translate id="Contact: Info Role" />
+    </Role>
     <Location>
       <LocationIcon name="location" />
       <Underline href="#map">
-        <Country>VietNam</Country>
+        <Country>
+          <Translate id="Contact: Info Country" />
+        </Country>
         ,&nbsp;
-        <Address>Dist 1, Ho Chi Minh City</Address>
+        <Address>
+          <Translate id="Contact: Info Dist" />
+        </Address>
       </Underline>
     </Location>
     <Email>
