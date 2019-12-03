@@ -13,7 +13,6 @@ const Home = () => (
             <Translate id="Name" />
           </TitleName>
           <TitleJob>
-            {' '}
             <Translate id="Job" />
           </TitleJob>
         </Header>
