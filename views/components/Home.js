@@ -3,7 +3,7 @@ import { HOME } from '~/consts/pages'
 import styled from 'styled-components/macro'
 
 const Home = () => (
-  <HomeSection id={HOME} className="container">
+  <HomeSection id={HOME}>
     <Background />
     <Overlay>
       <div className="container">
