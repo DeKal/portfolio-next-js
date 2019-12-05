@@ -9,48 +9,42 @@ const Certification = () => (
         <h4></h4>
       </header>
       <div className="grid-container">
-        <CertificationList>
-          <CertificationStep>
+        <List className="certification">
+          <Step>
             <Research>
-              <CertificationIcon icon icon_cert is-active />
+              <Icons icon icon_cert is-active />
             </Research>
-          </CertificationStep>
-          <CertificationInfo is-active>
+          </Step>
+          <Info is-active>
             <ResearchInfo>
-              <CertificationHeader>
+              <Header>
                 <spana>1</spana>
                 &mdash;Bachelor of Science
-              </CertificationHeader>
+              </Header>
               <p>
                 Graduating from HCM University of Science, Advanced Program in
                 Computer Science.
               </p>
             </ResearchInfo>
-          </CertificationInfo>
-        </CertificationList>
+          </Info>
+        </List>
       </div>
     </div>
   </section>
 )
 
-const CertificationList = styled.ul`
-	position: relative;
-	list-style-type: none;
-	+gs-column(12);
-	height: 360px;
-  &:hover {
-
-  }
+const List = styled.ul`
+  position: relative;
+  list-style-type: none;
+  height: 360px;
 `
 
-const CertificationStep = styled.li`
+const Step = styled.li`
   position: absolute;
   top: 0;
   display: block;
   width: 25%;
   height: 100%;
-  // Shame and dirty hack, but it prevents IE8-9 flickering issue with on text layer;
-  // Just remove it and enjoy tooltip blinking on hover;
   background-color: rgba(255, 255, 255, 0);
   background-repeat: repeat;
 `
@@ -60,7 +54,7 @@ const Research = styled.li`
   z-index: 40;
 `
 
-const CertificationIcon = styled.div`
+const Icons = styled.div`
   position: absolute;
   top: 0;
   left: 50%;
@@ -80,18 +74,20 @@ const CertificationIcon = styled.div`
     height: 160px;
     margin-left: -80px;
   }
+
   @media screen and (max-width: 600px) {
     width: 140px;
     height: 140px;
     margin-left: -70px;
   }
+
   @media screen and (max-width: 480px) {
     width: 120px;
     height: 120px;
     margin-left: -60px;
   }
 
-  &:before {
+  &::before {
     font-size: 80px;
     line-height: 180px;
     color: darken(${props => props.theme.colors.colorLight}, 5%);
@@ -105,36 +101,25 @@ const CertificationIcon = styled.div`
       -1px 0 0 ${props => props.theme.colors.colorDark};
     cursor: default;
     transition: all 0.5s;
+
     @media screen and (max-width: 800px) {
       font-size: 70px;
       line-height: 160px;
     }
+
     @media screen and (max-width: 600px) {
       font-size: 70px;
       line-height: 140px;
     }
+
     @media screen and (max-width: 480px) {
       font-size: 60px;
       line-height: 120px;
     }
   }
-
-  &.is-active {
-    border-color: ${props => props.theme.colors.colorAccent};
-    &:before {
-      text-shadow: -1px -1px 0 ${props => props.theme.colors.colorAccent},
-        0 -1px 0 ${props => props.theme.colors.colorAccent},
-        1px -1px 0 ${props => props.theme.colors.colorAccent},
-        1px 0 0 ${props => props.theme.colors.colorAccent},
-        1px 1px 0 ${props => props.theme.colors.colorAccent},
-        0 1px 0 ${props => props.theme.colors.colorAccent},
-        -1px 1px 0 ${props => props.theme.colors.colorAccent},
-        -1px 0 0 ${props => props.theme.colors.colorAccent};
-    }
-  }
 `
 
-const CertificationInfo = styled.li`
+const Info = styled.li`
   position: absolute;
   top: 180px;
   left: 0;
@@ -150,9 +135,11 @@ const CertificationInfo = styled.li`
   @media screen and (max-width: 800px) {
     top: 160px;
   }
+
   @media screen and (max-width: 600px) {
     top: 140px;
   }
+
   @media screen and (max-width: 480px) {
     top: 120px;
   }
@@ -161,10 +148,11 @@ const CertificationInfo = styled.li`
 const ResearchInfo = styled.li`
   visibility: hidden;
 `
-const CertificationHeader = styled.h3`
-margin-bottom: 10px
-& span
-  color: ${props => props.theme.colors.colorDarken};
+
+const Header = styled.h3`
+  margin-bottom: 10px & span {
+    color: ${props => props.theme.colors.colorDarken};
+  }
 `
 
 export default Certification
