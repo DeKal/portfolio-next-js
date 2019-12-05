@@ -12,7 +12,7 @@ const Certification = () => (
         <List className="certification">
           <Step>
             <Research>
-              <Icons icon icon_cert is-active />
+              <Icons icon icon_cert is-active></Icons>
             </Research>
           </Step>
           <Info is-active>
@@ -115,6 +115,21 @@ const Icons = styled.div`
     @media screen and (max-width: 480px) {
       font-size: 60px;
       line-height: 120px;
+    }
+  }
+
+  &.is-active {
+    border-color: ${props => props.theme.colors.colorAccent};
+
+    &::before {
+      text-shadow: -1px -1px 0 ${props => props.theme.colors.colorAccent},
+        0 -1px 0 ${props => props.theme.colors.colorAccent},
+        1px -1px 0 ${props => props.theme.colors.colorAccent},
+        1px 0 0 ${props => props.theme.colors.colorAccent},
+        1px 1px 0 ${props => props.theme.colors.colorAccent},
+        0 1px 0 ${props => props.theme.colors.colorAccent},
+        -1px 1px 0 ${props => props.theme.colors.colorAccent},
+        -1px 0 0 ${props => props.theme.colors.colorAccent};
     }
   }
 `
