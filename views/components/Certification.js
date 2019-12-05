@@ -1,4 +1,5 @@
 import * as React from 'react'
+import styled from 'styled-components/macro'
 
 const Certification = () => (
   <section className="common-section" id="process">
@@ -8,65 +9,162 @@ const Certification = () => (
         <h4></h4>
       </header>
       <div className="grid-container">
-        <ul className="process">
-          <li className="process__step process__step_research">
-            <div className="process__step-icon icon icon_cert is-active"></div>
-          </li>
-          <li className="process__step-info process__step-info_research is-active">
-            <h3>
-              <spana>1</spana>
-              &mdash;Bachelor of Science
-            </h3>
-            <p>
-              Graduating from HCM University of Science, Advanced Program in
-              Computer Science.
-            </p>
-          </li>
-          <li className="process__step process__step_develop">
-            <div className="process__step-icon icon icon_cert"></div>
-          </li>
-          <li className="process__step-info process__step-info_develop">
-            <h3>
-              <spana>2</spana>
-              &mdash;Communicative Certification: TOEFL ibt 85 pts
-            </h3>
-            <p>
-              The TOEFL iBT® test measures your ability to use and understand
-              English at the university level. And it evaluates how well you
-              combine your reading, listening, speaking and writing skills to
-              perform academic tasks.
-            </p>
-          </li>
-          <li className="process__step process__step_deploy">
-            <div className="process__step-icon icon icon_prize"></div>
-          </li>
-          <li className="process__step-info process__step-info_deploy">
-            <h3>
-              <spana>3</spana>
-              &mdash;Second place
-            </h3>
-            <p>
-              Got second prize for the competitive algorithm contest of the
-              university
-            </p>
-          </li>
-          <li className="process__step process__step_deliver">
-            <div className="process__step-icon icon icon_prize"></div>
-          </li>
-          <li className="process__step-info process__step-info_deliver">
-            <h3>
-              <spana>4</spana>
-              &mdash;First place
-            </h3>
-            <p>
-              Highschool, got First prize for the competitive algorithm contest
-              of the city.
-            </p>
-          </li>
-        </ul>
+        <CertificationList>
+          <CertificationStep>
+            <Research>
+              <CertificationIcon icon icon_cert is-active />
+            </Research>
+          </CertificationStep>
+          <CertificationInfo is-active>
+            <ResearchInfo>
+              <CertificationHeader>
+                <spana>1</spana>
+                &mdash;Bachelor of Science
+              </CertificationHeader>
+              <p>
+                Graduating from HCM University of Science, Advanced Program in
+                Computer Science.
+              </p>
+            </ResearchInfo>
+          </CertificationInfo>
+        </CertificationList>
       </div>
     </div>
   </section>
 )
+
+const CertificationList = styled.ul`
+	position: relative;
+	list-style-type: none;
+	+gs-column(12);
+	height: 360px;
+  &:hover {
+
+  }
+`
+
+const CertificationStep = styled.li`
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 25%;
+  height: 100%;
+  // Shame and dirty hack, but it prevents IE8-9 flickering issue with on text layer;
+  // Just remove it and enjoy tooltip blinking on hover;
+  background-color: rgba(255, 255, 255, 0);
+  background-repeat: repeat;
+`
+
+const Research = styled.li`
+  left: 0%;
+  z-index: 40;
+`
+
+const CertificationIcon = styled.div`
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: block;
+  width: 180px;
+  height: 180px;
+  margin-left: -90px;
+  text-align: center;
+  background-color: ${props => props.theme.colors.colorLight};
+  border: 1px solid darken(${props => props.theme.colors.colorLight}, 5%);
+  border-radius: 50%;
+  box-shadow: 3px 4px 8px -4px ${props => props.theme.colors.colorDark};
+  transition: all 0.5s;
+
+  @media screen and (max-width: 800px) {
+    width: 160px;
+    height: 160px;
+    margin-left: -80px;
+  }
+  @media screen and (max-width: 600px) {
+    width: 140px;
+    height: 140px;
+    margin-left: -70px;
+  }
+  @media screen and (max-width: 480px) {
+    width: 120px;
+    height: 120px;
+    margin-left: -60px;
+  }
+
+  &:before {
+    font-size: 80px;
+    line-height: 180px;
+    color: darken(${props => props.theme.colors.colorLight}, 5%);
+    text-shadow: -1px -1px 0 ${props => props.theme.colors.colorDark},
+      0 -1px 0 ${props => props.theme.colors.colorDark},
+      1px -1px 0 ${props => props.theme.colors.colorDark},
+      1px 0 0 ${props => props.theme.colors.colorDark},
+      1px 1px 0 ${props => props.theme.colors.colorDark},
+      0 1px 0 ${props => props.theme.colors.colorDark},
+      -1px 1px 0 ${props => props.theme.colors.colorDark},
+      -1px 0 0 ${props => props.theme.colors.colorDark};
+    cursor: default;
+    transition: all 0.5s;
+    @media screen and (max-width: 800px) {
+      font-size: 70px;
+      line-height: 160px;
+    }
+    @media screen and (max-width: 600px) {
+      font-size: 70px;
+      line-height: 140px;
+    }
+    @media screen and (max-width: 480px) {
+      font-size: 60px;
+      line-height: 120px;
+    }
+  }
+
+  &.is-active {
+    border-color: ${props => props.theme.colors.colorAccent};
+    &:before {
+      text-shadow: -1px -1px 0 ${props => props.theme.colors.colorAccent},
+        0 -1px 0 ${props => props.theme.colors.colorAccent},
+        1px -1px 0 ${props => props.theme.colors.colorAccent},
+        1px 0 0 ${props => props.theme.colors.colorAccent},
+        1px 1px 0 ${props => props.theme.colors.colorAccent},
+        0 1px 0 ${props => props.theme.colors.colorAccent},
+        -1px 1px 0 ${props => props.theme.colors.colorAccent},
+        -1px 0 0 ${props => props.theme.colors.colorAccent};
+    }
+  }
+`
+
+const CertificationInfo = styled.li`
+  position: absolute;
+  top: 180px;
+  left: 0;
+  z-index: -1;
+  display: block;
+  width: 100%;
+  margin: 40px 0 50px;
+  padding: 10px;
+  background-color: ${props => props.theme.colors.colorLight};
+  border-top: 10px solid ${props => props.theme.colors.colorAccent};
+  box-shadow: 2px 2px 4px -2px ${props => props.theme.colors.colorDark};
+
+  @media screen and (max-width: 800px) {
+    top: 160px;
+  }
+  @media screen and (max-width: 600px) {
+    top: 140px;
+  }
+  @media screen and (max-width: 480px) {
+    top: 120px;
+  }
+`
+
+const ResearchInfo = styled.li`
+  visibility: hidden;
+`
+const CertificationHeader = styled.h3`
+margin-bottom: 10px
+& span
+  color: ${props => props.theme.colors.colorDarken};
+`
 
 export default Certification
