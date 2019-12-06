@@ -11,20 +11,18 @@ const Certification = () => (
       <div className="grid-container">
         <List className="certification">
           <Step>
-            <Research>
-              <Icons>
-                <p> 123 </p>
-              </Icons>
-            </Research>
+            <Research />
+            <Icons>
+              <p> 123 </p>
+            </Icons>
           </Step>
           <Info>
-            <ResearchInfo>
-              <Header>&mdash;Bachelor of Science</Header>
-              <p>
-                Graduating from HCM University of Science, Advanced Program in
-                Computer Science.
-              </p>
-            </ResearchInfo>
+            <ResearchInfo />
+            <Header>&mdash;Bachelor of Science</Header>
+            <p>
+              Graduating from HCM University of Science, Advanced Program in
+              Computer Science.
+            </p>
           </Info>
         </List>
       </div>
