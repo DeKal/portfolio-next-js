@@ -68,10 +68,54 @@ exports[`Experiences should render without throwing an error 1`] = `
                     className="Header__Container-xcx1ly-0 bNghAL"
                   >
                     <h2>
-                      Experiences
+                      <Translate
+                        id="Exp: Title"
+                      >
+                        <WrappedTranslate
+                          context={
+                            Object {
+                              "activeLanguage": undefined,
+                              "addTranslation": [Function],
+                              "addTranslationForLanguage": [Function],
+                              "defaultLanguage": undefined,
+                              "ignoreTranslateChildren": false,
+                              "initialize": [Function],
+                              "languages": Array [],
+                              "renderToStaticMarkup": false,
+                              "setActiveLanguage": [Function],
+                              "translate": [Function],
+                            }
+                          }
+                          id="Exp: Title"
+                        >
+                          Missing translationId: Exp: Title for language: \${ languageCode }
+                        </WrappedTranslate>
+                      </Translate>
                     </h2>
                     <h4>
-                      Jobs and side projects
+                      <Translate
+                        id="Exp: SubTitle"
+                      >
+                        <WrappedTranslate
+                          context={
+                            Object {
+                              "activeLanguage": undefined,
+                              "addTranslation": [Function],
+                              "addTranslationForLanguage": [Function],
+                              "defaultLanguage": undefined,
+                              "ignoreTranslateChildren": false,
+                              "initialize": [Function],
+                              "languages": Array [],
+                              "renderToStaticMarkup": false,
+                              "setActiveLanguage": [Function],
+                              "translate": [Function],
+                            }
+                          }
+                          id="Exp: SubTitle"
+                        >
+                          Missing translationId: Exp: SubTitle for language: \${ languageCode }
+                        </WrappedTranslate>
+                      </Translate>
                     </h4>
                   </header>
                 </StyledComponent>
