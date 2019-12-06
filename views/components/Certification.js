@@ -12,7 +12,9 @@ const Certification = () => (
         <List className="certification">
           <Step>
             <Research>
-              <Icons icon icon_cert is-active></Icons>
+              <Icons>
+                <p> 123</p>
+              </Icons>
             </Research>
           </Step>
           <Info is-active>
