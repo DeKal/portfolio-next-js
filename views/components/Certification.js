@@ -12,15 +12,14 @@ const Certification = () => (
         <List className="certification">
           <Step>
             <Research>
-              <Icons />
+              <Icons>
+                <p> 123 </p>
+              </Icons>
             </Research>
           </Step>
-          <Info is-active>
+          <Info>
             <ResearchInfo>
-              <Header>
-                <spana>1</spana>
-                &mdash;Bachelor of Science
-              </Header>
+              <Header>&mdash;Bachelor of Science</Header>
               <p>
                 Graduating from HCM University of Science, Advanced Program in
                 Computer Science.
@@ -49,7 +48,7 @@ const Step = styled.li`
   background-repeat: repeat;
 `
 
-const Research = styled.li`
+const Research = styled.div`
   left: 0%;
   z-index: 40;
 `
@@ -160,7 +159,7 @@ const Info = styled.li`
   }
 `
 
-const ResearchInfo = styled.li`
+const ResearchInfo = styled.div`
   visibility: hidden;
 `
 
