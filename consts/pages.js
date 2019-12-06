@@ -4,6 +4,7 @@ export const EXPERIENCES = 'Experiences'
 export const CERTIFICATIONS = 'Certifications'
 export const PROJECTS = 'Projects'
 export const CONTACTS = 'Contacts'
+export const WHYME = 'Whyme'
 
 export const PAGE_LIST = [
   HOME,
