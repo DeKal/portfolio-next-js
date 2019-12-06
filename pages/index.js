@@ -5,7 +5,7 @@ import Nav from '~/views/components/Navbar'
 import Home from '~/views/components/Home'
 import About from '~/views/components/About'
 // import Experiences from '~/views/components/Experiences'
-// import WhyMe from '~/views/components/WhyMe'
+import WhyMe from '~/views/components/WhyMe'
 // import Project from '~/views/components/Project'
 import Certification from '~/views/components/Certification'
 import Contact from '~/views/components/Contact'
@@ -17,10 +17,10 @@ const HomePage = () => (
     <Nav />
     <Home />
     <About />
-    {/* <Experiences />
+    {/* <Experiences /> */}
     <WhyMe />
-    <Project /> */}
-    <Certification />
+    {/* <Project /> */}
+    <Certification /> 
     <Contact />
     <Footer />
   </Fragment>
