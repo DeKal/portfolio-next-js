@@ -20,7 +20,7 @@ const HomePage = () => (
     {/* <Experiences /> */}
     <WhyMe />
     {/* <Project /> */}
-    <Certification /> 
+    <Certification />
     <Contact />
     <Footer />
   </Fragment>
