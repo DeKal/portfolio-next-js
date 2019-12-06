@@ -1,0 +1,2080 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Experiences should render without throwing an error 1`] = `
+<Experiences>
+  <Container
+    id="Experiences"
+  >
+    <Container__Style>
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "Container__Style-jmty01-0",
+              "isStatic": false,
+              "lastClassName": "bkvSTC",
+              "rules": Array [
+                "padding-top:100px;@media screen and (max-width:800px){padding-top:50px;}",
+              ],
+            },
+            "displayName": "Container__Style",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "Container__Style-jmty01-0",
+            "target": "section",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+      >
+        <section
+          className="Container__Style-jmty01-0 bkvSTC"
+        >
+          <div
+            className="container"
+          >
+            <Header>
+              <Header__Container>
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "Header__Container-xcx1ly-0",
+                        "isStatic": false,
+                        "lastClassName": "bNghAL",
+                        "rules": Array [
+                          "padding-bottom:50px;text-align:center;@media screen and (max-width:800px){padding-bottom:30px;}",
+                        ],
+                      },
+                      "displayName": "Header__Container",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "Header__Container-xcx1ly-0",
+                      "target": "header",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <header
+                    className="Header__Container-xcx1ly-0 bNghAL"
+                  >
+                    <h2>
+                      Experiences
+                    </h2>
+                    <h4>
+                      Jobs and side projects
+                    </h4>
+                  </header>
+                </StyledComponent>
+              </Header__Container>
+            </Header>
+            <List
+              companies={
+                Array [
+                  "Dek",
+                  "YBA",
+                  "SmartApp",
+                ]
+              }
+              key="0"
+            >
+              <List__Container
+                className="services"
+              >
+                <StyledComponent
+                  className="services"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "List__Container-sc-1vkoeb6-0",
+                        "isStatic": false,
+                        "lastClassName": "jvTCsH",
+                        "rules": Array [
+                          "list-style-type:none;",
+                        ],
+                      },
+                      "displayName": "List__Container",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "List__Container-sc-1vkoeb6-0",
+                      "target": "ul",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <ul
+                    className="List__Container-sc-1vkoeb6-0 jvTCsH services"
+                  >
+                    <Item
+                      description="Exp: Dek Desc"
+                      key="Dek"
+                      skill="Exp: Dek Skill"
+                      title="Exp: Dek Title"
+                    >
+                      <Item__Container>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Item__Container-sc-137li36-0",
+                                "isStatic": false,
+                                "lastClassName": "cIFGBF",
+                                "rules": Array [
+                                  "margin-bottom:50px;@media screen and (max-width:800px){margin-bottom:30px;}",
+                                ],
+                              },
+                              "displayName": "Item__Container",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Item__Container-sc-137li36-0",
+                              "target": "li",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <li
+                            className="Item__Container-sc-137li36-0 cIFGBF"
+                          >
+                            <ExpIcon
+                              name="workexp"
+                            >
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "ExpIcon-sc-3ualx9-0",
+                                      "isStatic": false,
+                                      "lastClassName": "dfhMtB",
+                                      "rules": Array [
+                                        "display:block;&::before{margin-top:30px;float:left;color:",
+                                        [Function],
+                                        ";font-size:60px;transition:color 0.5s;display:block;}&:hover::before{color:",
+                                        [Function],
+                                        ";}",
+                                      ],
+                                    },
+                                    "displayName": "ExpIcon",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "ExpIcon-sc-3ualx9-0",
+                                    "target": [Function],
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                name="workexp"
+                              >
+                                <Icon
+                                  className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                  name="workexp"
+                                >
+                                  <Icon__Symbol
+                                    className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                    name="workexp"
+                                  >
+                                    <StyledComponent
+                                      className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "Icon__Symbol-sc-1aleqew-0",
+                                            "isStatic": false,
+                                            "lastClassName": "bzJhZq",
+                                            "rules": Array [
+                                              "display:inline-block;&::before{font-family:",
+                                              [Function],
+                                              ";font-style:normal;font-weight:normal;content:'",
+                                              [Function],
+                                              "';}",
+                                            ],
+                                          },
+                                          "displayName": "Icon__Symbol",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
+                                          "target": "div",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      name="workexp"
+                                    >
+                                      <div
+                                        className="Icon__Symbol-sc-1aleqew-0 bzJhZq ExpIcon-sc-3ualx9-0 dfhMtB"
+                                        name="workexp"
+                                      />
+                                    </StyledComponent>
+                                  </Icon__Symbol>
+                                </Icon>
+                              </StyledComponent>
+                            </ExpIcon>
+                            <Title>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "Title-fscwbn-0",
+                                      "isStatic": false,
+                                      "lastClassName": "cQhIGZ",
+                                      "rules": Array [
+                                        "margin-left:80px;margin-bottom:10px;text-transform:uppercase;font-weight:bold;",
+                                      ],
+                                    },
+                                    "displayName": "Title",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "Title-fscwbn-0",
+                                    "target": "h4",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <h4
+                                  className="Title-fscwbn-0 cQhIGZ"
+                                >
+                                  <Translate
+                                    id="Exp: Dek Title"
+                                  >
+                                    <WrappedTranslate
+                                      context={
+                                        Object {
+                                          "activeLanguage": undefined,
+                                          "addTranslation": [Function],
+                                          "addTranslationForLanguage": [Function],
+                                          "defaultLanguage": undefined,
+                                          "ignoreTranslateChildren": false,
+                                          "initialize": [Function],
+                                          "languages": Array [],
+                                          "renderToStaticMarkup": false,
+                                          "setActiveLanguage": [Function],
+                                          "translate": [Function],
+                                        }
+                                      }
+                                      id="Exp: Dek Title"
+                                    >
+                                      Missing translationId: Exp: Dek Title for language: \${ languageCode }
+                                    </WrappedTranslate>
+                                  </Translate>
+                                </h4>
+                              </StyledComponent>
+                            </Title>
+                            <Description>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "Description-sc-1bljldm-0",
+                                      "isStatic": false,
+                                      "lastClassName": "duDcvP",
+                                      "rules": Array [
+                                        "margin-left:80px;",
+                                      ],
+                                    },
+                                    "displayName": "Description",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "Description-sc-1bljldm-0",
+                                    "target": "p",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <p
+                                  className="Description-sc-1bljldm-0 duDcvP"
+                                >
+                                  <Translate
+                                    id="Exp: Dek Desc"
+                                  >
+                                    <WrappedTranslate
+                                      context={
+                                        Object {
+                                          "activeLanguage": undefined,
+                                          "addTranslation": [Function],
+                                          "addTranslationForLanguage": [Function],
+                                          "defaultLanguage": undefined,
+                                          "ignoreTranslateChildren": false,
+                                          "initialize": [Function],
+                                          "languages": Array [],
+                                          "renderToStaticMarkup": false,
+                                          "setActiveLanguage": [Function],
+                                          "translate": [Function],
+                                        }
+                                      }
+                                      id="Exp: Dek Desc"
+                                    >
+                                      Missing translationId: Exp: Dek Desc for language: \${ languageCode }
+                                    </WrappedTranslate>
+                                  </Translate>
+                                </p>
+                              </StyledComponent>
+                            </Description>
+                            <Description>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "Description-sc-1bljldm-0",
+                                      "isStatic": false,
+                                      "lastClassName": "duDcvP",
+                                      "rules": Array [
+                                        "margin-left:80px;",
+                                      ],
+                                    },
+                                    "displayName": "Description",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "Description-sc-1bljldm-0",
+                                    "target": "p",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <p
+                                  className="Description-sc-1bljldm-0 duDcvP"
+                                >
+                                  <Bold>
+                                    <StyledComponent
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "Bold-lmm3k0-0",
+                                            "isStatic": false,
+                                            "lastClassName": "dqZLz",
+                                            "rules": Array [
+                                              "font-size:15px;font-weight:bold;",
+                                            ],
+                                          },
+                                          "displayName": "Bold",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "Bold-lmm3k0-0",
+                                          "target": "b",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                    >
+                                      <b
+                                        className="Bold-lmm3k0-0 dqZLz"
+                                      >
+                                        <Translate
+                                          id="Exp: Dek Skill"
+                                        >
+                                          <WrappedTranslate
+                                            context={
+                                              Object {
+                                                "activeLanguage": undefined,
+                                                "addTranslation": [Function],
+                                                "addTranslationForLanguage": [Function],
+                                                "defaultLanguage": undefined,
+                                                "ignoreTranslateChildren": false,
+                                                "initialize": [Function],
+                                                "languages": Array [],
+                                                "renderToStaticMarkup": false,
+                                                "setActiveLanguage": [Function],
+                                                "translate": [Function],
+                                              }
+                                            }
+                                            id="Exp: Dek Skill"
+                                          >
+                                            Missing translationId: Exp: Dek Skill for language: \${ languageCode }
+                                          </WrappedTranslate>
+                                        </Translate>
+                                      </b>
+                                    </StyledComponent>
+                                  </Bold>
+                                </p>
+                              </StyledComponent>
+                            </Description>
+                          </li>
+                        </StyledComponent>
+                      </Item__Container>
+                    </Item>
+                    <Item
+                      description="Exp: YBA Desc"
+                      key="YBA"
+                      skill="Exp: YBA Skill"
+                      title="Exp: YBA Title"
+                    >
+                      <Item__Container>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Item__Container-sc-137li36-0",
+                                "isStatic": false,
+                                "lastClassName": "cIFGBF",
+                                "rules": Array [
+                                  "margin-bottom:50px;@media screen and (max-width:800px){margin-bottom:30px;}",
+                                ],
+                              },
+                              "displayName": "Item__Container",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Item__Container-sc-137li36-0",
+                              "target": "li",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <li
+                            className="Item__Container-sc-137li36-0 cIFGBF"
+                          >
+                            <ExpIcon
+                              name="workexp"
+                            >
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "ExpIcon-sc-3ualx9-0",
+                                      "isStatic": false,
+                                      "lastClassName": "dfhMtB",
+                                      "rules": Array [
+                                        "display:block;&::before{margin-top:30px;float:left;color:",
+                                        [Function],
+                                        ";font-size:60px;transition:color 0.5s;display:block;}&:hover::before{color:",
+                                        [Function],
+                                        ";}",
+                                      ],
+                                    },
+                                    "displayName": "ExpIcon",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "ExpIcon-sc-3ualx9-0",
+                                    "target": [Function],
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                name="workexp"
+                              >
+                                <Icon
+                                  className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                  name="workexp"
+                                >
+                                  <Icon__Symbol
+                                    className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                    name="workexp"
+                                  >
+                                    <StyledComponent
+                                      className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "Icon__Symbol-sc-1aleqew-0",
+                                            "isStatic": false,
+                                            "lastClassName": "bzJhZq",
+                                            "rules": Array [
+                                              "display:inline-block;&::before{font-family:",
+                                              [Function],
+                                              ";font-style:normal;font-weight:normal;content:'",
+                                              [Function],
+                                              "';}",
+                                            ],
+                                          },
+                                          "displayName": "Icon__Symbol",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
+                                          "target": "div",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      name="workexp"
+                                    >
+                                      <div
+                                        className="Icon__Symbol-sc-1aleqew-0 bzJhZq ExpIcon-sc-3ualx9-0 dfhMtB"
+                                        name="workexp"
+                                      />
+                                    </StyledComponent>
+                                  </Icon__Symbol>
+                                </Icon>
+                              </StyledComponent>
+                            </ExpIcon>
+                            <Title>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "Title-fscwbn-0",
+                                      "isStatic": false,
+                                      "lastClassName": "cQhIGZ",
+                                      "rules": Array [
+                                        "margin-left:80px;margin-bottom:10px;text-transform:uppercase;font-weight:bold;",
+                                      ],
+                                    },
+                                    "displayName": "Title",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "Title-fscwbn-0",
+                                    "target": "h4",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <h4
+                                  className="Title-fscwbn-0 cQhIGZ"
+                                >
+                                  <Translate
+                                    id="Exp: YBA Title"
+                                  >
+                                    <WrappedTranslate
+                                      context={
+                                        Object {
+                                          "activeLanguage": undefined,
+                                          "addTranslation": [Function],
+                                          "addTranslationForLanguage": [Function],
+                                          "defaultLanguage": undefined,
+                                          "ignoreTranslateChildren": false,
+                                          "initialize": [Function],
+                                          "languages": Array [],
+                                          "renderToStaticMarkup": false,
+                                          "setActiveLanguage": [Function],
+                                          "translate": [Function],
+                                        }
+                                      }
+                                      id="Exp: YBA Title"
+                                    >
+                                      Missing translationId: Exp: YBA Title for language: \${ languageCode }
+                                    </WrappedTranslate>
+                                  </Translate>
+                                </h4>
+                              </StyledComponent>
+                            </Title>
+                            <Description>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "Description-sc-1bljldm-0",
+                                      "isStatic": false,
+                                      "lastClassName": "duDcvP",
+                                      "rules": Array [
+                                        "margin-left:80px;",
+                                      ],
+                                    },
+                                    "displayName": "Description",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "Description-sc-1bljldm-0",
+                                    "target": "p",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <p
+                                  className="Description-sc-1bljldm-0 duDcvP"
+                                >
+                                  <Translate
+                                    id="Exp: YBA Desc"
+                                  >
+                                    <WrappedTranslate
+                                      context={
+                                        Object {
+                                          "activeLanguage": undefined,
+                                          "addTranslation": [Function],
+                                          "addTranslationForLanguage": [Function],
+                                          "defaultLanguage": undefined,
+                                          "ignoreTranslateChildren": false,
+                                          "initialize": [Function],
+                                          "languages": Array [],
+                                          "renderToStaticMarkup": false,
+                                          "setActiveLanguage": [Function],
+                                          "translate": [Function],
+                                        }
+                                      }
+                                      id="Exp: YBA Desc"
+                                    >
+                                      Missing translationId: Exp: YBA Desc for language: \${ languageCode }
+                                    </WrappedTranslate>
+                                  </Translate>
+                                </p>
+                              </StyledComponent>
+                            </Description>
+                            <Description>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "Description-sc-1bljldm-0",
+                                      "isStatic": false,
+                                      "lastClassName": "duDcvP",
+                                      "rules": Array [
+                                        "margin-left:80px;",
+                                      ],
+                                    },
+                                    "displayName": "Description",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "Description-sc-1bljldm-0",
+                                    "target": "p",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <p
+                                  className="Description-sc-1bljldm-0 duDcvP"
+                                >
+                                  <Bold>
+                                    <StyledComponent
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "Bold-lmm3k0-0",
+                                            "isStatic": false,
+                                            "lastClassName": "dqZLz",
+                                            "rules": Array [
+                                              "font-size:15px;font-weight:bold;",
+                                            ],
+                                          },
+                                          "displayName": "Bold",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "Bold-lmm3k0-0",
+                                          "target": "b",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                    >
+                                      <b
+                                        className="Bold-lmm3k0-0 dqZLz"
+                                      >
+                                        <Translate
+                                          id="Exp: YBA Skill"
+                                        >
+                                          <WrappedTranslate
+                                            context={
+                                              Object {
+                                                "activeLanguage": undefined,
+                                                "addTranslation": [Function],
+                                                "addTranslationForLanguage": [Function],
+                                                "defaultLanguage": undefined,
+                                                "ignoreTranslateChildren": false,
+                                                "initialize": [Function],
+                                                "languages": Array [],
+                                                "renderToStaticMarkup": false,
+                                                "setActiveLanguage": [Function],
+                                                "translate": [Function],
+                                              }
+                                            }
+                                            id="Exp: YBA Skill"
+                                          >
+                                            Missing translationId: Exp: YBA Skill for language: \${ languageCode }
+                                          </WrappedTranslate>
+                                        </Translate>
+                                      </b>
+                                    </StyledComponent>
+                                  </Bold>
+                                </p>
+                              </StyledComponent>
+                            </Description>
+                          </li>
+                        </StyledComponent>
+                      </Item__Container>
+                    </Item>
+                    <Item
+                      description="Exp: SmartApp Desc"
+                      key="SmartApp"
+                      skill="Exp: SmartApp Skill"
+                      title="Exp: SmartApp Title"
+                    >
+                      <Item__Container>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Item__Container-sc-137li36-0",
+                                "isStatic": false,
+                                "lastClassName": "cIFGBF",
+                                "rules": Array [
+                                  "margin-bottom:50px;@media screen and (max-width:800px){margin-bottom:30px;}",
+                                ],
+                              },
+                              "displayName": "Item__Container",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Item__Container-sc-137li36-0",
+                              "target": "li",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <li
+                            className="Item__Container-sc-137li36-0 cIFGBF"
+                          >
+                            <ExpIcon
+                              name="workexp"
+                            >
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "ExpIcon-sc-3ualx9-0",
+                                      "isStatic": false,
+                                      "lastClassName": "dfhMtB",
+                                      "rules": Array [
+                                        "display:block;&::before{margin-top:30px;float:left;color:",
+                                        [Function],
+                                        ";font-size:60px;transition:color 0.5s;display:block;}&:hover::before{color:",
+                                        [Function],
+                                        ";}",
+                                      ],
+                                    },
+                                    "displayName": "ExpIcon",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "ExpIcon-sc-3ualx9-0",
+                                    "target": [Function],
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                name="workexp"
+                              >
+                                <Icon
+                                  className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                  name="workexp"
+                                >
+                                  <Icon__Symbol
+                                    className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                    name="workexp"
+                                  >
+                                    <StyledComponent
+                                      className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "Icon__Symbol-sc-1aleqew-0",
+                                            "isStatic": false,
+                                            "lastClassName": "bzJhZq",
+                                            "rules": Array [
+                                              "display:inline-block;&::before{font-family:",
+                                              [Function],
+                                              ";font-style:normal;font-weight:normal;content:'",
+                                              [Function],
+                                              "';}",
+                                            ],
+                                          },
+                                          "displayName": "Icon__Symbol",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
+                                          "target": "div",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      name="workexp"
+                                    >
+                                      <div
+                                        className="Icon__Symbol-sc-1aleqew-0 bzJhZq ExpIcon-sc-3ualx9-0 dfhMtB"
+                                        name="workexp"
+                                      />
+                                    </StyledComponent>
+                                  </Icon__Symbol>
+                                </Icon>
+                              </StyledComponent>
+                            </ExpIcon>
+                            <Title>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "Title-fscwbn-0",
+                                      "isStatic": false,
+                                      "lastClassName": "cQhIGZ",
+                                      "rules": Array [
+                                        "margin-left:80px;margin-bottom:10px;text-transform:uppercase;font-weight:bold;",
+                                      ],
+                                    },
+                                    "displayName": "Title",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "Title-fscwbn-0",
+                                    "target": "h4",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <h4
+                                  className="Title-fscwbn-0 cQhIGZ"
+                                >
+                                  <Translate
+                                    id="Exp: SmartApp Title"
+                                  >
+                                    <WrappedTranslate
+                                      context={
+                                        Object {
+                                          "activeLanguage": undefined,
+                                          "addTranslation": [Function],
+                                          "addTranslationForLanguage": [Function],
+                                          "defaultLanguage": undefined,
+                                          "ignoreTranslateChildren": false,
+                                          "initialize": [Function],
+                                          "languages": Array [],
+                                          "renderToStaticMarkup": false,
+                                          "setActiveLanguage": [Function],
+                                          "translate": [Function],
+                                        }
+                                      }
+                                      id="Exp: SmartApp Title"
+                                    >
+                                      Missing translationId: Exp: SmartApp Title for language: \${ languageCode }
+                                    </WrappedTranslate>
+                                  </Translate>
+                                </h4>
+                              </StyledComponent>
+                            </Title>
+                            <Description>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "Description-sc-1bljldm-0",
+                                      "isStatic": false,
+                                      "lastClassName": "duDcvP",
+                                      "rules": Array [
+                                        "margin-left:80px;",
+                                      ],
+                                    },
+                                    "displayName": "Description",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "Description-sc-1bljldm-0",
+                                    "target": "p",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <p
+                                  className="Description-sc-1bljldm-0 duDcvP"
+                                >
+                                  <Translate
+                                    id="Exp: SmartApp Desc"
+                                  >
+                                    <WrappedTranslate
+                                      context={
+                                        Object {
+                                          "activeLanguage": undefined,
+                                          "addTranslation": [Function],
+                                          "addTranslationForLanguage": [Function],
+                                          "defaultLanguage": undefined,
+                                          "ignoreTranslateChildren": false,
+                                          "initialize": [Function],
+                                          "languages": Array [],
+                                          "renderToStaticMarkup": false,
+                                          "setActiveLanguage": [Function],
+                                          "translate": [Function],
+                                        }
+                                      }
+                                      id="Exp: SmartApp Desc"
+                                    >
+                                      Missing translationId: Exp: SmartApp Desc for language: \${ languageCode }
+                                    </WrappedTranslate>
+                                  </Translate>
+                                </p>
+                              </StyledComponent>
+                            </Description>
+                            <Description>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "Description-sc-1bljldm-0",
+                                      "isStatic": false,
+                                      "lastClassName": "duDcvP",
+                                      "rules": Array [
+                                        "margin-left:80px;",
+                                      ],
+                                    },
+                                    "displayName": "Description",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "Description-sc-1bljldm-0",
+                                    "target": "p",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <p
+                                  className="Description-sc-1bljldm-0 duDcvP"
+                                >
+                                  <Bold>
+                                    <StyledComponent
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "Bold-lmm3k0-0",
+                                            "isStatic": false,
+                                            "lastClassName": "dqZLz",
+                                            "rules": Array [
+                                              "font-size:15px;font-weight:bold;",
+                                            ],
+                                          },
+                                          "displayName": "Bold",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "Bold-lmm3k0-0",
+                                          "target": "b",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                    >
+                                      <b
+                                        className="Bold-lmm3k0-0 dqZLz"
+                                      >
+                                        <Translate
+                                          id="Exp: SmartApp Skill"
+                                        >
+                                          <WrappedTranslate
+                                            context={
+                                              Object {
+                                                "activeLanguage": undefined,
+                                                "addTranslation": [Function],
+                                                "addTranslationForLanguage": [Function],
+                                                "defaultLanguage": undefined,
+                                                "ignoreTranslateChildren": false,
+                                                "initialize": [Function],
+                                                "languages": Array [],
+                                                "renderToStaticMarkup": false,
+                                                "setActiveLanguage": [Function],
+                                                "translate": [Function],
+                                              }
+                                            }
+                                            id="Exp: SmartApp Skill"
+                                          >
+                                            Missing translationId: Exp: SmartApp Skill for language: \${ languageCode }
+                                          </WrappedTranslate>
+                                        </Translate>
+                                      </b>
+                                    </StyledComponent>
+                                  </Bold>
+                                </p>
+                              </StyledComponent>
+                            </Description>
+                          </li>
+                        </StyledComponent>
+                      </Item__Container>
+                    </Item>
+                  </ul>
+                </StyledComponent>
+              </List__Container>
+            </List>
+            <List
+              companies={
+                Array [
+                  "GCS",
+                  "GCS-intern",
+                  "Brand360",
+                ]
+              }
+              key="1"
+            >
+              <List__Container
+                className="services"
+              >
+                <StyledComponent
+                  className="services"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "List__Container-sc-1vkoeb6-0",
+                        "isStatic": false,
+                        "lastClassName": "jvTCsH",
+                        "rules": Array [
+                          "list-style-type:none;",
+                        ],
+                      },
+                      "displayName": "List__Container",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "List__Container-sc-1vkoeb6-0",
+                      "target": "ul",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <ul
+                    className="List__Container-sc-1vkoeb6-0 jvTCsH services"
+                  >
+                    <Item
+                      description="Exp: GCS Desc"
+                      key="GCS"
+                      skill="Exp: GCS Skill"
+                      title="Exp: GCS Title"
+                    >
+                      <Item__Container>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Item__Container-sc-137li36-0",
+                                "isStatic": false,
+                                "lastClassName": "cIFGBF",
+                                "rules": Array [
+                                  "margin-bottom:50px;@media screen and (max-width:800px){margin-bottom:30px;}",
+                                ],
+                              },
+                              "displayName": "Item__Container",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Item__Container-sc-137li36-0",
+                              "target": "li",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <li
+                            className="Item__Container-sc-137li36-0 cIFGBF"
+                          >
+                            <ExpIcon
+                              name="workexp"
+                            >
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "ExpIcon-sc-3ualx9-0",
+                                      "isStatic": false,
+                                      "lastClassName": "dfhMtB",
+                                      "rules": Array [
+                                        "display:block;&::before{margin-top:30px;float:left;color:",
+                                        [Function],
+                                        ";font-size:60px;transition:color 0.5s;display:block;}&:hover::before{color:",
+                                        [Function],
+                                        ";}",
+                                      ],
+                                    },
+                                    "displayName": "ExpIcon",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "ExpIcon-sc-3ualx9-0",
+                                    "target": [Function],
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                name="workexp"
+                              >
+                                <Icon
+                                  className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                  name="workexp"
+                                >
+                                  <Icon__Symbol
+                                    className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                    name="workexp"
+                                  >
+                                    <StyledComponent
+                                      className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "Icon__Symbol-sc-1aleqew-0",
+                                            "isStatic": false,
+                                            "lastClassName": "bzJhZq",
+                                            "rules": Array [
+                                              "display:inline-block;&::before{font-family:",
+                                              [Function],
+                                              ";font-style:normal;font-weight:normal;content:'",
+                                              [Function],
+                                              "';}",
+                                            ],
+                                          },
+                                          "displayName": "Icon__Symbol",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
+                                          "target": "div",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      name="workexp"
+                                    >
+                                      <div
+                                        className="Icon__Symbol-sc-1aleqew-0 bzJhZq ExpIcon-sc-3ualx9-0 dfhMtB"
+                                        name="workexp"
+                                      />
+                                    </StyledComponent>
+                                  </Icon__Symbol>
+                                </Icon>
+                              </StyledComponent>
+                            </ExpIcon>
+                            <Title>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "Title-fscwbn-0",
+                                      "isStatic": false,
+                                      "lastClassName": "cQhIGZ",
+                                      "rules": Array [
+                                        "margin-left:80px;margin-bottom:10px;text-transform:uppercase;font-weight:bold;",
+                                      ],
+                                    },
+                                    "displayName": "Title",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "Title-fscwbn-0",
+                                    "target": "h4",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <h4
+                                  className="Title-fscwbn-0 cQhIGZ"
+                                >
+                                  <Translate
+                                    id="Exp: GCS Title"
+                                  >
+                                    <WrappedTranslate
+                                      context={
+                                        Object {
+                                          "activeLanguage": undefined,
+                                          "addTranslation": [Function],
+                                          "addTranslationForLanguage": [Function],
+                                          "defaultLanguage": undefined,
+                                          "ignoreTranslateChildren": false,
+                                          "initialize": [Function],
+                                          "languages": Array [],
+                                          "renderToStaticMarkup": false,
+                                          "setActiveLanguage": [Function],
+                                          "translate": [Function],
+                                        }
+                                      }
+                                      id="Exp: GCS Title"
+                                    >
+                                      Missing translationId: Exp: GCS Title for language: \${ languageCode }
+                                    </WrappedTranslate>
+                                  </Translate>
+                                </h4>
+                              </StyledComponent>
+                            </Title>
+                            <Description>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "Description-sc-1bljldm-0",
+                                      "isStatic": false,
+                                      "lastClassName": "duDcvP",
+                                      "rules": Array [
+                                        "margin-left:80px;",
+                                      ],
+                                    },
+                                    "displayName": "Description",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "Description-sc-1bljldm-0",
+                                    "target": "p",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <p
+                                  className="Description-sc-1bljldm-0 duDcvP"
+                                >
+                                  <Translate
+                                    id="Exp: GCS Desc"
+                                  >
+                                    <WrappedTranslate
+                                      context={
+                                        Object {
+                                          "activeLanguage": undefined,
+                                          "addTranslation": [Function],
+                                          "addTranslationForLanguage": [Function],
+                                          "defaultLanguage": undefined,
+                                          "ignoreTranslateChildren": false,
+                                          "initialize": [Function],
+                                          "languages": Array [],
+                                          "renderToStaticMarkup": false,
+                                          "setActiveLanguage": [Function],
+                                          "translate": [Function],
+                                        }
+                                      }
+                                      id="Exp: GCS Desc"
+                                    >
+                                      Missing translationId: Exp: GCS Desc for language: \${ languageCode }
+                                    </WrappedTranslate>
+                                  </Translate>
+                                </p>
+                              </StyledComponent>
+                            </Description>
+                            <Description>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "Description-sc-1bljldm-0",
+                                      "isStatic": false,
+                                      "lastClassName": "duDcvP",
+                                      "rules": Array [
+                                        "margin-left:80px;",
+                                      ],
+                                    },
+                                    "displayName": "Description",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "Description-sc-1bljldm-0",
+                                    "target": "p",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <p
+                                  className="Description-sc-1bljldm-0 duDcvP"
+                                >
+                                  <Bold>
+                                    <StyledComponent
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "Bold-lmm3k0-0",
+                                            "isStatic": false,
+                                            "lastClassName": "dqZLz",
+                                            "rules": Array [
+                                              "font-size:15px;font-weight:bold;",
+                                            ],
+                                          },
+                                          "displayName": "Bold",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "Bold-lmm3k0-0",
+                                          "target": "b",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                    >
+                                      <b
+                                        className="Bold-lmm3k0-0 dqZLz"
+                                      >
+                                        <Translate
+                                          id="Exp: GCS Skill"
+                                        >
+                                          <WrappedTranslate
+                                            context={
+                                              Object {
+                                                "activeLanguage": undefined,
+                                                "addTranslation": [Function],
+                                                "addTranslationForLanguage": [Function],
+                                                "defaultLanguage": undefined,
+                                                "ignoreTranslateChildren": false,
+                                                "initialize": [Function],
+                                                "languages": Array [],
+                                                "renderToStaticMarkup": false,
+                                                "setActiveLanguage": [Function],
+                                                "translate": [Function],
+                                              }
+                                            }
+                                            id="Exp: GCS Skill"
+                                          >
+                                            Missing translationId: Exp: GCS Skill for language: \${ languageCode }
+                                          </WrappedTranslate>
+                                        </Translate>
+                                      </b>
+                                    </StyledComponent>
+                                  </Bold>
+                                </p>
+                              </StyledComponent>
+                            </Description>
+                          </li>
+                        </StyledComponent>
+                      </Item__Container>
+                    </Item>
+                    <Item
+                      description="Exp: GCS-intern Desc"
+                      key="GCS-intern"
+                      skill="Exp: GCS-intern Skill"
+                      title="Exp: GCS-intern Title"
+                    >
+                      <Item__Container>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Item__Container-sc-137li36-0",
+                                "isStatic": false,
+                                "lastClassName": "cIFGBF",
+                                "rules": Array [
+                                  "margin-bottom:50px;@media screen and (max-width:800px){margin-bottom:30px;}",
+                                ],
+                              },
+                              "displayName": "Item__Container",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Item__Container-sc-137li36-0",
+                              "target": "li",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <li
+                            className="Item__Container-sc-137li36-0 cIFGBF"
+                          >
+                            <ExpIcon
+                              name="workexp"
+                            >
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "ExpIcon-sc-3ualx9-0",
+                                      "isStatic": false,
+                                      "lastClassName": "dfhMtB",
+                                      "rules": Array [
+                                        "display:block;&::before{margin-top:30px;float:left;color:",
+                                        [Function],
+                                        ";font-size:60px;transition:color 0.5s;display:block;}&:hover::before{color:",
+                                        [Function],
+                                        ";}",
+                                      ],
+                                    },
+                                    "displayName": "ExpIcon",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "ExpIcon-sc-3ualx9-0",
+                                    "target": [Function],
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                name="workexp"
+                              >
+                                <Icon
+                                  className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                  name="workexp"
+                                >
+                                  <Icon__Symbol
+                                    className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                    name="workexp"
+                                  >
+                                    <StyledComponent
+                                      className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "Icon__Symbol-sc-1aleqew-0",
+                                            "isStatic": false,
+                                            "lastClassName": "bzJhZq",
+                                            "rules": Array [
+                                              "display:inline-block;&::before{font-family:",
+                                              [Function],
+                                              ";font-style:normal;font-weight:normal;content:'",
+                                              [Function],
+                                              "';}",
+                                            ],
+                                          },
+                                          "displayName": "Icon__Symbol",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
+                                          "target": "div",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      name="workexp"
+                                    >
+                                      <div
+                                        className="Icon__Symbol-sc-1aleqew-0 bzJhZq ExpIcon-sc-3ualx9-0 dfhMtB"
+                                        name="workexp"
+                                      />
+                                    </StyledComponent>
+                                  </Icon__Symbol>
+                                </Icon>
+                              </StyledComponent>
+                            </ExpIcon>
+                            <Title>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "Title-fscwbn-0",
+                                      "isStatic": false,
+                                      "lastClassName": "cQhIGZ",
+                                      "rules": Array [
+                                        "margin-left:80px;margin-bottom:10px;text-transform:uppercase;font-weight:bold;",
+                                      ],
+                                    },
+                                    "displayName": "Title",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "Title-fscwbn-0",
+                                    "target": "h4",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <h4
+                                  className="Title-fscwbn-0 cQhIGZ"
+                                >
+                                  <Translate
+                                    id="Exp: GCS-intern Title"
+                                  >
+                                    <WrappedTranslate
+                                      context={
+                                        Object {
+                                          "activeLanguage": undefined,
+                                          "addTranslation": [Function],
+                                          "addTranslationForLanguage": [Function],
+                                          "defaultLanguage": undefined,
+                                          "ignoreTranslateChildren": false,
+                                          "initialize": [Function],
+                                          "languages": Array [],
+                                          "renderToStaticMarkup": false,
+                                          "setActiveLanguage": [Function],
+                                          "translate": [Function],
+                                        }
+                                      }
+                                      id="Exp: GCS-intern Title"
+                                    >
+                                      Missing translationId: Exp: GCS-intern Title for language: \${ languageCode }
+                                    </WrappedTranslate>
+                                  </Translate>
+                                </h4>
+                              </StyledComponent>
+                            </Title>
+                            <Description>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "Description-sc-1bljldm-0",
+                                      "isStatic": false,
+                                      "lastClassName": "duDcvP",
+                                      "rules": Array [
+                                        "margin-left:80px;",
+                                      ],
+                                    },
+                                    "displayName": "Description",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "Description-sc-1bljldm-0",
+                                    "target": "p",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <p
+                                  className="Description-sc-1bljldm-0 duDcvP"
+                                >
+                                  <Translate
+                                    id="Exp: GCS-intern Desc"
+                                  >
+                                    <WrappedTranslate
+                                      context={
+                                        Object {
+                                          "activeLanguage": undefined,
+                                          "addTranslation": [Function],
+                                          "addTranslationForLanguage": [Function],
+                                          "defaultLanguage": undefined,
+                                          "ignoreTranslateChildren": false,
+                                          "initialize": [Function],
+                                          "languages": Array [],
+                                          "renderToStaticMarkup": false,
+                                          "setActiveLanguage": [Function],
+                                          "translate": [Function],
+                                        }
+                                      }
+                                      id="Exp: GCS-intern Desc"
+                                    >
+                                      Missing translationId: Exp: GCS-intern Desc for language: \${ languageCode }
+                                    </WrappedTranslate>
+                                  </Translate>
+                                </p>
+                              </StyledComponent>
+                            </Description>
+                            <Description>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "Description-sc-1bljldm-0",
+                                      "isStatic": false,
+                                      "lastClassName": "duDcvP",
+                                      "rules": Array [
+                                        "margin-left:80px;",
+                                      ],
+                                    },
+                                    "displayName": "Description",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "Description-sc-1bljldm-0",
+                                    "target": "p",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <p
+                                  className="Description-sc-1bljldm-0 duDcvP"
+                                >
+                                  <Bold>
+                                    <StyledComponent
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "Bold-lmm3k0-0",
+                                            "isStatic": false,
+                                            "lastClassName": "dqZLz",
+                                            "rules": Array [
+                                              "font-size:15px;font-weight:bold;",
+                                            ],
+                                          },
+                                          "displayName": "Bold",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "Bold-lmm3k0-0",
+                                          "target": "b",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                    >
+                                      <b
+                                        className="Bold-lmm3k0-0 dqZLz"
+                                      >
+                                        <Translate
+                                          id="Exp: GCS-intern Skill"
+                                        >
+                                          <WrappedTranslate
+                                            context={
+                                              Object {
+                                                "activeLanguage": undefined,
+                                                "addTranslation": [Function],
+                                                "addTranslationForLanguage": [Function],
+                                                "defaultLanguage": undefined,
+                                                "ignoreTranslateChildren": false,
+                                                "initialize": [Function],
+                                                "languages": Array [],
+                                                "renderToStaticMarkup": false,
+                                                "setActiveLanguage": [Function],
+                                                "translate": [Function],
+                                              }
+                                            }
+                                            id="Exp: GCS-intern Skill"
+                                          >
+                                            Missing translationId: Exp: GCS-intern Skill for language: \${ languageCode }
+                                          </WrappedTranslate>
+                                        </Translate>
+                                      </b>
+                                    </StyledComponent>
+                                  </Bold>
+                                </p>
+                              </StyledComponent>
+                            </Description>
+                          </li>
+                        </StyledComponent>
+                      </Item__Container>
+                    </Item>
+                    <Item
+                      description="Exp: Brand360 Desc"
+                      key="Brand360"
+                      skill="Exp: Brand360 Skill"
+                      title="Exp: Brand360 Title"
+                    >
+                      <Item__Container>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Item__Container-sc-137li36-0",
+                                "isStatic": false,
+                                "lastClassName": "cIFGBF",
+                                "rules": Array [
+                                  "margin-bottom:50px;@media screen and (max-width:800px){margin-bottom:30px;}",
+                                ],
+                              },
+                              "displayName": "Item__Container",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Item__Container-sc-137li36-0",
+                              "target": "li",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <li
+                            className="Item__Container-sc-137li36-0 cIFGBF"
+                          >
+                            <ExpIcon
+                              name="workexp"
+                            >
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "ExpIcon-sc-3ualx9-0",
+                                      "isStatic": false,
+                                      "lastClassName": "dfhMtB",
+                                      "rules": Array [
+                                        "display:block;&::before{margin-top:30px;float:left;color:",
+                                        [Function],
+                                        ";font-size:60px;transition:color 0.5s;display:block;}&:hover::before{color:",
+                                        [Function],
+                                        ";}",
+                                      ],
+                                    },
+                                    "displayName": "ExpIcon",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "ExpIcon-sc-3ualx9-0",
+                                    "target": [Function],
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                name="workexp"
+                              >
+                                <Icon
+                                  className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                  name="workexp"
+                                >
+                                  <Icon__Symbol
+                                    className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                    name="workexp"
+                                  >
+                                    <StyledComponent
+                                      className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "Icon__Symbol-sc-1aleqew-0",
+                                            "isStatic": false,
+                                            "lastClassName": "bzJhZq",
+                                            "rules": Array [
+                                              "display:inline-block;&::before{font-family:",
+                                              [Function],
+                                              ";font-style:normal;font-weight:normal;content:'",
+                                              [Function],
+                                              "';}",
+                                            ],
+                                          },
+                                          "displayName": "Icon__Symbol",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
+                                          "target": "div",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      name="workexp"
+                                    >
+                                      <div
+                                        className="Icon__Symbol-sc-1aleqew-0 bzJhZq ExpIcon-sc-3ualx9-0 dfhMtB"
+                                        name="workexp"
+                                      />
+                                    </StyledComponent>
+                                  </Icon__Symbol>
+                                </Icon>
+                              </StyledComponent>
+                            </ExpIcon>
+                            <Title>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "Title-fscwbn-0",
+                                      "isStatic": false,
+                                      "lastClassName": "cQhIGZ",
+                                      "rules": Array [
+                                        "margin-left:80px;margin-bottom:10px;text-transform:uppercase;font-weight:bold;",
+                                      ],
+                                    },
+                                    "displayName": "Title",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "Title-fscwbn-0",
+                                    "target": "h4",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <h4
+                                  className="Title-fscwbn-0 cQhIGZ"
+                                >
+                                  <Translate
+                                    id="Exp: Brand360 Title"
+                                  >
+                                    <WrappedTranslate
+                                      context={
+                                        Object {
+                                          "activeLanguage": undefined,
+                                          "addTranslation": [Function],
+                                          "addTranslationForLanguage": [Function],
+                                          "defaultLanguage": undefined,
+                                          "ignoreTranslateChildren": false,
+                                          "initialize": [Function],
+                                          "languages": Array [],
+                                          "renderToStaticMarkup": false,
+                                          "setActiveLanguage": [Function],
+                                          "translate": [Function],
+                                        }
+                                      }
+                                      id="Exp: Brand360 Title"
+                                    >
+                                      Missing translationId: Exp: Brand360 Title for language: \${ languageCode }
+                                    </WrappedTranslate>
+                                  </Translate>
+                                </h4>
+                              </StyledComponent>
+                            </Title>
+                            <Description>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "Description-sc-1bljldm-0",
+                                      "isStatic": false,
+                                      "lastClassName": "duDcvP",
+                                      "rules": Array [
+                                        "margin-left:80px;",
+                                      ],
+                                    },
+                                    "displayName": "Description",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "Description-sc-1bljldm-0",
+                                    "target": "p",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <p
+                                  className="Description-sc-1bljldm-0 duDcvP"
+                                >
+                                  <Translate
+                                    id="Exp: Brand360 Desc"
+                                  >
+                                    <WrappedTranslate
+                                      context={
+                                        Object {
+                                          "activeLanguage": undefined,
+                                          "addTranslation": [Function],
+                                          "addTranslationForLanguage": [Function],
+                                          "defaultLanguage": undefined,
+                                          "ignoreTranslateChildren": false,
+                                          "initialize": [Function],
+                                          "languages": Array [],
+                                          "renderToStaticMarkup": false,
+                                          "setActiveLanguage": [Function],
+                                          "translate": [Function],
+                                        }
+                                      }
+                                      id="Exp: Brand360 Desc"
+                                    >
+                                      Missing translationId: Exp: Brand360 Desc for language: \${ languageCode }
+                                    </WrappedTranslate>
+                                  </Translate>
+                                </p>
+                              </StyledComponent>
+                            </Description>
+                            <Description>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "Description-sc-1bljldm-0",
+                                      "isStatic": false,
+                                      "lastClassName": "duDcvP",
+                                      "rules": Array [
+                                        "margin-left:80px;",
+                                      ],
+                                    },
+                                    "displayName": "Description",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "Description-sc-1bljldm-0",
+                                    "target": "p",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <p
+                                  className="Description-sc-1bljldm-0 duDcvP"
+                                >
+                                  <Bold>
+                                    <StyledComponent
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "Bold-lmm3k0-0",
+                                            "isStatic": false,
+                                            "lastClassName": "dqZLz",
+                                            "rules": Array [
+                                              "font-size:15px;font-weight:bold;",
+                                            ],
+                                          },
+                                          "displayName": "Bold",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "Bold-lmm3k0-0",
+                                          "target": "b",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                    >
+                                      <b
+                                        className="Bold-lmm3k0-0 dqZLz"
+                                      >
+                                        <Translate
+                                          id="Exp: Brand360 Skill"
+                                        >
+                                          <WrappedTranslate
+                                            context={
+                                              Object {
+                                                "activeLanguage": undefined,
+                                                "addTranslation": [Function],
+                                                "addTranslationForLanguage": [Function],
+                                                "defaultLanguage": undefined,
+                                                "ignoreTranslateChildren": false,
+                                                "initialize": [Function],
+                                                "languages": Array [],
+                                                "renderToStaticMarkup": false,
+                                                "setActiveLanguage": [Function],
+                                                "translate": [Function],
+                                              }
+                                            }
+                                            id="Exp: Brand360 Skill"
+                                          >
+                                            Missing translationId: Exp: Brand360 Skill for language: \${ languageCode }
+                                          </WrappedTranslate>
+                                        </Translate>
+                                      </b>
+                                    </StyledComponent>
+                                  </Bold>
+                                </p>
+                              </StyledComponent>
+                            </Description>
+                          </li>
+                        </StyledComponent>
+                      </Item__Container>
+                    </Item>
+                  </ul>
+                </StyledComponent>
+              </List__Container>
+            </List>
+          </div>
+        </section>
+      </StyledComponent>
+    </Container__Style>
+  </Container>
+</Experiences>
+`;
