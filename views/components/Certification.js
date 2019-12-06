@@ -12,9 +12,7 @@ const Certification = () => (
         <List className="certification">
           <Step>
             <Research />
-            <Icons>
-              <p> 123 </p>
-            </Icons>
+            <Icons />
           </Step>
           <Info>
             <ResearchInfo />
@@ -162,7 +160,9 @@ const ResearchInfo = styled.div`
 `
 
 const Header = styled.h3`
-  margin-bottom: 10px & span {
+  margin-bottom: 10px;
+
+  & span {
     color: ${props => props.theme.colors.colorDarken};
   }
 `
