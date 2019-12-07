@@ -1,0 +1,812 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error should render Error Component in general case 1`] = `
+<Error>
+  <Error__Wrapper>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Error__Wrapper-sc-18n92w4-0",
+            "isStatic": false,
+            "lastClassName": "iVdaXV",
+            "rules": Array [
+              "position:absolute;width:100%;height:100%;top:50%;text-align:center;transform:translateY(-50%);background-color:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "Error__Wrapper",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Error__Wrapper-sc-18n92w4-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="Error__Wrapper-sc-18n92w4-0 iVdaXV"
+      >
+        <Error__Content>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "Error__Content-sc-18n92w4-1",
+                  "isStatic": false,
+                  "lastClassName": "ggGBIY",
+                  "rules": Array [
+                    "max-width:410px;position:relative;float:left;top:50%;left:50%;transform:translate(-50%,-50%);",
+                  ],
+                },
+                "displayName": "Error__Content",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "Error__Content-sc-18n92w4-1",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="Error__Content-sc-18n92w4-1 ggGBIY"
+            >
+              <Error__Container>
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "Error__Container-sc-18n92w4-2",
+                        "isStatic": false,
+                        "lastClassName": "kEKsOf",
+                        "rules": Array [
+                          "height:280px;position:relative;z-index:-1;@media only screen and (max-width:767px){height:142px;}",
+                        ],
+                      },
+                      "displayName": "Error__Container",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "Error__Container-sc-18n92w4-2",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className="Error__Container-sc-18n92w4-2 kEKsOf"
+                  >
+                    <Error__Text>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "Error__Text-sc-18n92w4-3",
+                              "isStatic": false,
+                              "lastClassName": "DoeGF",
+                              "rules": Array [
+                                "@media only screen and (max-width:767px){font-size:112px;}font-size:230px;margin:0;font-weight:900;position:absolute;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);background:url(/images/oops.jpg) no-repeat;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-size:cover;background-position:center;",
+                              ],
+                            },
+                            "displayName": "Error__Text",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "Error__Text-sc-18n92w4-3",
+                            "target": "h1",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <h1
+                          className="Error__Text-sc-18n92w4-3 DoeGF"
+                        >
+                          Oops!
+                        </h1>
+                      </StyledComponent>
+                    </Error__Text>
+                  </div>
+                </StyledComponent>
+              </Error__Container>
+              <General>
+                <Layout
+                  description="There are some errors happened during the process, please back to home page and try again."
+                  title="An error occurred"
+                >
+                  <Layout__Title>
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "Layout__Title-zgu6n1-0",
+                            "isStatic": false,
+                            "lastClassName": "emJHsp",
+                            "rules": Array [
+                              "font-family:",
+                              [Function],
+                              ";color:",
+                              [Function],
+                              ";font-size:",
+                              [Function],
+                              ";font-weight:700;text-transform:uppercase;margin:10px;",
+                            ],
+                          },
+                          "displayName": "Layout__Title",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "Layout__Title-zgu6n1-0",
+                          "target": "h2",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <h2
+                        className="Layout__Title-zgu6n1-0 emJHsp"
+                      >
+                        An error occurred
+                      </h2>
+                    </StyledComponent>
+                  </Layout__Title>
+                  <Layout__Description>
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "Layout__Description-zgu6n1-1",
+                            "isStatic": false,
+                            "lastClassName": "isCgcu",
+                            "rules": Array [
+                              "color:",
+                              [Function],
+                              ";font-size:14px;font-weight:400;margin:10px;",
+                            ],
+                          },
+                          "displayName": "Layout__Description",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "Layout__Description-zgu6n1-1",
+                          "target": "p",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <p
+                        className="Layout__Description-zgu6n1-1 isCgcu"
+                      >
+                        There are some errors happened during the process, please back to home page and try again.
+                      </p>
+                    </StyledComponent>
+                  </Layout__Description>
+                  <Link
+                    href="/"
+                  >
+                    <Layout__Button
+                      onClick={[Function]}
+                      onMouseEnter={[Function]}
+                    >
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "Layout__Button-zgu6n1-2",
+                              "isStatic": false,
+                              "lastClassName": "dPrJUz",
+                              "rules": Array [
+                                "font-size:",
+                                [Function],
+                                ";text-decoration:none;text-transform:uppercase;background:",
+                                [Function],
+                                ";display:inline-block;padding:15px 30px;border-radius:40px;color:",
+                                [Function],
+                                ";font-weight:700;box-shadow:0 4px 15px -5px ",
+                                [Function],
+                                ";border:none;margin:10px;",
+                              ],
+                            },
+                            "displayName": "Layout__Button",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "Layout__Button-zgu6n1-2",
+                            "target": "a",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={[Function]}
+                        onClick={[Function]}
+                        onMouseEnter={[Function]}
+                      >
+                        <a
+                          className="Layout__Button-zgu6n1-2 dPrJUz"
+                          onClick={[Function]}
+                          onMouseEnter={[Function]}
+                        >
+                           Go To Homepage 
+                        </a>
+                      </StyledComponent>
+                    </Layout__Button>
+                  </Link>
+                </Layout>
+              </General>
+            </div>
+          </StyledComponent>
+        </Error__Content>
+      </div>
+    </StyledComponent>
+  </Error__Wrapper>
+</Error>
+`;
+
+exports[`Error should render Error Component with 404 1`] = `
+<Error
+  statusCode={404}
+>
+  <Error__Wrapper>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Error__Wrapper-sc-18n92w4-0",
+            "isStatic": false,
+            "lastClassName": "iVdaXV",
+            "rules": Array [
+              "position:absolute;width:100%;height:100%;top:50%;text-align:center;transform:translateY(-50%);background-color:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "Error__Wrapper",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Error__Wrapper-sc-18n92w4-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="Error__Wrapper-sc-18n92w4-0 iVdaXV"
+      >
+        <Error__Content>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "Error__Content-sc-18n92w4-1",
+                  "isStatic": false,
+                  "lastClassName": "ggGBIY",
+                  "rules": Array [
+                    "max-width:410px;position:relative;float:left;top:50%;left:50%;transform:translate(-50%,-50%);",
+                  ],
+                },
+                "displayName": "Error__Content",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "Error__Content-sc-18n92w4-1",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="Error__Content-sc-18n92w4-1 ggGBIY"
+            >
+              <Error__Container>
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "Error__Container-sc-18n92w4-2",
+                        "isStatic": false,
+                        "lastClassName": "kEKsOf",
+                        "rules": Array [
+                          "height:280px;position:relative;z-index:-1;@media only screen and (max-width:767px){height:142px;}",
+                        ],
+                      },
+                      "displayName": "Error__Container",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "Error__Container-sc-18n92w4-2",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className="Error__Container-sc-18n92w4-2 kEKsOf"
+                  >
+                    <Error__Text>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "Error__Text-sc-18n92w4-3",
+                              "isStatic": false,
+                              "lastClassName": "DoeGF",
+                              "rules": Array [
+                                "@media only screen and (max-width:767px){font-size:112px;}font-size:230px;margin:0;font-weight:900;position:absolute;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);background:url(/images/oops.jpg) no-repeat;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-size:cover;background-position:center;",
+                              ],
+                            },
+                            "displayName": "Error__Text",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "Error__Text-sc-18n92w4-3",
+                            "target": "h1",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <h1
+                          className="Error__Text-sc-18n92w4-3 DoeGF"
+                        >
+                          Oops!
+                        </h1>
+                      </StyledComponent>
+                    </Error__Text>
+                  </div>
+                </StyledComponent>
+              </Error__Container>
+              <NotFound>
+                <Layout
+                  description="The page you are looking for might have been removed had its name changed or is temporarily unavailable."
+                  title="An error 404 occurred"
+                >
+                  <Layout__Title>
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "Layout__Title-zgu6n1-0",
+                            "isStatic": false,
+                            "lastClassName": "emJHsp",
+                            "rules": Array [
+                              "font-family:",
+                              [Function],
+                              ";color:",
+                              [Function],
+                              ";font-size:",
+                              [Function],
+                              ";font-weight:700;text-transform:uppercase;margin:10px;",
+                            ],
+                          },
+                          "displayName": "Layout__Title",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "Layout__Title-zgu6n1-0",
+                          "target": "h2",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <h2
+                        className="Layout__Title-zgu6n1-0 emJHsp"
+                      >
+                        An error 404 occurred
+                      </h2>
+                    </StyledComponent>
+                  </Layout__Title>
+                  <Layout__Description>
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "Layout__Description-zgu6n1-1",
+                            "isStatic": false,
+                            "lastClassName": "isCgcu",
+                            "rules": Array [
+                              "color:",
+                              [Function],
+                              ";font-size:14px;font-weight:400;margin:10px;",
+                            ],
+                          },
+                          "displayName": "Layout__Description",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "Layout__Description-zgu6n1-1",
+                          "target": "p",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <p
+                        className="Layout__Description-zgu6n1-1 isCgcu"
+                      >
+                        The page you are looking for might have been removed had its name changed or is temporarily unavailable.
+                      </p>
+                    </StyledComponent>
+                  </Layout__Description>
+                  <Link
+                    href="/"
+                  >
+                    <Layout__Button
+                      onClick={[Function]}
+                      onMouseEnter={[Function]}
+                    >
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "Layout__Button-zgu6n1-2",
+                              "isStatic": false,
+                              "lastClassName": "dPrJUz",
+                              "rules": Array [
+                                "font-size:",
+                                [Function],
+                                ";text-decoration:none;text-transform:uppercase;background:",
+                                [Function],
+                                ";display:inline-block;padding:15px 30px;border-radius:40px;color:",
+                                [Function],
+                                ";font-weight:700;box-shadow:0 4px 15px -5px ",
+                                [Function],
+                                ";border:none;margin:10px;",
+                              ],
+                            },
+                            "displayName": "Layout__Button",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "Layout__Button-zgu6n1-2",
+                            "target": "a",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={[Function]}
+                        onClick={[Function]}
+                        onMouseEnter={[Function]}
+                      >
+                        <a
+                          className="Layout__Button-zgu6n1-2 dPrJUz"
+                          onClick={[Function]}
+                          onMouseEnter={[Function]}
+                        >
+                           Go To Homepage 
+                        </a>
+                      </StyledComponent>
+                    </Layout__Button>
+                  </Link>
+                </Layout>
+              </NotFound>
+            </div>
+          </StyledComponent>
+        </Error__Content>
+      </div>
+    </StyledComponent>
+  </Error__Wrapper>
+</Error>
+`;
+
+exports[`Error should render Error Component with 500 1`] = `
+<Error
+  statusCode={500}
+>
+  <Error__Wrapper>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Error__Wrapper-sc-18n92w4-0",
+            "isStatic": false,
+            "lastClassName": "iVdaXV",
+            "rules": Array [
+              "position:absolute;width:100%;height:100%;top:50%;text-align:center;transform:translateY(-50%);background-color:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "Error__Wrapper",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Error__Wrapper-sc-18n92w4-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="Error__Wrapper-sc-18n92w4-0 iVdaXV"
+      >
+        <Error__Content>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "Error__Content-sc-18n92w4-1",
+                  "isStatic": false,
+                  "lastClassName": "ggGBIY",
+                  "rules": Array [
+                    "max-width:410px;position:relative;float:left;top:50%;left:50%;transform:translate(-50%,-50%);",
+                  ],
+                },
+                "displayName": "Error__Content",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "Error__Content-sc-18n92w4-1",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="Error__Content-sc-18n92w4-1 ggGBIY"
+            >
+              <Error__Container>
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "Error__Container-sc-18n92w4-2",
+                        "isStatic": false,
+                        "lastClassName": "kEKsOf",
+                        "rules": Array [
+                          "height:280px;position:relative;z-index:-1;@media only screen and (max-width:767px){height:142px;}",
+                        ],
+                      },
+                      "displayName": "Error__Container",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "Error__Container-sc-18n92w4-2",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className="Error__Container-sc-18n92w4-2 kEKsOf"
+                  >
+                    <Error__Text>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "Error__Text-sc-18n92w4-3",
+                              "isStatic": false,
+                              "lastClassName": "DoeGF",
+                              "rules": Array [
+                                "@media only screen and (max-width:767px){font-size:112px;}font-size:230px;margin:0;font-weight:900;position:absolute;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);background:url(/images/oops.jpg) no-repeat;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-size:cover;background-position:center;",
+                              ],
+                            },
+                            "displayName": "Error__Text",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "Error__Text-sc-18n92w4-3",
+                            "target": "h1",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <h1
+                          className="Error__Text-sc-18n92w4-3 DoeGF"
+                        >
+                          Oops!
+                        </h1>
+                      </StyledComponent>
+                    </Error__Text>
+                  </div>
+                </StyledComponent>
+              </Error__Container>
+              <InternalServer>
+                <Layout
+                  description="The server encountered an internal error or misconfiguration and was unable to complete your request."
+                  title="An error 500 Internal Server Error occurred"
+                >
+                  <Layout__Title>
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "Layout__Title-zgu6n1-0",
+                            "isStatic": false,
+                            "lastClassName": "emJHsp",
+                            "rules": Array [
+                              "font-family:",
+                              [Function],
+                              ";color:",
+                              [Function],
+                              ";font-size:",
+                              [Function],
+                              ";font-weight:700;text-transform:uppercase;margin:10px;",
+                            ],
+                          },
+                          "displayName": "Layout__Title",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "Layout__Title-zgu6n1-0",
+                          "target": "h2",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <h2
+                        className="Layout__Title-zgu6n1-0 emJHsp"
+                      >
+                        An error 500 Internal Server Error occurred
+                      </h2>
+                    </StyledComponent>
+                  </Layout__Title>
+                  <Layout__Description>
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "Layout__Description-zgu6n1-1",
+                            "isStatic": false,
+                            "lastClassName": "isCgcu",
+                            "rules": Array [
+                              "color:",
+                              [Function],
+                              ";font-size:14px;font-weight:400;margin:10px;",
+                            ],
+                          },
+                          "displayName": "Layout__Description",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "Layout__Description-zgu6n1-1",
+                          "target": "p",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <p
+                        className="Layout__Description-zgu6n1-1 isCgcu"
+                      >
+                        The server encountered an internal error or misconfiguration and was unable to complete your request.
+                      </p>
+                    </StyledComponent>
+                  </Layout__Description>
+                  <Link
+                    href="/"
+                  >
+                    <Layout__Button
+                      onClick={[Function]}
+                      onMouseEnter={[Function]}
+                    >
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "Layout__Button-zgu6n1-2",
+                              "isStatic": false,
+                              "lastClassName": "dPrJUz",
+                              "rules": Array [
+                                "font-size:",
+                                [Function],
+                                ";text-decoration:none;text-transform:uppercase;background:",
+                                [Function],
+                                ";display:inline-block;padding:15px 30px;border-radius:40px;color:",
+                                [Function],
+                                ";font-weight:700;box-shadow:0 4px 15px -5px ",
+                                [Function],
+                                ";border:none;margin:10px;",
+                              ],
+                            },
+                            "displayName": "Layout__Button",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "Layout__Button-zgu6n1-2",
+                            "target": "a",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={[Function]}
+                        onClick={[Function]}
+                        onMouseEnter={[Function]}
+                      >
+                        <a
+                          className="Layout__Button-zgu6n1-2 dPrJUz"
+                          onClick={[Function]}
+                          onMouseEnter={[Function]}
+                        >
+                           Go To Homepage 
+                        </a>
+                      </StyledComponent>
+                    </Layout__Button>
+                  </Link>
+                </Layout>
+              </InternalServer>
+            </div>
+          </StyledComponent>
+        </Error__Content>
+      </div>
+    </StyledComponent>
+  </Error__Wrapper>
+</Error>
+`;
