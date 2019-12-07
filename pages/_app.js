@@ -7,6 +7,7 @@ import Router from 'next/router'
 import theme from '~/views/theme'
 import LocalizedComponent from '~/views/localize/LocalizedComponent'
 import Loading from '~/views/original-components/Loading'
+import ErrorBoundary from '~/views/components/ErrorBoundary'
 
 //Import Global style
 import '~/styles/globalStyle.sass'
@@ -32,7 +33,9 @@ export default class MyApp extends App {
         <ThemeProvider theme={theme}>
           <LocalizeProvider>
             <LocalizedComponent>
-              <Component {...pageProps} />
+              <ErrorBoundary>
+                <Component {...pageProps} />
+              </ErrorBoundary>
             </LocalizedComponent>
           </LocalizeProvider>
         </ThemeProvider>
