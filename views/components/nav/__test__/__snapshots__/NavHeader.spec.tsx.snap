@@ -136,9 +136,13 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                                       "componentStyle": ComponentStyle {
                                         "componentId": "NavLink__Container-v6tuz9-0",
                                         "isStatic": false,
-                                        "lastClassName": "bfwuOx",
+                                        "lastClassName": "kaTmoz",
                                         "rules": Array [
                                           "color:",
+                                          [Function],
+                                          ";cursor:",
+                                          [Function],
+                                          ";text-decoration:",
                                           [Function],
                                           ";border:",
                                           [Function],
@@ -168,7 +172,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavLink__Container-v6tuz9-0 fMGHjQ"
+                                    className="NavLink__Container-v6tuz9-0 eIUBAm"
                                     onClick={[Function]}
                                   >
                                     <Translate
@@ -262,9 +266,13 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                                       "componentStyle": ComponentStyle {
                                         "componentId": "NavLink__Container-v6tuz9-0",
                                         "isStatic": false,
-                                        "lastClassName": "bfwuOx",
+                                        "lastClassName": "kaTmoz",
                                         "rules": Array [
                                           "color:",
+                                          [Function],
+                                          ";cursor:",
+                                          [Function],
+                                          ";text-decoration:",
                                           [Function],
                                           ";border:",
                                           [Function],
@@ -294,7 +302,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavLink__Container-v6tuz9-0 bfwuOx"
+                                    className="NavLink__Container-v6tuz9-0 kaTmoz"
                                     onClick={[Function]}
                                   >
                                     <Translate
@@ -336,7 +344,6 @@ exports[`Nav Header should render when not show NavContent 1`] = `
           <NavHeader__NavControl
             className="first-nav__navcontrol"
             data-test-id="switch-nav-content"
-            href="#"
             onClick={[Function]}
           >
             <StyledComponent
@@ -349,7 +356,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                   "componentStyle": ComponentStyle {
                     "componentId": "NavHeader__NavControl-twnsn2-1",
                     "isStatic": false,
-                    "lastClassName": "eYjaKG",
+                    "lastClassName": "chOABF",
                     "rules": Array [
                       "color:",
                       [Function],
@@ -359,7 +366,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                       [Function],
                       ";font-size:",
                       [Function],
-                      ";transition:color 0.5s;@media screen and (max-width:600px){margin-right:0;}}&.is-open,&.is-closed{display:block;}&:hover,&:hover::before{color:",
+                      ";transition:color 0.5s;@media screen and (max-width:600px){margin-right:0;}}&:hover,&:hover::before{color:",
                       [Function],
                       ";}",
                     ],
@@ -368,20 +375,18 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                   "foldedComponentIds": Array [],
                   "render": [Function],
                   "styledComponentId": "NavHeader__NavControl-twnsn2-1",
-                  "target": "a",
+                  "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
                   "withComponent": [Function],
                 }
               }
               forwardedRef={null}
-              href="#"
               onClick={[Function]}
             >
-              <a
-                className="NavHeader__NavControl-twnsn2-1 eYjaKG first-nav__navcontrol"
+              <div
+                className="NavHeader__NavControl-twnsn2-1 chOABF first-nav__navcontrol"
                 data-test-id="switch-nav-content"
-                href="#"
                 onClick={[Function]}
               >
                 <NavHeader__HamburgerIcon>
@@ -469,7 +474,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                     Missing translationId: Menu for language: \${ languageCode }
                   </WrappedTranslate>
                 </Translate>
-              </a>
+              </div>
             </StyledComponent>
           </NavHeader__NavControl>
         </div>
@@ -617,9 +622,13 @@ exports[`Nav Header should render when show NavContent 1`] = `
                                       "componentStyle": ComponentStyle {
                                         "componentId": "NavLink__Container-v6tuz9-0",
                                         "isStatic": false,
-                                        "lastClassName": "bfwuOx",
+                                        "lastClassName": "kaTmoz",
                                         "rules": Array [
                                           "color:",
+                                          [Function],
+                                          ";cursor:",
+                                          [Function],
+                                          ";text-decoration:",
                                           [Function],
                                           ";border:",
                                           [Function],
@@ -649,7 +658,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavLink__Container-v6tuz9-0 fMGHjQ"
+                                    className="NavLink__Container-v6tuz9-0 eIUBAm"
                                     onClick={[Function]}
                                   >
                                     <Translate
@@ -743,9 +752,13 @@ exports[`Nav Header should render when show NavContent 1`] = `
                                       "componentStyle": ComponentStyle {
                                         "componentId": "NavLink__Container-v6tuz9-0",
                                         "isStatic": false,
-                                        "lastClassName": "bfwuOx",
+                                        "lastClassName": "kaTmoz",
                                         "rules": Array [
                                           "color:",
+                                          [Function],
+                                          ";cursor:",
+                                          [Function],
+                                          ";text-decoration:",
                                           [Function],
                                           ";border:",
                                           [Function],
@@ -775,7 +788,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavLink__Container-v6tuz9-0 bfwuOx"
+                                    className="NavLink__Container-v6tuz9-0 kaTmoz"
                                     onClick={[Function]}
                                   >
                                     <Translate
@@ -817,7 +830,6 @@ exports[`Nav Header should render when show NavContent 1`] = `
           <NavHeader__NavControl
             className="first-nav__navcontrol"
             data-test-id="switch-nav-content"
-            href="#"
             onClick={[Function]}
           >
             <StyledComponent
@@ -830,7 +842,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
                   "componentStyle": ComponentStyle {
                     "componentId": "NavHeader__NavControl-twnsn2-1",
                     "isStatic": false,
-                    "lastClassName": "eYjaKG",
+                    "lastClassName": "chOABF",
                     "rules": Array [
                       "color:",
                       [Function],
@@ -840,7 +852,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
                       [Function],
                       ";font-size:",
                       [Function],
-                      ";transition:color 0.5s;@media screen and (max-width:600px){margin-right:0;}}&.is-open,&.is-closed{display:block;}&:hover,&:hover::before{color:",
+                      ";transition:color 0.5s;@media screen and (max-width:600px){margin-right:0;}}&:hover,&:hover::before{color:",
                       [Function],
                       ";}",
                     ],
@@ -849,20 +861,18 @@ exports[`Nav Header should render when show NavContent 1`] = `
                   "foldedComponentIds": Array [],
                   "render": [Function],
                   "styledComponentId": "NavHeader__NavControl-twnsn2-1",
-                  "target": "a",
+                  "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
                   "withComponent": [Function],
                 }
               }
               forwardedRef={null}
-              href="#"
               onClick={[Function]}
             >
-              <a
-                className="NavHeader__NavControl-twnsn2-1 eYjaKG first-nav__navcontrol"
+              <div
+                className="NavHeader__NavControl-twnsn2-1 chOABF first-nav__navcontrol"
                 data-test-id="switch-nav-content"
-                href="#"
                 onClick={[Function]}
               >
                 <NavHeader__CloseIcon>
@@ -952,7 +962,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
                     Missing translationId: Menu for language: \${ languageCode }
                   </WrappedTranslate>
                 </Translate>
-              </a>
+              </div>
             </StyledComponent>
           </NavHeader__NavControl>
         </div>
@@ -973,7 +983,6 @@ exports[`Nav Header should switchNav from Off to On 1`] = `
     <NavHeader__NavControl
       className="first-nav__navcontrol"
       data-test-id="switch-nav-content"
-      href="#"
       onClick={[Function]}
     >
       <NavHeader__HamburgerIcon />
@@ -997,7 +1006,6 @@ exports[`Nav Header should switchNav from On to Off 1`] = `
     <NavHeader__NavControl
       className="first-nav__navcontrol"
       data-test-id="switch-nav-content"
-      href="#"
       onClick={[Function]}
     >
       <NavHeader__CloseIcon />

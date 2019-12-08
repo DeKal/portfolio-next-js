@@ -5,7 +5,7 @@ import { EN, VN } from '~/consts/langs'
 import NavLink from '~/views/components/nav/NavLink'
 
 const NavLang = () => {
-  const [selectedLang, setSelectedLang] = useState(INIT_SELECTED_LANG)
+  const [selectedLang, setSelectedLang] = useState(getSelectedLang())
 
   return (
     <NotSelectableDiv className="first-nav__links">
@@ -26,6 +26,10 @@ const NavLang = () => {
       </ul>
     </NotSelectableDiv>
   )
+}
+
+const getSelectedLang = () => {
+  return window.localStorage.getItem('lang') || INIT_SELECTED_LANG
 }
 
 export default NavLang
