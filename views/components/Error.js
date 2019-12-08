@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components/macro'
 import NotFound from '~/views/components/error/NotFound'
@@ -7,16 +7,9 @@ import General from '~/views/components/error/General'
 
 const Error = ({ statusCode }) => {
   return (
-    <Fragment>
-      <Wrapper>
-        <Content>
-          <Container>
-            <Text>Oops!</Text>
-          </Container>
-          {renderError(statusCode)}
-        </Content>
-      </Wrapper>
-    </Fragment>
+    <Container>
+      <Content>{renderError(statusCode)}</Content>
+    </Container>
   )
 }
 
@@ -38,7 +31,7 @@ Error.propTypes = {
 
 export default Error
 
-const Wrapper = styled.div`
+const Container = styled.div`
   position: absolute;
   width: 100%;
   height: 100%;
@@ -54,33 +47,4 @@ const Content = styled.div`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-`
-
-const Container = styled.div`
-  height: 280px;
-  position: relative;
-  z-index: -1;
-
-  @media only screen and (max-width: 767px) {
-    height: 142px;
-  }
-`
-const Text = styled.h1`
-  @media only screen and (max-width: 767px) {
-    font-size: 112px;
-  }
-
-  font-size: 230px;
-  margin: 0;
-  font-weight: 900;
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-  background: url(/images/oops.jpg) no-repeat;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: cover;
-  background-position: center;
 `
