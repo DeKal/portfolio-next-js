@@ -1,7 +1,5 @@
 {
-  "presets": [
-    "next/babel"
-  ],
+  "presets": ["next/babel"],
   "plugins": [
     [
       "babel-plugin-root-import",
@@ -24,17 +22,25 @@
         "ssr": true
       }
     ],
-    [
-      "macros"
-    ],
-    [
-      "emotion"
-    ]
+    ["macros"],
+    ["emotion"]
   ],
   "env": {
     "production": {
       "plugins": [
-        "babel-plugin-root-import" 
+        "babel-plugin-root-import",
+        {
+          "paths": [
+            {
+              "rootPathSuffix": "./styles",
+              "rootPathPrefix": "~/styles"
+            },
+            {
+              "rootPathSuffix": "./src/",
+              "rootPathPrefix": "~/"
+            }
+          ]
+        }
       ]
     }
   }
