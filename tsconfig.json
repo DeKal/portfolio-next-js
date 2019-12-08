@@ -28,7 +28,7 @@
     "node_modules"
   ],
   "include": [
-    "next-env.d.ts",
+    "src/next-env.d.ts",
     "src/**/*.ts",
     "src/**/*.tsx"
   ]

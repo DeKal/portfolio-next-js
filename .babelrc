@@ -28,19 +28,21 @@
   "env": {
     "production": {
       "plugins": [
-        "babel-plugin-root-import",
-        {
-          "paths": [
-            {
-              "rootPathSuffix": "./styles",
-              "rootPathPrefix": "~/styles"
-            },
-            {
-              "rootPathSuffix": "./src/",
-              "rootPathPrefix": "~/"
-            }
-          ]
-        }
+        [
+          "babel-plugin-root-import",
+          {
+            "paths": [
+              {
+                "rootPathSuffix": "./styles",
+                "rootPathPrefix": "~/styles"
+              },
+              {
+                "rootPathSuffix": "./src/",
+                "rootPathPrefix": "~/"
+              }
+            ]
+          }
+        ]
       ]
     }
   }
