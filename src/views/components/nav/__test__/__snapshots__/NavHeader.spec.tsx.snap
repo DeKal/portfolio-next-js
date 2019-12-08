@@ -1,6 +1,123 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Nav Header should render when not show NavContent 1`] = `
+.c3 {
+  color: #2c3e50;
+  border: none;
+  border-color: #ecf0f1;
+  font-family: -apple-system,blinkmacsystemfont,"Segoe UI","Roboto","Oxygen","Ubuntu","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-style: italic;
+  line-height: 40px;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.c3:hover {
+  color: #2c3e50;
+  border: none;
+}
+
+.c5 {
+  color: #ecf0f1;
+  border: initial;
+  border-color: #ecf0f1;
+  font-family: -apple-system,blinkmacsystemfont,"Segoe UI","Roboto","Oxygen","Ubuntu","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-style: italic;
+  line-height: 40px;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.c5:hover {
+  color: #2c3e50;
+  border: none;
+}
+
+.c1 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c2 {
+  display: inline-block;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.c4 {
+  display: inline-block;
+  padding: 5px;
+}
+
+.c0 {
+  position: absolute;
+  z-index: 200;
+  top: 0;
+  left: 0;
+  height: 40px;
+  overflow: hidden;
+  background-color: #FFA726;
+  box-shadow: 0 1px 2px -1px #2c3e50;
+}
+
+.c6 {
+  color: #ecf0f1;
+  line-height: 40px;
+  text-align: right;
+  border: none;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.c6::before {
+  display: inline-block;
+  margin-right: 10px;
+  color: #ecf0f1;
+  font-size: 18px;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.c6.is-open,
+.c6.is-closed {
+  display: block;
+}
+
+.c6:hover,
+.c6:hover::before {
+  color: #2c3e50;
+}
+
+.c7 {
+  display: inline;
+  padding-bottom: 5px;
+}
+
+@media screen and (max-width:800px) {
+  .c2 {
+    margin: 0 7px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .c6 {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .c6::before {
+    margin-right: 0;
+  }
+}
+
 <NavHeader>
   <NavHeader__NavContainer
     className="first-nav"
@@ -12,9 +129,9 @@ exports[`Nav Header should render when not show NavContent 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "NavHeader__NavContainer-twnsn2-0",
+            "componentId": "NavHeader__NavContainer-sc-1bs4dz-0",
             "isStatic": false,
-            "lastClassName": "ffkEdX",
+            "lastClassName": "c0",
             "rules": Array [
               "position:absolute;z-index:200;top:0;left:0;height:",
               [Function],
@@ -28,7 +145,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
           "displayName": "NavHeader__NavContainer",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "NavHeader__NavContainer-twnsn2-0",
+          "styledComponentId": "NavHeader__NavContainer-sc-1bs4dz-0",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -38,7 +155,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
       forwardedRef={null}
     >
       <div
-        className="NavHeader__NavContainer-twnsn2-0 ffkEdX first-nav"
+        className="c0 first-nav"
       >
         <div
           className="container"
@@ -54,9 +171,9 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                     "$$typeof": Symbol(react.forward_ref),
                     "attrs": Array [],
                     "componentStyle": ComponentStyle {
-                      "componentId": "NavLang__NotSelectableDiv-sc-7efc3x-0",
+                      "componentId": "NavLang__NotSelectableDiv-sc-1rq3vcf-0",
                       "isStatic": false,
-                      "lastClassName": "jjunQF",
+                      "lastClassName": "c1",
                       "rules": Array [
                         "-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;",
                       ],
@@ -64,7 +181,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                     "displayName": "NavLang__NotSelectableDiv",
                     "foldedComponentIds": Array [],
                     "render": [Function],
-                    "styledComponentId": "NavLang__NotSelectableDiv-sc-7efc3x-0",
+                    "styledComponentId": "NavLang__NotSelectableDiv-sc-1rq3vcf-0",
                     "target": "nav",
                     "toString": [Function],
                     "warnTooManyClasses": [Function],
@@ -74,7 +191,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                 forwardedRef={null}
               >
                 <nav
-                  className="NavLang__NotSelectableDiv-sc-7efc3x-0 jjunQF first-nav__links"
+                  className="c1 first-nav__links"
                 >
                   <ul>
                     <NavLang__NavLinkItem>
@@ -84,9 +201,9 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                             "$$typeof": Symbol(react.forward_ref),
                             "attrs": Array [],
                             "componentStyle": ComponentStyle {
-                              "componentId": "NavLang__NavLinkItem-sc-7efc3x-1",
+                              "componentId": "NavLang__NavLinkItem-sc-1rq3vcf-1",
                               "isStatic": false,
-                              "lastClassName": "gISzZC",
+                              "lastClassName": "c2",
                               "rules": Array [
                                 "display:inline-block;margin:0 10px;cursor:pointer;@media screen and (max-width:800px){margin:0 7px;}",
                               ],
@@ -94,7 +211,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                             "displayName": "NavLang__NavLinkItem",
                             "foldedComponentIds": Array [],
                             "render": [Function],
-                            "styledComponentId": "NavLang__NavLinkItem-sc-7efc3x-1",
+                            "styledComponentId": "NavLang__NavLinkItem-sc-1rq3vcf-1",
                             "target": "li",
                             "toString": [Function],
                             "warnTooManyClasses": [Function],
@@ -104,7 +221,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                         forwardedRef={null}
                       >
                         <li
-                          className="NavLang__NavLinkItem-sc-7efc3x-1 gISzZC"
+                          className="c2"
                         >
                           <LocalizedComponent
                             lang="en"
@@ -134,9 +251,9 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                                       "$$typeof": Symbol(react.forward_ref),
                                       "attrs": Array [],
                                       "componentStyle": ComponentStyle {
-                                        "componentId": "NavLink__Container-v6tuz9-0",
+                                        "componentId": "NavLink__Container-sc-6fie4r-0",
                                         "isStatic": false,
-                                        "lastClassName": "bfwuOx",
+                                        "lastClassName": "c5",
                                         "rules": Array [
                                           "color:",
                                           [Function],
@@ -156,7 +273,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                                       "displayName": "NavLink__Container",
                                       "foldedComponentIds": Array [],
                                       "render": [Function],
-                                      "styledComponentId": "NavLink__Container-v6tuz9-0",
+                                      "styledComponentId": "NavLink__Container-sc-6fie4r-0",
                                       "target": "a",
                                       "toString": [Function],
                                       "warnTooManyClasses": [Function],
@@ -168,7 +285,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavLink__Container-v6tuz9-0 fMGHjQ"
+                                    className="c3"
                                     onClick={[Function]}
                                   >
                                     <Translate
@@ -206,9 +323,9 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "NavLang__InlineBlock-sc-7efc3x-2",
+                                    "componentId": "NavLang__InlineBlock-sc-1rq3vcf-2",
                                     "isStatic": false,
-                                    "lastClassName": "eBtnkR",
+                                    "lastClassName": "c4",
                                     "rules": Array [
                                       "display:inline-block;padding:5px;",
                                     ],
@@ -216,7 +333,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                                   "displayName": "NavLang__InlineBlock",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "NavLang__InlineBlock-sc-7efc3x-2",
+                                  "styledComponentId": "NavLang__InlineBlock-sc-1rq3vcf-2",
                                   "target": "div",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -226,7 +343,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                               forwardedRef={null}
                             >
                               <div
-                                className="NavLang__InlineBlock-sc-7efc3x-2 eBtnkR"
+                                className="c4"
                               >
                                 /
                               </div>
@@ -260,9 +377,9 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                                       "$$typeof": Symbol(react.forward_ref),
                                       "attrs": Array [],
                                       "componentStyle": ComponentStyle {
-                                        "componentId": "NavLink__Container-v6tuz9-0",
+                                        "componentId": "NavLink__Container-sc-6fie4r-0",
                                         "isStatic": false,
-                                        "lastClassName": "bfwuOx",
+                                        "lastClassName": "c5",
                                         "rules": Array [
                                           "color:",
                                           [Function],
@@ -282,7 +399,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                                       "displayName": "NavLink__Container",
                                       "foldedComponentIds": Array [],
                                       "render": [Function],
-                                      "styledComponentId": "NavLink__Container-v6tuz9-0",
+                                      "styledComponentId": "NavLink__Container-sc-6fie4r-0",
                                       "target": "a",
                                       "toString": [Function],
                                       "warnTooManyClasses": [Function],
@@ -294,7 +411,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavLink__Container-v6tuz9-0 bfwuOx"
+                                    className="c5"
                                     onClick={[Function]}
                                   >
                                     <Translate
@@ -347,9 +464,9 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "NavHeader__NavControl-twnsn2-1",
+                    "componentId": "NavHeader__NavControl-sc-1bs4dz-1",
                     "isStatic": false,
-                    "lastClassName": "eYjaKG",
+                    "lastClassName": "c6",
                     "rules": Array [
                       "color:",
                       [Function],
@@ -367,7 +484,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                   "displayName": "NavHeader__NavControl",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "NavHeader__NavControl-twnsn2-1",
+                  "styledComponentId": "NavHeader__NavControl-sc-1bs4dz-1",
                   "target": "a",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -379,7 +496,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
               onClick={[Function]}
             >
               <a
-                className="NavHeader__NavControl-twnsn2-1 eYjaKG first-nav__navcontrol"
+                className="c6 first-nav__navcontrol"
                 data-test-id="switch-nav-content"
                 href="#"
                 onClick={[Function]}
@@ -391,9 +508,9 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "NavHeader__HamburgerIcon-twnsn2-2",
+                          "componentId": "NavHeader__HamburgerIcon-sc-1bs4dz-2",
                           "isStatic": false,
-                          "lastClassName": "btPVzD",
+                          "lastClassName": "c7",
                           "rules": Array [
                             "display:inline;padding-bottom:5px;",
                           ],
@@ -401,7 +518,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                         "displayName": "NavHeader__HamburgerIcon",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "NavHeader__HamburgerIcon-twnsn2-2",
+                        "styledComponentId": "NavHeader__HamburgerIcon-sc-1bs4dz-2",
                         "target": [Function],
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -411,7 +528,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                     forwardedRef={null}
                   >
                     <GiHamburgerMenu
-                      className="NavHeader__HamburgerIcon-twnsn2-2 btPVzD"
+                      className="c7"
                     >
                       <IconBase
                         attr={
@@ -419,10 +536,10 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                             "viewBox": "0 0 512 512",
                           }
                         }
-                        className="NavHeader__HamburgerIcon-twnsn2-2 btPVzD"
+                        className="c7"
                       >
                         <svg
-                          className="NavHeader__HamburgerIcon-twnsn2-2 btPVzD"
+                          className="c7"
                           fill="currentColor"
                           height="1em"
                           stroke="currentColor"
@@ -480,6 +597,125 @@ exports[`Nav Header should render when not show NavContent 1`] = `
 `;
 
 exports[`Nav Header should render when show NavContent 1`] = `
+.c3 {
+  color: #2c3e50;
+  border: none;
+  border-color: #ecf0f1;
+  font-family: -apple-system,blinkmacsystemfont,"Segoe UI","Roboto","Oxygen","Ubuntu","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-style: italic;
+  line-height: 40px;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.c3:hover {
+  color: #2c3e50;
+  border: none;
+}
+
+.c5 {
+  color: #ecf0f1;
+  border: initial;
+  border-color: #ecf0f1;
+  font-family: -apple-system,blinkmacsystemfont,"Segoe UI","Roboto","Oxygen","Ubuntu","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-style: italic;
+  line-height: 40px;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.c5:hover {
+  color: #2c3e50;
+  border: none;
+}
+
+.c1 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c2 {
+  display: inline-block;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.c4 {
+  display: inline-block;
+  padding: 5px;
+}
+
+.c0 {
+  position: absolute;
+  z-index: 200;
+  top: 0;
+  left: 0;
+  height: 40px;
+  overflow: hidden;
+  background-color: #FFA726;
+  box-shadow: 0 1px 2px -1px #2c3e50;
+}
+
+.c6 {
+  color: #ecf0f1;
+  line-height: 40px;
+  text-align: right;
+  border: none;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.c6::before {
+  display: inline-block;
+  margin-right: 10px;
+  color: #ecf0f1;
+  font-size: 18px;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.c6.is-open,
+.c6.is-closed {
+  display: block;
+}
+
+.c6:hover,
+.c6:hover::before {
+  color: #2c3e50;
+}
+
+.c7 {
+  display: inline;
+  font-size: 22px;
+  font-weight: bolder;
+  padding-bottom: 3px;
+}
+
+@media screen and (max-width:800px) {
+  .c2 {
+    margin: 0 7px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .c6 {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .c6::before {
+    margin-right: 0;
+  }
+}
+
 <NavHeader
   isShowNavContent={true}
 >
@@ -493,9 +729,9 @@ exports[`Nav Header should render when show NavContent 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "NavHeader__NavContainer-twnsn2-0",
+            "componentId": "NavHeader__NavContainer-sc-1bs4dz-0",
             "isStatic": false,
-            "lastClassName": "ffkEdX",
+            "lastClassName": "c0",
             "rules": Array [
               "position:absolute;z-index:200;top:0;left:0;height:",
               [Function],
@@ -509,7 +745,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
           "displayName": "NavHeader__NavContainer",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "NavHeader__NavContainer-twnsn2-0",
+          "styledComponentId": "NavHeader__NavContainer-sc-1bs4dz-0",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -519,7 +755,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
       forwardedRef={null}
     >
       <div
-        className="NavHeader__NavContainer-twnsn2-0 ffkEdX first-nav"
+        className="c0 first-nav"
       >
         <div
           className="container"
@@ -535,9 +771,9 @@ exports[`Nav Header should render when show NavContent 1`] = `
                     "$$typeof": Symbol(react.forward_ref),
                     "attrs": Array [],
                     "componentStyle": ComponentStyle {
-                      "componentId": "NavLang__NotSelectableDiv-sc-7efc3x-0",
+                      "componentId": "NavLang__NotSelectableDiv-sc-1rq3vcf-0",
                       "isStatic": false,
-                      "lastClassName": "jjunQF",
+                      "lastClassName": "c1",
                       "rules": Array [
                         "-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;",
                       ],
@@ -545,7 +781,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
                     "displayName": "NavLang__NotSelectableDiv",
                     "foldedComponentIds": Array [],
                     "render": [Function],
-                    "styledComponentId": "NavLang__NotSelectableDiv-sc-7efc3x-0",
+                    "styledComponentId": "NavLang__NotSelectableDiv-sc-1rq3vcf-0",
                     "target": "nav",
                     "toString": [Function],
                     "warnTooManyClasses": [Function],
@@ -555,7 +791,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
                 forwardedRef={null}
               >
                 <nav
-                  className="NavLang__NotSelectableDiv-sc-7efc3x-0 jjunQF first-nav__links"
+                  className="c1 first-nav__links"
                 >
                   <ul>
                     <NavLang__NavLinkItem>
@@ -565,9 +801,9 @@ exports[`Nav Header should render when show NavContent 1`] = `
                             "$$typeof": Symbol(react.forward_ref),
                             "attrs": Array [],
                             "componentStyle": ComponentStyle {
-                              "componentId": "NavLang__NavLinkItem-sc-7efc3x-1",
+                              "componentId": "NavLang__NavLinkItem-sc-1rq3vcf-1",
                               "isStatic": false,
-                              "lastClassName": "gISzZC",
+                              "lastClassName": "c2",
                               "rules": Array [
                                 "display:inline-block;margin:0 10px;cursor:pointer;@media screen and (max-width:800px){margin:0 7px;}",
                               ],
@@ -575,7 +811,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
                             "displayName": "NavLang__NavLinkItem",
                             "foldedComponentIds": Array [],
                             "render": [Function],
-                            "styledComponentId": "NavLang__NavLinkItem-sc-7efc3x-1",
+                            "styledComponentId": "NavLang__NavLinkItem-sc-1rq3vcf-1",
                             "target": "li",
                             "toString": [Function],
                             "warnTooManyClasses": [Function],
@@ -585,7 +821,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
                         forwardedRef={null}
                       >
                         <li
-                          className="NavLang__NavLinkItem-sc-7efc3x-1 gISzZC"
+                          className="c2"
                         >
                           <LocalizedComponent
                             lang="en"
@@ -615,9 +851,9 @@ exports[`Nav Header should render when show NavContent 1`] = `
                                       "$$typeof": Symbol(react.forward_ref),
                                       "attrs": Array [],
                                       "componentStyle": ComponentStyle {
-                                        "componentId": "NavLink__Container-v6tuz9-0",
+                                        "componentId": "NavLink__Container-sc-6fie4r-0",
                                         "isStatic": false,
-                                        "lastClassName": "bfwuOx",
+                                        "lastClassName": "c5",
                                         "rules": Array [
                                           "color:",
                                           [Function],
@@ -637,7 +873,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
                                       "displayName": "NavLink__Container",
                                       "foldedComponentIds": Array [],
                                       "render": [Function],
-                                      "styledComponentId": "NavLink__Container-v6tuz9-0",
+                                      "styledComponentId": "NavLink__Container-sc-6fie4r-0",
                                       "target": "a",
                                       "toString": [Function],
                                       "warnTooManyClasses": [Function],
@@ -649,7 +885,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavLink__Container-v6tuz9-0 fMGHjQ"
+                                    className="c3"
                                     onClick={[Function]}
                                   >
                                     <Translate
@@ -687,9 +923,9 @@ exports[`Nav Header should render when show NavContent 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "NavLang__InlineBlock-sc-7efc3x-2",
+                                    "componentId": "NavLang__InlineBlock-sc-1rq3vcf-2",
                                     "isStatic": false,
-                                    "lastClassName": "eBtnkR",
+                                    "lastClassName": "c4",
                                     "rules": Array [
                                       "display:inline-block;padding:5px;",
                                     ],
@@ -697,7 +933,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
                                   "displayName": "NavLang__InlineBlock",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "NavLang__InlineBlock-sc-7efc3x-2",
+                                  "styledComponentId": "NavLang__InlineBlock-sc-1rq3vcf-2",
                                   "target": "div",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -707,7 +943,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
                               forwardedRef={null}
                             >
                               <div
-                                className="NavLang__InlineBlock-sc-7efc3x-2 eBtnkR"
+                                className="c4"
                               >
                                 /
                               </div>
@@ -741,9 +977,9 @@ exports[`Nav Header should render when show NavContent 1`] = `
                                       "$$typeof": Symbol(react.forward_ref),
                                       "attrs": Array [],
                                       "componentStyle": ComponentStyle {
-                                        "componentId": "NavLink__Container-v6tuz9-0",
+                                        "componentId": "NavLink__Container-sc-6fie4r-0",
                                         "isStatic": false,
-                                        "lastClassName": "bfwuOx",
+                                        "lastClassName": "c5",
                                         "rules": Array [
                                           "color:",
                                           [Function],
@@ -763,7 +999,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
                                       "displayName": "NavLink__Container",
                                       "foldedComponentIds": Array [],
                                       "render": [Function],
-                                      "styledComponentId": "NavLink__Container-v6tuz9-0",
+                                      "styledComponentId": "NavLink__Container-sc-6fie4r-0",
                                       "target": "a",
                                       "toString": [Function],
                                       "warnTooManyClasses": [Function],
@@ -775,7 +1011,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavLink__Container-v6tuz9-0 bfwuOx"
+                                    className="c5"
                                     onClick={[Function]}
                                   >
                                     <Translate
@@ -828,9 +1064,9 @@ exports[`Nav Header should render when show NavContent 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "NavHeader__NavControl-twnsn2-1",
+                    "componentId": "NavHeader__NavControl-sc-1bs4dz-1",
                     "isStatic": false,
-                    "lastClassName": "eYjaKG",
+                    "lastClassName": "c6",
                     "rules": Array [
                       "color:",
                       [Function],
@@ -848,7 +1084,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
                   "displayName": "NavHeader__NavControl",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "NavHeader__NavControl-twnsn2-1",
+                  "styledComponentId": "NavHeader__NavControl-sc-1bs4dz-1",
                   "target": "a",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -860,7 +1096,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
               onClick={[Function]}
             >
               <a
-                className="NavHeader__NavControl-twnsn2-1 eYjaKG first-nav__navcontrol"
+                className="c6 first-nav__navcontrol"
                 data-test-id="switch-nav-content"
                 href="#"
                 onClick={[Function]}
@@ -872,9 +1108,9 @@ exports[`Nav Header should render when show NavContent 1`] = `
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "NavHeader__CloseIcon-twnsn2-3",
+                          "componentId": "NavHeader__CloseIcon-sc-1bs4dz-3",
                           "isStatic": false,
-                          "lastClassName": "cCiHVk",
+                          "lastClassName": "c7",
                           "rules": Array [
                             "display:inline;font-size:",
                             [Function],
@@ -884,7 +1120,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
                         "displayName": "NavHeader__CloseIcon",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "NavHeader__CloseIcon-twnsn2-3",
+                        "styledComponentId": "NavHeader__CloseIcon-sc-1bs4dz-3",
                         "target": [Function],
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -894,7 +1130,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
                     forwardedRef={null}
                   >
                     <MdClose
-                      className="NavHeader__CloseIcon-twnsn2-3 cCiHVk"
+                      className="c7"
                     >
                       <IconBase
                         attr={
@@ -902,10 +1138,10 @@ exports[`Nav Header should render when show NavContent 1`] = `
                             "viewBox": "0 0 24 24",
                           }
                         }
-                        className="NavHeader__CloseIcon-twnsn2-3 cCiHVk"
+                        className="c7"
                       >
                         <svg
-                          className="NavHeader__CloseIcon-twnsn2-3 cCiHVk"
+                          className="c7"
                           fill="currentColor"
                           height="1em"
                           stroke="currentColor"

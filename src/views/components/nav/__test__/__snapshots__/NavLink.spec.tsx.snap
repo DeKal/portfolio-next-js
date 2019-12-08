@@ -1,6 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Nav Link Big Device >= 600px should change Language when clicking 1`] = `
+.c0 {
+  color: #ecf0f1;
+  border: initial;
+  border-color: #ecf0f1;
+  font-family: -apple-system,blinkmacsystemfont,"Segoe UI","Roboto","Oxygen","Ubuntu","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-style: italic;
+  line-height: 40px;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.c0:hover {
+  color: #2c3e50;
+  border: none;
+}
+
 <LocalizedComponent
   lang="vn"
   selectedLang="en"
@@ -86,9 +102,9 @@ exports[`Nav Link Big Device >= 600px should change Language when clicking 1`] =
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "NavLink__Container-v6tuz9-0",
+              "componentId": "NavLink__Container-sc-6fie4r-0",
               "isStatic": false,
-              "lastClassName": "bfwuOx",
+              "lastClassName": "c0",
               "rules": Array [
                 "color:",
                 [Function],
@@ -108,7 +124,7 @@ exports[`Nav Link Big Device >= 600px should change Language when clicking 1`] =
             "displayName": "NavLink__Container",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "NavLink__Container-v6tuz9-0",
+            "styledComponentId": "NavLink__Container-sc-6fie4r-0",
             "target": "a",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -120,7 +136,7 @@ exports[`Nav Link Big Device >= 600px should change Language when clicking 1`] =
         onClick={[Function]}
       >
         <a
-          className="NavLink__Container-v6tuz9-0 bfwuOx"
+          className="c0"
           onClick={[Function]}
         >
           <Translate
@@ -154,6 +170,22 @@ exports[`Nav Link Big Device >= 600px should change Language when clicking 1`] =
 `;
 
 exports[`Nav Link Big Device >= 600px should render with English selected 1`] = `
+.c0 {
+  color: #2c3e50;
+  border: none;
+  border-color: #ecf0f1;
+  font-family: -apple-system,blinkmacsystemfont,"Segoe UI","Roboto","Oxygen","Ubuntu","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-style: italic;
+  line-height: 40px;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.c0:hover {
+  color: #2c3e50;
+  border: none;
+}
+
 <LocalizedComponent
   lang="en"
   selectedLang="en"
@@ -180,9 +212,9 @@ exports[`Nav Link Big Device >= 600px should render with English selected 1`] = 
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "NavLink__Container-v6tuz9-0",
+              "componentId": "NavLink__Container-sc-6fie4r-0",
               "isStatic": false,
-              "lastClassName": "fMGHjQ",
+              "lastClassName": "c0",
               "rules": Array [
                 "color:",
                 [Function],
@@ -202,7 +234,7 @@ exports[`Nav Link Big Device >= 600px should render with English selected 1`] = 
             "displayName": "NavLink__Container",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "NavLink__Container-v6tuz9-0",
+            "styledComponentId": "NavLink__Container-sc-6fie4r-0",
             "target": "a",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -214,7 +246,7 @@ exports[`Nav Link Big Device >= 600px should render with English selected 1`] = 
         onClick={[Function]}
       >
         <a
-          className="NavLink__Container-v6tuz9-0 fMGHjQ"
+          className="c0"
           onClick={[Function]}
         >
           <Translate
@@ -248,6 +280,22 @@ exports[`Nav Link Big Device >= 600px should render with English selected 1`] = 
 `;
 
 exports[`Nav Link Big Device >= 600px should render with Vietnamese selected 1`] = `
+.c0 {
+  color: #2c3e50;
+  border: none;
+  border-color: #ecf0f1;
+  font-family: -apple-system,blinkmacsystemfont,"Segoe UI","Roboto","Oxygen","Ubuntu","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-style: italic;
+  line-height: 40px;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.c0:hover {
+  color: #2c3e50;
+  border: none;
+}
+
 <LocalizedComponent
   lang="vn"
   selectedLang="vn"
@@ -274,9 +322,9 @@ exports[`Nav Link Big Device >= 600px should render with Vietnamese selected 1`]
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "NavLink__Container-v6tuz9-0",
+              "componentId": "NavLink__Container-sc-6fie4r-0",
               "isStatic": false,
-              "lastClassName": "fMGHjQ",
+              "lastClassName": "c0",
               "rules": Array [
                 "color:",
                 [Function],
@@ -296,7 +344,7 @@ exports[`Nav Link Big Device >= 600px should render with Vietnamese selected 1`]
             "displayName": "NavLink__Container",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "NavLink__Container-v6tuz9-0",
+            "styledComponentId": "NavLink__Container-sc-6fie4r-0",
             "target": "a",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -308,7 +356,7 @@ exports[`Nav Link Big Device >= 600px should render with Vietnamese selected 1`]
         onClick={[Function]}
       >
         <a
-          className="NavLink__Container-v6tuz9-0 fMGHjQ"
+          className="c0"
           onClick={[Function]}
         >
           <Translate
@@ -342,6 +390,22 @@ exports[`Nav Link Big Device >= 600px should render with Vietnamese selected 1`]
 `;
 
 exports[`Nav Link Small Device < 600px should render with English selected 1`] = `
+.c0 {
+  color: #2c3e50;
+  border: none;
+  border-color: #ecf0f1;
+  font-family: -apple-system,blinkmacsystemfont,"Segoe UI","Roboto","Oxygen","Ubuntu","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-style: italic;
+  line-height: 40px;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.c0:hover {
+  color: #2c3e50;
+  border: none;
+}
+
 <LocalizedComponent
   lang="en"
   selectedLang="en"
@@ -368,9 +432,9 @@ exports[`Nav Link Small Device < 600px should render with English selected 1`] =
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "NavLink__Container-v6tuz9-0",
+              "componentId": "NavLink__Container-sc-6fie4r-0",
               "isStatic": false,
-              "lastClassName": "fMGHjQ",
+              "lastClassName": "c0",
               "rules": Array [
                 "color:",
                 [Function],
@@ -390,7 +454,7 @@ exports[`Nav Link Small Device < 600px should render with English selected 1`] =
             "displayName": "NavLink__Container",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "NavLink__Container-v6tuz9-0",
+            "styledComponentId": "NavLink__Container-sc-6fie4r-0",
             "target": "a",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -402,7 +466,7 @@ exports[`Nav Link Small Device < 600px should render with English selected 1`] =
         onClick={[Function]}
       >
         <a
-          className="NavLink__Container-v6tuz9-0 fMGHjQ"
+          className="c0"
           onClick={[Function]}
         >
           en
@@ -414,6 +478,22 @@ exports[`Nav Link Small Device < 600px should render with English selected 1`] =
 `;
 
 exports[`Nav Link Small Device < 600px should render with Vietnamese selected 1`] = `
+.c0 {
+  color: #2c3e50;
+  border: none;
+  border-color: #ecf0f1;
+  font-family: -apple-system,blinkmacsystemfont,"Segoe UI","Roboto","Oxygen","Ubuntu","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-style: italic;
+  line-height: 40px;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.c0:hover {
+  color: #2c3e50;
+  border: none;
+}
+
 <LocalizedComponent
   lang="vn"
   selectedLang="vn"
@@ -440,9 +520,9 @@ exports[`Nav Link Small Device < 600px should render with Vietnamese selected 1`
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "NavLink__Container-v6tuz9-0",
+              "componentId": "NavLink__Container-sc-6fie4r-0",
               "isStatic": false,
-              "lastClassName": "fMGHjQ",
+              "lastClassName": "c0",
               "rules": Array [
                 "color:",
                 [Function],
@@ -462,7 +542,7 @@ exports[`Nav Link Small Device < 600px should render with Vietnamese selected 1`
             "displayName": "NavLink__Container",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "NavLink__Container-v6tuz9-0",
+            "styledComponentId": "NavLink__Container-sc-6fie4r-0",
             "target": "a",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -474,7 +554,7 @@ exports[`Nav Link Small Device < 600px should render with Vietnamese selected 1`
         onClick={[Function]}
       >
         <a
-          className="NavLink__Container-v6tuz9-0 fMGHjQ"
+          className="c0"
           onClick={[Function]}
         >
           vn

@@ -1,6 +1,30 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Card Info should render without throwing an error 1`] = `
+.c0 {
+  padding: 20px;
+  background-color: #ecf0f1;
+}
+
+.c1 {
+  margin: 20px 0 20px 20px;
+  font-family: Georgia,Times,"Times New Roman",serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.c2 {
+  margin-top: 20px;
+  padding-top: 10;
+  font-weight: normal;
+  border-top: 1px dashed #bdc3c7;
+}
+
+.c3 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 <LocalizedComponent>
   <CardInfo
     addTranslation={[Function]}
@@ -19,9 +43,9 @@ exports[`Card Info should render without throwing an error 1`] = `
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "CardInfo__Container-j7wviz-0",
+              "componentId": "CardInfo__Container-hepdlu-0",
               "isStatic": false,
-              "lastClassName": "bbuDlN",
+              "lastClassName": "c0",
               "rules": Array [
                 "padding:20px;background-color:",
                 [Function],
@@ -31,7 +55,7 @@ exports[`Card Info should render without throwing an error 1`] = `
             "displayName": "CardInfo__Container",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "CardInfo__Container-j7wviz-0",
+            "styledComponentId": "CardInfo__Container-hepdlu-0",
             "target": "div",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -41,7 +65,7 @@ exports[`Card Info should render without throwing an error 1`] = `
         forwardedRef={null}
       >
         <div
-          className="CardInfo__Container-j7wviz-0 bbuDlN"
+          className="c0"
         >
           <p>
             <Translate
@@ -75,9 +99,9 @@ exports[`Card Info should render without throwing an error 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "CardInfo__Quote-j7wviz-1",
+                    "componentId": "CardInfo__Quote-hepdlu-1",
                     "isStatic": false,
-                    "lastClassName": "ehtIde",
+                    "lastClassName": "c1",
                     "rules": Array [
                       "margin:20px 0 20px 20px;font-family:",
                       [Function],
@@ -89,7 +113,7 @@ exports[`Card Info should render without throwing an error 1`] = `
                   "displayName": "CardInfo__Quote",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "CardInfo__Quote-j7wviz-1",
+                  "styledComponentId": "CardInfo__Quote-hepdlu-1",
                   "target": "blockquote",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -99,7 +123,7 @@ exports[`Card Info should render without throwing an error 1`] = `
               forwardedRef={null}
             >
               <blockquote
-                className="CardInfo__Quote-j7wviz-1 ehtIde"
+                className="c1"
               >
                 <Translate
                   id="About me: Card Info Quote"
@@ -159,9 +183,9 @@ exports[`Card Info should render without throwing an error 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "CardInfo__Status-j7wviz-2",
+                    "componentId": "CardInfo__Status-hepdlu-2",
                     "isStatic": false,
-                    "lastClassName": "kRJTQt",
+                    "lastClassName": "c2",
                     "rules": Array [
                       "margin-top:20px;padding-top:",
                       [Function],
@@ -173,7 +197,7 @@ exports[`Card Info should render without throwing an error 1`] = `
                   "displayName": "CardInfo__Status",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "CardInfo__Status-j7wviz-2",
+                  "styledComponentId": "CardInfo__Status-hepdlu-2",
                   "target": "p",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -183,7 +207,7 @@ exports[`Card Info should render without throwing an error 1`] = `
               forwardedRef={null}
             >
               <p
-                className="CardInfo__Status-j7wviz-2 kRJTQt"
+                className="c2"
               >
                 <CardInfo__Bold>
                   <StyledComponent
@@ -192,9 +216,9 @@ exports[`Card Info should render without throwing an error 1`] = `
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "CardInfo__Bold-j7wviz-3",
+                          "componentId": "CardInfo__Bold-hepdlu-3",
                           "isStatic": false,
-                          "lastClassName": "iggTuy",
+                          "lastClassName": "c3",
                           "rules": Array [
                             "font-weight:bold;text-transform:uppercase;",
                           ],
@@ -202,7 +226,7 @@ exports[`Card Info should render without throwing an error 1`] = `
                         "displayName": "CardInfo__Bold",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "CardInfo__Bold-j7wviz-3",
+                        "styledComponentId": "CardInfo__Bold-hepdlu-3",
                         "target": "span",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -212,7 +236,7 @@ exports[`Card Info should render without throwing an error 1`] = `
                     forwardedRef={null}
                   >
                     <span
-                      className="CardInfo__Bold-j7wviz-3 iggTuy"
+                      className="c3"
                     >
                       Current Status:
                     </span>

@@ -1,6 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Card Header should render without throwing an error 1`] = `
+.c0 {
+  padding: 20px;
+  background-color: #FFA726;
+}
+
+.c1 {
+  color: #ecf0f1;
+}
+
 <LocalizedComponent>
   <CardHeader
     addTranslation={[Function]}
@@ -19,9 +28,9 @@ exports[`Card Header should render without throwing an error 1`] = `
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "CardHeader__Header-sc-13bb8as-0",
+              "componentId": "CardHeader__Header-dke0mu-0",
               "isStatic": false,
-              "lastClassName": "cFfPVC",
+              "lastClassName": "c0",
               "rules": Array [
                 "padding:20px;background-color:",
                 [Function],
@@ -31,7 +40,7 @@ exports[`Card Header should render without throwing an error 1`] = `
             "displayName": "CardHeader__Header",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "CardHeader__Header-sc-13bb8as-0",
+            "styledComponentId": "CardHeader__Header-dke0mu-0",
             "target": "header",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -41,7 +50,7 @@ exports[`Card Header should render without throwing an error 1`] = `
         forwardedRef={null}
       >
         <header
-          className="CardHeader__Header-sc-13bb8as-0 cFfPVC"
+          className="c0"
         >
           <CardHeader__MainText>
             <StyledComponent
@@ -50,9 +59,9 @@ exports[`Card Header should render without throwing an error 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "CardHeader__MainText-sc-13bb8as-1",
+                    "componentId": "CardHeader__MainText-dke0mu-1",
                     "isStatic": false,
-                    "lastClassName": "iRqFfm",
+                    "lastClassName": "c1",
                     "rules": Array [
                       "color:",
                       [Function],
@@ -62,7 +71,7 @@ exports[`Card Header should render without throwing an error 1`] = `
                   "displayName": "CardHeader__MainText",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "CardHeader__MainText-sc-13bb8as-1",
+                  "styledComponentId": "CardHeader__MainText-dke0mu-1",
                   "target": "h2",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -72,7 +81,7 @@ exports[`Card Header should render without throwing an error 1`] = `
               forwardedRef={null}
             >
               <h2
-                className="CardHeader__MainText-sc-13bb8as-1 iRqFfm"
+                className="c1"
               >
                 <Translate
                   id="About me"
@@ -107,15 +116,15 @@ exports[`Card Header should render without throwing an error 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "CardHeader__SubText-sc-13bb8as-2",
+                    "componentId": "CardHeader__SubText-dke0mu-2",
                     "isStatic": false,
-                    "lastClassName": "ldGRiD",
+                    "lastClassName": "kbCwAU",
                     "rules": Array [],
                   },
                   "displayName": "CardHeader__SubText",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "CardHeader__SubText-sc-13bb8as-2",
+                  "styledComponentId": "CardHeader__SubText-dke0mu-2",
                   "target": "h4",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -125,7 +134,7 @@ exports[`Card Header should render without throwing an error 1`] = `
               forwardedRef={null}
             >
               <h4
-                className="CardHeader__SubText-sc-13bb8as-2 ldGRiD"
+                className=""
               >
                 <Translate
                   id="About Me: Subtext"

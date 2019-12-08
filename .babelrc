@@ -4,7 +4,19 @@
   ],
   "plugins": [
     [
-      "babel-plugin-root-import"
+      "babel-plugin-root-import",
+      {
+        "paths": [
+          {
+            "rootPathSuffix": "./styles",
+            "rootPathPrefix": "~/styles"
+          },
+          {
+            "rootPathSuffix": "./src/",
+            "rootPathPrefix": "~/"
+          }
+        ]
+      }
     ],
     [
       "styled-components",
@@ -22,7 +34,7 @@
   "env": {
     "production": {
       "plugins": [
-        "babel-plugin-root-import"
+        "babel-plugin-root-import" 
       ]
     }
   }

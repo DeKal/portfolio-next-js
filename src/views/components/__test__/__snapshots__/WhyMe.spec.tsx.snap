@@ -1,6 +1,96 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`WhyMe should render without throwing an error 1`] = `
+.c1 {
+  position: relative;
+  margin-top: -15px;
+}
+
+.c1::before,
+.c1::after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  display: block;
+  width: 30%;
+  height: 10px;
+  background-color: #FFA726;
+}
+
+.c1::before {
+  left: 0;
+}
+
+.c1::after {
+  right: 0;
+}
+
+.c2 {
+  padding: 40px 0;
+  border-bottom: 10px solid #FFA726;
+}
+
+.c3 {
+  display: inline-block;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+.c0 {
+  text-align: center;
+  border-left: 10px solid #FFA726;
+  border-right: 10px solid #FFA726;
+  margin-top: 50px;
+}
+
+@media screen and (max-width:960px) {
+  .c1::before,
+  .c1::after {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .c1::before,
+  .c1::after {
+    width: 15%;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .c1::before,
+  .c1::after {
+    width: 10%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .c2 {
+    padding: 20px 0;
+  }
+}
+
+@media screen and (max-width:960px) {
+  .c3 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .c3 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .c0 {
+    margin-top: 30px;
+  }
+}
+
 <WhyMe>
   <WhyMe__Container
     className="container"
@@ -13,15 +103,15 @@ exports[`WhyMe should render without throwing an error 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "WhyMe__Container-sc-1d5i2fy-0",
+            "componentId": "WhyMe__Container-sc-1awldpv-0",
             "isStatic": false,
-            "lastClassName": "hvbdXB",
+            "lastClassName": "uhTf",
             "rules": Array [],
           },
           "displayName": "WhyMe__Container",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "WhyMe__Container-sc-1d5i2fy-0",
+          "styledComponentId": "WhyMe__Container-sc-1awldpv-0",
           "target": "section",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -32,7 +122,7 @@ exports[`WhyMe should render without throwing an error 1`] = `
       id="Whyme"
     >
       <section
-        className="WhyMe__Container-sc-1d5i2fy-0 hvbdXB container"
+        className="container"
         id="Whyme"
       >
         <WhyMe__Inner
@@ -45,9 +135,9 @@ exports[`WhyMe should render without throwing an error 1`] = `
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
-                  "componentId": "WhyMe__Inner-sc-1d5i2fy-1",
+                  "componentId": "WhyMe__Inner-sc-1awldpv-1",
                   "isStatic": false,
-                  "lastClassName": "kQuSoo",
+                  "lastClassName": "c0",
                   "rules": Array [
                     "text-align:center;border-left:10px solid ",
                     [Function],
@@ -59,7 +149,7 @@ exports[`WhyMe should render without throwing an error 1`] = `
                 "displayName": "WhyMe__Inner",
                 "foldedComponentIds": Array [],
                 "render": [Function],
-                "styledComponentId": "WhyMe__Inner-sc-1d5i2fy-1",
+                "styledComponentId": "WhyMe__Inner-sc-1awldpv-1",
                 "target": "div",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -69,7 +159,7 @@ exports[`WhyMe should render without throwing an error 1`] = `
             forwardedRef={null}
           >
             <div
-              className="WhyMe__Inner-sc-1d5i2fy-1 kQuSoo whyme"
+              className="c0 whyme"
             >
               <Title>
                 <Title__Container>
@@ -79,9 +169,9 @@ exports[`WhyMe should render without throwing an error 1`] = `
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "Title__Container-sc-1kopgy2-0",
+                          "componentId": "Title__Container-sc-1bg9m6j-0",
                           "isStatic": false,
-                          "lastClassName": "jlUEdT",
+                          "lastClassName": "c1",
                           "rules": Array [
                             "position:relative;margin-top:-15px;&::before,&::after{content:'';position:absolute;top:15px;display:block;width:30%;height:10px;background-color:",
                             [Function],
@@ -91,7 +181,7 @@ exports[`WhyMe should render without throwing an error 1`] = `
                         "displayName": "Title__Container",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "Title__Container-sc-1kopgy2-0",
+                        "styledComponentId": "Title__Container-sc-1bg9m6j-0",
                         "target": "h2",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -101,7 +191,7 @@ exports[`WhyMe should render without throwing an error 1`] = `
                     forwardedRef={null}
                   >
                     <h2
-                      className="Title__Container-sc-1kopgy2-0 jlUEdT"
+                      className="c1"
                     >
                       <Translate
                         id="Why me: Title"
@@ -138,9 +228,9 @@ exports[`WhyMe should render without throwing an error 1`] = `
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "Quote__Container-sc-1qcwcn6-0",
+                          "componentId": "Quote__Container-sc-1qkoo9x-0",
                           "isStatic": false,
-                          "lastClassName": "dSjxVy",
+                          "lastClassName": "c2",
                           "rules": Array [
                             "padding:40px 0;border-bottom:10px solid ",
                             [Function],
@@ -150,7 +240,7 @@ exports[`WhyMe should render without throwing an error 1`] = `
                         "displayName": "Quote__Container",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "Quote__Container-sc-1qcwcn6-0",
+                        "styledComponentId": "Quote__Container-sc-1qkoo9x-0",
                         "target": "div",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -160,7 +250,7 @@ exports[`WhyMe should render without throwing an error 1`] = `
                     forwardedRef={null}
                   >
                     <div
-                      className="Quote__Container-sc-1qcwcn6-0 dSjxVy"
+                      className="c2"
                     >
                       <Quote__Content>
                         <StyledComponent
@@ -169,9 +259,9 @@ exports[`WhyMe should render without throwing an error 1`] = `
                               "$$typeof": Symbol(react.forward_ref),
                               "attrs": Array [],
                               "componentStyle": ComponentStyle {
-                                "componentId": "Quote__Content-sc-1qcwcn6-1",
+                                "componentId": "Quote__Content-sc-1qkoo9x-1",
                                 "isStatic": false,
-                                "lastClassName": "jpCQXh",
+                                "lastClassName": "c3",
                                 "rules": Array [
                                   "display:inline-block;width:80%;margin:0 auto;margin-bottom:20px;font-weight:lighter;font-size:25px;@media screen and (max-width:960px){font-size:20px;}@media screen and (max-width:600px){font-size:18px;}",
                                 ],
@@ -179,7 +269,7 @@ exports[`WhyMe should render without throwing an error 1`] = `
                               "displayName": "Quote__Content",
                               "foldedComponentIds": Array [],
                               "render": [Function],
-                              "styledComponentId": "Quote__Content-sc-1qcwcn6-1",
+                              "styledComponentId": "Quote__Content-sc-1qkoo9x-1",
                               "target": "p",
                               "toString": [Function],
                               "warnTooManyClasses": [Function],
@@ -189,7 +279,7 @@ exports[`WhyMe should render without throwing an error 1`] = `
                           forwardedRef={null}
                         >
                           <p
-                            className="Quote__Content-sc-1qcwcn6-1 jpCQXh"
+                            className="c3"
                           >
                             <Translate
                               id="Why me: Quote"

@@ -1,6 +1,86 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Home should render without throwing an error 1`] = `
+.c0 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 0;
+  clear: both;
+  box-shadow: 0 0 2px 1px #2c3e50;
+}
+
+.c4 {
+  margin-bottom: 10px;
+  font-size: 100px;
+  text-shadow: 1px 1px 1px #2c3e50;
+}
+
+.c5 {
+  color: #ecf0f1;
+  font-family: Trebuchet MS,sans-serif;
+  text-shadow: 1px 1px 2px #2c3e50;
+}
+
+.c1 {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 0;
+  background: transparent url(/images/bg.jpg) center 0 no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.c2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(44,62,80,0.3);
+  zoom: 1;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC);
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.c3 {
+  padding: 200px 10px 400px;
+  text-align: left;
+}
+
+@media screen and (max-width:1200px) {
+  .c4 {
+    font-size: 75px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .c4 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .c3 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .c3 {
+    padding: 100px 0 300px;
+  }
+}
+
 <Home>
   <Home__HomeSection
     id="Home"
@@ -11,9 +91,9 @@ exports[`Home should render without throwing an error 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "Home__HomeSection-sc-1eskvms-0",
+            "componentId": "Home__HomeSection-sc-4c5hwv-0",
             "isStatic": false,
-            "lastClassName": "blNagb",
+            "lastClassName": "c0",
             "rules": Array [
               "position:relative;width:100%;overflow:hidden;&::after{content:'';position:absolute;left:0;bottom:0;display:block;width:100%;height:0;clear:both;box-shadow:0 0 2px 1px ",
               [Function],
@@ -23,7 +103,7 @@ exports[`Home should render without throwing an error 1`] = `
           "displayName": "Home__HomeSection",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "Home__HomeSection-sc-1eskvms-0",
+          "styledComponentId": "Home__HomeSection-sc-4c5hwv-0",
           "target": "section",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -34,7 +114,7 @@ exports[`Home should render without throwing an error 1`] = `
       id="Home"
     >
       <section
-        className="Home__HomeSection-sc-1eskvms-0 blNagb"
+        className="c0"
         id="Home"
       >
         <Home__Background>
@@ -44,9 +124,9 @@ exports[`Home should render without throwing an error 1`] = `
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
-                  "componentId": "Home__Background-sc-1eskvms-3",
+                  "componentId": "Home__Background-sc-4c5hwv-3",
                   "isStatic": false,
-                  "lastClassName": "eTDPSm",
+                  "lastClassName": "c1",
                   "rules": Array [
                     "position:absolute;min-width:100%;min-height:100%;z-index:0;background:transparent url(",
                     [Function],
@@ -56,7 +136,7 @@ exports[`Home should render without throwing an error 1`] = `
                 "displayName": "Home__Background",
                 "foldedComponentIds": Array [],
                 "render": [Function],
-                "styledComponentId": "Home__Background-sc-1eskvms-3",
+                "styledComponentId": "Home__Background-sc-4c5hwv-3",
                 "target": "div",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -66,7 +146,7 @@ exports[`Home should render without throwing an error 1`] = `
             forwardedRef={null}
           >
             <div
-              className="Home__Background-sc-1eskvms-3 eTDPSm"
+              className="c1"
             />
           </StyledComponent>
         </Home__Background>
@@ -77,9 +157,9 @@ exports[`Home should render without throwing an error 1`] = `
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
-                  "componentId": "Home__Overlay-sc-1eskvms-4",
+                  "componentId": "Home__Overlay-sc-4c5hwv-4",
                   "isStatic": false,
-                  "lastClassName": "kzYHcr",
+                  "lastClassName": "c2",
                   "rules": Array [
                     "position:relative;width:100%;height:100%;background-color:rgba(44,62,80,0.3);zoom:1;background-image:url(",
                     [Function],
@@ -89,7 +169,7 @@ exports[`Home should render without throwing an error 1`] = `
                 "displayName": "Home__Overlay",
                 "foldedComponentIds": Array [],
                 "render": [Function],
-                "styledComponentId": "Home__Overlay-sc-1eskvms-4",
+                "styledComponentId": "Home__Overlay-sc-4c5hwv-4",
                 "target": "div",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -99,7 +179,7 @@ exports[`Home should render without throwing an error 1`] = `
             forwardedRef={null}
           >
             <div
-              className="Home__Overlay-sc-1eskvms-4 kzYHcr"
+              className="c2"
             >
               <div
                 className="container"
@@ -111,9 +191,9 @@ exports[`Home should render without throwing an error 1`] = `
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "Home__Header-sc-1eskvms-5",
+                          "componentId": "Home__Header-sc-4c5hwv-5",
                           "isStatic": false,
-                          "lastClassName": "goxKxF",
+                          "lastClassName": "c3",
                           "rules": Array [
                             "padding:",
                             [Function],
@@ -123,7 +203,7 @@ exports[`Home should render without throwing an error 1`] = `
                         "displayName": "Home__Header",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "Home__Header-sc-1eskvms-5",
+                        "styledComponentId": "Home__Header-sc-4c5hwv-5",
                         "target": "header",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -133,7 +213,7 @@ exports[`Home should render without throwing an error 1`] = `
                     forwardedRef={null}
                   >
                     <header
-                      className="Home__Header-sc-1eskvms-5 goxKxF"
+                      className="c3"
                     >
                       <Home__TitleName>
                         <StyledComponent
@@ -142,9 +222,9 @@ exports[`Home should render without throwing an error 1`] = `
                               "$$typeof": Symbol(react.forward_ref),
                               "attrs": Array [],
                               "componentStyle": ComponentStyle {
-                                "componentId": "Home__TitleName-sc-1eskvms-1",
+                                "componentId": "Home__TitleName-sc-4c5hwv-1",
                                 "isStatic": false,
-                                "lastClassName": "klbGLv",
+                                "lastClassName": "c4",
                                 "rules": Array [
                                   "margin-bottom:10px;font-size:100px;text-shadow:1px 1px 1px ",
                                   [Function],
@@ -154,7 +234,7 @@ exports[`Home should render without throwing an error 1`] = `
                               "displayName": "Home__TitleName",
                               "foldedComponentIds": Array [],
                               "render": [Function],
-                              "styledComponentId": "Home__TitleName-sc-1eskvms-1",
+                              "styledComponentId": "Home__TitleName-sc-4c5hwv-1",
                               "target": "h1",
                               "toString": [Function],
                               "warnTooManyClasses": [Function],
@@ -164,7 +244,7 @@ exports[`Home should render without throwing an error 1`] = `
                           forwardedRef={null}
                         >
                           <h1
-                            className="Home__TitleName-sc-1eskvms-1 klbGLv"
+                            className="c4"
                           >
                             <Translate
                               id="Name"
@@ -199,9 +279,9 @@ exports[`Home should render without throwing an error 1`] = `
                               "$$typeof": Symbol(react.forward_ref),
                               "attrs": Array [],
                               "componentStyle": ComponentStyle {
-                                "componentId": "Home__TitleJob-sc-1eskvms-2",
+                                "componentId": "Home__TitleJob-sc-4c5hwv-2",
                                 "isStatic": false,
-                                "lastClassName": "fKrioB",
+                                "lastClassName": "c5",
                                 "rules": Array [
                                   "color:",
                                   [Function],
@@ -215,7 +295,7 @@ exports[`Home should render without throwing an error 1`] = `
                               "displayName": "Home__TitleJob",
                               "foldedComponentIds": Array [],
                               "render": [Function],
-                              "styledComponentId": "Home__TitleJob-sc-1eskvms-2",
+                              "styledComponentId": "Home__TitleJob-sc-4c5hwv-2",
                               "target": "h2",
                               "toString": [Function],
                               "warnTooManyClasses": [Function],
@@ -225,7 +305,7 @@ exports[`Home should render without throwing an error 1`] = `
                           forwardedRef={null}
                         >
                           <h2
-                            className="Home__TitleJob-sc-1eskvms-2 fKrioB"
+                            className="c5"
                           >
                             <Translate
                               id="Job"

@@ -1,6 +1,159 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Nav Content should render with isShowNavContent disable 1`] = `
+.c1 {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 80px;
+  color: #ecf0f1;
+  font-size: 40px;
+  line-height: 80px;
+  font-family: Georgia,Times,"Times New Roman",serif;
+  -webkit-letter-spacing: -5px;
+  -moz-letter-spacing: -5px;
+  -ms-letter-spacing: -5px;
+  letter-spacing: -5px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #FFA726;
+  border: none;
+}
+
+.c1::after {
+  content: '';
+  position: absolute;
+  bottom: -29px;
+  left: 0;
+  z-index: 250;
+  border-top: 30px solid #FFA726;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+}
+
+.c2 {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.c2::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  right: -2px;
+  width: 50px;
+  height: 5px;
+  background-color: transparent;
+  box-shadow: 0 1px 2px -1px #2c3e50;
+  -webkit-transform: rotate(-37deg);
+  -ms-transform: rotate(-37deg);
+  transform: rotate(-37deg);
+}
+
+.c2::before {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: -2px;
+  width: 50px;
+  height: 5px;
+  background-color: transparent;
+  box-shadow: 0 1px 2px -1px #2c3e50;
+  -webkit-transform: rotate(37deg);
+  -ms-transform: rotate(37deg);
+  transform: rotate(37deg);
+}
+
+.c6 {
+  line-height: 80px;
+  font-size: 22px;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.c6:hover {
+  color: #bdc3c7;
+  border: none;
+}
+
+.c5 {
+  line-height: 80px;
+  font-size: 22px;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  color: #bdc3c7;
+  border: none;
+}
+
+.c5:hover {
+  color: #bdc3c7;
+  border: none;
+}
+
+.c0 {
+  position: relative;
+  min-height: 80px;
+  background-color: #ecf0f1;
+  margin-top: -40px;
+  box-shadow: 0 1px 2px -1px #2c3e50;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.c3 {
+  text-align: right;
+}
+
+.c4 {
+  display: inline-block;
+  margin-left: 18px;
+}
+
+@media screen and (max-width:960px) {
+  .c1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .c6 {
+    font-size: 18px;
+    line-height: 2;
+    border-bottom: none;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .c5 {
+    font-size: 18px;
+    line-height: 2;
+    border-bottom: none;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .c0 {
+    margin-top: -200px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .c3 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .c4 {
+    margin: 0 9px;
+    display: block;
+    border-bottom: 1px dashed #bdc3c7;
+  }
+}
+
 <NavContent
   isShowNavContent={false}
 >
@@ -15,9 +168,9 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "NavContent__Container-sc-1bgb07m-0",
+            "componentId": "NavContent__Container-sc-1gp15ts-0",
             "isStatic": false,
-            "lastClassName": "zSPze",
+            "lastClassName": "c0",
             "rules": Array [
               "position:relative;min-height:",
               [Function],
@@ -35,7 +188,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
           "displayName": "NavContent__Container",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "NavContent__Container-sc-1bgb07m-0",
+          "styledComponentId": "NavContent__Container-sc-1gp15ts-0",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -46,7 +199,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
       isShowNavContent={false}
     >
       <div
-        className="NavContent__Container-sc-1bgb07m-0 zSPze second-nav"
+        className="c0 second-nav"
       >
         <div
           className="container"
@@ -59,9 +212,9 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                     "$$typeof": Symbol(react.forward_ref),
                     "attrs": Array [],
                     "componentStyle": ComponentStyle {
-                      "componentId": "NavLogo__Logo-sc-1822jsu-0",
+                      "componentId": "NavLogo__Logo-sc-1n7j63d-0",
                       "isStatic": false,
-                      "lastClassName": "cMqCKY",
+                      "lastClassName": "c1",
                       "rules": Array [
                         "display:block;position:absolute;top:0;left:20px;width:",
                         [Function],
@@ -83,7 +236,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                     "displayName": "NavLogo__Logo",
                     "foldedComponentIds": Array [],
                     "render": [Function],
-                    "styledComponentId": "NavLogo__Logo-sc-1822jsu-0",
+                    "styledComponentId": "NavLogo__Logo-sc-1n7j63d-0",
                     "target": "a",
                     "toString": [Function],
                     "warnTooManyClasses": [Function],
@@ -93,7 +246,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                 forwardedRef={null}
               >
                 <a
-                  className="NavLogo__Logo-sc-1822jsu-0 cMqCKY"
+                  className="c1"
                 >
                   <NavLogo__LogoText>
                     <StyledComponent
@@ -102,9 +255,9 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "NavLogo__LogoText-sc-1822jsu-1",
+                            "componentId": "NavLogo__LogoText-sc-1n7j63d-1",
                             "isStatic": false,
-                            "lastClassName": "cUhXTg",
+                            "lastClassName": "c2",
                             "rules": Array [
                               "position:relative;display:block;width:100%;height:100%;&::after{content:'';position:absolute;bottom:-15px;right:-2px;width:50px;height:5px;background-color:transparent;box-shadow:",
                               [Function],
@@ -116,7 +269,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                           "displayName": "NavLogo__LogoText",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "NavLogo__LogoText-sc-1822jsu-1",
+                          "styledComponentId": "NavLogo__LogoText-sc-1n7j63d-1",
                           "target": "span",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -126,7 +279,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                       forwardedRef={null}
                     >
                       <span
-                        className="NavLogo__LogoText-sc-1822jsu-1 cUhXTg"
+                        className="c2"
                       >
                         JD
                       </span>
@@ -146,9 +299,9 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "NavContent__NavMenu-sc-1bgb07m-1",
+                    "componentId": "NavContent__NavMenu-sc-1gp15ts-1",
                     "isStatic": false,
-                    "lastClassName": "dxzTZf",
+                    "lastClassName": "c3",
                     "rules": Array [
                       "text-align:right;@media screen and (max-width:800px){text-align:center;}",
                     ],
@@ -156,7 +309,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                   "displayName": "NavContent__NavMenu",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "NavContent__NavMenu-sc-1bgb07m-1",
+                  "styledComponentId": "NavContent__NavMenu-sc-1gp15ts-1",
                   "target": "nav",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -166,7 +319,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
               forwardedRef={null}
             >
               <nav
-                className="NavContent__NavMenu-sc-1bgb07m-1 dxzTZf menu"
+                className="c3 menu"
               >
                 <ul>
                   <NavContent__NavLi
@@ -178,9 +331,9 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "NavContent__NavLi-sc-1bgb07m-2",
+                            "componentId": "NavContent__NavLi-sc-1gp15ts-2",
                             "isStatic": false,
-                            "lastClassName": "kzVeLC",
+                            "lastClassName": "c4",
                             "rules": Array [
                               "display:inline-block;margin-left:18px;@media screen and (max-width:800px){margin:0 9px;display:block;border-bottom:1px dashed ",
                               [Function],
@@ -190,7 +343,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                           "displayName": "NavContent__NavLi",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "NavContent__NavLi-sc-1bgb07m-2",
+                          "styledComponentId": "NavContent__NavLi-sc-1gp15ts-2",
                           "target": "li",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -200,7 +353,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                       forwardedRef={null}
                     >
                       <li
-                        className="NavContent__NavLi-sc-1bgb07m-2 kzVeLC"
+                        className="c4"
                       >
                         <NavItem
                           isSelected={true}
@@ -214,9 +367,9 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "NavItem__SelectedContainer-a312fv-1",
+                                    "componentId": "NavItem__SelectedContainer-sc-1t8qtmq-1",
                                     "isStatic": false,
-                                    "lastClassName": "bHJkXU",
+                                    "lastClassName": "c5",
                                     "rules": Array [
                                       "line-height:",
                                       [Function],
@@ -234,10 +387,10 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                   },
                                   "displayName": "NavItem__SelectedContainer",
                                   "foldedComponentIds": Array [
-                                    "NavItem__Container-a312fv-0",
+                                    "NavItem__Container-sc-1t8qtmq-0",
                                   ],
                                   "render": [Function],
-                                  "styledComponentId": "NavItem__SelectedContainer-a312fv-1",
+                                  "styledComponentId": "NavItem__SelectedContainer-sc-1t8qtmq-1",
                                   "target": "a",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -247,7 +400,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                               forwardedRef={null}
                             >
                               <a
-                                className="NavItem__Container-a312fv-0 NavItem__SelectedContainer-a312fv-1 bHJkXU"
+                                className="c5"
                               >
                                 <Translate
                                   id="Home"
@@ -288,9 +441,9 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "NavContent__NavLi-sc-1bgb07m-2",
+                            "componentId": "NavContent__NavLi-sc-1gp15ts-2",
                             "isStatic": false,
-                            "lastClassName": "kzVeLC",
+                            "lastClassName": "c4",
                             "rules": Array [
                               "display:inline-block;margin-left:18px;@media screen and (max-width:800px){margin:0 9px;display:block;border-bottom:1px dashed ",
                               [Function],
@@ -300,7 +453,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                           "displayName": "NavContent__NavLi",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "NavContent__NavLi-sc-1bgb07m-2",
+                          "styledComponentId": "NavContent__NavLi-sc-1gp15ts-2",
                           "target": "li",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -310,7 +463,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                       forwardedRef={null}
                     >
                       <li
-                        className="NavContent__NavLi-sc-1bgb07m-2 kzVeLC"
+                        className="c4"
                       >
                         <NavItem
                           isSelected={false}
@@ -329,9 +482,9 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "NavItem__Container-a312fv-0",
+                                    "componentId": "NavItem__Container-sc-1t8qtmq-0",
                                     "isStatic": false,
-                                    "lastClassName": "jwNLvm",
+                                    "lastClassName": "c6",
                                     "rules": Array [
                                       "line-height:",
                                       [Function],
@@ -347,7 +500,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                   "displayName": "NavItem__Container",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "NavItem__Container-a312fv-0",
+                                  "styledComponentId": "NavItem__Container-sc-1t8qtmq-0",
                                   "target": "a",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -359,7 +512,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                               onClick={[Function]}
                             >
                               <a
-                                className="NavItem__Container-a312fv-0 jwNLvm"
+                                className="c6"
                                 data-test-id="nav-link"
                                 href="#About"
                                 onClick={[Function]}
@@ -403,9 +556,9 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "NavContent__NavLi-sc-1bgb07m-2",
+                            "componentId": "NavContent__NavLi-sc-1gp15ts-2",
                             "isStatic": false,
-                            "lastClassName": "kzVeLC",
+                            "lastClassName": "c4",
                             "rules": Array [
                               "display:inline-block;margin-left:18px;@media screen and (max-width:800px){margin:0 9px;display:block;border-bottom:1px dashed ",
                               [Function],
@@ -415,7 +568,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                           "displayName": "NavContent__NavLi",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "NavContent__NavLi-sc-1bgb07m-2",
+                          "styledComponentId": "NavContent__NavLi-sc-1gp15ts-2",
                           "target": "li",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -425,7 +578,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                       forwardedRef={null}
                     >
                       <li
-                        className="NavContent__NavLi-sc-1bgb07m-2 kzVeLC"
+                        className="c4"
                       >
                         <NavItem
                           isSelected={false}
@@ -444,9 +597,9 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "NavItem__Container-a312fv-0",
+                                    "componentId": "NavItem__Container-sc-1t8qtmq-0",
                                     "isStatic": false,
-                                    "lastClassName": "jwNLvm",
+                                    "lastClassName": "c6",
                                     "rules": Array [
                                       "line-height:",
                                       [Function],
@@ -462,7 +615,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                   "displayName": "NavItem__Container",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "NavItem__Container-a312fv-0",
+                                  "styledComponentId": "NavItem__Container-sc-1t8qtmq-0",
                                   "target": "a",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -474,7 +627,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                               onClick={[Function]}
                             >
                               <a
-                                className="NavItem__Container-a312fv-0 jwNLvm"
+                                className="c6"
                                 data-test-id="nav-link"
                                 href="#Experiences"
                                 onClick={[Function]}
@@ -518,9 +671,9 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "NavContent__NavLi-sc-1bgb07m-2",
+                            "componentId": "NavContent__NavLi-sc-1gp15ts-2",
                             "isStatic": false,
-                            "lastClassName": "kzVeLC",
+                            "lastClassName": "c4",
                             "rules": Array [
                               "display:inline-block;margin-left:18px;@media screen and (max-width:800px){margin:0 9px;display:block;border-bottom:1px dashed ",
                               [Function],
@@ -530,7 +683,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                           "displayName": "NavContent__NavLi",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "NavContent__NavLi-sc-1bgb07m-2",
+                          "styledComponentId": "NavContent__NavLi-sc-1gp15ts-2",
                           "target": "li",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -540,7 +693,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                       forwardedRef={null}
                     >
                       <li
-                        className="NavContent__NavLi-sc-1bgb07m-2 kzVeLC"
+                        className="c4"
                       >
                         <NavItem
                           isSelected={false}
@@ -559,9 +712,9 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "NavItem__Container-a312fv-0",
+                                    "componentId": "NavItem__Container-sc-1t8qtmq-0",
                                     "isStatic": false,
-                                    "lastClassName": "jwNLvm",
+                                    "lastClassName": "c6",
                                     "rules": Array [
                                       "line-height:",
                                       [Function],
@@ -577,7 +730,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                   "displayName": "NavItem__Container",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "NavItem__Container-a312fv-0",
+                                  "styledComponentId": "NavItem__Container-sc-1t8qtmq-0",
                                   "target": "a",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -589,7 +742,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                               onClick={[Function]}
                             >
                               <a
-                                className="NavItem__Container-a312fv-0 jwNLvm"
+                                className="c6"
                                 data-test-id="nav-link"
                                 href="#Certifications"
                                 onClick={[Function]}
@@ -633,9 +786,9 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "NavContent__NavLi-sc-1bgb07m-2",
+                            "componentId": "NavContent__NavLi-sc-1gp15ts-2",
                             "isStatic": false,
-                            "lastClassName": "kzVeLC",
+                            "lastClassName": "c4",
                             "rules": Array [
                               "display:inline-block;margin-left:18px;@media screen and (max-width:800px){margin:0 9px;display:block;border-bottom:1px dashed ",
                               [Function],
@@ -645,7 +798,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                           "displayName": "NavContent__NavLi",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "NavContent__NavLi-sc-1bgb07m-2",
+                          "styledComponentId": "NavContent__NavLi-sc-1gp15ts-2",
                           "target": "li",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -655,7 +808,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                       forwardedRef={null}
                     >
                       <li
-                        className="NavContent__NavLi-sc-1bgb07m-2 kzVeLC"
+                        className="c4"
                       >
                         <NavItem
                           isSelected={false}
@@ -674,9 +827,9 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "NavItem__Container-a312fv-0",
+                                    "componentId": "NavItem__Container-sc-1t8qtmq-0",
                                     "isStatic": false,
-                                    "lastClassName": "jwNLvm",
+                                    "lastClassName": "c6",
                                     "rules": Array [
                                       "line-height:",
                                       [Function],
@@ -692,7 +845,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                   "displayName": "NavItem__Container",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "NavItem__Container-a312fv-0",
+                                  "styledComponentId": "NavItem__Container-sc-1t8qtmq-0",
                                   "target": "a",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -704,7 +857,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                               onClick={[Function]}
                             >
                               <a
-                                className="NavItem__Container-a312fv-0 jwNLvm"
+                                className="c6"
                                 data-test-id="nav-link"
                                 href="#Projects"
                                 onClick={[Function]}
@@ -748,9 +901,9 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "NavContent__NavLi-sc-1bgb07m-2",
+                            "componentId": "NavContent__NavLi-sc-1gp15ts-2",
                             "isStatic": false,
-                            "lastClassName": "kzVeLC",
+                            "lastClassName": "c4",
                             "rules": Array [
                               "display:inline-block;margin-left:18px;@media screen and (max-width:800px){margin:0 9px;display:block;border-bottom:1px dashed ",
                               [Function],
@@ -760,7 +913,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                           "displayName": "NavContent__NavLi",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "NavContent__NavLi-sc-1bgb07m-2",
+                          "styledComponentId": "NavContent__NavLi-sc-1gp15ts-2",
                           "target": "li",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -770,7 +923,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                       forwardedRef={null}
                     >
                       <li
-                        className="NavContent__NavLi-sc-1bgb07m-2 kzVeLC"
+                        className="c4"
                       >
                         <NavItem
                           isSelected={false}
@@ -789,9 +942,9 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "NavItem__Container-a312fv-0",
+                                    "componentId": "NavItem__Container-sc-1t8qtmq-0",
                                     "isStatic": false,
-                                    "lastClassName": "jwNLvm",
+                                    "lastClassName": "c6",
                                     "rules": Array [
                                       "line-height:",
                                       [Function],
@@ -807,7 +960,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                   "displayName": "NavItem__Container",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "NavItem__Container-a312fv-0",
+                                  "styledComponentId": "NavItem__Container-sc-1t8qtmq-0",
                                   "target": "a",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -819,7 +972,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                               onClick={[Function]}
                             >
                               <a
-                                className="NavItem__Container-a312fv-0 jwNLvm"
+                                className="c6"
                                 data-test-id="nav-link"
                                 href="#Contacts"
                                 onClick={[Function]}
@@ -866,6 +1019,159 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
 `;
 
 exports[`Nav Content should render with isShowNavContent enable 1`] = `
+.c1 {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 80px;
+  color: #ecf0f1;
+  font-size: 40px;
+  line-height: 80px;
+  font-family: Georgia,Times,"Times New Roman",serif;
+  -webkit-letter-spacing: -5px;
+  -moz-letter-spacing: -5px;
+  -ms-letter-spacing: -5px;
+  letter-spacing: -5px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #FFA726;
+  border: none;
+}
+
+.c1::after {
+  content: '';
+  position: absolute;
+  bottom: -29px;
+  left: 0;
+  z-index: 250;
+  border-top: 30px solid #FFA726;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+}
+
+.c2 {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.c2::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  right: -2px;
+  width: 50px;
+  height: 5px;
+  background-color: transparent;
+  box-shadow: 0 1px 2px -1px #2c3e50;
+  -webkit-transform: rotate(-37deg);
+  -ms-transform: rotate(-37deg);
+  transform: rotate(-37deg);
+}
+
+.c2::before {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: -2px;
+  width: 50px;
+  height: 5px;
+  background-color: transparent;
+  box-shadow: 0 1px 2px -1px #2c3e50;
+  -webkit-transform: rotate(37deg);
+  -ms-transform: rotate(37deg);
+  transform: rotate(37deg);
+}
+
+.c6 {
+  line-height: 80px;
+  font-size: 22px;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.c6:hover {
+  color: #bdc3c7;
+  border: none;
+}
+
+.c5 {
+  line-height: 80px;
+  font-size: 22px;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  color: #bdc3c7;
+  border: none;
+}
+
+.c5:hover {
+  color: #bdc3c7;
+  border: none;
+}
+
+.c0 {
+  position: relative;
+  min-height: 80px;
+  background-color: #ecf0f1;
+  margin-top: 40px;
+  box-shadow: 0 1px 2px -1px #2c3e50;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.c3 {
+  text-align: right;
+}
+
+.c4 {
+  display: inline-block;
+  margin-left: 18px;
+}
+
+@media screen and (max-width:960px) {
+  .c1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .c6 {
+    font-size: 18px;
+    line-height: 2;
+    border-bottom: none;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .c5 {
+    font-size: 18px;
+    line-height: 2;
+    border-bottom: none;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .c0 {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .c3 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .c4 {
+    margin: 0 9px;
+    display: block;
+    border-bottom: 1px dashed #bdc3c7;
+  }
+}
+
 <NavContent
   isShowNavContent={true}
 >
@@ -880,9 +1186,9 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "NavContent__Container-sc-1bgb07m-0",
+            "componentId": "NavContent__Container-sc-1gp15ts-0",
             "isStatic": false,
-            "lastClassName": "HUsBT",
+            "lastClassName": "c0",
             "rules": Array [
               "position:relative;min-height:",
               [Function],
@@ -900,7 +1206,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
           "displayName": "NavContent__Container",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "NavContent__Container-sc-1bgb07m-0",
+          "styledComponentId": "NavContent__Container-sc-1gp15ts-0",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -911,7 +1217,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
       isShowNavContent={true}
     >
       <div
-        className="NavContent__Container-sc-1bgb07m-0 HUsBT second-nav"
+        className="c0 second-nav"
       >
         <div
           className="container"
@@ -924,9 +1230,9 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                     "$$typeof": Symbol(react.forward_ref),
                     "attrs": Array [],
                     "componentStyle": ComponentStyle {
-                      "componentId": "NavLogo__Logo-sc-1822jsu-0",
+                      "componentId": "NavLogo__Logo-sc-1n7j63d-0",
                       "isStatic": false,
-                      "lastClassName": "cMqCKY",
+                      "lastClassName": "c1",
                       "rules": Array [
                         "display:block;position:absolute;top:0;left:20px;width:",
                         [Function],
@@ -948,7 +1254,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                     "displayName": "NavLogo__Logo",
                     "foldedComponentIds": Array [],
                     "render": [Function],
-                    "styledComponentId": "NavLogo__Logo-sc-1822jsu-0",
+                    "styledComponentId": "NavLogo__Logo-sc-1n7j63d-0",
                     "target": "a",
                     "toString": [Function],
                     "warnTooManyClasses": [Function],
@@ -958,7 +1264,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                 forwardedRef={null}
               >
                 <a
-                  className="NavLogo__Logo-sc-1822jsu-0 cMqCKY"
+                  className="c1"
                 >
                   <NavLogo__LogoText>
                     <StyledComponent
@@ -967,9 +1273,9 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "NavLogo__LogoText-sc-1822jsu-1",
+                            "componentId": "NavLogo__LogoText-sc-1n7j63d-1",
                             "isStatic": false,
-                            "lastClassName": "cUhXTg",
+                            "lastClassName": "c2",
                             "rules": Array [
                               "position:relative;display:block;width:100%;height:100%;&::after{content:'';position:absolute;bottom:-15px;right:-2px;width:50px;height:5px;background-color:transparent;box-shadow:",
                               [Function],
@@ -981,7 +1287,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                           "displayName": "NavLogo__LogoText",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "NavLogo__LogoText-sc-1822jsu-1",
+                          "styledComponentId": "NavLogo__LogoText-sc-1n7j63d-1",
                           "target": "span",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -991,7 +1297,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                       forwardedRef={null}
                     >
                       <span
-                        className="NavLogo__LogoText-sc-1822jsu-1 cUhXTg"
+                        className="c2"
                       >
                         JD
                       </span>
@@ -1011,9 +1317,9 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "NavContent__NavMenu-sc-1bgb07m-1",
+                    "componentId": "NavContent__NavMenu-sc-1gp15ts-1",
                     "isStatic": false,
-                    "lastClassName": "dxzTZf",
+                    "lastClassName": "c3",
                     "rules": Array [
                       "text-align:right;@media screen and (max-width:800px){text-align:center;}",
                     ],
@@ -1021,7 +1327,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                   "displayName": "NavContent__NavMenu",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "NavContent__NavMenu-sc-1bgb07m-1",
+                  "styledComponentId": "NavContent__NavMenu-sc-1gp15ts-1",
                   "target": "nav",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -1031,7 +1337,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
               forwardedRef={null}
             >
               <nav
-                className="NavContent__NavMenu-sc-1bgb07m-1 dxzTZf menu"
+                className="c3 menu"
               >
                 <ul>
                   <NavContent__NavLi
@@ -1043,9 +1349,9 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "NavContent__NavLi-sc-1bgb07m-2",
+                            "componentId": "NavContent__NavLi-sc-1gp15ts-2",
                             "isStatic": false,
-                            "lastClassName": "kzVeLC",
+                            "lastClassName": "c4",
                             "rules": Array [
                               "display:inline-block;margin-left:18px;@media screen and (max-width:800px){margin:0 9px;display:block;border-bottom:1px dashed ",
                               [Function],
@@ -1055,7 +1361,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                           "displayName": "NavContent__NavLi",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "NavContent__NavLi-sc-1bgb07m-2",
+                          "styledComponentId": "NavContent__NavLi-sc-1gp15ts-2",
                           "target": "li",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -1065,7 +1371,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                       forwardedRef={null}
                     >
                       <li
-                        className="NavContent__NavLi-sc-1bgb07m-2 kzVeLC"
+                        className="c4"
                       >
                         <NavItem
                           isSelected={true}
@@ -1079,9 +1385,9 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "NavItem__SelectedContainer-a312fv-1",
+                                    "componentId": "NavItem__SelectedContainer-sc-1t8qtmq-1",
                                     "isStatic": false,
-                                    "lastClassName": "bHJkXU",
+                                    "lastClassName": "c5",
                                     "rules": Array [
                                       "line-height:",
                                       [Function],
@@ -1099,10 +1405,10 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                   },
                                   "displayName": "NavItem__SelectedContainer",
                                   "foldedComponentIds": Array [
-                                    "NavItem__Container-a312fv-0",
+                                    "NavItem__Container-sc-1t8qtmq-0",
                                   ],
                                   "render": [Function],
-                                  "styledComponentId": "NavItem__SelectedContainer-a312fv-1",
+                                  "styledComponentId": "NavItem__SelectedContainer-sc-1t8qtmq-1",
                                   "target": "a",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -1112,7 +1418,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                               forwardedRef={null}
                             >
                               <a
-                                className="NavItem__Container-a312fv-0 NavItem__SelectedContainer-a312fv-1 bHJkXU"
+                                className="c5"
                               >
                                 <Translate
                                   id="Home"
@@ -1153,9 +1459,9 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "NavContent__NavLi-sc-1bgb07m-2",
+                            "componentId": "NavContent__NavLi-sc-1gp15ts-2",
                             "isStatic": false,
-                            "lastClassName": "kzVeLC",
+                            "lastClassName": "c4",
                             "rules": Array [
                               "display:inline-block;margin-left:18px;@media screen and (max-width:800px){margin:0 9px;display:block;border-bottom:1px dashed ",
                               [Function],
@@ -1165,7 +1471,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                           "displayName": "NavContent__NavLi",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "NavContent__NavLi-sc-1bgb07m-2",
+                          "styledComponentId": "NavContent__NavLi-sc-1gp15ts-2",
                           "target": "li",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -1175,7 +1481,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                       forwardedRef={null}
                     >
                       <li
-                        className="NavContent__NavLi-sc-1bgb07m-2 kzVeLC"
+                        className="c4"
                       >
                         <NavItem
                           isSelected={false}
@@ -1194,9 +1500,9 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "NavItem__Container-a312fv-0",
+                                    "componentId": "NavItem__Container-sc-1t8qtmq-0",
                                     "isStatic": false,
-                                    "lastClassName": "jwNLvm",
+                                    "lastClassName": "c6",
                                     "rules": Array [
                                       "line-height:",
                                       [Function],
@@ -1212,7 +1518,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                   "displayName": "NavItem__Container",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "NavItem__Container-a312fv-0",
+                                  "styledComponentId": "NavItem__Container-sc-1t8qtmq-0",
                                   "target": "a",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -1224,7 +1530,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                               onClick={[Function]}
                             >
                               <a
-                                className="NavItem__Container-a312fv-0 jwNLvm"
+                                className="c6"
                                 data-test-id="nav-link"
                                 href="#About"
                                 onClick={[Function]}
@@ -1268,9 +1574,9 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "NavContent__NavLi-sc-1bgb07m-2",
+                            "componentId": "NavContent__NavLi-sc-1gp15ts-2",
                             "isStatic": false,
-                            "lastClassName": "kzVeLC",
+                            "lastClassName": "c4",
                             "rules": Array [
                               "display:inline-block;margin-left:18px;@media screen and (max-width:800px){margin:0 9px;display:block;border-bottom:1px dashed ",
                               [Function],
@@ -1280,7 +1586,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                           "displayName": "NavContent__NavLi",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "NavContent__NavLi-sc-1bgb07m-2",
+                          "styledComponentId": "NavContent__NavLi-sc-1gp15ts-2",
                           "target": "li",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -1290,7 +1596,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                       forwardedRef={null}
                     >
                       <li
-                        className="NavContent__NavLi-sc-1bgb07m-2 kzVeLC"
+                        className="c4"
                       >
                         <NavItem
                           isSelected={false}
@@ -1309,9 +1615,9 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "NavItem__Container-a312fv-0",
+                                    "componentId": "NavItem__Container-sc-1t8qtmq-0",
                                     "isStatic": false,
-                                    "lastClassName": "jwNLvm",
+                                    "lastClassName": "c6",
                                     "rules": Array [
                                       "line-height:",
                                       [Function],
@@ -1327,7 +1633,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                   "displayName": "NavItem__Container",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "NavItem__Container-a312fv-0",
+                                  "styledComponentId": "NavItem__Container-sc-1t8qtmq-0",
                                   "target": "a",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -1339,7 +1645,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                               onClick={[Function]}
                             >
                               <a
-                                className="NavItem__Container-a312fv-0 jwNLvm"
+                                className="c6"
                                 data-test-id="nav-link"
                                 href="#Experiences"
                                 onClick={[Function]}
@@ -1383,9 +1689,9 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "NavContent__NavLi-sc-1bgb07m-2",
+                            "componentId": "NavContent__NavLi-sc-1gp15ts-2",
                             "isStatic": false,
-                            "lastClassName": "kzVeLC",
+                            "lastClassName": "c4",
                             "rules": Array [
                               "display:inline-block;margin-left:18px;@media screen and (max-width:800px){margin:0 9px;display:block;border-bottom:1px dashed ",
                               [Function],
@@ -1395,7 +1701,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                           "displayName": "NavContent__NavLi",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "NavContent__NavLi-sc-1bgb07m-2",
+                          "styledComponentId": "NavContent__NavLi-sc-1gp15ts-2",
                           "target": "li",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -1405,7 +1711,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                       forwardedRef={null}
                     >
                       <li
-                        className="NavContent__NavLi-sc-1bgb07m-2 kzVeLC"
+                        className="c4"
                       >
                         <NavItem
                           isSelected={false}
@@ -1424,9 +1730,9 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "NavItem__Container-a312fv-0",
+                                    "componentId": "NavItem__Container-sc-1t8qtmq-0",
                                     "isStatic": false,
-                                    "lastClassName": "jwNLvm",
+                                    "lastClassName": "c6",
                                     "rules": Array [
                                       "line-height:",
                                       [Function],
@@ -1442,7 +1748,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                   "displayName": "NavItem__Container",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "NavItem__Container-a312fv-0",
+                                  "styledComponentId": "NavItem__Container-sc-1t8qtmq-0",
                                   "target": "a",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -1454,7 +1760,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                               onClick={[Function]}
                             >
                               <a
-                                className="NavItem__Container-a312fv-0 jwNLvm"
+                                className="c6"
                                 data-test-id="nav-link"
                                 href="#Certifications"
                                 onClick={[Function]}
@@ -1498,9 +1804,9 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "NavContent__NavLi-sc-1bgb07m-2",
+                            "componentId": "NavContent__NavLi-sc-1gp15ts-2",
                             "isStatic": false,
-                            "lastClassName": "kzVeLC",
+                            "lastClassName": "c4",
                             "rules": Array [
                               "display:inline-block;margin-left:18px;@media screen and (max-width:800px){margin:0 9px;display:block;border-bottom:1px dashed ",
                               [Function],
@@ -1510,7 +1816,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                           "displayName": "NavContent__NavLi",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "NavContent__NavLi-sc-1bgb07m-2",
+                          "styledComponentId": "NavContent__NavLi-sc-1gp15ts-2",
                           "target": "li",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -1520,7 +1826,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                       forwardedRef={null}
                     >
                       <li
-                        className="NavContent__NavLi-sc-1bgb07m-2 kzVeLC"
+                        className="c4"
                       >
                         <NavItem
                           isSelected={false}
@@ -1539,9 +1845,9 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "NavItem__Container-a312fv-0",
+                                    "componentId": "NavItem__Container-sc-1t8qtmq-0",
                                     "isStatic": false,
-                                    "lastClassName": "jwNLvm",
+                                    "lastClassName": "c6",
                                     "rules": Array [
                                       "line-height:",
                                       [Function],
@@ -1557,7 +1863,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                   "displayName": "NavItem__Container",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "NavItem__Container-a312fv-0",
+                                  "styledComponentId": "NavItem__Container-sc-1t8qtmq-0",
                                   "target": "a",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -1569,7 +1875,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                               onClick={[Function]}
                             >
                               <a
-                                className="NavItem__Container-a312fv-0 jwNLvm"
+                                className="c6"
                                 data-test-id="nav-link"
                                 href="#Projects"
                                 onClick={[Function]}
@@ -1613,9 +1919,9 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "NavContent__NavLi-sc-1bgb07m-2",
+                            "componentId": "NavContent__NavLi-sc-1gp15ts-2",
                             "isStatic": false,
-                            "lastClassName": "kzVeLC",
+                            "lastClassName": "c4",
                             "rules": Array [
                               "display:inline-block;margin-left:18px;@media screen and (max-width:800px){margin:0 9px;display:block;border-bottom:1px dashed ",
                               [Function],
@@ -1625,7 +1931,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                           "displayName": "NavContent__NavLi",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "NavContent__NavLi-sc-1bgb07m-2",
+                          "styledComponentId": "NavContent__NavLi-sc-1gp15ts-2",
                           "target": "li",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -1635,7 +1941,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                       forwardedRef={null}
                     >
                       <li
-                        className="NavContent__NavLi-sc-1bgb07m-2 kzVeLC"
+                        className="c4"
                       >
                         <NavItem
                           isSelected={false}
@@ -1654,9 +1960,9 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "NavItem__Container-a312fv-0",
+                                    "componentId": "NavItem__Container-sc-1t8qtmq-0",
                                     "isStatic": false,
-                                    "lastClassName": "jwNLvm",
+                                    "lastClassName": "c6",
                                     "rules": Array [
                                       "line-height:",
                                       [Function],
@@ -1672,7 +1978,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                   "displayName": "NavItem__Container",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "NavItem__Container-a312fv-0",
+                                  "styledComponentId": "NavItem__Container-sc-1t8qtmq-0",
                                   "target": "a",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -1684,7 +1990,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                               onClick={[Function]}
                             >
                               <a
-                                className="NavItem__Container-a312fv-0 jwNLvm"
+                                className="c6"
                                 data-test-id="nav-link"
                                 href="#Contacts"
                                 onClick={[Function]}

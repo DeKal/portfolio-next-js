@@ -1,6 +1,98 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Error should render Error Component in general case 1`] = `
+.c2 {
+  height: 280px;
+  position: relative;
+  z-index: -1;
+}
+
+.c3 {
+  font-size: 230px;
+  margin: 0;
+  font-weight: 900;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background: url(/images/oops.jpg) no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
+  background-position: center;
+}
+
+.c4 {
+  font-family: "Open Sans",Tahoma,Verdana,Arial,sans-serif;
+  color: #2c3e50;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+.c5 {
+  color: #2c3e50;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 10px;
+}
+
+.c6 {
+  font-size: 14px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #FFA726;
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 40px;
+  color: #ecf0f1;
+  font-weight: 700;
+  box-shadow: 0 4px 15px -5px #FFA726;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.c0 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-color: #ecf0f1;
+}
+
+.c1 {
+  max-width: 410px;
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+@media only screen and (max-width:767px) {
+  .c2 {
+    height: 142px;
+  }
+}
+
+@media only screen and (max-width:767px) {
+  .c3 {
+    font-size: 112px;
+  }
+}
+
 <Error>
   <Error__Container>
     <StyledComponent
@@ -9,9 +101,9 @@ exports[`Error should render Error Component in general case 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "Error__Container-sc-18n92w4-0",
+            "componentId": "Error__Container-sc-31377m-0",
             "isStatic": false,
-            "lastClassName": "iWUaEV",
+            "lastClassName": "c0",
             "rules": Array [
               "position:absolute;width:100%;height:100%;top:50%;text-align:center;transform:translateY(-50%);background-color:",
               [Function],
@@ -21,7 +113,7 @@ exports[`Error should render Error Component in general case 1`] = `
           "displayName": "Error__Container",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "Error__Container-sc-18n92w4-0",
+          "styledComponentId": "Error__Container-sc-31377m-0",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -31,7 +123,7 @@ exports[`Error should render Error Component in general case 1`] = `
       forwardedRef={null}
     >
       <div
-        className="Error__Container-sc-18n92w4-0 iWUaEV"
+        className="c0"
       >
         <Error__Content>
           <StyledComponent
@@ -40,9 +132,9 @@ exports[`Error should render Error Component in general case 1`] = `
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
-                  "componentId": "Error__Content-sc-18n92w4-1",
+                  "componentId": "Error__Content-sc-31377m-1",
                   "isStatic": false,
-                  "lastClassName": "ggGBIY",
+                  "lastClassName": "c1",
                   "rules": Array [
                     "max-width:410px;position:relative;float:left;top:50%;left:50%;transform:translate(-50%,-50%);",
                   ],
@@ -50,7 +142,7 @@ exports[`Error should render Error Component in general case 1`] = `
                 "displayName": "Error__Content",
                 "foldedComponentIds": Array [],
                 "render": [Function],
-                "styledComponentId": "Error__Content-sc-18n92w4-1",
+                "styledComponentId": "Error__Content-sc-31377m-1",
                 "target": "div",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -60,7 +152,7 @@ exports[`Error should render Error Component in general case 1`] = `
             forwardedRef={null}
           >
             <div
-              className="Error__Content-sc-18n92w4-1 ggGBIY"
+              className="c1"
             >
               <General>
                 <Layout
@@ -75,9 +167,9 @@ exports[`Error should render Error Component in general case 1`] = `
                             "$$typeof": Symbol(react.forward_ref),
                             "attrs": Array [],
                             "componentStyle": ComponentStyle {
-                              "componentId": "Header__Container-nhyd32-0",
+                              "componentId": "Header__Container-sc-3t8r38-0",
                               "isStatic": false,
-                              "lastClassName": "jhlbgJ",
+                              "lastClassName": "c2",
                               "rules": Array [
                                 "height:280px;position:relative;z-index:-1;@media only screen and (max-width:767px){height:142px;}",
                               ],
@@ -85,7 +177,7 @@ exports[`Error should render Error Component in general case 1`] = `
                             "displayName": "Header__Container",
                             "foldedComponentIds": Array [],
                             "render": [Function],
-                            "styledComponentId": "Header__Container-nhyd32-0",
+                            "styledComponentId": "Header__Container-sc-3t8r38-0",
                             "target": "div",
                             "toString": [Function],
                             "warnTooManyClasses": [Function],
@@ -95,7 +187,7 @@ exports[`Error should render Error Component in general case 1`] = `
                         forwardedRef={null}
                       >
                         <div
-                          className="Header__Container-nhyd32-0 jhlbgJ"
+                          className="c2"
                         >
                           <Header__Style>
                             <StyledComponent
@@ -104,9 +196,9 @@ exports[`Error should render Error Component in general case 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "Header__Style-nhyd32-1",
+                                    "componentId": "Header__Style-sc-3t8r38-1",
                                     "isStatic": false,
-                                    "lastClassName": "lMWyG",
+                                    "lastClassName": "c3",
                                     "rules": Array [
                                       "@media only screen and (max-width:767px){font-size:112px;}font-size:230px;margin:0;font-weight:900;position:absolute;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);background:url(/images/oops.jpg) no-repeat;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-size:cover;background-position:center;",
                                     ],
@@ -114,7 +206,7 @@ exports[`Error should render Error Component in general case 1`] = `
                                   "displayName": "Header__Style",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "Header__Style-nhyd32-1",
+                                  "styledComponentId": "Header__Style-sc-3t8r38-1",
                                   "target": "h1",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -124,7 +216,7 @@ exports[`Error should render Error Component in general case 1`] = `
                               forwardedRef={null}
                             >
                               <h1
-                                className="Header__Style-nhyd32-1 lMWyG"
+                                className="c3"
                               >
                                 Oops!
                               </h1>
@@ -141,9 +233,9 @@ exports[`Error should render Error Component in general case 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "Title-jjovxk-0",
+                            "componentId": "Title-sc-1cvjtui-0",
                             "isStatic": false,
-                            "lastClassName": "cJTFXi",
+                            "lastClassName": "c4",
                             "rules": Array [
                               "font-family:",
                               [Function],
@@ -157,7 +249,7 @@ exports[`Error should render Error Component in general case 1`] = `
                           "displayName": "Title",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "Title-jjovxk-0",
+                          "styledComponentId": "Title-sc-1cvjtui-0",
                           "target": "h2",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -167,7 +259,7 @@ exports[`Error should render Error Component in general case 1`] = `
                       forwardedRef={null}
                     >
                       <h2
-                        className="Title-jjovxk-0 cJTFXi"
+                        className="c4"
                       >
                         An error occurred
                       </h2>
@@ -180,9 +272,9 @@ exports[`Error should render Error Component in general case 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "Description-vyc75-0",
+                            "componentId": "Description-sc-1e43su6-0",
                             "isStatic": false,
-                            "lastClassName": "dYkFIK",
+                            "lastClassName": "c5",
                             "rules": Array [
                               "color:",
                               [Function],
@@ -192,7 +284,7 @@ exports[`Error should render Error Component in general case 1`] = `
                           "displayName": "Description",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "Description-vyc75-0",
+                          "styledComponentId": "Description-sc-1e43su6-0",
                           "target": "p",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -202,7 +294,7 @@ exports[`Error should render Error Component in general case 1`] = `
                       forwardedRef={null}
                     >
                       <p
-                        className="Description-vyc75-0 dYkFIK"
+                        className="c5"
                       >
                         There are some errors happened during the process, please back to home page and try again.
                       </p>
@@ -221,9 +313,9 @@ exports[`Error should render Error Component in general case 1`] = `
                             "$$typeof": Symbol(react.forward_ref),
                             "attrs": Array [],
                             "componentStyle": ComponentStyle {
-                              "componentId": "Button-sc-1kpji73-0",
+                              "componentId": "Button-sc-9m8lcb-0",
                               "isStatic": false,
-                              "lastClassName": "iKgSqt",
+                              "lastClassName": "c6",
                               "rules": Array [
                                 "font-size:",
                                 [Function],
@@ -239,7 +331,7 @@ exports[`Error should render Error Component in general case 1`] = `
                             "displayName": "Button",
                             "foldedComponentIds": Array [],
                             "render": [Function],
-                            "styledComponentId": "Button-sc-1kpji73-0",
+                            "styledComponentId": "Button-sc-9m8lcb-0",
                             "target": "a",
                             "toString": [Function],
                             "warnTooManyClasses": [Function],
@@ -251,7 +343,7 @@ exports[`Error should render Error Component in general case 1`] = `
                         onMouseEnter={[Function]}
                       >
                         <a
-                          className="Button-sc-1kpji73-0 iKgSqt"
+                          className="c6"
                           onClick={[Function]}
                           onMouseEnter={[Function]}
                         >
@@ -272,6 +364,98 @@ exports[`Error should render Error Component in general case 1`] = `
 `;
 
 exports[`Error should render Error Component with 404 1`] = `
+.c2 {
+  height: 280px;
+  position: relative;
+  z-index: -1;
+}
+
+.c3 {
+  font-size: 230px;
+  margin: 0;
+  font-weight: 900;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background: url(/images/oops.jpg) no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
+  background-position: center;
+}
+
+.c4 {
+  font-family: "Open Sans",Tahoma,Verdana,Arial,sans-serif;
+  color: #2c3e50;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+.c5 {
+  color: #2c3e50;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 10px;
+}
+
+.c6 {
+  font-size: 14px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #FFA726;
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 40px;
+  color: #ecf0f1;
+  font-weight: 700;
+  box-shadow: 0 4px 15px -5px #FFA726;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.c0 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-color: #ecf0f1;
+}
+
+.c1 {
+  max-width: 410px;
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+@media only screen and (max-width:767px) {
+  .c2 {
+    height: 142px;
+  }
+}
+
+@media only screen and (max-width:767px) {
+  .c3 {
+    font-size: 112px;
+  }
+}
+
 <Error
   statusCode={404}
 >
@@ -282,9 +466,9 @@ exports[`Error should render Error Component with 404 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "Error__Container-sc-18n92w4-0",
+            "componentId": "Error__Container-sc-31377m-0",
             "isStatic": false,
-            "lastClassName": "iWUaEV",
+            "lastClassName": "c0",
             "rules": Array [
               "position:absolute;width:100%;height:100%;top:50%;text-align:center;transform:translateY(-50%);background-color:",
               [Function],
@@ -294,7 +478,7 @@ exports[`Error should render Error Component with 404 1`] = `
           "displayName": "Error__Container",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "Error__Container-sc-18n92w4-0",
+          "styledComponentId": "Error__Container-sc-31377m-0",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -304,7 +488,7 @@ exports[`Error should render Error Component with 404 1`] = `
       forwardedRef={null}
     >
       <div
-        className="Error__Container-sc-18n92w4-0 iWUaEV"
+        className="c0"
       >
         <Error__Content>
           <StyledComponent
@@ -313,9 +497,9 @@ exports[`Error should render Error Component with 404 1`] = `
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
-                  "componentId": "Error__Content-sc-18n92w4-1",
+                  "componentId": "Error__Content-sc-31377m-1",
                   "isStatic": false,
-                  "lastClassName": "ggGBIY",
+                  "lastClassName": "c1",
                   "rules": Array [
                     "max-width:410px;position:relative;float:left;top:50%;left:50%;transform:translate(-50%,-50%);",
                   ],
@@ -323,7 +507,7 @@ exports[`Error should render Error Component with 404 1`] = `
                 "displayName": "Error__Content",
                 "foldedComponentIds": Array [],
                 "render": [Function],
-                "styledComponentId": "Error__Content-sc-18n92w4-1",
+                "styledComponentId": "Error__Content-sc-31377m-1",
                 "target": "div",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -333,7 +517,7 @@ exports[`Error should render Error Component with 404 1`] = `
             forwardedRef={null}
           >
             <div
-              className="Error__Content-sc-18n92w4-1 ggGBIY"
+              className="c1"
             >
               <NotFound>
                 <Layout
@@ -348,9 +532,9 @@ exports[`Error should render Error Component with 404 1`] = `
                             "$$typeof": Symbol(react.forward_ref),
                             "attrs": Array [],
                             "componentStyle": ComponentStyle {
-                              "componentId": "Header__Container-nhyd32-0",
+                              "componentId": "Header__Container-sc-3t8r38-0",
                               "isStatic": false,
-                              "lastClassName": "jhlbgJ",
+                              "lastClassName": "c2",
                               "rules": Array [
                                 "height:280px;position:relative;z-index:-1;@media only screen and (max-width:767px){height:142px;}",
                               ],
@@ -358,7 +542,7 @@ exports[`Error should render Error Component with 404 1`] = `
                             "displayName": "Header__Container",
                             "foldedComponentIds": Array [],
                             "render": [Function],
-                            "styledComponentId": "Header__Container-nhyd32-0",
+                            "styledComponentId": "Header__Container-sc-3t8r38-0",
                             "target": "div",
                             "toString": [Function],
                             "warnTooManyClasses": [Function],
@@ -368,7 +552,7 @@ exports[`Error should render Error Component with 404 1`] = `
                         forwardedRef={null}
                       >
                         <div
-                          className="Header__Container-nhyd32-0 jhlbgJ"
+                          className="c2"
                         >
                           <Header__Style>
                             <StyledComponent
@@ -377,9 +561,9 @@ exports[`Error should render Error Component with 404 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "Header__Style-nhyd32-1",
+                                    "componentId": "Header__Style-sc-3t8r38-1",
                                     "isStatic": false,
-                                    "lastClassName": "lMWyG",
+                                    "lastClassName": "c3",
                                     "rules": Array [
                                       "@media only screen and (max-width:767px){font-size:112px;}font-size:230px;margin:0;font-weight:900;position:absolute;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);background:url(/images/oops.jpg) no-repeat;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-size:cover;background-position:center;",
                                     ],
@@ -387,7 +571,7 @@ exports[`Error should render Error Component with 404 1`] = `
                                   "displayName": "Header__Style",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "Header__Style-nhyd32-1",
+                                  "styledComponentId": "Header__Style-sc-3t8r38-1",
                                   "target": "h1",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -397,7 +581,7 @@ exports[`Error should render Error Component with 404 1`] = `
                               forwardedRef={null}
                             >
                               <h1
-                                className="Header__Style-nhyd32-1 lMWyG"
+                                className="c3"
                               >
                                 Oops!
                               </h1>
@@ -414,9 +598,9 @@ exports[`Error should render Error Component with 404 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "Title-jjovxk-0",
+                            "componentId": "Title-sc-1cvjtui-0",
                             "isStatic": false,
-                            "lastClassName": "cJTFXi",
+                            "lastClassName": "c4",
                             "rules": Array [
                               "font-family:",
                               [Function],
@@ -430,7 +614,7 @@ exports[`Error should render Error Component with 404 1`] = `
                           "displayName": "Title",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "Title-jjovxk-0",
+                          "styledComponentId": "Title-sc-1cvjtui-0",
                           "target": "h2",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -440,7 +624,7 @@ exports[`Error should render Error Component with 404 1`] = `
                       forwardedRef={null}
                     >
                       <h2
-                        className="Title-jjovxk-0 cJTFXi"
+                        className="c4"
                       >
                         An error 404 occurred
                       </h2>
@@ -453,9 +637,9 @@ exports[`Error should render Error Component with 404 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "Description-vyc75-0",
+                            "componentId": "Description-sc-1e43su6-0",
                             "isStatic": false,
-                            "lastClassName": "dYkFIK",
+                            "lastClassName": "c5",
                             "rules": Array [
                               "color:",
                               [Function],
@@ -465,7 +649,7 @@ exports[`Error should render Error Component with 404 1`] = `
                           "displayName": "Description",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "Description-vyc75-0",
+                          "styledComponentId": "Description-sc-1e43su6-0",
                           "target": "p",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -475,7 +659,7 @@ exports[`Error should render Error Component with 404 1`] = `
                       forwardedRef={null}
                     >
                       <p
-                        className="Description-vyc75-0 dYkFIK"
+                        className="c5"
                       >
                         The page you are looking for might have been removed had its name changed or is temporarily unavailable.
                       </p>
@@ -494,9 +678,9 @@ exports[`Error should render Error Component with 404 1`] = `
                             "$$typeof": Symbol(react.forward_ref),
                             "attrs": Array [],
                             "componentStyle": ComponentStyle {
-                              "componentId": "Button-sc-1kpji73-0",
+                              "componentId": "Button-sc-9m8lcb-0",
                               "isStatic": false,
-                              "lastClassName": "iKgSqt",
+                              "lastClassName": "c6",
                               "rules": Array [
                                 "font-size:",
                                 [Function],
@@ -512,7 +696,7 @@ exports[`Error should render Error Component with 404 1`] = `
                             "displayName": "Button",
                             "foldedComponentIds": Array [],
                             "render": [Function],
-                            "styledComponentId": "Button-sc-1kpji73-0",
+                            "styledComponentId": "Button-sc-9m8lcb-0",
                             "target": "a",
                             "toString": [Function],
                             "warnTooManyClasses": [Function],
@@ -524,7 +708,7 @@ exports[`Error should render Error Component with 404 1`] = `
                         onMouseEnter={[Function]}
                       >
                         <a
-                          className="Button-sc-1kpji73-0 iKgSqt"
+                          className="c6"
                           onClick={[Function]}
                           onMouseEnter={[Function]}
                         >
@@ -545,6 +729,98 @@ exports[`Error should render Error Component with 404 1`] = `
 `;
 
 exports[`Error should render Error Component with 500 1`] = `
+.c2 {
+  height: 280px;
+  position: relative;
+  z-index: -1;
+}
+
+.c3 {
+  font-size: 230px;
+  margin: 0;
+  font-weight: 900;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background: url(/images/oops.jpg) no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
+  background-position: center;
+}
+
+.c4 {
+  font-family: "Open Sans",Tahoma,Verdana,Arial,sans-serif;
+  color: #2c3e50;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+.c5 {
+  color: #2c3e50;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 10px;
+}
+
+.c6 {
+  font-size: 14px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #FFA726;
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 40px;
+  color: #ecf0f1;
+  font-weight: 700;
+  box-shadow: 0 4px 15px -5px #FFA726;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.c0 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-color: #ecf0f1;
+}
+
+.c1 {
+  max-width: 410px;
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+@media only screen and (max-width:767px) {
+  .c2 {
+    height: 142px;
+  }
+}
+
+@media only screen and (max-width:767px) {
+  .c3 {
+    font-size: 112px;
+  }
+}
+
 <Error
   statusCode={500}
 >
@@ -555,9 +831,9 @@ exports[`Error should render Error Component with 500 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "Error__Container-sc-18n92w4-0",
+            "componentId": "Error__Container-sc-31377m-0",
             "isStatic": false,
-            "lastClassName": "iWUaEV",
+            "lastClassName": "c0",
             "rules": Array [
               "position:absolute;width:100%;height:100%;top:50%;text-align:center;transform:translateY(-50%);background-color:",
               [Function],
@@ -567,7 +843,7 @@ exports[`Error should render Error Component with 500 1`] = `
           "displayName": "Error__Container",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "Error__Container-sc-18n92w4-0",
+          "styledComponentId": "Error__Container-sc-31377m-0",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -577,7 +853,7 @@ exports[`Error should render Error Component with 500 1`] = `
       forwardedRef={null}
     >
       <div
-        className="Error__Container-sc-18n92w4-0 iWUaEV"
+        className="c0"
       >
         <Error__Content>
           <StyledComponent
@@ -586,9 +862,9 @@ exports[`Error should render Error Component with 500 1`] = `
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
-                  "componentId": "Error__Content-sc-18n92w4-1",
+                  "componentId": "Error__Content-sc-31377m-1",
                   "isStatic": false,
-                  "lastClassName": "ggGBIY",
+                  "lastClassName": "c1",
                   "rules": Array [
                     "max-width:410px;position:relative;float:left;top:50%;left:50%;transform:translate(-50%,-50%);",
                   ],
@@ -596,7 +872,7 @@ exports[`Error should render Error Component with 500 1`] = `
                 "displayName": "Error__Content",
                 "foldedComponentIds": Array [],
                 "render": [Function],
-                "styledComponentId": "Error__Content-sc-18n92w4-1",
+                "styledComponentId": "Error__Content-sc-31377m-1",
                 "target": "div",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -606,7 +882,7 @@ exports[`Error should render Error Component with 500 1`] = `
             forwardedRef={null}
           >
             <div
-              className="Error__Content-sc-18n92w4-1 ggGBIY"
+              className="c1"
             >
               <InternalServer>
                 <Layout
@@ -621,9 +897,9 @@ exports[`Error should render Error Component with 500 1`] = `
                             "$$typeof": Symbol(react.forward_ref),
                             "attrs": Array [],
                             "componentStyle": ComponentStyle {
-                              "componentId": "Header__Container-nhyd32-0",
+                              "componentId": "Header__Container-sc-3t8r38-0",
                               "isStatic": false,
-                              "lastClassName": "jhlbgJ",
+                              "lastClassName": "c2",
                               "rules": Array [
                                 "height:280px;position:relative;z-index:-1;@media only screen and (max-width:767px){height:142px;}",
                               ],
@@ -631,7 +907,7 @@ exports[`Error should render Error Component with 500 1`] = `
                             "displayName": "Header__Container",
                             "foldedComponentIds": Array [],
                             "render": [Function],
-                            "styledComponentId": "Header__Container-nhyd32-0",
+                            "styledComponentId": "Header__Container-sc-3t8r38-0",
                             "target": "div",
                             "toString": [Function],
                             "warnTooManyClasses": [Function],
@@ -641,7 +917,7 @@ exports[`Error should render Error Component with 500 1`] = `
                         forwardedRef={null}
                       >
                         <div
-                          className="Header__Container-nhyd32-0 jhlbgJ"
+                          className="c2"
                         >
                           <Header__Style>
                             <StyledComponent
@@ -650,9 +926,9 @@ exports[`Error should render Error Component with 500 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "Header__Style-nhyd32-1",
+                                    "componentId": "Header__Style-sc-3t8r38-1",
                                     "isStatic": false,
-                                    "lastClassName": "lMWyG",
+                                    "lastClassName": "c3",
                                     "rules": Array [
                                       "@media only screen and (max-width:767px){font-size:112px;}font-size:230px;margin:0;font-weight:900;position:absolute;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);background:url(/images/oops.jpg) no-repeat;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-size:cover;background-position:center;",
                                     ],
@@ -660,7 +936,7 @@ exports[`Error should render Error Component with 500 1`] = `
                                   "displayName": "Header__Style",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "Header__Style-nhyd32-1",
+                                  "styledComponentId": "Header__Style-sc-3t8r38-1",
                                   "target": "h1",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -670,7 +946,7 @@ exports[`Error should render Error Component with 500 1`] = `
                               forwardedRef={null}
                             >
                               <h1
-                                className="Header__Style-nhyd32-1 lMWyG"
+                                className="c3"
                               >
                                 Oops!
                               </h1>
@@ -687,9 +963,9 @@ exports[`Error should render Error Component with 500 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "Title-jjovxk-0",
+                            "componentId": "Title-sc-1cvjtui-0",
                             "isStatic": false,
-                            "lastClassName": "cJTFXi",
+                            "lastClassName": "c4",
                             "rules": Array [
                               "font-family:",
                               [Function],
@@ -703,7 +979,7 @@ exports[`Error should render Error Component with 500 1`] = `
                           "displayName": "Title",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "Title-jjovxk-0",
+                          "styledComponentId": "Title-sc-1cvjtui-0",
                           "target": "h2",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -713,7 +989,7 @@ exports[`Error should render Error Component with 500 1`] = `
                       forwardedRef={null}
                     >
                       <h2
-                        className="Title-jjovxk-0 cJTFXi"
+                        className="c4"
                       >
                         An error 500 Internal Server Error occurred
                       </h2>
@@ -726,9 +1002,9 @@ exports[`Error should render Error Component with 500 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "Description-vyc75-0",
+                            "componentId": "Description-sc-1e43su6-0",
                             "isStatic": false,
-                            "lastClassName": "dYkFIK",
+                            "lastClassName": "c5",
                             "rules": Array [
                               "color:",
                               [Function],
@@ -738,7 +1014,7 @@ exports[`Error should render Error Component with 500 1`] = `
                           "displayName": "Description",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "Description-vyc75-0",
+                          "styledComponentId": "Description-sc-1e43su6-0",
                           "target": "p",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -748,7 +1024,7 @@ exports[`Error should render Error Component with 500 1`] = `
                       forwardedRef={null}
                     >
                       <p
-                        className="Description-vyc75-0 dYkFIK"
+                        className="c5"
                       >
                         The server encountered an internal error or misconfiguration and was unable to complete your request.
                       </p>
@@ -767,9 +1043,9 @@ exports[`Error should render Error Component with 500 1`] = `
                             "$$typeof": Symbol(react.forward_ref),
                             "attrs": Array [],
                             "componentStyle": ComponentStyle {
-                              "componentId": "Button-sc-1kpji73-0",
+                              "componentId": "Button-sc-9m8lcb-0",
                               "isStatic": false,
-                              "lastClassName": "iKgSqt",
+                              "lastClassName": "c6",
                               "rules": Array [
                                 "font-size:",
                                 [Function],
@@ -785,7 +1061,7 @@ exports[`Error should render Error Component with 500 1`] = `
                             "displayName": "Button",
                             "foldedComponentIds": Array [],
                             "render": [Function],
-                            "styledComponentId": "Button-sc-1kpji73-0",
+                            "styledComponentId": "Button-sc-9m8lcb-0",
                             "target": "a",
                             "toString": [Function],
                             "warnTooManyClasses": [Function],
@@ -797,7 +1073,7 @@ exports[`Error should render Error Component with 500 1`] = `
                         onMouseEnter={[Function]}
                       >
                         <a
-                          className="Button-sc-1kpji73-0 iKgSqt"
+                          className="c6"
                           onClick={[Function]}
                           onMouseEnter={[Function]}
                         >

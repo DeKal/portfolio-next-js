@@ -1,6 +1,104 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Footer should render without throwing an error 1`] = `
+.c5 {
+  display: inline-block;
+}
+
+.c5::before {
+  font-family: "ip",sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  content: '\\e817';
+}
+
+.c3 {
+  color: #ecf0f1;
+  border-color: #ecf0f1;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.c3:hover {
+  color: #2c3e50;
+}
+
+.c4 {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  z-index: 200;
+  display: block;
+  width: 36px;
+  height: 36px;
+  margin-left: -15px;
+  font-size: 0;
+  border: none;
+  overflow: hidden;
+  color: #ecf0f1;
+  border-color: #ecf0f1;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.c4::before {
+  font-size: 45px;
+  line-height: 35px;
+  color: #ecf0f1;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.c4:hover {
+  color: #2c3e50;
+}
+
+.c4:hover::before {
+  color: #2c3e50;
+}
+
+.c0 {
+  position: relative;
+  z-index: 100;
+  width: 100%;
+  background-color: #FFA726;
+  color: #ecf0f1;
+  box-shadow: 0 -2px 2px -1px #2c3e50;
+  height: 50px;
+}
+
+.c0::before {
+  content: '';
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  margin-left: -40px;
+  border-bottom: 40px solid #FFA726;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+}
+
+.c1 {
+  margin-left: 10px;
+  padding-top: 10px;
+  float: left;
+  line-height: 40px;
+  font-weight: lighter;
+}
+
+.c2 {
+  font-weight: bold;
+}
+
+@media screen and (max-width:600px) {
+  .c1 {
+    padding-top: 20px;
+    line-height: 1;
+    float: none;
+    text-align: center;
+  }
+}
+
 <Footer>
   <Footer__FooterContainer>
     <StyledComponent
@@ -9,9 +107,9 @@ exports[`Footer should render without throwing an error 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "Footer__FooterContainer-sc-1914e3q-0",
+            "componentId": "Footer__FooterContainer-sc-1n6f7kd-0",
             "isStatic": false,
-            "lastClassName": "gEIrPK",
+            "lastClassName": "c0",
             "rules": Array [
               "position:relative;z-index:100;width:100%;background-color:",
               [Function],
@@ -29,7 +127,7 @@ exports[`Footer should render without throwing an error 1`] = `
           "displayName": "Footer__FooterContainer",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "Footer__FooterContainer-sc-1914e3q-0",
+          "styledComponentId": "Footer__FooterContainer-sc-1n6f7kd-0",
           "target": "footer",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -39,7 +137,7 @@ exports[`Footer should render without throwing an error 1`] = `
       forwardedRef={null}
     >
       <footer
-        className="Footer__FooterContainer-sc-1914e3q-0 gEIrPK"
+        className="c0"
       >
         <div
           className="container"
@@ -51,9 +149,9 @@ exports[`Footer should render without throwing an error 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "Footer__CopyRight-sc-1914e3q-1",
+                    "componentId": "Footer__CopyRight-sc-1n6f7kd-1",
                     "isStatic": false,
-                    "lastClassName": "cMoKyN",
+                    "lastClassName": "c1",
                     "rules": Array [
                       "margin-left:10px;padding-top:10px;float:left;line-height:40px;font-weight:lighter;@media screen and (max-width:600px){padding-top:20px;line-height:1;float:none;text-align:center;}",
                     ],
@@ -61,7 +159,7 @@ exports[`Footer should render without throwing an error 1`] = `
                   "displayName": "Footer__CopyRight",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "Footer__CopyRight-sc-1914e3q-1",
+                  "styledComponentId": "Footer__CopyRight-sc-1n6f7kd-1",
                   "target": "p",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -71,7 +169,7 @@ exports[`Footer should render without throwing an error 1`] = `
               forwardedRef={null}
             >
               <p
-                className="Footer__CopyRight-sc-1914e3q-1 cMoKyN"
+                className="c1"
               >
                 © 
                 <Footer__Bold>
@@ -81,9 +179,9 @@ exports[`Footer should render without throwing an error 1`] = `
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "Footer__Bold-sc-1914e3q-2",
+                          "componentId": "Footer__Bold-sc-1n6f7kd-2",
                           "isStatic": false,
-                          "lastClassName": "hvCmfr",
+                          "lastClassName": "c2",
                           "rules": Array [
                             "font-weight:bold;",
                           ],
@@ -91,7 +189,7 @@ exports[`Footer should render without throwing an error 1`] = `
                         "displayName": "Footer__Bold",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "Footer__Bold-sc-1914e3q-2",
+                        "styledComponentId": "Footer__Bold-sc-1n6f7kd-2",
                         "target": "span",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -101,7 +199,7 @@ exports[`Footer should render without throwing an error 1`] = `
                     forwardedRef={null}
                   >
                     <span
-                      className="Footer__Bold-sc-1914e3q-2 hvCmfr"
+                      className="c2"
                     >
                       Phat Ho
                     </span>
@@ -120,9 +218,9 @@ exports[`Footer should render without throwing an error 1`] = `
                     "$$typeof": Symbol(react.forward_ref),
                     "attrs": Array [],
                     "componentStyle": ComponentStyle {
-                      "componentId": "GoTop__Container-sc-18ceaec-0",
+                      "componentId": "GoTop__Container-sc-13an6zl-0",
                       "isStatic": false,
-                      "lastClassName": "krsECY",
+                      "lastClassName": "c3",
                       "rules": Array [
                         "color:",
                         [Function],
@@ -136,7 +234,7 @@ exports[`Footer should render without throwing an error 1`] = `
                     "displayName": "GoTop__Container",
                     "foldedComponentIds": Array [],
                     "render": [Function],
-                    "styledComponentId": "GoTop__Container-sc-18ceaec-0",
+                    "styledComponentId": "GoTop__Container-sc-13an6zl-0",
                     "target": "a",
                     "toString": [Function],
                     "warnTooManyClasses": [Function],
@@ -147,7 +245,7 @@ exports[`Footer should render without throwing an error 1`] = `
                 href="#Home"
               >
                 <a
-                  className="GoTop__Container-sc-18ceaec-0 krsECY"
+                  className="c3"
                   href="#Home"
                 >
                   <GoTop__GoTopIcon
@@ -159,9 +257,9 @@ exports[`Footer should render without throwing an error 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "GoTop__GoTopIcon-sc-18ceaec-1",
+                            "componentId": "GoTop__GoTopIcon-sc-13an6zl-1",
                             "isStatic": false,
-                            "lastClassName": "gjeSlo",
+                            "lastClassName": "c4",
                             "rules": Array [
                               "position:absolute;top:-20px;left:50%;z-index:200;display:block;width:36px;height:36px;margin-left:-15px;font-size:0;border:none;overflow:hidden;color:",
                               [Function],
@@ -179,7 +277,7 @@ exports[`Footer should render without throwing an error 1`] = `
                           "displayName": "GoTop__GoTopIcon",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "GoTop__GoTopIcon-sc-18ceaec-1",
+                          "styledComponentId": "GoTop__GoTopIcon-sc-13an6zl-1",
                           "target": [Function],
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -190,23 +288,23 @@ exports[`Footer should render without throwing an error 1`] = `
                       name="goTop"
                     >
                       <Icon
-                        className="GoTop__GoTopIcon-sc-18ceaec-1 gjeSlo"
+                        className="c4"
                         name="goTop"
                       >
                         <Icon__Symbol
-                          className="GoTop__GoTopIcon-sc-18ceaec-1 gjeSlo"
+                          className="c4"
                           name="goTop"
                         >
                           <StyledComponent
-                            className="GoTop__GoTopIcon-sc-18ceaec-1 gjeSlo"
+                            className="c4"
                             forwardedComponent={
                               Object {
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Icon__Symbol-sc-1aleqew-0",
+                                  "componentId": "Icon__Symbol-sc-1v6tn9f-0",
                                   "isStatic": false,
-                                  "lastClassName": "fUifJe",
+                                  "lastClassName": "c5",
                                   "rules": Array [
                                     "display:inline-block;&::before{font-family:",
                                     [Function],
@@ -218,7 +316,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                 "displayName": "Icon__Symbol",
                                 "foldedComponentIds": Array [],
                                 "render": [Function],
-                                "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
+                                "styledComponentId": "Icon__Symbol-sc-1v6tn9f-0",
                                 "target": "div",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -229,7 +327,7 @@ exports[`Footer should render without throwing an error 1`] = `
                             name="goTop"
                           >
                             <div
-                              className="Icon__Symbol-sc-1aleqew-0 fUifJe GoTop__GoTopIcon-sc-18ceaec-1 gjeSlo"
+                              className="c5 c4"
                               name="goTop"
                             />
                           </StyledComponent>

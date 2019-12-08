@@ -1,6 +1,302 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Footer should render without throwing an error 1`] = `
+.c27 {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  background-position: top center;
+  background-size: cover;
+  background-image: url(/images/map.jpg);
+  box-shadow: 0 0 2px 1px #2c3e50;
+}
+
+.c4 {
+  display: inline-block;
+  color: #FFA726;
+  font-size: 80px;
+  line-height: 60px;
+  -webkit-letter-spacing: -5px;
+  -moz-letter-spacing: -5px;
+  -ms-letter-spacing: -5px;
+  letter-spacing: -5px;
+  font-family: "Open Sans",Tahoma,Verdana,Arial,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  vertical-align: top;
+}
+
+.c6 {
+  margin-bottom: 20px;
+  font-style: italic;
+  font-family: Georgia,Times,"Times New Roman",serif;
+}
+
+.c12 {
+  display: inline-block;
+}
+
+.c12::before {
+  font-family: "ip",sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  content: '\\e806';
+}
+
+.c18 {
+  display: inline-block;
+}
+
+.c18::before {
+  font-family: "ip",sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  content: '\\e800';
+}
+
+.c21 {
+  display: inline-block;
+}
+
+.c21::before {
+  font-family: "ip",sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  content: '\\e81a';
+}
+
+.c25 {
+  display: inline-block;
+}
+
+.c25::before {
+  font-family: "ip",sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  content: '\\e811';
+}
+
+.c26 {
+  display: inline-block;
+}
+
+.c26::before {
+  font-family: "ip",sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  content: '\\e815';
+}
+
+.c8 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.c9 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: lighter;
+}
+
+.c9::before {
+  float: left;
+  display: block;
+  width: 25px;
+  height: 25px;
+  border: none;
+  vertical-align: top;
+}
+
+.c10 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: lighter;
+}
+
+.c10::before {
+  float: left;
+  display: block;
+  width: 25px;
+  height: 25px;
+  border: none;
+  vertical-align: top;
+}
+
+.c16 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: lighter;
+}
+
+.c16::before {
+  float: left;
+  display: block;
+  width: 25px;
+  height: 25px;
+  border: none;
+  vertical-align: top;
+}
+
+.c19 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: lighter;
+}
+
+.c19::before {
+  float: left;
+  display: block;
+  width: 25px;
+  height: 25px;
+  border: none;
+  vertical-align: top;
+}
+
+.c14 {
+  display: inline-block;
+}
+
+.c15 {
+  display: inline-block;
+}
+
+.c13 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.c11 {
+  padding-right: 15px;
+}
+
+.c17 {
+  padding-right: 8px;
+}
+
+.c20 {
+  padding-right: 10px;
+}
+
+.c22 {
+  position: absolute;
+  width: 40px;
+  height: 100%;
+  top: 0;
+  right: 0;
+  list-style-type: none;
+  background-color: #bdc3c7;
+}
+
+.c23 {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  background-color: #bdc3c7;
+  border-top: 1px solid #ecf0f1;
+}
+
+.c23:hover {
+  background-color: transparent;
+}
+
+.c24 {
+  display: inline-block;
+  color: #ecf0f1;
+  border: none;
+}
+
+.c24::before {
+  display: inline-block;
+  text-align: center;
+  font-size: 25px;
+  line-height: 50px;
+  color: #ecf0f1;
+}
+
+.c24:hover::before {
+  color: #2c3e50;
+}
+
+.c3 {
+  position: relative;
+  min-height: 300px;
+  padding: 20px 60px 20px 20px;
+  background-color: #ecf0f1;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.c5 {
+  display: inline-block;
+  padding-left: 20px;
+  white-space: normal;
+  vertical-align: top;
+}
+
+.c2 {
+  padding: 20px;
+  background-color: #FFA726;
+  color: #ecf0f1;
+}
+
+.c0 {
+  position: relative;
+  padding-top: 300px;
+}
+
+.c1 {
+  position: absolute;
+  top: -200px;
+  z-index: 50;
+  margin-left: calc((100% - calc(75% - 40px)) / 2);
+  box-shadow: 2px 2px 4px -2px #2c3e50;
+  width: calc(75% - 40px);
+}
+
+@media screen and (max-width:800px) {
+  .c4 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .c6 {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .c7 {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .c5 {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .c0 {
+    padding-top: 250px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .c1 {
+    width: calc(100% - 20px);
+    margin-left: 10px;
+    float: none;
+  }
+}
+
 <Contact>
   <Contact__Container
     id="Contacts"
@@ -11,9 +307,9 @@ exports[`Footer should render without throwing an error 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "Contact__Container-h6hh4w-0",
+            "componentId": "Contact__Container-sc-13tt7t0-0",
             "isStatic": false,
-            "lastClassName": "erQPZI",
+            "lastClassName": "c0",
             "rules": Array [
               "position:relative;padding-top:300px;@media screen and (max-width:800px){padding-top:250px;}",
             ],
@@ -21,7 +317,7 @@ exports[`Footer should render without throwing an error 1`] = `
           "displayName": "Contact__Container",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "Contact__Container-h6hh4w-0",
+          "styledComponentId": "Contact__Container-sc-13tt7t0-0",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -32,7 +328,7 @@ exports[`Footer should render without throwing an error 1`] = `
       id="Contacts"
     >
       <div
-        className="Contact__Container-h6hh4w-0 erQPZI"
+        className="c0"
         id="Contacts"
       >
         <div
@@ -45,9 +341,9 @@ exports[`Footer should render without throwing an error 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "Contact__Card-h6hh4w-1",
+                    "componentId": "Contact__Card-sc-13tt7t0-1",
                     "isStatic": false,
-                    "lastClassName": "iSAhbx",
+                    "lastClassName": "c1",
                     "rules": Array [
                       "position:absolute;top:-200px;z-index:50;margin-left:calc((100% - calc(75% - 40px)) / 2);box-shadow:2px 2px 4px -2px ",
                       [Function],
@@ -57,7 +353,7 @@ exports[`Footer should render without throwing an error 1`] = `
                   "displayName": "Contact__Card",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "Contact__Card-h6hh4w-1",
+                  "styledComponentId": "Contact__Card-sc-13tt7t0-1",
                   "target": "section",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -67,7 +363,7 @@ exports[`Footer should render without throwing an error 1`] = `
               forwardedRef={null}
             >
               <section
-                className="Contact__Card-h6hh4w-1 iSAhbx"
+                className="c1"
               >
                 <Header>
                   <Header__Container
@@ -80,9 +376,9 @@ exports[`Footer should render without throwing an error 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "Header__Container-sc-14hfkna-0",
+                            "componentId": "Header__Container-sc-13hay6r-0",
                             "isStatic": false,
-                            "lastClassName": "jDUYxS",
+                            "lastClassName": "c2",
                             "rules": Array [
                               "padding:20px;background-color:",
                               [Function],
@@ -94,7 +390,7 @@ exports[`Footer should render without throwing an error 1`] = `
                           "displayName": "Header__Container",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "Header__Container-sc-14hfkna-0",
+                          "styledComponentId": "Header__Container-sc-13hay6r-0",
                           "target": "header",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -104,7 +400,7 @@ exports[`Footer should render without throwing an error 1`] = `
                       forwardedRef={null}
                     >
                       <header
-                        className="Header__Container-sc-14hfkna-0 jDUYxS contact-card__header"
+                        className="c2 contact-card__header"
                       >
                         <h2>
                           <Translate
@@ -168,9 +464,9 @@ exports[`Footer should render without throwing an error 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "Content__Container-sc-1ywa3jt-0",
+                            "componentId": "Content__Container-sc-1ghr52o-0",
                             "isStatic": false,
-                            "lastClassName": "cGOLLO",
+                            "lastClassName": "c3",
                             "rules": Array [
                               "position:relative;min-height:300px;padding:20px 60px 20px 20px;background-color:",
                               [Function],
@@ -180,7 +476,7 @@ exports[`Footer should render without throwing an error 1`] = `
                           "displayName": "Content__Container",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "Content__Container-sc-1ywa3jt-0",
+                          "styledComponentId": "Content__Container-sc-1ghr52o-0",
                           "target": "div",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -190,7 +486,7 @@ exports[`Footer should render without throwing an error 1`] = `
                       forwardedRef={null}
                     >
                       <div
-                        className="Content__Container-sc-1ywa3jt-0 cGOLLO"
+                        className="c3"
                       >
                         <Logo>
                           <Logo__Container>
@@ -200,9 +496,9 @@ exports[`Footer should render without throwing an error 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "Logo__Container-sc-1vmvcng-0",
+                                    "componentId": "Logo__Container-i3dzri-0",
                                     "isStatic": false,
-                                    "lastClassName": "gNddhR",
+                                    "lastClassName": "c4",
                                     "rules": Array [
                                       "display:inline-block;color:",
                                       [Function],
@@ -214,7 +510,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                   "displayName": "Logo__Container",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "Logo__Container-sc-1vmvcng-0",
+                                  "styledComponentId": "Logo__Container-i3dzri-0",
                                   "target": "div",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -224,7 +520,7 @@ exports[`Footer should render without throwing an error 1`] = `
                               forwardedRef={null}
                             >
                               <div
-                                className="Logo__Container-sc-1vmvcng-0 gNddhR"
+                                className="c4"
                               >
                                 JD
                               </div>
@@ -238,9 +534,9 @@ exports[`Footer should render without throwing an error 1`] = `
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Content__Group-sc-1ywa3jt-1",
+                                  "componentId": "Content__Group-sc-1ghr52o-1",
                                   "isStatic": false,
-                                  "lastClassName": "ljiebZ",
+                                  "lastClassName": "c5",
                                   "rules": Array [
                                     "display:inline-block;padding-left:20px;white-space:normal;vertical-align:top;@media screen and (max-width:800px){padding-left:0;}",
                                   ],
@@ -248,7 +544,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                 "displayName": "Content__Group",
                                 "foldedComponentIds": Array [],
                                 "render": [Function],
-                                "styledComponentId": "Content__Group-sc-1ywa3jt-1",
+                                "styledComponentId": "Content__Group-sc-1ghr52o-1",
                                 "target": "div",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -258,7 +554,7 @@ exports[`Footer should render without throwing an error 1`] = `
                             forwardedRef={null}
                           >
                             <div
-                              className="Content__Group-sc-1ywa3jt-1 ljiebZ"
+                              className="c5"
                             >
                               <Description>
                                 <Description__Container>
@@ -268,9 +564,9 @@ exports[`Footer should render without throwing an error 1`] = `
                                         "$$typeof": Symbol(react.forward_ref),
                                         "attrs": Array [],
                                         "componentStyle": ComponentStyle {
-                                          "componentId": "Description__Container-sc-1mwo04n-0",
+                                          "componentId": "Description__Container-v3v1f1-0",
                                           "isStatic": false,
-                                          "lastClassName": "kulVUm",
+                                          "lastClassName": "c6",
                                           "rules": Array [
                                             "margin-bottom:20px;font-style:italic;font-family:",
                                             [Function],
@@ -280,7 +576,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                         "displayName": "Description__Container",
                                         "foldedComponentIds": Array [],
                                         "render": [Function],
-                                        "styledComponentId": "Description__Container-sc-1mwo04n-0",
+                                        "styledComponentId": "Description__Container-v3v1f1-0",
                                         "target": "div",
                                         "toString": [Function],
                                         "warnTooManyClasses": [Function],
@@ -290,7 +586,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                     forwardedRef={null}
                                   >
                                     <div
-                                      className="Description__Container-sc-1mwo04n-0 kulVUm"
+                                      className="c6"
                                     >
                                       <p>
                                         <Translate
@@ -354,9 +650,9 @@ exports[`Footer should render without throwing an error 1`] = `
                                         "$$typeof": Symbol(react.forward_ref),
                                         "attrs": Array [],
                                         "componentStyle": ComponentStyle {
-                                          "componentId": "Info__Container-sc-1i3mfcy-0",
+                                          "componentId": "Info__Container-sc-1ak83p6-0",
                                           "isStatic": false,
-                                          "lastClassName": "kKRKoG",
+                                          "lastClassName": "c7",
                                           "rules": Array [
                                             "@media screen and (max-width:800px){margin-left:0;}",
                                           ],
@@ -364,7 +660,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                         "displayName": "Info__Container",
                                         "foldedComponentIds": Array [],
                                         "render": [Function],
-                                        "styledComponentId": "Info__Container-sc-1i3mfcy-0",
+                                        "styledComponentId": "Info__Container-sc-1ak83p6-0",
                                         "target": "div",
                                         "toString": [Function],
                                         "warnTooManyClasses": [Function],
@@ -374,7 +670,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                     forwardedRef={null}
                                   >
                                     <div
-                                      className="Info__Container-sc-1i3mfcy-0 kKRKoG"
+                                      className="c7"
                                     >
                                       <Info__Name>
                                         <StyledComponent
@@ -383,9 +679,9 @@ exports[`Footer should render without throwing an error 1`] = `
                                               "$$typeof": Symbol(react.forward_ref),
                                               "attrs": Array [],
                                               "componentStyle": ComponentStyle {
-                                                "componentId": "Info__Name-sc-1i3mfcy-1",
+                                                "componentId": "Info__Name-sc-1ak83p6-1",
                                                 "isStatic": false,
-                                                "lastClassName": "fZWWyK",
+                                                "lastClassName": "c8",
                                                 "rules": Array [
                                                   "margin-bottom:10px;font-weight:bold;",
                                                 ],
@@ -393,7 +689,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                               "displayName": "Info__Name",
                                               "foldedComponentIds": Array [],
                                               "render": [Function],
-                                              "styledComponentId": "Info__Name-sc-1i3mfcy-1",
+                                              "styledComponentId": "Info__Name-sc-1ak83p6-1",
                                               "target": "h4",
                                               "toString": [Function],
                                               "warnTooManyClasses": [Function],
@@ -403,7 +699,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                           forwardedRef={null}
                                         >
                                           <h4
-                                            className="Info__Name-sc-1i3mfcy-1 fZWWyK"
+                                            className="c8"
                                           >
                                             <Translate
                                               id="Contact: Info Name"
@@ -438,19 +734,19 @@ exports[`Footer should render without throwing an error 1`] = `
                                               "$$typeof": Symbol(react.forward_ref),
                                               "attrs": Array [],
                                               "componentStyle": ComponentStyle {
-                                                "componentId": "Info__Role-sc-1i3mfcy-3",
+                                                "componentId": "Info__Role-sc-1ak83p6-3",
                                                 "isStatic": false,
-                                                "lastClassName": "bpqLRD",
+                                                "lastClassName": "c9",
                                                 "rules": Array [
                                                   "margin-bottom:10px;font-size:18px;line-height:1.5;font-weight:lighter;&::before{float:left;display:block;width:25px;height:25px;border:none;vertical-align:top;}",
                                                 ],
                                               },
                                               "displayName": "Info__Role",
                                               "foldedComponentIds": Array [
-                                                "Info__Paragraph-sc-1i3mfcy-2",
+                                                "Info__Paragraph-sc-1ak83p6-2",
                                               ],
                                               "render": [Function],
-                                              "styledComponentId": "Info__Role-sc-1i3mfcy-3",
+                                              "styledComponentId": "Info__Role-sc-1ak83p6-3",
                                               "target": "div",
                                               "toString": [Function],
                                               "warnTooManyClasses": [Function],
@@ -460,7 +756,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                           forwardedRef={null}
                                         >
                                           <div
-                                            className="Info__Paragraph-sc-1i3mfcy-2 Info__Role-sc-1i3mfcy-3 bpqLRD"
+                                            className="c9"
                                           >
                                             <Translate
                                               id="Contact: Info Role"
@@ -495,19 +791,19 @@ exports[`Footer should render without throwing an error 1`] = `
                                               "$$typeof": Symbol(react.forward_ref),
                                               "attrs": Array [],
                                               "componentStyle": ComponentStyle {
-                                                "componentId": "Info__Location-sc-1i3mfcy-4",
+                                                "componentId": "Info__Location-sc-1ak83p6-4",
                                                 "isStatic": false,
-                                                "lastClassName": "jYWMVS",
+                                                "lastClassName": "c10",
                                                 "rules": Array [
                                                   "margin-bottom:10px;font-size:18px;line-height:1.5;font-weight:lighter;&::before{float:left;display:block;width:25px;height:25px;border:none;vertical-align:top;}",
                                                 ],
                                               },
                                               "displayName": "Info__Location",
                                               "foldedComponentIds": Array [
-                                                "Info__Paragraph-sc-1i3mfcy-2",
+                                                "Info__Paragraph-sc-1ak83p6-2",
                                               ],
                                               "render": [Function],
-                                              "styledComponentId": "Info__Location-sc-1i3mfcy-4",
+                                              "styledComponentId": "Info__Location-sc-1ak83p6-4",
                                               "target": "div",
                                               "toString": [Function],
                                               "warnTooManyClasses": [Function],
@@ -517,7 +813,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                           forwardedRef={null}
                                         >
                                           <div
-                                            className="Info__Paragraph-sc-1i3mfcy-2 Info__Location-sc-1i3mfcy-4 jYWMVS"
+                                            className="c10"
                                           >
                                             <Info__LocationIcon
                                               name="location"
@@ -528,9 +824,9 @@ exports[`Footer should render without throwing an error 1`] = `
                                                     "$$typeof": Symbol(react.forward_ref),
                                                     "attrs": Array [],
                                                     "componentStyle": ComponentStyle {
-                                                      "componentId": "Info__LocationIcon-sc-1i3mfcy-11",
+                                                      "componentId": "Info__LocationIcon-sc-1ak83p6-11",
                                                       "isStatic": false,
-                                                      "lastClassName": "cvzoM",
+                                                      "lastClassName": "c11",
                                                       "rules": Array [
                                                         "padding-right:15px;",
                                                       ],
@@ -538,7 +834,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                                     "displayName": "Info__LocationIcon",
                                                     "foldedComponentIds": Array [],
                                                     "render": [Function],
-                                                    "styledComponentId": "Info__LocationIcon-sc-1i3mfcy-11",
+                                                    "styledComponentId": "Info__LocationIcon-sc-1ak83p6-11",
                                                     "target": [Function],
                                                     "toString": [Function],
                                                     "warnTooManyClasses": [Function],
@@ -549,23 +845,23 @@ exports[`Footer should render without throwing an error 1`] = `
                                                 name="location"
                                               >
                                                 <Icon
-                                                  className="Info__LocationIcon-sc-1i3mfcy-11 cvzoM"
+                                                  className="c11"
                                                   name="location"
                                                 >
                                                   <Icon__Symbol
-                                                    className="Info__LocationIcon-sc-1i3mfcy-11 cvzoM"
+                                                    className="c11"
                                                     name="location"
                                                   >
                                                     <StyledComponent
-                                                      className="Info__LocationIcon-sc-1i3mfcy-11 cvzoM"
+                                                      className="c11"
                                                       forwardedComponent={
                                                         Object {
                                                           "$$typeof": Symbol(react.forward_ref),
                                                           "attrs": Array [],
                                                           "componentStyle": ComponentStyle {
-                                                            "componentId": "Icon__Symbol-sc-1aleqew-0",
+                                                            "componentId": "Icon__Symbol-sc-1v6tn9f-0",
                                                             "isStatic": false,
-                                                            "lastClassName": "jwScwA",
+                                                            "lastClassName": "c26",
                                                             "rules": Array [
                                                               "display:inline-block;&::before{font-family:",
                                                               [Function],
@@ -577,7 +873,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                                           "displayName": "Icon__Symbol",
                                                           "foldedComponentIds": Array [],
                                                           "render": [Function],
-                                                          "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
+                                                          "styledComponentId": "Icon__Symbol-sc-1v6tn9f-0",
                                                           "target": "div",
                                                           "toString": [Function],
                                                           "warnTooManyClasses": [Function],
@@ -588,7 +884,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                                       name="location"
                                                     >
                                                       <div
-                                                        className="Icon__Symbol-sc-1aleqew-0 lpckLA Info__LocationIcon-sc-1i3mfcy-11 cvzoM"
+                                                        className="c12 c11"
                                                         name="location"
                                                       />
                                                     </StyledComponent>
@@ -605,9 +901,9 @@ exports[`Footer should render without throwing an error 1`] = `
                                                     "$$typeof": Symbol(react.forward_ref),
                                                     "attrs": Array [],
                                                     "componentStyle": ComponentStyle {
-                                                      "componentId": "Info__Underline-sc-1i3mfcy-10",
+                                                      "componentId": "Info__Underline-sc-1ak83p6-10",
                                                       "isStatic": false,
-                                                      "lastClassName": "gJrtQS",
+                                                      "lastClassName": "c13",
                                                       "rules": Array [
                                                         "display:inline-block;vertical-align:top;",
                                                       ],
@@ -615,7 +911,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                                     "displayName": "Info__Underline",
                                                     "foldedComponentIds": Array [],
                                                     "render": [Function],
-                                                    "styledComponentId": "Info__Underline-sc-1i3mfcy-10",
+                                                    "styledComponentId": "Info__Underline-sc-1ak83p6-10",
                                                     "target": "a",
                                                     "toString": [Function],
                                                     "warnTooManyClasses": [Function],
@@ -626,7 +922,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                                 href="#map"
                                               >
                                                 <a
-                                                  className="Info__Underline-sc-1i3mfcy-10 gJrtQS"
+                                                  className="c13"
                                                   href="#map"
                                                 >
                                                   <Info__Country>
@@ -636,19 +932,19 @@ exports[`Footer should render without throwing an error 1`] = `
                                                           "$$typeof": Symbol(react.forward_ref),
                                                           "attrs": Array [],
                                                           "componentStyle": ComponentStyle {
-                                                            "componentId": "Info__Country-sc-1i3mfcy-8",
+                                                            "componentId": "Info__Country-sc-1ak83p6-8",
                                                             "isStatic": false,
-                                                            "lastClassName": "dCdbHX",
+                                                            "lastClassName": "c14",
                                                             "rules": Array [
                                                               "display:inline-block;",
                                                             ],
                                                           },
                                                           "displayName": "Info__Country",
                                                           "foldedComponentIds": Array [
-                                                            "Info__Inline-sc-1i3mfcy-7",
+                                                            "Info__Inline-sc-1ak83p6-7",
                                                           ],
                                                           "render": [Function],
-                                                          "styledComponentId": "Info__Country-sc-1i3mfcy-8",
+                                                          "styledComponentId": "Info__Country-sc-1ak83p6-8",
                                                           "target": "span",
                                                           "toString": [Function],
                                                           "warnTooManyClasses": [Function],
@@ -658,7 +954,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                                       forwardedRef={null}
                                                     >
                                                       <span
-                                                        className="Info__Inline-sc-1i3mfcy-7 Info__Country-sc-1i3mfcy-8 dCdbHX"
+                                                        className="c14"
                                                       >
                                                         <Translate
                                                           id="Contact: Info Country"
@@ -694,19 +990,19 @@ exports[`Footer should render without throwing an error 1`] = `
                                                           "$$typeof": Symbol(react.forward_ref),
                                                           "attrs": Array [],
                                                           "componentStyle": ComponentStyle {
-                                                            "componentId": "Info__Address-sc-1i3mfcy-9",
+                                                            "componentId": "Info__Address-sc-1ak83p6-9",
                                                             "isStatic": false,
-                                                            "lastClassName": "jgUBaW",
+                                                            "lastClassName": "c15",
                                                             "rules": Array [
                                                               "display:inline-block;",
                                                             ],
                                                           },
                                                           "displayName": "Info__Address",
                                                           "foldedComponentIds": Array [
-                                                            "Info__Inline-sc-1i3mfcy-7",
+                                                            "Info__Inline-sc-1ak83p6-7",
                                                           ],
                                                           "render": [Function],
-                                                          "styledComponentId": "Info__Address-sc-1i3mfcy-9",
+                                                          "styledComponentId": "Info__Address-sc-1ak83p6-9",
                                                           "target": "span",
                                                           "toString": [Function],
                                                           "warnTooManyClasses": [Function],
@@ -716,7 +1012,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                                       forwardedRef={null}
                                                     >
                                                       <span
-                                                        className="Info__Inline-sc-1i3mfcy-7 Info__Address-sc-1i3mfcy-9 jgUBaW"
+                                                        className="c15"
                                                       >
                                                         <Translate
                                                           id="Contact: Info Dist"
@@ -757,19 +1053,19 @@ exports[`Footer should render without throwing an error 1`] = `
                                               "$$typeof": Symbol(react.forward_ref),
                                               "attrs": Array [],
                                               "componentStyle": ComponentStyle {
-                                                "componentId": "Info__Email-sc-1i3mfcy-5",
+                                                "componentId": "Info__Email-sc-1ak83p6-5",
                                                 "isStatic": false,
-                                                "lastClassName": "eXRWot",
+                                                "lastClassName": "c16",
                                                 "rules": Array [
                                                   "margin-bottom:10px;font-size:18px;line-height:1.5;font-weight:lighter;&::before{float:left;display:block;width:25px;height:25px;border:none;vertical-align:top;}",
                                                 ],
                                               },
                                               "displayName": "Info__Email",
                                               "foldedComponentIds": Array [
-                                                "Info__Paragraph-sc-1i3mfcy-2",
+                                                "Info__Paragraph-sc-1ak83p6-2",
                                               ],
                                               "render": [Function],
-                                              "styledComponentId": "Info__Email-sc-1i3mfcy-5",
+                                              "styledComponentId": "Info__Email-sc-1ak83p6-5",
                                               "target": "div",
                                               "toString": [Function],
                                               "warnTooManyClasses": [Function],
@@ -779,7 +1075,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                           forwardedRef={null}
                                         >
                                           <div
-                                            className="Info__Paragraph-sc-1i3mfcy-2 Info__Email-sc-1i3mfcy-5 eXRWot"
+                                            className="c16"
                                           >
                                             <Info__EmailIcon
                                               name="mail"
@@ -790,9 +1086,9 @@ exports[`Footer should render without throwing an error 1`] = `
                                                     "$$typeof": Symbol(react.forward_ref),
                                                     "attrs": Array [],
                                                     "componentStyle": ComponentStyle {
-                                                      "componentId": "Info__EmailIcon-sc-1i3mfcy-12",
+                                                      "componentId": "Info__EmailIcon-sc-1ak83p6-12",
                                                       "isStatic": false,
-                                                      "lastClassName": "jGuzkk",
+                                                      "lastClassName": "c17",
                                                       "rules": Array [
                                                         "padding-right:8px;",
                                                       ],
@@ -800,7 +1096,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                                     "displayName": "Info__EmailIcon",
                                                     "foldedComponentIds": Array [],
                                                     "render": [Function],
-                                                    "styledComponentId": "Info__EmailIcon-sc-1i3mfcy-12",
+                                                    "styledComponentId": "Info__EmailIcon-sc-1ak83p6-12",
                                                     "target": [Function],
                                                     "toString": [Function],
                                                     "warnTooManyClasses": [Function],
@@ -811,23 +1107,23 @@ exports[`Footer should render without throwing an error 1`] = `
                                                 name="mail"
                                               >
                                                 <Icon
-                                                  className="Info__EmailIcon-sc-1i3mfcy-12 jGuzkk"
+                                                  className="c17"
                                                   name="mail"
                                                 >
                                                   <Icon__Symbol
-                                                    className="Info__EmailIcon-sc-1i3mfcy-12 jGuzkk"
+                                                    className="c17"
                                                     name="mail"
                                                   >
                                                     <StyledComponent
-                                                      className="Info__EmailIcon-sc-1i3mfcy-12 jGuzkk"
+                                                      className="c17"
                                                       forwardedComponent={
                                                         Object {
                                                           "$$typeof": Symbol(react.forward_ref),
                                                           "attrs": Array [],
                                                           "componentStyle": ComponentStyle {
-                                                            "componentId": "Icon__Symbol-sc-1aleqew-0",
+                                                            "componentId": "Icon__Symbol-sc-1v6tn9f-0",
                                                             "isStatic": false,
-                                                            "lastClassName": "jwScwA",
+                                                            "lastClassName": "c26",
                                                             "rules": Array [
                                                               "display:inline-block;&::before{font-family:",
                                                               [Function],
@@ -839,7 +1135,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                                           "displayName": "Icon__Symbol",
                                                           "foldedComponentIds": Array [],
                                                           "render": [Function],
-                                                          "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
+                                                          "styledComponentId": "Icon__Symbol-sc-1v6tn9f-0",
                                                           "target": "div",
                                                           "toString": [Function],
                                                           "warnTooManyClasses": [Function],
@@ -850,7 +1146,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                                       name="mail"
                                                     >
                                                       <div
-                                                        className="Icon__Symbol-sc-1aleqew-0 iXTpeZ Info__EmailIcon-sc-1i3mfcy-12 jGuzkk"
+                                                        className="c18 c17"
                                                         name="mail"
                                                       />
                                                     </StyledComponent>
@@ -865,9 +1161,9 @@ exports[`Footer should render without throwing an error 1`] = `
                                                     "$$typeof": Symbol(react.forward_ref),
                                                     "attrs": Array [],
                                                     "componentStyle": ComponentStyle {
-                                                      "componentId": "Info__Underline-sc-1i3mfcy-10",
+                                                      "componentId": "Info__Underline-sc-1ak83p6-10",
                                                       "isStatic": false,
-                                                      "lastClassName": "gJrtQS",
+                                                      "lastClassName": "c13",
                                                       "rules": Array [
                                                         "display:inline-block;vertical-align:top;",
                                                       ],
@@ -875,7 +1171,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                                     "displayName": "Info__Underline",
                                                     "foldedComponentIds": Array [],
                                                     "render": [Function],
-                                                    "styledComponentId": "Info__Underline-sc-1i3mfcy-10",
+                                                    "styledComponentId": "Info__Underline-sc-1ak83p6-10",
                                                     "target": "a",
                                                     "toString": [Function],
                                                     "warnTooManyClasses": [Function],
@@ -885,7 +1181,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                                 forwardedRef={null}
                                               >
                                                 <a
-                                                  className="Info__Underline-sc-1i3mfcy-10 gJrtQS"
+                                                  className="c13"
                                                 >
                                                   hohuuphat22@gmail.com
                                                 </a>
@@ -901,19 +1197,19 @@ exports[`Footer should render without throwing an error 1`] = `
                                               "$$typeof": Symbol(react.forward_ref),
                                               "attrs": Array [],
                                               "componentStyle": ComponentStyle {
-                                                "componentId": "Info__Phone-sc-1i3mfcy-6",
+                                                "componentId": "Info__Phone-sc-1ak83p6-6",
                                                 "isStatic": false,
-                                                "lastClassName": "gmRyPl",
+                                                "lastClassName": "c19",
                                                 "rules": Array [
                                                   "margin-bottom:10px;font-size:18px;line-height:1.5;font-weight:lighter;&::before{float:left;display:block;width:25px;height:25px;border:none;vertical-align:top;}",
                                                 ],
                                               },
                                               "displayName": "Info__Phone",
                                               "foldedComponentIds": Array [
-                                                "Info__Paragraph-sc-1i3mfcy-2",
+                                                "Info__Paragraph-sc-1ak83p6-2",
                                               ],
                                               "render": [Function],
-                                              "styledComponentId": "Info__Phone-sc-1i3mfcy-6",
+                                              "styledComponentId": "Info__Phone-sc-1ak83p6-6",
                                               "target": "div",
                                               "toString": [Function],
                                               "warnTooManyClasses": [Function],
@@ -923,7 +1219,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                           forwardedRef={null}
                                         >
                                           <div
-                                            className="Info__Paragraph-sc-1i3mfcy-2 Info__Phone-sc-1i3mfcy-6 gmRyPl"
+                                            className="c19"
                                           >
                                             <Info__PhoneIcon
                                               name="phone"
@@ -934,9 +1230,9 @@ exports[`Footer should render without throwing an error 1`] = `
                                                     "$$typeof": Symbol(react.forward_ref),
                                                     "attrs": Array [],
                                                     "componentStyle": ComponentStyle {
-                                                      "componentId": "Info__PhoneIcon-sc-1i3mfcy-13",
+                                                      "componentId": "Info__PhoneIcon-sc-1ak83p6-13",
                                                       "isStatic": false,
-                                                      "lastClassName": "gBsUZU",
+                                                      "lastClassName": "c20",
                                                       "rules": Array [
                                                         "padding-right:10px;",
                                                       ],
@@ -944,7 +1240,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                                     "displayName": "Info__PhoneIcon",
                                                     "foldedComponentIds": Array [],
                                                     "render": [Function],
-                                                    "styledComponentId": "Info__PhoneIcon-sc-1i3mfcy-13",
+                                                    "styledComponentId": "Info__PhoneIcon-sc-1ak83p6-13",
                                                     "target": [Function],
                                                     "toString": [Function],
                                                     "warnTooManyClasses": [Function],
@@ -955,23 +1251,23 @@ exports[`Footer should render without throwing an error 1`] = `
                                                 name="phone"
                                               >
                                                 <Icon
-                                                  className="Info__PhoneIcon-sc-1i3mfcy-13 gBsUZU"
+                                                  className="c20"
                                                   name="phone"
                                                 >
                                                   <Icon__Symbol
-                                                    className="Info__PhoneIcon-sc-1i3mfcy-13 gBsUZU"
+                                                    className="c20"
                                                     name="phone"
                                                   >
                                                     <StyledComponent
-                                                      className="Info__PhoneIcon-sc-1i3mfcy-13 gBsUZU"
+                                                      className="c20"
                                                       forwardedComponent={
                                                         Object {
                                                           "$$typeof": Symbol(react.forward_ref),
                                                           "attrs": Array [],
                                                           "componentStyle": ComponentStyle {
-                                                            "componentId": "Icon__Symbol-sc-1aleqew-0",
+                                                            "componentId": "Icon__Symbol-sc-1v6tn9f-0",
                                                             "isStatic": false,
-                                                            "lastClassName": "jwScwA",
+                                                            "lastClassName": "c26",
                                                             "rules": Array [
                                                               "display:inline-block;&::before{font-family:",
                                                               [Function],
@@ -983,7 +1279,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                                           "displayName": "Icon__Symbol",
                                                           "foldedComponentIds": Array [],
                                                           "render": [Function],
-                                                          "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
+                                                          "styledComponentId": "Icon__Symbol-sc-1v6tn9f-0",
                                                           "target": "div",
                                                           "toString": [Function],
                                                           "warnTooManyClasses": [Function],
@@ -994,7 +1290,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                                       name="phone"
                                                     >
                                                       <div
-                                                        className="Icon__Symbol-sc-1aleqew-0 cyiXON Info__PhoneIcon-sc-1i3mfcy-13 gBsUZU"
+                                                        className="c21 c20"
                                                         name="phone"
                                                       />
                                                     </StyledComponent>
@@ -1009,9 +1305,9 @@ exports[`Footer should render without throwing an error 1`] = `
                                                     "$$typeof": Symbol(react.forward_ref),
                                                     "attrs": Array [],
                                                     "componentStyle": ComponentStyle {
-                                                      "componentId": "Info__Underline-sc-1i3mfcy-10",
+                                                      "componentId": "Info__Underline-sc-1ak83p6-10",
                                                       "isStatic": false,
-                                                      "lastClassName": "gJrtQS",
+                                                      "lastClassName": "c13",
                                                       "rules": Array [
                                                         "display:inline-block;vertical-align:top;",
                                                       ],
@@ -1019,7 +1315,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                                     "displayName": "Info__Underline",
                                                     "foldedComponentIds": Array [],
                                                     "render": [Function],
-                                                    "styledComponentId": "Info__Underline-sc-1i3mfcy-10",
+                                                    "styledComponentId": "Info__Underline-sc-1ak83p6-10",
                                                     "target": "a",
                                                     "toString": [Function],
                                                     "warnTooManyClasses": [Function],
@@ -1029,7 +1325,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                                 forwardedRef={null}
                                               >
                                                 <a
-                                                  className="Info__Underline-sc-1i3mfcy-10 gJrtQS"
+                                                  className="c13"
                                                 >
                                                   +84 906323761
                                                 </a>
@@ -1050,9 +1346,9 @@ exports[`Footer should render without throwing an error 1`] = `
                                         "$$typeof": Symbol(react.forward_ref),
                                         "attrs": Array [],
                                         "componentStyle": ComponentStyle {
-                                          "componentId": "Socials__Container-sc-1umla0t-0",
+                                          "componentId": "Socials__Container-spcu4f-0",
                                           "isStatic": false,
-                                          "lastClassName": "jpsFiL",
+                                          "lastClassName": "c22",
                                           "rules": Array [
                                             "position:absolute;width:40px;height:100%;top:0;right:0;list-style-type:none;background-color:",
                                             [Function],
@@ -1062,7 +1358,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                         "displayName": "Socials__Container",
                                         "foldedComponentIds": Array [],
                                         "render": [Function],
-                                        "styledComponentId": "Socials__Container-sc-1umla0t-0",
+                                        "styledComponentId": "Socials__Container-spcu4f-0",
                                         "target": "ul",
                                         "toString": [Function],
                                         "warnTooManyClasses": [Function],
@@ -1072,7 +1368,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                     forwardedRef={null}
                                   >
                                     <ul
-                                      className="Socials__Container-sc-1umla0t-0 jpsFiL"
+                                      className="c22"
                                     >
                                       <Socials__Item>
                                         <StyledComponent
@@ -1081,9 +1377,9 @@ exports[`Footer should render without throwing an error 1`] = `
                                               "$$typeof": Symbol(react.forward_ref),
                                               "attrs": Array [],
                                               "componentStyle": ComponentStyle {
-                                                "componentId": "Socials__Item-sc-1umla0t-1",
+                                                "componentId": "Socials__Item-spcu4f-1",
                                                 "isStatic": false,
-                                                "lastClassName": "gLogpD",
+                                                "lastClassName": "c23",
                                                 "rules": Array [
                                                   "display:block;text-align:center;overflow:hidden;background-color:",
                                                   [Function],
@@ -1095,7 +1391,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                               "displayName": "Socials__Item",
                                               "foldedComponentIds": Array [],
                                               "render": [Function],
-                                              "styledComponentId": "Socials__Item-sc-1umla0t-1",
+                                              "styledComponentId": "Socials__Item-spcu4f-1",
                                               "target": "li",
                                               "toString": [Function],
                                               "warnTooManyClasses": [Function],
@@ -1105,7 +1401,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                           forwardedRef={null}
                                         >
                                           <li
-                                            className="Socials__Item-sc-1umla0t-1 gLogpD"
+                                            className="c23"
                                           >
                                             <Socials__IconWrapper
                                               href="https://www.facebook.com/dekal.dev"
@@ -1118,9 +1414,9 @@ exports[`Footer should render without throwing an error 1`] = `
                                                     "$$typeof": Symbol(react.forward_ref),
                                                     "attrs": Array [],
                                                     "componentStyle": ComponentStyle {
-                                                      "componentId": "Socials__IconWrapper-sc-1umla0t-2",
+                                                      "componentId": "Socials__IconWrapper-spcu4f-2",
                                                       "isStatic": false,
-                                                      "lastClassName": "bFtsyN",
+                                                      "lastClassName": "c24",
                                                       "rules": Array [
                                                         "display:inline-block;color:",
                                                         [Function],
@@ -1134,7 +1430,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                                     "displayName": "Socials__IconWrapper",
                                                     "foldedComponentIds": Array [],
                                                     "render": [Function],
-                                                    "styledComponentId": "Socials__IconWrapper-sc-1umla0t-2",
+                                                    "styledComponentId": "Socials__IconWrapper-spcu4f-2",
                                                     "target": [Function],
                                                     "toString": [Function],
                                                     "warnTooManyClasses": [Function],
@@ -1147,25 +1443,25 @@ exports[`Footer should render without throwing an error 1`] = `
                                                 rel="nofollow"
                                               >
                                                 <Icon
-                                                  className="Socials__IconWrapper-sc-1umla0t-2 bFtsyN"
+                                                  className="c24"
                                                   href="https://www.facebook.com/dekal.dev"
                                                   name="fb"
                                                   rel="nofollow"
                                                 >
                                                   <Icon__Symbol
-                                                    className="Socials__IconWrapper-sc-1umla0t-2 bFtsyN"
+                                                    className="c24"
                                                     name="fb"
                                                   >
                                                     <StyledComponent
-                                                      className="Socials__IconWrapper-sc-1umla0t-2 bFtsyN"
+                                                      className="c24"
                                                       forwardedComponent={
                                                         Object {
                                                           "$$typeof": Symbol(react.forward_ref),
                                                           "attrs": Array [],
                                                           "componentStyle": ComponentStyle {
-                                                            "componentId": "Icon__Symbol-sc-1aleqew-0",
+                                                            "componentId": "Icon__Symbol-sc-1v6tn9f-0",
                                                             "isStatic": false,
-                                                            "lastClassName": "jwScwA",
+                                                            "lastClassName": "c26",
                                                             "rules": Array [
                                                               "display:inline-block;&::before{font-family:",
                                                               [Function],
@@ -1177,7 +1473,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                                           "displayName": "Icon__Symbol",
                                                           "foldedComponentIds": Array [],
                                                           "render": [Function],
-                                                          "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
+                                                          "styledComponentId": "Icon__Symbol-sc-1v6tn9f-0",
                                                           "target": "div",
                                                           "toString": [Function],
                                                           "warnTooManyClasses": [Function],
@@ -1188,7 +1484,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                                       name="fb"
                                                     >
                                                       <div
-                                                        className="Icon__Symbol-sc-1aleqew-0 dvXwJP Socials__IconWrapper-sc-1umla0t-2 bFtsyN"
+                                                        className="c25 c24"
                                                         name="fb"
                                                       />
                                                     </StyledComponent>
@@ -1206,9 +1502,9 @@ exports[`Footer should render without throwing an error 1`] = `
                                               "$$typeof": Symbol(react.forward_ref),
                                               "attrs": Array [],
                                               "componentStyle": ComponentStyle {
-                                                "componentId": "Socials__Item-sc-1umla0t-1",
+                                                "componentId": "Socials__Item-spcu4f-1",
                                                 "isStatic": false,
-                                                "lastClassName": "gLogpD",
+                                                "lastClassName": "c23",
                                                 "rules": Array [
                                                   "display:block;text-align:center;overflow:hidden;background-color:",
                                                   [Function],
@@ -1220,7 +1516,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                               "displayName": "Socials__Item",
                                               "foldedComponentIds": Array [],
                                               "render": [Function],
-                                              "styledComponentId": "Socials__Item-sc-1umla0t-1",
+                                              "styledComponentId": "Socials__Item-spcu4f-1",
                                               "target": "li",
                                               "toString": [Function],
                                               "warnTooManyClasses": [Function],
@@ -1230,7 +1526,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                           forwardedRef={null}
                                         >
                                           <li
-                                            className="Socials__Item-sc-1umla0t-1 gLogpD"
+                                            className="c23"
                                           >
                                             <Socials__IconWrapper
                                               href="https://www.linkedin.com/in/phat-ho/"
@@ -1243,9 +1539,9 @@ exports[`Footer should render without throwing an error 1`] = `
                                                     "$$typeof": Symbol(react.forward_ref),
                                                     "attrs": Array [],
                                                     "componentStyle": ComponentStyle {
-                                                      "componentId": "Socials__IconWrapper-sc-1umla0t-2",
+                                                      "componentId": "Socials__IconWrapper-spcu4f-2",
                                                       "isStatic": false,
-                                                      "lastClassName": "bFtsyN",
+                                                      "lastClassName": "c24",
                                                       "rules": Array [
                                                         "display:inline-block;color:",
                                                         [Function],
@@ -1259,7 +1555,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                                     "displayName": "Socials__IconWrapper",
                                                     "foldedComponentIds": Array [],
                                                     "render": [Function],
-                                                    "styledComponentId": "Socials__IconWrapper-sc-1umla0t-2",
+                                                    "styledComponentId": "Socials__IconWrapper-spcu4f-2",
                                                     "target": [Function],
                                                     "toString": [Function],
                                                     "warnTooManyClasses": [Function],
@@ -1272,25 +1568,25 @@ exports[`Footer should render without throwing an error 1`] = `
                                                 rel="nofollow"
                                               >
                                                 <Icon
-                                                  className="Socials__IconWrapper-sc-1umla0t-2 bFtsyN"
+                                                  className="c24"
                                                   href="https://www.linkedin.com/in/phat-ho/"
                                                   name="linkedin"
                                                   rel="nofollow"
                                                 >
                                                   <Icon__Symbol
-                                                    className="Socials__IconWrapper-sc-1umla0t-2 bFtsyN"
+                                                    className="c24"
                                                     name="linkedin"
                                                   >
                                                     <StyledComponent
-                                                      className="Socials__IconWrapper-sc-1umla0t-2 bFtsyN"
+                                                      className="c24"
                                                       forwardedComponent={
                                                         Object {
                                                           "$$typeof": Symbol(react.forward_ref),
                                                           "attrs": Array [],
                                                           "componentStyle": ComponentStyle {
-                                                            "componentId": "Icon__Symbol-sc-1aleqew-0",
+                                                            "componentId": "Icon__Symbol-sc-1v6tn9f-0",
                                                             "isStatic": false,
-                                                            "lastClassName": "jwScwA",
+                                                            "lastClassName": "c26",
                                                             "rules": Array [
                                                               "display:inline-block;&::before{font-family:",
                                                               [Function],
@@ -1302,7 +1598,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                                           "displayName": "Icon__Symbol",
                                                           "foldedComponentIds": Array [],
                                                           "render": [Function],
-                                                          "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
+                                                          "styledComponentId": "Icon__Symbol-sc-1v6tn9f-0",
                                                           "target": "div",
                                                           "toString": [Function],
                                                           "warnTooManyClasses": [Function],
@@ -1313,7 +1609,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                                       name="linkedin"
                                                     >
                                                       <div
-                                                        className="Icon__Symbol-sc-1aleqew-0 jwScwA Socials__IconWrapper-sc-1umla0t-2 bFtsyN"
+                                                        className="c26 c24"
                                                         name="linkedin"
                                                       />
                                                     </StyledComponent>
@@ -1349,9 +1645,9 @@ exports[`Footer should render without throwing an error 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "Map__Container-sc-1fmu8sw-0",
+                    "componentId": "Map__Container-cyfi53-0",
                     "isStatic": false,
-                    "lastClassName": "XqlCR",
+                    "lastClassName": "c27",
                     "rules": Array [
                       "position:relative;width:100%;height:600px;overflow:hidden;background-position:top center;background-size:cover;background-image:url(/images/map.jpg);box-shadow:0 0 2px 1px ",
                       [Function],
@@ -1361,7 +1657,7 @@ exports[`Footer should render without throwing an error 1`] = `
                   "displayName": "Map__Container",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "Map__Container-sc-1fmu8sw-0",
+                  "styledComponentId": "Map__Container-cyfi53-0",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -1372,7 +1668,7 @@ exports[`Footer should render without throwing an error 1`] = `
               id="map"
             >
               <div
-                className="Map__Container-sc-1fmu8sw-0 XqlCR"
+                className="c27"
                 id="map"
               />
             </StyledComponent>

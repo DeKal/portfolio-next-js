@@ -1,6 +1,49 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`About should render without throwing an error 1`] = `
+.c2 {
+  padding: 20px;
+  background-color: #FFA726;
+}
+
+.c3 {
+  color: #ecf0f1;
+}
+
+.c4 {
+  padding: 20px;
+  background-color: #ecf0f1;
+}
+
+.c5 {
+  margin: 20px 0 20px 20px;
+  font-family: Georgia,Times,"Times New Roman",serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.c6 {
+  margin-top: 20px;
+  padding-top: 10;
+  font-weight: normal;
+  border-top: 1px dashed #bdc3c7;
+}
+
+.c7 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.c0 {
+  margin-top: -200px;
+}
+
+.c1 {
+  box-shadow: 2px 2px 4px -2px #2c3e50;
+  float: none;
+  margin: 0 auto;
+}
+
 <About>
   <About__Container
     className="container"
@@ -13,9 +56,9 @@ exports[`About should render without throwing an error 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "About__Container-sc-1ka41xo-0",
+            "componentId": "About__Container-sc-1uprw57-0",
             "isStatic": false,
-            "lastClassName": "iOOKdN",
+            "lastClassName": "c0",
             "rules": Array [
               "margin-top:-200px;",
             ],
@@ -23,7 +66,7 @@ exports[`About should render without throwing an error 1`] = `
           "displayName": "About__Container",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "About__Container-sc-1ka41xo-0",
+          "styledComponentId": "About__Container-sc-1uprw57-0",
           "target": "section",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -34,7 +77,7 @@ exports[`About should render without throwing an error 1`] = `
       id="About"
     >
       <section
-        className="About__Container-sc-1ka41xo-0 iOOKdN container"
+        className="c0 container"
         id="About"
       >
         <About__Card
@@ -47,9 +90,9 @@ exports[`About should render without throwing an error 1`] = `
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
-                  "componentId": "About__Card-sc-1ka41xo-1",
+                  "componentId": "About__Card-sc-1uprw57-1",
                   "isStatic": false,
-                  "lastClassName": "ioNjdP",
+                  "lastClassName": "c1",
                   "rules": Array [
                     "box-shadow:2px 2px 4px -2px ",
                     [Function],
@@ -59,7 +102,7 @@ exports[`About should render without throwing an error 1`] = `
                 "displayName": "About__Card",
                 "foldedComponentIds": Array [],
                 "render": [Function],
-                "styledComponentId": "About__Card-sc-1ka41xo-1",
+                "styledComponentId": "About__Card-sc-1uprw57-1",
                 "target": "div",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -69,7 +112,7 @@ exports[`About should render without throwing an error 1`] = `
             forwardedRef={null}
           >
             <div
-              className="About__Card-sc-1ka41xo-1 ioNjdP about-card"
+              className="c1 about-card"
             >
               <LocalizedComponent>
                 <CardHeader
@@ -89,9 +132,9 @@ exports[`About should render without throwing an error 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "CardHeader__Header-sc-13bb8as-0",
+                            "componentId": "CardHeader__Header-dke0mu-0",
                             "isStatic": false,
-                            "lastClassName": "cFfPVC",
+                            "lastClassName": "c2",
                             "rules": Array [
                               "padding:20px;background-color:",
                               [Function],
@@ -101,7 +144,7 @@ exports[`About should render without throwing an error 1`] = `
                           "displayName": "CardHeader__Header",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "CardHeader__Header-sc-13bb8as-0",
+                          "styledComponentId": "CardHeader__Header-dke0mu-0",
                           "target": "header",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -111,7 +154,7 @@ exports[`About should render without throwing an error 1`] = `
                       forwardedRef={null}
                     >
                       <header
-                        className="CardHeader__Header-sc-13bb8as-0 cFfPVC"
+                        className="c2"
                       >
                         <CardHeader__MainText>
                           <StyledComponent
@@ -120,9 +163,9 @@ exports[`About should render without throwing an error 1`] = `
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "CardHeader__MainText-sc-13bb8as-1",
+                                  "componentId": "CardHeader__MainText-dke0mu-1",
                                   "isStatic": false,
-                                  "lastClassName": "iRqFfm",
+                                  "lastClassName": "c3",
                                   "rules": Array [
                                     "color:",
                                     [Function],
@@ -132,7 +175,7 @@ exports[`About should render without throwing an error 1`] = `
                                 "displayName": "CardHeader__MainText",
                                 "foldedComponentIds": Array [],
                                 "render": [Function],
-                                "styledComponentId": "CardHeader__MainText-sc-13bb8as-1",
+                                "styledComponentId": "CardHeader__MainText-dke0mu-1",
                                 "target": "h2",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -142,7 +185,7 @@ exports[`About should render without throwing an error 1`] = `
                             forwardedRef={null}
                           >
                             <h2
-                              className="CardHeader__MainText-sc-13bb8as-1 iRqFfm"
+                              className="c3"
                             >
                               <Translate
                                 id="About me"
@@ -177,15 +220,15 @@ exports[`About should render without throwing an error 1`] = `
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "CardHeader__SubText-sc-13bb8as-2",
+                                  "componentId": "CardHeader__SubText-dke0mu-2",
                                   "isStatic": false,
-                                  "lastClassName": "ldGRiD",
+                                  "lastClassName": "kbCwAU",
                                   "rules": Array [],
                                 },
                                 "displayName": "CardHeader__SubText",
                                 "foldedComponentIds": Array [],
                                 "render": [Function],
-                                "styledComponentId": "CardHeader__SubText-sc-13bb8as-2",
+                                "styledComponentId": "CardHeader__SubText-dke0mu-2",
                                 "target": "h4",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -195,7 +238,7 @@ exports[`About should render without throwing an error 1`] = `
                             forwardedRef={null}
                           >
                             <h4
-                              className="CardHeader__SubText-sc-13bb8as-2 ldGRiD"
+                              className=""
                             >
                               <Translate
                                 id="About Me: Subtext"
@@ -246,9 +289,9 @@ exports[`About should render without throwing an error 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "CardInfo__Container-j7wviz-0",
+                            "componentId": "CardInfo__Container-hepdlu-0",
                             "isStatic": false,
-                            "lastClassName": "bbuDlN",
+                            "lastClassName": "c4",
                             "rules": Array [
                               "padding:20px;background-color:",
                               [Function],
@@ -258,7 +301,7 @@ exports[`About should render without throwing an error 1`] = `
                           "displayName": "CardInfo__Container",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "CardInfo__Container-j7wviz-0",
+                          "styledComponentId": "CardInfo__Container-hepdlu-0",
                           "target": "div",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -268,7 +311,7 @@ exports[`About should render without throwing an error 1`] = `
                       forwardedRef={null}
                     >
                       <div
-                        className="CardInfo__Container-j7wviz-0 bbuDlN"
+                        className="c4"
                       >
                         <p>
                           <Translate
@@ -302,9 +345,9 @@ exports[`About should render without throwing an error 1`] = `
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "CardInfo__Quote-j7wviz-1",
+                                  "componentId": "CardInfo__Quote-hepdlu-1",
                                   "isStatic": false,
-                                  "lastClassName": "ehtIde",
+                                  "lastClassName": "c5",
                                   "rules": Array [
                                     "margin:20px 0 20px 20px;font-family:",
                                     [Function],
@@ -316,7 +359,7 @@ exports[`About should render without throwing an error 1`] = `
                                 "displayName": "CardInfo__Quote",
                                 "foldedComponentIds": Array [],
                                 "render": [Function],
-                                "styledComponentId": "CardInfo__Quote-j7wviz-1",
+                                "styledComponentId": "CardInfo__Quote-hepdlu-1",
                                 "target": "blockquote",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -326,7 +369,7 @@ exports[`About should render without throwing an error 1`] = `
                             forwardedRef={null}
                           >
                             <blockquote
-                              className="CardInfo__Quote-j7wviz-1 ehtIde"
+                              className="c5"
                             >
                               <Translate
                                 id="About me: Card Info Quote"
@@ -386,9 +429,9 @@ exports[`About should render without throwing an error 1`] = `
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "CardInfo__Status-j7wviz-2",
+                                  "componentId": "CardInfo__Status-hepdlu-2",
                                   "isStatic": false,
-                                  "lastClassName": "kRJTQt",
+                                  "lastClassName": "c6",
                                   "rules": Array [
                                     "margin-top:20px;padding-top:",
                                     [Function],
@@ -400,7 +443,7 @@ exports[`About should render without throwing an error 1`] = `
                                 "displayName": "CardInfo__Status",
                                 "foldedComponentIds": Array [],
                                 "render": [Function],
-                                "styledComponentId": "CardInfo__Status-j7wviz-2",
+                                "styledComponentId": "CardInfo__Status-hepdlu-2",
                                 "target": "p",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -410,7 +453,7 @@ exports[`About should render without throwing an error 1`] = `
                             forwardedRef={null}
                           >
                             <p
-                              className="CardInfo__Status-j7wviz-2 kRJTQt"
+                              className="c6"
                             >
                               <CardInfo__Bold>
                                 <StyledComponent
@@ -419,9 +462,9 @@ exports[`About should render without throwing an error 1`] = `
                                       "$$typeof": Symbol(react.forward_ref),
                                       "attrs": Array [],
                                       "componentStyle": ComponentStyle {
-                                        "componentId": "CardInfo__Bold-j7wviz-3",
+                                        "componentId": "CardInfo__Bold-hepdlu-3",
                                         "isStatic": false,
-                                        "lastClassName": "iggTuy",
+                                        "lastClassName": "c7",
                                         "rules": Array [
                                           "font-weight:bold;text-transform:uppercase;",
                                         ],
@@ -429,7 +472,7 @@ exports[`About should render without throwing an error 1`] = `
                                       "displayName": "CardInfo__Bold",
                                       "foldedComponentIds": Array [],
                                       "render": [Function],
-                                      "styledComponentId": "CardInfo__Bold-j7wviz-3",
+                                      "styledComponentId": "CardInfo__Bold-hepdlu-3",
                                       "target": "span",
                                       "toString": [Function],
                                       "warnTooManyClasses": [Function],
@@ -439,7 +482,7 @@ exports[`About should render without throwing an error 1`] = `
                                   forwardedRef={null}
                                 >
                                   <span
-                                    className="CardInfo__Bold-j7wviz-3 iggTuy"
+                                    className="c7"
                                   >
                                     Current Status:
                                   </span>
