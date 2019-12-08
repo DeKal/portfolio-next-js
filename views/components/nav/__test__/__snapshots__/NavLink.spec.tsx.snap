@@ -88,9 +88,13 @@ exports[`Nav Link Big Device >= 600px should change Language when clicking 1`] =
             "componentStyle": ComponentStyle {
               "componentId": "NavLink__Container-v6tuz9-0",
               "isStatic": false,
-              "lastClassName": "bfwuOx",
+              "lastClassName": "kaTmoz",
               "rules": Array [
                 "color:",
+                [Function],
+                ";cursor:",
+                [Function],
+                ";text-decoration:",
                 [Function],
                 ";border:",
                 [Function],
@@ -120,7 +124,7 @@ exports[`Nav Link Big Device >= 600px should change Language when clicking 1`] =
         onClick={[Function]}
       >
         <a
-          className="NavLink__Container-v6tuz9-0 bfwuOx"
+          className="NavLink__Container-v6tuz9-0 kaTmoz"
           onClick={[Function]}
         >
           <Translate
@@ -182,9 +186,13 @@ exports[`Nav Link Big Device >= 600px should render with English selected 1`] = 
             "componentStyle": ComponentStyle {
               "componentId": "NavLink__Container-v6tuz9-0",
               "isStatic": false,
-              "lastClassName": "fMGHjQ",
+              "lastClassName": "eIUBAm",
               "rules": Array [
                 "color:",
+                [Function],
+                ";cursor:",
+                [Function],
+                ";text-decoration:",
                 [Function],
                 ";border:",
                 [Function],
@@ -214,7 +222,7 @@ exports[`Nav Link Big Device >= 600px should render with English selected 1`] = 
         onClick={[Function]}
       >
         <a
-          className="NavLink__Container-v6tuz9-0 fMGHjQ"
+          className="NavLink__Container-v6tuz9-0 eIUBAm"
           onClick={[Function]}
         >
           <Translate
@@ -276,9 +284,13 @@ exports[`Nav Link Big Device >= 600px should render with Vietnamese selected 1`]
             "componentStyle": ComponentStyle {
               "componentId": "NavLink__Container-v6tuz9-0",
               "isStatic": false,
-              "lastClassName": "fMGHjQ",
+              "lastClassName": "eIUBAm",
               "rules": Array [
                 "color:",
+                [Function],
+                ";cursor:",
+                [Function],
+                ";text-decoration:",
                 [Function],
                 ";border:",
                 [Function],
@@ -308,7 +320,7 @@ exports[`Nav Link Big Device >= 600px should render with Vietnamese selected 1`]
         onClick={[Function]}
       >
         <a
-          className="NavLink__Container-v6tuz9-0 fMGHjQ"
+          className="NavLink__Container-v6tuz9-0 eIUBAm"
           onClick={[Function]}
         >
           <Translate
@@ -370,9 +382,13 @@ exports[`Nav Link Small Device < 600px should render with English selected 1`] =
             "componentStyle": ComponentStyle {
               "componentId": "NavLink__Container-v6tuz9-0",
               "isStatic": false,
-              "lastClassName": "fMGHjQ",
+              "lastClassName": "eIUBAm",
               "rules": Array [
                 "color:",
+                [Function],
+                ";cursor:",
+                [Function],
+                ";text-decoration:",
                 [Function],
                 ";border:",
                 [Function],
@@ -402,7 +418,7 @@ exports[`Nav Link Small Device < 600px should render with English selected 1`] =
         onClick={[Function]}
       >
         <a
-          className="NavLink__Container-v6tuz9-0 fMGHjQ"
+          className="NavLink__Container-v6tuz9-0 eIUBAm"
           onClick={[Function]}
         >
           en
@@ -442,9 +458,13 @@ exports[`Nav Link Small Device < 600px should render with Vietnamese selected 1`
             "componentStyle": ComponentStyle {
               "componentId": "NavLink__Container-v6tuz9-0",
               "isStatic": false,
-              "lastClassName": "fMGHjQ",
+              "lastClassName": "eIUBAm",
               "rules": Array [
                 "color:",
+                [Function],
+                ";cursor:",
+                [Function],
+                ";text-decoration:",
                 [Function],
                 ";border:",
                 [Function],
@@ -474,7 +494,7 @@ exports[`Nav Link Small Device < 600px should render with Vietnamese selected 1`
         onClick={[Function]}
       >
         <a
-          className="NavLink__Container-v6tuz9-0 fMGHjQ"
+          className="NavLink__Container-v6tuz9-0 eIUBAm"
           onClick={[Function]}
         >
           vn

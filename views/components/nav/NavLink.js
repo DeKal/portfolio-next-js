@@ -50,6 +50,8 @@ const Container = styled.a`
     props.isSelected
       ? props.theme.colors.colorDark
       : props.theme.colors.colorLight};
+  cursor: ${props => (props.isSelected ? 'default' : 'pointer')};
+  text-decoration: ${props => (props.isSelected ? 'underline' : 'none')};
   border: ${props => (props.isSelected ? 'none' : 'initial')};
   border-color: ${props => props.theme.colors.colorLight};
   font-family: ${props => props.theme.font};
