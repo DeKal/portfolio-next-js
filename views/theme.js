@@ -103,7 +103,8 @@ const theme = {
     mail: '\\e800',
     phone: '\\e81a',
     fb: '\\e811',
-    linkedin: '\\e815'
+    linkedin: '\\e815',
+    workexp: '\\e804'
   },
   headerPadding: '200px 10px 400px'
 }
