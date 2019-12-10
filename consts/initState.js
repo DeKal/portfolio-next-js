@@ -4,3 +4,4 @@ import { EN } from '~/consts/langs'
 export const INIT_NAV_CONTENT_SHOW = false
 export const INIT_SELECTED_PAGE = HOME
 export const INIT_SELECTED_LANG = EN
+export const INIT_CERT_ACTIVE_ITEM = [1, 2, 3, 4]

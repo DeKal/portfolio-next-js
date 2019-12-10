@@ -78,7 +78,8 @@ const theme = {
     fontSerif: 'Georgia, Times, "Times New Roman", serif',
     fontCondensed: '"Open Sans Condensed", Tahoma, Verdana, Arial, sans-serif',
     fontIp: '"ip", sans-serif',
-    fontTrebuchet: 'Trebuchet MS, sans-serif'
+    fontTrebuchet: 'Trebuchet MS, sans-serif',
+    fontCert: 'Times, serif'
   },
   fontSizes: {
     base: '14px',
@@ -103,7 +104,9 @@ const theme = {
     mail: '\\e800',
     phone: '\\e81a',
     fb: '\\e811',
-    linkedin: '\\e815'
+    linkedin: '\\e815',
+    c: 'C',
+    p: 'P'
   },
   headerPadding: '200px 10px 400px'
 }
