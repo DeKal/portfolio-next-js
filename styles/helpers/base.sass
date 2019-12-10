@@ -114,7 +114,7 @@ a
 
 	@function unicode($str)
 		@return unquote("\"") + $str + unquote("\"")
-	$icons: prize P, cert C, workexp \e804, research \e80b, strategy \e807, improve \e80f, plan \e80c, recover \e80a, support \e80e, develop \e808, deploy \e80d, deliver \e810, gotop \e817, gonext \e818, twi \e812, gplus \e813, vk \e814, rss \e816, ql \e804, qr \e805, link \e819
+	$icons: prize P, cert C, research \e80b, strategy \e807, improve \e80f, plan \e80c, recover \e80a, support \e80e, develop \e808, deploy \e80d, deliver \e810, gotop \e817, gonext \e818, twi \e812, gplus \e813, vk \e814, rss \e816, ql \e804, qr \e805, link \e819
 	@each $icon in $icons
 		&_#{nth($icon, 1)}
 			&:before

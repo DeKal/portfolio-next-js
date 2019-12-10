@@ -105,6 +105,7 @@ const theme = {
     phone: '\\e81a',
     fb: '\\e811',
     linkedin: '\\e815',
+    workexp: '\\e804',
     c: 'C',
     p: 'P'
   },

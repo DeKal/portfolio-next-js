@@ -14,7 +14,6 @@ const NavHeader = ({ isShowNavContent, switchNav }) => (
         data-test-id="switch-nav-content"
         className="first-nav__navcontrol"
         onClick={() => switchNav(!isShowNavContent)}
-        href="#"
       >
         {!isShowNavContent ? <HamburgerIcon /> : <CloseIcon />}{' '}
         <Translate id="Menu" />
@@ -41,7 +40,7 @@ const NavContainer = styled.div`
   box-shadow: ${props => props.theme.extra.boxShadow};
 `
 
-const NavControl = styled.a`
+const NavControl = styled.div`
   color: ${props => props.theme.colors.colorLight};
   line-height: ${props => props.theme.navHeaderHeight};
   text-align: right;
@@ -62,11 +61,6 @@ const NavControl = styled.a`
     @media screen and (max-width: 600px) {
       margin-right: 0;
     }
-  }
-
-  &.is-open,
-  &.is-closed {
-    display: block;
   }
 
   &:hover,
