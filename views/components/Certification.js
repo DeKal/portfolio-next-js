@@ -7,94 +7,6 @@ import PropTypes from 'prop-types'
 
 const Certification = () => {
   const [itemSelected, setSelectedItem] = useState(INIT_CERT_ACTIVE_ITEM[0])
-
-  const handleClick1 = () => setSelectedItem(INIT_CERT_ACTIVE_ITEM[0])
-  const handleClick2 = () => setSelectedItem(INIT_CERT_ACTIVE_ITEM[1])
-  const handleClick3 = () => setSelectedItem(INIT_CERT_ACTIVE_ITEM[2])
-  const handleClick4 = () => setSelectedItem(INIT_CERT_ACTIVE_ITEM[3])
-
-  const Research = () => {
-    return (
-      <div>
-        <ResearchItem onClick={handleClick1}>
-          <ItemIcon1 itemSelected={itemSelected} />
-        </ResearchItem>
-
-        <ResearchInfo itemSelected={itemSelected}>
-          <Header>
-            <span>1</span> &mdash; Bachelor of Science
-          </Header>
-          <p>
-            Graduating from HCM University of Science, Advanced Program in
-            Computer Science.
-          </p>
-        </ResearchInfo>
-      </div>
-    )
-  }
-
-  const Develop = () => {
-    return (
-      <div>
-        <DevelopItem onClick={handleClick2}>
-          <ItemIcon2 itemSelected={itemSelected} />
-        </DevelopItem>
-
-        <DevelopInfo itemSelected={itemSelected}>
-          <Header>
-            <span>2</span> &mdash; Communicative Certification: TOEFL ibt 85 pts
-          </Header>
-          <p>
-            The TOEFL iBT® test measures your ability to use and understand
-            English at the university level. And it evaluates how well you
-            combine your reading, listening, speaking and writing skills to
-            perform academic tasks.
-          </p>
-        </DevelopInfo>
-      </div>
-    )
-  }
-
-  const Deploy = () => {
-    return (
-      <div>
-        <DeployItem onClick={handleClick3}>
-          <ItemIcon3 itemSelected={itemSelected} />
-        </DeployItem>
-
-        <DeployInfo itemSelected={itemSelected}>
-          <Header>
-            <span>3</span> &mdash; Second place
-          </Header>
-          <p>
-            Got second prize for the competitive algorithm contest of the
-            university
-          </p>
-        </DeployInfo>
-      </div>
-    )
-  }
-
-  const Deliver = () => {
-    return (
-      <div>
-        <DeliverItem onClick={handleClick4}>
-          <ItemIcon4 itemSelected={itemSelected} />
-        </DeliverItem>
-
-        <DeliverInfo itemSelected={itemSelected}>
-          <Header>
-            <span>4</span> &mdash; First place
-          </Header>
-          <p>
-            Highschool, got First prize for the competitive algorithm contest of
-            the city.
-          </p>
-        </DeliverInfo>
-      </div>
-    )
-  }
-
   return (
     <Container id={CERTIFICATIONS}>
       <div className="container">
@@ -104,10 +16,22 @@ const Certification = () => {
         </header>
         <div className="grid-container">
           <List className="certification">
-            <Research />
-            <Develop />
-            <Deploy />
-            <Deliver />
+            <Research
+              itemSelected={itemSelected}
+              setSelectedItem={setSelectedItem}
+            />
+            <Develop
+              itemSelected={itemSelected}
+              setSelectedItem={setSelectedItem}
+            />
+            <Deploy
+              itemSelected={itemSelected}
+              setSelectedItem={setSelectedItem}
+            />
+            <Deliver
+              itemSelected={itemSelected}
+              setSelectedItem={setSelectedItem}
+            />
           </List>
         </div>
       </div>
@@ -115,51 +39,157 @@ const Certification = () => {
   )
 }
 
-const ItemIcon1 = ({ itemSelected }) => {
-  return itemSelected == INIT_CERT_ACTIVE_ITEM[0] ? (
+const Research = ({ itemSelected, setSelectedItem }) => {
+  return (
+    <>
+      <ResearchItem onClick={() => setSelectedItem(INIT_CERT_ACTIVE_ITEM[0])}>
+        <ItemIcon1 id={INIT_CERT_ACTIVE_ITEM[0]} itemSelected={itemSelected} />
+      </ResearchItem>
+
+      <ResearchInfo itemSelected={itemSelected}>
+        <Header>
+          <span>1</span> &mdash; Bachelor of Science
+        </Header>
+        <p>
+          Graduating from HCM University of Science, Advanced Program in
+          Computer Science.
+        </p>
+      </ResearchInfo>
+    </>
+  )
+}
+
+const Develop = ({ itemSelected, setSelectedItem }) => {
+  return (
+    <>
+      <DevelopItem onClick={() => setSelectedItem(INIT_CERT_ACTIVE_ITEM[1])}>
+        <ItemIcon2 id={INIT_CERT_ACTIVE_ITEM[1]} itemSelected={itemSelected} />
+      </DevelopItem>
+
+      <DevelopInfo itemSelected={itemSelected}>
+        <Header>
+          <span>2</span> &mdash; Communicative Certification: TOEFL ibt 85 pts
+        </Header>
+        <p>
+          The TOEFL iBT® test measures your ability to use and understand
+          English at the university level. And it evaluates how well you combine
+          your reading, listening, speaking and writing skills to perform
+          academic tasks.
+        </p>
+      </DevelopInfo>
+    </>
+  )
+}
+
+const Deploy = ({ itemSelected, setSelectedItem }) => {
+  return (
+    <>
+      <DeployItem onClick={() => setSelectedItem(INIT_CERT_ACTIVE_ITEM[2])}>
+        <ItemIcon3 id={INIT_CERT_ACTIVE_ITEM[2]} itemSelected={itemSelected} />
+      </DeployItem>
+
+      <DeployInfo itemSelected={itemSelected}>
+        <Header>
+          <span>3</span> &mdash; Second place
+        </Header>
+        <p>
+          Got second prize for the competitive algorithm contest of the
+          university
+        </p>
+      </DeployInfo>
+    </>
+  )
+}
+
+const Deliver = ({ itemSelected, setSelectedItem }) => {
+  return (
+    <>
+      <DeliverItem onClick={() => setSelectedItem(INIT_CERT_ACTIVE_ITEM[3])}>
+        <ItemIcon4 id={INIT_CERT_ACTIVE_ITEM[3]} itemSelected={itemSelected} />
+      </DeliverItem>
+
+      <DeliverInfo itemSelected={itemSelected}>
+        <Header>
+          <span>4</span> &mdash; First place
+        </Header>
+        <p>
+          Highschool, got First prize for the competitive algorithm contest of
+          the city.
+        </p>
+      </DeliverInfo>
+    </>
+  )
+}
+
+const ItemIcon1 = ({ id, itemSelected }) => {
+  return itemSelected == id ? (
     <ActiveIcon name="c" />
   ) : (
     <InactiveIcon name="c" />
   )
 }
 
-const ItemIcon2 = ({ itemSelected }) => {
-  return itemSelected == INIT_CERT_ACTIVE_ITEM[1] ? (
+const ItemIcon2 = ({ id, itemSelected }) => {
+  return itemSelected == id ? (
     <ActiveIcon name="c" />
   ) : (
     <InactiveIcon name="c" />
   )
 }
 
-const ItemIcon3 = ({ itemSelected }) => {
-  return itemSelected == INIT_CERT_ACTIVE_ITEM[2] ? (
+const ItemIcon3 = ({ id, itemSelected }) => {
+  return itemSelected == id ? (
     <ActiveIcon name="p" />
   ) : (
     <InactiveIcon name="p" />
   )
 }
 
-const ItemIcon4 = ({ itemSelected }) => {
-  return itemSelected == INIT_CERT_ACTIVE_ITEM[3] ? (
+const ItemIcon4 = ({ id, itemSelected }) => {
+  return itemSelected == id ? (
     <ActiveIcon name="p" />
   ) : (
     <InactiveIcon name="p" />
   )
+}
+
+Research.propTypes = {
+  itemSelected: PropTypes.any,
+  setSelectedItem: PropTypes.func
+}
+
+Develop.propTypes = {
+  itemSelected: PropTypes.any,
+  setSelectedItem: PropTypes.func
+}
+
+Deploy.propTypes = {
+  itemSelected: PropTypes.any,
+  setSelectedItem: PropTypes.func
+}
+
+Deliver.propTypes = {
+  itemSelected: PropTypes.any,
+  setSelectedItem: PropTypes.func
 }
 
 ItemIcon1.propTypes = {
+  id: PropTypes.number,
   itemSelected: PropTypes.any
 }
 
 ItemIcon2.propTypes = {
+  id: PropTypes.number,
   itemSelected: PropTypes.any
 }
 
 ItemIcon3.propTypes = {
+  id: PropTypes.number,
   itemSelected: PropTypes.any
 }
 
 ItemIcon4.propTypes = {
+  id: PropTypes.number,
   itemSelected: PropTypes.any
 }
 
