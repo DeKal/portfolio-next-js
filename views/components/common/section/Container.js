@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 const Container = ({ children }) => <Style>{children}</Style>
 
 Container.propTypes = {
-  children: PropTypes.element
+  children: PropTypes.any
 }
 
 export default Container

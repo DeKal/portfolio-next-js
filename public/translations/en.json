@@ -53,5 +53,7 @@
   "Exp: GCS-intern Skill": "Technical skills: Spring MVC, Java, Hibernate, PostgreSQL, HTML/CSS, JQuery, JS, Thymeleaf.",
   "Exp: Brand360 Title": "Brand360",
   "Exp: Brand360 Desc": "As a team leader, I operate the team to develop a web for Brand 360 company inorder to broadcast their images in Viet Nam. The idea is to use Wordpress template in order to have a fast and user-friendly web/admin UI.",
-  "Exp: Brand360 Skill": "Technical skills: Wordpress template, HTML, CSS, JS."
+  "Exp: Brand360 Skill": "Technical skills: Wordpress template, HTML, CSS, JS.",
+  "Project: Title": "Projects",
+  "Project: SubTitle": "Something cool to look back!!!"
 }

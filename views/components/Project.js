@@ -1,97 +1,50 @@
-import * as React from 'react'
+import React from 'react'
+import { Translate } from 'react-localize-redux'
+import Container from '~/views/components/common/section/Container'
+import Header from '~/views/components/common/section/Header'
+import Content from '~/views/components/project/Content'
+import Item from '~/views/components/project/Item'
 
 const Project = () => (
-  <section className="common-section" id="projects">
-    <header className="common-section__header">
-      <h2>Projects</h2>
-      <p></p>
-    </header>
-    <div className="projects-wrap">
-      <div className="grid-container">
-        <div className="projects">
-          <figure className="projects__item">
-            <script
-              type="text/javascript"
-              src="https://ajax.cloudflare.com/cdn-cgi/scripts/04b3eb47/cloudflare-static/mirage2.min.js"
-            ></script>
-            <img
-              data-cfsrc="static/images/projects/brand360.jpg"
-              alt="Brand 360"
-              // style="display:none;visibility:hidden;"
-            />
-            <noscript>
-              <img src="static/images/projects/brand360.jpg" alt="Brand 360" />
-            </noscript>
-            <figcaption>
-              <a
-                className="icon icon_link"
-                href="http://brand360.vn/"
-                rel="nofollow"
-              >
-                Brand360 project
-              </a>
-            </figcaption>
-          </figure>
-          <figure className="projects__item">
-            <img
-              data-cfsrc="static/images/projects/anco.jpg"
-              alt="Report application for Masan"
-              // style="display:none;visibility:hidden;"
-            />
-            <noscript>
-              <img
-                src="static/images/projects/anco.jpg"
-                alt="Report application for Masan"
-              />
-            </noscript>
-            <figcaption>
-              <a className="icon icon_link" rel="nofollow">
-                Report application for Masan
-              </a>
-            </figcaption>
-          </figure>
-          <figure className="projects__item">
-            <img
-              data-cfsrc="static/images/projects/taman.jpg"
-              alt="Tam An Web"
-              // style="display:none;visibility:hidden;"
-            />
-            <noscript>
-              <img src="static/images/projects/taman.jpg" alt="Tam An Web" />
-            </noscript>
-            <figcaption>
-              <a
-                className="icon icon_link"
-                href="https://github.com/DeKal/Tam-An-Food-Store-Manager"
-                rel="nofollow"
-              >
-                Tam An Food Store Manager
-              </a>
-            </figcaption>
-          </figure>
-          <figure className="projects__item">
-            <img
-              data-cfsrc="static/images/projects/2048.jpg"
-              alt="2048"
-              // style="display:none;visibility:hidden;"
-            />
-            <noscript>
-              <img src="static/images/projects/2048.jpg" alt="2048" />
-            </noscript>
-            <figcaption>
-              <a
-                className="icon icon_link"
-                href="https://github.com/DeKal/2048"
-                rel="nofollow"
-              >
-                2048 Fun Games
-              </a>
-            </figcaption>
-          </figure>
-        </div>
-      </div>
-    </div>
-  </section>
+  <Container id="projects">
+    <Header>
+      <h2>
+        <Translate id="Project: Title" />
+      </h2>
+      <h4>
+        <Translate id="Project: SubTitle" />
+      </h4>
+    </Header>
+    <Content>
+      <Item
+        imgSrc="/images/projects/brand360.jpg"
+        imgAlt="Brand 360"
+        linkToWeb="http://brand360.vn/"
+        hoverTitle="Brand360 project"
+      />
+
+      <Item
+        imgSrc="/images/projects/anco.jpg"
+        imgAlt="Report application for Masan"
+        linkToWeb=""
+        hoverTitle="Masan Report"
+      />
+
+      <Item
+        imgSrc="/images/projects/taman.jpg"
+        imgAlt="Tam An Web"
+        linkToWeb="https://github.com/DeKal/Tam-An-Food-Store-Manager"
+        hoverTitle="Tam An Web"
+      />
+
+      <Item
+        imgSrc="/images/projects/2048.jpg"
+        imgAlt="2048 Fun Games"
+        linkToWeb="https://github.com/DeKal/2048"
+        hoverTitle="2048 Fun Games"
+      />
+    </Content>
+  </Container>
 )
 
 export default Project

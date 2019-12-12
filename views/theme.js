@@ -106,6 +106,7 @@ const theme = {
     fb: '\\e811',
     linkedin: '\\e815',
     workexp: '\\e804',
+    link: '\\e819',
     c: 'C',
     p: 'P'
   },
