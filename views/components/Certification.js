@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, Fragment } from 'react'
 import styled from 'styled-components/macro'
 import Icon from '~/views/components/common/Icon'
 import { CERTIFICATIONS } from '~/consts/pages'
@@ -41,9 +41,13 @@ const Certification = () => {
 
 const Research = ({ itemSelected, setSelectedItem }) => {
   return (
-    <>
+    <Fragment>
       <ResearchItem onClick={() => setSelectedItem(INIT_CERT_ACTIVE_ITEM[0])}>
-        <ItemIcon1 id={INIT_CERT_ACTIVE_ITEM[0]} itemSelected={itemSelected} />
+        <ItemIcon
+          id={INIT_CERT_ACTIVE_ITEM[0]}
+          itemSelected={itemSelected}
+          name="c"
+        />
       </ResearchItem>
 
       <ResearchInfo itemSelected={itemSelected}>
@@ -55,15 +59,19 @@ const Research = ({ itemSelected, setSelectedItem }) => {
           Computer Science.
         </p>
       </ResearchInfo>
-    </>
+    </Fragment>
   )
 }
 
 const Develop = ({ itemSelected, setSelectedItem }) => {
   return (
-    <>
+    <Fragment>
       <DevelopItem onClick={() => setSelectedItem(INIT_CERT_ACTIVE_ITEM[1])}>
-        <ItemIcon2 id={INIT_CERT_ACTIVE_ITEM[1]} itemSelected={itemSelected} />
+        <ItemIcon
+          id={INIT_CERT_ACTIVE_ITEM[1]}
+          itemSelected={itemSelected}
+          name="c"
+        />
       </DevelopItem>
 
       <DevelopInfo itemSelected={itemSelected}>
@@ -77,15 +85,19 @@ const Develop = ({ itemSelected, setSelectedItem }) => {
           academic tasks.
         </p>
       </DevelopInfo>
-    </>
+    </Fragment>
   )
 }
 
 const Deploy = ({ itemSelected, setSelectedItem }) => {
   return (
-    <>
+    <Fragment>
       <DeployItem onClick={() => setSelectedItem(INIT_CERT_ACTIVE_ITEM[2])}>
-        <ItemIcon3 id={INIT_CERT_ACTIVE_ITEM[2]} itemSelected={itemSelected} />
+        <ItemIcon
+          id={INIT_CERT_ACTIVE_ITEM[2]}
+          itemSelected={itemSelected}
+          name="p"
+        />
       </DeployItem>
 
       <DeployInfo itemSelected={itemSelected}>
@@ -97,15 +109,19 @@ const Deploy = ({ itemSelected, setSelectedItem }) => {
           university
         </p>
       </DeployInfo>
-    </>
+    </Fragment>
   )
 }
 
 const Deliver = ({ itemSelected, setSelectedItem }) => {
   return (
-    <>
+    <Fragment>
       <DeliverItem onClick={() => setSelectedItem(INIT_CERT_ACTIVE_ITEM[3])}>
-        <ItemIcon4 id={INIT_CERT_ACTIVE_ITEM[3]} itemSelected={itemSelected} />
+        <ItemIcon
+          id={INIT_CERT_ACTIVE_ITEM[3]}
+          itemSelected={itemSelected}
+          name="p"
+        />
       </DeliverItem>
 
       <DeliverInfo itemSelected={itemSelected}>
@@ -117,39 +133,15 @@ const Deliver = ({ itemSelected, setSelectedItem }) => {
           the city.
         </p>
       </DeliverInfo>
-    </>
+    </Fragment>
   )
 }
 
-const ItemIcon1 = ({ id, itemSelected }) => {
+const ItemIcon = ({ id, itemSelected, name }) => {
   return itemSelected == id ? (
-    <ActiveIcon name="c" />
+    <ActiveIcon name={name} />
   ) : (
-    <InactiveIcon name="c" />
-  )
-}
-
-const ItemIcon2 = ({ id, itemSelected }) => {
-  return itemSelected == id ? (
-    <ActiveIcon name="c" />
-  ) : (
-    <InactiveIcon name="c" />
-  )
-}
-
-const ItemIcon3 = ({ id, itemSelected }) => {
-  return itemSelected == id ? (
-    <ActiveIcon name="p" />
-  ) : (
-    <InactiveIcon name="p" />
-  )
-}
-
-const ItemIcon4 = ({ id, itemSelected }) => {
-  return itemSelected == id ? (
-    <ActiveIcon name="p" />
-  ) : (
-    <InactiveIcon name="p" />
+    <InactiveIcon name={name} />
   )
 }
 
@@ -173,24 +165,10 @@ Deliver.propTypes = {
   setSelectedItem: PropTypes.func
 }
 
-ItemIcon1.propTypes = {
+ItemIcon.propTypes = {
   id: PropTypes.number,
-  itemSelected: PropTypes.any
-}
-
-ItemIcon2.propTypes = {
-  id: PropTypes.number,
-  itemSelected: PropTypes.any
-}
-
-ItemIcon3.propTypes = {
-  id: PropTypes.number,
-  itemSelected: PropTypes.any
-}
-
-ItemIcon4.propTypes = {
-  id: PropTypes.number,
-  itemSelected: PropTypes.any
+  itemSelected: PropTypes.any,
+  name: PropTypes.string
 }
 
 const Container = styled.section``
