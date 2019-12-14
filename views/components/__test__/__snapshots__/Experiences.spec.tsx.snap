@@ -12,9 +12,9 @@ exports[`Experiences should render without throwing an error 1`] = `
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "Container__Style-sc-1cprnoj-0",
+              "componentId": "Container__Style-ls6jfm-0",
               "isStatic": false,
-              "lastClassName": "gmMYEx",
+              "lastClassName": "kPautF",
               "rules": Array [
                 "padding-top:100px;@media screen and (max-width:800px){padding-top:50px;}",
               ],
@@ -22,7 +22,7 @@ exports[`Experiences should render without throwing an error 1`] = `
             "displayName": "Container__Style",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "Container__Style-sc-1cprnoj-0",
+            "styledComponentId": "Container__Style-ls6jfm-0",
             "target": "section",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -32,7 +32,7 @@ exports[`Experiences should render without throwing an error 1`] = `
         forwardedRef={null}
       >
         <section
-          className="Container__Style-sc-1cprnoj-0 gmMYEx"
+          className="Container__Style-ls6jfm-0 kPautF"
         >
           <div
             className="container"
@@ -45,9 +45,9 @@ exports[`Experiences should render without throwing an error 1`] = `
                       "$$typeof": Symbol(react.forward_ref),
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
-                        "componentId": "Header__Container-r82p1p-0",
+                        "componentId": "Header__Container-co5usi-0",
                         "isStatic": false,
-                        "lastClassName": "hEROPS",
+                        "lastClassName": "eCHESu",
                         "rules": Array [
                           "padding-bottom:50px;text-align:center;@media screen and (max-width:800px){padding-bottom:30px;}",
                         ],
@@ -55,7 +55,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                       "displayName": "Header__Container",
                       "foldedComponentIds": Array [],
                       "render": [Function],
-                      "styledComponentId": "Header__Container-r82p1p-0",
+                      "styledComponentId": "Header__Container-co5usi-0",
                       "target": "header",
                       "toString": [Function],
                       "warnTooManyClasses": [Function],
@@ -65,7 +65,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                   forwardedRef={null}
                 >
                   <header
-                    className="Header__Container-r82p1p-0 hEROPS"
+                    className="Header__Container-co5usi-0 eCHESu"
                   >
                     <h2>
                       <Translate

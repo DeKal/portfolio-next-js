@@ -11,22 +11,22 @@ import { Translate } from 'react-localize-redux'
 const Cert_1 = ({ itemSelected, setSelectedItem, title, content }) => {
   return (
     <Fragment>
-      <Cert_1Item onClick={() => setSelectedItem(CERT_ACTIVE_ITEM[0])}>
+      <CertItem onClick={() => setSelectedItem(CERT_ACTIVE_ITEM[0])}>
         <CertIcon
           id={CERT_ACTIVE_ITEM[0]}
           itemSelected={itemSelected}
           name="c"
         />
-      </Cert_1Item>
+      </CertItem>
 
-      <Cert_1Info itemSelected={itemSelected}>
+      <CertInfo itemSelected={itemSelected}>
         <Title>
           <span>{CERT_ACTIVE_ITEM[0]}</span> &mdash; <Translate id={title} />
         </Title>
         <p>
           <Translate id={content} />
         </p>
-      </Cert_1Info>
+      </CertInfo>
     </Fragment>
   )
 }
@@ -40,13 +40,13 @@ Cert_1.propTypes = {
   content: PropTypes.string
 }
 
-const Cert_1Item = styled(Item)`
+const CertItem = styled(Item)`
   left: 0%;
   margin-left: 0%;
   z-index: 40;
 `
 
-const Cert_1Info = styled(Info)`
+const CertInfo = styled(Info)`
   visibility: ${props =>
     props.itemSelected == CERT_ACTIVE_ITEM[0] ? 'visible' : 'hidden'};
 
