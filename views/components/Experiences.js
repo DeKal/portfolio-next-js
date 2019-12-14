@@ -1,8 +1,8 @@
 import React from 'react'
 import { EXPERIENCES } from '~/consts/pages'
 import { getCompanies } from '~/consts/experiences'
-import Header from '~/views/components/common/Header'
-import Container from '~/views/components/common/Container'
+import Header from '~/views/components/common/section/Header'
+import Container from '~/views/components/common/section/Container'
 import List from '~/views/components/experiences/List'
 import { Translate } from 'react-localize-redux'
 
