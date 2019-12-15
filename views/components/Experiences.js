@@ -2,15 +2,18 @@ import React from 'react'
 import { EXPERIENCES } from '~/consts/pages'
 import { getCompanies } from '~/consts/experiences'
 import Header from '~/views/components/common/section/Header'
-import Container from '~/views/components/common/section/Container'
+import SectionContainer from '~/views/components/common/section/Container'
 import List from '~/views/components/experiences/List'
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+
 import { Translate } from 'react-localize-redux'
 
-const companiesLeftAndRight = getCompanies()
+const companyRows = getCompanies()
 
 const Experiences = () => (
-  <Container id={EXPERIENCES}>
-    <div className="container">
+  <SectionContainer id={EXPERIENCES}>
+    <Container>
       <Header>
         <h2>
           <Translate id="Exp: Title" />
@@ -19,11 +22,13 @@ const Experiences = () => (
           <Translate id="Exp: SubTitle" />
         </h4>
       </Header>
-      {companiesLeftAndRight.map((companies, index) => (
-        <List key={index} companies={companies} />
+      {companyRows.map((companies, index) => (
+        <Row key={index}>
+          <List companies={companies} />
+        </Row>
       ))}
-    </div>
-  </Container>
+    </Container>
+  </SectionContainer>
 )
 
 export default Experiences

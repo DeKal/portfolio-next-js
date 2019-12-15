@@ -31,7 +31,7 @@ export default NavItem
 
 const Container = styled.a`
   line-height: ${props => props.theme.navContentMinHeight};
-  font-size: ${props => props.theme.fontSizes.XXL};
+  font-size: ${props => props.theme.fontSizes.XL};
   transition: color 0.5s;
 
   &:hover {
@@ -40,7 +40,6 @@ const Container = styled.a`
   }
 
   @media screen and (max-width: 800px) {
-    font-size: ${props => props.theme.fontSizes.XL};
     line-height: 2;
     border-bottom: none;
   }

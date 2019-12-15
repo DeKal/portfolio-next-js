@@ -3,6 +3,9 @@ import styled from 'styled-components/macro'
 import PropTypes from 'prop-types'
 import NavLogo from '~/views/components/nav/NavLogo'
 import NavItem from '~/views/components/nav/NavItem'
+import MobileContainer from '~/views/components/common/container/MobileContainer'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 import { PAGE_LIST } from '~/consts/pages'
 import { INIT_SELECTED_PAGE } from '~/consts/initState'
 
@@ -10,24 +13,30 @@ const NavContent = ({ isShowNavContent }) => {
   const [selectedPage, setSelectedPage] = useState(INIT_SELECTED_PAGE)
 
   return (
-    <Container isShowNavContent={isShowNavContent} className="second-nav">
-      <div className="container">
-        <NavLogo />
-        <NavMenu className="menu">
-          <ul>
-            {PAGE_LIST.map(page => (
-              <NavLi key={page}>
-                <NavItem
-                  page={page}
-                  isSelected={selectedPage === page}
-                  setSelectedPage={setSelectedPage}
-                />
-              </NavLi>
-            ))}
-          </ul>
-        </NavMenu>
-      </div>
-    </Container>
+    <NavContainer isShowNavContent={isShowNavContent}>
+      <MobileContainer>
+        <Row>
+          <Col md={2}>
+            <NavLogo />
+          </Col>
+          <Col fluid="true">
+            <NavMenu>
+              <ul>
+                {PAGE_LIST.map(page => (
+                  <NavLi key={page}>
+                    <NavItem
+                      page={page}
+                      isSelected={selectedPage === page}
+                      setSelectedPage={setSelectedPage}
+                    />
+                  </NavLi>
+                ))}
+              </ul>
+            </NavMenu>
+          </Col>
+        </Row>
+      </MobileContainer>
+    </NavContainer>
   )
 }
 
@@ -35,7 +44,7 @@ NavContent.propTypes = {
   isShowNavContent: PropTypes.bool
 }
 
-const Container = styled.div`
+const NavContainer = styled.div`
   position: relative;
   min-height: ${props => props.theme.navContentMinHeight};
   background-color: ${props => props.theme.colors.colorLight};

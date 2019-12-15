@@ -5,20 +5,28 @@ import { Translate } from 'react-localize-redux'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { MdClose } from 'react-icons/md'
 import NavLang from '~/views/components/nav/NavLang'
+import MobileContainer from '~/views/components/common/container/MobileContainer'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
 const NavHeader = ({ isShowNavContent, switchNav }) => (
-  <NavContainer className="first-nav">
-    <div className="container">
-      <NavLang />
-      <NavControl
-        data-test-id="switch-nav-content"
-        className="first-nav__navcontrol"
-        onClick={() => switchNav(!isShowNavContent)}
-      >
-        {!isShowNavContent ? <HamburgerIcon /> : <CloseIcon />}{' '}
-        <Translate id="Menu" />
-      </NavControl>
-    </div>
+  <NavContainer>
+    <MobileContainer>
+      <Row>
+        <Col>
+          <NavLang />
+        </Col>
+        <Col fluid="true">
+          <NavControl
+            data-test-id="switch-nav-content"
+            onClick={() => switchNav(!isShowNavContent)}
+          >
+            {!isShowNavContent ? <HamburgerIcon /> : <CloseIcon />}{' '}
+            <Translate id="Menu" />
+          </NavControl>
+        </Col>
+      </Row>
+    </MobileContainer>
   </NavContainer>
 )
 
@@ -30,6 +38,7 @@ NavHeader.propTypes = {
 export default NavHeader
 
 const NavContainer = styled.div`
+  width: 100%;
   position: absolute;
   z-index: 200;
   top: 0;

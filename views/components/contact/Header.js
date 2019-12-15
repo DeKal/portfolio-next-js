@@ -19,4 +19,5 @@ const Container = styled.header`
   padding: 20px;
   background-color: ${props => props.theme.colors.colorAccent};
   color: ${props => props.theme.colors.colorLight};
+  box-shadow: 2px 2px 4px -2px ${props => props.theme.colors.colorDark};
 `

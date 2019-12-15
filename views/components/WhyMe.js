@@ -3,11 +3,12 @@ import styled from 'styled-components/macro'
 import { WHYME } from '~/consts/pages'
 import Title from '~/views/components/whyme/Title'
 import Quote from '~/views/components/whyme/Quote'
+import Container from 'react-bootstrap/Container'
 import { Translate } from 'react-localize-redux'
 
 const WhyMe = () => (
-  <Container id={WHYME} className="container">
-    <Inner className="whyme">
+  <Section id={WHYME}>
+    <Inner>
       <Title>
         <Translate id="Why me: Title" />
       </Title>
@@ -15,18 +16,35 @@ const WhyMe = () => (
         <Translate id="Why me: Quote" />
       </Quote>
     </Inner>
-  </Container>
+  </Section>
 )
 
 export default WhyMe
-
-const Container = styled.section``
-
+const Section = styled(Container)`
+  position: relative;
+`
 const Inner = styled.div`
   text-align: center;
-  border-left: 10px solid ${props => props.theme.colors.colorAccent};
-  border-right: 10px solid ${props => props.theme.colors.colorAccent};
   margin-top: 50px;
+
+  &::after,
+  &::before {
+    content: '';
+    position: absolute;
+    top: 15px;
+    height: calc(100% - 15px);
+    width: 100%;
+  }
+
+  &::before {
+    left: 15px;
+    border-left: 10px solid ${props => props.theme.colors.colorAccent};
+  }
+
+  &::after {
+    left: -15px;
+    border-right: 10px solid ${props => props.theme.colors.colorAccent};
+  }
 
   @media screen and (max-width: 800px) {
     margin-top: 30px;
