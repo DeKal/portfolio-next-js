@@ -13,5 +13,6 @@ const Container = styled.div`
   background-position: top center;
   background-size: cover;
   background-image: url(/images/map.jpg);
+  border-top: solid 1px ${props => props.theme.colors.colorDarken};
 `
 export default Map
