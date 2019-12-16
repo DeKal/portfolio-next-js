@@ -1,9 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components/macro'
-import Cert_1 from '~/views/components/certification/Cert_1'
-import Cert_2 from '~/views/components/certification/Cert_2'
-import Prize_1 from '~/views/components/certification/Prize_1'
-import Prize_2 from '~/views/components/certification/Prize_2'
+import Cert from '~/views/components/certification/Cert'
 import { CERTIFICATIONS } from '~/consts/pages'
 import { CERT_ACTIVE_ITEM } from '~/consts/certification'
 import Container from '~/views/components/common/section/Container'
@@ -19,33 +16,37 @@ const Certification = () => {
           <h2>Certifications and Prizes</h2>
         </Header>
         <List className="certification">
-          <Cert_1
+          <Cert
             itemSelected={itemSelected}
             setSelectedItem={setSelectedItem}
             title="CertResearch"
             content="CertContentResearch"
             id={CERT_ACTIVE_ITEM[0]}
+            name="c"
           />
-          <Cert_2
+          <Cert
             itemSelected={itemSelected}
             setSelectedItem={setSelectedItem}
             title="CertDevelop"
             content="CertContentDevelop"
             id={CERT_ACTIVE_ITEM[1]}
+            name="c"
           />
-          <Prize_1
+          <Cert
             itemSelected={itemSelected}
             setSelectedItem={setSelectedItem}
             title="CertDeploy"
             content="CertContentDeploy"
             id={CERT_ACTIVE_ITEM[2]}
+            name="p"
           />
-          <Prize_2
+          <Cert
             itemSelected={itemSelected}
             setSelectedItem={setSelectedItem}
             title="CertDeliver"
             content="CertContentDeliver"
             id={CERT_ACTIVE_ITEM[3]}
+            name="p"
           />
         </List>
       </div>
