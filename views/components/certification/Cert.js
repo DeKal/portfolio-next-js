@@ -11,14 +11,14 @@ import { leftPos } from '~/consts/certification'
 import PropTypes from 'prop-types'
 import { Translate } from 'react-localize-redux'
 
-const Cert_1 = ({ itemSelected, setSelectedItem, title, content, id }) => {
+const Cert = ({ itemSelected, setSelectedItem, title, content, id, name }) => {
   return (
     <Fragment>
-      <CertItem onClick={() => setSelectedItem(id)}>
-        <CertIcon id={id} itemSelected={itemSelected} name="c" />
+      <CertItem id={id} onClick={() => setSelectedItem(id)}>
+        <CertIcon id={id} itemSelected={itemSelected} name={name} />
       </CertItem>
 
-      <CertInfo itemSelected={itemSelected}>
+      <CertInfo itemSelected={itemSelected} id={id}>
         <Title>
           <span>{id}</span> &mdash; <Translate id={title} />
         </Title>
@@ -30,32 +30,29 @@ const Cert_1 = ({ itemSelected, setSelectedItem, title, content, id }) => {
   )
 }
 
-export default Cert_1
+export default Cert
 
-Cert_1.propTypes = {
+Cert.propTypes = {
   itemSelected: PropTypes.any,
   setSelectedItem: PropTypes.func,
   title: PropTypes.string,
   content: PropTypes.string,
-  id: PropTypes.number
+  id: PropTypes.any,
+  name: PropTypes.string
 }
 
 const CertItem = styled(Item)`
-  ${({ id }) =>
-    id != 1 &&
-    `margin-left: 0%; left: ${leftPos[0]}; z-index: ${zIndexArr[0]};`}
-
-  ${({ id }) =>
-    id == 1 &&
-    `margin-left: 0%; left: ${leftPos[1]}; z-index: ${zIndexArr[1]};`}
+  left: ${({ id }) => leftPos[id - 1]};
+  z-index: ${({ id }) => zIndexArr[id - 1]};
+  ${({ id }) => id == CERT_ACTIVE_ITEM[0] && 'margin-left: 0%;'}
 `
 
 const CertInfo = styled(Info)`
-  visibility: ${props =>
-    props.itemSelected == CERT_ACTIVE_ITEM[0] ? 'visible' : 'hidden'};
+  visibility: ${({ itemSelected, id }) =>
+    itemSelected == id ? 'visible' : 'hidden'};
 
   &::before,
   &::after {
-    left: ${props => (props.id = leftInfo[0])};
+    left: ${({ id }) => leftInfo[id - 1]};
   }
 `
