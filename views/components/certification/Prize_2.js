@@ -5,23 +5,22 @@ import Info from '~/views/components/certification/Info'
 import Title from '~/views/components/certification/Title'
 import Item from '~/views/components/certification/Item'
 import { CERT_ACTIVE_ITEM } from '~/consts/certification'
+import { leftInfo } from '~/consts/certification'
+import { zIndexArr } from '~/consts/certification'
+import { leftPos } from '~/consts/certification'
 import PropTypes from 'prop-types'
 import { Translate } from 'react-localize-redux'
 
-const Prize_2 = ({ itemSelected, setSelectedItem, title, content }) => {
+const Prize_2 = ({ itemSelected, setSelectedItem, title, content, id }) => {
   return (
     <Fragment>
-      <PrizeItem onClick={() => setSelectedItem(CERT_ACTIVE_ITEM[3])}>
-        <CertIcon
-          id={CERT_ACTIVE_ITEM[3]}
-          itemSelected={itemSelected}
-          name="p"
-        />
+      <PrizeItem onClick={() => setSelectedItem(id)}>
+        <CertIcon id={id} itemSelected={itemSelected} name="p" />
       </PrizeItem>
 
       <PrizeInfo itemSelected={itemSelected}>
         <Title>
-          <span>{CERT_ACTIVE_ITEM[3]}</span> &mdash; <Translate id={title} />
+          <span>{id}</span> &mdash; <Translate id={title} />
         </Title>
         <p>
           <Translate id={content} />
@@ -37,12 +36,13 @@ Prize_2.propTypes = {
   itemSelected: PropTypes.any,
   setSelectedItem: PropTypes.func,
   title: PropTypes.string,
-  content: PropTypes.string
+  content: PropTypes.string,
+  id: PropTypes.number
 }
 
 const PrizeItem = styled(Item)`
-  left: 87.5%;
-  z-index: 10;
+  left: ${leftPos[3]};
+  z-index: ${zIndexArr[3]};
 `
 
 const PrizeInfo = styled(Info)`
@@ -51,6 +51,6 @@ const PrizeInfo = styled(Info)`
 
   &::before,
   &::after {
-    left: 87.5%;
+    left: ${props => (props.id = leftInfo[3])};
   }
 `

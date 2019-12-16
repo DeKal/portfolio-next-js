@@ -24,24 +24,28 @@ const Certification = () => {
             setSelectedItem={setSelectedItem}
             title="CertResearch"
             content="CertContentResearch"
+            id={CERT_ACTIVE_ITEM[0]}
           />
           <Cert_2
             itemSelected={itemSelected}
             setSelectedItem={setSelectedItem}
             title="CertDevelop"
             content="CertContentDevelop"
+            id={CERT_ACTIVE_ITEM[1]}
           />
           <Prize_1
             itemSelected={itemSelected}
             setSelectedItem={setSelectedItem}
             title="CertDeploy"
             content="CertContentDeploy"
+            id={CERT_ACTIVE_ITEM[2]}
           />
           <Prize_2
             itemSelected={itemSelected}
             setSelectedItem={setSelectedItem}
             title="CertDeliver"
             content="CertContentDeliver"
+            id={CERT_ACTIVE_ITEM[3]}
           />
         </List>
       </div>
