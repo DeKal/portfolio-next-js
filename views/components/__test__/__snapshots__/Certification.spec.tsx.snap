@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`About should render without throwing an error 1`] = `
+exports[`Certification should render without throwing an error 1`] = `
 <Certification>
   <Container
     id="Certifications"
