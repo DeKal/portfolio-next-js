@@ -111,135 +111,142 @@ exports[`Footer should render without throwing an error 1`] = `
             </StyledComponent>
           </Footer__CopyRight>
           <GoTop>
-            <GoTop__Container
+            <Link
               href="#Home"
             >
-              <StyledComponent
-                forwardedComponent={
-                  Object {
-                    "$$typeof": Symbol(react.forward_ref),
-                    "attrs": Array [],
-                    "componentStyle": ComponentStyle {
-                      "componentId": "GoTop__Container-sc-18ceaec-0",
-                      "isStatic": false,
-                      "lastClassName": "krsECY",
-                      "rules": Array [
-                        "color:",
-                        [Function],
-                        ";border-color:",
-                        [Function],
-                        ";transition:color 0.5s;&:hover{color:",
-                        [Function],
-                        ";}",
-                      ],
-                    },
-                    "displayName": "GoTop__Container",
-                    "foldedComponentIds": Array [],
-                    "render": [Function],
-                    "styledComponentId": "GoTop__Container-sc-18ceaec-0",
-                    "target": "a",
-                    "toString": [Function],
-                    "warnTooManyClasses": [Function],
-                    "withComponent": [Function],
-                  }
-                }
-                forwardedRef={null}
-                href="#Home"
+              <GoTop__Container
+                onClick={[Function]}
+                onMouseEnter={[Function]}
               >
-                <a
-                  className="GoTop__Container-sc-18ceaec-0 krsECY"
-                  href="#Home"
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "GoTop__Container-sc-18ceaec-0",
+                        "isStatic": false,
+                        "lastClassName": "krsECY",
+                        "rules": Array [
+                          "color:",
+                          [Function],
+                          ";border-color:",
+                          [Function],
+                          ";transition:color 0.5s;&:hover{color:",
+                          [Function],
+                          ";}",
+                        ],
+                      },
+                      "displayName": "GoTop__Container",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "GoTop__Container-sc-18ceaec-0",
+                      "target": "a",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={[Function]}
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
                 >
-                  <GoTop__GoTopIcon
-                    name="goTop"
+                  <a
+                    className="GoTop__Container-sc-18ceaec-0 krsECY"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
                   >
-                    <StyledComponent
-                      forwardedComponent={
-                        Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "attrs": Array [],
-                          "componentStyle": ComponentStyle {
-                            "componentId": "GoTop__GoTopIcon-sc-18ceaec-1",
-                            "isStatic": false,
-                            "lastClassName": "gjeSlo",
-                            "rules": Array [
-                              "position:absolute;top:-20px;left:50%;z-index:200;display:block;width:36px;height:36px;margin-left:-15px;font-size:0;border:none;overflow:hidden;color:",
-                              [Function],
-                              ";border-color:",
-                              [Function],
-                              ";transition:color 0.5s;&::before{font-size:45px;line-height:35px;color:",
-                              [Function],
-                              ";transition:color 0.5s;}&:hover{color:",
-                              [Function],
-                              ";&::before{color:",
-                              [Function],
-                              ";}}",
-                            ],
-                          },
-                          "displayName": "GoTop__GoTopIcon",
-                          "foldedComponentIds": Array [],
-                          "render": [Function],
-                          "styledComponentId": "GoTop__GoTopIcon-sc-18ceaec-1",
-                          "target": [Function],
-                          "toString": [Function],
-                          "warnTooManyClasses": [Function],
-                          "withComponent": [Function],
-                        }
-                      }
-                      forwardedRef={null}
+                    <GoTop__GoTopIcon
                       name="goTop"
                     >
-                      <Icon
-                        className="GoTop__GoTopIcon-sc-18ceaec-1 gjeSlo"
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "GoTop__GoTopIcon-sc-18ceaec-1",
+                              "isStatic": false,
+                              "lastClassName": "gjeSlo",
+                              "rules": Array [
+                                "position:absolute;top:-20px;left:50%;z-index:200;display:block;width:36px;height:36px;margin-left:-15px;font-size:0;border:none;overflow:hidden;color:",
+                                [Function],
+                                ";border-color:",
+                                [Function],
+                                ";transition:color 0.5s;&::before{font-size:45px;line-height:35px;color:",
+                                [Function],
+                                ";transition:color 0.5s;}&:hover{color:",
+                                [Function],
+                                ";&::before{color:",
+                                [Function],
+                                ";}}",
+                              ],
+                            },
+                            "displayName": "GoTop__GoTopIcon",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "GoTop__GoTopIcon-sc-18ceaec-1",
+                            "target": [Function],
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
                         name="goTop"
                       >
-                        <Icon__Symbol
+                        <Icon
                           className="GoTop__GoTopIcon-sc-18ceaec-1 gjeSlo"
                           name="goTop"
                         >
-                          <StyledComponent
+                          <Icon__Symbol
                             className="GoTop__GoTopIcon-sc-18ceaec-1 gjeSlo"
-                            forwardedComponent={
-                              Object {
-                                "$$typeof": Symbol(react.forward_ref),
-                                "attrs": Array [],
-                                "componentStyle": ComponentStyle {
-                                  "componentId": "Icon__Symbol-sc-1aleqew-0",
-                                  "isStatic": false,
-                                  "lastClassName": "fUifJe",
-                                  "rules": Array [
-                                    "display:inline-block;&::before{font-family:",
-                                    [Function],
-                                    ";font-style:normal;font-weight:normal;content:'",
-                                    [Function],
-                                    "';}",
-                                  ],
-                                },
-                                "displayName": "Icon__Symbol",
-                                "foldedComponentIds": Array [],
-                                "render": [Function],
-                                "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
-                                "target": "div",
-                                "toString": [Function],
-                                "warnTooManyClasses": [Function],
-                                "withComponent": [Function],
-                              }
-                            }
-                            forwardedRef={null}
                             name="goTop"
                           >
-                            <div
-                              className="Icon__Symbol-sc-1aleqew-0 fUifJe GoTop__GoTopIcon-sc-18ceaec-1 gjeSlo"
+                            <StyledComponent
+                              className="GoTop__GoTopIcon-sc-18ceaec-1 gjeSlo"
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "Icon__Symbol-sc-1aleqew-0",
+                                    "isStatic": false,
+                                    "lastClassName": "fUifJe",
+                                    "rules": Array [
+                                      "display:inline-block;&::before{font-family:",
+                                      [Function],
+                                      ";font-style:normal;font-weight:normal;content:'",
+                                      [Function],
+                                      "';}",
+                                    ],
+                                  },
+                                  "displayName": "Icon__Symbol",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
                               name="goTop"
-                            />
-                          </StyledComponent>
-                        </Icon__Symbol>
-                      </Icon>
-                    </StyledComponent>
-                  </GoTop__GoTopIcon>
-                </a>
-              </StyledComponent>
-            </GoTop__Container>
+                            >
+                              <div
+                                className="Icon__Symbol-sc-1aleqew-0 fUifJe GoTop__GoTopIcon-sc-18ceaec-1 gjeSlo"
+                                name="goTop"
+                              />
+                            </StyledComponent>
+                          </Icon__Symbol>
+                        </Icon>
+                      </StyledComponent>
+                    </GoTop__GoTopIcon>
+                  </a>
+                </StyledComponent>
+              </GoTop__Container>
+            </Link>
           </GoTop>
         </div>
       </footer>
