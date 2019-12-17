@@ -4,9 +4,10 @@ import Container from '~/views/components/common/section/Container'
 import Header from '~/views/components/common/section/Header'
 import Content from '~/views/components/project/Content'
 import Item from '~/views/components/project/Item'
+import { PROJECTS } from '~/consts/pages'
 
 const Project = () => (
-  <Container id="projects">
+  <Container id={PROJECTS}>
     <Header>
       <h2>
         <Translate id="Project: Title" />
