@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components/macro'
+import Container from 'react-bootstrap/Container'
 import { WHYME } from '~/consts/pages'
 import Title from '~/views/components/whyme/Title'
 import Quote from '~/views/components/whyme/Quote'
-import Container from 'react-bootstrap/Container'
 import { Translate } from 'react-localize-redux'
 
 const WhyMe = () => (

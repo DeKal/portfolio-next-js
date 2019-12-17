@@ -45,6 +45,6 @@ const Container = styled.a`
   }
 `
 const SelectedContainer = styled(Container)`
-  color: ${props => props.theme.colors.colorDarken};
+  color: ${props => props.theme.colors.colorDarken} !important;
   border: none;
 `

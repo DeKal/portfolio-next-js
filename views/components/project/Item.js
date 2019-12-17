@@ -2,11 +2,15 @@ import React from 'react'
 import styled from 'styled-components/macro'
 import PropTypes from 'prop-types'
 import Caption from '~/views/components/project/Caption'
+import Col from 'react-bootstrap/Col'
+
 const Item = ({ imgSrc, imgAlt, linkToWeb, hoverTitle }) => (
-  <Container className="projects__item">
-    <Image src={imgSrc} alt={imgAlt} />
-    <Caption linkToWeb={linkToWeb} hoverTitle={hoverTitle} />
-  </Container>
+  <Col xs={12} sm={6} md={3}>
+    <Container>
+      <Image src={imgSrc} alt={imgAlt} />
+      <Caption linkToWeb={linkToWeb} hoverTitle={hoverTitle} />
+    </Container>
+  </Col>
 )
 
 Item.propTypes = {
@@ -20,7 +24,8 @@ export default Item
 
 const Container = styled.figure`
   position: relative;
-  height: 0;
+  height: 250px;
+  width: 100%;
   padding-bottom: 18.75%;
   overflow: hidden;
   background: black;
@@ -47,4 +52,5 @@ const Image = styled.img`
   display: block;
   height: 100%;
   margin: 0 auto;
+  max-width: 100%;
 `
