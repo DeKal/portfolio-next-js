@@ -2,11 +2,14 @@ import React from 'react'
 import styled from 'styled-components/macro'
 import Icon from '~/views/components/common/Icon'
 import { HOME } from '~/consts/pages'
+import Link from 'next/link'
 
 const GoTop = () => (
-  <Container href={`#${HOME}`}>
-    <GoTopIcon name="goTop" />
-  </Container>
+  <Link href={`#${HOME}`}>
+    <Container>
+      <GoTopIcon name="goTop" />
+    </Container>
+  </Link>
 )
 
 export default GoTop
