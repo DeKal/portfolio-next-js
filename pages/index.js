@@ -19,8 +19,8 @@ const HomePage = () => (
     <About />
     <Experiences />
     <WhyMe />
-    <Certification />
     <Project />
+    <Certification />
     <Contact />
     <Footer />
   </Fragment>
