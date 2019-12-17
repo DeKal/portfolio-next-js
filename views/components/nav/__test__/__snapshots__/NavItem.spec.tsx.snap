@@ -1,15 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Nav Item should render Normal NavItem 1`] = `
-<NavItem__Container
-  data-test-id="nav-link"
+<Link
   href="#Home"
-  onClick={[Function]}
 >
-  <Translate
-    id="Home"
-  />
-</NavItem__Container>
+  <NavItem__Container
+    data-test-id="nav-link"
+    onClick={[Function]}
+  >
+    <Translate
+      id="Home"
+    />
+  </NavItem__Container>
+</Link>
 `;
 
 exports[`Nav Item should render Selected NavItem 1`] = `
