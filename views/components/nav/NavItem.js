@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components/macro'
 import { Translate } from 'react-localize-redux'
+import Link from 'next/link'
 
 const NavItem = ({ page, isSelected, setSelectedPage }) => {
   return isSelected ? (
@@ -9,15 +10,16 @@ const NavItem = ({ page, isSelected, setSelectedPage }) => {
       <Translate id={page} />
     </SelectedContainer>
   ) : (
-    <Container
-      data-test-id="nav-link"
-      href={`#${page}`}
-      onClick={() => {
-        setSelectedPage(page)
-      }}
-    >
-      <Translate id={page} />
-    </Container>
+    <Link href={`#${page}`}>
+      <Container
+        data-test-id="nav-link"
+        onClick={() => {
+          setSelectedPage(page)
+        }}
+      >
+        <Translate id={page} />
+      </Container>
+    </Link>
   )
 }
 
