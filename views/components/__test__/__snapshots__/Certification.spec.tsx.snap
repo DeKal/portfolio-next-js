@@ -5,7 +5,9 @@ exports[`Certification should render without throwing an error 1`] = `
   <Container
     id="Certifications"
   >
-    <Container__Style>
+    <Container__Style
+      id="Certifications"
+    >
       <StyledComponent
         forwardedComponent={
           Object {
@@ -30,9 +32,11 @@ exports[`Certification should render without throwing an error 1`] = `
           }
         }
         forwardedRef={null}
+        id="Certifications"
       >
         <section
           className="Container__Style-ls6jfm-0 kPautF"
+          id="Certifications"
         >
           <div
             className="container"
