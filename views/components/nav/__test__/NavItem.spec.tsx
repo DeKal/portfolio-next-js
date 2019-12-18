@@ -1,6 +1,20 @@
 import * as React from 'react'
 import { shallowWithTheme, mountWithTheme } from '~/utils/withThemeProviders'
 import NavItem from '~/views/components/nav/NavItem'
+const Router = require('next/router').default;
+
+const actionWithPromise = () => {
+  return new Promise((resolve) => resolve());
+};
+
+const mockedRouter = {
+  push: actionWithPromise,
+  replace: actionWithPromise,
+  prefetch: () => {},
+};
+
+// @ts-ignore
+Router.router = mockedRouter
 
 describe('Nav Item', () => {
   it('should render Selected NavItem', function() {
