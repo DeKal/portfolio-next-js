@@ -5,8 +5,8 @@ import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
 
 const Content = ({ children }) => (
-  <NoPaddingContainer fluid="true">
-    <Row fluid="true" noGutters>
+  <NoPaddingContainer>
+    <Row noGutters>
       {children}
     </Row>
   </NoPaddingContainer>
