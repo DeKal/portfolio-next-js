@@ -101,162 +101,166 @@ exports[`Home should render without throwing an error 1`] = `
             <div
               className="Home__Overlay-sc-1eskvms-4 kzYHcr"
             >
-              <div
-                className="container"
+              <Container
+                fluid={false}
               >
-                <Home__Header>
-                  <StyledComponent
-                    forwardedComponent={
-                      Object {
-                        "$$typeof": Symbol(react.forward_ref),
-                        "attrs": Array [],
-                        "componentStyle": ComponentStyle {
-                          "componentId": "Home__Header-sc-1eskvms-5",
-                          "isStatic": false,
-                          "lastClassName": "goxKxF",
-                          "rules": Array [
-                            "padding:",
-                            [Function],
-                            ";text-align:left;@media screen and (max-width:800px){text-align:center;}@media screen and (max-width:600px){padding:100px 0 300px;}",
-                          ],
-                        },
-                        "displayName": "Home__Header",
-                        "foldedComponentIds": Array [],
-                        "render": [Function],
-                        "styledComponentId": "Home__Header-sc-1eskvms-5",
-                        "target": "header",
-                        "toString": [Function],
-                        "warnTooManyClasses": [Function],
-                        "withComponent": [Function],
+                <div
+                  className="container"
+                >
+                  <Home__Header>
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "Home__Header-sc-1eskvms-5",
+                            "isStatic": false,
+                            "lastClassName": "goxKxF",
+                            "rules": Array [
+                              "padding:",
+                              [Function],
+                              ";text-align:left;@media screen and (max-width:800px){text-align:center;}@media screen and (max-width:600px){padding:100px 0 300px;}",
+                            ],
+                          },
+                          "displayName": "Home__Header",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "Home__Header-sc-1eskvms-5",
+                          "target": "header",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
                       }
-                    }
-                    forwardedRef={null}
-                  >
-                    <header
-                      className="Home__Header-sc-1eskvms-5 goxKxF"
+                      forwardedRef={null}
                     >
-                      <Home__TitleName>
-                        <StyledComponent
-                          forwardedComponent={
-                            Object {
-                              "$$typeof": Symbol(react.forward_ref),
-                              "attrs": Array [],
-                              "componentStyle": ComponentStyle {
-                                "componentId": "Home__TitleName-sc-1eskvms-1",
-                                "isStatic": false,
-                                "lastClassName": "klbGLv",
-                                "rules": Array [
-                                  "margin-bottom:10px;font-size:100px;text-shadow:1px 1px 1px ",
-                                  [Function],
-                                  ";@media screen and (max-width:1200px){font-size:75px;}@media screen and (max-width:800px){font-size:50px;}",
-                                ],
-                              },
-                              "displayName": "Home__TitleName",
-                              "foldedComponentIds": Array [],
-                              "render": [Function],
-                              "styledComponentId": "Home__TitleName-sc-1eskvms-1",
-                              "target": "h1",
-                              "toString": [Function],
-                              "warnTooManyClasses": [Function],
-                              "withComponent": [Function],
+                      <header
+                        className="Home__Header-sc-1eskvms-5 goxKxF"
+                      >
+                        <Home__TitleName>
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "Home__TitleName-sc-1eskvms-1",
+                                  "isStatic": false,
+                                  "lastClassName": "klbGLv",
+                                  "rules": Array [
+                                    "margin-bottom:10px;font-size:100px;text-shadow:1px 1px 1px ",
+                                    [Function],
+                                    ";@media screen and (max-width:1200px){font-size:75px;}@media screen and (max-width:800px){font-size:50px;}",
+                                  ],
+                                },
+                                "displayName": "Home__TitleName",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "Home__TitleName-sc-1eskvms-1",
+                                "target": "h1",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
                             }
-                          }
-                          forwardedRef={null}
-                        >
-                          <h1
-                            className="Home__TitleName-sc-1eskvms-1 klbGLv"
+                            forwardedRef={null}
                           >
-                            <Translate
-                              id="Name"
+                            <h1
+                              className="Home__TitleName-sc-1eskvms-1 klbGLv"
                             >
-                              <WrappedTranslate
-                                context={
-                                  Object {
-                                    "activeLanguage": undefined,
-                                    "addTranslation": [Function],
-                                    "addTranslationForLanguage": [Function],
-                                    "defaultLanguage": undefined,
-                                    "ignoreTranslateChildren": false,
-                                    "initialize": [Function],
-                                    "languages": Array [],
-                                    "renderToStaticMarkup": false,
-                                    "setActiveLanguage": [Function],
-                                    "translate": [Function],
-                                  }
-                                }
+                              <Translate
                                 id="Name"
                               >
-                                Missing translationId: Name for language: \${ languageCode }
-                              </WrappedTranslate>
-                            </Translate>
-                          </h1>
-                        </StyledComponent>
-                      </Home__TitleName>
-                      <Home__TitleJob>
-                        <StyledComponent
-                          forwardedComponent={
-                            Object {
-                              "$$typeof": Symbol(react.forward_ref),
-                              "attrs": Array [],
-                              "componentStyle": ComponentStyle {
-                                "componentId": "Home__TitleJob-sc-1eskvms-2",
-                                "isStatic": false,
-                                "lastClassName": "fKrioB",
-                                "rules": Array [
-                                  "color:",
-                                  [Function],
-                                  ";font-family:",
-                                  [Function],
-                                  ";text-shadow:1px 1px 2px ",
-                                  [Function],
-                                  ";",
-                                ],
-                              },
-                              "displayName": "Home__TitleJob",
-                              "foldedComponentIds": Array [],
-                              "render": [Function],
-                              "styledComponentId": "Home__TitleJob-sc-1eskvms-2",
-                              "target": "h2",
-                              "toString": [Function],
-                              "warnTooManyClasses": [Function],
-                              "withComponent": [Function],
-                            }
-                          }
-                          forwardedRef={null}
-                        >
-                          <h2
-                            className="Home__TitleJob-sc-1eskvms-2 fKrioB"
-                          >
-                            <Translate
-                              id="Job"
-                            >
-                              <WrappedTranslate
-                                context={
-                                  Object {
-                                    "activeLanguage": undefined,
-                                    "addTranslation": [Function],
-                                    "addTranslationForLanguage": [Function],
-                                    "defaultLanguage": undefined,
-                                    "ignoreTranslateChildren": false,
-                                    "initialize": [Function],
-                                    "languages": Array [],
-                                    "renderToStaticMarkup": false,
-                                    "setActiveLanguage": [Function],
-                                    "translate": [Function],
+                                <WrappedTranslate
+                                  context={
+                                    Object {
+                                      "activeLanguage": undefined,
+                                      "addTranslation": [Function],
+                                      "addTranslationForLanguage": [Function],
+                                      "defaultLanguage": undefined,
+                                      "ignoreTranslateChildren": false,
+                                      "initialize": [Function],
+                                      "languages": Array [],
+                                      "renderToStaticMarkup": false,
+                                      "setActiveLanguage": [Function],
+                                      "translate": [Function],
+                                    }
                                   }
-                                }
+                                  id="Name"
+                                >
+                                  Missing translationId: Name for language: \${ languageCode }
+                                </WrappedTranslate>
+                              </Translate>
+                            </h1>
+                          </StyledComponent>
+                        </Home__TitleName>
+                        <Home__TitleJob>
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "Home__TitleJob-sc-1eskvms-2",
+                                  "isStatic": false,
+                                  "lastClassName": "fKrioB",
+                                  "rules": Array [
+                                    "color:",
+                                    [Function],
+                                    ";font-family:",
+                                    [Function],
+                                    ";text-shadow:1px 1px 2px ",
+                                    [Function],
+                                    ";",
+                                  ],
+                                },
+                                "displayName": "Home__TitleJob",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "Home__TitleJob-sc-1eskvms-2",
+                                "target": "h2",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                          >
+                            <h2
+                              className="Home__TitleJob-sc-1eskvms-2 fKrioB"
+                            >
+                              <Translate
                                 id="Job"
                               >
-                                Missing translationId: Job for language: \${ languageCode }
-                              </WrappedTranslate>
-                            </Translate>
-                          </h2>
-                        </StyledComponent>
-                      </Home__TitleJob>
-                    </header>
-                  </StyledComponent>
-                </Home__Header>
-              </div>
+                                <WrappedTranslate
+                                  context={
+                                    Object {
+                                      "activeLanguage": undefined,
+                                      "addTranslation": [Function],
+                                      "addTranslationForLanguage": [Function],
+                                      "defaultLanguage": undefined,
+                                      "ignoreTranslateChildren": false,
+                                      "initialize": [Function],
+                                      "languages": Array [],
+                                      "renderToStaticMarkup": false,
+                                      "setActiveLanguage": [Function],
+                                      "translate": [Function],
+                                    }
+                                  }
+                                  id="Job"
+                                >
+                                  Missing translationId: Job for language: \${ languageCode }
+                                </WrappedTranslate>
+                              </Translate>
+                            </h2>
+                          </StyledComponent>
+                        </Home__TitleJob>
+                      </header>
+                    </StyledComponent>
+                  </Home__Header>
+                </div>
+              </Container>
             </div>
           </StyledComponent>
         </Home__Overlay>

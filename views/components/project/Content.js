@@ -6,9 +6,7 @@ import Container from 'react-bootstrap/Container'
 
 const Content = ({ children }) => (
   <NoPaddingContainer>
-    <Row noGutters>
-      {children}
-    </Row>
+    <Row noGutters>{children}</Row>
   </NoPaddingContainer>
 )
 
