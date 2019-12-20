@@ -46,4 +46,8 @@ const Link = styled.a`
   @media screen and (max-width: 800px) {
     font-size: 20px;
   }
+
+  &:hover {
+    color: none;
+  }
 `

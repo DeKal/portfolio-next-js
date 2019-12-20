@@ -4,13 +4,15 @@ import styled from 'styled-components/macro'
 const Map = () => <Container id="map" />
 
 const Container = styled.div`
+  z-index: 0;
   position: relative;
   width: 100%;
-  height: 600px;
+  margin-top: -150px;
+  height: 500px;
   overflow: hidden;
   background-position: top center;
   background-size: cover;
   background-image: url(/images/map.jpg);
-  box-shadow: 0 0 2px 1px ${props => props.theme.colors.colorDark};
+  border-top: solid 1px ${props => props.theme.colors.colorDarken};
 `
 export default Map

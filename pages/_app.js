@@ -9,6 +9,7 @@ import LocalizedComponent from '~/views/localize/LocalizedComponent'
 import Loading from '~/views/original-components/Loading'
 import ErrorBoundary from '~/views/components/ErrorBoundary'
 
+import 'bootstrap/dist/css/bootstrap.min.css'
 //Import Global style
 import '~/styles/globalStyle.sass'
 

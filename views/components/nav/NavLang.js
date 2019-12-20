@@ -8,7 +8,7 @@ const NavLang = () => {
   const [selectedLang, setSelectedLang] = useState(getSelectedLang())
 
   return (
-    <NotSelectableDiv className="first-nav__links">
+    <NotSelectableDiv>
       <ul>
         <NavLinkItem>
           <NavLink

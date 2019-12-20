@@ -10,7 +10,7 @@ const Certification = () => {
   const [itemSelected, setSelectedItem] = useState(CERT_ACTIVE_ITEM[0])
 
   return (
-    <Container id={CERTIFICATIONS}>
+    <WorkAroundContainer id={CERTIFICATIONS}>
       <div className="container">
         <Header>
           <h2>Certifications and Prizes</h2>
@@ -50,7 +50,7 @@ const Certification = () => {
           />
         </List>
       </div>
-    </Container>
+    </WorkAroundContainer>
   )
 }
 
@@ -60,4 +60,12 @@ const List = styled.ul`
   position: relative;
   list-style-type: none;
   height: 360px;
+`
+
+/*
+ * Note: This is the workaround solution, because this section hasn't been implemented with bootstrap
+ * Refer to this issue: https://github.com/DeKal/portfolio-next-js/issues/78
+ */
+const WorkAroundContainer = styled(Container)`
+  height: 600px;
 `

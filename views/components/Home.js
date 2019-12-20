@@ -2,12 +2,13 @@ import * as React from 'react'
 import { HOME } from '~/consts/pages'
 import styled from 'styled-components/macro'
 import { Translate } from 'react-localize-redux'
+import Container from 'react-bootstrap/Container'
 
 const Home = () => (
   <HomeSection id={HOME}>
     <Background />
     <Overlay>
-      <div className="container">
+      <Container>
         <Header>
           <TitleName>
             <Translate id="Name" />
@@ -16,7 +17,7 @@ const Home = () => (
             <Translate id="Job" />
           </TitleJob>
         </Header>
-      </div>
+      </Container>
     </Overlay>
   </HomeSection>
 )

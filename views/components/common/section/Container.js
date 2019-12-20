@@ -2,9 +2,14 @@ import React from 'react'
 import styled from 'styled-components/macro'
 import PropTypes from 'prop-types'
 
-const Container = ({ id, children }) => <Style id={id}>{children}</Style>
+const Container = ({ id, className, children }) => (
+  <Style id={id} className={className}>
+    {children}
+  </Style>
+)
 
 Container.propTypes = {
+  className: PropTypes.string,
   children: PropTypes.any,
   id: PropTypes.any
 }

@@ -19,12 +19,14 @@ const Content = () => (
 export default Content
 
 const Container = styled.div`
+  z-index: 50;
   position: relative;
   min-height: 300px;
   padding: 20px 60px 20px 20px;
   background-color: ${props => props.theme.colors.colorLight};
   overflow: hidden;
   white-space: nowrap;
+  box-shadow: 2px 3px 3px -2px ${props => props.theme.colors.colorDark};
 `
 const Group = styled.div`
   display: inline-block;

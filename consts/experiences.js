@@ -1,4 +1,5 @@
-const companiesLeft = ['Dek', 'YBA', 'SmartApp']
-const companiesRight = ['GCS', 'GCS-intern', 'Brand360']
+const row1 = ['Dek', 'GCS']
+const row2 = ['YBA', 'GCS-intern']
+const row3 = ['SmartApp', 'Brand360']
 
-export const getCompanies = () => [companiesLeft, companiesRight]
+export const getCompanies = () => [row1, row2, row3]

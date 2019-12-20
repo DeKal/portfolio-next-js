@@ -12,20 +12,17 @@ export default NavLogo
 const Logo = styled.a`
   display: block;
   position: absolute;
-  top: 0;
-  left: 20px;
   width: ${props => props.theme.navContentMinHeight};
   color: ${props => props.theme.colors.colorLight};
   font-size: ${props => props.theme.navHeaderHeight};
   line-height: ${props => props.theme.navContentMinHeight};
   font-family: ${props => props.theme.fonts.fontSerif};
-  letter-spacing: -5px;
   font-weight: bold;
   text-align: center;
   background-color: ${props => props.theme.colors.colorAccent};
   border: none;
 
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 800px) {
     display: none;
   }
 

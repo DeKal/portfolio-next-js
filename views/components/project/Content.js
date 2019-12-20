@@ -1,8 +1,14 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import PropTypes from 'prop-types'
+import Row from 'react-bootstrap/Row'
+import Container from 'react-bootstrap/Container'
 
-const Content = ({ children }) => <Container>{children}</Container>
+const Content = ({ children }) => (
+  <NoPaddingContainer>
+    <Row noGutters>{children}</Row>
+  </NoPaddingContainer>
+)
 
 Content.propTypes = {
   children: PropTypes.any
@@ -10,9 +16,6 @@ Content.propTypes = {
 
 export default Content
 
-const Container = styled.div`
-  position: relative;
-  width: 100%;
-  clear: both;
-  overflow: hidden;
+const NoPaddingContainer = styled(Container)`
+  padding: 0;
 `

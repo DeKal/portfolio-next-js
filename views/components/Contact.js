@@ -4,35 +4,29 @@ import { CONTACTS } from '~/consts/pages'
 import Map from '~/views/components/contact/Map'
 import Content from '~/views/components/contact/Content'
 import Header from '~/views/components/contact/Header'
+import Container from 'react-bootstrap/Container'
 
 const Contact = () => (
-  <Container id={CONTACTS}>
-    <div className="container">
+  <Wrapper id={CONTACTS}>
+    <Container>
       <Card>
         <Header />
         <Content />
       </Card>
-    </div>
+    </Container>
     <Map />
-  </Container>
+  </Wrapper>
 )
 
 export default Contact
 
-const Container = styled.div`
+const Wrapper = styled.div`
   position: relative;
-  padding-top: 300px;
-
-  @media screen and (max-width: 800px) {
-    padding-top: 250px;
-  }
+  padding-top: 100px;
 `
 const Card = styled.section`
-  position: absolute;
-  top: -200px;
   z-index: 50;
   margin-left: calc((100% - calc(75% - 40px)) / 2);
-  box-shadow: 2px 2px 4px -2px ${props => props.theme.colors.colorDark};
   width: calc(75% - 40px);
 
   @media screen and (max-width: 800px) {
