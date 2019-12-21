@@ -2,12 +2,8 @@
 
 exports[`Experiences should render without throwing an error 1`] = `
 <Experiences>
-  <Container
-    id="Experiences"
-  >
-    <Container__Style
-      id="Experiences"
-    >
+  <Container>
+    <Container__Style>
       <StyledComponent
         forwardedComponent={
           Object {
@@ -16,9 +12,9 @@ exports[`Experiences should render without throwing an error 1`] = `
             "componentStyle": ComponentStyle {
               "componentId": "Container__Style-ls6jfm-0",
               "isStatic": false,
-              "lastClassName": "kPautF",
+              "lastClassName": "IjzqJ",
               "rules": Array [
-                "padding-top:100px;@media screen and (max-width:800px){padding-top:50px;}",
+                "position:relative;padding-top:100px;@media screen and (max-width:800px){padding-top:50px;}",
               ],
             },
             "displayName": "Container__Style",
@@ -32,12 +28,49 @@ exports[`Experiences should render without throwing an error 1`] = `
           }
         }
         forwardedRef={null}
-        id="Experiences"
       >
         <section
-          className="Container__Style-ls6jfm-0 kPautF"
-          id="Experiences"
+          className="Container__Style-ls6jfm-0 IjzqJ"
         >
+          <Anchor
+            id="Experiences"
+            top={-40}
+          >
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Anchor-sc-31ub0h-0",
+                    "isStatic": false,
+                    "lastClassName": "ismjQm",
+                    "rules": Array [
+                      "position:absolute;top:",
+                      [Function],
+                      "px;",
+                    ],
+                  },
+                  "displayName": "Anchor",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "Anchor-sc-31ub0h-0",
+                  "target": "span",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              id="Experiences"
+              top={-40}
+            >
+              <span
+                className="Anchor-sc-31ub0h-0 ismjQm"
+                id="Experiences"
+              />
+            </StyledComponent>
+          </Anchor>
           <Container
             fluid={false}
           >

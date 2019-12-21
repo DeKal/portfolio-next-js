@@ -2,9 +2,7 @@
 
 exports[`Certification should render without throwing an error 1`] = `
 <Certification>
-  <Certification__WorkAroundContainer
-    id="Certifications"
-  >
+  <Certification__WorkAroundContainer>
     <StyledComponent
       forwardedComponent={
         Object {
@@ -29,15 +27,12 @@ exports[`Certification should render without throwing an error 1`] = `
         }
       }
       forwardedRef={null}
-      id="Certifications"
     >
       <Container
         className="Certification__WorkAroundContainer-sc-1xpv3w4-1 kwTcsO"
-        id="Certifications"
       >
         <Container__Style
           className="Certification__WorkAroundContainer-sc-1xpv3w4-1 kwTcsO"
-          id="Certifications"
         >
           <StyledComponent
             className="Certification__WorkAroundContainer-sc-1xpv3w4-1 kwTcsO"
@@ -48,9 +43,9 @@ exports[`Certification should render without throwing an error 1`] = `
                 "componentStyle": ComponentStyle {
                   "componentId": "Container__Style-ls6jfm-0",
                   "isStatic": false,
-                  "lastClassName": "kPautF",
+                  "lastClassName": "IjzqJ",
                   "rules": Array [
-                    "padding-top:100px;@media screen and (max-width:800px){padding-top:50px;}",
+                    "position:relative;padding-top:100px;@media screen and (max-width:800px){padding-top:50px;}",
                   ],
                 },
                 "displayName": "Container__Style",
@@ -64,12 +59,49 @@ exports[`Certification should render without throwing an error 1`] = `
               }
             }
             forwardedRef={null}
-            id="Certifications"
           >
             <section
-              className="Container__Style-ls6jfm-0 kPautF Certification__WorkAroundContainer-sc-1xpv3w4-1 kwTcsO"
-              id="Certifications"
+              className="Container__Style-ls6jfm-0 IjzqJ Certification__WorkAroundContainer-sc-1xpv3w4-1 kwTcsO"
             >
+              <Anchor
+                id="Certifications"
+                top={-40}
+              >
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "Anchor-sc-31ub0h-0",
+                        "isStatic": false,
+                        "lastClassName": "ismjQm",
+                        "rules": Array [
+                          "position:absolute;top:",
+                          [Function],
+                          "px;",
+                        ],
+                      },
+                      "displayName": "Anchor",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "Anchor-sc-31ub0h-0",
+                      "target": "span",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  id="Certifications"
+                  top={-40}
+                >
+                  <span
+                    className="Anchor-sc-31ub0h-0 ismjQm"
+                    id="Certifications"
+                  />
+                </StyledComponent>
+              </Anchor>
               <div
                 className="container"
               >

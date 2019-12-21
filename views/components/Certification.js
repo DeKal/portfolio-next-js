@@ -5,12 +5,14 @@ import { CERTIFICATIONS } from '~/consts/pages'
 import { CERT_ACTIVE_ITEM } from '~/consts/certification'
 import Container from '~/views/components/common/section/Container'
 import Header from '~/views/components/common/section/Header'
+import Anchor from '~/views/components/common/Anchor'
 
 const Certification = () => {
   const [itemSelected, setSelectedItem] = useState(CERT_ACTIVE_ITEM[0])
 
   return (
-    <WorkAroundContainer id={CERTIFICATIONS}>
+    <WorkAroundContainer>
+      <Anchor id={CERTIFICATIONS} top={-40} />
       <div className="container">
         <Header>
           <h2>Certifications and Prizes</h2>

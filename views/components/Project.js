@@ -5,9 +5,11 @@ import Header from '~/views/components/common/section/Header'
 import Content from '~/views/components/project/Content'
 import Item from '~/views/components/project/Item'
 import { PROJECTS } from '~/consts/pages'
+import Anchor from '~/views/components/common/Anchor'
 
 const Project = () => (
-  <Container id={PROJECTS}>
+  <Container>
+    <Anchor id={PROJECTS} top={-40} />
     <Header>
       <h2>
         <Translate id="Project: Title" />

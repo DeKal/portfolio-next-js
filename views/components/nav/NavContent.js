@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import styled from 'styled-components/macro'
 import PropTypes from 'prop-types'
 import NavLogo from '~/views/components/nav/NavLogo'
@@ -7,10 +7,33 @@ import MobileContainer from '~/views/components/common/container/MobileContainer
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import { PAGE_LIST } from '~/consts/pages'
-import { INIT_SELECTED_PAGE } from '~/consts/initState'
+import {
+  getSelectedSection,
+  setJqueryScrollEvent,
+  cleanUpScrollEvent,
+  isSafari
+} from '~/utils/helpers'
 
 const NavContent = ({ isShowNavContent }) => {
-  const [selectedPage, setSelectedPage] = useState(INIT_SELECTED_PAGE)
+  const [selectedPage, setSelectedPage] = useState(getSelectedSection())
+
+  useEffect(() => {
+    const handleHashChange = () => {
+      setSelectedPage(getSelectedSection())
+    }
+    window.addEventListener('hashchange', handleHashChange)
+
+    /*
+     * Currently safari doesnt support smooth scrolling with scroll-behavior
+     * This is a workaround by jquery for the case in Safari
+     */
+    isSafari() && setJqueryScrollEvent()
+
+    return function cleanup() {
+      window.removeEventListener('hashchange', handleHashChange, false)
+      isSafari() && cleanUpScrollEvent()
+    }
+  })
 
   return (
     <NavContainer isShowNavContent={isShowNavContent}>

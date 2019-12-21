@@ -3,9 +3,11 @@ import { HOME } from '~/consts/pages'
 import styled from 'styled-components/macro'
 import { Translate } from 'react-localize-redux'
 import Container from 'react-bootstrap/Container'
+import Anchor from '~/views/components/common/Anchor'
 
 const Home = () => (
-  <HomeSection id={HOME}>
+  <HomeSection>
+    <Anchor id={HOME} />
     <Background />
     <Overlay>
       <Container>
