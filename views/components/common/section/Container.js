@@ -17,6 +17,7 @@ Container.propTypes = {
 export default Container
 
 const Style = styled.section`
+  position: relative;
   padding-top: 100px;
 
   @media screen and (max-width: 800px) {

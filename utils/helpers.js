@@ -1,15 +1,15 @@
-import { ABOUT } from '~/consts/pages'
+import { INIT_SELECTED_PAGE } from '~/consts/initState'
 
 export const offsetAnchor = () => {
   if (location.hash.length !== 0) {
-    const adjustPixel = calcAdjustPixel(location.hash)
-    window.scrollTo(window.scrollX, window.scrollY + adjustPixel)
+    window.scrollTo(window.scrollX, window.scrollY)
   }
 }
 
-const calcAdjustPixel = locationHash => {
-  if (locationHash === `#${ABOUT}`) {
-    return -150
+export const getSelectedSection = () => {
+  if (location.hash.length !== 0) {
+    const selectedPage = location.hash.substr(1)
+    return selectedPage
   }
-  return -50
+  return INIT_SELECTED_PAGE
 }

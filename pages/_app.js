@@ -25,7 +25,6 @@ export default class MyApp extends App {
     Router.onRouteChangeStart = () => this.setState({ loading: true })
     Router.onRouteChangeComplete = () => this.setState({ loading: false })
 
-    window.addEventListener('hashchange', offsetAnchor)
     window.setTimeout(offsetAnchor, 1)
   }
 
@@ -46,9 +45,5 @@ export default class MyApp extends App {
         </ThemeProvider>
       </IconContext.Provider>
     )
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener('hashchange', offsetAnchor, false)
   }
 }

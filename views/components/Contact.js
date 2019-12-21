@@ -5,9 +5,11 @@ import Map from '~/views/components/contact/Map'
 import Content from '~/views/components/contact/Content'
 import Header from '~/views/components/contact/Header'
 import Container from 'react-bootstrap/Container'
+import Anchor from '~/views/components/common/Anchor'
 
 const Contact = () => (
-  <Wrapper id={CONTACTS}>
+  <Wrapper>
+    <Anchor id={CONTACTS} top={-40} />
     <Container>
       <Card>
         <Header />

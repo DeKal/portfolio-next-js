@@ -4,10 +4,12 @@ import styled from 'styled-components/macro'
 import Container from 'react-bootstrap/Container'
 import CardHeader from '~/views/components/about/CardHeader'
 import CardInfo from '~/views/components/about/CardInfo'
+import Anchor from '~/views/components/common/Anchor'
 
 const About = () => (
   <Section>
-    <Container id={ABOUT}>
+    <Anchor id={ABOUT} top={-150} />
+    <Container>
       <Card>
         <CardHeader />
         <CardInfo />
@@ -17,6 +19,7 @@ const About = () => (
 )
 
 const Section = styled.section`
+  position: relative;
   margin-top: -200px;
 `
 
