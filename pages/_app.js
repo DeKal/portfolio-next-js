@@ -26,6 +26,7 @@ export default class MyApp extends App {
     Router.onRouteChangeComplete = () => this.setState({ loading: false })
 
     window.addEventListener('hashchange', offsetAnchor)
+    window.setTimeout(offsetAnchor, 1)
   }
 
   render() {
