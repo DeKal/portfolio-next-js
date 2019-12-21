@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slide should render without throwing an error 1`] = `
+<SlideIterator>
+  <Fade
+    key="0"
+    left={true}
+    right={false}
+  >
+    <RevealBase
+      fraction={0.2}
+      inEffect={
+        Object {
+          "count": 1,
+          "delay": 0,
+          "duration": 1000,
+          "forever": undefined,
+          "make": [Function],
+          "reverse": true,
+          "style": Object {
+            "animationFillMode": "both",
+          },
+        }
+      }
+      left={true}
+      outEffect={
+        Object {
+          "count": 1,
+          "delay": 0,
+          "duration": 1000,
+          "forever": undefined,
+          "make": [Function],
+          "reverse": true,
+          "style": Object {
+            "animationFillMode": "both",
+          },
+        }
+      }
+      refProp="ref"
+      right={false}
+    >
+      <div
+        className="react-reveal"
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        1
+      </div>
+    </RevealBase>
+  </Fade>
+  <Fade
+    key="1"
+    left={false}
+    right={true}
+  >
+    <RevealBase
+      fraction={0.2}
+      inEffect={
+        Object {
+          "count": 1,
+          "delay": 0,
+          "duration": 1000,
+          "forever": undefined,
+          "make": [Function],
+          "reverse": false,
+          "style": Object {
+            "animationFillMode": "both",
+          },
+        }
+      }
+      left={false}
+      outEffect={
+        Object {
+          "count": 1,
+          "delay": 0,
+          "duration": 1000,
+          "forever": undefined,
+          "make": [Function],
+          "reverse": false,
+          "style": Object {
+            "animationFillMode": "both",
+          },
+        }
+      }
+      refProp="ref"
+      right={true}
+    >
+      <div
+        className="react-reveal"
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        2
+      </div>
+    </RevealBase>
+  </Fade>
+  <Fade
+    key="2"
+    left={true}
+    right={false}
+  >
+    <RevealBase
+      fraction={0.2}
+      inEffect={
+        Object {
+          "count": 1,
+          "delay": 0,
+          "duration": 1000,
+          "forever": undefined,
+          "make": [Function],
+          "reverse": true,
+          "style": Object {
+            "animationFillMode": "both",
+          },
+        }
+      }
+      left={true}
+      outEffect={
+        Object {
+          "count": 1,
+          "delay": 0,
+          "duration": 1000,
+          "forever": undefined,
+          "make": [Function],
+          "reverse": true,
+          "style": Object {
+            "animationFillMode": "both",
+          },
+        }
+      }
+      refProp="ref"
+      right={false}
+    >
+      <div
+        className="react-reveal"
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        3
+      </div>
+    </RevealBase>
+  </Fade>
+</SlideIterator>
+`;

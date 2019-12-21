@@ -11,7 +11,8 @@ import {
   getSelectedSection,
   setJqueryScrollEvent,
   cleanUpScrollEvent,
-  isSafari
+  isSafari,
+  initHashLocation
 } from '~/utils/helpers'
 
 const NavContent = ({ isShowNavContent }) => {
@@ -22,7 +23,7 @@ const NavContent = ({ isShowNavContent }) => {
       setSelectedPage(getSelectedSection())
     }
     window.addEventListener('hashchange', handleHashChange)
-
+    initHashLocation()
     /*
      * Currently safari doesnt support smooth scrolling with scroll-behavior
      * This is a workaround by jquery for the case in Safari
