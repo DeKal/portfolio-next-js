@@ -17,4 +17,9 @@ describe('Nav Content', () => {
     const wrap = mountWithTheme(<NavContent isShowNavContent={false} />)
     expect(wrap).toMatchSnapshot()
   })
+
+  it('test hashChange when clicking to nav content', function() {
+    const wrap = mountWithTheme(<NavContent isShowNavContent={false} />)
+    wrap.find('[data-test-id="nav-link"]').first().simulate('click')
+  })
 })

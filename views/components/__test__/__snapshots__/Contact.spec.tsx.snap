@@ -2,9 +2,7 @@
 
 exports[`Footer should render without throwing an error 1`] = `
 <Contact>
-  <Contact__Wrapper
-    id="Contacts"
-  >
+  <Contact__Wrapper>
     <StyledComponent
       forwardedComponent={
         Object {
@@ -29,12 +27,49 @@ exports[`Footer should render without throwing an error 1`] = `
         }
       }
       forwardedRef={null}
-      id="Contacts"
     >
       <div
         className="Contact__Wrapper-h6hh4w-0 bpetES"
-        id="Contacts"
       >
+        <Anchor
+          id="Contacts"
+          top={-40}
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "Anchor-sc-31ub0h-0",
+                  "isStatic": false,
+                  "lastClassName": "ismjQm",
+                  "rules": Array [
+                    "position:absolute;top:",
+                    [Function],
+                    "px;",
+                  ],
+                },
+                "displayName": "Anchor",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "Anchor-sc-31ub0h-0",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            id="Contacts"
+            top={-40}
+          >
+            <span
+              className="Anchor-sc-31ub0h-0 ismjQm"
+              id="Contacts"
+            />
+          </StyledComponent>
+        </Anchor>
         <Container
           fluid={false}
         >

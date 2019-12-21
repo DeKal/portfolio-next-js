@@ -2,9 +2,7 @@
 
 exports[`Home should render without throwing an error 1`] = `
 <Home>
-  <Home__HomeSection
-    id="Home"
-  >
+  <Home__HomeSection>
     <StyledComponent
       forwardedComponent={
         Object {
@@ -31,12 +29,47 @@ exports[`Home should render without throwing an error 1`] = `
         }
       }
       forwardedRef={null}
-      id="Home"
     >
       <section
         className="Home__HomeSection-sc-1eskvms-0 blNagb"
-        id="Home"
       >
+        <Anchor
+          id="Home"
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "Anchor-sc-31ub0h-0",
+                  "isStatic": false,
+                  "lastClassName": "idBzXx",
+                  "rules": Array [
+                    "position:absolute;top:",
+                    [Function],
+                    "px;",
+                  ],
+                },
+                "displayName": "Anchor",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "Anchor-sc-31ub0h-0",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            id="Home"
+          >
+            <span
+              className="Anchor-sc-31ub0h-0 idBzXx"
+              id="Home"
+            />
+          </StyledComponent>
+        </Anchor>
         <Home__Background>
           <StyledComponent
             forwardedComponent={

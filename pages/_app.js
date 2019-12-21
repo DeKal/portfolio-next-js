@@ -3,12 +3,10 @@ import React from 'react'
 import { ThemeProvider } from 'styled-components/macro'
 import { LocalizeProvider } from 'react-localize-redux'
 import { IconContext } from 'react-icons/lib/'
-import Router from 'next/router'
 import theme from '~/views/theme'
 import LocalizedComponent from '~/views/localize/LocalizedComponent'
 import Loading from '~/views/original-components/Loading'
 import ErrorBoundary from '~/views/components/ErrorBoundary'
-import { offsetAnchor } from '~/utils/helpers'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 //Import Global style
@@ -21,11 +19,6 @@ export default class MyApp extends App {
 
   componentDidMount() {
     this.setState({ loading: false })
-
-    Router.onRouteChangeStart = () => this.setState({ loading: true })
-    Router.onRouteChangeComplete = () => this.setState({ loading: false })
-
-    window.setTimeout(offsetAnchor, 1)
   }
 
   render() {
