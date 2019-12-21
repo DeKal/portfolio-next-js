@@ -8,6 +8,7 @@ import theme from '~/views/theme'
 import LocalizedComponent from '~/views/localize/LocalizedComponent'
 import Loading from '~/views/original-components/Loading'
 import ErrorBoundary from '~/views/components/ErrorBoundary'
+import { offsetAnchor } from '~/utils/helpers'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 //Import Global style
@@ -23,6 +24,8 @@ export default class MyApp extends App {
 
     Router.onRouteChangeStart = () => this.setState({ loading: true })
     Router.onRouteChangeComplete = () => this.setState({ loading: false })
+
+    window.addEventListener('hashchange', offsetAnchor)
   }
 
   render() {
@@ -42,5 +45,9 @@ export default class MyApp extends App {
         </ThemeProvider>
       </IconContext.Provider>
     )
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('hashchange', offsetAnchor, false)
   }
 }

@@ -48,6 +48,6 @@ const Link = styled.a`
   }
 
   &:hover {
-    color: none;
+    color: none !important;
   }
 `
