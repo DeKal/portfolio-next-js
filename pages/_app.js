@@ -7,6 +7,7 @@ import theme from '~/views/theme'
 import LocalizedComponent from '~/views/localize/LocalizedComponent'
 import Loading from '~/views/original-components/Loading'
 import ErrorBoundary from '~/views/components/ErrorBoundary'
+import { offsetAnchor } from '~/utils/helpers'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 //Import Global style

@@ -10,6 +10,7 @@ import Certification from '~/views/components/Certification'
 import Project from '~/views/components/Project'
 import Contact from '~/views/components/Contact'
 import Footer from '~/views/components/Footer'
+import SlideIterator from '~/views/components/SlideIterator'
 
 const HomePage = () => (
   <Fragment>
@@ -17,11 +18,13 @@ const HomePage = () => (
     <Nav />
     <Home />
     <About />
-    <Experiences />
-    <WhyMe />
-    <Project />
-    <Certification />
-    <Contact />
+    <SlideIterator>
+      <Experiences />
+      <WhyMe />
+      <Project />
+      <Certification />
+      <Contact />
+    </SlideIterator>
     <Footer />
   </Fragment>
 )

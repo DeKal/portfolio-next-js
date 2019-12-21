@@ -1,6 +1,13 @@
 import { INIT_SELECTED_PAGE } from '~/consts/initState'
 import $ from 'jquery'
 
+export const initHashLocation = () => {
+  if (location.hash) {
+    const offset = $(location.hash).offset()
+    window.scrollTo(offset.left, offset.top)
+  }
+}
+
 export const isSafari = () => {
   var userAgent = navigator.userAgent.toLowerCase()
   if (userAgent.indexOf('safari') != -1) {
