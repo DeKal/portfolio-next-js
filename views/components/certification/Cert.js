@@ -1,33 +1,29 @@
 import React, { Fragment } from 'react'
-import styled from 'styled-components/macro'
-import CertIcon from '~/views/components/certification/CertIcon'
-import Info from '~/views/components/certification/Info'
-import Title from '~/views/components/certification/Title'
-import Item from '~/views/components/certification/Item'
-import {
-  CERT_ACTIVE_ITEM,
-  LEFT_INFO_POS,
-  ZINDEX,
-  LEFT_POS
-} from '~/consts/certification'
+import CertItem from '~/views/components/certification/CertItem'
+import CertInfo from '~/views/components/certification/CertInfo'
 import PropTypes from 'prop-types'
-import { Translate } from 'react-localize-redux'
+import Row from 'react-bootstrap/Row'
 
 const Cert = ({ itemSelected, setSelectedItem, title, content, id, name }) => {
   return (
     <Fragment>
-      <CertItem id={id} onClick={() => setSelectedItem(id)}>
-        <CertIcon id={id} itemSelected={itemSelected} name={name} />
-      </CertItem>
+      <Row>
+        <CertItem
+          itemSelected={itemSelected}
+          setSelectedItem={setSelectedItem}
+          id={id}
+          name={name}
+        />
+      </Row>
 
-      <CertInfo itemSelected={itemSelected} id={id}>
-        <Title>
-          <span>{id}</span> &mdash; <Translate id={title} />
-        </Title>
-        <p>
-          <Translate id={content} />
-        </p>
-      </CertInfo>
+      <Row>
+        <CertInfo
+          itemSelected={itemSelected}
+          id={id}
+          title={title}
+          content={content}
+        />
+      </Row>
     </Fragment>
   )
 }
@@ -42,19 +38,3 @@ Cert.propTypes = {
   id: PropTypes.number,
   name: PropTypes.string
 }
-
-const CertItem = styled(Item)`
-  left: ${({ id }) => LEFT_POS[id - 1]};
-  z-index: ${({ id }) => ZINDEX[id - 1]};
-  ${({ id }) => id == CERT_ACTIVE_ITEM[0] && 'margin-left: 0%;'}
-`
-
-const CertInfo = styled(Info)`
-  visibility: ${({ itemSelected, id }) =>
-    itemSelected == id ? 'visible' : 'hidden'};
-
-  &::before,
-  &::after {
-    left: ${({ id }) => LEFT_INFO_POS[id - 1]};
-  }
-`
