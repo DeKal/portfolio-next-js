@@ -4,6 +4,7 @@ const theme = {
   navHeaderHeight: '40px',
   navContentMinHeight: '80px',
   footerHeight: '50px',
+  navHeightWhenScrollingOnMobile: '45px',
   colors: {
     // Color variables
     colorLight: '#ecf0f1',

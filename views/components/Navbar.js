@@ -19,7 +19,8 @@ const Navbar = () => {
 const MainHeader = styled.header`
   position: fixed;
   z-index: 100;
-  width: 100%;
+  width: 100vw;
+  height: ${props => props.theme.navHeightWhenScrollingOnMobile};
 `
 
 export default Navbar

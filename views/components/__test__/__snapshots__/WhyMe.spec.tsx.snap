@@ -56,13 +56,13 @@ exports[`WhyMe should render without throwing an error 1`] = `
                   "componentStyle": ComponentStyle {
                     "componentId": "WhyMe__Inner-sc-1d5i2fy-1",
                     "isStatic": false,
-                    "lastClassName": "lkWgFJ",
+                    "lastClassName": "kHlvAZ",
                     "rules": Array [
-                      "text-align:center;margin-top:50px;&::after,&::before{content:'';position:absolute;top:15px;height:calc(100% - 15px);width:100%;}&::before{left:15px;border-left:10px solid ",
+                      "text-align:center;margin-top:50px;&::after,&::before{content:'';position:absolute;top:15px;height:calc(100% - 15px);}&::before{left:15px;border-left:10px solid ",
                       [Function],
                       ";}&::after{left:-15px;border-right:10px solid ",
                       [Function],
-                      ";}@media screen and (max-width:800px){margin-top:30px;}",
+                      ";width:100%;}@media screen and (max-width:800px){margin-top:30px;}",
                     ],
                   },
                   "displayName": "WhyMe__Inner",
@@ -78,7 +78,7 @@ exports[`WhyMe should render without throwing an error 1`] = `
               forwardedRef={null}
             >
               <div
-                className="WhyMe__Inner-sc-1d5i2fy-1 lkWgFJ"
+                className="WhyMe__Inner-sc-1d5i2fy-1 kHlvAZ"
               >
                 <Title>
                   <Title__Container>

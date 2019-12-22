@@ -33,7 +33,6 @@ const Inner = styled.div`
     position: absolute;
     top: 15px;
     height: calc(100% - 15px);
-    width: 100%;
   }
 
   &::before {
@@ -44,6 +43,7 @@ const Inner = styled.div`
   &::after {
     left: -15px;
     border-right: 10px solid ${props => props.theme.colors.colorAccent};
+    width: 100%;
   }
 
   @media screen and (max-width: 800px) {
