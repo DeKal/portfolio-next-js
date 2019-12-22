@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components/macro'
-import CertItemDemo from '~/views/components/certification/CertItemDemo'
+import CertItem from '~/views/components/certification/CertItem'
 import { CERTIFICATIONS } from '~/consts/pages'
 import { CERT_ACTIVE_ITEM } from '~/consts/certification'
 import Container from '~/views/components/common/section/Container'
@@ -21,25 +21,25 @@ const Certification = () => {
         </Header>
         <List>
           <Row>
-            <CertItemDemo
+            <CertItem
               itemSelected={itemSelected}
               setSelectedItem={setSelectedItem}
               id={CERT_ACTIVE_ITEM[0]}
               name="c"
             />
-            <CertItemDemo
+            <CertItem
               itemSelected={itemSelected}
               setSelectedItem={setSelectedItem}
               id={CERT_ACTIVE_ITEM[1]}
               name="c"
             />
-            <CertItemDemo
+            <CertItem
               itemSelected={itemSelected}
               setSelectedItem={setSelectedItem}
               id={CERT_ACTIVE_ITEM[2]}
               name="p"
             />
-            <CertItemDemo
+            <CertItem
               itemSelected={itemSelected}
               setSelectedItem={setSelectedItem}
               id={CERT_ACTIVE_ITEM[3]}

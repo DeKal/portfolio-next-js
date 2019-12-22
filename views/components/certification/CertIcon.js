@@ -25,7 +25,7 @@ const ItemIcon = styled(Icon)`
   display: block;
   width: 180px;
   height: 180px;
-  margin-left: -90px;
+  margin-left: 100%;
   text-align: center;
   background-color: ${props => props.theme.colors.colorLight};
   border: 1px solid ${props => props.theme.colors.colorLight};
