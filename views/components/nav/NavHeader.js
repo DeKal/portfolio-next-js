@@ -12,11 +12,11 @@ import Col from 'react-bootstrap/Col'
 const NavHeader = ({ isShowNavContent, switchNav }) => (
   <NavContainer>
     <MobileContainer>
-      <Row>
-        <Col>
+      <Row fluid="true">
+        <Col xs={6}>
           <NavLang />
         </Col>
-        <Col fluid="true">
+        <Col xs={6}>
           <NavControl
             data-test-id="switch-nav-content"
             onClick={() => switchNav(!isShowNavContent)}

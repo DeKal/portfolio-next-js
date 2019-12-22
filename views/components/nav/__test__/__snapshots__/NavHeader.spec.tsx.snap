@@ -78,14 +78,18 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                 className="MobileContainer-sc-14bpgy4-0 cQdUeW container"
               >
                 <ForwardRef
+                  fluid="true"
                   noGutters={false}
                 >
                   <div
                     className="row"
+                    fluid="true"
                   >
-                    <Col>
+                    <Col
+                      xs={6}
+                    >
                       <div
-                        className="col"
+                        className="col-6"
                       >
                         <NavLang>
                           <NavLang__NotSelectableDiv>
@@ -385,11 +389,10 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                       </div>
                     </Col>
                     <Col
-                      fluid="true"
+                      xs={6}
                     >
                       <div
-                        className="col"
-                        fluid="true"
+                        className="col-6"
                       >
                         <NavHeader__NavControl
                           data-test-id="switch-nav-content"
@@ -619,14 +622,18 @@ exports[`Nav Header should render when show NavContent 1`] = `
                 className="MobileContainer-sc-14bpgy4-0 cQdUeW container"
               >
                 <ForwardRef
+                  fluid="true"
                   noGutters={false}
                 >
                   <div
                     className="row"
+                    fluid="true"
                   >
-                    <Col>
+                    <Col
+                      xs={6}
+                    >
                       <div
-                        className="col"
+                        className="col-6"
                       >
                         <NavLang>
                           <NavLang__NotSelectableDiv>
@@ -926,11 +933,10 @@ exports[`Nav Header should render when show NavContent 1`] = `
                       </div>
                     </Col>
                     <Col
-                      fluid="true"
+                      xs={6}
                     >
                       <div
-                        className="col"
-                        fluid="true"
+                        className="col-6"
                       >
                         <NavHeader__NavControl
                           data-test-id="switch-nav-content"
@@ -1086,13 +1092,16 @@ exports[`Nav Header should switchNav from Off to On 1`] = `
 <NavHeader__NavContainer>
   <MobileContainer>
     <ForwardRef
+      fluid="true"
       noGutters={false}
     >
-      <Col>
+      <Col
+        xs={6}
+      >
         <NavLang />
       </Col>
       <Col
-        fluid="true"
+        xs={6}
       >
         <NavHeader__NavControl
           data-test-id="switch-nav-content"
@@ -1114,13 +1123,16 @@ exports[`Nav Header should switchNav from On to Off 1`] = `
 <NavHeader__NavContainer>
   <MobileContainer>
     <ForwardRef
+      fluid="true"
       noGutters={false}
     >
-      <Col>
+      <Col
+        xs={6}
+      >
         <NavLang />
       </Col>
       <Col
-        fluid="true"
+        xs={6}
       >
         <NavHeader__NavControl
           data-test-id="switch-nav-content"
