@@ -20,7 +20,6 @@ CertIcon.propTypes = {
 export default CertIcon
 
 const ItemIcon = styled(Icon)`
-  position: absolute;
   top: 0;
   left: 50%;
   display: block;

@@ -1,11 +1,13 @@
 import React, { useState } from 'react'
 import styled from 'styled-components/macro'
-import Cert from '~/views/components/certification/Cert'
+import CertItemDemo from '~/views/components/certification/CertItemDemo'
 import { CERTIFICATIONS } from '~/consts/pages'
 import { CERT_ACTIVE_ITEM } from '~/consts/certification'
 import Container from '~/views/components/common/section/Container'
 import Header from '~/views/components/common/section/Header'
 import Anchor from '~/views/components/common/Anchor'
+import Row from 'react-bootstrap/Row'
+import BContainer from 'react-bootstrap/Container'
 
 const Certification = () => {
   const [itemSelected, setSelectedItem] = useState(CERT_ACTIVE_ITEM[0])
@@ -13,12 +15,38 @@ const Certification = () => {
   return (
     <WorkAroundContainer>
       <Anchor id={CERTIFICATIONS} top={-40} />
-      <div className="container">
+      <BContainer>
         <Header>
           <h2>Certifications and Prizes</h2>
         </Header>
-        <List className="certification">
-          <Cert
+        <List>
+          <Row>
+            <CertItemDemo
+              itemSelected={itemSelected}
+              setSelectedItem={setSelectedItem}
+              id={CERT_ACTIVE_ITEM[0]}
+              name="c"
+            />
+            <CertItemDemo
+              itemSelected={itemSelected}
+              setSelectedItem={setSelectedItem}
+              id={CERT_ACTIVE_ITEM[1]}
+              name="c"
+            />
+            <CertItemDemo
+              itemSelected={itemSelected}
+              setSelectedItem={setSelectedItem}
+              id={CERT_ACTIVE_ITEM[2]}
+              name="p"
+            />
+            <CertItemDemo
+              itemSelected={itemSelected}
+              setSelectedItem={setSelectedItem}
+              id={CERT_ACTIVE_ITEM[3]}
+              name="p"
+            />
+          </Row>
+          {/* <Cert
             itemSelected={itemSelected}
             setSelectedItem={setSelectedItem}
             title="CertResearch"
@@ -49,9 +77,9 @@ const Certification = () => {
             content="CertContentDeliver"
             id={CERT_ACTIVE_ITEM[3]}
             name="p"
-          />
+          /> */}
         </List>
-      </div>
+      </BContainer>
     </WorkAroundContainer>
   )
 }
@@ -68,6 +96,4 @@ const List = styled.ul`
  * Note: This is the workaround solution, because this section hasn't been implemented with bootstrap
  * Refer to this issue: https://github.com/DeKal/portfolio-next-js/issues/78
  */
-const WorkAroundContainer = styled(Container)`
-  height: 600px;
-`
+const WorkAroundContainer = styled(Container)``
