@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import styled from 'styled-components/macro'
 import CertItem from '~/views/components/certification/CertItem'
+import CertInfo from '~/views/components/certification/CertInfo'
 import { CERTIFICATIONS } from '~/consts/pages'
-import { CERT_ACTIVE_ITEM } from '~/consts/certification'
+import { CERT_ACTIVE_ITEM, ITEM, INFO } from '~/consts/certification'
 import Container from '~/views/components/common/section/Container'
 import Header from '~/views/components/common/section/Header'
 import Anchor from '~/views/components/common/Anchor'
@@ -21,63 +22,27 @@ const Certification = () => {
         </Header>
         <List>
           <Row>
-            <CertItem
-              itemSelected={itemSelected}
-              setSelectedItem={setSelectedItem}
-              id={CERT_ACTIVE_ITEM[0]}
-              name="c"
-            />
-            <CertItem
-              itemSelected={itemSelected}
-              setSelectedItem={setSelectedItem}
-              id={CERT_ACTIVE_ITEM[1]}
-              name="c"
-            />
-            <CertItem
-              itemSelected={itemSelected}
-              setSelectedItem={setSelectedItem}
-              id={CERT_ACTIVE_ITEM[2]}
-              name="p"
-            />
-            <CertItem
-              itemSelected={itemSelected}
-              setSelectedItem={setSelectedItem}
-              id={CERT_ACTIVE_ITEM[3]}
-              name="p"
-            />
+            {ITEM.map((name, index) => (
+              <CertItem
+                key={index}
+                itemSelected={itemSelected}
+                setSelectedItem={setSelectedItem}
+                id={index + 1}
+                name={name}
+              />
+            ))}
           </Row>
-          {/* <Cert
-            itemSelected={itemSelected}
-            setSelectedItem={setSelectedItem}
-            title="CertResearch"
-            content="CertContentResearch"
-            id={CERT_ACTIVE_ITEM[0]}
-            name="c"
-          />
-          <Cert
-            itemSelected={itemSelected}
-            setSelectedItem={setSelectedItem}
-            title="CertDevelop"
-            content="CertContentDevelop"
-            id={CERT_ACTIVE_ITEM[1]}
-            name="c"
-          />
-          <Cert
-            itemSelected={itemSelected}
-            setSelectedItem={setSelectedItem}
-            title="CertDeploy"
-            content="CertContentDeploy"
-            id={CERT_ACTIVE_ITEM[2]}
-            name="p"
-          />
-          <Cert
-            itemSelected={itemSelected}
-            setSelectedItem={setSelectedItem}
-            title="CertDeliver"
-            content="CertContentDeliver"
-            id={CERT_ACTIVE_ITEM[3]}
-            name="p"
-          /> */}
+          <Row>
+            {INFO.map((info, index) => (
+              <CertInfo
+                key={index}
+                itemSelected={itemSelected}
+                id={index + 1}
+                title={info.title}
+                content={info.content}
+              />
+            ))}
+          </Row>
         </List>
       </BContainer>
     </WorkAroundContainer>

@@ -9,7 +9,7 @@ import Col from 'react-bootstrap/Col'
 
 const CertInfo = ({ itemSelected, id, title, content }) => {
   return (
-    <Col>
+    <Col md={12}>
       <ListInfo itemSelected={itemSelected} id={id}>
         <Title>
           <span>{id}</span> &mdash; <Translate id={title} />
@@ -26,10 +26,9 @@ export default CertInfo
 
 CertInfo.propTypes = {
   itemSelected: PropTypes.number,
-  title: PropTypes.string,
-  content: PropTypes.string,
   id: PropTypes.number,
-  name: PropTypes.string
+  title: PropTypes.string,
+  content: PropTypes.string
 }
 
 const ListInfo = styled(Info)`
