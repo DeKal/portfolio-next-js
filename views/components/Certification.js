@@ -3,7 +3,7 @@ import styled from 'styled-components/macro'
 import CertItem from '~/views/components/certification/CertItem'
 import CertInfo from '~/views/components/certification/CertInfo'
 import { CERTIFICATIONS } from '~/consts/pages'
-import { CERT_ACTIVE_ITEM, ITEM, INFO } from '~/consts/certification'
+import { ITEM, INFO } from '~/consts/certification'
 import Container from '~/views/components/common/section/Container'
 import Header from '~/views/components/common/section/Header'
 import Anchor from '~/views/components/common/Anchor'
@@ -11,7 +11,7 @@ import Row from 'react-bootstrap/Row'
 import BContainer from 'react-bootstrap/Container'
 
 const Certification = () => {
-  const [itemSelected, setSelectedItem] = useState(CERT_ACTIVE_ITEM[0])
+  const [itemSelected, setSelectedItem] = useState(1)
 
   return (
     <WorkAroundContainer>
