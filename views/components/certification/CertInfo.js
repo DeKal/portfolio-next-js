@@ -9,8 +9,8 @@ import Col from 'react-bootstrap/Col'
 
 const CertInfo = ({ itemSelected, id, title, content }) => {
   return (
-    <Col md={12}>
-      <ListInfo itemSelected={itemSelected} id={id}>
+    <StyleCol sm={12} xs={12} itemSelected={itemSelected} id={id}>
+      <ListInfo id={id}>
         <Title>
           <span>{id}</span> &mdash; <Translate id={title} />
         </Title>
@@ -18,7 +18,7 @@ const CertInfo = ({ itemSelected, id, title, content }) => {
           <Translate id={content} />
         </p>
       </ListInfo>
-    </Col>
+    </StyleCol>
   )
 }
 
@@ -32,11 +32,14 @@ CertInfo.propTypes = {
 }
 
 const ListInfo = styled(Info)`
-  visibility: ${({ itemSelected, id }) =>
-    itemSelected == id ? 'visible' : 'hidden'};
+  position: relative;
 
   &::before,
   &::after {
     left: ${({ id }) => LEFT_INFO_POS[id - 1]};
   }
+`
+
+const StyleCol = styled(Col)`
+  display: ${({ itemSelected, id }) => (itemSelected == id ? 'block' : 'none')};
 `
