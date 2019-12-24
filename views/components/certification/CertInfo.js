@@ -9,7 +9,7 @@ import Col from 'react-bootstrap/Col'
 
 const CertInfo = ({ itemSelected, id, title, content }) => {
   return (
-    <StyleCol sm={12} xs={12} itemSelected={itemSelected} id={id}>
+    <ShowOnSelectedCol sm={12} xs={12} itemSelected={itemSelected} id={id}>
       <ListInfo id={id}>
         <Title>
           <span>{id}</span> &mdash; <Translate id={title} />
@@ -18,7 +18,7 @@ const CertInfo = ({ itemSelected, id, title, content }) => {
           <Translate id={content} />
         </p>
       </ListInfo>
-    </StyleCol>
+    </ShowOnSelectedCol>
   )
 }
 
@@ -40,6 +40,6 @@ const ListInfo = styled(Info)`
   }
 `
 
-const StyleCol = styled(Col)`
+const ShowOnSelectedCol = styled(Col)`
   display: ${({ itemSelected, id }) => (itemSelected == id ? 'block' : 'none')};
 `

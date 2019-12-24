@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col'
 
 const CertItem = ({ itemSelected, setSelectedItem, id, name }) => {
   return (
-    <Col sm={3} md={3} xs={3} lg={3}>
+    <Col sm={3} xs={3}>
       <Item id={id} onClick={() => setSelectedItem(id)}>
         <CertIcon id={id} itemSelected={itemSelected} name={name} />
       </Item>

@@ -4,19 +4,19 @@ import CertItem from '~/views/components/certification/CertItem'
 import CertInfo from '~/views/components/certification/CertInfo'
 import { CERTIFICATIONS } from '~/consts/pages'
 import { ITEM, INFO } from '~/consts/certification'
-import Container from '~/views/components/common/section/Container'
 import Header from '~/views/components/common/section/Header'
 import Anchor from '~/views/components/common/Anchor'
 import Row from 'react-bootstrap/Row'
-import BContainer from 'react-bootstrap/Container'
+import Container from 'react-bootstrap/Container'
+import SectionContainer from '~/views/components/common/section/Container'
 
 const Certification = () => {
   const [itemSelected, setSelectedItem] = useState(1)
 
   return (
-    <WorkAroundContainer>
+    <SectionContainer>
       <Anchor id={CERTIFICATIONS} top={-40} />
-      <BContainer>
+      <Container>
         <Header>
           <h2>Certifications and Prizes</h2>
         </Header>
@@ -44,8 +44,8 @@ const Certification = () => {
             ))}
           </Row>
         </List>
-      </BContainer>
-    </WorkAroundContainer>
+      </Container>
+    </SectionContainer>
   )
 }
 
@@ -56,9 +56,3 @@ const List = styled.ul`
   list-style-type: none;
   height: 360px;
 `
-
-/*
- * Note: This is the workaround solution, because this section hasn't been implemented with bootstrap
- * Refer to this issue: https://github.com/DeKal/portfolio-next-js/issues/78
- */
-const WorkAroundContainer = styled(Container)``
