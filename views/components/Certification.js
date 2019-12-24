@@ -1,58 +1,51 @@
 import React, { useState } from 'react'
 import styled from 'styled-components/macro'
-import Cert from '~/views/components/certification/Cert'
+import CertItem from '~/views/components/certification/CertItem'
+import CertInfo from '~/views/components/certification/CertInfo'
 import { CERTIFICATIONS } from '~/consts/pages'
-import { CERT_ACTIVE_ITEM } from '~/consts/certification'
-import Container from '~/views/components/common/section/Container'
+import { ITEM, INFO } from '~/consts/certification'
 import Header from '~/views/components/common/section/Header'
 import Anchor from '~/views/components/common/Anchor'
+import Row from 'react-bootstrap/Row'
+import Container from 'react-bootstrap/Container'
+import SectionContainer from '~/views/components/common/section/Container'
 
 const Certification = () => {
-  const [itemSelected, setSelectedItem] = useState(CERT_ACTIVE_ITEM[0])
+  const [itemSelected, setSelectedItem] = useState(1)
 
   return (
-    <WorkAroundContainer>
+    <SectionContainer>
       <Anchor id={CERTIFICATIONS} top={-40} />
-      <div className="container">
+      <Container>
         <Header>
           <h2>Certifications and Prizes</h2>
         </Header>
-        <List className="certification">
-          <Cert
-            itemSelected={itemSelected}
-            setSelectedItem={setSelectedItem}
-            title="CertResearch"
-            content="CertContentResearch"
-            id={CERT_ACTIVE_ITEM[0]}
-            name="c"
-          />
-          <Cert
-            itemSelected={itemSelected}
-            setSelectedItem={setSelectedItem}
-            title="CertDevelop"
-            content="CertContentDevelop"
-            id={CERT_ACTIVE_ITEM[1]}
-            name="c"
-          />
-          <Cert
-            itemSelected={itemSelected}
-            setSelectedItem={setSelectedItem}
-            title="CertDeploy"
-            content="CertContentDeploy"
-            id={CERT_ACTIVE_ITEM[2]}
-            name="p"
-          />
-          <Cert
-            itemSelected={itemSelected}
-            setSelectedItem={setSelectedItem}
-            title="CertDeliver"
-            content="CertContentDeliver"
-            id={CERT_ACTIVE_ITEM[3]}
-            name="p"
-          />
+        <List>
+          <Row>
+            {ITEM.map((name, index) => (
+              <CertItem
+                key={index}
+                itemSelected={itemSelected}
+                setSelectedItem={setSelectedItem}
+                id={index + 1}
+                name={name}
+              />
+            ))}
+          </Row>
+          <Row>
+            {INFO.map((info, index) => (
+              <CertInfo
+                key={index}
+                itemSelected={itemSelected}
+                id={index + 1}
+                title={info.title}
+                content={info.content}
+              />
+            ))}
+          </Row>
         </List>
-      </div>
-    </WorkAroundContainer>
+      </Container>
+    </SectionContainer>
   )
 }
 
@@ -62,12 +55,4 @@ const List = styled.ul`
   position: relative;
   list-style-type: none;
   height: 360px;
-`
-
-/*
- * Note: This is the workaround solution, because this section hasn't been implemented with bootstrap
- * Refer to this issue: https://github.com/DeKal/portfolio-next-js/issues/78
- */
-const WorkAroundContainer = styled(Container)`
-  height: 600px;
 `

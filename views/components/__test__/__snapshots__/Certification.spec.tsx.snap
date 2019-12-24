@@ -2,168 +2,101 @@
 
 exports[`Certification should render without throwing an error 1`] = `
 <Certification>
-  <Certification__WorkAroundContainer>
-    <StyledComponent
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "Certification__WorkAroundContainer-sc-1xpv3w4-1",
-            "isStatic": false,
-            "lastClassName": "kwTcsO",
-            "rules": Array [
-              "height:600px;",
-            ],
-          },
-          "displayName": "Certification__WorkAroundContainer",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "Certification__WorkAroundContainer-sc-1xpv3w4-1",
-          "target": [Function],
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
+  <Container>
+    <Container__Style>
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "Container__Style-ls6jfm-0",
+              "isStatic": false,
+              "lastClassName": "IjzqJ",
+              "rules": Array [
+                "position:relative;padding-top:100px;@media screen and (max-width:800px){padding-top:50px;}",
+              ],
+            },
+            "displayName": "Container__Style",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "Container__Style-ls6jfm-0",
+            "target": "section",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
         }
-      }
-      forwardedRef={null}
-    >
-      <Container
-        className="Certification__WorkAroundContainer-sc-1xpv3w4-1 kwTcsO"
+        forwardedRef={null}
       >
-        <Container__Style
-          className="Certification__WorkAroundContainer-sc-1xpv3w4-1 kwTcsO"
+        <section
+          className="Container__Style-ls6jfm-0 IjzqJ"
         >
-          <StyledComponent
-            className="Certification__WorkAroundContainer-sc-1xpv3w4-1 kwTcsO"
-            forwardedComponent={
-              Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "attrs": Array [],
-                "componentStyle": ComponentStyle {
-                  "componentId": "Container__Style-ls6jfm-0",
-                  "isStatic": false,
-                  "lastClassName": "IjzqJ",
-                  "rules": Array [
-                    "position:relative;padding-top:100px;@media screen and (max-width:800px){padding-top:50px;}",
-                  ],
-                },
-                "displayName": "Container__Style",
-                "foldedComponentIds": Array [],
-                "render": [Function],
-                "styledComponentId": "Container__Style-ls6jfm-0",
-                "target": "section",
-                "toString": [Function],
-                "warnTooManyClasses": [Function],
-                "withComponent": [Function],
-              }
-            }
-            forwardedRef={null}
+          <Anchor
+            id="Certifications"
+            top={-40}
           >
-            <section
-              className="Container__Style-ls6jfm-0 IjzqJ Certification__WorkAroundContainer-sc-1xpv3w4-1 kwTcsO"
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Anchor-sc-31ub0h-0",
+                    "isStatic": false,
+                    "lastClassName": "ismjQm",
+                    "rules": Array [
+                      "position:absolute;top:",
+                      [Function],
+                      "px;",
+                    ],
+                  },
+                  "displayName": "Anchor",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "Anchor-sc-31ub0h-0",
+                  "target": "span",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              id="Certifications"
+              top={-40}
             >
-              <Anchor
+              <span
+                className="Anchor-sc-31ub0h-0 ismjQm"
                 id="Certifications"
-                top={-40}
-              >
-                <StyledComponent
-                  forwardedComponent={
-                    Object {
-                      "$$typeof": Symbol(react.forward_ref),
-                      "attrs": Array [],
-                      "componentStyle": ComponentStyle {
-                        "componentId": "Anchor-sc-31ub0h-0",
-                        "isStatic": false,
-                        "lastClassName": "ismjQm",
-                        "rules": Array [
-                          "position:absolute;top:",
-                          [Function],
-                          "px;",
-                        ],
-                      },
-                      "displayName": "Anchor",
-                      "foldedComponentIds": Array [],
-                      "render": [Function],
-                      "styledComponentId": "Anchor-sc-31ub0h-0",
-                      "target": "span",
-                      "toString": [Function],
-                      "warnTooManyClasses": [Function],
-                      "withComponent": [Function],
-                    }
-                  }
-                  forwardedRef={null}
-                  id="Certifications"
-                  top={-40}
-                >
-                  <span
-                    className="Anchor-sc-31ub0h-0 ismjQm"
-                    id="Certifications"
-                  />
-                </StyledComponent>
-              </Anchor>
-              <div
-                className="container"
-              >
-                <Header>
-                  <Header__Container>
-                    <StyledComponent
-                      forwardedComponent={
-                        Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "attrs": Array [],
-                          "componentStyle": ComponentStyle {
-                            "componentId": "Header__Container-co5usi-0",
-                            "isStatic": false,
-                            "lastClassName": "eCHESu",
-                            "rules": Array [
-                              "padding-bottom:50px;text-align:center;@media screen and (max-width:800px){padding-bottom:30px;}",
-                            ],
-                          },
-                          "displayName": "Header__Container",
-                          "foldedComponentIds": Array [],
-                          "render": [Function],
-                          "styledComponentId": "Header__Container-co5usi-0",
-                          "target": "header",
-                          "toString": [Function],
-                          "warnTooManyClasses": [Function],
-                          "withComponent": [Function],
-                        }
-                      }
-                      forwardedRef={null}
-                    >
-                      <header
-                        className="Header__Container-co5usi-0 eCHESu"
-                      >
-                        <h2>
-                          Certifications and Prizes
-                        </h2>
-                      </header>
-                    </StyledComponent>
-                  </Header__Container>
-                </Header>
-                <Certification__List
-                  className="certification"
-                >
+              />
+            </StyledComponent>
+          </Anchor>
+          <Container
+            fluid={false}
+          >
+            <div
+              className="container"
+            >
+              <Header>
+                <Header__Container>
                   <StyledComponent
-                    className="certification"
                     forwardedComponent={
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "Certification__List-sc-1xpv3w4-0",
+                          "componentId": "Header__Container-co5usi-0",
                           "isStatic": false,
-                          "lastClassName": "gHHNls",
+                          "lastClassName": "eCHESu",
                           "rules": Array [
-                            "position:relative;list-style-type:none;height:360px;",
+                            "padding-bottom:50px;text-align:center;@media screen and (max-width:800px){padding-bottom:30px;}",
                           ],
                         },
-                        "displayName": "Certification__List",
+                        "displayName": "Header__Container",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "Certification__List-sc-1xpv3w4-0",
-                        "target": "ul",
+                        "styledComponentId": "Header__Container-co5usi-0",
+                        "target": "header",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
                         "withComponent": [Function],
@@ -171,1256 +104,1551 @@ exports[`Certification should render without throwing an error 1`] = `
                     }
                     forwardedRef={null}
                   >
-                    <ul
-                      className="Certification__List-sc-1xpv3w4-0 gHHNls certification"
+                    <header
+                      className="Header__Container-co5usi-0 eCHESu"
                     >
-                      <Cert
-                        content="CertContentResearch"
-                        id={1}
-                        itemSelected={1}
-                        name="c"
-                        setSelectedItem={[Function]}
-                        title="CertResearch"
+                      <h2>
+                        Certifications and Prizes
+                      </h2>
+                    </header>
+                  </StyledComponent>
+                </Header__Container>
+              </Header>
+              <Certification__List>
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "Certification__List-sc-1xpv3w4-0",
+                        "isStatic": false,
+                        "lastClassName": "gHHNls",
+                        "rules": Array [
+                          "position:relative;list-style-type:none;height:360px;",
+                        ],
+                      },
+                      "displayName": "Certification__List",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "Certification__List-sc-1xpv3w4-0",
+                      "target": "ul",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <ul
+                    className="Certification__List-sc-1xpv3w4-0 gHHNls"
+                  >
+                    <ForwardRef
+                      noGutters={false}
+                    >
+                      <div
+                        className="row"
                       >
-                        <Cert__CertItem
+                        <CertItem
                           id={1}
-                          onClick={[Function]}
+                          itemSelected={1}
+                          key="0"
+                          name="c"
+                          setSelectedItem={[Function]}
                         >
-                          <StyledComponent
-                            forwardedComponent={
-                              Object {
-                                "$$typeof": Symbol(react.forward_ref),
-                                "attrs": Array [],
-                                "componentStyle": ComponentStyle {
-                                  "componentId": "Cert__CertItem-sc-63f6r1-0",
-                                  "isStatic": false,
-                                  "lastClassName": "ehBPxc",
-                                  "rules": Array [
-                                    "position:absolute;top:0;display:block;width:25%;height:100%;background-color:rgba(255,255,255,0);background-repeat:repeat;margin-left:-12.5%;",
-                                    "left:",
-                                    [Function],
-                                    ";z-index:",
-                                    [Function],
-                                    ";",
-                                    [Function],
-                                  ],
-                                },
-                                "displayName": "Cert__CertItem",
-                                "foldedComponentIds": Array [
-                                  "Item-sc-1ll32oh-0",
-                                ],
-                                "render": [Function],
-                                "styledComponentId": "Cert__CertItem-sc-63f6r1-0",
-                                "target": "li",
-                                "toString": [Function],
-                                "warnTooManyClasses": [Function],
-                                "withComponent": [Function],
-                              }
-                            }
-                            forwardedRef={null}
-                            id={1}
-                            onClick={[Function]}
+                          <Col
+                            sm={3}
+                            xs={3}
                           >
-                            <li
-                              className="Item-sc-1ll32oh-0 Cert__CertItem-sc-63f6r1-0 fwUKkx"
-                              id={1}
-                              onClick={[Function]}
+                            <div
+                              className="col-sm-3 col-3"
                             >
-                              <CertIcon
+                              <Item
+                                id={1}
+                                onClick={[Function]}
+                              >
+                                <StyledComponent
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "Item-sc-1ll32oh-0",
+                                        "isStatic": false,
+                                        "lastClassName": "blQgvd",
+                                        "rules": Array [
+                                          "top:0;display:block;width:25%;height:100%;background-color:rgba(255,255,255,0);background-repeat:repeat;margin-left:-12.5%;",
+                                        ],
+                                      },
+                                      "displayName": "Item",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "Item-sc-1ll32oh-0",
+                                      "target": "li",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                  id={1}
+                                  onClick={[Function]}
+                                >
+                                  <li
+                                    className="Item-sc-1ll32oh-0 blQgvd"
+                                    id={1}
+                                    onClick={[Function]}
+                                  >
+                                    <CertIcon
+                                      id={1}
+                                      itemSelected={1}
+                                      name="c"
+                                    >
+                                      <CertIcon__ActiveIcon
+                                        name="c"
+                                      >
+                                        <StyledComponent
+                                          forwardedComponent={
+                                            Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "attrs": Array [],
+                                              "componentStyle": ComponentStyle {
+                                                "componentId": "CertIcon__ActiveIcon-sc-108qrf2-2",
+                                                "isStatic": false,
+                                                "lastClassName": "efAkZC",
+                                                "rules": Array [
+                                                  "top:0;left:50%;display:block;width:180px;height:180px;margin-left:104%;text-align:center;background-color:",
+                                                  [Function],
+                                                  ";border:1px solid ",
+                                                  [Function],
+                                                  ";border-radius:50%;box-shadow:3px 4px 8px -4px ",
+                                                  [Function],
+                                                  ";transition:all 0.5s;@media screen and (max-width:992px){width:160px;height:160px;margin-left:35%;}@media screen and (max-width:768px){width:125px;height:125px;margin-left:5%;}@media screen and (max-width:576px){width:120px;height:120px;margin-left:20%;}@media screen and (max-width:480px){width:90px;height:90px;margin-left:15%;}@media screen and (max-width:375px){width:80px;height:80px;margin-left:-53%;}@media screen and (max-width:320px){width:70px;height:70px;margin-left:-40%;}&::before{font-family:",
+                                                  [Function],
+                                                  ";font-style:normal;font-weight:normal;font-size:80px;line-height:180px;color:",
+                                                  [Function],
+                                                  ";cursor:default;transition:all 0.5s;@media screen and (max-width:992px){font-size:70px;line-height:160px;}@media screen and (max-width:768px){font-size:63px;line-height:127px;}@media screen and (max-width:576px){font-size:56px;line-height:114px;}@media screen and (max-width:480px){font-size:47px;line-height:88px;}@media screen and (max-width:375px){font-size:40px;line-height:79px;}@media screen and (max-width:320px){font-size:35px;line-height:71px;}}",
+                                                  "border-color:",
+                                                  [Function],
+                                                  ";&::before{text-shadow:-1px -1px 0 ",
+                                                  [Function],
+                                                  ",0 -1px 0 ",
+                                                  [Function],
+                                                  ",1px -1px 0 ",
+                                                  [Function],
+                                                  ",1px 0 0 ",
+                                                  [Function],
+                                                  ",1px 1px 0 ",
+                                                  [Function],
+                                                  ",0 1px 0 ",
+                                                  [Function],
+                                                  ",-1px 1px 0 ",
+                                                  [Function],
+                                                  ",-1px 0 0 ",
+                                                  [Function],
+                                                  ";}",
+                                                ],
+                                              },
+                                              "displayName": "CertIcon__ActiveIcon",
+                                              "foldedComponentIds": Array [
+                                                "CertIcon__ItemIcon-sc-108qrf2-0",
+                                              ],
+                                              "render": [Function],
+                                              "styledComponentId": "CertIcon__ActiveIcon-sc-108qrf2-2",
+                                              "target": [Function],
+                                              "toString": [Function],
+                                              "warnTooManyClasses": [Function],
+                                              "withComponent": [Function],
+                                            }
+                                          }
+                                          forwardedRef={null}
+                                          name="c"
+                                        >
+                                          <Icon
+                                            className="CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__ActiveIcon-sc-108qrf2-2 efAkZC"
+                                            name="c"
+                                          >
+                                            <Icon__Symbol
+                                              className="CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__ActiveIcon-sc-108qrf2-2 efAkZC"
+                                              name="c"
+                                            >
+                                              <StyledComponent
+                                                className="CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__ActiveIcon-sc-108qrf2-2 efAkZC"
+                                                forwardedComponent={
+                                                  Object {
+                                                    "$$typeof": Symbol(react.forward_ref),
+                                                    "attrs": Array [],
+                                                    "componentStyle": ComponentStyle {
+                                                      "componentId": "Icon__Symbol-sc-1aleqew-0",
+                                                      "isStatic": false,
+                                                      "lastClassName": "cyhahg",
+                                                      "rules": Array [
+                                                        "display:inline-block;&::before{font-family:",
+                                                        [Function],
+                                                        ";font-style:normal;font-weight:normal;content:'",
+                                                        [Function],
+                                                        "';}",
+                                                      ],
+                                                    },
+                                                    "displayName": "Icon__Symbol",
+                                                    "foldedComponentIds": Array [],
+                                                    "render": [Function],
+                                                    "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
+                                                    "target": "div",
+                                                    "toString": [Function],
+                                                    "warnTooManyClasses": [Function],
+                                                    "withComponent": [Function],
+                                                  }
+                                                }
+                                                forwardedRef={null}
+                                                name="c"
+                                              >
+                                                <div
+                                                  className="Icon__Symbol-sc-1aleqew-0 kLuLfS CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__ActiveIcon-sc-108qrf2-2 efAkZC"
+                                                  name="c"
+                                                />
+                                              </StyledComponent>
+                                            </Icon__Symbol>
+                                          </Icon>
+                                        </StyledComponent>
+                                      </CertIcon__ActiveIcon>
+                                    </CertIcon>
+                                  </li>
+                                </StyledComponent>
+                              </Item>
+                            </div>
+                          </Col>
+                        </CertItem>
+                        <CertItem
+                          id={2}
+                          itemSelected={1}
+                          key="1"
+                          name="c"
+                          setSelectedItem={[Function]}
+                        >
+                          <Col
+                            sm={3}
+                            xs={3}
+                          >
+                            <div
+                              className="col-sm-3 col-3"
+                            >
+                              <Item
+                                id={2}
+                                onClick={[Function]}
+                              >
+                                <StyledComponent
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "Item-sc-1ll32oh-0",
+                                        "isStatic": false,
+                                        "lastClassName": "blQgvd",
+                                        "rules": Array [
+                                          "top:0;display:block;width:25%;height:100%;background-color:rgba(255,255,255,0);background-repeat:repeat;margin-left:-12.5%;",
+                                        ],
+                                      },
+                                      "displayName": "Item",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "Item-sc-1ll32oh-0",
+                                      "target": "li",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                  id={2}
+                                  onClick={[Function]}
+                                >
+                                  <li
+                                    className="Item-sc-1ll32oh-0 blQgvd"
+                                    id={2}
+                                    onClick={[Function]}
+                                  >
+                                    <CertIcon
+                                      id={2}
+                                      itemSelected={1}
+                                      name="c"
+                                    >
+                                      <CertIcon__InactiveIcon
+                                        name="c"
+                                      >
+                                        <StyledComponent
+                                          forwardedComponent={
+                                            Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "attrs": Array [],
+                                              "componentStyle": ComponentStyle {
+                                                "componentId": "CertIcon__InactiveIcon-sc-108qrf2-1",
+                                                "isStatic": false,
+                                                "lastClassName": "eAEDmH",
+                                                "rules": Array [
+                                                  "top:0;left:50%;display:block;width:180px;height:180px;margin-left:104%;text-align:center;background-color:",
+                                                  [Function],
+                                                  ";border:1px solid ",
+                                                  [Function],
+                                                  ";border-radius:50%;box-shadow:3px 4px 8px -4px ",
+                                                  [Function],
+                                                  ";transition:all 0.5s;@media screen and (max-width:992px){width:160px;height:160px;margin-left:35%;}@media screen and (max-width:768px){width:125px;height:125px;margin-left:5%;}@media screen and (max-width:576px){width:120px;height:120px;margin-left:20%;}@media screen and (max-width:480px){width:90px;height:90px;margin-left:15%;}@media screen and (max-width:375px){width:80px;height:80px;margin-left:-53%;}@media screen and (max-width:320px){width:70px;height:70px;margin-left:-40%;}&::before{font-family:",
+                                                  [Function],
+                                                  ";font-style:normal;font-weight:normal;font-size:80px;line-height:180px;color:",
+                                                  [Function],
+                                                  ";cursor:default;transition:all 0.5s;@media screen and (max-width:992px){font-size:70px;line-height:160px;}@media screen and (max-width:768px){font-size:63px;line-height:127px;}@media screen and (max-width:576px){font-size:56px;line-height:114px;}@media screen and (max-width:480px){font-size:47px;line-height:88px;}@media screen and (max-width:375px){font-size:40px;line-height:79px;}@media screen and (max-width:320px){font-size:35px;line-height:71px;}}",
+                                                  "&::before{text-shadow:-1px -1px 0 ",
+                                                  [Function],
+                                                  ",0 -1px 0 ",
+                                                  [Function],
+                                                  ",1px -1px 0 ",
+                                                  [Function],
+                                                  ",1px 0 0 ",
+                                                  [Function],
+                                                  ",1px 1px 0 ",
+                                                  [Function],
+                                                  ",0 1px 0 ",
+                                                  [Function],
+                                                  ",-1px 1px 0 ",
+                                                  [Function],
+                                                  ",-1px 0 0 ",
+                                                  [Function],
+                                                  ";}",
+                                                ],
+                                              },
+                                              "displayName": "CertIcon__InactiveIcon",
+                                              "foldedComponentIds": Array [
+                                                "CertIcon__ItemIcon-sc-108qrf2-0",
+                                              ],
+                                              "render": [Function],
+                                              "styledComponentId": "CertIcon__InactiveIcon-sc-108qrf2-1",
+                                              "target": [Function],
+                                              "toString": [Function],
+                                              "warnTooManyClasses": [Function],
+                                              "withComponent": [Function],
+                                            }
+                                          }
+                                          forwardedRef={null}
+                                          name="c"
+                                        >
+                                          <Icon
+                                            className="CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__InactiveIcon-sc-108qrf2-1 eAEDmH"
+                                            name="c"
+                                          >
+                                            <Icon__Symbol
+                                              className="CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__InactiveIcon-sc-108qrf2-1 eAEDmH"
+                                              name="c"
+                                            >
+                                              <StyledComponent
+                                                className="CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__InactiveIcon-sc-108qrf2-1 eAEDmH"
+                                                forwardedComponent={
+                                                  Object {
+                                                    "$$typeof": Symbol(react.forward_ref),
+                                                    "attrs": Array [],
+                                                    "componentStyle": ComponentStyle {
+                                                      "componentId": "Icon__Symbol-sc-1aleqew-0",
+                                                      "isStatic": false,
+                                                      "lastClassName": "cyhahg",
+                                                      "rules": Array [
+                                                        "display:inline-block;&::before{font-family:",
+                                                        [Function],
+                                                        ";font-style:normal;font-weight:normal;content:'",
+                                                        [Function],
+                                                        "';}",
+                                                      ],
+                                                    },
+                                                    "displayName": "Icon__Symbol",
+                                                    "foldedComponentIds": Array [],
+                                                    "render": [Function],
+                                                    "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
+                                                    "target": "div",
+                                                    "toString": [Function],
+                                                    "warnTooManyClasses": [Function],
+                                                    "withComponent": [Function],
+                                                  }
+                                                }
+                                                forwardedRef={null}
+                                                name="c"
+                                              >
+                                                <div
+                                                  className="Icon__Symbol-sc-1aleqew-0 kLuLfS CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__InactiveIcon-sc-108qrf2-1 eAEDmH"
+                                                  name="c"
+                                                />
+                                              </StyledComponent>
+                                            </Icon__Symbol>
+                                          </Icon>
+                                        </StyledComponent>
+                                      </CertIcon__InactiveIcon>
+                                    </CertIcon>
+                                  </li>
+                                </StyledComponent>
+                              </Item>
+                            </div>
+                          </Col>
+                        </CertItem>
+                        <CertItem
+                          id={3}
+                          itemSelected={1}
+                          key="2"
+                          name="p"
+                          setSelectedItem={[Function]}
+                        >
+                          <Col
+                            sm={3}
+                            xs={3}
+                          >
+                            <div
+                              className="col-sm-3 col-3"
+                            >
+                              <Item
+                                id={3}
+                                onClick={[Function]}
+                              >
+                                <StyledComponent
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "Item-sc-1ll32oh-0",
+                                        "isStatic": false,
+                                        "lastClassName": "blQgvd",
+                                        "rules": Array [
+                                          "top:0;display:block;width:25%;height:100%;background-color:rgba(255,255,255,0);background-repeat:repeat;margin-left:-12.5%;",
+                                        ],
+                                      },
+                                      "displayName": "Item",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "Item-sc-1ll32oh-0",
+                                      "target": "li",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                  id={3}
+                                  onClick={[Function]}
+                                >
+                                  <li
+                                    className="Item-sc-1ll32oh-0 blQgvd"
+                                    id={3}
+                                    onClick={[Function]}
+                                  >
+                                    <CertIcon
+                                      id={3}
+                                      itemSelected={1}
+                                      name="p"
+                                    >
+                                      <CertIcon__InactiveIcon
+                                        name="p"
+                                      >
+                                        <StyledComponent
+                                          forwardedComponent={
+                                            Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "attrs": Array [],
+                                              "componentStyle": ComponentStyle {
+                                                "componentId": "CertIcon__InactiveIcon-sc-108qrf2-1",
+                                                "isStatic": false,
+                                                "lastClassName": "eAEDmH",
+                                                "rules": Array [
+                                                  "top:0;left:50%;display:block;width:180px;height:180px;margin-left:104%;text-align:center;background-color:",
+                                                  [Function],
+                                                  ";border:1px solid ",
+                                                  [Function],
+                                                  ";border-radius:50%;box-shadow:3px 4px 8px -4px ",
+                                                  [Function],
+                                                  ";transition:all 0.5s;@media screen and (max-width:992px){width:160px;height:160px;margin-left:35%;}@media screen and (max-width:768px){width:125px;height:125px;margin-left:5%;}@media screen and (max-width:576px){width:120px;height:120px;margin-left:20%;}@media screen and (max-width:480px){width:90px;height:90px;margin-left:15%;}@media screen and (max-width:375px){width:80px;height:80px;margin-left:-53%;}@media screen and (max-width:320px){width:70px;height:70px;margin-left:-40%;}&::before{font-family:",
+                                                  [Function],
+                                                  ";font-style:normal;font-weight:normal;font-size:80px;line-height:180px;color:",
+                                                  [Function],
+                                                  ";cursor:default;transition:all 0.5s;@media screen and (max-width:992px){font-size:70px;line-height:160px;}@media screen and (max-width:768px){font-size:63px;line-height:127px;}@media screen and (max-width:576px){font-size:56px;line-height:114px;}@media screen and (max-width:480px){font-size:47px;line-height:88px;}@media screen and (max-width:375px){font-size:40px;line-height:79px;}@media screen and (max-width:320px){font-size:35px;line-height:71px;}}",
+                                                  "&::before{text-shadow:-1px -1px 0 ",
+                                                  [Function],
+                                                  ",0 -1px 0 ",
+                                                  [Function],
+                                                  ",1px -1px 0 ",
+                                                  [Function],
+                                                  ",1px 0 0 ",
+                                                  [Function],
+                                                  ",1px 1px 0 ",
+                                                  [Function],
+                                                  ",0 1px 0 ",
+                                                  [Function],
+                                                  ",-1px 1px 0 ",
+                                                  [Function],
+                                                  ",-1px 0 0 ",
+                                                  [Function],
+                                                  ";}",
+                                                ],
+                                              },
+                                              "displayName": "CertIcon__InactiveIcon",
+                                              "foldedComponentIds": Array [
+                                                "CertIcon__ItemIcon-sc-108qrf2-0",
+                                              ],
+                                              "render": [Function],
+                                              "styledComponentId": "CertIcon__InactiveIcon-sc-108qrf2-1",
+                                              "target": [Function],
+                                              "toString": [Function],
+                                              "warnTooManyClasses": [Function],
+                                              "withComponent": [Function],
+                                            }
+                                          }
+                                          forwardedRef={null}
+                                          name="p"
+                                        >
+                                          <Icon
+                                            className="CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__InactiveIcon-sc-108qrf2-1 eAEDmH"
+                                            name="p"
+                                          >
+                                            <Icon__Symbol
+                                              className="CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__InactiveIcon-sc-108qrf2-1 eAEDmH"
+                                              name="p"
+                                            >
+                                              <StyledComponent
+                                                className="CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__InactiveIcon-sc-108qrf2-1 eAEDmH"
+                                                forwardedComponent={
+                                                  Object {
+                                                    "$$typeof": Symbol(react.forward_ref),
+                                                    "attrs": Array [],
+                                                    "componentStyle": ComponentStyle {
+                                                      "componentId": "Icon__Symbol-sc-1aleqew-0",
+                                                      "isStatic": false,
+                                                      "lastClassName": "cyhahg",
+                                                      "rules": Array [
+                                                        "display:inline-block;&::before{font-family:",
+                                                        [Function],
+                                                        ";font-style:normal;font-weight:normal;content:'",
+                                                        [Function],
+                                                        "';}",
+                                                      ],
+                                                    },
+                                                    "displayName": "Icon__Symbol",
+                                                    "foldedComponentIds": Array [],
+                                                    "render": [Function],
+                                                    "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
+                                                    "target": "div",
+                                                    "toString": [Function],
+                                                    "warnTooManyClasses": [Function],
+                                                    "withComponent": [Function],
+                                                  }
+                                                }
+                                                forwardedRef={null}
+                                                name="p"
+                                              >
+                                                <div
+                                                  className="Icon__Symbol-sc-1aleqew-0 cyhahg CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__InactiveIcon-sc-108qrf2-1 eAEDmH"
+                                                  name="p"
+                                                />
+                                              </StyledComponent>
+                                            </Icon__Symbol>
+                                          </Icon>
+                                        </StyledComponent>
+                                      </CertIcon__InactiveIcon>
+                                    </CertIcon>
+                                  </li>
+                                </StyledComponent>
+                              </Item>
+                            </div>
+                          </Col>
+                        </CertItem>
+                        <CertItem
+                          id={4}
+                          itemSelected={1}
+                          key="3"
+                          name="p"
+                          setSelectedItem={[Function]}
+                        >
+                          <Col
+                            sm={3}
+                            xs={3}
+                          >
+                            <div
+                              className="col-sm-3 col-3"
+                            >
+                              <Item
+                                id={4}
+                                onClick={[Function]}
+                              >
+                                <StyledComponent
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "Item-sc-1ll32oh-0",
+                                        "isStatic": false,
+                                        "lastClassName": "blQgvd",
+                                        "rules": Array [
+                                          "top:0;display:block;width:25%;height:100%;background-color:rgba(255,255,255,0);background-repeat:repeat;margin-left:-12.5%;",
+                                        ],
+                                      },
+                                      "displayName": "Item",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "Item-sc-1ll32oh-0",
+                                      "target": "li",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                  id={4}
+                                  onClick={[Function]}
+                                >
+                                  <li
+                                    className="Item-sc-1ll32oh-0 blQgvd"
+                                    id={4}
+                                    onClick={[Function]}
+                                  >
+                                    <CertIcon
+                                      id={4}
+                                      itemSelected={1}
+                                      name="p"
+                                    >
+                                      <CertIcon__InactiveIcon
+                                        name="p"
+                                      >
+                                        <StyledComponent
+                                          forwardedComponent={
+                                            Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "attrs": Array [],
+                                              "componentStyle": ComponentStyle {
+                                                "componentId": "CertIcon__InactiveIcon-sc-108qrf2-1",
+                                                "isStatic": false,
+                                                "lastClassName": "eAEDmH",
+                                                "rules": Array [
+                                                  "top:0;left:50%;display:block;width:180px;height:180px;margin-left:104%;text-align:center;background-color:",
+                                                  [Function],
+                                                  ";border:1px solid ",
+                                                  [Function],
+                                                  ";border-radius:50%;box-shadow:3px 4px 8px -4px ",
+                                                  [Function],
+                                                  ";transition:all 0.5s;@media screen and (max-width:992px){width:160px;height:160px;margin-left:35%;}@media screen and (max-width:768px){width:125px;height:125px;margin-left:5%;}@media screen and (max-width:576px){width:120px;height:120px;margin-left:20%;}@media screen and (max-width:480px){width:90px;height:90px;margin-left:15%;}@media screen and (max-width:375px){width:80px;height:80px;margin-left:-53%;}@media screen and (max-width:320px){width:70px;height:70px;margin-left:-40%;}&::before{font-family:",
+                                                  [Function],
+                                                  ";font-style:normal;font-weight:normal;font-size:80px;line-height:180px;color:",
+                                                  [Function],
+                                                  ";cursor:default;transition:all 0.5s;@media screen and (max-width:992px){font-size:70px;line-height:160px;}@media screen and (max-width:768px){font-size:63px;line-height:127px;}@media screen and (max-width:576px){font-size:56px;line-height:114px;}@media screen and (max-width:480px){font-size:47px;line-height:88px;}@media screen and (max-width:375px){font-size:40px;line-height:79px;}@media screen and (max-width:320px){font-size:35px;line-height:71px;}}",
+                                                  "&::before{text-shadow:-1px -1px 0 ",
+                                                  [Function],
+                                                  ",0 -1px 0 ",
+                                                  [Function],
+                                                  ",1px -1px 0 ",
+                                                  [Function],
+                                                  ",1px 0 0 ",
+                                                  [Function],
+                                                  ",1px 1px 0 ",
+                                                  [Function],
+                                                  ",0 1px 0 ",
+                                                  [Function],
+                                                  ",-1px 1px 0 ",
+                                                  [Function],
+                                                  ",-1px 0 0 ",
+                                                  [Function],
+                                                  ";}",
+                                                ],
+                                              },
+                                              "displayName": "CertIcon__InactiveIcon",
+                                              "foldedComponentIds": Array [
+                                                "CertIcon__ItemIcon-sc-108qrf2-0",
+                                              ],
+                                              "render": [Function],
+                                              "styledComponentId": "CertIcon__InactiveIcon-sc-108qrf2-1",
+                                              "target": [Function],
+                                              "toString": [Function],
+                                              "warnTooManyClasses": [Function],
+                                              "withComponent": [Function],
+                                            }
+                                          }
+                                          forwardedRef={null}
+                                          name="p"
+                                        >
+                                          <Icon
+                                            className="CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__InactiveIcon-sc-108qrf2-1 eAEDmH"
+                                            name="p"
+                                          >
+                                            <Icon__Symbol
+                                              className="CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__InactiveIcon-sc-108qrf2-1 eAEDmH"
+                                              name="p"
+                                            >
+                                              <StyledComponent
+                                                className="CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__InactiveIcon-sc-108qrf2-1 eAEDmH"
+                                                forwardedComponent={
+                                                  Object {
+                                                    "$$typeof": Symbol(react.forward_ref),
+                                                    "attrs": Array [],
+                                                    "componentStyle": ComponentStyle {
+                                                      "componentId": "Icon__Symbol-sc-1aleqew-0",
+                                                      "isStatic": false,
+                                                      "lastClassName": "cyhahg",
+                                                      "rules": Array [
+                                                        "display:inline-block;&::before{font-family:",
+                                                        [Function],
+                                                        ";font-style:normal;font-weight:normal;content:'",
+                                                        [Function],
+                                                        "';}",
+                                                      ],
+                                                    },
+                                                    "displayName": "Icon__Symbol",
+                                                    "foldedComponentIds": Array [],
+                                                    "render": [Function],
+                                                    "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
+                                                    "target": "div",
+                                                    "toString": [Function],
+                                                    "warnTooManyClasses": [Function],
+                                                    "withComponent": [Function],
+                                                  }
+                                                }
+                                                forwardedRef={null}
+                                                name="p"
+                                              >
+                                                <div
+                                                  className="Icon__Symbol-sc-1aleqew-0 cyhahg CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__InactiveIcon-sc-108qrf2-1 eAEDmH"
+                                                  name="p"
+                                                />
+                                              </StyledComponent>
+                                            </Icon__Symbol>
+                                          </Icon>
+                                        </StyledComponent>
+                                      </CertIcon__InactiveIcon>
+                                    </CertIcon>
+                                  </li>
+                                </StyledComponent>
+                              </Item>
+                            </div>
+                          </Col>
+                        </CertItem>
+                      </div>
+                    </ForwardRef>
+                    <ForwardRef
+                      noGutters={false}
+                    >
+                      <div
+                        className="row"
+                      >
+                        <CertInfo
+                          content="CertContentBachelor"
+                          id={1}
+                          itemSelected={1}
+                          key="0"
+                          title="CertBachelor"
+                        >
+                          <CertInfo__ShowOnSelectedCol
+                            id={1}
+                            itemSelected={1}
+                            sm={12}
+                            xs={12}
+                          >
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "CertInfo__ShowOnSelectedCol-sc-18lbdoe-1",
+                                    "isStatic": false,
+                                    "lastClassName": "hMynoc",
+                                    "rules": Array [
+                                      "display:",
+                                      [Function],
+                                      ";",
+                                    ],
+                                  },
+                                  "displayName": "CertInfo__ShowOnSelectedCol",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "CertInfo__ShowOnSelectedCol-sc-18lbdoe-1",
+                                  "target": Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "displayName": "Col",
+                                    "render": [Function],
+                                  },
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                              id={1}
+                              itemSelected={1}
+                              sm={12}
+                              xs={12}
+                            >
+                              <Col
+                                className="CertInfo__ShowOnSelectedCol-sc-18lbdoe-1 frMwYm"
                                 id={1}
                                 itemSelected={1}
-                                name="c"
+                                sm={12}
+                                xs={12}
                               >
-                                <CertIcon__ActiveIcon
-                                  name="c"
+                                <div
+                                  className="CertInfo__ShowOnSelectedCol-sc-18lbdoe-1 frMwYm col-sm-12 col-12"
+                                  id={1}
+                                  itemSelected={1}
                                 >
-                                  <StyledComponent
-                                    forwardedComponent={
-                                      Object {
-                                        "$$typeof": Symbol(react.forward_ref),
-                                        "attrs": Array [],
-                                        "componentStyle": ComponentStyle {
-                                          "componentId": "CertIcon__ActiveIcon-sc-108qrf2-2",
-                                          "isStatic": false,
-                                          "lastClassName": "eYzCrt",
-                                          "rules": Array [
-                                            "position:absolute;top:0;left:50%;display:block;width:180px;height:180px;margin-left:-90px;text-align:center;background-color:",
-                                            [Function],
-                                            ";border:1px solid ",
-                                            [Function],
-                                            ";border-radius:50%;box-shadow:3px 4px 8px -4px ",
-                                            [Function],
-                                            ";transition:all 0.5s;@media screen and (max-width:800px){width:160px;height:160px;margin-left:-80px;}@media screen and (max-width:600px){width:140px;height:140px;margin-left:-70px;}@media screen and (max-width:480px){width:120px;height:120px;margin-left:-60px;}&::before{font-family:",
-                                            [Function],
-                                            ";font-style:normal;font-weight:normal;font-size:80px;line-height:180px;color:",
-                                            [Function],
-                                            ";cursor:default;transition:all 0.5s;@media screen and (max-width:800px){font-size:70px;line-height:160px;}@media screen and (max-width:600px){font-size:70px;line-height:140px;}@media screen and (max-width:480px){font-size:60px;line-height:120px;}}",
-                                            "border-color:",
-                                            [Function],
-                                            ";&::before{text-shadow:-1px -1px 0 ",
-                                            [Function],
-                                            ",0 -1px 0 ",
-                                            [Function],
-                                            ",1px -1px 0 ",
-                                            [Function],
-                                            ",1px 0 0 ",
-                                            [Function],
-                                            ",1px 1px 0 ",
-                                            [Function],
-                                            ",0 1px 0 ",
-                                            [Function],
-                                            ",-1px 1px 0 ",
-                                            [Function],
-                                            ",-1px 0 0 ",
-                                            [Function],
-                                            ";}",
+                                  <CertInfo__ListInfo
+                                    id={1}
+                                  >
+                                    <StyledComponent
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "CertInfo__ListInfo-sc-18lbdoe-0",
+                                            "isStatic": false,
+                                            "lastClassName": "hrEqKp",
+                                            "rules": Array [
+                                              "position:relative;top:0;left:0;z-index:-1;display:block;width:100%;margin:40px 0 50px;padding:10px;background-color:",
+                                              [Function],
+                                              ";border-top:10px solid ",
+                                              [Function],
+                                              ";box-shadow:2px 2px 4px -2px ",
+                                              [Function],
+                                              ";&::before{content:'';position:absolute;top:-40px;margin-left:-40px;border-bottom:40px solid ",
+                                              [Function],
+                                              ";border-left:40px solid transparent;border-right:40px solid transparent;}&::after{content:'';position:absolute;top:-25px;margin-left:-27px;border-bottom:27px solid ",
+                                              [Function],
+                                              ";border-left:27px solid transparent;border-right:27px solid transparent;}",
+                                              "position:relative;&::before,&::after{left:",
+                                              [Function],
+                                              ";}",
+                                            ],
+                                          },
+                                          "displayName": "CertInfo__ListInfo",
+                                          "foldedComponentIds": Array [
+                                            "Info-aqdcyj-0",
                                           ],
-                                        },
-                                        "displayName": "CertIcon__ActiveIcon",
-                                        "foldedComponentIds": Array [
-                                          "CertIcon__ItemIcon-sc-108qrf2-0",
-                                        ],
-                                        "render": [Function],
-                                        "styledComponentId": "CertIcon__ActiveIcon-sc-108qrf2-2",
-                                        "target": [Function],
-                                        "toString": [Function],
-                                        "warnTooManyClasses": [Function],
-                                        "withComponent": [Function],
-                                      }
-                                    }
-                                    forwardedRef={null}
-                                    name="c"
-                                  >
-                                    <Icon
-                                      className="CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__ActiveIcon-sc-108qrf2-2 eYzCrt"
-                                      name="c"
-                                    >
-                                      <Icon__Symbol
-                                        className="CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__ActiveIcon-sc-108qrf2-2 eYzCrt"
-                                        name="c"
-                                      >
-                                        <StyledComponent
-                                          className="CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__ActiveIcon-sc-108qrf2-2 eYzCrt"
-                                          forwardedComponent={
-                                            Object {
-                                              "$$typeof": Symbol(react.forward_ref),
-                                              "attrs": Array [],
-                                              "componentStyle": ComponentStyle {
-                                                "componentId": "Icon__Symbol-sc-1aleqew-0",
-                                                "isStatic": false,
-                                                "lastClassName": "cyhahg",
-                                                "rules": Array [
-                                                  "display:inline-block;&::before{font-family:",
-                                                  [Function],
-                                                  ";font-style:normal;font-weight:normal;content:'",
-                                                  [Function],
-                                                  "';}",
-                                                ],
-                                              },
-                                              "displayName": "Icon__Symbol",
-                                              "foldedComponentIds": Array [],
-                                              "render": [Function],
-                                              "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
-                                              "target": "div",
-                                              "toString": [Function],
-                                              "warnTooManyClasses": [Function],
-                                              "withComponent": [Function],
-                                            }
-                                          }
-                                          forwardedRef={null}
-                                          name="c"
-                                        >
-                                          <div
-                                            className="Icon__Symbol-sc-1aleqew-0 kLuLfS CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__ActiveIcon-sc-108qrf2-2 eYzCrt"
-                                            name="c"
-                                          />
-                                        </StyledComponent>
-                                      </Icon__Symbol>
-                                    </Icon>
-                                  </StyledComponent>
-                                </CertIcon__ActiveIcon>
-                              </CertIcon>
-                            </li>
-                          </StyledComponent>
-                        </Cert__CertItem>
-                        <Cert__CertInfo
-                          id={1}
-                          itemSelected={1}
-                        >
-                          <StyledComponent
-                            forwardedComponent={
-                              Object {
-                                "$$typeof": Symbol(react.forward_ref),
-                                "attrs": Array [],
-                                "componentStyle": ComponentStyle {
-                                  "componentId": "Cert__CertInfo-sc-63f6r1-1",
-                                  "isStatic": false,
-                                  "lastClassName": "fTWodg",
-                                  "rules": Array [
-                                    "position:absolute;top:180px;left:0;z-index:-1;display:block;width:100%;margin:40px 0 50px;padding:10px;background-color:",
-                                    [Function],
-                                    ";border-top:10px solid ",
-                                    [Function],
-                                    ";box-shadow:2px 2px 4px -2px ",
-                                    [Function],
-                                    ";@media screen and (max-width:800px){top:160px;}@media screen and (max-width:600px){top:140px;}@media screen and (max-width:480px){top:120px;}&::before{content:'';position:absolute;top:-40px;margin-left:-40px;border-bottom:40px solid ",
-                                    [Function],
-                                    ";border-left:40px solid transparent;border-right:40px solid transparent;}&::after{content:'';position:absolute;top:-25px;margin-left:-27px;border-bottom:27px solid ",
-                                    [Function],
-                                    ";border-left:27px solid transparent;border-right:27px solid transparent;}",
-                                    "visibility:",
-                                    [Function],
-                                    ";&::before,&::after{left:",
-                                    [Function],
-                                    ";}",
-                                  ],
-                                },
-                                "displayName": "Cert__CertInfo",
-                                "foldedComponentIds": Array [
-                                  "Info-aqdcyj-0",
-                                ],
-                                "render": [Function],
-                                "styledComponentId": "Cert__CertInfo-sc-63f6r1-1",
-                                "target": "li",
-                                "toString": [Function],
-                                "warnTooManyClasses": [Function],
-                                "withComponent": [Function],
-                              }
-                            }
-                            forwardedRef={null}
-                            id={1}
-                            itemSelected={1}
-                          >
-                            <li
-                              className="Info-aqdcyj-0 Cert__CertInfo-sc-63f6r1-1 igOSbn"
-                              id={1}
-                            >
-                              <Title>
-                                <StyledComponent
-                                  forwardedComponent={
-                                    Object {
-                                      "$$typeof": Symbol(react.forward_ref),
-                                      "attrs": Array [],
-                                      "componentStyle": ComponentStyle {
-                                        "componentId": "Title-sc-1j54hu2-0",
-                                        "isStatic": false,
-                                        "lastClassName": "gmTcvb",
-                                        "rules": Array [
-                                          "margin-bottom:10px;& span{color:",
-                                          [Function],
-                                          ";}",
-                                        ],
-                                      },
-                                      "displayName": "Title",
-                                      "foldedComponentIds": Array [],
-                                      "render": [Function],
-                                      "styledComponentId": "Title-sc-1j54hu2-0",
-                                      "target": "h3",
-                                      "toString": [Function],
-                                      "warnTooManyClasses": [Function],
-                                      "withComponent": [Function],
-                                    }
-                                  }
-                                  forwardedRef={null}
-                                >
-                                  <h3
-                                    className="Title-sc-1j54hu2-0 gmTcvb"
-                                  >
-                                    <span>
-                                      1
-                                    </span>
-                                     — 
-                                    <Translate
-                                      id="CertResearch"
-                                    >
-                                      <WrappedTranslate
-                                        context={
-                                          Object {
-                                            "activeLanguage": undefined,
-                                            "addTranslation": [Function],
-                                            "addTranslationForLanguage": [Function],
-                                            "defaultLanguage": undefined,
-                                            "ignoreTranslateChildren": false,
-                                            "initialize": [Function],
-                                            "languages": Array [],
-                                            "renderToStaticMarkup": false,
-                                            "setActiveLanguage": [Function],
-                                            "translate": [Function],
-                                          }
+                                          "render": [Function],
+                                          "styledComponentId": "CertInfo__ListInfo-sc-18lbdoe-0",
+                                          "target": "li",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
                                         }
-                                        id="CertResearch"
-                                      >
-                                        Missing translationId: CertResearch for language: \${ languageCode }
-                                      </WrappedTranslate>
-                                    </Translate>
-                                  </h3>
-                                </StyledComponent>
-                              </Title>
-                              <p>
-                                <Translate
-                                  id="CertContentResearch"
-                                >
-                                  <WrappedTranslate
-                                    context={
-                                      Object {
-                                        "activeLanguage": undefined,
-                                        "addTranslation": [Function],
-                                        "addTranslationForLanguage": [Function],
-                                        "defaultLanguage": undefined,
-                                        "ignoreTranslateChildren": false,
-                                        "initialize": [Function],
-                                        "languages": Array [],
-                                        "renderToStaticMarkup": false,
-                                        "setActiveLanguage": [Function],
-                                        "translate": [Function],
                                       }
-                                    }
-                                    id="CertContentResearch"
-                                  >
-                                    Missing translationId: CertContentResearch for language: \${ languageCode }
-                                  </WrappedTranslate>
-                                </Translate>
-                              </p>
-                            </li>
-                          </StyledComponent>
-                        </Cert__CertInfo>
-                      </Cert>
-                      <Cert
-                        content="CertContentDevelop"
-                        id={2}
-                        itemSelected={1}
-                        name="c"
-                        setSelectedItem={[Function]}
-                        title="CertDevelop"
-                      >
-                        <Cert__CertItem
+                                      forwardedRef={null}
+                                      id={1}
+                                    >
+                                      <li
+                                        className="Info-aqdcyj-0 CertInfo__ListInfo-sc-18lbdoe-0 cTGFEr"
+                                        id={1}
+                                      >
+                                        <Title>
+                                          <StyledComponent
+                                            forwardedComponent={
+                                              Object {
+                                                "$$typeof": Symbol(react.forward_ref),
+                                                "attrs": Array [],
+                                                "componentStyle": ComponentStyle {
+                                                  "componentId": "Title-sc-1j54hu2-0",
+                                                  "isStatic": false,
+                                                  "lastClassName": "gmTcvb",
+                                                  "rules": Array [
+                                                    "margin-bottom:10px;& span{color:",
+                                                    [Function],
+                                                    ";}",
+                                                  ],
+                                                },
+                                                "displayName": "Title",
+                                                "foldedComponentIds": Array [],
+                                                "render": [Function],
+                                                "styledComponentId": "Title-sc-1j54hu2-0",
+                                                "target": "h3",
+                                                "toString": [Function],
+                                                "warnTooManyClasses": [Function],
+                                                "withComponent": [Function],
+                                              }
+                                            }
+                                            forwardedRef={null}
+                                          >
+                                            <h3
+                                              className="Title-sc-1j54hu2-0 gmTcvb"
+                                            >
+                                              <span>
+                                                1
+                                              </span>
+                                               — 
+                                              <Translate
+                                                id="CertBachelor"
+                                              >
+                                                <WrappedTranslate
+                                                  context={
+                                                    Object {
+                                                      "activeLanguage": undefined,
+                                                      "addTranslation": [Function],
+                                                      "addTranslationForLanguage": [Function],
+                                                      "defaultLanguage": undefined,
+                                                      "ignoreTranslateChildren": false,
+                                                      "initialize": [Function],
+                                                      "languages": Array [],
+                                                      "renderToStaticMarkup": false,
+                                                      "setActiveLanguage": [Function],
+                                                      "translate": [Function],
+                                                    }
+                                                  }
+                                                  id="CertBachelor"
+                                                >
+                                                  Missing translationId: CertBachelor for language: \${ languageCode }
+                                                </WrappedTranslate>
+                                              </Translate>
+                                            </h3>
+                                          </StyledComponent>
+                                        </Title>
+                                        <p>
+                                          <Translate
+                                            id="CertContentBachelor"
+                                          >
+                                            <WrappedTranslate
+                                              context={
+                                                Object {
+                                                  "activeLanguage": undefined,
+                                                  "addTranslation": [Function],
+                                                  "addTranslationForLanguage": [Function],
+                                                  "defaultLanguage": undefined,
+                                                  "ignoreTranslateChildren": false,
+                                                  "initialize": [Function],
+                                                  "languages": Array [],
+                                                  "renderToStaticMarkup": false,
+                                                  "setActiveLanguage": [Function],
+                                                  "translate": [Function],
+                                                }
+                                              }
+                                              id="CertContentBachelor"
+                                            >
+                                              Missing translationId: CertContentBachelor for language: \${ languageCode }
+                                            </WrappedTranslate>
+                                          </Translate>
+                                        </p>
+                                      </li>
+                                    </StyledComponent>
+                                  </CertInfo__ListInfo>
+                                </div>
+                              </Col>
+                            </StyledComponent>
+                          </CertInfo__ShowOnSelectedCol>
+                        </CertInfo>
+                        <CertInfo
+                          content="CertContentComm"
                           id={2}
-                          onClick={[Function]}
+                          itemSelected={1}
+                          key="1"
+                          title="CertCom"
                         >
-                          <StyledComponent
-                            forwardedComponent={
-                              Object {
-                                "$$typeof": Symbol(react.forward_ref),
-                                "attrs": Array [],
-                                "componentStyle": ComponentStyle {
-                                  "componentId": "Cert__CertItem-sc-63f6r1-0",
-                                  "isStatic": false,
-                                  "lastClassName": "ehBPxc",
-                                  "rules": Array [
-                                    "position:absolute;top:0;display:block;width:25%;height:100%;background-color:rgba(255,255,255,0);background-repeat:repeat;margin-left:-12.5%;",
-                                    "left:",
-                                    [Function],
-                                    ";z-index:",
-                                    [Function],
-                                    ";",
-                                    [Function],
-                                  ],
-                                },
-                                "displayName": "Cert__CertItem",
-                                "foldedComponentIds": Array [
-                                  "Item-sc-1ll32oh-0",
-                                ],
-                                "render": [Function],
-                                "styledComponentId": "Cert__CertItem-sc-63f6r1-0",
-                                "target": "li",
-                                "toString": [Function],
-                                "warnTooManyClasses": [Function],
-                                "withComponent": [Function],
-                              }
-                            }
-                            forwardedRef={null}
+                          <CertInfo__ShowOnSelectedCol
                             id={2}
-                            onClick={[Function]}
+                            itemSelected={1}
+                            sm={12}
+                            xs={12}
                           >
-                            <li
-                              className="Item-sc-1ll32oh-0 Cert__CertItem-sc-63f6r1-0 flvIuK"
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "CertInfo__ShowOnSelectedCol-sc-18lbdoe-1",
+                                    "isStatic": false,
+                                    "lastClassName": "hMynoc",
+                                    "rules": Array [
+                                      "display:",
+                                      [Function],
+                                      ";",
+                                    ],
+                                  },
+                                  "displayName": "CertInfo__ShowOnSelectedCol",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "CertInfo__ShowOnSelectedCol-sc-18lbdoe-1",
+                                  "target": Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "displayName": "Col",
+                                    "render": [Function],
+                                  },
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
                               id={2}
-                              onClick={[Function]}
+                              itemSelected={1}
+                              sm={12}
+                              xs={12}
                             >
-                              <CertIcon
+                              <Col
+                                className="CertInfo__ShowOnSelectedCol-sc-18lbdoe-1 hMynoc"
                                 id={2}
                                 itemSelected={1}
-                                name="c"
+                                sm={12}
+                                xs={12}
                               >
-                                <CertIcon__InactiveIcon
-                                  name="c"
+                                <div
+                                  className="CertInfo__ShowOnSelectedCol-sc-18lbdoe-1 hMynoc col-sm-12 col-12"
+                                  id={2}
+                                  itemSelected={1}
                                 >
-                                  <StyledComponent
-                                    forwardedComponent={
-                                      Object {
-                                        "$$typeof": Symbol(react.forward_ref),
-                                        "attrs": Array [],
-                                        "componentStyle": ComponentStyle {
-                                          "componentId": "CertIcon__InactiveIcon-sc-108qrf2-1",
-                                          "isStatic": false,
-                                          "lastClassName": "juLiPb",
-                                          "rules": Array [
-                                            "position:absolute;top:0;left:50%;display:block;width:180px;height:180px;margin-left:-90px;text-align:center;background-color:",
-                                            [Function],
-                                            ";border:1px solid ",
-                                            [Function],
-                                            ";border-radius:50%;box-shadow:3px 4px 8px -4px ",
-                                            [Function],
-                                            ";transition:all 0.5s;@media screen and (max-width:800px){width:160px;height:160px;margin-left:-80px;}@media screen and (max-width:600px){width:140px;height:140px;margin-left:-70px;}@media screen and (max-width:480px){width:120px;height:120px;margin-left:-60px;}&::before{font-family:",
-                                            [Function],
-                                            ";font-style:normal;font-weight:normal;font-size:80px;line-height:180px;color:",
-                                            [Function],
-                                            ";cursor:default;transition:all 0.5s;@media screen and (max-width:800px){font-size:70px;line-height:160px;}@media screen and (max-width:600px){font-size:70px;line-height:140px;}@media screen and (max-width:480px){font-size:60px;line-height:120px;}}",
-                                            "&::before{text-shadow:-1px -1px 0 ",
-                                            [Function],
-                                            ",0 -1px 0 ",
-                                            [Function],
-                                            ",1px -1px 0 ",
-                                            [Function],
-                                            ",1px 0 0 ",
-                                            [Function],
-                                            ",1px 1px 0 ",
-                                            [Function],
-                                            ",0 1px 0 ",
-                                            [Function],
-                                            ",-1px 1px 0 ",
-                                            [Function],
-                                            ",-1px 0 0 ",
-                                            [Function],
-                                            ";}",
+                                  <CertInfo__ListInfo
+                                    id={2}
+                                  >
+                                    <StyledComponent
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "CertInfo__ListInfo-sc-18lbdoe-0",
+                                            "isStatic": false,
+                                            "lastClassName": "hrEqKp",
+                                            "rules": Array [
+                                              "position:relative;top:0;left:0;z-index:-1;display:block;width:100%;margin:40px 0 50px;padding:10px;background-color:",
+                                              [Function],
+                                              ";border-top:10px solid ",
+                                              [Function],
+                                              ";box-shadow:2px 2px 4px -2px ",
+                                              [Function],
+                                              ";&::before{content:'';position:absolute;top:-40px;margin-left:-40px;border-bottom:40px solid ",
+                                              [Function],
+                                              ";border-left:40px solid transparent;border-right:40px solid transparent;}&::after{content:'';position:absolute;top:-25px;margin-left:-27px;border-bottom:27px solid ",
+                                              [Function],
+                                              ";border-left:27px solid transparent;border-right:27px solid transparent;}",
+                                              "position:relative;&::before,&::after{left:",
+                                              [Function],
+                                              ";}",
+                                            ],
+                                          },
+                                          "displayName": "CertInfo__ListInfo",
+                                          "foldedComponentIds": Array [
+                                            "Info-aqdcyj-0",
                                           ],
-                                        },
-                                        "displayName": "CertIcon__InactiveIcon",
-                                        "foldedComponentIds": Array [
-                                          "CertIcon__ItemIcon-sc-108qrf2-0",
-                                        ],
-                                        "render": [Function],
-                                        "styledComponentId": "CertIcon__InactiveIcon-sc-108qrf2-1",
-                                        "target": [Function],
-                                        "toString": [Function],
-                                        "warnTooManyClasses": [Function],
-                                        "withComponent": [Function],
-                                      }
-                                    }
-                                    forwardedRef={null}
-                                    name="c"
-                                  >
-                                    <Icon
-                                      className="CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__InactiveIcon-sc-108qrf2-1 juLiPb"
-                                      name="c"
-                                    >
-                                      <Icon__Symbol
-                                        className="CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__InactiveIcon-sc-108qrf2-1 juLiPb"
-                                        name="c"
-                                      >
-                                        <StyledComponent
-                                          className="CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__InactiveIcon-sc-108qrf2-1 juLiPb"
-                                          forwardedComponent={
-                                            Object {
-                                              "$$typeof": Symbol(react.forward_ref),
-                                              "attrs": Array [],
-                                              "componentStyle": ComponentStyle {
-                                                "componentId": "Icon__Symbol-sc-1aleqew-0",
-                                                "isStatic": false,
-                                                "lastClassName": "cyhahg",
-                                                "rules": Array [
-                                                  "display:inline-block;&::before{font-family:",
-                                                  [Function],
-                                                  ";font-style:normal;font-weight:normal;content:'",
-                                                  [Function],
-                                                  "';}",
-                                                ],
-                                              },
-                                              "displayName": "Icon__Symbol",
-                                              "foldedComponentIds": Array [],
-                                              "render": [Function],
-                                              "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
-                                              "target": "div",
-                                              "toString": [Function],
-                                              "warnTooManyClasses": [Function],
-                                              "withComponent": [Function],
-                                            }
-                                          }
-                                          forwardedRef={null}
-                                          name="c"
-                                        >
-                                          <div
-                                            className="Icon__Symbol-sc-1aleqew-0 kLuLfS CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__InactiveIcon-sc-108qrf2-1 juLiPb"
-                                            name="c"
-                                          />
-                                        </StyledComponent>
-                                      </Icon__Symbol>
-                                    </Icon>
-                                  </StyledComponent>
-                                </CertIcon__InactiveIcon>
-                              </CertIcon>
-                            </li>
-                          </StyledComponent>
-                        </Cert__CertItem>
-                        <Cert__CertInfo
-                          id={2}
-                          itemSelected={1}
-                        >
-                          <StyledComponent
-                            forwardedComponent={
-                              Object {
-                                "$$typeof": Symbol(react.forward_ref),
-                                "attrs": Array [],
-                                "componentStyle": ComponentStyle {
-                                  "componentId": "Cert__CertInfo-sc-63f6r1-1",
-                                  "isStatic": false,
-                                  "lastClassName": "fTWodg",
-                                  "rules": Array [
-                                    "position:absolute;top:180px;left:0;z-index:-1;display:block;width:100%;margin:40px 0 50px;padding:10px;background-color:",
-                                    [Function],
-                                    ";border-top:10px solid ",
-                                    [Function],
-                                    ";box-shadow:2px 2px 4px -2px ",
-                                    [Function],
-                                    ";@media screen and (max-width:800px){top:160px;}@media screen and (max-width:600px){top:140px;}@media screen and (max-width:480px){top:120px;}&::before{content:'';position:absolute;top:-40px;margin-left:-40px;border-bottom:40px solid ",
-                                    [Function],
-                                    ";border-left:40px solid transparent;border-right:40px solid transparent;}&::after{content:'';position:absolute;top:-25px;margin-left:-27px;border-bottom:27px solid ",
-                                    [Function],
-                                    ";border-left:27px solid transparent;border-right:27px solid transparent;}",
-                                    "visibility:",
-                                    [Function],
-                                    ";&::before,&::after{left:",
-                                    [Function],
-                                    ";}",
-                                  ],
-                                },
-                                "displayName": "Cert__CertInfo",
-                                "foldedComponentIds": Array [
-                                  "Info-aqdcyj-0",
-                                ],
-                                "render": [Function],
-                                "styledComponentId": "Cert__CertInfo-sc-63f6r1-1",
-                                "target": "li",
-                                "toString": [Function],
-                                "warnTooManyClasses": [Function],
-                                "withComponent": [Function],
-                              }
-                            }
-                            forwardedRef={null}
-                            id={2}
-                            itemSelected={1}
-                          >
-                            <li
-                              className="Info-aqdcyj-0 Cert__CertInfo-sc-63f6r1-1 gTlvhr"
-                              id={2}
-                            >
-                              <Title>
-                                <StyledComponent
-                                  forwardedComponent={
-                                    Object {
-                                      "$$typeof": Symbol(react.forward_ref),
-                                      "attrs": Array [],
-                                      "componentStyle": ComponentStyle {
-                                        "componentId": "Title-sc-1j54hu2-0",
-                                        "isStatic": false,
-                                        "lastClassName": "gmTcvb",
-                                        "rules": Array [
-                                          "margin-bottom:10px;& span{color:",
-                                          [Function],
-                                          ";}",
-                                        ],
-                                      },
-                                      "displayName": "Title",
-                                      "foldedComponentIds": Array [],
-                                      "render": [Function],
-                                      "styledComponentId": "Title-sc-1j54hu2-0",
-                                      "target": "h3",
-                                      "toString": [Function],
-                                      "warnTooManyClasses": [Function],
-                                      "withComponent": [Function],
-                                    }
-                                  }
-                                  forwardedRef={null}
-                                >
-                                  <h3
-                                    className="Title-sc-1j54hu2-0 gmTcvb"
-                                  >
-                                    <span>
-                                      2
-                                    </span>
-                                     — 
-                                    <Translate
-                                      id="CertDevelop"
-                                    >
-                                      <WrappedTranslate
-                                        context={
-                                          Object {
-                                            "activeLanguage": undefined,
-                                            "addTranslation": [Function],
-                                            "addTranslationForLanguage": [Function],
-                                            "defaultLanguage": undefined,
-                                            "ignoreTranslateChildren": false,
-                                            "initialize": [Function],
-                                            "languages": Array [],
-                                            "renderToStaticMarkup": false,
-                                            "setActiveLanguage": [Function],
-                                            "translate": [Function],
-                                          }
+                                          "render": [Function],
+                                          "styledComponentId": "CertInfo__ListInfo-sc-18lbdoe-0",
+                                          "target": "li",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
                                         }
-                                        id="CertDevelop"
-                                      >
-                                        Missing translationId: CertDevelop for language: \${ languageCode }
-                                      </WrappedTranslate>
-                                    </Translate>
-                                  </h3>
-                                </StyledComponent>
-                              </Title>
-                              <p>
-                                <Translate
-                                  id="CertContentDevelop"
-                                >
-                                  <WrappedTranslate
-                                    context={
-                                      Object {
-                                        "activeLanguage": undefined,
-                                        "addTranslation": [Function],
-                                        "addTranslationForLanguage": [Function],
-                                        "defaultLanguage": undefined,
-                                        "ignoreTranslateChildren": false,
-                                        "initialize": [Function],
-                                        "languages": Array [],
-                                        "renderToStaticMarkup": false,
-                                        "setActiveLanguage": [Function],
-                                        "translate": [Function],
                                       }
-                                    }
-                                    id="CertContentDevelop"
-                                  >
-                                    Missing translationId: CertContentDevelop for language: \${ languageCode }
-                                  </WrappedTranslate>
-                                </Translate>
-                              </p>
-                            </li>
-                          </StyledComponent>
-                        </Cert__CertInfo>
-                      </Cert>
-                      <Cert
-                        content="CertContentDeploy"
-                        id={3}
-                        itemSelected={1}
-                        name="p"
-                        setSelectedItem={[Function]}
-                        title="CertDeploy"
-                      >
-                        <Cert__CertItem
+                                      forwardedRef={null}
+                                      id={2}
+                                    >
+                                      <li
+                                        className="Info-aqdcyj-0 CertInfo__ListInfo-sc-18lbdoe-0 fxibPZ"
+                                        id={2}
+                                      >
+                                        <Title>
+                                          <StyledComponent
+                                            forwardedComponent={
+                                              Object {
+                                                "$$typeof": Symbol(react.forward_ref),
+                                                "attrs": Array [],
+                                                "componentStyle": ComponentStyle {
+                                                  "componentId": "Title-sc-1j54hu2-0",
+                                                  "isStatic": false,
+                                                  "lastClassName": "gmTcvb",
+                                                  "rules": Array [
+                                                    "margin-bottom:10px;& span{color:",
+                                                    [Function],
+                                                    ";}",
+                                                  ],
+                                                },
+                                                "displayName": "Title",
+                                                "foldedComponentIds": Array [],
+                                                "render": [Function],
+                                                "styledComponentId": "Title-sc-1j54hu2-0",
+                                                "target": "h3",
+                                                "toString": [Function],
+                                                "warnTooManyClasses": [Function],
+                                                "withComponent": [Function],
+                                              }
+                                            }
+                                            forwardedRef={null}
+                                          >
+                                            <h3
+                                              className="Title-sc-1j54hu2-0 gmTcvb"
+                                            >
+                                              <span>
+                                                2
+                                              </span>
+                                               — 
+                                              <Translate
+                                                id="CertCom"
+                                              >
+                                                <WrappedTranslate
+                                                  context={
+                                                    Object {
+                                                      "activeLanguage": undefined,
+                                                      "addTranslation": [Function],
+                                                      "addTranslationForLanguage": [Function],
+                                                      "defaultLanguage": undefined,
+                                                      "ignoreTranslateChildren": false,
+                                                      "initialize": [Function],
+                                                      "languages": Array [],
+                                                      "renderToStaticMarkup": false,
+                                                      "setActiveLanguage": [Function],
+                                                      "translate": [Function],
+                                                    }
+                                                  }
+                                                  id="CertCom"
+                                                >
+                                                  Missing translationId: CertCom for language: \${ languageCode }
+                                                </WrappedTranslate>
+                                              </Translate>
+                                            </h3>
+                                          </StyledComponent>
+                                        </Title>
+                                        <p>
+                                          <Translate
+                                            id="CertContentComm"
+                                          >
+                                            <WrappedTranslate
+                                              context={
+                                                Object {
+                                                  "activeLanguage": undefined,
+                                                  "addTranslation": [Function],
+                                                  "addTranslationForLanguage": [Function],
+                                                  "defaultLanguage": undefined,
+                                                  "ignoreTranslateChildren": false,
+                                                  "initialize": [Function],
+                                                  "languages": Array [],
+                                                  "renderToStaticMarkup": false,
+                                                  "setActiveLanguage": [Function],
+                                                  "translate": [Function],
+                                                }
+                                              }
+                                              id="CertContentComm"
+                                            >
+                                              Missing translationId: CertContentComm for language: \${ languageCode }
+                                            </WrappedTranslate>
+                                          </Translate>
+                                        </p>
+                                      </li>
+                                    </StyledComponent>
+                                  </CertInfo__ListInfo>
+                                </div>
+                              </Col>
+                            </StyledComponent>
+                          </CertInfo__ShowOnSelectedCol>
+                        </CertInfo>
+                        <CertInfo
+                          content="CertContentSPrize"
                           id={3}
-                          onClick={[Function]}
+                          itemSelected={1}
+                          key="2"
+                          title="CertSPrize"
                         >
-                          <StyledComponent
-                            forwardedComponent={
-                              Object {
-                                "$$typeof": Symbol(react.forward_ref),
-                                "attrs": Array [],
-                                "componentStyle": ComponentStyle {
-                                  "componentId": "Cert__CertItem-sc-63f6r1-0",
-                                  "isStatic": false,
-                                  "lastClassName": "ehBPxc",
-                                  "rules": Array [
-                                    "position:absolute;top:0;display:block;width:25%;height:100%;background-color:rgba(255,255,255,0);background-repeat:repeat;margin-left:-12.5%;",
-                                    "left:",
-                                    [Function],
-                                    ";z-index:",
-                                    [Function],
-                                    ";",
-                                    [Function],
-                                  ],
-                                },
-                                "displayName": "Cert__CertItem",
-                                "foldedComponentIds": Array [
-                                  "Item-sc-1ll32oh-0",
-                                ],
-                                "render": [Function],
-                                "styledComponentId": "Cert__CertItem-sc-63f6r1-0",
-                                "target": "li",
-                                "toString": [Function],
-                                "warnTooManyClasses": [Function],
-                                "withComponent": [Function],
-                              }
-                            }
-                            forwardedRef={null}
+                          <CertInfo__ShowOnSelectedCol
                             id={3}
-                            onClick={[Function]}
+                            itemSelected={1}
+                            sm={12}
+                            xs={12}
                           >
-                            <li
-                              className="Item-sc-1ll32oh-0 Cert__CertItem-sc-63f6r1-0 eOSqXE"
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "CertInfo__ShowOnSelectedCol-sc-18lbdoe-1",
+                                    "isStatic": false,
+                                    "lastClassName": "hMynoc",
+                                    "rules": Array [
+                                      "display:",
+                                      [Function],
+                                      ";",
+                                    ],
+                                  },
+                                  "displayName": "CertInfo__ShowOnSelectedCol",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "CertInfo__ShowOnSelectedCol-sc-18lbdoe-1",
+                                  "target": Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "displayName": "Col",
+                                    "render": [Function],
+                                  },
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
                               id={3}
-                              onClick={[Function]}
+                              itemSelected={1}
+                              sm={12}
+                              xs={12}
                             >
-                              <CertIcon
+                              <Col
+                                className="CertInfo__ShowOnSelectedCol-sc-18lbdoe-1 hMynoc"
                                 id={3}
                                 itemSelected={1}
-                                name="p"
+                                sm={12}
+                                xs={12}
                               >
-                                <CertIcon__InactiveIcon
-                                  name="p"
+                                <div
+                                  className="CertInfo__ShowOnSelectedCol-sc-18lbdoe-1 hMynoc col-sm-12 col-12"
+                                  id={3}
+                                  itemSelected={1}
                                 >
-                                  <StyledComponent
-                                    forwardedComponent={
-                                      Object {
-                                        "$$typeof": Symbol(react.forward_ref),
-                                        "attrs": Array [],
-                                        "componentStyle": ComponentStyle {
-                                          "componentId": "CertIcon__InactiveIcon-sc-108qrf2-1",
-                                          "isStatic": false,
-                                          "lastClassName": "juLiPb",
-                                          "rules": Array [
-                                            "position:absolute;top:0;left:50%;display:block;width:180px;height:180px;margin-left:-90px;text-align:center;background-color:",
-                                            [Function],
-                                            ";border:1px solid ",
-                                            [Function],
-                                            ";border-radius:50%;box-shadow:3px 4px 8px -4px ",
-                                            [Function],
-                                            ";transition:all 0.5s;@media screen and (max-width:800px){width:160px;height:160px;margin-left:-80px;}@media screen and (max-width:600px){width:140px;height:140px;margin-left:-70px;}@media screen and (max-width:480px){width:120px;height:120px;margin-left:-60px;}&::before{font-family:",
-                                            [Function],
-                                            ";font-style:normal;font-weight:normal;font-size:80px;line-height:180px;color:",
-                                            [Function],
-                                            ";cursor:default;transition:all 0.5s;@media screen and (max-width:800px){font-size:70px;line-height:160px;}@media screen and (max-width:600px){font-size:70px;line-height:140px;}@media screen and (max-width:480px){font-size:60px;line-height:120px;}}",
-                                            "&::before{text-shadow:-1px -1px 0 ",
-                                            [Function],
-                                            ",0 -1px 0 ",
-                                            [Function],
-                                            ",1px -1px 0 ",
-                                            [Function],
-                                            ",1px 0 0 ",
-                                            [Function],
-                                            ",1px 1px 0 ",
-                                            [Function],
-                                            ",0 1px 0 ",
-                                            [Function],
-                                            ",-1px 1px 0 ",
-                                            [Function],
-                                            ",-1px 0 0 ",
-                                            [Function],
-                                            ";}",
+                                  <CertInfo__ListInfo
+                                    id={3}
+                                  >
+                                    <StyledComponent
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "CertInfo__ListInfo-sc-18lbdoe-0",
+                                            "isStatic": false,
+                                            "lastClassName": "hrEqKp",
+                                            "rules": Array [
+                                              "position:relative;top:0;left:0;z-index:-1;display:block;width:100%;margin:40px 0 50px;padding:10px;background-color:",
+                                              [Function],
+                                              ";border-top:10px solid ",
+                                              [Function],
+                                              ";box-shadow:2px 2px 4px -2px ",
+                                              [Function],
+                                              ";&::before{content:'';position:absolute;top:-40px;margin-left:-40px;border-bottom:40px solid ",
+                                              [Function],
+                                              ";border-left:40px solid transparent;border-right:40px solid transparent;}&::after{content:'';position:absolute;top:-25px;margin-left:-27px;border-bottom:27px solid ",
+                                              [Function],
+                                              ";border-left:27px solid transparent;border-right:27px solid transparent;}",
+                                              "position:relative;&::before,&::after{left:",
+                                              [Function],
+                                              ";}",
+                                            ],
+                                          },
+                                          "displayName": "CertInfo__ListInfo",
+                                          "foldedComponentIds": Array [
+                                            "Info-aqdcyj-0",
                                           ],
-                                        },
-                                        "displayName": "CertIcon__InactiveIcon",
-                                        "foldedComponentIds": Array [
-                                          "CertIcon__ItemIcon-sc-108qrf2-0",
-                                        ],
-                                        "render": [Function],
-                                        "styledComponentId": "CertIcon__InactiveIcon-sc-108qrf2-1",
-                                        "target": [Function],
-                                        "toString": [Function],
-                                        "warnTooManyClasses": [Function],
-                                        "withComponent": [Function],
-                                      }
-                                    }
-                                    forwardedRef={null}
-                                    name="p"
-                                  >
-                                    <Icon
-                                      className="CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__InactiveIcon-sc-108qrf2-1 juLiPb"
-                                      name="p"
-                                    >
-                                      <Icon__Symbol
-                                        className="CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__InactiveIcon-sc-108qrf2-1 juLiPb"
-                                        name="p"
-                                      >
-                                        <StyledComponent
-                                          className="CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__InactiveIcon-sc-108qrf2-1 juLiPb"
-                                          forwardedComponent={
-                                            Object {
-                                              "$$typeof": Symbol(react.forward_ref),
-                                              "attrs": Array [],
-                                              "componentStyle": ComponentStyle {
-                                                "componentId": "Icon__Symbol-sc-1aleqew-0",
-                                                "isStatic": false,
-                                                "lastClassName": "cyhahg",
-                                                "rules": Array [
-                                                  "display:inline-block;&::before{font-family:",
-                                                  [Function],
-                                                  ";font-style:normal;font-weight:normal;content:'",
-                                                  [Function],
-                                                  "';}",
-                                                ],
-                                              },
-                                              "displayName": "Icon__Symbol",
-                                              "foldedComponentIds": Array [],
-                                              "render": [Function],
-                                              "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
-                                              "target": "div",
-                                              "toString": [Function],
-                                              "warnTooManyClasses": [Function],
-                                              "withComponent": [Function],
-                                            }
-                                          }
-                                          forwardedRef={null}
-                                          name="p"
-                                        >
-                                          <div
-                                            className="Icon__Symbol-sc-1aleqew-0 cyhahg CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__InactiveIcon-sc-108qrf2-1 juLiPb"
-                                            name="p"
-                                          />
-                                        </StyledComponent>
-                                      </Icon__Symbol>
-                                    </Icon>
-                                  </StyledComponent>
-                                </CertIcon__InactiveIcon>
-                              </CertIcon>
-                            </li>
-                          </StyledComponent>
-                        </Cert__CertItem>
-                        <Cert__CertInfo
-                          id={3}
-                          itemSelected={1}
-                        >
-                          <StyledComponent
-                            forwardedComponent={
-                              Object {
-                                "$$typeof": Symbol(react.forward_ref),
-                                "attrs": Array [],
-                                "componentStyle": ComponentStyle {
-                                  "componentId": "Cert__CertInfo-sc-63f6r1-1",
-                                  "isStatic": false,
-                                  "lastClassName": "fTWodg",
-                                  "rules": Array [
-                                    "position:absolute;top:180px;left:0;z-index:-1;display:block;width:100%;margin:40px 0 50px;padding:10px;background-color:",
-                                    [Function],
-                                    ";border-top:10px solid ",
-                                    [Function],
-                                    ";box-shadow:2px 2px 4px -2px ",
-                                    [Function],
-                                    ";@media screen and (max-width:800px){top:160px;}@media screen and (max-width:600px){top:140px;}@media screen and (max-width:480px){top:120px;}&::before{content:'';position:absolute;top:-40px;margin-left:-40px;border-bottom:40px solid ",
-                                    [Function],
-                                    ";border-left:40px solid transparent;border-right:40px solid transparent;}&::after{content:'';position:absolute;top:-25px;margin-left:-27px;border-bottom:27px solid ",
-                                    [Function],
-                                    ";border-left:27px solid transparent;border-right:27px solid transparent;}",
-                                    "visibility:",
-                                    [Function],
-                                    ";&::before,&::after{left:",
-                                    [Function],
-                                    ";}",
-                                  ],
-                                },
-                                "displayName": "Cert__CertInfo",
-                                "foldedComponentIds": Array [
-                                  "Info-aqdcyj-0",
-                                ],
-                                "render": [Function],
-                                "styledComponentId": "Cert__CertInfo-sc-63f6r1-1",
-                                "target": "li",
-                                "toString": [Function],
-                                "warnTooManyClasses": [Function],
-                                "withComponent": [Function],
-                              }
-                            }
-                            forwardedRef={null}
-                            id={3}
-                            itemSelected={1}
-                          >
-                            <li
-                              className="Info-aqdcyj-0 Cert__CertInfo-sc-63f6r1-1 fRrEcT"
-                              id={3}
-                            >
-                              <Title>
-                                <StyledComponent
-                                  forwardedComponent={
-                                    Object {
-                                      "$$typeof": Symbol(react.forward_ref),
-                                      "attrs": Array [],
-                                      "componentStyle": ComponentStyle {
-                                        "componentId": "Title-sc-1j54hu2-0",
-                                        "isStatic": false,
-                                        "lastClassName": "gmTcvb",
-                                        "rules": Array [
-                                          "margin-bottom:10px;& span{color:",
-                                          [Function],
-                                          ";}",
-                                        ],
-                                      },
-                                      "displayName": "Title",
-                                      "foldedComponentIds": Array [],
-                                      "render": [Function],
-                                      "styledComponentId": "Title-sc-1j54hu2-0",
-                                      "target": "h3",
-                                      "toString": [Function],
-                                      "warnTooManyClasses": [Function],
-                                      "withComponent": [Function],
-                                    }
-                                  }
-                                  forwardedRef={null}
-                                >
-                                  <h3
-                                    className="Title-sc-1j54hu2-0 gmTcvb"
-                                  >
-                                    <span>
-                                      3
-                                    </span>
-                                     — 
-                                    <Translate
-                                      id="CertDeploy"
-                                    >
-                                      <WrappedTranslate
-                                        context={
-                                          Object {
-                                            "activeLanguage": undefined,
-                                            "addTranslation": [Function],
-                                            "addTranslationForLanguage": [Function],
-                                            "defaultLanguage": undefined,
-                                            "ignoreTranslateChildren": false,
-                                            "initialize": [Function],
-                                            "languages": Array [],
-                                            "renderToStaticMarkup": false,
-                                            "setActiveLanguage": [Function],
-                                            "translate": [Function],
-                                          }
+                                          "render": [Function],
+                                          "styledComponentId": "CertInfo__ListInfo-sc-18lbdoe-0",
+                                          "target": "li",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
                                         }
-                                        id="CertDeploy"
-                                      >
-                                        Missing translationId: CertDeploy for language: \${ languageCode }
-                                      </WrappedTranslate>
-                                    </Translate>
-                                  </h3>
-                                </StyledComponent>
-                              </Title>
-                              <p>
-                                <Translate
-                                  id="CertContentDeploy"
-                                >
-                                  <WrappedTranslate
-                                    context={
-                                      Object {
-                                        "activeLanguage": undefined,
-                                        "addTranslation": [Function],
-                                        "addTranslationForLanguage": [Function],
-                                        "defaultLanguage": undefined,
-                                        "ignoreTranslateChildren": false,
-                                        "initialize": [Function],
-                                        "languages": Array [],
-                                        "renderToStaticMarkup": false,
-                                        "setActiveLanguage": [Function],
-                                        "translate": [Function],
                                       }
-                                    }
-                                    id="CertContentDeploy"
-                                  >
-                                    Missing translationId: CertContentDeploy for language: \${ languageCode }
-                                  </WrappedTranslate>
-                                </Translate>
-                              </p>
-                            </li>
-                          </StyledComponent>
-                        </Cert__CertInfo>
-                      </Cert>
-                      <Cert
-                        content="CertContentDeliver"
-                        id={4}
-                        itemSelected={1}
-                        name="p"
-                        setSelectedItem={[Function]}
-                        title="CertDeliver"
-                      >
-                        <Cert__CertItem
+                                      forwardedRef={null}
+                                      id={3}
+                                    >
+                                      <li
+                                        className="Info-aqdcyj-0 CertInfo__ListInfo-sc-18lbdoe-0 hAFBOI"
+                                        id={3}
+                                      >
+                                        <Title>
+                                          <StyledComponent
+                                            forwardedComponent={
+                                              Object {
+                                                "$$typeof": Symbol(react.forward_ref),
+                                                "attrs": Array [],
+                                                "componentStyle": ComponentStyle {
+                                                  "componentId": "Title-sc-1j54hu2-0",
+                                                  "isStatic": false,
+                                                  "lastClassName": "gmTcvb",
+                                                  "rules": Array [
+                                                    "margin-bottom:10px;& span{color:",
+                                                    [Function],
+                                                    ";}",
+                                                  ],
+                                                },
+                                                "displayName": "Title",
+                                                "foldedComponentIds": Array [],
+                                                "render": [Function],
+                                                "styledComponentId": "Title-sc-1j54hu2-0",
+                                                "target": "h3",
+                                                "toString": [Function],
+                                                "warnTooManyClasses": [Function],
+                                                "withComponent": [Function],
+                                              }
+                                            }
+                                            forwardedRef={null}
+                                          >
+                                            <h3
+                                              className="Title-sc-1j54hu2-0 gmTcvb"
+                                            >
+                                              <span>
+                                                3
+                                              </span>
+                                               — 
+                                              <Translate
+                                                id="CertSPrize"
+                                              >
+                                                <WrappedTranslate
+                                                  context={
+                                                    Object {
+                                                      "activeLanguage": undefined,
+                                                      "addTranslation": [Function],
+                                                      "addTranslationForLanguage": [Function],
+                                                      "defaultLanguage": undefined,
+                                                      "ignoreTranslateChildren": false,
+                                                      "initialize": [Function],
+                                                      "languages": Array [],
+                                                      "renderToStaticMarkup": false,
+                                                      "setActiveLanguage": [Function],
+                                                      "translate": [Function],
+                                                    }
+                                                  }
+                                                  id="CertSPrize"
+                                                >
+                                                  Missing translationId: CertSPrize for language: \${ languageCode }
+                                                </WrappedTranslate>
+                                              </Translate>
+                                            </h3>
+                                          </StyledComponent>
+                                        </Title>
+                                        <p>
+                                          <Translate
+                                            id="CertContentSPrize"
+                                          >
+                                            <WrappedTranslate
+                                              context={
+                                                Object {
+                                                  "activeLanguage": undefined,
+                                                  "addTranslation": [Function],
+                                                  "addTranslationForLanguage": [Function],
+                                                  "defaultLanguage": undefined,
+                                                  "ignoreTranslateChildren": false,
+                                                  "initialize": [Function],
+                                                  "languages": Array [],
+                                                  "renderToStaticMarkup": false,
+                                                  "setActiveLanguage": [Function],
+                                                  "translate": [Function],
+                                                }
+                                              }
+                                              id="CertContentSPrize"
+                                            >
+                                              Missing translationId: CertContentSPrize for language: \${ languageCode }
+                                            </WrappedTranslate>
+                                          </Translate>
+                                        </p>
+                                      </li>
+                                    </StyledComponent>
+                                  </CertInfo__ListInfo>
+                                </div>
+                              </Col>
+                            </StyledComponent>
+                          </CertInfo__ShowOnSelectedCol>
+                        </CertInfo>
+                        <CertInfo
+                          content="CertContentFPrize"
                           id={4}
-                          onClick={[Function]}
+                          itemSelected={1}
+                          key="3"
+                          title="CertFPrize"
                         >
-                          <StyledComponent
-                            forwardedComponent={
-                              Object {
-                                "$$typeof": Symbol(react.forward_ref),
-                                "attrs": Array [],
-                                "componentStyle": ComponentStyle {
-                                  "componentId": "Cert__CertItem-sc-63f6r1-0",
-                                  "isStatic": false,
-                                  "lastClassName": "ehBPxc",
-                                  "rules": Array [
-                                    "position:absolute;top:0;display:block;width:25%;height:100%;background-color:rgba(255,255,255,0);background-repeat:repeat;margin-left:-12.5%;",
-                                    "left:",
-                                    [Function],
-                                    ";z-index:",
-                                    [Function],
-                                    ";",
-                                    [Function],
-                                  ],
-                                },
-                                "displayName": "Cert__CertItem",
-                                "foldedComponentIds": Array [
-                                  "Item-sc-1ll32oh-0",
-                                ],
-                                "render": [Function],
-                                "styledComponentId": "Cert__CertItem-sc-63f6r1-0",
-                                "target": "li",
-                                "toString": [Function],
-                                "warnTooManyClasses": [Function],
-                                "withComponent": [Function],
-                              }
-                            }
-                            forwardedRef={null}
+                          <CertInfo__ShowOnSelectedCol
                             id={4}
-                            onClick={[Function]}
+                            itemSelected={1}
+                            sm={12}
+                            xs={12}
                           >
-                            <li
-                              className="Item-sc-1ll32oh-0 Cert__CertItem-sc-63f6r1-0 ehBPxc"
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "CertInfo__ShowOnSelectedCol-sc-18lbdoe-1",
+                                    "isStatic": false,
+                                    "lastClassName": "hMynoc",
+                                    "rules": Array [
+                                      "display:",
+                                      [Function],
+                                      ";",
+                                    ],
+                                  },
+                                  "displayName": "CertInfo__ShowOnSelectedCol",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "CertInfo__ShowOnSelectedCol-sc-18lbdoe-1",
+                                  "target": Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "displayName": "Col",
+                                    "render": [Function],
+                                  },
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
                               id={4}
-                              onClick={[Function]}
+                              itemSelected={1}
+                              sm={12}
+                              xs={12}
                             >
-                              <CertIcon
+                              <Col
+                                className="CertInfo__ShowOnSelectedCol-sc-18lbdoe-1 hMynoc"
                                 id={4}
                                 itemSelected={1}
-                                name="p"
+                                sm={12}
+                                xs={12}
                               >
-                                <CertIcon__InactiveIcon
-                                  name="p"
+                                <div
+                                  className="CertInfo__ShowOnSelectedCol-sc-18lbdoe-1 hMynoc col-sm-12 col-12"
+                                  id={4}
+                                  itemSelected={1}
                                 >
-                                  <StyledComponent
-                                    forwardedComponent={
-                                      Object {
-                                        "$$typeof": Symbol(react.forward_ref),
-                                        "attrs": Array [],
-                                        "componentStyle": ComponentStyle {
-                                          "componentId": "CertIcon__InactiveIcon-sc-108qrf2-1",
-                                          "isStatic": false,
-                                          "lastClassName": "juLiPb",
-                                          "rules": Array [
-                                            "position:absolute;top:0;left:50%;display:block;width:180px;height:180px;margin-left:-90px;text-align:center;background-color:",
-                                            [Function],
-                                            ";border:1px solid ",
-                                            [Function],
-                                            ";border-radius:50%;box-shadow:3px 4px 8px -4px ",
-                                            [Function],
-                                            ";transition:all 0.5s;@media screen and (max-width:800px){width:160px;height:160px;margin-left:-80px;}@media screen and (max-width:600px){width:140px;height:140px;margin-left:-70px;}@media screen and (max-width:480px){width:120px;height:120px;margin-left:-60px;}&::before{font-family:",
-                                            [Function],
-                                            ";font-style:normal;font-weight:normal;font-size:80px;line-height:180px;color:",
-                                            [Function],
-                                            ";cursor:default;transition:all 0.5s;@media screen and (max-width:800px){font-size:70px;line-height:160px;}@media screen and (max-width:600px){font-size:70px;line-height:140px;}@media screen and (max-width:480px){font-size:60px;line-height:120px;}}",
-                                            "&::before{text-shadow:-1px -1px 0 ",
-                                            [Function],
-                                            ",0 -1px 0 ",
-                                            [Function],
-                                            ",1px -1px 0 ",
-                                            [Function],
-                                            ",1px 0 0 ",
-                                            [Function],
-                                            ",1px 1px 0 ",
-                                            [Function],
-                                            ",0 1px 0 ",
-                                            [Function],
-                                            ",-1px 1px 0 ",
-                                            [Function],
-                                            ",-1px 0 0 ",
-                                            [Function],
-                                            ";}",
+                                  <CertInfo__ListInfo
+                                    id={4}
+                                  >
+                                    <StyledComponent
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "CertInfo__ListInfo-sc-18lbdoe-0",
+                                            "isStatic": false,
+                                            "lastClassName": "hrEqKp",
+                                            "rules": Array [
+                                              "position:relative;top:0;left:0;z-index:-1;display:block;width:100%;margin:40px 0 50px;padding:10px;background-color:",
+                                              [Function],
+                                              ";border-top:10px solid ",
+                                              [Function],
+                                              ";box-shadow:2px 2px 4px -2px ",
+                                              [Function],
+                                              ";&::before{content:'';position:absolute;top:-40px;margin-left:-40px;border-bottom:40px solid ",
+                                              [Function],
+                                              ";border-left:40px solid transparent;border-right:40px solid transparent;}&::after{content:'';position:absolute;top:-25px;margin-left:-27px;border-bottom:27px solid ",
+                                              [Function],
+                                              ";border-left:27px solid transparent;border-right:27px solid transparent;}",
+                                              "position:relative;&::before,&::after{left:",
+                                              [Function],
+                                              ";}",
+                                            ],
+                                          },
+                                          "displayName": "CertInfo__ListInfo",
+                                          "foldedComponentIds": Array [
+                                            "Info-aqdcyj-0",
                                           ],
-                                        },
-                                        "displayName": "CertIcon__InactiveIcon",
-                                        "foldedComponentIds": Array [
-                                          "CertIcon__ItemIcon-sc-108qrf2-0",
-                                        ],
-                                        "render": [Function],
-                                        "styledComponentId": "CertIcon__InactiveIcon-sc-108qrf2-1",
-                                        "target": [Function],
-                                        "toString": [Function],
-                                        "warnTooManyClasses": [Function],
-                                        "withComponent": [Function],
-                                      }
-                                    }
-                                    forwardedRef={null}
-                                    name="p"
-                                  >
-                                    <Icon
-                                      className="CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__InactiveIcon-sc-108qrf2-1 juLiPb"
-                                      name="p"
-                                    >
-                                      <Icon__Symbol
-                                        className="CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__InactiveIcon-sc-108qrf2-1 juLiPb"
-                                        name="p"
-                                      >
-                                        <StyledComponent
-                                          className="CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__InactiveIcon-sc-108qrf2-1 juLiPb"
-                                          forwardedComponent={
-                                            Object {
-                                              "$$typeof": Symbol(react.forward_ref),
-                                              "attrs": Array [],
-                                              "componentStyle": ComponentStyle {
-                                                "componentId": "Icon__Symbol-sc-1aleqew-0",
-                                                "isStatic": false,
-                                                "lastClassName": "cyhahg",
-                                                "rules": Array [
-                                                  "display:inline-block;&::before{font-family:",
-                                                  [Function],
-                                                  ";font-style:normal;font-weight:normal;content:'",
-                                                  [Function],
-                                                  "';}",
-                                                ],
-                                              },
-                                              "displayName": "Icon__Symbol",
-                                              "foldedComponentIds": Array [],
-                                              "render": [Function],
-                                              "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
-                                              "target": "div",
-                                              "toString": [Function],
-                                              "warnTooManyClasses": [Function],
-                                              "withComponent": [Function],
-                                            }
-                                          }
-                                          forwardedRef={null}
-                                          name="p"
-                                        >
-                                          <div
-                                            className="Icon__Symbol-sc-1aleqew-0 cyhahg CertIcon__ItemIcon-sc-108qrf2-0 CertIcon__InactiveIcon-sc-108qrf2-1 juLiPb"
-                                            name="p"
-                                          />
-                                        </StyledComponent>
-                                      </Icon__Symbol>
-                                    </Icon>
-                                  </StyledComponent>
-                                </CertIcon__InactiveIcon>
-                              </CertIcon>
-                            </li>
-                          </StyledComponent>
-                        </Cert__CertItem>
-                        <Cert__CertInfo
-                          id={4}
-                          itemSelected={1}
-                        >
-                          <StyledComponent
-                            forwardedComponent={
-                              Object {
-                                "$$typeof": Symbol(react.forward_ref),
-                                "attrs": Array [],
-                                "componentStyle": ComponentStyle {
-                                  "componentId": "Cert__CertInfo-sc-63f6r1-1",
-                                  "isStatic": false,
-                                  "lastClassName": "fTWodg",
-                                  "rules": Array [
-                                    "position:absolute;top:180px;left:0;z-index:-1;display:block;width:100%;margin:40px 0 50px;padding:10px;background-color:",
-                                    [Function],
-                                    ";border-top:10px solid ",
-                                    [Function],
-                                    ";box-shadow:2px 2px 4px -2px ",
-                                    [Function],
-                                    ";@media screen and (max-width:800px){top:160px;}@media screen and (max-width:600px){top:140px;}@media screen and (max-width:480px){top:120px;}&::before{content:'';position:absolute;top:-40px;margin-left:-40px;border-bottom:40px solid ",
-                                    [Function],
-                                    ";border-left:40px solid transparent;border-right:40px solid transparent;}&::after{content:'';position:absolute;top:-25px;margin-left:-27px;border-bottom:27px solid ",
-                                    [Function],
-                                    ";border-left:27px solid transparent;border-right:27px solid transparent;}",
-                                    "visibility:",
-                                    [Function],
-                                    ";&::before,&::after{left:",
-                                    [Function],
-                                    ";}",
-                                  ],
-                                },
-                                "displayName": "Cert__CertInfo",
-                                "foldedComponentIds": Array [
-                                  "Info-aqdcyj-0",
-                                ],
-                                "render": [Function],
-                                "styledComponentId": "Cert__CertInfo-sc-63f6r1-1",
-                                "target": "li",
-                                "toString": [Function],
-                                "warnTooManyClasses": [Function],
-                                "withComponent": [Function],
-                              }
-                            }
-                            forwardedRef={null}
-                            id={4}
-                            itemSelected={1}
-                          >
-                            <li
-                              className="Info-aqdcyj-0 Cert__CertInfo-sc-63f6r1-1 fTWodg"
-                              id={4}
-                            >
-                              <Title>
-                                <StyledComponent
-                                  forwardedComponent={
-                                    Object {
-                                      "$$typeof": Symbol(react.forward_ref),
-                                      "attrs": Array [],
-                                      "componentStyle": ComponentStyle {
-                                        "componentId": "Title-sc-1j54hu2-0",
-                                        "isStatic": false,
-                                        "lastClassName": "gmTcvb",
-                                        "rules": Array [
-                                          "margin-bottom:10px;& span{color:",
-                                          [Function],
-                                          ";}",
-                                        ],
-                                      },
-                                      "displayName": "Title",
-                                      "foldedComponentIds": Array [],
-                                      "render": [Function],
-                                      "styledComponentId": "Title-sc-1j54hu2-0",
-                                      "target": "h3",
-                                      "toString": [Function],
-                                      "warnTooManyClasses": [Function],
-                                      "withComponent": [Function],
-                                    }
-                                  }
-                                  forwardedRef={null}
-                                >
-                                  <h3
-                                    className="Title-sc-1j54hu2-0 gmTcvb"
-                                  >
-                                    <span>
-                                      4
-                                    </span>
-                                     — 
-                                    <Translate
-                                      id="CertDeliver"
-                                    >
-                                      <WrappedTranslate
-                                        context={
-                                          Object {
-                                            "activeLanguage": undefined,
-                                            "addTranslation": [Function],
-                                            "addTranslationForLanguage": [Function],
-                                            "defaultLanguage": undefined,
-                                            "ignoreTranslateChildren": false,
-                                            "initialize": [Function],
-                                            "languages": Array [],
-                                            "renderToStaticMarkup": false,
-                                            "setActiveLanguage": [Function],
-                                            "translate": [Function],
-                                          }
+                                          "render": [Function],
+                                          "styledComponentId": "CertInfo__ListInfo-sc-18lbdoe-0",
+                                          "target": "li",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
                                         }
-                                        id="CertDeliver"
-                                      >
-                                        Missing translationId: CertDeliver for language: \${ languageCode }
-                                      </WrappedTranslate>
-                                    </Translate>
-                                  </h3>
-                                </StyledComponent>
-                              </Title>
-                              <p>
-                                <Translate
-                                  id="CertContentDeliver"
-                                >
-                                  <WrappedTranslate
-                                    context={
-                                      Object {
-                                        "activeLanguage": undefined,
-                                        "addTranslation": [Function],
-                                        "addTranslationForLanguage": [Function],
-                                        "defaultLanguage": undefined,
-                                        "ignoreTranslateChildren": false,
-                                        "initialize": [Function],
-                                        "languages": Array [],
-                                        "renderToStaticMarkup": false,
-                                        "setActiveLanguage": [Function],
-                                        "translate": [Function],
                                       }
-                                    }
-                                    id="CertContentDeliver"
-                                  >
-                                    Missing translationId: CertContentDeliver for language: \${ languageCode }
-                                  </WrappedTranslate>
-                                </Translate>
-                              </p>
-                            </li>
-                          </StyledComponent>
-                        </Cert__CertInfo>
-                      </Cert>
-                    </ul>
-                  </StyledComponent>
-                </Certification__List>
-              </div>
-            </section>
-          </StyledComponent>
-        </Container__Style>
-      </Container>
-    </StyledComponent>
-  </Certification__WorkAroundContainer>
+                                      forwardedRef={null}
+                                      id={4}
+                                    >
+                                      <li
+                                        className="Info-aqdcyj-0 CertInfo__ListInfo-sc-18lbdoe-0 hrEqKp"
+                                        id={4}
+                                      >
+                                        <Title>
+                                          <StyledComponent
+                                            forwardedComponent={
+                                              Object {
+                                                "$$typeof": Symbol(react.forward_ref),
+                                                "attrs": Array [],
+                                                "componentStyle": ComponentStyle {
+                                                  "componentId": "Title-sc-1j54hu2-0",
+                                                  "isStatic": false,
+                                                  "lastClassName": "gmTcvb",
+                                                  "rules": Array [
+                                                    "margin-bottom:10px;& span{color:",
+                                                    [Function],
+                                                    ";}",
+                                                  ],
+                                                },
+                                                "displayName": "Title",
+                                                "foldedComponentIds": Array [],
+                                                "render": [Function],
+                                                "styledComponentId": "Title-sc-1j54hu2-0",
+                                                "target": "h3",
+                                                "toString": [Function],
+                                                "warnTooManyClasses": [Function],
+                                                "withComponent": [Function],
+                                              }
+                                            }
+                                            forwardedRef={null}
+                                          >
+                                            <h3
+                                              className="Title-sc-1j54hu2-0 gmTcvb"
+                                            >
+                                              <span>
+                                                4
+                                              </span>
+                                               — 
+                                              <Translate
+                                                id="CertFPrize"
+                                              >
+                                                <WrappedTranslate
+                                                  context={
+                                                    Object {
+                                                      "activeLanguage": undefined,
+                                                      "addTranslation": [Function],
+                                                      "addTranslationForLanguage": [Function],
+                                                      "defaultLanguage": undefined,
+                                                      "ignoreTranslateChildren": false,
+                                                      "initialize": [Function],
+                                                      "languages": Array [],
+                                                      "renderToStaticMarkup": false,
+                                                      "setActiveLanguage": [Function],
+                                                      "translate": [Function],
+                                                    }
+                                                  }
+                                                  id="CertFPrize"
+                                                >
+                                                  Missing translationId: CertFPrize for language: \${ languageCode }
+                                                </WrappedTranslate>
+                                              </Translate>
+                                            </h3>
+                                          </StyledComponent>
+                                        </Title>
+                                        <p>
+                                          <Translate
+                                            id="CertContentFPrize"
+                                          >
+                                            <WrappedTranslate
+                                              context={
+                                                Object {
+                                                  "activeLanguage": undefined,
+                                                  "addTranslation": [Function],
+                                                  "addTranslationForLanguage": [Function],
+                                                  "defaultLanguage": undefined,
+                                                  "ignoreTranslateChildren": false,
+                                                  "initialize": [Function],
+                                                  "languages": Array [],
+                                                  "renderToStaticMarkup": false,
+                                                  "setActiveLanguage": [Function],
+                                                  "translate": [Function],
+                                                }
+                                              }
+                                              id="CertContentFPrize"
+                                            >
+                                              Missing translationId: CertContentFPrize for language: \${ languageCode }
+                                            </WrappedTranslate>
+                                          </Translate>
+                                        </p>
+                                      </li>
+                                    </StyledComponent>
+                                  </CertInfo__ListInfo>
+                                </div>
+                              </Col>
+                            </StyledComponent>
+                          </CertInfo__ShowOnSelectedCol>
+                        </CertInfo>
+                      </div>
+                    </ForwardRef>
+                  </ul>
+                </StyledComponent>
+              </Certification__List>
+            </div>
+          </Container>
+        </section>
+      </StyledComponent>
+    </Container__Style>
+  </Container>
 </Certification>
 `;

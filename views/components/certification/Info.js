@@ -1,8 +1,8 @@
 import styled from 'styled-components/macro'
 
 const Info = styled.li`
-  position: absolute;
-  top: 180px;
+  position: relative;
+  top: 0;
   left: 0;
   z-index: -1;
   display: block;
@@ -12,18 +12,6 @@ const Info = styled.li`
   background-color: ${props => props.theme.colors.colorLight};
   border-top: 10px solid ${props => props.theme.colors.colorAccent};
   box-shadow: 2px 2px 4px -2px ${props => props.theme.colors.colorDark};
-
-  @media screen and (max-width: 800px) {
-    top: 160px;
-  }
-
-  @media screen and (max-width: 600px) {
-    top: 140px;
-  }
-
-  @media screen and (max-width: 480px) {
-    top: 120px;
-  }
 
   &::before {
     content: '';

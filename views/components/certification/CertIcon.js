@@ -20,13 +20,12 @@ CertIcon.propTypes = {
 export default CertIcon
 
 const ItemIcon = styled(Icon)`
-  position: absolute;
   top: 0;
   left: 50%;
   display: block;
   width: 180px;
   height: 180px;
-  margin-left: -90px;
+  margin-left: 104%;
   text-align: center;
   background-color: ${props => props.theme.colors.colorLight};
   border: 1px solid ${props => props.theme.colors.colorLight};
@@ -34,22 +33,40 @@ const ItemIcon = styled(Icon)`
   box-shadow: 3px 4px 8px -4px ${props => props.theme.colors.colorDark};
   transition: all 0.5s;
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 992px) {
     width: 160px;
     height: 160px;
-    margin-left: -80px;
+    margin-left: 35%;
   }
 
-  @media screen and (max-width: 600px) {
-    width: 140px;
-    height: 140px;
-    margin-left: -70px;
+  @media screen and (max-width: 768px) {
+    width: 125px;
+    height: 125px;
+    margin-left: 5%;
+  }
+
+  @media screen and (max-width: 576px) {
+    width: 120px;
+    height: 120px;
+    margin-left: 20%;
   }
 
   @media screen and (max-width: 480px) {
-    width: 120px;
-    height: 120px;
-    margin-left: -60px;
+    width: 90px;
+    height: 90px;
+    margin-left: 15%;
+  }
+
+  @media screen and (max-width: 375px) {
+    width: 80px;
+    height: 80px;
+    margin-left: -53%;
+  }
+
+  @media screen and (max-width: 320px) {
+    width: 70px;
+    height: 70px;
+    margin-left: -40%;
   }
 
   &::before {
@@ -62,19 +79,34 @@ const ItemIcon = styled(Icon)`
     cursor: default;
     transition: all 0.5s;
 
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 992px) {
       font-size: 70px;
       line-height: 160px;
     }
 
-    @media screen and (max-width: 600px) {
-      font-size: 70px;
-      line-height: 140px;
+    @media screen and (max-width: 768px) {
+      font-size: 63px;
+      line-height: 127px;
+    }
+
+    @media screen and (max-width: 576px) {
+      font-size: 56px;
+      line-height: 114px;
     }
 
     @media screen and (max-width: 480px) {
-      font-size: 60px;
-      line-height: 120px;
+      font-size: 47px;
+      line-height: 88px;
+    }
+
+    @media screen and (max-width: 375px) {
+      font-size: 40px;
+      line-height: 79px;
+    }
+
+    @media screen and (max-width: 320px) {
+      font-size: 35px;
+      line-height: 71px;
     }
   }
 `
