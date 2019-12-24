@@ -12,6 +12,16 @@ const ThemeProviderSelector = ({ children }) => {
     <ThemeProvider theme={theme}>
       {children}
       <style jsx global>{`
+        body {
+          color: ${theme.colors.colorDark};
+        }
+        h1 {
+          color: ${theme.colors.colorLight};
+        }
+        a {
+          color: ${theme.colors.colorDark};
+          border-bottom: 1px dashed ${theme.colors.colorDark};
+        }
         body:after {
           content: '';
           position: fixed;

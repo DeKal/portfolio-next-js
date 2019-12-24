@@ -11,8 +11,8 @@ const theme = {
     bgColor: '#fff'
   },
   images: {
-    background: '/images/bg-christmas.jpg',
-    bgPattern: '/images/bg-pattern-snow.png',
+    background: '/images/christmas/bg-christmas.jpg',
+    bgPattern: '/images/christmas/bg-pattern-snow.png',
     bgPatternOpacity: '0.25',
     overlay:
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC'
