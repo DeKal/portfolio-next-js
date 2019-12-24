@@ -5,7 +5,6 @@ html, body
 	color: #2c3e50
 	font-family: $font-sans
 	line-height: 1.2
-	background: #fff url(/images/bg-pattern.jpg)
 	scroll-behavior: smooth
 
 
@@ -82,17 +81,3 @@ a
 	border-bottom: 1px dashed #2c3e50
 	&:hover
 		border-bottom: none
-
-.icon
-	&:before
-		font-family: "ip"
-		font-style: normal
-		font-weight: normal
-
-	@function unicode($str)
-		@return unquote("\"") + $str + unquote("\"")
-	$icons: prize P, cert C, research \e80b, strategy \e807, improve \e80f, plan \e80c, recover \e80a, support \e80e, develop \e808, deploy \e80d, deliver \e810, gotop \e817, gonext \e818, twi \e812, gplus \e813, vk \e814, rss \e816, ql \e804, qr \e805
-	@each $icon in $icons
-		&_#{nth($icon, 1)}
-			&:before
-				content: unicode(nth($icon, 2))
