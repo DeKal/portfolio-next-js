@@ -54,3 +54,23 @@ export const getSelectedSection = () => {
   }
   return INIT_SELECTED_PAGE
 }
+
+export const isChristmasDay = () => {
+  const today = new Date()
+  const month = today.getMonth() + 1
+  const isDecember = month == 12
+  const day = today.getDate()
+  const isChristMasTime = 20 <= day <= 30
+
+  return isDecember && isChristMasTime
+}
+
+export const isNewYearComing = () => {
+  const today = new Date()
+  const day = today.getDate()
+  const isFirstTwoWeek = 1 <= day <= 16
+  const month = today.getMonth() + 1
+  const isJanuary = month == 1
+
+  return isJanuary && isFirstTwoWeek
+}
