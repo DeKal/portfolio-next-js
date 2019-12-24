@@ -1,12 +1,11 @@
 import App from 'next/app'
 import React from 'react'
-import { ThemeProvider } from 'styled-components/macro'
 import { LocalizeProvider } from 'react-localize-redux'
 import { IconContext } from 'react-icons/lib/'
-import theme from '~/views/theme'
 import LocalizedComponent from '~/views/localize/LocalizedComponent'
 import Loading from '~/views/original-components/Loading'
 import ErrorBoundary from '~/views/components/ErrorBoundary'
+import ThemeProviderSelector from '~/views/theme/ThemeProviderSelector'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 //Import Global style
@@ -27,7 +26,7 @@ export default class MyApp extends App {
       <Loading />
     ) : (
       <IconContext.Provider value={{ style: { verticalAlign: 'middle' } }}>
-        <ThemeProvider theme={theme}>
+        <ThemeProviderSelector>
           <LocalizeProvider>
             <LocalizedComponent>
               <ErrorBoundary>
@@ -35,7 +34,7 @@ export default class MyApp extends App {
               </ErrorBoundary>
             </LocalizedComponent>
           </LocalizeProvider>
-        </ThemeProvider>
+        </ThemeProviderSelector>
       </IconContext.Provider>
     )
   }

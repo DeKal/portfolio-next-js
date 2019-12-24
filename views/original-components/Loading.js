@@ -1,6 +1,6 @@
 import React from 'react'
 import ScaleLoader from 'react-spinners/ScaleLoader'
-import theme from '~/views/theme'
+import theme from '~/theme/theme'
 
 const Loading = () => (
   <div className="progress-theme">
