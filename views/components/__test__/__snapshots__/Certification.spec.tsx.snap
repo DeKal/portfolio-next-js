@@ -840,7 +840,7 @@ exports[`Certification should render without throwing an error 1`] = `
                         >
                           <CertInfo__ShowOnSelectedCol
                             id={1}
-                            itemSelected={1}
+                            itemselected={1}
                             sm={12}
                             xs={12}
                           >
@@ -875,21 +875,21 @@ exports[`Certification should render without throwing an error 1`] = `
                               }
                               forwardedRef={null}
                               id={1}
-                              itemSelected={1}
+                              itemselected={1}
                               sm={12}
                               xs={12}
                             >
                               <Col
                                 className="CertInfo__ShowOnSelectedCol-sc-18lbdoe-1 frMwYm"
                                 id={1}
-                                itemSelected={1}
+                                itemselected={1}
                                 sm={12}
                                 xs={12}
                               >
                                 <div
                                   className="CertInfo__ShowOnSelectedCol-sc-18lbdoe-1 frMwYm col-sm-12 col-12"
                                   id={1}
-                                  itemSelected={1}
+                                  itemselected={1}
                                 >
                                   <CertInfo__ListInfo
                                     id={1}
@@ -1042,7 +1042,7 @@ exports[`Certification should render without throwing an error 1`] = `
                         >
                           <CertInfo__ShowOnSelectedCol
                             id={2}
-                            itemSelected={1}
+                            itemselected={1}
                             sm={12}
                             xs={12}
                           >
@@ -1077,21 +1077,21 @@ exports[`Certification should render without throwing an error 1`] = `
                               }
                               forwardedRef={null}
                               id={2}
-                              itemSelected={1}
+                              itemselected={1}
                               sm={12}
                               xs={12}
                             >
                               <Col
                                 className="CertInfo__ShowOnSelectedCol-sc-18lbdoe-1 hMynoc"
                                 id={2}
-                                itemSelected={1}
+                                itemselected={1}
                                 sm={12}
                                 xs={12}
                               >
                                 <div
                                   className="CertInfo__ShowOnSelectedCol-sc-18lbdoe-1 hMynoc col-sm-12 col-12"
                                   id={2}
-                                  itemSelected={1}
+                                  itemselected={1}
                                 >
                                   <CertInfo__ListInfo
                                     id={2}
@@ -1244,7 +1244,7 @@ exports[`Certification should render without throwing an error 1`] = `
                         >
                           <CertInfo__ShowOnSelectedCol
                             id={3}
-                            itemSelected={1}
+                            itemselected={1}
                             sm={12}
                             xs={12}
                           >
@@ -1279,21 +1279,21 @@ exports[`Certification should render without throwing an error 1`] = `
                               }
                               forwardedRef={null}
                               id={3}
-                              itemSelected={1}
+                              itemselected={1}
                               sm={12}
                               xs={12}
                             >
                               <Col
                                 className="CertInfo__ShowOnSelectedCol-sc-18lbdoe-1 hMynoc"
                                 id={3}
-                                itemSelected={1}
+                                itemselected={1}
                                 sm={12}
                                 xs={12}
                               >
                                 <div
                                   className="CertInfo__ShowOnSelectedCol-sc-18lbdoe-1 hMynoc col-sm-12 col-12"
                                   id={3}
-                                  itemSelected={1}
+                                  itemselected={1}
                                 >
                                   <CertInfo__ListInfo
                                     id={3}
@@ -1446,7 +1446,7 @@ exports[`Certification should render without throwing an error 1`] = `
                         >
                           <CertInfo__ShowOnSelectedCol
                             id={4}
-                            itemSelected={1}
+                            itemselected={1}
                             sm={12}
                             xs={12}
                           >
@@ -1481,21 +1481,21 @@ exports[`Certification should render without throwing an error 1`] = `
                               }
                               forwardedRef={null}
                               id={4}
-                              itemSelected={1}
+                              itemselected={1}
                               sm={12}
                               xs={12}
                             >
                               <Col
                                 className="CertInfo__ShowOnSelectedCol-sc-18lbdoe-1 hMynoc"
                                 id={4}
-                                itemSelected={1}
+                                itemselected={1}
                                 sm={12}
                                 xs={12}
                               >
                                 <div
                                   className="CertInfo__ShowOnSelectedCol-sc-18lbdoe-1 hMynoc col-sm-12 col-12"
                                   id={4}
-                                  itemSelected={1}
+                                  itemselected={1}
                                 >
                                   <CertInfo__ListInfo
                                     id={4}
