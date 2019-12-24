@@ -12,16 +12,13 @@ exports[`Loading should render without throwing an error 1`] = `
     >
       <Loader
         color="#FFA726"
-        css={Object {}}
+        css=""
         height={150}
-        heightUnit="px"
         loading={true}
-        margin="2px"
+        margin={2}
         radius={2}
-        radiusUnit="px"
         sizeUnit="px"
         width={15}
-        widthUnit="px"
       />
       Loading...
     </div>

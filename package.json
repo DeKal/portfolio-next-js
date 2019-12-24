@@ -26,7 +26,7 @@
     "react-icons": "3.8.0",
     "react-localize-redux": "3.5.3",
     "react-reveal": "1.2.2",
-    "react-spinners": "0.6.1",
+    "react-spinners": "0.7.1",
     "styled-components": "4.4.1"
   },
   "devDependencies": {
