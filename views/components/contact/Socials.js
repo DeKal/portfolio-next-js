@@ -4,19 +4,19 @@ import Icon from '~/views/components/common/Icon'
 
 const Socials = () => (
   <Container>
-    <Item>
-      <IconWrapper
-        name="fb"
-        rel="nofollow"
-        href="https://www.facebook.com/dekal.dev"
-      />
+    <Item
+      onClick={() => {
+        window.location.href = 'https://www.facebook.com/dekal.dev'
+      }}
+    >
+      <IconWrapper name="fb" />
     </Item>
-    <Item>
-      <IconWrapper
-        name="linkedin"
-        rel="nofollow"
-        href="https://www.linkedin.com/in/phat-ho/"
-      />
+    <Item
+      onClick={() => {
+        window.location.href = 'https://www.linkedin.com/in/phat-ho/'
+      }}
+    >
+      <IconWrapper name="linkedin" />
     </Item>
   </Container>
 )

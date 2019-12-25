@@ -9,6 +9,7 @@ import Anchor from '~/views/components/common/Anchor'
 import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
 import SectionContainer from '~/views/components/common/section/Container'
+import { Translate } from 'react-localize-redux'
 
 const Certification = () => {
   const [itemSelected, setSelectedItem] = useState(1)
@@ -18,7 +19,9 @@ const Certification = () => {
       <Anchor id={CERTIFICATIONS} top={-40} />
       <Container>
         <Header>
-          <h2>Certifications and Prizes</h2>
+          <h2>
+            <Translate id="Certifications and Prizes" />
+          </h2>
         </Header>
         <List>
           <Row>

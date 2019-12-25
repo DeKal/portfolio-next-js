@@ -85,9 +85,9 @@ exports[`Footer should render without throwing an error 1`] = `
                     "componentStyle": ComponentStyle {
                       "componentId": "Contact__Card-h6hh4w-1",
                       "isStatic": false,
-                      "lastClassName": "edkzCB",
+                      "lastClassName": "brfZYN",
                       "rules": Array [
-                        "z-index:50;margin-left:calc((100% - calc(75% - 40px)) / 2);width:calc(75% - 40px);@media screen and (max-width:800px){width:calc(100% - 20px);margin-left:10px;float:none;}",
+                        "z-index:50;width:75%;margin:0 auto;@media screen and (max-width:800px){width:100%;float:none;}",
                       ],
                     },
                     "displayName": "Contact__Card",
@@ -103,7 +103,7 @@ exports[`Footer should render without throwing an error 1`] = `
                 forwardedRef={null}
               >
                 <section
-                  className="Contact__Card-h6hh4w-1 edkzCB"
+                  className="Contact__Card-h6hh4w-1 brfZYN"
                 >
                   <Header>
                     <Header__Container
@@ -1114,7 +1114,9 @@ exports[`Footer should render without throwing an error 1`] = `
                                       <ul
                                         className="Socials__Container-sc-1umla0t-0 jpsFiL"
                                       >
-                                        <Socials__Item>
+                                        <Socials__Item
+                                          onClick={[Function]}
+                                        >
                                           <StyledComponent
                                             forwardedComponent={
                                               Object {
@@ -1143,14 +1145,14 @@ exports[`Footer should render without throwing an error 1`] = `
                                               }
                                             }
                                             forwardedRef={null}
+                                            onClick={[Function]}
                                           >
                                             <li
                                               className="Socials__Item-sc-1umla0t-1 gLogpD"
+                                              onClick={[Function]}
                                             >
                                               <Socials__IconWrapper
-                                                href="https://www.facebook.com/dekal.dev"
                                                 name="fb"
-                                                rel="nofollow"
                                               >
                                                 <StyledComponent
                                                   forwardedComponent={
@@ -1182,15 +1184,11 @@ exports[`Footer should render without throwing an error 1`] = `
                                                     }
                                                   }
                                                   forwardedRef={null}
-                                                  href="https://www.facebook.com/dekal.dev"
                                                   name="fb"
-                                                  rel="nofollow"
                                                 >
                                                   <Icon
                                                     className="Socials__IconWrapper-sc-1umla0t-2 bFtsyN"
-                                                    href="https://www.facebook.com/dekal.dev"
                                                     name="fb"
-                                                    rel="nofollow"
                                                   >
                                                     <Icon__Symbol
                                                       className="Socials__IconWrapper-sc-1umla0t-2 bFtsyN"
@@ -1239,7 +1237,9 @@ exports[`Footer should render without throwing an error 1`] = `
                                             </li>
                                           </StyledComponent>
                                         </Socials__Item>
-                                        <Socials__Item>
+                                        <Socials__Item
+                                          onClick={[Function]}
+                                        >
                                           <StyledComponent
                                             forwardedComponent={
                                               Object {
@@ -1268,14 +1268,14 @@ exports[`Footer should render without throwing an error 1`] = `
                                               }
                                             }
                                             forwardedRef={null}
+                                            onClick={[Function]}
                                           >
                                             <li
                                               className="Socials__Item-sc-1umla0t-1 gLogpD"
+                                              onClick={[Function]}
                                             >
                                               <Socials__IconWrapper
-                                                href="https://www.linkedin.com/in/phat-ho/"
                                                 name="linkedin"
-                                                rel="nofollow"
                                               >
                                                 <StyledComponent
                                                   forwardedComponent={
@@ -1307,15 +1307,11 @@ exports[`Footer should render without throwing an error 1`] = `
                                                     }
                                                   }
                                                   forwardedRef={null}
-                                                  href="https://www.linkedin.com/in/phat-ho/"
                                                   name="linkedin"
-                                                  rel="nofollow"
                                                 >
                                                   <Icon
                                                     className="Socials__IconWrapper-sc-1umla0t-2 bFtsyN"
-                                                    href="https://www.linkedin.com/in/phat-ho/"
                                                     name="linkedin"
-                                                    rel="nofollow"
                                                   >
                                                     <Icon__Symbol
                                                       className="Socials__IconWrapper-sc-1umla0t-2 bFtsyN"
