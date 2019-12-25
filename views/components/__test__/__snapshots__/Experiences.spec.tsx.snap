@@ -257,11 +257,11 @@ exports[`Experiences should render without throwing an error 1`] = `
                                               "componentStyle": ComponentStyle {
                                                 "componentId": "ExpIcon-sc-3ualx9-0",
                                                 "isStatic": false,
-                                                "lastClassName": "dfhMtB",
+                                                "lastClassName": "iZLGek",
                                                 "rules": Array [
                                                   "display:block;&::before{margin-top:30px;float:left;color:",
                                                   [Function],
-                                                  ";font-size:60px;transition:color 0.5s;display:block;}&:hover::before{color:",
+                                                  ";font-size:60px;transition:color 0.5s;display:block;@media screen and (max-width:600px){font-size:45px;}}&:hover::before{color:",
                                                   [Function],
                                                   ";}",
                                                 ],
@@ -280,15 +280,15 @@ exports[`Experiences should render without throwing an error 1`] = `
                                           name="workexp"
                                         >
                                           <Icon
-                                            className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                            className="ExpIcon-sc-3ualx9-0 iZLGek"
                                             name="workexp"
                                           >
                                             <Icon__Symbol
-                                              className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                              className="ExpIcon-sc-3ualx9-0 iZLGek"
                                               name="workexp"
                                             >
                                               <StyledComponent
-                                                className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                                className="ExpIcon-sc-3ualx9-0 iZLGek"
                                                 forwardedComponent={
                                                   Object {
                                                     "$$typeof": Symbol(react.forward_ref),
@@ -319,7 +319,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                                 name="workexp"
                                               >
                                                 <div
-                                                  className="Icon__Symbol-sc-1aleqew-0 bzJhZq ExpIcon-sc-3ualx9-0 dfhMtB"
+                                                  className="Icon__Symbol-sc-1aleqew-0 bzJhZq ExpIcon-sc-3ualx9-0 iZLGek"
                                                   name="workexp"
                                                 />
                                               </StyledComponent>
@@ -336,9 +336,9 @@ exports[`Experiences should render without throwing an error 1`] = `
                                               "componentStyle": ComponentStyle {
                                                 "componentId": "Title-fscwbn-0",
                                                 "isStatic": false,
-                                                "lastClassName": "cQhIGZ",
+                                                "lastClassName": "fMCAgV",
                                                 "rules": Array [
-                                                  "margin-left:80px;margin-bottom:10px;text-transform:uppercase;font-weight:bold;",
+                                                  "margin-left:80px;margin-bottom:10px;text-transform:uppercase;font-weight:bold;@media screen and (max-width:600px){margin-left:60px;}",
                                                 ],
                                               },
                                               "displayName": "Title",
@@ -354,7 +354,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                           forwardedRef={null}
                                         >
                                           <h4
-                                            className="Title-fscwbn-0 cQhIGZ"
+                                            className="Title-fscwbn-0 fMCAgV"
                                           >
                                             <Translate
                                               id="Exp: Zalora Title"
@@ -391,9 +391,9 @@ exports[`Experiences should render without throwing an error 1`] = `
                                               "componentStyle": ComponentStyle {
                                                 "componentId": "Description-sc-1bljldm-0",
                                                 "isStatic": false,
-                                                "lastClassName": "duDcvP",
+                                                "lastClassName": "eJKCpn",
                                                 "rules": Array [
-                                                  "margin-left:80px;",
+                                                  "margin-left:80px;@media screen and (max-width:600px){margin-left:60px;}",
                                                 ],
                                               },
                                               "displayName": "Description",
@@ -409,7 +409,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                           forwardedRef={null}
                                         >
                                           <p
-                                            className="Description-sc-1bljldm-0 duDcvP"
+                                            className="Description-sc-1bljldm-0 eJKCpn"
                                           >
                                             <Translate
                                               id="Exp: Zalora Desc"
@@ -446,9 +446,9 @@ exports[`Experiences should render without throwing an error 1`] = `
                                               "componentStyle": ComponentStyle {
                                                 "componentId": "Description-sc-1bljldm-0",
                                                 "isStatic": false,
-                                                "lastClassName": "duDcvP",
+                                                "lastClassName": "eJKCpn",
                                                 "rules": Array [
-                                                  "margin-left:80px;",
+                                                  "margin-left:80px;@media screen and (max-width:600px){margin-left:60px;}",
                                                 ],
                                               },
                                               "displayName": "Description",
@@ -464,7 +464,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                           forwardedRef={null}
                                         >
                                           <p
-                                            className="Description-sc-1bljldm-0 duDcvP"
+                                            className="Description-sc-1bljldm-0 eJKCpn"
                                           >
                                             <Bold>
                                               <StyledComponent
@@ -614,11 +614,11 @@ exports[`Experiences should render without throwing an error 1`] = `
                                               "componentStyle": ComponentStyle {
                                                 "componentId": "ExpIcon-sc-3ualx9-0",
                                                 "isStatic": false,
-                                                "lastClassName": "dfhMtB",
+                                                "lastClassName": "iZLGek",
                                                 "rules": Array [
                                                   "display:block;&::before{margin-top:30px;float:left;color:",
                                                   [Function],
-                                                  ";font-size:60px;transition:color 0.5s;display:block;}&:hover::before{color:",
+                                                  ";font-size:60px;transition:color 0.5s;display:block;@media screen and (max-width:600px){font-size:45px;}}&:hover::before{color:",
                                                   [Function],
                                                   ";}",
                                                 ],
@@ -637,15 +637,15 @@ exports[`Experiences should render without throwing an error 1`] = `
                                           name="workexp"
                                         >
                                           <Icon
-                                            className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                            className="ExpIcon-sc-3ualx9-0 iZLGek"
                                             name="workexp"
                                           >
                                             <Icon__Symbol
-                                              className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                              className="ExpIcon-sc-3ualx9-0 iZLGek"
                                               name="workexp"
                                             >
                                               <StyledComponent
-                                                className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                                className="ExpIcon-sc-3ualx9-0 iZLGek"
                                                 forwardedComponent={
                                                   Object {
                                                     "$$typeof": Symbol(react.forward_ref),
@@ -676,7 +676,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                                 name="workexp"
                                               >
                                                 <div
-                                                  className="Icon__Symbol-sc-1aleqew-0 bzJhZq ExpIcon-sc-3ualx9-0 dfhMtB"
+                                                  className="Icon__Symbol-sc-1aleqew-0 bzJhZq ExpIcon-sc-3ualx9-0 iZLGek"
                                                   name="workexp"
                                                 />
                                               </StyledComponent>
@@ -693,9 +693,9 @@ exports[`Experiences should render without throwing an error 1`] = `
                                               "componentStyle": ComponentStyle {
                                                 "componentId": "Title-fscwbn-0",
                                                 "isStatic": false,
-                                                "lastClassName": "cQhIGZ",
+                                                "lastClassName": "fMCAgV",
                                                 "rules": Array [
-                                                  "margin-left:80px;margin-bottom:10px;text-transform:uppercase;font-weight:bold;",
+                                                  "margin-left:80px;margin-bottom:10px;text-transform:uppercase;font-weight:bold;@media screen and (max-width:600px){margin-left:60px;}",
                                                 ],
                                               },
                                               "displayName": "Title",
@@ -711,7 +711,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                           forwardedRef={null}
                                         >
                                           <h4
-                                            className="Title-fscwbn-0 cQhIGZ"
+                                            className="Title-fscwbn-0 fMCAgV"
                                           >
                                             <Translate
                                               id="Exp: Dek Title"
@@ -748,9 +748,9 @@ exports[`Experiences should render without throwing an error 1`] = `
                                               "componentStyle": ComponentStyle {
                                                 "componentId": "Description-sc-1bljldm-0",
                                                 "isStatic": false,
-                                                "lastClassName": "duDcvP",
+                                                "lastClassName": "eJKCpn",
                                                 "rules": Array [
-                                                  "margin-left:80px;",
+                                                  "margin-left:80px;@media screen and (max-width:600px){margin-left:60px;}",
                                                 ],
                                               },
                                               "displayName": "Description",
@@ -766,7 +766,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                           forwardedRef={null}
                                         >
                                           <p
-                                            className="Description-sc-1bljldm-0 duDcvP"
+                                            className="Description-sc-1bljldm-0 eJKCpn"
                                           >
                                             <Translate
                                               id="Exp: Dek Desc"
@@ -803,9 +803,9 @@ exports[`Experiences should render without throwing an error 1`] = `
                                               "componentStyle": ComponentStyle {
                                                 "componentId": "Description-sc-1bljldm-0",
                                                 "isStatic": false,
-                                                "lastClassName": "duDcvP",
+                                                "lastClassName": "eJKCpn",
                                                 "rules": Array [
-                                                  "margin-left:80px;",
+                                                  "margin-left:80px;@media screen and (max-width:600px){margin-left:60px;}",
                                                 ],
                                               },
                                               "displayName": "Description",
@@ -821,7 +821,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                           forwardedRef={null}
                                         >
                                           <p
-                                            className="Description-sc-1bljldm-0 duDcvP"
+                                            className="Description-sc-1bljldm-0 eJKCpn"
                                           >
                                             <Bold>
                                               <StyledComponent
@@ -989,11 +989,11 @@ exports[`Experiences should render without throwing an error 1`] = `
                                               "componentStyle": ComponentStyle {
                                                 "componentId": "ExpIcon-sc-3ualx9-0",
                                                 "isStatic": false,
-                                                "lastClassName": "dfhMtB",
+                                                "lastClassName": "iZLGek",
                                                 "rules": Array [
                                                   "display:block;&::before{margin-top:30px;float:left;color:",
                                                   [Function],
-                                                  ";font-size:60px;transition:color 0.5s;display:block;}&:hover::before{color:",
+                                                  ";font-size:60px;transition:color 0.5s;display:block;@media screen and (max-width:600px){font-size:45px;}}&:hover::before{color:",
                                                   [Function],
                                                   ";}",
                                                 ],
@@ -1012,15 +1012,15 @@ exports[`Experiences should render without throwing an error 1`] = `
                                           name="workexp"
                                         >
                                           <Icon
-                                            className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                            className="ExpIcon-sc-3ualx9-0 iZLGek"
                                             name="workexp"
                                           >
                                             <Icon__Symbol
-                                              className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                              className="ExpIcon-sc-3ualx9-0 iZLGek"
                                               name="workexp"
                                             >
                                               <StyledComponent
-                                                className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                                className="ExpIcon-sc-3ualx9-0 iZLGek"
                                                 forwardedComponent={
                                                   Object {
                                                     "$$typeof": Symbol(react.forward_ref),
@@ -1051,7 +1051,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                                 name="workexp"
                                               >
                                                 <div
-                                                  className="Icon__Symbol-sc-1aleqew-0 bzJhZq ExpIcon-sc-3ualx9-0 dfhMtB"
+                                                  className="Icon__Symbol-sc-1aleqew-0 bzJhZq ExpIcon-sc-3ualx9-0 iZLGek"
                                                   name="workexp"
                                                 />
                                               </StyledComponent>
@@ -1068,9 +1068,9 @@ exports[`Experiences should render without throwing an error 1`] = `
                                               "componentStyle": ComponentStyle {
                                                 "componentId": "Title-fscwbn-0",
                                                 "isStatic": false,
-                                                "lastClassName": "cQhIGZ",
+                                                "lastClassName": "fMCAgV",
                                                 "rules": Array [
-                                                  "margin-left:80px;margin-bottom:10px;text-transform:uppercase;font-weight:bold;",
+                                                  "margin-left:80px;margin-bottom:10px;text-transform:uppercase;font-weight:bold;@media screen and (max-width:600px){margin-left:60px;}",
                                                 ],
                                               },
                                               "displayName": "Title",
@@ -1086,7 +1086,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                           forwardedRef={null}
                                         >
                                           <h4
-                                            className="Title-fscwbn-0 cQhIGZ"
+                                            className="Title-fscwbn-0 fMCAgV"
                                           >
                                             <Translate
                                               id="Exp: GCS Title"
@@ -1123,9 +1123,9 @@ exports[`Experiences should render without throwing an error 1`] = `
                                               "componentStyle": ComponentStyle {
                                                 "componentId": "Description-sc-1bljldm-0",
                                                 "isStatic": false,
-                                                "lastClassName": "duDcvP",
+                                                "lastClassName": "eJKCpn",
                                                 "rules": Array [
-                                                  "margin-left:80px;",
+                                                  "margin-left:80px;@media screen and (max-width:600px){margin-left:60px;}",
                                                 ],
                                               },
                                               "displayName": "Description",
@@ -1141,7 +1141,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                           forwardedRef={null}
                                         >
                                           <p
-                                            className="Description-sc-1bljldm-0 duDcvP"
+                                            className="Description-sc-1bljldm-0 eJKCpn"
                                           >
                                             <Translate
                                               id="Exp: GCS Desc"
@@ -1178,9 +1178,9 @@ exports[`Experiences should render without throwing an error 1`] = `
                                               "componentStyle": ComponentStyle {
                                                 "componentId": "Description-sc-1bljldm-0",
                                                 "isStatic": false,
-                                                "lastClassName": "duDcvP",
+                                                "lastClassName": "eJKCpn",
                                                 "rules": Array [
-                                                  "margin-left:80px;",
+                                                  "margin-left:80px;@media screen and (max-width:600px){margin-left:60px;}",
                                                 ],
                                               },
                                               "displayName": "Description",
@@ -1196,7 +1196,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                           forwardedRef={null}
                                         >
                                           <p
-                                            className="Description-sc-1bljldm-0 duDcvP"
+                                            className="Description-sc-1bljldm-0 eJKCpn"
                                           >
                                             <Bold>
                                               <StyledComponent
@@ -1346,11 +1346,11 @@ exports[`Experiences should render without throwing an error 1`] = `
                                               "componentStyle": ComponentStyle {
                                                 "componentId": "ExpIcon-sc-3ualx9-0",
                                                 "isStatic": false,
-                                                "lastClassName": "dfhMtB",
+                                                "lastClassName": "iZLGek",
                                                 "rules": Array [
                                                   "display:block;&::before{margin-top:30px;float:left;color:",
                                                   [Function],
-                                                  ";font-size:60px;transition:color 0.5s;display:block;}&:hover::before{color:",
+                                                  ";font-size:60px;transition:color 0.5s;display:block;@media screen and (max-width:600px){font-size:45px;}}&:hover::before{color:",
                                                   [Function],
                                                   ";}",
                                                 ],
@@ -1369,15 +1369,15 @@ exports[`Experiences should render without throwing an error 1`] = `
                                           name="workexp"
                                         >
                                           <Icon
-                                            className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                            className="ExpIcon-sc-3ualx9-0 iZLGek"
                                             name="workexp"
                                           >
                                             <Icon__Symbol
-                                              className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                              className="ExpIcon-sc-3ualx9-0 iZLGek"
                                               name="workexp"
                                             >
                                               <StyledComponent
-                                                className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                                className="ExpIcon-sc-3ualx9-0 iZLGek"
                                                 forwardedComponent={
                                                   Object {
                                                     "$$typeof": Symbol(react.forward_ref),
@@ -1408,7 +1408,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                                 name="workexp"
                                               >
                                                 <div
-                                                  className="Icon__Symbol-sc-1aleqew-0 bzJhZq ExpIcon-sc-3ualx9-0 dfhMtB"
+                                                  className="Icon__Symbol-sc-1aleqew-0 bzJhZq ExpIcon-sc-3ualx9-0 iZLGek"
                                                   name="workexp"
                                                 />
                                               </StyledComponent>
@@ -1425,9 +1425,9 @@ exports[`Experiences should render without throwing an error 1`] = `
                                               "componentStyle": ComponentStyle {
                                                 "componentId": "Title-fscwbn-0",
                                                 "isStatic": false,
-                                                "lastClassName": "cQhIGZ",
+                                                "lastClassName": "fMCAgV",
                                                 "rules": Array [
-                                                  "margin-left:80px;margin-bottom:10px;text-transform:uppercase;font-weight:bold;",
+                                                  "margin-left:80px;margin-bottom:10px;text-transform:uppercase;font-weight:bold;@media screen and (max-width:600px){margin-left:60px;}",
                                                 ],
                                               },
                                               "displayName": "Title",
@@ -1443,7 +1443,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                           forwardedRef={null}
                                         >
                                           <h4
-                                            className="Title-fscwbn-0 cQhIGZ"
+                                            className="Title-fscwbn-0 fMCAgV"
                                           >
                                             <Translate
                                               id="Exp: GCS-intern Title"
@@ -1480,9 +1480,9 @@ exports[`Experiences should render without throwing an error 1`] = `
                                               "componentStyle": ComponentStyle {
                                                 "componentId": "Description-sc-1bljldm-0",
                                                 "isStatic": false,
-                                                "lastClassName": "duDcvP",
+                                                "lastClassName": "eJKCpn",
                                                 "rules": Array [
-                                                  "margin-left:80px;",
+                                                  "margin-left:80px;@media screen and (max-width:600px){margin-left:60px;}",
                                                 ],
                                               },
                                               "displayName": "Description",
@@ -1498,7 +1498,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                           forwardedRef={null}
                                         >
                                           <p
-                                            className="Description-sc-1bljldm-0 duDcvP"
+                                            className="Description-sc-1bljldm-0 eJKCpn"
                                           >
                                             <Translate
                                               id="Exp: GCS-intern Desc"
@@ -1535,9 +1535,9 @@ exports[`Experiences should render without throwing an error 1`] = `
                                               "componentStyle": ComponentStyle {
                                                 "componentId": "Description-sc-1bljldm-0",
                                                 "isStatic": false,
-                                                "lastClassName": "duDcvP",
+                                                "lastClassName": "eJKCpn",
                                                 "rules": Array [
-                                                  "margin-left:80px;",
+                                                  "margin-left:80px;@media screen and (max-width:600px){margin-left:60px;}",
                                                 ],
                                               },
                                               "displayName": "Description",
@@ -1553,7 +1553,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                           forwardedRef={null}
                                         >
                                           <p
-                                            className="Description-sc-1bljldm-0 duDcvP"
+                                            className="Description-sc-1bljldm-0 eJKCpn"
                                           >
                                             <Bold>
                                               <StyledComponent
@@ -1721,11 +1721,11 @@ exports[`Experiences should render without throwing an error 1`] = `
                                               "componentStyle": ComponentStyle {
                                                 "componentId": "ExpIcon-sc-3ualx9-0",
                                                 "isStatic": false,
-                                                "lastClassName": "dfhMtB",
+                                                "lastClassName": "iZLGek",
                                                 "rules": Array [
                                                   "display:block;&::before{margin-top:30px;float:left;color:",
                                                   [Function],
-                                                  ";font-size:60px;transition:color 0.5s;display:block;}&:hover::before{color:",
+                                                  ";font-size:60px;transition:color 0.5s;display:block;@media screen and (max-width:600px){font-size:45px;}}&:hover::before{color:",
                                                   [Function],
                                                   ";}",
                                                 ],
@@ -1744,15 +1744,15 @@ exports[`Experiences should render without throwing an error 1`] = `
                                           name="workexp"
                                         >
                                           <Icon
-                                            className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                            className="ExpIcon-sc-3ualx9-0 iZLGek"
                                             name="workexp"
                                           >
                                             <Icon__Symbol
-                                              className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                              className="ExpIcon-sc-3ualx9-0 iZLGek"
                                               name="workexp"
                                             >
                                               <StyledComponent
-                                                className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                                className="ExpIcon-sc-3ualx9-0 iZLGek"
                                                 forwardedComponent={
                                                   Object {
                                                     "$$typeof": Symbol(react.forward_ref),
@@ -1783,7 +1783,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                                 name="workexp"
                                               >
                                                 <div
-                                                  className="Icon__Symbol-sc-1aleqew-0 bzJhZq ExpIcon-sc-3ualx9-0 dfhMtB"
+                                                  className="Icon__Symbol-sc-1aleqew-0 bzJhZq ExpIcon-sc-3ualx9-0 iZLGek"
                                                   name="workexp"
                                                 />
                                               </StyledComponent>
@@ -1800,9 +1800,9 @@ exports[`Experiences should render without throwing an error 1`] = `
                                               "componentStyle": ComponentStyle {
                                                 "componentId": "Title-fscwbn-0",
                                                 "isStatic": false,
-                                                "lastClassName": "cQhIGZ",
+                                                "lastClassName": "fMCAgV",
                                                 "rules": Array [
-                                                  "margin-left:80px;margin-bottom:10px;text-transform:uppercase;font-weight:bold;",
+                                                  "margin-left:80px;margin-bottom:10px;text-transform:uppercase;font-weight:bold;@media screen and (max-width:600px){margin-left:60px;}",
                                                 ],
                                               },
                                               "displayName": "Title",
@@ -1818,7 +1818,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                           forwardedRef={null}
                                         >
                                           <h4
-                                            className="Title-fscwbn-0 cQhIGZ"
+                                            className="Title-fscwbn-0 fMCAgV"
                                           >
                                             <Translate
                                               id="Exp: SmartApp Title"
@@ -1855,9 +1855,9 @@ exports[`Experiences should render without throwing an error 1`] = `
                                               "componentStyle": ComponentStyle {
                                                 "componentId": "Description-sc-1bljldm-0",
                                                 "isStatic": false,
-                                                "lastClassName": "duDcvP",
+                                                "lastClassName": "eJKCpn",
                                                 "rules": Array [
-                                                  "margin-left:80px;",
+                                                  "margin-left:80px;@media screen and (max-width:600px){margin-left:60px;}",
                                                 ],
                                               },
                                               "displayName": "Description",
@@ -1873,7 +1873,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                           forwardedRef={null}
                                         >
                                           <p
-                                            className="Description-sc-1bljldm-0 duDcvP"
+                                            className="Description-sc-1bljldm-0 eJKCpn"
                                           >
                                             <Translate
                                               id="Exp: SmartApp Desc"
@@ -1910,9 +1910,9 @@ exports[`Experiences should render without throwing an error 1`] = `
                                               "componentStyle": ComponentStyle {
                                                 "componentId": "Description-sc-1bljldm-0",
                                                 "isStatic": false,
-                                                "lastClassName": "duDcvP",
+                                                "lastClassName": "eJKCpn",
                                                 "rules": Array [
-                                                  "margin-left:80px;",
+                                                  "margin-left:80px;@media screen and (max-width:600px){margin-left:60px;}",
                                                 ],
                                               },
                                               "displayName": "Description",
@@ -1928,7 +1928,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                           forwardedRef={null}
                                         >
                                           <p
-                                            className="Description-sc-1bljldm-0 duDcvP"
+                                            className="Description-sc-1bljldm-0 eJKCpn"
                                           >
                                             <Bold>
                                               <StyledComponent
@@ -2078,11 +2078,11 @@ exports[`Experiences should render without throwing an error 1`] = `
                                               "componentStyle": ComponentStyle {
                                                 "componentId": "ExpIcon-sc-3ualx9-0",
                                                 "isStatic": false,
-                                                "lastClassName": "dfhMtB",
+                                                "lastClassName": "iZLGek",
                                                 "rules": Array [
                                                   "display:block;&::before{margin-top:30px;float:left;color:",
                                                   [Function],
-                                                  ";font-size:60px;transition:color 0.5s;display:block;}&:hover::before{color:",
+                                                  ";font-size:60px;transition:color 0.5s;display:block;@media screen and (max-width:600px){font-size:45px;}}&:hover::before{color:",
                                                   [Function],
                                                   ";}",
                                                 ],
@@ -2101,15 +2101,15 @@ exports[`Experiences should render without throwing an error 1`] = `
                                           name="workexp"
                                         >
                                           <Icon
-                                            className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                            className="ExpIcon-sc-3ualx9-0 iZLGek"
                                             name="workexp"
                                           >
                                             <Icon__Symbol
-                                              className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                              className="ExpIcon-sc-3ualx9-0 iZLGek"
                                               name="workexp"
                                             >
                                               <StyledComponent
-                                                className="ExpIcon-sc-3ualx9-0 dfhMtB"
+                                                className="ExpIcon-sc-3ualx9-0 iZLGek"
                                                 forwardedComponent={
                                                   Object {
                                                     "$$typeof": Symbol(react.forward_ref),
@@ -2140,7 +2140,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                                 name="workexp"
                                               >
                                                 <div
-                                                  className="Icon__Symbol-sc-1aleqew-0 bzJhZq ExpIcon-sc-3ualx9-0 dfhMtB"
+                                                  className="Icon__Symbol-sc-1aleqew-0 bzJhZq ExpIcon-sc-3ualx9-0 iZLGek"
                                                   name="workexp"
                                                 />
                                               </StyledComponent>
@@ -2157,9 +2157,9 @@ exports[`Experiences should render without throwing an error 1`] = `
                                               "componentStyle": ComponentStyle {
                                                 "componentId": "Title-fscwbn-0",
                                                 "isStatic": false,
-                                                "lastClassName": "cQhIGZ",
+                                                "lastClassName": "fMCAgV",
                                                 "rules": Array [
-                                                  "margin-left:80px;margin-bottom:10px;text-transform:uppercase;font-weight:bold;",
+                                                  "margin-left:80px;margin-bottom:10px;text-transform:uppercase;font-weight:bold;@media screen and (max-width:600px){margin-left:60px;}",
                                                 ],
                                               },
                                               "displayName": "Title",
@@ -2175,7 +2175,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                           forwardedRef={null}
                                         >
                                           <h4
-                                            className="Title-fscwbn-0 cQhIGZ"
+                                            className="Title-fscwbn-0 fMCAgV"
                                           >
                                             <Translate
                                               id="Exp: Brand360 Title"
@@ -2212,9 +2212,9 @@ exports[`Experiences should render without throwing an error 1`] = `
                                               "componentStyle": ComponentStyle {
                                                 "componentId": "Description-sc-1bljldm-0",
                                                 "isStatic": false,
-                                                "lastClassName": "duDcvP",
+                                                "lastClassName": "eJKCpn",
                                                 "rules": Array [
-                                                  "margin-left:80px;",
+                                                  "margin-left:80px;@media screen and (max-width:600px){margin-left:60px;}",
                                                 ],
                                               },
                                               "displayName": "Description",
@@ -2230,7 +2230,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                           forwardedRef={null}
                                         >
                                           <p
-                                            className="Description-sc-1bljldm-0 duDcvP"
+                                            className="Description-sc-1bljldm-0 eJKCpn"
                                           >
                                             <Translate
                                               id="Exp: Brand360 Desc"
@@ -2267,9 +2267,9 @@ exports[`Experiences should render without throwing an error 1`] = `
                                               "componentStyle": ComponentStyle {
                                                 "componentId": "Description-sc-1bljldm-0",
                                                 "isStatic": false,
-                                                "lastClassName": "duDcvP",
+                                                "lastClassName": "eJKCpn",
                                                 "rules": Array [
-                                                  "margin-left:80px;",
+                                                  "margin-left:80px;@media screen and (max-width:600px){margin-left:60px;}",
                                                 ],
                                               },
                                               "displayName": "Description",
@@ -2285,7 +2285,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                           forwardedRef={null}
                                         >
                                           <p
-                                            className="Description-sc-1bljldm-0 duDcvP"
+                                            className="Description-sc-1bljldm-0 eJKCpn"
                                           >
                                             <Bold>
                                               <StyledComponent

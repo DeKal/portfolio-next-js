@@ -1,0 +1,433 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Theme Provider Selector should render for christmas day without throwing an error 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "colors": Object {
+        "bgColor": "#fff",
+        "colorAccent": "#ff8484",
+        "colorDark": "#2c3e50",
+        "colorDarken": "#bdc3c7",
+        "colorLight": "#ecf0f1",
+      },
+      "defaultLineHeight": 1.57,
+      "extra": Object {
+        "boxShadow": "0 1px 2px -1px #2c3e50",
+      },
+      "font": "-apple-system, blinkmacsystemfont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", sans-serif",
+      "fontSizes": Object {
+        "L": "16px",
+        "M": "14px",
+        "S": "12px",
+        "XL": "18px",
+        "XS": "10px",
+        "XXL": "22px",
+        "XXXL": "24px",
+        "base": "14px",
+      },
+      "fonts": Object {
+        "fontCert": "Times, serif",
+        "fontCondensed": "\\"Open Sans Condensed\\", Tahoma, Verdana, Arial, sans-serif",
+        "fontIp": "\\"ip\\", sans-serif",
+        "fontSans": "\\"Open Sans\\", Tahoma, Verdana, Arial, sans-serif",
+        "fontSerif": "Georgia, Times, \\"Times New Roman\\", serif",
+        "fontTrebuchet": "Trebuchet MS, sans-serif",
+      },
+      "footerHeight": "50px",
+      "headerPadding": "200px 10px 400px",
+      "icons": Object {
+        "c": "C",
+        "fb": "\\\\e811",
+        "goTop": "\\\\e817",
+        "link": "\\\\e819",
+        "linkedin": "\\\\e815",
+        "location": "\\\\e806",
+        "mail": "\\\\e800",
+        "p": "P",
+        "phone": "\\\\e81a",
+        "workexp": "\\\\e804",
+      },
+      "images": Object {
+        "background": "/images/christmas/bg-christmas.jpg",
+        "bgPattern": "/images/christmas/bg-pattern-snow.png",
+        "bgPatternOpacity": "0.25",
+        "overlay": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC",
+      },
+      "navContentMinHeight": "80px",
+      "navHeaderHeight": "40px",
+      "navHeightWhenScrollingOnMobile": "45px",
+      "productImageRatio": "143%",
+      "spaces": Object {
+        "gutter": 16,
+        "large": 35,
+        "medium": 25,
+        "small": 16,
+        "xlarge": 45,
+        "xsmall": 13,
+        "xxsmall": 10,
+        "xxxsmall": 7,
+      },
+    }
+  }
+>
+  <GlobalStyleCss
+    theme={
+      Object {
+        "colors": Object {
+          "bgColor": "#fff",
+          "colorAccent": "#ff8484",
+          "colorDark": "#2c3e50",
+          "colorDarken": "#bdc3c7",
+          "colorLight": "#ecf0f1",
+        },
+        "defaultLineHeight": 1.57,
+        "extra": Object {
+          "boxShadow": "0 1px 2px -1px #2c3e50",
+        },
+        "font": "-apple-system, blinkmacsystemfont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", sans-serif",
+        "fontSizes": Object {
+          "L": "16px",
+          "M": "14px",
+          "S": "12px",
+          "XL": "18px",
+          "XS": "10px",
+          "XXL": "22px",
+          "XXXL": "24px",
+          "base": "14px",
+        },
+        "fonts": Object {
+          "fontCert": "Times, serif",
+          "fontCondensed": "\\"Open Sans Condensed\\", Tahoma, Verdana, Arial, sans-serif",
+          "fontIp": "\\"ip\\", sans-serif",
+          "fontSans": "\\"Open Sans\\", Tahoma, Verdana, Arial, sans-serif",
+          "fontSerif": "Georgia, Times, \\"Times New Roman\\", serif",
+          "fontTrebuchet": "Trebuchet MS, sans-serif",
+        },
+        "footerHeight": "50px",
+        "headerPadding": "200px 10px 400px",
+        "icons": Object {
+          "c": "C",
+          "fb": "\\\\e811",
+          "goTop": "\\\\e817",
+          "link": "\\\\e819",
+          "linkedin": "\\\\e815",
+          "location": "\\\\e806",
+          "mail": "\\\\e800",
+          "p": "P",
+          "phone": "\\\\e81a",
+          "workexp": "\\\\e804",
+        },
+        "images": Object {
+          "background": "/images/christmas/bg-christmas.jpg",
+          "bgPattern": "/images/christmas/bg-pattern-snow.png",
+          "bgPatternOpacity": "0.25",
+          "overlay": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC",
+        },
+        "navContentMinHeight": "80px",
+        "navHeaderHeight": "40px",
+        "navHeightWhenScrollingOnMobile": "45px",
+        "productImageRatio": "143%",
+        "spaces": Object {
+          "gutter": 16,
+          "large": 35,
+          "medium": 25,
+          "small": 16,
+          "xlarge": 45,
+          "xsmall": 13,
+          "xxsmall": 10,
+          "xxxsmall": 7,
+        },
+      }
+    }
+  />
+</ThemeProvider>
+`;
+
+exports[`Theme Provider Selector should render for new year day without throwing an error 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "colors": Object {
+        "bgColor": "#fff",
+        "colorAccent": "#FFA726",
+        "colorDark": "#2c3e50",
+        "colorDarken": "#bdc3c7",
+        "colorLight": "#ecf0f1",
+      },
+      "defaultLineHeight": 1.57,
+      "extra": Object {
+        "boxShadow": "0 1px 2px -1px #2c3e50",
+      },
+      "font": "-apple-system, blinkmacsystemfont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", sans-serif",
+      "fontSizes": Object {
+        "L": "16px",
+        "M": "14px",
+        "S": "12px",
+        "XL": "18px",
+        "XS": "10px",
+        "XXL": "22px",
+        "XXXL": "24px",
+        "base": "14px",
+      },
+      "fonts": Object {
+        "fontCert": "Times, serif",
+        "fontCondensed": "\\"Open Sans Condensed\\", Tahoma, Verdana, Arial, sans-serif",
+        "fontIp": "\\"ip\\", sans-serif",
+        "fontSans": "\\"Open Sans\\", Tahoma, Verdana, Arial, sans-serif",
+        "fontSerif": "Georgia, Times, \\"Times New Roman\\", serif",
+        "fontTrebuchet": "Trebuchet MS, sans-serif",
+      },
+      "footerHeight": "50px",
+      "headerPadding": "200px 10px 400px",
+      "icons": Object {
+        "c": "C",
+        "fb": "\\\\e811",
+        "goTop": "\\\\e817",
+        "link": "\\\\e819",
+        "linkedin": "\\\\e815",
+        "location": "\\\\e806",
+        "mail": "\\\\e800",
+        "p": "P",
+        "phone": "\\\\e81a",
+        "workexp": "\\\\e804",
+      },
+      "images": Object {
+        "background": "/images/bg.jpg",
+        "bgPattern": "/images/bg-pattern.jpg",
+        "bgPatternOpacity": "1",
+        "overlay": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC",
+      },
+      "navContentMinHeight": "80px",
+      "navHeaderHeight": "40px",
+      "navHeightWhenScrollingOnMobile": "45px",
+      "productImageRatio": "143%",
+      "spaces": Object {
+        "gutter": 16,
+        "large": 35,
+        "medium": 25,
+        "small": 16,
+        "xlarge": 45,
+        "xsmall": 13,
+        "xxsmall": 10,
+        "xxxsmall": 7,
+      },
+    }
+  }
+>
+  <GlobalStyleCss
+    theme={
+      Object {
+        "colors": Object {
+          "bgColor": "#fff",
+          "colorAccent": "#FFA726",
+          "colorDark": "#2c3e50",
+          "colorDarken": "#bdc3c7",
+          "colorLight": "#ecf0f1",
+        },
+        "defaultLineHeight": 1.57,
+        "extra": Object {
+          "boxShadow": "0 1px 2px -1px #2c3e50",
+        },
+        "font": "-apple-system, blinkmacsystemfont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", sans-serif",
+        "fontSizes": Object {
+          "L": "16px",
+          "M": "14px",
+          "S": "12px",
+          "XL": "18px",
+          "XS": "10px",
+          "XXL": "22px",
+          "XXXL": "24px",
+          "base": "14px",
+        },
+        "fonts": Object {
+          "fontCert": "Times, serif",
+          "fontCondensed": "\\"Open Sans Condensed\\", Tahoma, Verdana, Arial, sans-serif",
+          "fontIp": "\\"ip\\", sans-serif",
+          "fontSans": "\\"Open Sans\\", Tahoma, Verdana, Arial, sans-serif",
+          "fontSerif": "Georgia, Times, \\"Times New Roman\\", serif",
+          "fontTrebuchet": "Trebuchet MS, sans-serif",
+        },
+        "footerHeight": "50px",
+        "headerPadding": "200px 10px 400px",
+        "icons": Object {
+          "c": "C",
+          "fb": "\\\\e811",
+          "goTop": "\\\\e817",
+          "link": "\\\\e819",
+          "linkedin": "\\\\e815",
+          "location": "\\\\e806",
+          "mail": "\\\\e800",
+          "p": "P",
+          "phone": "\\\\e81a",
+          "workexp": "\\\\e804",
+        },
+        "images": Object {
+          "background": "/images/bg.jpg",
+          "bgPattern": "/images/bg-pattern.jpg",
+          "bgPatternOpacity": "1",
+          "overlay": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC",
+        },
+        "navContentMinHeight": "80px",
+        "navHeaderHeight": "40px",
+        "navHeightWhenScrollingOnMobile": "45px",
+        "productImageRatio": "143%",
+        "spaces": Object {
+          "gutter": 16,
+          "large": 35,
+          "medium": 25,
+          "small": 16,
+          "xlarge": 45,
+          "xsmall": 13,
+          "xxsmall": 10,
+          "xxxsmall": 7,
+        },
+      }
+    }
+  />
+</ThemeProvider>
+`;
+
+exports[`Theme Provider Selector should render for normal day without throwing an error 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "colors": Object {
+        "bgColor": "#fff",
+        "colorAccent": "#FFA726",
+        "colorDark": "#2c3e50",
+        "colorDarken": "#bdc3c7",
+        "colorLight": "#ecf0f1",
+      },
+      "defaultLineHeight": 1.57,
+      "extra": Object {
+        "boxShadow": "0 1px 2px -1px #2c3e50",
+      },
+      "font": "-apple-system, blinkmacsystemfont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", sans-serif",
+      "fontSizes": Object {
+        "L": "16px",
+        "M": "14px",
+        "S": "12px",
+        "XL": "18px",
+        "XS": "10px",
+        "XXL": "22px",
+        "XXXL": "24px",
+        "base": "14px",
+      },
+      "fonts": Object {
+        "fontCert": "Times, serif",
+        "fontCondensed": "\\"Open Sans Condensed\\", Tahoma, Verdana, Arial, sans-serif",
+        "fontIp": "\\"ip\\", sans-serif",
+        "fontSans": "\\"Open Sans\\", Tahoma, Verdana, Arial, sans-serif",
+        "fontSerif": "Georgia, Times, \\"Times New Roman\\", serif",
+        "fontTrebuchet": "Trebuchet MS, sans-serif",
+      },
+      "footerHeight": "50px",
+      "headerPadding": "200px 10px 400px",
+      "icons": Object {
+        "c": "C",
+        "fb": "\\\\e811",
+        "goTop": "\\\\e817",
+        "link": "\\\\e819",
+        "linkedin": "\\\\e815",
+        "location": "\\\\e806",
+        "mail": "\\\\e800",
+        "p": "P",
+        "phone": "\\\\e81a",
+        "workexp": "\\\\e804",
+      },
+      "images": Object {
+        "background": "/images/bg.jpg",
+        "bgPattern": "/images/bg-pattern.jpg",
+        "bgPatternOpacity": "1",
+        "overlay": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC",
+      },
+      "navContentMinHeight": "80px",
+      "navHeaderHeight": "40px",
+      "navHeightWhenScrollingOnMobile": "45px",
+      "productImageRatio": "143%",
+      "spaces": Object {
+        "gutter": 16,
+        "large": 35,
+        "medium": 25,
+        "small": 16,
+        "xlarge": 45,
+        "xsmall": 13,
+        "xxsmall": 10,
+        "xxxsmall": 7,
+      },
+    }
+  }
+>
+  <GlobalStyleCss
+    theme={
+      Object {
+        "colors": Object {
+          "bgColor": "#fff",
+          "colorAccent": "#FFA726",
+          "colorDark": "#2c3e50",
+          "colorDarken": "#bdc3c7",
+          "colorLight": "#ecf0f1",
+        },
+        "defaultLineHeight": 1.57,
+        "extra": Object {
+          "boxShadow": "0 1px 2px -1px #2c3e50",
+        },
+        "font": "-apple-system, blinkmacsystemfont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", sans-serif",
+        "fontSizes": Object {
+          "L": "16px",
+          "M": "14px",
+          "S": "12px",
+          "XL": "18px",
+          "XS": "10px",
+          "XXL": "22px",
+          "XXXL": "24px",
+          "base": "14px",
+        },
+        "fonts": Object {
+          "fontCert": "Times, serif",
+          "fontCondensed": "\\"Open Sans Condensed\\", Tahoma, Verdana, Arial, sans-serif",
+          "fontIp": "\\"ip\\", sans-serif",
+          "fontSans": "\\"Open Sans\\", Tahoma, Verdana, Arial, sans-serif",
+          "fontSerif": "Georgia, Times, \\"Times New Roman\\", serif",
+          "fontTrebuchet": "Trebuchet MS, sans-serif",
+        },
+        "footerHeight": "50px",
+        "headerPadding": "200px 10px 400px",
+        "icons": Object {
+          "c": "C",
+          "fb": "\\\\e811",
+          "goTop": "\\\\e817",
+          "link": "\\\\e819",
+          "linkedin": "\\\\e815",
+          "location": "\\\\e806",
+          "mail": "\\\\e800",
+          "p": "P",
+          "phone": "\\\\e81a",
+          "workexp": "\\\\e804",
+        },
+        "images": Object {
+          "background": "/images/bg.jpg",
+          "bgPattern": "/images/bg-pattern.jpg",
+          "bgPatternOpacity": "1",
+          "overlay": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC",
+        },
+        "navContentMinHeight": "80px",
+        "navHeaderHeight": "40px",
+        "navHeightWhenScrollingOnMobile": "45px",
+        "productImageRatio": "143%",
+        "spaces": Object {
+          "gutter": 16,
+          "large": 35,
+          "medium": 25,
+          "small": 16,
+          "xlarge": 45,
+          "xsmall": 13,
+          "xxsmall": 10,
+          "xxxsmall": 7,
+        },
+      }
+    }
+  />
+</ThemeProvider>
+`;

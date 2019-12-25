@@ -480,9 +480,9 @@ exports[`Footer should render without throwing an error 1`] = `
                                                 "componentStyle": ComponentStyle {
                                                   "componentId": "Info__Role-sc-1i3mfcy-3",
                                                   "isStatic": false,
-                                                  "lastClassName": "bpqLRD",
+                                                  "lastClassName": "iMkSyg",
                                                   "rules": Array [
-                                                    "margin-bottom:10px;font-size:18px;line-height:1.5;font-weight:lighter;&::before{float:left;display:block;width:25px;height:25px;border:none;vertical-align:top;}",
+                                                    "margin-bottom:10px;font-size:18px;line-height:1.5;&::before{float:left;display:block;width:25px;height:25px;border:none;vertical-align:top;}",
                                                   ],
                                                 },
                                                 "displayName": "Info__Role",
@@ -500,7 +500,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                             forwardedRef={null}
                                           >
                                             <div
-                                              className="Info__Paragraph-sc-1i3mfcy-2 Info__Role-sc-1i3mfcy-3 bpqLRD"
+                                              className="Info__Paragraph-sc-1i3mfcy-2 Info__Role-sc-1i3mfcy-3 iMkSyg"
                                             >
                                               <Translate
                                                 id="Contact: Info Role"
@@ -537,9 +537,9 @@ exports[`Footer should render without throwing an error 1`] = `
                                                 "componentStyle": ComponentStyle {
                                                   "componentId": "Info__Location-sc-1i3mfcy-4",
                                                   "isStatic": false,
-                                                  "lastClassName": "jYWMVS",
+                                                  "lastClassName": "eCouZT",
                                                   "rules": Array [
-                                                    "margin-bottom:10px;font-size:18px;line-height:1.5;font-weight:lighter;&::before{float:left;display:block;width:25px;height:25px;border:none;vertical-align:top;}",
+                                                    "margin-bottom:10px;font-size:18px;line-height:1.5;&::before{float:left;display:block;width:25px;height:25px;border:none;vertical-align:top;}",
                                                   ],
                                                 },
                                                 "displayName": "Info__Location",
@@ -557,7 +557,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                             forwardedRef={null}
                                           >
                                             <div
-                                              className="Info__Paragraph-sc-1i3mfcy-2 Info__Location-sc-1i3mfcy-4 jYWMVS"
+                                              className="Info__Paragraph-sc-1i3mfcy-2 Info__Location-sc-1i3mfcy-4 eCouZT"
                                             >
                                               <Info__LocationIcon
                                                 name="location"
@@ -799,9 +799,9 @@ exports[`Footer should render without throwing an error 1`] = `
                                                 "componentStyle": ComponentStyle {
                                                   "componentId": "Info__Email-sc-1i3mfcy-5",
                                                   "isStatic": false,
-                                                  "lastClassName": "eXRWot",
+                                                  "lastClassName": "iAHxTb",
                                                   "rules": Array [
-                                                    "margin-bottom:10px;font-size:18px;line-height:1.5;font-weight:lighter;&::before{float:left;display:block;width:25px;height:25px;border:none;vertical-align:top;}",
+                                                    "margin-bottom:10px;font-size:18px;line-height:1.5;&::before{float:left;display:block;width:25px;height:25px;border:none;vertical-align:top;}",
                                                   ],
                                                 },
                                                 "displayName": "Info__Email",
@@ -819,7 +819,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                             forwardedRef={null}
                                           >
                                             <div
-                                              className="Info__Paragraph-sc-1i3mfcy-2 Info__Email-sc-1i3mfcy-5 eXRWot"
+                                              className="Info__Paragraph-sc-1i3mfcy-2 Info__Email-sc-1i3mfcy-5 iAHxTb"
                                             >
                                               <Info__EmailIcon
                                                 name="mail"
@@ -943,9 +943,9 @@ exports[`Footer should render without throwing an error 1`] = `
                                                 "componentStyle": ComponentStyle {
                                                   "componentId": "Info__Phone-sc-1i3mfcy-6",
                                                   "isStatic": false,
-                                                  "lastClassName": "gmRyPl",
+                                                  "lastClassName": "fVRyWv",
                                                   "rules": Array [
-                                                    "margin-bottom:10px;font-size:18px;line-height:1.5;font-weight:lighter;&::before{float:left;display:block;width:25px;height:25px;border:none;vertical-align:top;}",
+                                                    "margin-bottom:10px;font-size:18px;line-height:1.5;&::before{float:left;display:block;width:25px;height:25px;border:none;vertical-align:top;}",
                                                   ],
                                                 },
                                                 "displayName": "Info__Phone",
@@ -963,7 +963,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                             forwardedRef={null}
                                           >
                                             <div
-                                              className="Info__Paragraph-sc-1i3mfcy-2 Info__Phone-sc-1i3mfcy-6 gmRyPl"
+                                              className="Info__Paragraph-sc-1i3mfcy-2 Info__Phone-sc-1i3mfcy-6 fVRyWv"
                                             >
                                               <Info__PhoneIcon
                                                 name="phone"

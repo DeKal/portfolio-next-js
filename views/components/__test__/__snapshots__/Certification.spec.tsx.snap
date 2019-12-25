@@ -164,10 +164,12 @@ exports[`Certification should render without throwing an error 1`] = `
                               className="col-sm-3 col-3"
                             >
                               <Item
+                                data-test-id="cert-item"
                                 id={1}
                                 onClick={[Function]}
                               >
                                 <StyledComponent
+                                  data-test-id="cert-item"
                                   forwardedComponent={
                                     Object {
                                       "$$typeof": Symbol(react.forward_ref),
@@ -196,6 +198,7 @@ exports[`Certification should render without throwing an error 1`] = `
                                 >
                                   <li
                                     className="Item-sc-1ll32oh-0 blQgvd"
+                                    data-test-id="cert-item"
                                     id={1}
                                     onClick={[Function]}
                                   >
@@ -334,10 +337,12 @@ exports[`Certification should render without throwing an error 1`] = `
                               className="col-sm-3 col-3"
                             >
                               <Item
+                                data-test-id="cert-item"
                                 id={2}
                                 onClick={[Function]}
                               >
                                 <StyledComponent
+                                  data-test-id="cert-item"
                                   forwardedComponent={
                                     Object {
                                       "$$typeof": Symbol(react.forward_ref),
@@ -366,6 +371,7 @@ exports[`Certification should render without throwing an error 1`] = `
                                 >
                                   <li
                                     className="Item-sc-1ll32oh-0 blQgvd"
+                                    data-test-id="cert-item"
                                     id={2}
                                     onClick={[Function]}
                                   >
@@ -502,10 +508,12 @@ exports[`Certification should render without throwing an error 1`] = `
                               className="col-sm-3 col-3"
                             >
                               <Item
+                                data-test-id="cert-item"
                                 id={3}
                                 onClick={[Function]}
                               >
                                 <StyledComponent
+                                  data-test-id="cert-item"
                                   forwardedComponent={
                                     Object {
                                       "$$typeof": Symbol(react.forward_ref),
@@ -534,6 +542,7 @@ exports[`Certification should render without throwing an error 1`] = `
                                 >
                                   <li
                                     className="Item-sc-1ll32oh-0 blQgvd"
+                                    data-test-id="cert-item"
                                     id={3}
                                     onClick={[Function]}
                                   >
@@ -670,10 +679,12 @@ exports[`Certification should render without throwing an error 1`] = `
                               className="col-sm-3 col-3"
                             >
                               <Item
+                                data-test-id="cert-item"
                                 id={4}
                                 onClick={[Function]}
                               >
                                 <StyledComponent
+                                  data-test-id="cert-item"
                                   forwardedComponent={
                                     Object {
                                       "$$typeof": Symbol(react.forward_ref),
@@ -702,6 +713,7 @@ exports[`Certification should render without throwing an error 1`] = `
                                 >
                                   <li
                                     className="Item-sc-1ll32oh-0 blQgvd"
+                                    data-test-id="cert-item"
                                     id={4}
                                     onClick={[Function]}
                                   >

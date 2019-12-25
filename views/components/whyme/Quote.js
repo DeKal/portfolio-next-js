@@ -28,7 +28,6 @@ const Content = styled.p`
   width: 80%;
   margin: 0 auto;
   margin-bottom: 20px;
-  font-weight: lighter;
   font-size: 25px;
 
   @media screen and (max-width: 960px) {
@@ -36,6 +35,6 @@ const Content = styled.p`
   }
 
   @media screen and (max-width: 600px) {
-    font-size: 18px;
+    font-size: 16px;
   }
 `

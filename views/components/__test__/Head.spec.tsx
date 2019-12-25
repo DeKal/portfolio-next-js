@@ -1,11 +1,11 @@
 import * as React from 'react'
 import { mountWithTheme } from '~/utils/withThemeProviders'
-import Navbar from '~/views/components/Navbar'
+import Head from '~/views/components/Head'
 
-describe('Navbar', () => {
+describe('Head', () => {
 
   it('should render without throwing an error', function () {
-    const wrap = mountWithTheme(<Navbar />)
+    const wrap = mountWithTheme(<Head />)
     expect(wrap).toMatchSnapshot()
   })
 

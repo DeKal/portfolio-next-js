@@ -49,7 +49,6 @@ const Paragraph = styled.div`
   margin-bottom: 10px;
   font-size: 18px;
   line-height: 1.5;
-  font-weight: lighter;
 
   &::before {
     float: left;
