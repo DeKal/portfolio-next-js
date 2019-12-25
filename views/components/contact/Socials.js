@@ -5,21 +5,27 @@ import Icon from '~/views/components/common/Icon'
 const Socials = () => (
   <Container>
     <Item
+      data-test-id="socials-fb-link"
       onClick={() => {
-        window.location.href = 'https://www.facebook.com/dekal.dev'
+        changeLocation('https://www.facebook.com/dekal.dev')
       }}
     >
       <IconWrapper name="fb" />
     </Item>
     <Item
+      data-test-id="socials-linkedin-link"
       onClick={() => {
-        window.location.href = 'https://www.linkedin.com/in/phat-ho/'
+        changeLocation('https://www.linkedin.com/in/phat-ho/')
       }}
     >
       <IconWrapper name="linkedin" />
     </Item>
   </Container>
 )
+
+const changeLocation = location => {
+  window.location.href = location
+}
 
 export default Socials
 
