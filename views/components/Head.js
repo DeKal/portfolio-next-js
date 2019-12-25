@@ -13,10 +13,10 @@ const Head = () => (
       content="portfolio, dekal, software engineer, freelancer, cv, work"
     />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content=" | Portfolio" />
+    <meta property="og:title" content="DeKal | Portfolio" />
     <meta property="og:description" content="Dekal 's Portfolio" />
     <meta property="og:image" content="/static/images/card.jpg" />
-    <meta property="og:url" content="https://phathofolio.imfast.io/" />
+    <meta property="og:url" content="https://phatho-folio.now.sh/" />
   </NextHead>
 )
 

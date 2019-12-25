@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorBoundary should render children div 1`] = `
+<ErrorBoundary>
+  <div>
+    noError
+  </div>
+</ErrorBoundary>
+`;
+
+exports[`ErrorBoundary should render error with setState 1`] = `<Error />`;
+
+exports[`ErrorBoundary should return object with error and has error 1`] = `
+Object {
+  "errorTrace": "Error",
+  "hasError": true,
+}
+`;
