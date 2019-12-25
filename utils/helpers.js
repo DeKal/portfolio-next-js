@@ -1,6 +1,7 @@
 import { INIT_SELECTED_PAGE } from '~/consts/initState'
 import $ from 'jquery'
 
+/* istanbul ignore next */
 export const initHashLocation = () => {
   if (location.hash) {
     const offset = $(location.hash).offset()
@@ -20,6 +21,7 @@ export const isSafari = () => {
   }
 }
 
+/* istanbul ignore next */
 export const setJqueryScrollEvent = () => {
   $('a').on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior
@@ -43,10 +45,12 @@ export const setJqueryScrollEvent = () => {
   })
 }
 
+/* istanbul ignore next */
 export const cleanUpScrollEvent = () => {
   $('a').unbind()
 }
 
+/* istanbul ignore next */
 export const getSelectedSection = () => {
   if (location.hash.length !== 0) {
     const selectedPage = location.hash.substr(1)
@@ -73,4 +77,12 @@ export const isNewYearComing = () => {
   const isJanuary = month == 1
 
   return isJanuary && isFirstTwoWeek
+}
+
+export const getWindowDimensions = () => {
+  const { innerWidth: width, innerHeight: height } = window
+  return {
+    width,
+    height
+  }
 }

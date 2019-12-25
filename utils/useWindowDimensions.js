@@ -1,24 +1,20 @@
 import { useState, useEffect } from 'react'
+import { getWindowDimensions } from '~/utils/helpers'
 
-function getWindowDimensions() {
-  const { innerWidth: width, innerHeight: height } = window
-  return {
-    width,
-    height
-  }
-}
-
+/* istanbul ignore next */
 const useWindowDimensions = () => {
   const [windowDimensions, setWindowDimensions] = useState(
     getWindowDimensions()
   )
 
   useEffect(() => {
+    /* istanbul ignore next */
     function handleResize() {
       setWindowDimensions(getWindowDimensions())
     }
 
     window.addEventListener('resize', handleResize)
+    /* istanbul ignore next */
     return () => window.removeEventListener('resize', handleResize)
   }, [])
 

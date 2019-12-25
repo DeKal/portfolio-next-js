@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`helpers test getWindowDimensions should return true when date is new year 1`] = `
+Object {
+  "height": 800,
+  "width": 800,
+}
+`;
