@@ -5,42 +5,20 @@ import { isChristmasDay, isNewYearComing } from '~/utils/helpers'
 import theme from '~/theme/theme'
 import christMasTheme from '~/theme/christMasTheme'
 import newYearTheme from '~/theme/newYearTheme'
+import GlobalStyleCss from '~/views/theme/GlobalStyleCss'
 
 const ThemeProviderSelector = ({ children }) => {
   const theme = useTheme()
   return (
     <ThemeProvider theme={theme}>
       {children}
-      <style jsx global>{`
-        body {
-          color: ${theme.colors.colorDark};
-        }
-        h1 {
-          color: ${theme.colors.colorLight};
-        }
-        a {
-          color: ${theme.colors.colorDark};
-          border-bottom: 1px dashed ${theme.colors.colorDark};
-        }
-        body:after {
-          content: '';
-          position: fixed;
-          top: 0;
-          bottom: 0;
-          width: 100%;
-          height: 100%;
-          opacity: ${theme.images.bgPatternOpacity};
-          z-index: -1;
-          background: ${theme.colors.bgColor} url(${theme.images.bgPattern});
-        }
-      `}</style>
+      <GlobalStyleCss theme={theme} />
     </ThemeProvider>
   )
 }
 
 ThemeProviderSelector.propTypes = {
-  children: PropTypes.any,
-  useTheme: PropTypes.func
+  children: PropTypes.any
 }
 
 export default ThemeProviderSelector
