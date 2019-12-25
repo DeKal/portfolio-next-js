@@ -28,12 +28,11 @@ const Wrapper = styled.div`
 `
 const Card = styled.section`
   z-index: 50;
-  margin-left: calc((100% - calc(75% - 40px)) / 2);
-  width: calc(75% - 40px);
+  width: 75%;
+  margin: 0 auto;
 
   @media screen and (max-width: 800px) {
-    width: calc(100% - 20px);
-    margin-left: 10px;
+    width: 100%;
     float: none;
   }
 `

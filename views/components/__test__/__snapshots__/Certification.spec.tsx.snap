@@ -108,7 +108,29 @@ exports[`Certification should render without throwing an error 1`] = `
                       className="Header__Container-co5usi-0 eCHESu"
                     >
                       <h2>
-                        Certifications and Prizes
+                        <Translate
+                          id="Certifications and Prizes"
+                        >
+                          <WrappedTranslate
+                            context={
+                              Object {
+                                "activeLanguage": undefined,
+                                "addTranslation": [Function],
+                                "addTranslationForLanguage": [Function],
+                                "defaultLanguage": undefined,
+                                "ignoreTranslateChildren": false,
+                                "initialize": [Function],
+                                "languages": Array [],
+                                "renderToStaticMarkup": false,
+                                "setActiveLanguage": [Function],
+                                "translate": [Function],
+                              }
+                            }
+                            id="Certifications and Prizes"
+                          >
+                            Missing translationId: Certifications and Prizes for language: \${ languageCode }
+                          </WrappedTranslate>
+                        </Translate>
                       </h2>
                     </header>
                   </StyledComponent>
