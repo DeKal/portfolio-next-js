@@ -41,7 +41,6 @@ const CopyRight = styled.p`
   padding-top: 10px;
   float: left;
   line-height: 40px;
-  font-weight: lighter;
 
   @media screen and (max-width: 600px) {
     padding-top: 20px;

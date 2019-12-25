@@ -11,6 +11,10 @@ const ExpIcon = styled(Icon)`
     font-size: 60px;
     transition: color 0.5s;
     display: block;
+
+    @media screen and (max-width: 600px) {
+      font-size: 45px;
+    }
   }
 
   &:hover::before {
