@@ -5,6 +5,7 @@ const theme = {
   navContentMinHeight: '80px',
   footerHeight: '50px',
   navHeightWhenScrollingOnMobile: '45px',
+  aboutMarginTop: '-200px',
   colors: {
     // Color variables
     colorLight: '#ecf0f1',
@@ -45,6 +46,7 @@ const theme = {
     background: '/images/bg.jpg',
     bgPattern: '/images/bg-pattern.jpg',
     bgPatternOpacity: '1',
+    overlayBgColor: 'rgba(44, 62, 80, 0.3)',
     overlay:
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC'
   },

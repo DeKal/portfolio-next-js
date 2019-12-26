@@ -46,6 +46,8 @@ const TitleName = styled.h1`
   margin-bottom: 10px;
   font-size: 100px;
   text-shadow: 1px 1px 1px ${props => props.theme.colors.colorDark};
+  width: fit-content;
+  background: ${props => props.theme.titleBgColor};
 
   @media screen and (max-width: 1200px) {
     font-size: 75px;
@@ -57,6 +59,8 @@ const TitleName = styled.h1`
 `
 
 const TitleJob = styled.h2`
+  width: fit-content;
+  background: ${props => props.theme.titleBgColor};
   color: ${props => props.theme.colors.colorLight};
   font-family: ${props => props.theme.fonts.fontTrebuchet};
   text-shadow: 1px 1px 2px ${props => props.theme.colors.colorDark};
@@ -77,7 +81,7 @@ const Overlay = styled.div`
   position: relative;
   width: 100%;
   height: 100%;
-  background-color: rgba(44, 62, 80, 0.3);
+  background-color: ${props => props.theme.images.overlayBgColor};
   zoom: 1;
   background-image: url(${props => props.theme.images.overlay});
   background-repeat: repeat;

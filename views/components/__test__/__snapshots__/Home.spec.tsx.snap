@@ -112,9 +112,11 @@ exports[`Home should render without throwing an error 1`] = `
                 "componentStyle": ComponentStyle {
                   "componentId": "Home__Overlay-sc-1eskvms-4",
                   "isStatic": false,
-                  "lastClassName": "kzYHcr",
+                  "lastClassName": "bZmRRN",
                   "rules": Array [
-                    "position:relative;width:100%;height:100%;background-color:rgba(44,62,80,0.3);zoom:1;background-image:url(",
+                    "position:relative;width:100%;height:100%;background-color:",
+                    [Function],
+                    ";zoom:1;background-image:url(",
                     [Function],
                     ");background-repeat:repeat;background-attachment:fixed;",
                   ],
@@ -132,7 +134,7 @@ exports[`Home should render without throwing an error 1`] = `
             forwardedRef={null}
           >
             <div
-              className="Home__Overlay-sc-1eskvms-4 kzYHcr"
+              className="Home__Overlay-sc-1eskvms-4 bZmRRN"
             >
               <Container
                 fluid={false}
@@ -180,9 +182,11 @@ exports[`Home should render without throwing an error 1`] = `
                                 "componentStyle": ComponentStyle {
                                   "componentId": "Home__TitleName-sc-1eskvms-1",
                                   "isStatic": false,
-                                  "lastClassName": "klbGLv",
+                                  "lastClassName": "WdUdf",
                                   "rules": Array [
                                     "margin-bottom:10px;font-size:100px;text-shadow:1px 1px 1px ",
+                                    [Function],
+                                    ";width:fit-content;background:",
                                     [Function],
                                     ";@media screen and (max-width:1200px){font-size:75px;}@media screen and (max-width:800px){font-size:50px;}",
                                   ],
@@ -200,7 +204,7 @@ exports[`Home should render without throwing an error 1`] = `
                             forwardedRef={null}
                           >
                             <h1
-                              className="Home__TitleName-sc-1eskvms-1 klbGLv"
+                              className="Home__TitleName-sc-1eskvms-1 WdUdf"
                             >
                               <Translate
                                 id="Name"
@@ -237,9 +241,11 @@ exports[`Home should render without throwing an error 1`] = `
                                 "componentStyle": ComponentStyle {
                                   "componentId": "Home__TitleJob-sc-1eskvms-2",
                                   "isStatic": false,
-                                  "lastClassName": "fKrioB",
+                                  "lastClassName": "WzpRR",
                                   "rules": Array [
-                                    "color:",
+                                    "width:fit-content;background:",
+                                    [Function],
+                                    ";color:",
                                     [Function],
                                     ";font-family:",
                                     [Function],
@@ -261,7 +267,7 @@ exports[`Home should render without throwing an error 1`] = `
                             forwardedRef={null}
                           >
                             <h2
-                              className="Home__TitleJob-sc-1eskvms-2 fKrioB"
+                              className="Home__TitleJob-sc-1eskvms-2 WzpRR"
                             >
                               <Translate
                                 id="Job"
