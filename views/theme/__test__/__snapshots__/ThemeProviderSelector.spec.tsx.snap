@@ -4,6 +4,7 @@ exports[`Theme Provider Selector should render for christmas day without throwin
 <ThemeProvider
   theme={
     Object {
+      "aboutMarginTop": "-200px",
       "colors": Object {
         "bgColor": "#fff",
         "colorAccent": "#ff8484",
@@ -53,6 +54,7 @@ exports[`Theme Provider Selector should render for christmas day without throwin
         "bgPattern": "/images/christmas/bg-pattern-snow.png",
         "bgPatternOpacity": "0.25",
         "overlay": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC",
+        "overlayBgColor": "rgba(44, 62, 80, 0.3)",
       },
       "navContentMinHeight": "80px",
       "navHeaderHeight": "40px",
@@ -74,6 +76,7 @@ exports[`Theme Provider Selector should render for christmas day without throwin
   <GlobalStyleCss
     theme={
       Object {
+        "aboutMarginTop": "-200px",
         "colors": Object {
           "bgColor": "#fff",
           "colorAccent": "#ff8484",
@@ -123,6 +126,7 @@ exports[`Theme Provider Selector should render for christmas day without throwin
           "bgPattern": "/images/christmas/bg-pattern-snow.png",
           "bgPatternOpacity": "0.25",
           "overlay": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC",
+          "overlayBgColor": "rgba(44, 62, 80, 0.3)",
         },
         "navContentMinHeight": "80px",
         "navHeaderHeight": "40px",
@@ -148,9 +152,10 @@ exports[`Theme Provider Selector should render for new year day without throwing
 <ThemeProvider
   theme={
     Object {
+      "aboutMarginTop": "-115px",
       "colors": Object {
         "bgColor": "#fff",
-        "colorAccent": "#FFA726",
+        "colorAccent": "#F0B14A",
         "colorDark": "#2c3e50",
         "colorDarken": "#bdc3c7",
         "colorLight": "#ecf0f1",
@@ -193,10 +198,11 @@ exports[`Theme Provider Selector should render for new year day without throwing
         "workexp": "\\\\e804",
       },
       "images": Object {
-        "background": "/images/bg.jpg",
-        "bgPattern": "/images/bg-pattern.jpg",
-        "bgPatternOpacity": "1",
-        "overlay": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC",
+        "background": "/images/newyear/bg-newyear.jpg",
+        "bgPattern": "/images/newyear/bg-pattern.jpg",
+        "bgPatternOpacity": "0.3",
+        "overlay": "",
+        "overlayBgColor": "rgba(44, 62, 80, 0.3)",
       },
       "navContentMinHeight": "80px",
       "navHeaderHeight": "40px",
@@ -212,15 +218,17 @@ exports[`Theme Provider Selector should render for new year day without throwing
         "xxsmall": 10,
         "xxxsmall": 7,
       },
+      "titleBgColor": "rgba(44, 25, 0, 0.6)",
     }
   }
 >
   <GlobalStyleCss
     theme={
       Object {
+        "aboutMarginTop": "-115px",
         "colors": Object {
           "bgColor": "#fff",
-          "colorAccent": "#FFA726",
+          "colorAccent": "#F0B14A",
           "colorDark": "#2c3e50",
           "colorDarken": "#bdc3c7",
           "colorLight": "#ecf0f1",
@@ -263,10 +271,11 @@ exports[`Theme Provider Selector should render for new year day without throwing
           "workexp": "\\\\e804",
         },
         "images": Object {
-          "background": "/images/bg.jpg",
-          "bgPattern": "/images/bg-pattern.jpg",
-          "bgPatternOpacity": "1",
-          "overlay": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC",
+          "background": "/images/newyear/bg-newyear.jpg",
+          "bgPattern": "/images/newyear/bg-pattern.jpg",
+          "bgPatternOpacity": "0.3",
+          "overlay": "",
+          "overlayBgColor": "rgba(44, 62, 80, 0.3)",
         },
         "navContentMinHeight": "80px",
         "navHeaderHeight": "40px",
@@ -282,6 +291,7 @@ exports[`Theme Provider Selector should render for new year day without throwing
           "xxsmall": 10,
           "xxxsmall": 7,
         },
+        "titleBgColor": "rgba(44, 25, 0, 0.6)",
       }
     }
   />
@@ -292,6 +302,7 @@ exports[`Theme Provider Selector should render for normal day without throwing a
 <ThemeProvider
   theme={
     Object {
+      "aboutMarginTop": "-200px",
       "colors": Object {
         "bgColor": "#fff",
         "colorAccent": "#FFA726",
@@ -341,6 +352,7 @@ exports[`Theme Provider Selector should render for normal day without throwing a
         "bgPattern": "/images/bg-pattern.jpg",
         "bgPatternOpacity": "1",
         "overlay": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC",
+        "overlayBgColor": "rgba(44, 62, 80, 0.3)",
       },
       "navContentMinHeight": "80px",
       "navHeaderHeight": "40px",
@@ -362,6 +374,7 @@ exports[`Theme Provider Selector should render for normal day without throwing a
   <GlobalStyleCss
     theme={
       Object {
+        "aboutMarginTop": "-200px",
         "colors": Object {
           "bgColor": "#fff",
           "colorAccent": "#FFA726",
@@ -411,6 +424,7 @@ exports[`Theme Provider Selector should render for normal day without throwing a
           "bgPattern": "/images/bg-pattern.jpg",
           "bgPatternOpacity": "1",
           "overlay": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC",
+          "overlayBgColor": "rgba(44, 62, 80, 0.3)",
         },
         "navContentMinHeight": "80px",
         "navHeaderHeight": "40px",

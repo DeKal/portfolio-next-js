@@ -14,6 +14,7 @@ const theme = {
     background: '/images/christmas/bg-christmas.jpg',
     bgPattern: '/images/christmas/bg-pattern-snow.png',
     bgPatternOpacity: '0.25',
+    overlayBgColor: 'rgba(44, 62, 80, 0.3)',
     overlay:
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC'
   }

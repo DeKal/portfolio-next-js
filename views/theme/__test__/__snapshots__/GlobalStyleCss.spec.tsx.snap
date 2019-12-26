@@ -4,6 +4,7 @@ exports[`GlobalStyleCss should render defaultTheme without throwing an error 1`]
 <GlobalStyleCss
   theme={
     Object {
+      "aboutMarginTop": "-200px",
       "colors": Object {
         "bgColor": "#fff",
         "colorAccent": "#FFA726",
@@ -53,6 +54,7 @@ exports[`GlobalStyleCss should render defaultTheme without throwing an error 1`]
         "bgPattern": "/images/bg-pattern.jpg",
         "bgPatternOpacity": "1",
         "overlay": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC",
+        "overlayBgColor": "rgba(44, 62, 80, 0.3)",
       },
       "navContentMinHeight": "80px",
       "navHeaderHeight": "40px",
@@ -96,9 +98,10 @@ exports[`GlobalStyleCss should render newyearTheme without throwing an error 1`]
 <GlobalStyleCss
   theme={
     Object {
+      "aboutMarginTop": "-115px",
       "colors": Object {
         "bgColor": "#fff",
-        "colorAccent": "#FFA726",
+        "colorAccent": "#F0B14A",
         "colorDark": "#2c3e50",
         "colorDarken": "#bdc3c7",
         "colorLight": "#ecf0f1",
@@ -141,10 +144,11 @@ exports[`GlobalStyleCss should render newyearTheme without throwing an error 1`]
         "workexp": "\\\\e804",
       },
       "images": Object {
-        "background": "/images/bg.jpg",
-        "bgPattern": "/images/bg-pattern.jpg",
-        "bgPatternOpacity": "1",
-        "overlay": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC",
+        "background": "/images/newyear/bg-newyear.jpg",
+        "bgPattern": "/images/newyear/bg-pattern.jpg",
+        "bgPatternOpacity": "0.3",
+        "overlay": "",
+        "overlayBgColor": "rgba(44, 62, 80, 0.3)",
       },
       "navContentMinHeight": "80px",
       "navHeaderHeight": "40px",
@@ -160,6 +164,7 @@ exports[`GlobalStyleCss should render newyearTheme without throwing an error 1`]
         "xxsmall": 10,
         "xxxsmall": 7,
       },
+      "titleBgColor": "rgba(44, 25, 0, 0.6)",
     }
   }
 >
@@ -170,9 +175,9 @@ exports[`GlobalStyleCss should render newyearTheme without throwing an error 1`]
         "#ecf0f1",
         "#2c3e50",
         "#2c3e50",
-        "1",
+        "0.3",
         "#fff",
-        "/images/bg-pattern.jpg",
+        "/images/newyear/bg-pattern.jpg",
         "#ecf0f1",
         "#bdc3c7",
         "#ecf0f1",
@@ -188,6 +193,7 @@ exports[`GlobalStyleCss should render xmasTheme without throwing an error 1`] = 
 <GlobalStyleCss
   theme={
     Object {
+      "aboutMarginTop": "-200px",
       "colors": Object {
         "bgColor": "#fff",
         "colorAccent": "#ff8484",
@@ -237,6 +243,7 @@ exports[`GlobalStyleCss should render xmasTheme without throwing an error 1`] = 
         "bgPattern": "/images/christmas/bg-pattern-snow.png",
         "bgPatternOpacity": "0.25",
         "overlay": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC",
+        "overlayBgColor": "rgba(44, 62, 80, 0.3)",
       },
       "navContentMinHeight": "80px",
       "navHeaderHeight": "40px",

@@ -20,7 +20,7 @@ const About = () => (
 
 const Section = styled.section`
   position: relative;
-  margin-top: -200px;
+  margin-top: ${props => props.theme.aboutMarginTop};
 `
 
 const Card = styled.div`

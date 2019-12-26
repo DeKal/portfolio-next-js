@@ -13,7 +13,9 @@ exports[`About should render without throwing an error 1`] = `
             "isStatic": false,
             "lastClassName": "jqoHER",
             "rules": Array [
-              "position:relative;margin-top:-200px;",
+              "position:relative;margin-top:",
+              [Function],
+              ";",
             ],
           },
           "displayName": "About__Section",
