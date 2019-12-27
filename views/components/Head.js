@@ -20,6 +20,11 @@ const Head = () => (
       property="og:image"
       content="https://phatho-folio.now.sh/images/cover.png"
     />
+    <meta
+      property="og:image:secure_url"
+      content="https://phatho-folio.now.sh/images/cover.png"
+    />
+    <meta property="og:image:width" content="640" />
     <meta property="og:url" content="https://phatho-folio.now.sh/" />
     <meta property="og:locale" content="en_VN" />
     <meta property="og:site_name" content="Phat Portfolio" />
