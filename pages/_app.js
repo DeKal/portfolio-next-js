@@ -6,7 +6,6 @@ import LocalizedComponent from '~/views/localize/LocalizedComponent'
 import Loading from '~/views/original-components/Loading'
 import ErrorBoundary from '~/views/components/ErrorBoundary'
 import ThemeProviderSelector from '~/views/theme/ThemeProviderSelector'
-
 import 'bootstrap/dist/css/bootstrap.min.css'
 //Import Global style
 import '~/styles/globalStyle.sass'

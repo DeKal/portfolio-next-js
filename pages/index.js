@@ -1,6 +1,4 @@
 import React, { Fragment } from 'react'
-
-import Head from '~views/components/Head'
 import Nav from '~/views/components/Navbar'
 import Home from '~/views/components/Home'
 import About from '~/views/components/About'
@@ -14,7 +12,6 @@ import SlideIterator from '~/views/components/SlideIterator'
 
 const HomePage = () => (
   <Fragment>
-    <Head />
     <Nav />
     <Home />
     <About />
