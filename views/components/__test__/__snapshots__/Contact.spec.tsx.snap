@@ -1394,9 +1394,9 @@ exports[`Footer should render without throwing an error 1`] = `
                   "componentStyle": ComponentStyle {
                     "componentId": "Map__Container-sc-1fmu8sw-0",
                     "isStatic": false,
-                    "lastClassName": "kqPDNA",
+                    "lastClassName": "iVOlqY",
                     "rules": Array [
-                      "z-index:0;position:relative;width:100%;margin-top:-150px;height:500px;overflow:hidden;background-position:top center;background-size:cover;background-image:url(/images/map.jpg);border-top:solid 1px ",
+                      "z-index:0;position:relative;width:100%;margin-top:-150px;height:500px;overflow:hidden;background-position:top center;background-size:cover;background-image:url(/images/map.png);border-top:solid 1px ",
                       [Function],
                       ";",
                     ],
@@ -1415,7 +1415,7 @@ exports[`Footer should render without throwing an error 1`] = `
               id="map"
             >
               <div
-                className="Map__Container-sc-1fmu8sw-0 kqPDNA"
+                className="Map__Container-sc-1fmu8sw-0 iVOlqY"
                 id="map"
               />
             </StyledComponent>
