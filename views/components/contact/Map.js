@@ -12,7 +12,7 @@ const Container = styled.div`
   overflow: hidden;
   background-position: top center;
   background-size: cover;
-  background-image: url(/images/map.jpg);
+  background-image: url(/images/map.png);
   border-top: solid 1px ${props => props.theme.colors.colorDarken};
 `
 export default Map
