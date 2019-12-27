@@ -8,14 +8,14 @@ const Head = () => (
     <link rel="canonical" href="https://phatho-folio.now.sh/" />
     <meta charSet="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="Dekal 's Portfolio" />
+    <meta name="description" content="Dekal Portfolio" />
     <meta
       name="keywords"
       content="portfolio, dekal, software engineer, freelancer, cv, work"
     />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="DeKal | Portfolio" />
-    <meta property="og:description" content="Dekal's Portfolio" />
+    <meta property="og:description" content="Dekal Portfolio" />
     <meta
       property="og:image"
       content="https://phatho-folio.now.sh/images/cover.jpg"
