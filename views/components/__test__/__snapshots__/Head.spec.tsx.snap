@@ -2,79 +2,12 @@
 
 exports[`Head should render without throwing an error 1`] = `
 <Head>
-  <title>
-    Portfolio | Phat Ho
-  </title>
-  <link
-    href="/favicon.ico"
-    rel="icon"
-  />
-  <link
-    href="https://phatho-folio.now.sh/"
-    rel="canonical"
-  />
-  <meta
-    charSet="utf-8"
-  />
-  <meta
-    content="width=device-width,initial-scale=1"
-    name="viewport"
-  />
-  <meta
-    content="Dekal 's Portfolio"
-    name="description"
-  />
-  <meta
-    content="portfolio, dekal, software engineer, freelancer, cv, work"
-    name="keywords"
-  />
-  <meta
-    content="website"
-    property="og:type"
-  />
-  <meta
-    content="DeKal | Portfolio"
-    property="og:title"
-  />
-  <meta
-    content="Dekal's Portfolio"
-    property="og:description"
-  />
-  <meta
-    content="https://phatho-folio.now.sh/images/cover.jpg"
-    property="og:image"
-  />
-  <meta
-    content="https://phatho-folio.now.sh/images/cover.jpg"
-    property="og:image:secure_url"
-  />
-  <meta
-    content="https://phatho-folio.now.sh/"
-    property="og:url"
-  />
-  <meta
-    content="en_VN"
-    property="og:locale"
-  />
-  <meta
-    content="Phat Portfolio"
-    property="og:site_name"
-  />
-  <meta
-    content="ofwBFRuFL3aycSJjDcrhc8hWEPKuJ7LkNCLUrsB0Sj4"
-    name="google-site-verification"
-  />
-  <meta
-    content="index,follow"
-    name="robots"
-  />
-  <meta
-    content="index,follow"
-    name="googlebot"
-  />
-  <script
-    async=""
-    src="https://www.googletagmanager.com/gtag/js?id=UA-102977389-1"
-  />
+  <Head>
+    <Component
+      handleStateChange={null}
+      inAmpMode={false}
+      reduceComponentsToState={[Function]}
+    />
+  </Head>
 </Head>
 `;
