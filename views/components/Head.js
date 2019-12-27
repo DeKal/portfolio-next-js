@@ -16,7 +16,10 @@ const Head = () => (
     <meta property="og:type" content="website" />
     <meta property="og:title" content="DeKal | Portfolio" />
     <meta property="og:description" content="Dekal's Portfolio" />
-    <meta property="og:image" content="/images/bg.jpg" />
+    <meta
+      property="og:image"
+      content="https://phatho-folio.now.sh/images/cover.png"
+    />
     <meta property="og:url" content="https://phatho-folio.now.sh/" />
     <meta property="og:locale" content="en_VN" />
     <meta property="og:site_name" content="Phat Portfolio" />
