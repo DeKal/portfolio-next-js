@@ -21,18 +21,21 @@ class MyDocument extends Document {
           />
           <meta property="og:title" content="DeKal | Portfolio" />
           <meta property="og:type" content="website" />
-          <meta property="og:description" content="Dekal Portfolio" />
+          <meta
+            property="og:description"
+            content="Dekal's Portfolio and Blog"
+          />
           <meta
             property="og:image"
-            content="https://phatho-folio.now.sh/images/cover.jpg"
+            content="https://phatho-folio.now.sh/images/cover.png"
           />
           <meta
             property="og:image:secure_url"
-            content="https://phatho-folio.now.sh/images/cover.jpg"
+            content="https://phatho-folio.now.sh/images/cover.png"
           />
           <meta property="og:url" content="https://phatho-folio.now.sh/" />
-          <meta property="og:locale" content="en_VN" />
-          <meta property="og:site_name" content="Phat Portfolio" />
+          <meta property="og:site_name" content="DeKal Portfolio" />
+          <meta property="og:image:alt" content="DeKal Portfolio" />
           <meta
             name="google-site-verification"
             content="ofwBFRuFL3aycSJjDcrhc8hWEPKuJ7LkNCLUrsB0Sj4"
