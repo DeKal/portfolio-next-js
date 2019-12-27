@@ -1,8 +1,7 @@
 import * as React from 'react'
-import NextHead from 'next/head'
 
 const Head = () => (
-  <NextHead>
+  <head>
     <title>Portfolio | Phat Ho</title>
     <link rel="icon" href="/favicon.ico" />
     <link rel="canonical" href="https://phatho-folio.now.sh/" />
@@ -37,7 +36,7 @@ const Head = () => (
       async=""
       src="https://www.googletagmanager.com/gtag/js?id=UA-102977389-1"
     ></script>
-  </NextHead>
+  </head>
 )
 
 export default Head

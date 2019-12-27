@@ -5,7 +5,6 @@ import { IconContext } from 'react-icons/lib/'
 import LocalizedComponent from '~/views/localize/LocalizedComponent'
 import Loading from '~/views/original-components/Loading'
 import ErrorBoundary from '~/views/components/ErrorBoundary'
-import Head from '~/views/components/Head'
 import ThemeProviderSelector from '~/views/theme/ThemeProviderSelector'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -31,7 +30,6 @@ export default class MyApp extends App {
           <LocalizeProvider>
             <LocalizedComponent>
               <ErrorBoundary>
-                <Head />
                 <Component {...pageProps} />
               </ErrorBoundary>
             </LocalizedComponent>
