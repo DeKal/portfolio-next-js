@@ -1,6 +1,5 @@
 import React from 'react'
 import Document, { Html, Main, NextScript, Head } from 'next/document'
-import MetaHead from '~/views/components/Head'
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -11,10 +10,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head>
-          <MetaHead />
-        </Head>
-
+        <Head />
         <body>
           <Main />
           <NextScript />
