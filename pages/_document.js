@@ -11,8 +11,10 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head />
-        <MetaHead />
+        <Head>
+          <MetaHead />
+        </Head>
+
         <body>
           <Main />
           <NextScript />
