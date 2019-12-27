@@ -7,8 +7,6 @@ const Head = () => (
     <link rel="icon" href="/favicon.ico" />
     <link rel="canonical" href="https://phatho-folio.now.sh/" />
     <meta charSet="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="Dekal Portfolio" />
     <meta
       name="keywords"
       content="portfolio, dekal, software engineer, freelancer, cv, work"
