@@ -30,16 +30,12 @@ const Home = () => {
 }
 
 export const getTexts = width => {
-  if (width < 460) {
-    return [
-      <Translate key="Job" id="Job" />,
-      <Translate key="Welcome" id="Welcome-short" />
-    ]
-  }
-  return [
-    <Translate key="Job" id="Job" />,
-    <Translate key="Welcome" id="Welcome" />
-  ]
+  const typingTexts = ['Job']
+
+  const secondText = width < 460 ? 'Welcome-short' : 'Welcome'
+  typingTexts.push(secondText)
+
+  return typingTexts.map(item => <Translate key={item} id={item} />)
 }
 
 const HomeSection = styled.section`

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 
-import { START_COUNT, MAX_LIMIT, TURN_PER_SEC, INTERVAL } from '~/consts/typist'
+import { START_COUNT, MAX_LIMIT, SEC_PER_TURN, INTERVAL } from '~/consts/typist'
 
 const Typist = ({ children }) => {
   const [seconds, setSeconds] = useState(START_COUNT)
@@ -25,7 +25,7 @@ Typist.propTypes = {
 export default Typist
 
 const pickOneElementToRender = (children, seconds) => {
-  const turn = Math.floor(seconds / TURN_PER_SEC)
+  const turn = Math.floor(seconds / SEC_PER_TURN)
   return (
     <div key={turn} className={`type-effect`}>
       {children[turn % children.length]}
