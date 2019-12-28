@@ -1,28 +1,42 @@
-import * as React from 'react'
+import React from 'react'
 import { HOME } from '~/consts/pages'
 import styled from 'styled-components/macro'
 import { Translate } from 'react-localize-redux'
 import Container from 'react-bootstrap/Container'
 import Anchor from '~/views/components/common/Anchor'
+import Typist from '~/views/components/common/Typist'
+import useWindowDimensions from '~/utils/useWindowDimensions'
 
-const Home = () => (
-  <HomeSection>
-    <Anchor id={HOME} />
-    <Background />
-    <Overlay>
-      <Container>
-        <Header>
-          <TitleName>
-            <Translate id="Name" />
-          </TitleName>
-          <TitleJob>
-            <Translate id="Job" />
-          </TitleJob>
-        </Header>
-      </Container>
-    </Overlay>
-  </HomeSection>
-)
+const Home = () => {
+  const { width } = useWindowDimensions()
+  return (
+    <HomeSection>
+      <Anchor id={HOME} />
+      <Background />
+      <Overlay>
+        <Container>
+          <Header>
+            <TitleName>
+              <Translate id="Name" />
+            </TitleName>
+            <TitleJob>
+              <Typist>{getTexts(width)}</Typist>
+            </TitleJob>
+          </Header>
+        </Container>
+      </Overlay>
+    </HomeSection>
+  )
+}
+
+export const getTexts = width => {
+  const typingTexts = ['Job']
+
+  const secondText = width < 460 ? 'Welcome-short' : 'Welcome'
+  typingTexts.push(secondText)
+
+  return typingTexts.map(item => <Translate key={item} id={item} />)
+}
 
 const HomeSection = styled.section`
   position: relative;

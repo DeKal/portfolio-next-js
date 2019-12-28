@@ -1,5 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Home getTexts should render with width < 460px 1`] = `
+Array [
+  <Translate
+    id="Job"
+  />,
+  <Translate
+    id="Welcome-short"
+  />,
+]
+`;
+
+exports[`Home getTexts should render with width > 460px 1`] = `
+Array [
+  <Translate
+    id="Job"
+  />,
+  <Translate
+    id="Welcome"
+  />,
+]
+`;
+
 exports[`Home should render without throwing an error 1`] = `
 <Home>
   <Home__HomeSection>
@@ -269,29 +291,42 @@ exports[`Home should render without throwing an error 1`] = `
                             <h2
                               className="Home__TitleJob-sc-1eskvms-2 WzpRR"
                             >
-                              <Translate
-                                id="Job"
-                              >
-                                <WrappedTranslate
-                                  context={
-                                    Object {
-                                      "activeLanguage": undefined,
-                                      "addTranslation": [Function],
-                                      "addTranslationForLanguage": [Function],
-                                      "defaultLanguage": undefined,
-                                      "ignoreTranslateChildren": false,
-                                      "initialize": [Function],
-                                      "languages": Array [],
-                                      "renderToStaticMarkup": false,
-                                      "setActiveLanguage": [Function],
-                                      "translate": [Function],
-                                    }
-                                  }
-                                  id="Job"
-                                >
-                                  Missing translationId: Job for language: \${ languageCode }
-                                </WrappedTranslate>
-                              </Translate>
+                              <Typist>
+                                <div>
+                                  <div
+                                    className="jsx-2864633268 type-effect"
+                                    key="0"
+                                  >
+                                    <Translate
+                                      id="Job"
+                                      key="Job"
+                                    >
+                                      <WrappedTranslate
+                                        context={
+                                          Object {
+                                            "activeLanguage": undefined,
+                                            "addTranslation": [Function],
+                                            "addTranslationForLanguage": [Function],
+                                            "defaultLanguage": undefined,
+                                            "ignoreTranslateChildren": false,
+                                            "initialize": [Function],
+                                            "languages": Array [],
+                                            "renderToStaticMarkup": false,
+                                            "setActiveLanguage": [Function],
+                                            "translate": [Function],
+                                          }
+                                        }
+                                        id="Job"
+                                      >
+                                        Missing translationId: Job for language: \${ languageCode }
+                                      </WrappedTranslate>
+                                    </Translate>
+                                    <JSXStyle
+                                      id="2864633268"
+                                    />
+                                  </div>
+                                </div>
+                              </Typist>
                             </h2>
                           </StyledComponent>
                         </Home__TitleJob>
