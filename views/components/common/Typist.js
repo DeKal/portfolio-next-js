@@ -20,8 +20,7 @@ const Typist = ({ children }) => {
 }
 
 Typist.propTypes = {
-  children: PropTypes.any,
-  blink: PropTypes.bool
+  children: PropTypes.any
 }
 export default Typist
 

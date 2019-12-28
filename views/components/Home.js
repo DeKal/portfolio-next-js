@@ -17,7 +17,7 @@ const Home = () => (
             <Translate id="Name" />
           </TitleName>
           <TitleJob>
-            <Typist blink>
+            <Typist>
               <Translate id="Job" />
               <Translate id="Welcome" />
             </Typist>

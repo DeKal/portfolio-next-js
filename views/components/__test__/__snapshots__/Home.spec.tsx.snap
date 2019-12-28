@@ -269,9 +269,7 @@ exports[`Home should render without throwing an error 1`] = `
                             <h2
                               className="Home__TitleJob-sc-1eskvms-2 WzpRR"
                             >
-                              <Typist
-                                blink={true}
-                              >
+                              <Typist>
                                 <div>
                                   <div
                                     className="jsx-2864633268 type-effect"
