@@ -4,6 +4,7 @@ import styled from 'styled-components/macro'
 import { Translate } from 'react-localize-redux'
 import Container from 'react-bootstrap/Container'
 import Anchor from '~/views/components/common/Anchor'
+import Typist from '~/views/components/common/Typist'
 
 const Home = () => (
   <HomeSection>
@@ -13,10 +14,14 @@ const Home = () => (
       <Container>
         <Header>
           <TitleName>
-            <Translate id="Name" />
+            <Typist>
+              <Translate id="Name" />
+            </Typist>
           </TitleName>
           <TitleJob>
-            <Translate id="Job" />
+            <Typist blink>
+              <Translate id="Job" />
+            </Typist>
           </TitleJob>
         </Header>
       </Container>
