@@ -9,9 +9,11 @@ import Project from '~/views/components/Project'
 import Contact from '~/views/components/Contact'
 import Footer from '~/views/components/Footer'
 import SlideIterator from '~/views/components/SlideIterator'
+import Head from '~/views/components/Head'
 
 const HomePage = () => (
   <Fragment>
+    <Head />
     <Nav />
     <Home />
     <About />

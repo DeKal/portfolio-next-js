@@ -16,14 +16,8 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <title>Portfolio | Phat Ho</title>
           <link rel="icon" href="/favicon.ico" />
           <link rel="canonical" href="https://phatho-folio.now.sh/" />
-          <meta charSet="utf-8" />
-          <meta
-            name="keywords"
-            content="portfolio, dekal, software engineer, freelancer, cv, work"
-          />
           <meta property="og:title" content="DeKal | Portfolio" />
           <meta property="og:type" content="website" />
           <meta
