@@ -27,11 +27,11 @@ class MyDocument extends Document {
           />
           <meta
             property="og:image"
-            content="https://phatho-folio.now.sh/images/cover.png"
+            content="https://phatho-folio.now.sh/images/cover-img.png"
           />
           <meta
             property="og:image:secure_url"
-            content="https://phatho-folio.now.sh/images/cover.png"
+            content="https://phatho-folio.now.sh/images/cover-img.png"
           />
           <meta property="og:url" content="https://phatho-folio.now.sh/" />
           <meta property="og:site_name" content="DeKal Portfolio" />
