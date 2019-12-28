@@ -2,6 +2,7 @@ import {
   isSafari,
   isChristmasDay,
   isNewYearComing,
+  isTet,
   getWindowDimensions
 } from '~/utils/helpers'
 
@@ -79,6 +80,47 @@ describe('helpers test', () => {
         .mockImplementation(() => mockDate)
 
       expect(isNewYearComing()).toBe(false)
+      spy.mockRestore()
+    })
+  })
+
+  describe('isTet', () => {
+    it('should return true when date is first day of tet', function() {
+      const jan = 1 - 1
+      const mockDate = new Date(2019, jan, 24)
+
+      const spy = jest
+        .spyOn(global, 'Date')
+        //@ts-ignore
+        .mockImplementation(() => mockDate)
+
+      expect(isTet()).toBe(true)
+      spy.mockRestore()
+    })
+
+    it('should return true when date is last day of tet', function() {
+      const jan = 1 - 1
+      const mockDate = new Date(2019, jan, 31)
+
+      const spy = jest
+        .spyOn(global, 'Date')
+        //@ts-ignore
+        .mockImplementation(() => mockDate)
+
+      expect(isTet()).toBe(true)
+      spy.mockRestore()
+    })
+
+    it('should return true when date is normal', function() {
+      const oct = 10 - 1
+      const mockDate = new Date(2020, oct, 6)
+
+      const spy = jest
+        .spyOn(global, 'Date')
+        //@ts-ignore
+        .mockImplementation(() => mockDate)
+
+      expect(isTet()).toBe(false)
       spy.mockRestore()
     })
   })

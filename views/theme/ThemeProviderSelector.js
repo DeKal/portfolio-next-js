@@ -1,10 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { ThemeProvider } from 'styled-components/macro'
-import { isChristmasDay, isNewYearComing } from '~/utils/helpers'
+import { isChristmasDay, isNewYearComing, isTet } from '~/utils/helpers'
 import theme from '~/theme/theme'
 import christMasTheme from '~/theme/christMasTheme'
 import newYearTheme from '~/theme/newYearTheme'
+import tetTheme from '~/theme/tetTheme'
 import GlobalStyleCss from '~/views/theme/GlobalStyleCss'
 
 const ThemeProviderSelector = ({ children }) => {
@@ -31,5 +32,10 @@ const useTheme = () => {
   if (isNewYearComing()) {
     return newYearTheme
   }
+
+  if (isTet()) {
+    return tetTheme
+  }
+
   return theme
 }
