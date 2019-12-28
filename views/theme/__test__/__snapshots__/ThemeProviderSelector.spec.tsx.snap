@@ -450,10 +450,10 @@ exports[`Theme Provider Selector should render for tet without throwing an error
 <ThemeProvider
   theme={
     Object {
-      "aboutMarginTop": "-115px",
+      "aboutMarginTop": "-111px",
       "colors": Object {
         "bgColor": "#fff",
-        "colorAccent": "#F0B14A",
+        "colorAccent": "#FFA500",
         "colorDark": "#2c3e50",
         "colorDarken": "#bdc3c7",
         "colorLight": "#ecf0f1",
@@ -496,11 +496,11 @@ exports[`Theme Provider Selector should render for tet without throwing an error
         "workexp": "\\\\e804",
       },
       "images": Object {
-        "background": "/images/newyear/bg-newyear.jpg",
-        "bgPattern": "/images/newyear/bg-pattern.jpg",
-        "bgPatternOpacity": "0.3",
+        "background": "/images/tet/bg-tet.jpg",
+        "bgPattern": "/images/tet/bg-pattern.jpg",
+        "bgPatternOpacity": "0.1",
         "overlay": "",
-        "overlayBgColor": "rgba(44, 62, 80, 0.3)",
+        "overlayBgColor": "",
       },
       "navContentMinHeight": "80px",
       "navHeaderHeight": "40px",
@@ -516,17 +516,17 @@ exports[`Theme Provider Selector should render for tet without throwing an error
         "xxsmall": 10,
         "xxxsmall": 7,
       },
-      "titleBgColor": "rgba(44, 25, 0, 0.6)",
+      "titleBgColor": "rgba(44, 25, 0, 0.2)",
     }
   }
 >
   <GlobalStyleCss
     theme={
       Object {
-        "aboutMarginTop": "-115px",
+        "aboutMarginTop": "-111px",
         "colors": Object {
           "bgColor": "#fff",
-          "colorAccent": "#F0B14A",
+          "colorAccent": "#FFA500",
           "colorDark": "#2c3e50",
           "colorDarken": "#bdc3c7",
           "colorLight": "#ecf0f1",
@@ -569,11 +569,11 @@ exports[`Theme Provider Selector should render for tet without throwing an error
           "workexp": "\\\\e804",
         },
         "images": Object {
-          "background": "/images/newyear/bg-newyear.jpg",
-          "bgPattern": "/images/newyear/bg-pattern.jpg",
-          "bgPatternOpacity": "0.3",
+          "background": "/images/tet/bg-tet.jpg",
+          "bgPattern": "/images/tet/bg-pattern.jpg",
+          "bgPatternOpacity": "0.1",
           "overlay": "",
-          "overlayBgColor": "rgba(44, 62, 80, 0.3)",
+          "overlayBgColor": "",
         },
         "navContentMinHeight": "80px",
         "navHeaderHeight": "40px",
@@ -589,7 +589,7 @@ exports[`Theme Provider Selector should render for tet without throwing an error
           "xxsmall": 10,
           "xxxsmall": 7,
         },
-        "titleBgColor": "rgba(44, 25, 0, 0.6)",
+        "titleBgColor": "rgba(44, 25, 0, 0.2)",
       }
     }
   />
