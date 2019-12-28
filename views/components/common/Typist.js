@@ -1,17 +1,41 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 
-const Typist = ({ children, blink }) => {
-  const borderRight = blink ? '0.15em solid #ecf0f1' : ''
+import { START_COUNT, MAX_LIMIT, TURN_PER_SEC, INTERVAL } from '~/consts/typist'
+
+const Typist = ({ children }) => {
+  const [seconds, setSeconds] = useState(START_COUNT)
+
+  useEffect(() => {
+    let interval = null
+
+    interval = setInterval(() => {
+      setSeconds(seconds => (seconds % MAX_LIMIT) + 1)
+    }, INTERVAL)
+
+    return () => clearInterval(interval)
+  }, [seconds])
+
+  return <div>{pickOneElementToRender(children, seconds)}</div>
+}
+
+Typist.propTypes = {
+  children: PropTypes.any,
+  blink: PropTypes.bool
+}
+export default Typist
+
+const pickOneElementToRender = (children, seconds) => {
+  const turn = Math.floor(seconds / TURN_PER_SEC)
   return (
-    <div className="type-effect">
-      {children}
+    <div key={turn} className={`type-effect`}>
+      {children[turn % children.length]}
       <style jsx>{`
         .type-effect {
           overflow: hidden;
           white-space: nowrap;
-          border-right: ${borderRight};
-          animation: typing 1s steps(40, end),
+          border-right: 0.15em solid #ecf0f1;
+          animation: typing 1.25s steps(40, end),
             blink-caret 0.5s step-end infinite;
         }
         /* The typing effect */
@@ -37,9 +61,3 @@ const Typist = ({ children, blink }) => {
     </div>
   )
 }
-
-Typist.propTypes = {
-  children: PropTypes.any,
-  blink: PropTypes.bool
-}
-export default Typist

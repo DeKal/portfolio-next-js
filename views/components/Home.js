@@ -14,13 +14,12 @@ const Home = () => (
       <Container>
         <Header>
           <TitleName>
-            <Typist>
-              <Translate id="Name" />
-            </Typist>
+            <Translate id="Name" />
           </TitleName>
           <TitleJob>
             <Typist blink>
               <Translate id="Job" />
+              <Translate id="Welcome" />
             </Typist>
           </TitleJob>
         </Header>

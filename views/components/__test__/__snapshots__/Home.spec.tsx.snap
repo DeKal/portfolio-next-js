@@ -206,43 +206,29 @@ exports[`Home should render without throwing an error 1`] = `
                             <h1
                               className="Home__TitleName-sc-1eskvms-1 WdUdf"
                             >
-                              <Typist>
-                                <div
-                                  className="jsx-725064213 type-effect"
-                                >
-                                  <Translate
-                                    id="Name"
-                                  >
-                                    <WrappedTranslate
-                                      context={
-                                        Object {
-                                          "activeLanguage": undefined,
-                                          "addTranslation": [Function],
-                                          "addTranslationForLanguage": [Function],
-                                          "defaultLanguage": undefined,
-                                          "ignoreTranslateChildren": false,
-                                          "initialize": [Function],
-                                          "languages": Array [],
-                                          "renderToStaticMarkup": false,
-                                          "setActiveLanguage": [Function],
-                                          "translate": [Function],
-                                        }
-                                      }
-                                      id="Name"
-                                    >
-                                      Missing translationId: Name for language: \${ languageCode }
-                                    </WrappedTranslate>
-                                  </Translate>
-                                  <JSXStyle
-                                    dynamic={
-                                      Array [
-                                        "",
-                                      ]
+                              <Translate
+                                id="Name"
+                              >
+                                <WrappedTranslate
+                                  context={
+                                    Object {
+                                      "activeLanguage": undefined,
+                                      "addTranslation": [Function],
+                                      "addTranslationForLanguage": [Function],
+                                      "defaultLanguage": undefined,
+                                      "ignoreTranslateChildren": false,
+                                      "initialize": [Function],
+                                      "languages": Array [],
+                                      "renderToStaticMarkup": false,
+                                      "setActiveLanguage": [Function],
+                                      "translate": [Function],
                                     }
-                                    id="925224456"
-                                  />
-                                </div>
-                              </Typist>
+                                  }
+                                  id="Name"
+                                >
+                                  Missing translationId: Name for language: \${ languageCode }
+                                </WrappedTranslate>
+                              </Translate>
                             </h1>
                           </StyledComponent>
                         </Home__TitleName>
@@ -286,40 +272,38 @@ exports[`Home should render without throwing an error 1`] = `
                               <Typist
                                 blink={true}
                               >
-                                <div
-                                  className="jsx-191633566 type-effect"
-                                >
-                                  <Translate
-                                    id="Job"
+                                <div>
+                                  <div
+                                    className="jsx-2864633268 type-effect"
+                                    key="0"
                                   >
-                                    <WrappedTranslate
-                                      context={
-                                        Object {
-                                          "activeLanguage": undefined,
-                                          "addTranslation": [Function],
-                                          "addTranslationForLanguage": [Function],
-                                          "defaultLanguage": undefined,
-                                          "ignoreTranslateChildren": false,
-                                          "initialize": [Function],
-                                          "languages": Array [],
-                                          "renderToStaticMarkup": false,
-                                          "setActiveLanguage": [Function],
-                                          "translate": [Function],
-                                        }
-                                      }
+                                    <Translate
                                       id="Job"
                                     >
-                                      Missing translationId: Job for language: \${ languageCode }
-                                    </WrappedTranslate>
-                                  </Translate>
-                                  <JSXStyle
-                                    dynamic={
-                                      Array [
-                                        "0.15em solid #ecf0f1",
-                                      ]
-                                    }
-                                    id="925224456"
-                                  />
+                                      <WrappedTranslate
+                                        context={
+                                          Object {
+                                            "activeLanguage": undefined,
+                                            "addTranslation": [Function],
+                                            "addTranslationForLanguage": [Function],
+                                            "defaultLanguage": undefined,
+                                            "ignoreTranslateChildren": false,
+                                            "initialize": [Function],
+                                            "languages": Array [],
+                                            "renderToStaticMarkup": false,
+                                            "setActiveLanguage": [Function],
+                                            "translate": [Function],
+                                          }
+                                        }
+                                        id="Job"
+                                      >
+                                        Missing translationId: Job for language: \${ languageCode }
+                                      </WrappedTranslate>
+                                    </Translate>
+                                    <JSXStyle
+                                      id="2864633268"
+                                    />
+                                  </div>
                                 </div>
                               </Typist>
                             </h2>
