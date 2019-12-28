@@ -1,5 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Home getTexts should render with width < 460px 1`] = `
+Array [
+  <Translate
+    id="Job"
+  />,
+  <Translate
+    id="Welcome-short"
+  />,
+]
+`;
+
+exports[`Home getTexts should render with width > 460px 1`] = `
+Array [
+  <Translate
+    id="Job"
+  />,
+  <Translate
+    id="Welcome"
+  />,
+]
+`;
+
 exports[`Home should render without throwing an error 1`] = `
 <Home>
   <Home__HomeSection>
@@ -277,6 +299,7 @@ exports[`Home should render without throwing an error 1`] = `
                                   >
                                     <Translate
                                       id="Job"
+                                      key="Job"
                                     >
                                       <WrappedTranslate
                                         context={
