@@ -1,6 +1,11 @@
 import React from 'react'
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-
+/*
+ * Some notes:
+ * 1) _document.js will load on server side -> all this meta tag will be fetched by Scraper of Facebook, Linkedin, ...
+ * 2) og:image need to be change name in order for FB to reload the new preview image
+ * 3) sharing on staging env wont work, because og:url is set to main page
+ */
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx)
