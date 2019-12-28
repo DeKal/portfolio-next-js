@@ -86,3 +86,13 @@ export const getWindowDimensions = () => {
     height
   }
 }
+
+export const isTet = () => {
+  const today = new Date()
+  const day = today.getDate()
+  const isTetTime = 24 <= day <= 31
+  const month = today.getMonth() + 1
+  const isJanuary = month == 1
+
+  return isJanuary && isTetTime
+}
