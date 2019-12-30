@@ -2,7 +2,7 @@ import * as React from 'react'
 import styled from 'styled-components/macro'
 
 const NavLogo = () => (
-  <Logo>
+  <Logo href="https://github.com/DeKal">
     <LogoText>JD</LogoText>
   </Logo>
 )
@@ -35,6 +35,15 @@ const Logo = styled.a`
     border-top: 30px solid ${props => props.theme.colors.colorAccent};
     border-left: 40px solid transparent;
     border-right: 40px solid transparent;
+  }
+
+  &:hover {
+    color: ${props => props.theme.colors.colorDark};
+    text-decoration: none;
+  }
+
+  &:active {
+    color: ${props => props.theme.colors.colorDark};
   }
 `
 
