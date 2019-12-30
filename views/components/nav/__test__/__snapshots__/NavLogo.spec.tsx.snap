@@ -2,7 +2,7 @@
 
 exports[`Nav Logo should render without throwing an error 1`] = `
 <NavLogo__Logo
-  href="https://github.com/DeKal"
+  href="https://github.com/DeKal/portfolio-next-js"
 >
   <NavLogo__LogoText>
     JD

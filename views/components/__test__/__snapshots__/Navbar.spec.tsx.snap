@@ -674,7 +674,7 @@ exports[`Navbar should render without throwing an error 1`] = `
                               >
                                 <NavLogo>
                                   <NavLogo__Logo
-                                    href="https://github.com/DeKal"
+                                    href="https://github.com/DeKal/portfolio-next-js"
                                   >
                                     <StyledComponent
                                       forwardedComponent={
@@ -718,11 +718,11 @@ exports[`Navbar should render without throwing an error 1`] = `
                                         }
                                       }
                                       forwardedRef={null}
-                                      href="https://github.com/DeKal"
+                                      href="https://github.com/DeKal/portfolio-next-js"
                                     >
                                       <a
                                         className="NavLogo__Logo-sc-1822jsu-0 hsWCem"
-                                        href="https://github.com/DeKal"
+                                        href="https://github.com/DeKal/portfolio-next-js"
                                       >
                                         <NavLogo__LogoText>
                                           <StyledComponent

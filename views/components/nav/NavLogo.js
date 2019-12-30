@@ -2,7 +2,7 @@ import * as React from 'react'
 import styled from 'styled-components/macro'
 
 const NavLogo = () => (
-  <Logo href="https://github.com/DeKal">
+  <Logo href="https://github.com/DeKal/portfolio-next-js">
     <LogoText>JD</LogoText>
   </Logo>
 )

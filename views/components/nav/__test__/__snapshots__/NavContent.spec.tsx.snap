@@ -100,7 +100,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                       >
                         <NavLogo>
                           <NavLogo__Logo
-                            href="https://github.com/DeKal"
+                            href="https://github.com/DeKal/portfolio-next-js"
                           >
                             <StyledComponent
                               forwardedComponent={
@@ -144,11 +144,11 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                 }
                               }
                               forwardedRef={null}
-                              href="https://github.com/DeKal"
+                              href="https://github.com/DeKal/portfolio-next-js"
                             >
                               <a
                                 className="NavLogo__Logo-sc-1822jsu-0 hsWCem"
-                                href="https://github.com/DeKal"
+                                href="https://github.com/DeKal/portfolio-next-js"
                               >
                                 <NavLogo__LogoText>
                                   <StyledComponent
@@ -1021,7 +1021,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                       >
                         <NavLogo>
                           <NavLogo__Logo
-                            href="https://github.com/DeKal"
+                            href="https://github.com/DeKal/portfolio-next-js"
                           >
                             <StyledComponent
                               forwardedComponent={
@@ -1065,11 +1065,11 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                 }
                               }
                               forwardedRef={null}
-                              href="https://github.com/DeKal"
+                              href="https://github.com/DeKal/portfolio-next-js"
                             >
                               <a
                                 className="NavLogo__Logo-sc-1822jsu-0 hsWCem"
-                                href="https://github.com/DeKal"
+                                href="https://github.com/DeKal/portfolio-next-js"
                               >
                                 <NavLogo__LogoText>
                                   <StyledComponent
