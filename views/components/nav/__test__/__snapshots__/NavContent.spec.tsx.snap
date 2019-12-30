@@ -99,7 +99,9 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                         className="col-md-2"
                       >
                         <NavLogo>
-                          <NavLogo__Logo>
+                          <NavLogo__Logo
+                            href="https://github.com/DeKal"
+                          >
                             <StyledComponent
                               forwardedComponent={
                                 Object {
@@ -108,7 +110,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                   "componentStyle": ComponentStyle {
                                     "componentId": "NavLogo__Logo-sc-1822jsu-0",
                                     "isStatic": false,
-                                    "lastClassName": "IYNu",
+                                    "lastClassName": "hsWCem",
                                     "rules": Array [
                                       "display:block;position:absolute;width:",
                                       [Function],
@@ -124,7 +126,11 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                       [Function],
                                       ";border:none;@media screen and (max-width:800px){display:none;}&::after{content:'';position:absolute;bottom:-29px;left:0;z-index:250;border-top:30px solid ",
                                       [Function],
-                                      ";border-left:40px solid transparent;border-right:40px solid transparent;}",
+                                      ";border-left:40px solid transparent;border-right:40px solid transparent;}&:hover{color:",
+                                      [Function],
+                                      ";text-decoration:none;}&:active{color:",
+                                      [Function],
+                                      ";}",
                                     ],
                                   },
                                   "displayName": "NavLogo__Logo",
@@ -138,9 +144,11 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                 }
                               }
                               forwardedRef={null}
+                              href="https://github.com/DeKal"
                             >
                               <a
-                                className="NavLogo__Logo-sc-1822jsu-0 IYNu"
+                                className="NavLogo__Logo-sc-1822jsu-0 hsWCem"
+                                href="https://github.com/DeKal"
                               >
                                 <NavLogo__LogoText>
                                   <StyledComponent
@@ -1012,7 +1020,9 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                         className="col-md-2"
                       >
                         <NavLogo>
-                          <NavLogo__Logo>
+                          <NavLogo__Logo
+                            href="https://github.com/DeKal"
+                          >
                             <StyledComponent
                               forwardedComponent={
                                 Object {
@@ -1021,7 +1031,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                   "componentStyle": ComponentStyle {
                                     "componentId": "NavLogo__Logo-sc-1822jsu-0",
                                     "isStatic": false,
-                                    "lastClassName": "IYNu",
+                                    "lastClassName": "hsWCem",
                                     "rules": Array [
                                       "display:block;position:absolute;width:",
                                       [Function],
@@ -1037,7 +1047,11 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                       [Function],
                                       ";border:none;@media screen and (max-width:800px){display:none;}&::after{content:'';position:absolute;bottom:-29px;left:0;z-index:250;border-top:30px solid ",
                                       [Function],
-                                      ";border-left:40px solid transparent;border-right:40px solid transparent;}",
+                                      ";border-left:40px solid transparent;border-right:40px solid transparent;}&:hover{color:",
+                                      [Function],
+                                      ";text-decoration:none;}&:active{color:",
+                                      [Function],
+                                      ";}",
                                     ],
                                   },
                                   "displayName": "NavLogo__Logo",
@@ -1051,9 +1065,11 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                 }
                               }
                               forwardedRef={null}
+                              href="https://github.com/DeKal"
                             >
                               <a
-                                className="NavLogo__Logo-sc-1822jsu-0 IYNu"
+                                className="NavLogo__Logo-sc-1822jsu-0 hsWCem"
+                                href="https://github.com/DeKal"
                               >
                                 <NavLogo__LogoText>
                                   <StyledComponent
