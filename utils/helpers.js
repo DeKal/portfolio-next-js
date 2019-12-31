@@ -64,19 +64,19 @@ export const isChristmasDay = () => {
   const month = today.getMonth() + 1
   const isDecember = month == 12
   const day = today.getDate()
-  const isChristMasTime = 20 <= day <= 30
-
+  const isChristMasTime = 20 <= day && day <= 30
   return isDecember && isChristMasTime
 }
 
 export const isNewYearComing = () => {
   const today = new Date()
   const day = today.getDate()
-  const isFirstTwoWeek = 1 <= day <= 16
+  const isFirstTwoWeek = 1 <= day && day <= 16
   const month = today.getMonth() + 1
   const isJanuary = month == 1
-
-  return isJanuary && isFirstTwoWeek
+  const isLastDayOfDec = day == 31
+  const isDec = month == 12
+  return (isLastDayOfDec && isDec) || (isJanuary && isFirstTwoWeek)
 }
 
 export const getWindowDimensions = () => {
@@ -90,7 +90,7 @@ export const getWindowDimensions = () => {
 export const isTet = () => {
   const today = new Date()
   const day = today.getDate()
-  const isTetTime = 24 <= day <= 31
+  const isTetTime = 23 <= day && day <= 31
   const month = today.getMonth() + 1
   const isJanuary = month == 1
 

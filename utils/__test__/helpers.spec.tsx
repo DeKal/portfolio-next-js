@@ -57,9 +57,21 @@ describe('helpers test', () => {
   })
 
   describe('isNewYearComing', () => {
+    it('should return true when date is pre new year', function() {
+      const dec = 12 - 1
+      const mockDate = new Date(2019, dec, 31)
+
+      const spy = jest
+        .spyOn(global, 'Date')
+        //@ts-ignore
+        .mockImplementation(() => mockDate)
+
+      expect(isNewYearComing()).toBe(true)
+      spy.mockRestore()
+    })
     it('should return true when date is new year', function() {
       const jan = 1 - 1
-      const mockDate = new Date(2019, jan, 6)
+      const mockDate = new Date(2019, jan, 1)
 
       const spy = jest
         .spyOn(global, 'Date')
