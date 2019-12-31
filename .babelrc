@@ -1,6 +1,13 @@
 {
   "presets": [
-    "next/babel"
+    [
+      "next/babel",
+      {
+        "styled-jsx": {
+          "babel-test": true
+        }
+      }
+    ]
   ],
   "plugins": [
     [
@@ -18,12 +25,5 @@
     [
       "emotion"
     ]
-  ],
-  "env": {
-    "production": {
-      "plugins": [
-        "babel-plugin-root-import"
-      ]
-    }
-  }
+  ]
 }
