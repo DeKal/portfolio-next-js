@@ -75,8 +75,8 @@ export const isNewYearComing = () => {
   const isFirstTwoWeek = 1 <= day <= 16
   const month = today.getMonth() + 1
   const isJanuary = month == 1
-
-  return isJanuary && isFirstTwoWeek
+  const isPreNewYear = day == 31 && month == 12
+  return isPreNewYear || (isJanuary && isFirstTwoWeek)
 }
 
 export const getWindowDimensions = () => {
