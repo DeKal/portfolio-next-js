@@ -73,24 +73,40 @@ exports[`GlobalStyleCss should render defaultTheme without throwing an error 1`]
     }
   }
 >
-  <JSXStyle
-    dynamic={
-      Array [
-        "#2c3e50",
-        "#ecf0f1",
-        "#2c3e50",
-        "#2c3e50",
-        "1",
-        "#fff",
-        "/images/bg-pattern.jpg",
-        "#ecf0f1",
-        "#bdc3c7",
-        "#ecf0f1",
-        "#bdc3c7",
-      ]
-    }
-    id="402684236"
-  />
+  <style>
+    
+      html,
+      body {
+        color: #2c3e50;
+      }
+      h1 {
+        color: #ecf0f1;
+      }
+      a {
+        color: #2c3e50;
+        border-bottom: 1px dashed #2c3e50;
+      }
+      body:after {
+        content: '';
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+        z-index: -1;
+        background: #fff url(/images/bg-pattern.jpg);
+      }
+      *:selection {
+        color: #ecf0f1;
+        background-color: #bdc3c7;
+      }
+      *::-moz-selection {
+        color: #ecf0f1;
+        background-color: #bdc3c7;
+      }
+    
+  </style>
 </GlobalStyleCss>
 `;
 
@@ -168,24 +184,40 @@ exports[`GlobalStyleCss should render newyearTheme without throwing an error 1`]
     }
   }
 >
-  <JSXStyle
-    dynamic={
-      Array [
-        "#2c3e50",
-        "#ecf0f1",
-        "#2c3e50",
-        "#2c3e50",
-        "0.3",
-        "#fff",
-        "/images/newyear/bg-pattern.jpg",
-        "#ecf0f1",
-        "#bdc3c7",
-        "#ecf0f1",
-        "#bdc3c7",
-      ]
-    }
-    id="402684236"
-  />
+  <style>
+    
+      html,
+      body {
+        color: #2c3e50;
+      }
+      h1 {
+        color: #ecf0f1;
+      }
+      a {
+        color: #2c3e50;
+        border-bottom: 1px dashed #2c3e50;
+      }
+      body:after {
+        content: '';
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.3;
+        z-index: -1;
+        background: #fff url(/images/newyear/bg-pattern.jpg);
+      }
+      *:selection {
+        color: #ecf0f1;
+        background-color: #bdc3c7;
+      }
+      *::-moz-selection {
+        color: #ecf0f1;
+        background-color: #bdc3c7;
+      }
+    
+  </style>
 </GlobalStyleCss>
 `;
 
@@ -262,23 +294,39 @@ exports[`GlobalStyleCss should render xmasTheme without throwing an error 1`] = 
     }
   }
 >
-  <JSXStyle
-    dynamic={
-      Array [
-        "#2c3e50",
-        "#ecf0f1",
-        "#2c3e50",
-        "#2c3e50",
-        "0.25",
-        "#fff",
-        "/images/christmas/bg-pattern-snow.png",
-        "#ecf0f1",
-        "#bdc3c7",
-        "#ecf0f1",
-        "#bdc3c7",
-      ]
-    }
-    id="402684236"
-  />
+  <style>
+    
+      html,
+      body {
+        color: #2c3e50;
+      }
+      h1 {
+        color: #ecf0f1;
+      }
+      a {
+        color: #2c3e50;
+        border-bottom: 1px dashed #2c3e50;
+      }
+      body:after {
+        content: '';
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.25;
+        z-index: -1;
+        background: #fff url(/images/christmas/bg-pattern-snow.png);
+      }
+      *:selection {
+        color: #ecf0f1;
+        background-color: #bdc3c7;
+      }
+      *::-moz-selection {
+        color: #ecf0f1;
+        background-color: #bdc3c7;
+      }
+    
+  </style>
 </GlobalStyleCss>
 `;
