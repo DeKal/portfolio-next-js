@@ -8,7 +8,7 @@ import ErrorBoundary from '~/views/components/ErrorBoundary'
 import ThemeProviderSelector from '~/views/theme/ThemeProviderSelector'
 import 'bootstrap/dist/css/bootstrap.min.css'
 //Import Global style
-import '~/styles/globalStyle.sass'
+import '~/public/styles/globalStyle.sass'
 
 export default class MyApp extends App {
   state = {
