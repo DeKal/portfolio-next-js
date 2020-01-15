@@ -2,7 +2,10 @@
   "env": {
     "browser": true,
     "es6": true,
-    "commonjs": true
+    "commonjs": true,
+    "node": true,
+    "mocha": true,
+    "jest": true
   },
   "plugins": ["prettier"],
   "extends": [

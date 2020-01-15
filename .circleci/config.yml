@@ -23,6 +23,9 @@ jobs:
           command: |
             echo 'export DANGER_TEST_REPO="$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME"' >> $BASH_ENV 
             echo 'export DANGER_TEST_PR="$CIRCLE_PULL_REQUEST"' >> $BASH_ENV 
+            echo 'export TEST_REPORT_PATH="test-results/jest"' >> $BASH_ENV
+            echo 'export TEST_REPORT_FILENAME="results.xml"' >> $BASH_ENV
+            mkdir -p test-results/jest
       # Run a step to print what branch our code base is on.
       # Download and cache dependencies
       - restore_cache:
@@ -45,3 +48,6 @@ jobs:
       - store_artifacts:
           path: coverage
           destination: /coverage
+      - store_test_results:
+          path: test-results
+        
