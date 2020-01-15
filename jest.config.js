@@ -16,6 +16,7 @@ module.exports = {
   setupFilesAfterEnv: ['<rootDir>/enzyme.js'],
   coverageReporters: ['json', 'lcov', 'text', 'clover'],
   collectCoverageFrom: ['utils/**/*.js', 'views/**/*.js'],
+  testResultsProcessor: './node_modules/jest-junit-reporter',
   moduleNameMapper: {
     '~/(.*)': '<rootDir>/$1'
   },

@@ -4,1057 +4,370 @@ exports[`Project should render without throwing an error 1`] = `
 <Project>
   <Container>
     <Container__Style>
-      <StyledComponent
-        forwardedComponent={
-          Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "Container__Style-ls6jfm-0",
-              "isStatic": false,
-              "lastClassName": "IjzqJ",
-              "rules": Array [
-                "position:relative;padding-top:100px;@media screen and (max-width:800px){padding-top:50px;}",
-              ],
-            },
-            "displayName": "Container__Style",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "Container__Style-ls6jfm-0",
-            "target": "section",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          }
-        }
-        forwardedRef={null}
+      <section
+        className="Container__Style-ls6jfm-0 uma-dL"
       >
-        <section
-          className="Container__Style-ls6jfm-0 IjzqJ"
+        <Anchor
+          id="Projects"
+          top={-40}
         >
-          <Anchor
+          <span
+            className="Anchor-sc-31ub0h-0 jpfRVs"
             id="Projects"
-            top={-40}
-          >
-            <StyledComponent
-              forwardedComponent={
-                Object {
-                  "$$typeof": Symbol(react.forward_ref),
-                  "attrs": Array [],
-                  "componentStyle": ComponentStyle {
-                    "componentId": "Anchor-sc-31ub0h-0",
-                    "isStatic": false,
-                    "lastClassName": "ismjQm",
-                    "rules": Array [
-                      "position:absolute;top:",
-                      [Function],
-                      "px;",
-                    ],
-                  },
-                  "displayName": "Anchor",
-                  "foldedComponentIds": Array [],
-                  "render": [Function],
-                  "styledComponentId": "Anchor-sc-31ub0h-0",
-                  "target": "span",
-                  "toString": [Function],
-                  "warnTooManyClasses": [Function],
-                  "withComponent": [Function],
-                }
-              }
-              forwardedRef={null}
-              id="Projects"
-              top={-40}
+          />
+        </Anchor>
+        <Header>
+          <Header__Container>
+            <header
+              className="Header__Container-co5usi-0 iZmIyc"
             >
-              <span
-                className="Anchor-sc-31ub0h-0 ismjQm"
-                id="Projects"
-              />
-            </StyledComponent>
-          </Anchor>
-          <Header>
-            <Header__Container>
-              <StyledComponent
-                forwardedComponent={
-                  Object {
-                    "$$typeof": Symbol(react.forward_ref),
-                    "attrs": Array [],
-                    "componentStyle": ComponentStyle {
-                      "componentId": "Header__Container-co5usi-0",
-                      "isStatic": false,
-                      "lastClassName": "eCHESu",
-                      "rules": Array [
-                        "padding-bottom:50px;text-align:center;@media screen and (max-width:800px){padding-bottom:30px;}",
-                      ],
-                    },
-                    "displayName": "Header__Container",
-                    "foldedComponentIds": Array [],
-                    "render": [Function],
-                    "styledComponentId": "Header__Container-co5usi-0",
-                    "target": "header",
-                    "toString": [Function],
-                    "warnTooManyClasses": [Function],
-                    "withComponent": [Function],
-                  }
-                }
-                forwardedRef={null}
-              >
-                <header
-                  className="Header__Container-co5usi-0 eCHESu"
+              <h2>
+                <Translate
+                  id="Project: Title"
                 >
-                  <h2>
-                    <Translate
-                      id="Project: Title"
-                    >
-                      <WrappedTranslate
-                        context={
-                          Object {
-                            "activeLanguage": undefined,
-                            "addTranslation": [Function],
-                            "addTranslationForLanguage": [Function],
-                            "defaultLanguage": undefined,
-                            "ignoreTranslateChildren": false,
-                            "initialize": [Function],
-                            "languages": Array [],
-                            "renderToStaticMarkup": false,
-                            "setActiveLanguage": [Function],
-                            "translate": [Function],
-                          }
-                        }
-                        id="Project: Title"
-                      >
-                        Missing translationId: Project: Title for language: \${ languageCode }
-                      </WrappedTranslate>
-                    </Translate>
-                  </h2>
-                  <h4>
-                    <Translate
-                      id="Project: SubTitle"
-                    >
-                      <WrappedTranslate
-                        context={
-                          Object {
-                            "activeLanguage": undefined,
-                            "addTranslation": [Function],
-                            "addTranslationForLanguage": [Function],
-                            "defaultLanguage": undefined,
-                            "ignoreTranslateChildren": false,
-                            "initialize": [Function],
-                            "languages": Array [],
-                            "renderToStaticMarkup": false,
-                            "setActiveLanguage": [Function],
-                            "translate": [Function],
-                          }
-                        }
-                        id="Project: SubTitle"
-                      >
-                        Missing translationId: Project: SubTitle for language: \${ languageCode }
-                      </WrappedTranslate>
-                    </Translate>
-                  </h4>
-                </header>
-              </StyledComponent>
-            </Header__Container>
-          </Header>
-          <Content>
-            <Content__NoPaddingContainer>
-              <StyledComponent
-                forwardedComponent={
-                  Object {
-                    "$$typeof": Symbol(react.forward_ref),
-                    "attrs": Array [],
-                    "componentStyle": ComponentStyle {
-                      "componentId": "Content__NoPaddingContainer-sc-10hjrqb-0",
-                      "isStatic": false,
-                      "lastClassName": "iMWcMs",
-                      "rules": Array [
-                        "padding:0;",
-                      ],
-                    },
-                    "displayName": "Content__NoPaddingContainer",
-                    "foldedComponentIds": Array [],
-                    "render": [Function],
-                    "styledComponentId": "Content__NoPaddingContainer-sc-10hjrqb-0",
-                    "target": Object {
-                      "$$typeof": Symbol(react.forward_ref),
-                      "defaultProps": Object {
-                        "fluid": false,
-                      },
-                      "displayName": "Container",
-                      "render": [Function],
-                    },
-                    "toString": [Function],
-                    "warnTooManyClasses": [Function],
-                    "withComponent": [Function],
-                  }
-                }
-                forwardedRef={null}
+                  <WrappedTranslate
+                    context={
+                      Object {
+                        "activeLanguage": undefined,
+                        "addTranslation": [Function],
+                        "addTranslationForLanguage": [Function],
+                        "defaultLanguage": undefined,
+                        "ignoreTranslateChildren": false,
+                        "initialize": [Function],
+                        "languages": Array [],
+                        "renderToStaticMarkup": false,
+                        "setActiveLanguage": [Function],
+                        "translate": [Function],
+                      }
+                    }
+                    id="Project: Title"
+                  >
+                    Missing translationId: Project: Title for language: \${ languageCode }
+                  </WrappedTranslate>
+                </Translate>
+              </h2>
+              <h4>
+                <Translate
+                  id="Project: SubTitle"
+                >
+                  <WrappedTranslate
+                    context={
+                      Object {
+                        "activeLanguage": undefined,
+                        "addTranslation": [Function],
+                        "addTranslationForLanguage": [Function],
+                        "defaultLanguage": undefined,
+                        "ignoreTranslateChildren": false,
+                        "initialize": [Function],
+                        "languages": Array [],
+                        "renderToStaticMarkup": false,
+                        "setActiveLanguage": [Function],
+                        "translate": [Function],
+                      }
+                    }
+                    id="Project: SubTitle"
+                  >
+                    Missing translationId: Project: SubTitle for language: \${ languageCode }
+                  </WrappedTranslate>
+                </Translate>
+              </h4>
+            </header>
+          </Header__Container>
+        </Header>
+        <Content>
+          <Content__NoPaddingContainer>
+            <Container
+              className="Content__NoPaddingContainer-sc-10hjrqb-0 gLuxbZ"
+              fluid={false}
+            >
+              <div
+                className="Content__NoPaddingContainer-sc-10hjrqb-0 gLuxbZ container"
               >
-                <Container
-                  className="Content__NoPaddingContainer-sc-10hjrqb-0 iMWcMs"
-                  fluid={false}
+                <ForwardRef
+                  noGutters={true}
                 >
                   <div
-                    className="Content__NoPaddingContainer-sc-10hjrqb-0 iMWcMs container"
+                    className="row no-gutters"
                   >
-                    <ForwardRef
-                      noGutters={true}
+                    <Item
+                      hoverTitle="Brand360 project"
+                      imgAlt="Brand 360"
+                      imgSrc="/images/projects/brand360.jpg"
+                      linkToWeb="http://brand360.vn/"
                     >
-                      <div
-                        className="row no-gutters"
+                      <Col
+                        md={3}
+                        sm={6}
+                        xs={12}
                       >
-                        <Item
-                          hoverTitle="Brand360 project"
-                          imgAlt="Brand 360"
-                          imgSrc="/images/projects/brand360.jpg"
-                          linkToWeb="http://brand360.vn/"
+                        <div
+                          className="col-md-3 col-sm-6 col-12"
                         >
-                          <Col
-                            md={3}
-                            sm={6}
-                            xs={12}
-                          >
-                            <div
-                              className="col-md-3 col-sm-6 col-12"
+                          <Item__Container>
+                            <figure
+                              className="Item__Container-sc-1s8zmn4-0 cawhFY"
                             >
-                              <Item__Container>
-                                <StyledComponent
-                                  forwardedComponent={
-                                    Object {
-                                      "$$typeof": Symbol(react.forward_ref),
-                                      "attrs": Array [],
-                                      "componentStyle": ComponentStyle {
-                                        "componentId": "Item__Container-sc-1s8zmn4-0",
-                                        "isStatic": false,
-                                        "lastClassName": "hGeAEu",
-                                        "rules": Array [
-                                          "position:relative;height:250px;width:100%;padding-bottom:18.75%;overflow:hidden;background:black;@media screen and (max-width:1200px){padding-bottom:37.5%;}@media screen and (max-width:480px){padding-bottom:75%;}&:hover figcaption{visibility:visible;}",
-                                        ],
-                                      },
-                                      "displayName": "Item__Container",
-                                      "foldedComponentIds": Array [],
-                                      "render": [Function],
-                                      "styledComponentId": "Item__Container-sc-1s8zmn4-0",
-                                      "target": "figure",
-                                      "toString": [Function],
-                                      "warnTooManyClasses": [Function],
-                                      "withComponent": [Function],
-                                    }
-                                  }
-                                  forwardedRef={null}
-                                >
-                                  <figure
-                                    className="Item__Container-sc-1s8zmn4-0 hGeAEu"
+                              <Item__Image
+                                alt="Brand 360"
+                                src="/images/projects/brand360.jpg"
+                              >
+                                <img
+                                  alt="Brand 360"
+                                  className="Item__Image-sc-1s8zmn4-1 jLMVgY"
+                                  src="/images/projects/brand360.jpg"
+                                />
+                              </Item__Image>
+                              <Caption
+                                hoverTitle="Brand360 project"
+                                linkToWeb="http://brand360.vn/"
+                              >
+                                <Caption__Container>
+                                  <figcaption
+                                    className="Caption__Container-sc-156a07m-0 lmeQPl"
                                   >
-                                    <Item__Image
-                                      alt="Brand 360"
-                                      src="/images/projects/brand360.jpg"
+                                    <Caption__Link
+                                      href="http://brand360.vn/"
+                                      rel="nofollow"
                                     >
-                                      <StyledComponent
-                                        alt="Brand 360"
-                                        forwardedComponent={
-                                          Object {
-                                            "$$typeof": Symbol(react.forward_ref),
-                                            "attrs": Array [],
-                                            "componentStyle": ComponentStyle {
-                                              "componentId": "Item__Image-sc-1s8zmn4-1",
-                                              "isStatic": false,
-                                              "lastClassName": "imSopD",
-                                              "rules": Array [
-                                                "position:absolute;padding:5px;top:0;right:0;left:0;display:block;height:100%;margin:0 auto;max-width:100%;",
-                                              ],
-                                            },
-                                            "displayName": "Item__Image",
-                                            "foldedComponentIds": Array [],
-                                            "render": [Function],
-                                            "styledComponentId": "Item__Image-sc-1s8zmn4-1",
-                                            "target": "img",
-                                            "toString": [Function],
-                                            "warnTooManyClasses": [Function],
-                                            "withComponent": [Function],
-                                          }
-                                        }
-                                        forwardedRef={null}
-                                        src="/images/projects/brand360.jpg"
+                                      <a
+                                        className="Caption__Link-sc-156a07m-1 cBuvSy"
+                                        href="http://brand360.vn/"
+                                        rel="nofollow"
                                       >
-                                        <img
-                                          alt="Brand 360"
-                                          className="Item__Image-sc-1s8zmn4-1 imSopD"
-                                          src="/images/projects/brand360.jpg"
-                                        />
-                                      </StyledComponent>
-                                    </Item__Image>
-                                    <Caption
-                                      hoverTitle="Brand360 project"
-                                      linkToWeb="http://brand360.vn/"
-                                    >
-                                      <Caption__Container>
-                                        <StyledComponent
-                                          forwardedComponent={
-                                            Object {
-                                              "$$typeof": Symbol(react.forward_ref),
-                                              "attrs": Array [],
-                                              "componentStyle": ComponentStyle {
-                                                "componentId": "Caption__Container-sc-156a07m-0",
-                                                "isStatic": false,
-                                                "lastClassName": "krdntF",
-                                                "rules": Array [
-                                                  "position:absolute;top:0;left:0;width:100%;height:100%;text-align:center;white-space:nowrap;background-color:",
-                                                  [Function],
-                                                  ";opacity:0.9;visibility:hidden;transition:opacity 0.5s;display:flex;align-items:center;",
-                                                ],
-                                              },
-                                              "displayName": "Caption__Container",
-                                              "foldedComponentIds": Array [],
-                                              "render": [Function],
-                                              "styledComponentId": "Caption__Container-sc-156a07m-0",
-                                              "target": "figcaption",
-                                              "toString": [Function],
-                                              "warnTooManyClasses": [Function],
-                                              "withComponent": [Function],
-                                            }
-                                          }
-                                          forwardedRef={null}
+                                        <Icon
+                                          name="link"
                                         >
-                                          <figcaption
-                                            className="Caption__Container-sc-156a07m-0 krdntF"
+                                          <Icon__Symbol
+                                            name="link"
                                           >
-                                            <Caption__Link
-                                              href="http://brand360.vn/"
-                                              rel="nofollow"
-                                            >
-                                              <StyledComponent
-                                                forwardedComponent={
-                                                  Object {
-                                                    "$$typeof": Symbol(react.forward_ref),
-                                                    "attrs": Array [],
-                                                    "componentStyle": ComponentStyle {
-                                                      "componentId": "Caption__Link-sc-156a07m-1",
-                                                      "isStatic": false,
-                                                      "lastClassName": "gxCEjE",
-                                                      "rules": Array [
-                                                        "display:inline-block;width:100%;font-size:25px;color:",
-                                                        [Function],
-                                                        ";white-space:normal;border-bottom:none;@media screen and (max-width:800px){font-size:20px;}&:hover{color:none !important;}",
-                                                      ],
-                                                    },
-                                                    "displayName": "Caption__Link",
-                                                    "foldedComponentIds": Array [],
-                                                    "render": [Function],
-                                                    "styledComponentId": "Caption__Link-sc-156a07m-1",
-                                                    "target": "a",
-                                                    "toString": [Function],
-                                                    "warnTooManyClasses": [Function],
-                                                    "withComponent": [Function],
-                                                  }
-                                                }
-                                                forwardedRef={null}
-                                                href="http://brand360.vn/"
-                                                rel="nofollow"
-                                              >
-                                                <a
-                                                  className="Caption__Link-sc-156a07m-1 gxCEjE"
-                                                  href="http://brand360.vn/"
-                                                  rel="nofollow"
-                                                >
-                                                  <Icon
-                                                    name="link"
-                                                  >
-                                                    <Icon__Symbol
-                                                      name="link"
-                                                    >
-                                                      <StyledComponent
-                                                        forwardedComponent={
-                                                          Object {
-                                                            "$$typeof": Symbol(react.forward_ref),
-                                                            "attrs": Array [],
-                                                            "componentStyle": ComponentStyle {
-                                                              "componentId": "Icon__Symbol-sc-1aleqew-0",
-                                                              "isStatic": false,
-                                                              "lastClassName": "iYIjbp",
-                                                              "rules": Array [
-                                                                "display:inline-block;&::before{font-family:",
-                                                                [Function],
-                                                                ";font-style:normal;font-weight:normal;content:'",
-                                                                [Function],
-                                                                "';}",
-                                                              ],
-                                                            },
-                                                            "displayName": "Icon__Symbol",
-                                                            "foldedComponentIds": Array [],
-                                                            "render": [Function],
-                                                            "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
-                                                            "target": "div",
-                                                            "toString": [Function],
-                                                            "warnTooManyClasses": [Function],
-                                                            "withComponent": [Function],
-                                                          }
-                                                        }
-                                                        forwardedRef={null}
-                                                        name="link"
-                                                      >
-                                                        <div
-                                                          className="Icon__Symbol-sc-1aleqew-0 iYIjbp"
-                                                          name="link"
-                                                        />
-                                                      </StyledComponent>
-                                                    </Icon__Symbol>
-                                                  </Icon>
-                                                  Brand360 project
-                                                </a>
-                                              </StyledComponent>
-                                            </Caption__Link>
-                                          </figcaption>
-                                        </StyledComponent>
-                                      </Caption__Container>
-                                    </Caption>
-                                  </figure>
-                                </StyledComponent>
-                              </Item__Container>
-                            </div>
-                          </Col>
-                        </Item>
-                        <Item
-                          hoverTitle="Masan Report"
-                          imgAlt="Report application for Masan"
-                          imgSrc="/images/projects/anco.jpg"
-                          linkToWeb=""
+                                            <div
+                                              className="Icon__Symbol-sc-1aleqew-0 lemZY"
+                                              name="link"
+                                            />
+                                          </Icon__Symbol>
+                                        </Icon>
+                                        Brand360 project
+                                      </a>
+                                    </Caption__Link>
+                                  </figcaption>
+                                </Caption__Container>
+                              </Caption>
+                            </figure>
+                          </Item__Container>
+                        </div>
+                      </Col>
+                    </Item>
+                    <Item
+                      hoverTitle="Masan Report"
+                      imgAlt="Report application for Masan"
+                      imgSrc="/images/projects/anco.jpg"
+                      linkToWeb=""
+                    >
+                      <Col
+                        md={3}
+                        sm={6}
+                        xs={12}
+                      >
+                        <div
+                          className="col-md-3 col-sm-6 col-12"
                         >
-                          <Col
-                            md={3}
-                            sm={6}
-                            xs={12}
-                          >
-                            <div
-                              className="col-md-3 col-sm-6 col-12"
+                          <Item__Container>
+                            <figure
+                              className="Item__Container-sc-1s8zmn4-0 cawhFY"
                             >
-                              <Item__Container>
-                                <StyledComponent
-                                  forwardedComponent={
-                                    Object {
-                                      "$$typeof": Symbol(react.forward_ref),
-                                      "attrs": Array [],
-                                      "componentStyle": ComponentStyle {
-                                        "componentId": "Item__Container-sc-1s8zmn4-0",
-                                        "isStatic": false,
-                                        "lastClassName": "hGeAEu",
-                                        "rules": Array [
-                                          "position:relative;height:250px;width:100%;padding-bottom:18.75%;overflow:hidden;background:black;@media screen and (max-width:1200px){padding-bottom:37.5%;}@media screen and (max-width:480px){padding-bottom:75%;}&:hover figcaption{visibility:visible;}",
-                                        ],
-                                      },
-                                      "displayName": "Item__Container",
-                                      "foldedComponentIds": Array [],
-                                      "render": [Function],
-                                      "styledComponentId": "Item__Container-sc-1s8zmn4-0",
-                                      "target": "figure",
-                                      "toString": [Function],
-                                      "warnTooManyClasses": [Function],
-                                      "withComponent": [Function],
-                                    }
-                                  }
-                                  forwardedRef={null}
-                                >
-                                  <figure
-                                    className="Item__Container-sc-1s8zmn4-0 hGeAEu"
+                              <Item__Image
+                                alt="Report application for Masan"
+                                src="/images/projects/anco.jpg"
+                              >
+                                <img
+                                  alt="Report application for Masan"
+                                  className="Item__Image-sc-1s8zmn4-1 jLMVgY"
+                                  src="/images/projects/anco.jpg"
+                                />
+                              </Item__Image>
+                              <Caption
+                                hoverTitle="Masan Report"
+                                linkToWeb=""
+                              >
+                                <Caption__Container>
+                                  <figcaption
+                                    className="Caption__Container-sc-156a07m-0 lmeQPl"
                                   >
-                                    <Item__Image
-                                      alt="Report application for Masan"
-                                      src="/images/projects/anco.jpg"
+                                    <Caption__Link
+                                      href=""
+                                      rel="nofollow"
                                     >
-                                      <StyledComponent
-                                        alt="Report application for Masan"
-                                        forwardedComponent={
-                                          Object {
-                                            "$$typeof": Symbol(react.forward_ref),
-                                            "attrs": Array [],
-                                            "componentStyle": ComponentStyle {
-                                              "componentId": "Item__Image-sc-1s8zmn4-1",
-                                              "isStatic": false,
-                                              "lastClassName": "imSopD",
-                                              "rules": Array [
-                                                "position:absolute;padding:5px;top:0;right:0;left:0;display:block;height:100%;margin:0 auto;max-width:100%;",
-                                              ],
-                                            },
-                                            "displayName": "Item__Image",
-                                            "foldedComponentIds": Array [],
-                                            "render": [Function],
-                                            "styledComponentId": "Item__Image-sc-1s8zmn4-1",
-                                            "target": "img",
-                                            "toString": [Function],
-                                            "warnTooManyClasses": [Function],
-                                            "withComponent": [Function],
-                                          }
-                                        }
-                                        forwardedRef={null}
-                                        src="/images/projects/anco.jpg"
+                                      <a
+                                        className="Caption__Link-sc-156a07m-1 cBuvSy"
+                                        href=""
+                                        rel="nofollow"
                                       >
-                                        <img
-                                          alt="Report application for Masan"
-                                          className="Item__Image-sc-1s8zmn4-1 imSopD"
-                                          src="/images/projects/anco.jpg"
-                                        />
-                                      </StyledComponent>
-                                    </Item__Image>
-                                    <Caption
-                                      hoverTitle="Masan Report"
-                                      linkToWeb=""
-                                    >
-                                      <Caption__Container>
-                                        <StyledComponent
-                                          forwardedComponent={
-                                            Object {
-                                              "$$typeof": Symbol(react.forward_ref),
-                                              "attrs": Array [],
-                                              "componentStyle": ComponentStyle {
-                                                "componentId": "Caption__Container-sc-156a07m-0",
-                                                "isStatic": false,
-                                                "lastClassName": "krdntF",
-                                                "rules": Array [
-                                                  "position:absolute;top:0;left:0;width:100%;height:100%;text-align:center;white-space:nowrap;background-color:",
-                                                  [Function],
-                                                  ";opacity:0.9;visibility:hidden;transition:opacity 0.5s;display:flex;align-items:center;",
-                                                ],
-                                              },
-                                              "displayName": "Caption__Container",
-                                              "foldedComponentIds": Array [],
-                                              "render": [Function],
-                                              "styledComponentId": "Caption__Container-sc-156a07m-0",
-                                              "target": "figcaption",
-                                              "toString": [Function],
-                                              "warnTooManyClasses": [Function],
-                                              "withComponent": [Function],
-                                            }
-                                          }
-                                          forwardedRef={null}
+                                        <Icon
+                                          name="link"
                                         >
-                                          <figcaption
-                                            className="Caption__Container-sc-156a07m-0 krdntF"
+                                          <Icon__Symbol
+                                            name="link"
                                           >
-                                            <Caption__Link
-                                              href=""
-                                              rel="nofollow"
-                                            >
-                                              <StyledComponent
-                                                forwardedComponent={
-                                                  Object {
-                                                    "$$typeof": Symbol(react.forward_ref),
-                                                    "attrs": Array [],
-                                                    "componentStyle": ComponentStyle {
-                                                      "componentId": "Caption__Link-sc-156a07m-1",
-                                                      "isStatic": false,
-                                                      "lastClassName": "gxCEjE",
-                                                      "rules": Array [
-                                                        "display:inline-block;width:100%;font-size:25px;color:",
-                                                        [Function],
-                                                        ";white-space:normal;border-bottom:none;@media screen and (max-width:800px){font-size:20px;}&:hover{color:none !important;}",
-                                                      ],
-                                                    },
-                                                    "displayName": "Caption__Link",
-                                                    "foldedComponentIds": Array [],
-                                                    "render": [Function],
-                                                    "styledComponentId": "Caption__Link-sc-156a07m-1",
-                                                    "target": "a",
-                                                    "toString": [Function],
-                                                    "warnTooManyClasses": [Function],
-                                                    "withComponent": [Function],
-                                                  }
-                                                }
-                                                forwardedRef={null}
-                                                href=""
-                                                rel="nofollow"
-                                              >
-                                                <a
-                                                  className="Caption__Link-sc-156a07m-1 gxCEjE"
-                                                  href=""
-                                                  rel="nofollow"
-                                                >
-                                                  <Icon
-                                                    name="link"
-                                                  >
-                                                    <Icon__Symbol
-                                                      name="link"
-                                                    >
-                                                      <StyledComponent
-                                                        forwardedComponent={
-                                                          Object {
-                                                            "$$typeof": Symbol(react.forward_ref),
-                                                            "attrs": Array [],
-                                                            "componentStyle": ComponentStyle {
-                                                              "componentId": "Icon__Symbol-sc-1aleqew-0",
-                                                              "isStatic": false,
-                                                              "lastClassName": "iYIjbp",
-                                                              "rules": Array [
-                                                                "display:inline-block;&::before{font-family:",
-                                                                [Function],
-                                                                ";font-style:normal;font-weight:normal;content:'",
-                                                                [Function],
-                                                                "';}",
-                                                              ],
-                                                            },
-                                                            "displayName": "Icon__Symbol",
-                                                            "foldedComponentIds": Array [],
-                                                            "render": [Function],
-                                                            "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
-                                                            "target": "div",
-                                                            "toString": [Function],
-                                                            "warnTooManyClasses": [Function],
-                                                            "withComponent": [Function],
-                                                          }
-                                                        }
-                                                        forwardedRef={null}
-                                                        name="link"
-                                                      >
-                                                        <div
-                                                          className="Icon__Symbol-sc-1aleqew-0 iYIjbp"
-                                                          name="link"
-                                                        />
-                                                      </StyledComponent>
-                                                    </Icon__Symbol>
-                                                  </Icon>
-                                                  Masan Report
-                                                </a>
-                                              </StyledComponent>
-                                            </Caption__Link>
-                                          </figcaption>
-                                        </StyledComponent>
-                                      </Caption__Container>
-                                    </Caption>
-                                  </figure>
-                                </StyledComponent>
-                              </Item__Container>
-                            </div>
-                          </Col>
-                        </Item>
-                        <Item
-                          hoverTitle="Tam An Web"
-                          imgAlt="Tam An Web"
-                          imgSrc="/images/projects/taman.jpg"
-                          linkToWeb="https://github.com/DeKal/Tam-An-Food-Store-Manager"
+                                            <div
+                                              className="Icon__Symbol-sc-1aleqew-0 lemZY"
+                                              name="link"
+                                            />
+                                          </Icon__Symbol>
+                                        </Icon>
+                                        Masan Report
+                                      </a>
+                                    </Caption__Link>
+                                  </figcaption>
+                                </Caption__Container>
+                              </Caption>
+                            </figure>
+                          </Item__Container>
+                        </div>
+                      </Col>
+                    </Item>
+                    <Item
+                      hoverTitle="Tam An Web"
+                      imgAlt="Tam An Web"
+                      imgSrc="/images/projects/taman.jpg"
+                      linkToWeb="https://github.com/DeKal/Tam-An-Food-Store-Manager"
+                    >
+                      <Col
+                        md={3}
+                        sm={6}
+                        xs={12}
+                      >
+                        <div
+                          className="col-md-3 col-sm-6 col-12"
                         >
-                          <Col
-                            md={3}
-                            sm={6}
-                            xs={12}
-                          >
-                            <div
-                              className="col-md-3 col-sm-6 col-12"
+                          <Item__Container>
+                            <figure
+                              className="Item__Container-sc-1s8zmn4-0 cawhFY"
                             >
-                              <Item__Container>
-                                <StyledComponent
-                                  forwardedComponent={
-                                    Object {
-                                      "$$typeof": Symbol(react.forward_ref),
-                                      "attrs": Array [],
-                                      "componentStyle": ComponentStyle {
-                                        "componentId": "Item__Container-sc-1s8zmn4-0",
-                                        "isStatic": false,
-                                        "lastClassName": "hGeAEu",
-                                        "rules": Array [
-                                          "position:relative;height:250px;width:100%;padding-bottom:18.75%;overflow:hidden;background:black;@media screen and (max-width:1200px){padding-bottom:37.5%;}@media screen and (max-width:480px){padding-bottom:75%;}&:hover figcaption{visibility:visible;}",
-                                        ],
-                                      },
-                                      "displayName": "Item__Container",
-                                      "foldedComponentIds": Array [],
-                                      "render": [Function],
-                                      "styledComponentId": "Item__Container-sc-1s8zmn4-0",
-                                      "target": "figure",
-                                      "toString": [Function],
-                                      "warnTooManyClasses": [Function],
-                                      "withComponent": [Function],
-                                    }
-                                  }
-                                  forwardedRef={null}
-                                >
-                                  <figure
-                                    className="Item__Container-sc-1s8zmn4-0 hGeAEu"
+                              <Item__Image
+                                alt="Tam An Web"
+                                src="/images/projects/taman.jpg"
+                              >
+                                <img
+                                  alt="Tam An Web"
+                                  className="Item__Image-sc-1s8zmn4-1 jLMVgY"
+                                  src="/images/projects/taman.jpg"
+                                />
+                              </Item__Image>
+                              <Caption
+                                hoverTitle="Tam An Web"
+                                linkToWeb="https://github.com/DeKal/Tam-An-Food-Store-Manager"
+                              >
+                                <Caption__Container>
+                                  <figcaption
+                                    className="Caption__Container-sc-156a07m-0 lmeQPl"
                                   >
-                                    <Item__Image
-                                      alt="Tam An Web"
-                                      src="/images/projects/taman.jpg"
+                                    <Caption__Link
+                                      href="https://github.com/DeKal/Tam-An-Food-Store-Manager"
+                                      rel="nofollow"
                                     >
-                                      <StyledComponent
-                                        alt="Tam An Web"
-                                        forwardedComponent={
-                                          Object {
-                                            "$$typeof": Symbol(react.forward_ref),
-                                            "attrs": Array [],
-                                            "componentStyle": ComponentStyle {
-                                              "componentId": "Item__Image-sc-1s8zmn4-1",
-                                              "isStatic": false,
-                                              "lastClassName": "imSopD",
-                                              "rules": Array [
-                                                "position:absolute;padding:5px;top:0;right:0;left:0;display:block;height:100%;margin:0 auto;max-width:100%;",
-                                              ],
-                                            },
-                                            "displayName": "Item__Image",
-                                            "foldedComponentIds": Array [],
-                                            "render": [Function],
-                                            "styledComponentId": "Item__Image-sc-1s8zmn4-1",
-                                            "target": "img",
-                                            "toString": [Function],
-                                            "warnTooManyClasses": [Function],
-                                            "withComponent": [Function],
-                                          }
-                                        }
-                                        forwardedRef={null}
-                                        src="/images/projects/taman.jpg"
+                                      <a
+                                        className="Caption__Link-sc-156a07m-1 cBuvSy"
+                                        href="https://github.com/DeKal/Tam-An-Food-Store-Manager"
+                                        rel="nofollow"
                                       >
-                                        <img
-                                          alt="Tam An Web"
-                                          className="Item__Image-sc-1s8zmn4-1 imSopD"
-                                          src="/images/projects/taman.jpg"
-                                        />
-                                      </StyledComponent>
-                                    </Item__Image>
-                                    <Caption
-                                      hoverTitle="Tam An Web"
-                                      linkToWeb="https://github.com/DeKal/Tam-An-Food-Store-Manager"
-                                    >
-                                      <Caption__Container>
-                                        <StyledComponent
-                                          forwardedComponent={
-                                            Object {
-                                              "$$typeof": Symbol(react.forward_ref),
-                                              "attrs": Array [],
-                                              "componentStyle": ComponentStyle {
-                                                "componentId": "Caption__Container-sc-156a07m-0",
-                                                "isStatic": false,
-                                                "lastClassName": "krdntF",
-                                                "rules": Array [
-                                                  "position:absolute;top:0;left:0;width:100%;height:100%;text-align:center;white-space:nowrap;background-color:",
-                                                  [Function],
-                                                  ";opacity:0.9;visibility:hidden;transition:opacity 0.5s;display:flex;align-items:center;",
-                                                ],
-                                              },
-                                              "displayName": "Caption__Container",
-                                              "foldedComponentIds": Array [],
-                                              "render": [Function],
-                                              "styledComponentId": "Caption__Container-sc-156a07m-0",
-                                              "target": "figcaption",
-                                              "toString": [Function],
-                                              "warnTooManyClasses": [Function],
-                                              "withComponent": [Function],
-                                            }
-                                          }
-                                          forwardedRef={null}
+                                        <Icon
+                                          name="link"
                                         >
-                                          <figcaption
-                                            className="Caption__Container-sc-156a07m-0 krdntF"
+                                          <Icon__Symbol
+                                            name="link"
                                           >
-                                            <Caption__Link
-                                              href="https://github.com/DeKal/Tam-An-Food-Store-Manager"
-                                              rel="nofollow"
-                                            >
-                                              <StyledComponent
-                                                forwardedComponent={
-                                                  Object {
-                                                    "$$typeof": Symbol(react.forward_ref),
-                                                    "attrs": Array [],
-                                                    "componentStyle": ComponentStyle {
-                                                      "componentId": "Caption__Link-sc-156a07m-1",
-                                                      "isStatic": false,
-                                                      "lastClassName": "gxCEjE",
-                                                      "rules": Array [
-                                                        "display:inline-block;width:100%;font-size:25px;color:",
-                                                        [Function],
-                                                        ";white-space:normal;border-bottom:none;@media screen and (max-width:800px){font-size:20px;}&:hover{color:none !important;}",
-                                                      ],
-                                                    },
-                                                    "displayName": "Caption__Link",
-                                                    "foldedComponentIds": Array [],
-                                                    "render": [Function],
-                                                    "styledComponentId": "Caption__Link-sc-156a07m-1",
-                                                    "target": "a",
-                                                    "toString": [Function],
-                                                    "warnTooManyClasses": [Function],
-                                                    "withComponent": [Function],
-                                                  }
-                                                }
-                                                forwardedRef={null}
-                                                href="https://github.com/DeKal/Tam-An-Food-Store-Manager"
-                                                rel="nofollow"
-                                              >
-                                                <a
-                                                  className="Caption__Link-sc-156a07m-1 gxCEjE"
-                                                  href="https://github.com/DeKal/Tam-An-Food-Store-Manager"
-                                                  rel="nofollow"
-                                                >
-                                                  <Icon
-                                                    name="link"
-                                                  >
-                                                    <Icon__Symbol
-                                                      name="link"
-                                                    >
-                                                      <StyledComponent
-                                                        forwardedComponent={
-                                                          Object {
-                                                            "$$typeof": Symbol(react.forward_ref),
-                                                            "attrs": Array [],
-                                                            "componentStyle": ComponentStyle {
-                                                              "componentId": "Icon__Symbol-sc-1aleqew-0",
-                                                              "isStatic": false,
-                                                              "lastClassName": "iYIjbp",
-                                                              "rules": Array [
-                                                                "display:inline-block;&::before{font-family:",
-                                                                [Function],
-                                                                ";font-style:normal;font-weight:normal;content:'",
-                                                                [Function],
-                                                                "';}",
-                                                              ],
-                                                            },
-                                                            "displayName": "Icon__Symbol",
-                                                            "foldedComponentIds": Array [],
-                                                            "render": [Function],
-                                                            "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
-                                                            "target": "div",
-                                                            "toString": [Function],
-                                                            "warnTooManyClasses": [Function],
-                                                            "withComponent": [Function],
-                                                          }
-                                                        }
-                                                        forwardedRef={null}
-                                                        name="link"
-                                                      >
-                                                        <div
-                                                          className="Icon__Symbol-sc-1aleqew-0 iYIjbp"
-                                                          name="link"
-                                                        />
-                                                      </StyledComponent>
-                                                    </Icon__Symbol>
-                                                  </Icon>
-                                                  Tam An Web
-                                                </a>
-                                              </StyledComponent>
-                                            </Caption__Link>
-                                          </figcaption>
-                                        </StyledComponent>
-                                      </Caption__Container>
-                                    </Caption>
-                                  </figure>
-                                </StyledComponent>
-                              </Item__Container>
-                            </div>
-                          </Col>
-                        </Item>
-                        <Item
-                          hoverTitle="2048 Fun Games"
-                          imgAlt="2048 Fun Games"
-                          imgSrc="/images/projects/2048.jpg"
-                          linkToWeb="https://github.com/DeKal/2048"
+                                            <div
+                                              className="Icon__Symbol-sc-1aleqew-0 lemZY"
+                                              name="link"
+                                            />
+                                          </Icon__Symbol>
+                                        </Icon>
+                                        Tam An Web
+                                      </a>
+                                    </Caption__Link>
+                                  </figcaption>
+                                </Caption__Container>
+                              </Caption>
+                            </figure>
+                          </Item__Container>
+                        </div>
+                      </Col>
+                    </Item>
+                    <Item
+                      hoverTitle="2048 Fun Games"
+                      imgAlt="2048 Fun Games"
+                      imgSrc="/images/projects/2048.jpg"
+                      linkToWeb="https://github.com/DeKal/2048"
+                    >
+                      <Col
+                        md={3}
+                        sm={6}
+                        xs={12}
+                      >
+                        <div
+                          className="col-md-3 col-sm-6 col-12"
                         >
-                          <Col
-                            md={3}
-                            sm={6}
-                            xs={12}
-                          >
-                            <div
-                              className="col-md-3 col-sm-6 col-12"
+                          <Item__Container>
+                            <figure
+                              className="Item__Container-sc-1s8zmn4-0 cawhFY"
                             >
-                              <Item__Container>
-                                <StyledComponent
-                                  forwardedComponent={
-                                    Object {
-                                      "$$typeof": Symbol(react.forward_ref),
-                                      "attrs": Array [],
-                                      "componentStyle": ComponentStyle {
-                                        "componentId": "Item__Container-sc-1s8zmn4-0",
-                                        "isStatic": false,
-                                        "lastClassName": "hGeAEu",
-                                        "rules": Array [
-                                          "position:relative;height:250px;width:100%;padding-bottom:18.75%;overflow:hidden;background:black;@media screen and (max-width:1200px){padding-bottom:37.5%;}@media screen and (max-width:480px){padding-bottom:75%;}&:hover figcaption{visibility:visible;}",
-                                        ],
-                                      },
-                                      "displayName": "Item__Container",
-                                      "foldedComponentIds": Array [],
-                                      "render": [Function],
-                                      "styledComponentId": "Item__Container-sc-1s8zmn4-0",
-                                      "target": "figure",
-                                      "toString": [Function],
-                                      "warnTooManyClasses": [Function],
-                                      "withComponent": [Function],
-                                    }
-                                  }
-                                  forwardedRef={null}
-                                >
-                                  <figure
-                                    className="Item__Container-sc-1s8zmn4-0 hGeAEu"
+                              <Item__Image
+                                alt="2048 Fun Games"
+                                src="/images/projects/2048.jpg"
+                              >
+                                <img
+                                  alt="2048 Fun Games"
+                                  className="Item__Image-sc-1s8zmn4-1 jLMVgY"
+                                  src="/images/projects/2048.jpg"
+                                />
+                              </Item__Image>
+                              <Caption
+                                hoverTitle="2048 Fun Games"
+                                linkToWeb="https://github.com/DeKal/2048"
+                              >
+                                <Caption__Container>
+                                  <figcaption
+                                    className="Caption__Container-sc-156a07m-0 lmeQPl"
                                   >
-                                    <Item__Image
-                                      alt="2048 Fun Games"
-                                      src="/images/projects/2048.jpg"
+                                    <Caption__Link
+                                      href="https://github.com/DeKal/2048"
+                                      rel="nofollow"
                                     >
-                                      <StyledComponent
-                                        alt="2048 Fun Games"
-                                        forwardedComponent={
-                                          Object {
-                                            "$$typeof": Symbol(react.forward_ref),
-                                            "attrs": Array [],
-                                            "componentStyle": ComponentStyle {
-                                              "componentId": "Item__Image-sc-1s8zmn4-1",
-                                              "isStatic": false,
-                                              "lastClassName": "imSopD",
-                                              "rules": Array [
-                                                "position:absolute;padding:5px;top:0;right:0;left:0;display:block;height:100%;margin:0 auto;max-width:100%;",
-                                              ],
-                                            },
-                                            "displayName": "Item__Image",
-                                            "foldedComponentIds": Array [],
-                                            "render": [Function],
-                                            "styledComponentId": "Item__Image-sc-1s8zmn4-1",
-                                            "target": "img",
-                                            "toString": [Function],
-                                            "warnTooManyClasses": [Function],
-                                            "withComponent": [Function],
-                                          }
-                                        }
-                                        forwardedRef={null}
-                                        src="/images/projects/2048.jpg"
+                                      <a
+                                        className="Caption__Link-sc-156a07m-1 cBuvSy"
+                                        href="https://github.com/DeKal/2048"
+                                        rel="nofollow"
                                       >
-                                        <img
-                                          alt="2048 Fun Games"
-                                          className="Item__Image-sc-1s8zmn4-1 imSopD"
-                                          src="/images/projects/2048.jpg"
-                                        />
-                                      </StyledComponent>
-                                    </Item__Image>
-                                    <Caption
-                                      hoverTitle="2048 Fun Games"
-                                      linkToWeb="https://github.com/DeKal/2048"
-                                    >
-                                      <Caption__Container>
-                                        <StyledComponent
-                                          forwardedComponent={
-                                            Object {
-                                              "$$typeof": Symbol(react.forward_ref),
-                                              "attrs": Array [],
-                                              "componentStyle": ComponentStyle {
-                                                "componentId": "Caption__Container-sc-156a07m-0",
-                                                "isStatic": false,
-                                                "lastClassName": "krdntF",
-                                                "rules": Array [
-                                                  "position:absolute;top:0;left:0;width:100%;height:100%;text-align:center;white-space:nowrap;background-color:",
-                                                  [Function],
-                                                  ";opacity:0.9;visibility:hidden;transition:opacity 0.5s;display:flex;align-items:center;",
-                                                ],
-                                              },
-                                              "displayName": "Caption__Container",
-                                              "foldedComponentIds": Array [],
-                                              "render": [Function],
-                                              "styledComponentId": "Caption__Container-sc-156a07m-0",
-                                              "target": "figcaption",
-                                              "toString": [Function],
-                                              "warnTooManyClasses": [Function],
-                                              "withComponent": [Function],
-                                            }
-                                          }
-                                          forwardedRef={null}
+                                        <Icon
+                                          name="link"
                                         >
-                                          <figcaption
-                                            className="Caption__Container-sc-156a07m-0 krdntF"
+                                          <Icon__Symbol
+                                            name="link"
                                           >
-                                            <Caption__Link
-                                              href="https://github.com/DeKal/2048"
-                                              rel="nofollow"
-                                            >
-                                              <StyledComponent
-                                                forwardedComponent={
-                                                  Object {
-                                                    "$$typeof": Symbol(react.forward_ref),
-                                                    "attrs": Array [],
-                                                    "componentStyle": ComponentStyle {
-                                                      "componentId": "Caption__Link-sc-156a07m-1",
-                                                      "isStatic": false,
-                                                      "lastClassName": "gxCEjE",
-                                                      "rules": Array [
-                                                        "display:inline-block;width:100%;font-size:25px;color:",
-                                                        [Function],
-                                                        ";white-space:normal;border-bottom:none;@media screen and (max-width:800px){font-size:20px;}&:hover{color:none !important;}",
-                                                      ],
-                                                    },
-                                                    "displayName": "Caption__Link",
-                                                    "foldedComponentIds": Array [],
-                                                    "render": [Function],
-                                                    "styledComponentId": "Caption__Link-sc-156a07m-1",
-                                                    "target": "a",
-                                                    "toString": [Function],
-                                                    "warnTooManyClasses": [Function],
-                                                    "withComponent": [Function],
-                                                  }
-                                                }
-                                                forwardedRef={null}
-                                                href="https://github.com/DeKal/2048"
-                                                rel="nofollow"
-                                              >
-                                                <a
-                                                  className="Caption__Link-sc-156a07m-1 gxCEjE"
-                                                  href="https://github.com/DeKal/2048"
-                                                  rel="nofollow"
-                                                >
-                                                  <Icon
-                                                    name="link"
-                                                  >
-                                                    <Icon__Symbol
-                                                      name="link"
-                                                    >
-                                                      <StyledComponent
-                                                        forwardedComponent={
-                                                          Object {
-                                                            "$$typeof": Symbol(react.forward_ref),
-                                                            "attrs": Array [],
-                                                            "componentStyle": ComponentStyle {
-                                                              "componentId": "Icon__Symbol-sc-1aleqew-0",
-                                                              "isStatic": false,
-                                                              "lastClassName": "iYIjbp",
-                                                              "rules": Array [
-                                                                "display:inline-block;&::before{font-family:",
-                                                                [Function],
-                                                                ";font-style:normal;font-weight:normal;content:'",
-                                                                [Function],
-                                                                "';}",
-                                                              ],
-                                                            },
-                                                            "displayName": "Icon__Symbol",
-                                                            "foldedComponentIds": Array [],
-                                                            "render": [Function],
-                                                            "styledComponentId": "Icon__Symbol-sc-1aleqew-0",
-                                                            "target": "div",
-                                                            "toString": [Function],
-                                                            "warnTooManyClasses": [Function],
-                                                            "withComponent": [Function],
-                                                          }
-                                                        }
-                                                        forwardedRef={null}
-                                                        name="link"
-                                                      >
-                                                        <div
-                                                          className="Icon__Symbol-sc-1aleqew-0 iYIjbp"
-                                                          name="link"
-                                                        />
-                                                      </StyledComponent>
-                                                    </Icon__Symbol>
-                                                  </Icon>
-                                                  2048 Fun Games
-                                                </a>
-                                              </StyledComponent>
-                                            </Caption__Link>
-                                          </figcaption>
-                                        </StyledComponent>
-                                      </Caption__Container>
-                                    </Caption>
-                                  </figure>
-                                </StyledComponent>
-                              </Item__Container>
-                            </div>
-                          </Col>
-                        </Item>
-                      </div>
-                    </ForwardRef>
+                                            <div
+                                              className="Icon__Symbol-sc-1aleqew-0 lemZY"
+                                              name="link"
+                                            />
+                                          </Icon__Symbol>
+                                        </Icon>
+                                        2048 Fun Games
+                                      </a>
+                                    </Caption__Link>
+                                  </figcaption>
+                                </Caption__Container>
+                              </Caption>
+                            </figure>
+                          </Item__Container>
+                        </div>
+                      </Col>
+                    </Item>
                   </div>
-                </Container>
-              </StyledComponent>
-            </Content__NoPaddingContainer>
-          </Content>
-        </section>
-      </StyledComponent>
+                </ForwardRef>
+              </div>
+            </Container>
+          </Content__NoPaddingContainer>
+        </Content>
+      </section>
     </Container__Style>
   </Container>
 </Project>

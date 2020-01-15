@@ -5,270 +5,68 @@ exports[`Error should render Error Component in general case 1`] = `
   statusCode={999}
 >
   <Error__Container>
-    <StyledComponent
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "Error__Container-sc-18n92w4-0",
-            "isStatic": false,
-            "lastClassName": "iWUaEV",
-            "rules": Array [
-              "position:absolute;width:100%;height:100%;top:50%;text-align:center;transform:translateY(-50%);background-color:",
-              [Function],
-              ";",
-            ],
-          },
-          "displayName": "Error__Container",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "Error__Container-sc-18n92w4-0",
-          "target": "div",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
+    <div
+      className="Error__Container-sc-18n92w4-0 jqKIzq"
     >
-      <div
-        className="Error__Container-sc-18n92w4-0 iWUaEV"
-      >
-        <Error__Content>
-          <StyledComponent
-            forwardedComponent={
-              Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "attrs": Array [],
-                "componentStyle": ComponentStyle {
-                  "componentId": "Error__Content-sc-18n92w4-1",
-                  "isStatic": false,
-                  "lastClassName": "ggGBIY",
-                  "rules": Array [
-                    "max-width:410px;position:relative;float:left;top:50%;left:50%;transform:translate(-50%,-50%);",
-                  ],
-                },
-                "displayName": "Error__Content",
-                "foldedComponentIds": Array [],
-                "render": [Function],
-                "styledComponentId": "Error__Content-sc-18n92w4-1",
-                "target": "div",
-                "toString": [Function],
-                "warnTooManyClasses": [Function],
-                "withComponent": [Function],
-              }
-            }
-            forwardedRef={null}
-          >
-            <div
-              className="Error__Content-sc-18n92w4-1 ggGBIY"
+      <Error__Content>
+        <div
+          className="Error__Content-sc-18n92w4-1 bzcNPN"
+        >
+          <General>
+            <Layout
+              description="There are some errors happened during the process, please back to home page and try again."
+              title="An error occurred"
             >
-              <General>
-                <Layout
-                  description="There are some errors happened during the process, please back to home page and try again."
-                  title="An error occurred"
-                >
-                  <Header>
-                    <Header__Container>
-                      <StyledComponent
-                        forwardedComponent={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "attrs": Array [],
-                            "componentStyle": ComponentStyle {
-                              "componentId": "Header__Container-nhyd32-0",
-                              "isStatic": false,
-                              "lastClassName": "jhlbgJ",
-                              "rules": Array [
-                                "height:280px;position:relative;z-index:-1;@media only screen and (max-width:767px){height:142px;}",
-                              ],
-                            },
-                            "displayName": "Header__Container",
-                            "foldedComponentIds": Array [],
-                            "render": [Function],
-                            "styledComponentId": "Header__Container-nhyd32-0",
-                            "target": "div",
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
-                      >
-                        <div
-                          className="Header__Container-nhyd32-0 jhlbgJ"
-                        >
-                          <Header__Style>
-                            <StyledComponent
-                              forwardedComponent={
-                                Object {
-                                  "$$typeof": Symbol(react.forward_ref),
-                                  "attrs": Array [],
-                                  "componentStyle": ComponentStyle {
-                                    "componentId": "Header__Style-nhyd32-1",
-                                    "isStatic": false,
-                                    "lastClassName": "lMWyG",
-                                    "rules": Array [
-                                      "@media only screen and (max-width:767px){font-size:112px;}font-size:230px;margin:0;font-weight:900;position:absolute;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);background:url(/images/oops.jpg) no-repeat;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-size:cover;background-position:center;",
-                                    ],
-                                  },
-                                  "displayName": "Header__Style",
-                                  "foldedComponentIds": Array [],
-                                  "render": [Function],
-                                  "styledComponentId": "Header__Style-nhyd32-1",
-                                  "target": "h1",
-                                  "toString": [Function],
-                                  "warnTooManyClasses": [Function],
-                                  "withComponent": [Function],
-                                }
-                              }
-                              forwardedRef={null}
-                            >
-                              <h1
-                                className="Header__Style-nhyd32-1 lMWyG"
-                              >
-                                Oops!
-                              </h1>
-                            </StyledComponent>
-                          </Header__Style>
-                        </div>
-                      </StyledComponent>
-                    </Header__Container>
-                  </Header>
-                  <Title>
-                    <StyledComponent
-                      forwardedComponent={
-                        Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "attrs": Array [],
-                          "componentStyle": ComponentStyle {
-                            "componentId": "Title-jjovxk-0",
-                            "isStatic": false,
-                            "lastClassName": "cJTFXi",
-                            "rules": Array [
-                              "font-family:",
-                              [Function],
-                              ";color:",
-                              [Function],
-                              ";font-size:",
-                              [Function],
-                              ";font-weight:700;text-transform:uppercase;margin:10px;",
-                            ],
-                          },
-                          "displayName": "Title",
-                          "foldedComponentIds": Array [],
-                          "render": [Function],
-                          "styledComponentId": "Title-jjovxk-0",
-                          "target": "h2",
-                          "toString": [Function],
-                          "warnTooManyClasses": [Function],
-                          "withComponent": [Function],
-                        }
-                      }
-                      forwardedRef={null}
-                    >
-                      <h2
-                        className="Title-jjovxk-0 cJTFXi"
-                      >
-                        An error occurred
-                      </h2>
-                    </StyledComponent>
-                  </Title>
-                  <Description>
-                    <StyledComponent
-                      forwardedComponent={
-                        Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "attrs": Array [],
-                          "componentStyle": ComponentStyle {
-                            "componentId": "Description-vyc75-0",
-                            "isStatic": false,
-                            "lastClassName": "dYkFIK",
-                            "rules": Array [
-                              "color:",
-                              [Function],
-                              ";font-size:14px;font-weight:400;margin:10px;",
-                            ],
-                          },
-                          "displayName": "Description",
-                          "foldedComponentIds": Array [],
-                          "render": [Function],
-                          "styledComponentId": "Description-vyc75-0",
-                          "target": "p",
-                          "toString": [Function],
-                          "warnTooManyClasses": [Function],
-                          "withComponent": [Function],
-                        }
-                      }
-                      forwardedRef={null}
-                    >
-                      <p
-                        className="Description-vyc75-0 dYkFIK"
-                      >
-                        There are some errors happened during the process, please back to home page and try again.
-                      </p>
-                    </StyledComponent>
-                  </Description>
-                  <Link
-                    href="/"
+              <Header>
+                <Header__Container>
+                  <div
+                    className="Header__Container-nhyd32-0 kgllBY"
                   >
-                    <Button
-                      onClick={[Function]}
-                      onMouseEnter={[Function]}
-                    >
-                      <StyledComponent
-                        forwardedComponent={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "attrs": Array [],
-                            "componentStyle": ComponentStyle {
-                              "componentId": "Button-sc-1kpji73-0",
-                              "isStatic": false,
-                              "lastClassName": "iKgSqt",
-                              "rules": Array [
-                                "font-size:",
-                                [Function],
-                                ";text-decoration:none;text-transform:uppercase;background:",
-                                [Function],
-                                ";display:inline-block;padding:15px 30px;border-radius:40px;color:",
-                                [Function],
-                                ";font-weight:700;box-shadow:0 4px 15px -5px ",
-                                [Function],
-                                ";border:none;margin:10px;cursor:pointer;",
-                              ],
-                            },
-                            "displayName": "Button",
-                            "foldedComponentIds": Array [],
-                            "render": [Function],
-                            "styledComponentId": "Button-sc-1kpji73-0",
-                            "target": "a",
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={[Function]}
-                        onClick={[Function]}
-                        onMouseEnter={[Function]}
+                    <Header__Style>
+                      <h1
+                        className="Header__Style-nhyd32-1 ISpmx"
                       >
-                        <a
-                          className="Button-sc-1kpji73-0 iKgSqt"
-                          onClick={[Function]}
-                          onMouseEnter={[Function]}
-                        >
-                           Go To Homepage 
-                        </a>
-                      </StyledComponent>
-                    </Button>
-                  </Link>
-                </Layout>
-              </General>
-            </div>
-          </StyledComponent>
-        </Error__Content>
-      </div>
-    </StyledComponent>
+                        Oops!
+                      </h1>
+                    </Header__Style>
+                  </div>
+                </Header__Container>
+              </Header>
+              <Title>
+                <h2
+                  className="Title-jjovxk-0 cHhkGG"
+                >
+                  An error occurred
+                </h2>
+              </Title>
+              <Description>
+                <p
+                  className="Description-vyc75-0 jxsRoO"
+                >
+                  There are some errors happened during the process, please back to home page and try again.
+                </p>
+              </Description>
+              <Link
+                href="/"
+              >
+                <Button
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                >
+                  <a
+                    className="Button-sc-1kpji73-0 kRvudf"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                     Go To Homepage 
+                  </a>
+                </Button>
+              </Link>
+            </Layout>
+          </General>
+        </div>
+      </Error__Content>
+    </div>
   </Error__Container>
 </Error>
 `;
@@ -276,270 +74,68 @@ exports[`Error should render Error Component in general case 1`] = `
 exports[`Error should render Error Component in undefined case 1`] = `
 <Error>
   <Error__Container>
-    <StyledComponent
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "Error__Container-sc-18n92w4-0",
-            "isStatic": false,
-            "lastClassName": "iWUaEV",
-            "rules": Array [
-              "position:absolute;width:100%;height:100%;top:50%;text-align:center;transform:translateY(-50%);background-color:",
-              [Function],
-              ";",
-            ],
-          },
-          "displayName": "Error__Container",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "Error__Container-sc-18n92w4-0",
-          "target": "div",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
+    <div
+      className="Error__Container-sc-18n92w4-0 jqKIzq"
     >
-      <div
-        className="Error__Container-sc-18n92w4-0 iWUaEV"
-      >
-        <Error__Content>
-          <StyledComponent
-            forwardedComponent={
-              Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "attrs": Array [],
-                "componentStyle": ComponentStyle {
-                  "componentId": "Error__Content-sc-18n92w4-1",
-                  "isStatic": false,
-                  "lastClassName": "ggGBIY",
-                  "rules": Array [
-                    "max-width:410px;position:relative;float:left;top:50%;left:50%;transform:translate(-50%,-50%);",
-                  ],
-                },
-                "displayName": "Error__Content",
-                "foldedComponentIds": Array [],
-                "render": [Function],
-                "styledComponentId": "Error__Content-sc-18n92w4-1",
-                "target": "div",
-                "toString": [Function],
-                "warnTooManyClasses": [Function],
-                "withComponent": [Function],
-              }
-            }
-            forwardedRef={null}
-          >
-            <div
-              className="Error__Content-sc-18n92w4-1 ggGBIY"
+      <Error__Content>
+        <div
+          className="Error__Content-sc-18n92w4-1 bzcNPN"
+        >
+          <General>
+            <Layout
+              description="There are some errors happened during the process, please back to home page and try again."
+              title="An error occurred"
             >
-              <General>
-                <Layout
-                  description="There are some errors happened during the process, please back to home page and try again."
-                  title="An error occurred"
-                >
-                  <Header>
-                    <Header__Container>
-                      <StyledComponent
-                        forwardedComponent={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "attrs": Array [],
-                            "componentStyle": ComponentStyle {
-                              "componentId": "Header__Container-nhyd32-0",
-                              "isStatic": false,
-                              "lastClassName": "jhlbgJ",
-                              "rules": Array [
-                                "height:280px;position:relative;z-index:-1;@media only screen and (max-width:767px){height:142px;}",
-                              ],
-                            },
-                            "displayName": "Header__Container",
-                            "foldedComponentIds": Array [],
-                            "render": [Function],
-                            "styledComponentId": "Header__Container-nhyd32-0",
-                            "target": "div",
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
-                      >
-                        <div
-                          className="Header__Container-nhyd32-0 jhlbgJ"
-                        >
-                          <Header__Style>
-                            <StyledComponent
-                              forwardedComponent={
-                                Object {
-                                  "$$typeof": Symbol(react.forward_ref),
-                                  "attrs": Array [],
-                                  "componentStyle": ComponentStyle {
-                                    "componentId": "Header__Style-nhyd32-1",
-                                    "isStatic": false,
-                                    "lastClassName": "lMWyG",
-                                    "rules": Array [
-                                      "@media only screen and (max-width:767px){font-size:112px;}font-size:230px;margin:0;font-weight:900;position:absolute;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);background:url(/images/oops.jpg) no-repeat;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-size:cover;background-position:center;",
-                                    ],
-                                  },
-                                  "displayName": "Header__Style",
-                                  "foldedComponentIds": Array [],
-                                  "render": [Function],
-                                  "styledComponentId": "Header__Style-nhyd32-1",
-                                  "target": "h1",
-                                  "toString": [Function],
-                                  "warnTooManyClasses": [Function],
-                                  "withComponent": [Function],
-                                }
-                              }
-                              forwardedRef={null}
-                            >
-                              <h1
-                                className="Header__Style-nhyd32-1 lMWyG"
-                              >
-                                Oops!
-                              </h1>
-                            </StyledComponent>
-                          </Header__Style>
-                        </div>
-                      </StyledComponent>
-                    </Header__Container>
-                  </Header>
-                  <Title>
-                    <StyledComponent
-                      forwardedComponent={
-                        Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "attrs": Array [],
-                          "componentStyle": ComponentStyle {
-                            "componentId": "Title-jjovxk-0",
-                            "isStatic": false,
-                            "lastClassName": "cJTFXi",
-                            "rules": Array [
-                              "font-family:",
-                              [Function],
-                              ";color:",
-                              [Function],
-                              ";font-size:",
-                              [Function],
-                              ";font-weight:700;text-transform:uppercase;margin:10px;",
-                            ],
-                          },
-                          "displayName": "Title",
-                          "foldedComponentIds": Array [],
-                          "render": [Function],
-                          "styledComponentId": "Title-jjovxk-0",
-                          "target": "h2",
-                          "toString": [Function],
-                          "warnTooManyClasses": [Function],
-                          "withComponent": [Function],
-                        }
-                      }
-                      forwardedRef={null}
-                    >
-                      <h2
-                        className="Title-jjovxk-0 cJTFXi"
-                      >
-                        An error occurred
-                      </h2>
-                    </StyledComponent>
-                  </Title>
-                  <Description>
-                    <StyledComponent
-                      forwardedComponent={
-                        Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "attrs": Array [],
-                          "componentStyle": ComponentStyle {
-                            "componentId": "Description-vyc75-0",
-                            "isStatic": false,
-                            "lastClassName": "dYkFIK",
-                            "rules": Array [
-                              "color:",
-                              [Function],
-                              ";font-size:14px;font-weight:400;margin:10px;",
-                            ],
-                          },
-                          "displayName": "Description",
-                          "foldedComponentIds": Array [],
-                          "render": [Function],
-                          "styledComponentId": "Description-vyc75-0",
-                          "target": "p",
-                          "toString": [Function],
-                          "warnTooManyClasses": [Function],
-                          "withComponent": [Function],
-                        }
-                      }
-                      forwardedRef={null}
-                    >
-                      <p
-                        className="Description-vyc75-0 dYkFIK"
-                      >
-                        There are some errors happened during the process, please back to home page and try again.
-                      </p>
-                    </StyledComponent>
-                  </Description>
-                  <Link
-                    href="/"
+              <Header>
+                <Header__Container>
+                  <div
+                    className="Header__Container-nhyd32-0 kgllBY"
                   >
-                    <Button
-                      onClick={[Function]}
-                      onMouseEnter={[Function]}
-                    >
-                      <StyledComponent
-                        forwardedComponent={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "attrs": Array [],
-                            "componentStyle": ComponentStyle {
-                              "componentId": "Button-sc-1kpji73-0",
-                              "isStatic": false,
-                              "lastClassName": "iKgSqt",
-                              "rules": Array [
-                                "font-size:",
-                                [Function],
-                                ";text-decoration:none;text-transform:uppercase;background:",
-                                [Function],
-                                ";display:inline-block;padding:15px 30px;border-radius:40px;color:",
-                                [Function],
-                                ";font-weight:700;box-shadow:0 4px 15px -5px ",
-                                [Function],
-                                ";border:none;margin:10px;cursor:pointer;",
-                              ],
-                            },
-                            "displayName": "Button",
-                            "foldedComponentIds": Array [],
-                            "render": [Function],
-                            "styledComponentId": "Button-sc-1kpji73-0",
-                            "target": "a",
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={[Function]}
-                        onClick={[Function]}
-                        onMouseEnter={[Function]}
+                    <Header__Style>
+                      <h1
+                        className="Header__Style-nhyd32-1 ISpmx"
                       >
-                        <a
-                          className="Button-sc-1kpji73-0 iKgSqt"
-                          onClick={[Function]}
-                          onMouseEnter={[Function]}
-                        >
-                           Go To Homepage 
-                        </a>
-                      </StyledComponent>
-                    </Button>
-                  </Link>
-                </Layout>
-              </General>
-            </div>
-          </StyledComponent>
-        </Error__Content>
-      </div>
-    </StyledComponent>
+                        Oops!
+                      </h1>
+                    </Header__Style>
+                  </div>
+                </Header__Container>
+              </Header>
+              <Title>
+                <h2
+                  className="Title-jjovxk-0 cHhkGG"
+                >
+                  An error occurred
+                </h2>
+              </Title>
+              <Description>
+                <p
+                  className="Description-vyc75-0 jxsRoO"
+                >
+                  There are some errors happened during the process, please back to home page and try again.
+                </p>
+              </Description>
+              <Link
+                href="/"
+              >
+                <Button
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                >
+                  <a
+                    className="Button-sc-1kpji73-0 kRvudf"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                     Go To Homepage 
+                  </a>
+                </Button>
+              </Link>
+            </Layout>
+          </General>
+        </div>
+      </Error__Content>
+    </div>
   </Error__Container>
 </Error>
 `;
@@ -549,270 +145,68 @@ exports[`Error should render Error Component with 404 1`] = `
   statusCode={404}
 >
   <Error__Container>
-    <StyledComponent
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "Error__Container-sc-18n92w4-0",
-            "isStatic": false,
-            "lastClassName": "iWUaEV",
-            "rules": Array [
-              "position:absolute;width:100%;height:100%;top:50%;text-align:center;transform:translateY(-50%);background-color:",
-              [Function],
-              ";",
-            ],
-          },
-          "displayName": "Error__Container",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "Error__Container-sc-18n92w4-0",
-          "target": "div",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
+    <div
+      className="Error__Container-sc-18n92w4-0 jqKIzq"
     >
-      <div
-        className="Error__Container-sc-18n92w4-0 iWUaEV"
-      >
-        <Error__Content>
-          <StyledComponent
-            forwardedComponent={
-              Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "attrs": Array [],
-                "componentStyle": ComponentStyle {
-                  "componentId": "Error__Content-sc-18n92w4-1",
-                  "isStatic": false,
-                  "lastClassName": "ggGBIY",
-                  "rules": Array [
-                    "max-width:410px;position:relative;float:left;top:50%;left:50%;transform:translate(-50%,-50%);",
-                  ],
-                },
-                "displayName": "Error__Content",
-                "foldedComponentIds": Array [],
-                "render": [Function],
-                "styledComponentId": "Error__Content-sc-18n92w4-1",
-                "target": "div",
-                "toString": [Function],
-                "warnTooManyClasses": [Function],
-                "withComponent": [Function],
-              }
-            }
-            forwardedRef={null}
-          >
-            <div
-              className="Error__Content-sc-18n92w4-1 ggGBIY"
+      <Error__Content>
+        <div
+          className="Error__Content-sc-18n92w4-1 bzcNPN"
+        >
+          <NotFound>
+            <Layout
+              description="The page you are looking for might have been removed had its name changed or is temporarily unavailable."
+              title="An error 404 occurred"
             >
-              <NotFound>
-                <Layout
-                  description="The page you are looking for might have been removed had its name changed or is temporarily unavailable."
-                  title="An error 404 occurred"
-                >
-                  <Header>
-                    <Header__Container>
-                      <StyledComponent
-                        forwardedComponent={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "attrs": Array [],
-                            "componentStyle": ComponentStyle {
-                              "componentId": "Header__Container-nhyd32-0",
-                              "isStatic": false,
-                              "lastClassName": "jhlbgJ",
-                              "rules": Array [
-                                "height:280px;position:relative;z-index:-1;@media only screen and (max-width:767px){height:142px;}",
-                              ],
-                            },
-                            "displayName": "Header__Container",
-                            "foldedComponentIds": Array [],
-                            "render": [Function],
-                            "styledComponentId": "Header__Container-nhyd32-0",
-                            "target": "div",
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
-                      >
-                        <div
-                          className="Header__Container-nhyd32-0 jhlbgJ"
-                        >
-                          <Header__Style>
-                            <StyledComponent
-                              forwardedComponent={
-                                Object {
-                                  "$$typeof": Symbol(react.forward_ref),
-                                  "attrs": Array [],
-                                  "componentStyle": ComponentStyle {
-                                    "componentId": "Header__Style-nhyd32-1",
-                                    "isStatic": false,
-                                    "lastClassName": "lMWyG",
-                                    "rules": Array [
-                                      "@media only screen and (max-width:767px){font-size:112px;}font-size:230px;margin:0;font-weight:900;position:absolute;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);background:url(/images/oops.jpg) no-repeat;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-size:cover;background-position:center;",
-                                    ],
-                                  },
-                                  "displayName": "Header__Style",
-                                  "foldedComponentIds": Array [],
-                                  "render": [Function],
-                                  "styledComponentId": "Header__Style-nhyd32-1",
-                                  "target": "h1",
-                                  "toString": [Function],
-                                  "warnTooManyClasses": [Function],
-                                  "withComponent": [Function],
-                                }
-                              }
-                              forwardedRef={null}
-                            >
-                              <h1
-                                className="Header__Style-nhyd32-1 lMWyG"
-                              >
-                                Oops!
-                              </h1>
-                            </StyledComponent>
-                          </Header__Style>
-                        </div>
-                      </StyledComponent>
-                    </Header__Container>
-                  </Header>
-                  <Title>
-                    <StyledComponent
-                      forwardedComponent={
-                        Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "attrs": Array [],
-                          "componentStyle": ComponentStyle {
-                            "componentId": "Title-jjovxk-0",
-                            "isStatic": false,
-                            "lastClassName": "cJTFXi",
-                            "rules": Array [
-                              "font-family:",
-                              [Function],
-                              ";color:",
-                              [Function],
-                              ";font-size:",
-                              [Function],
-                              ";font-weight:700;text-transform:uppercase;margin:10px;",
-                            ],
-                          },
-                          "displayName": "Title",
-                          "foldedComponentIds": Array [],
-                          "render": [Function],
-                          "styledComponentId": "Title-jjovxk-0",
-                          "target": "h2",
-                          "toString": [Function],
-                          "warnTooManyClasses": [Function],
-                          "withComponent": [Function],
-                        }
-                      }
-                      forwardedRef={null}
-                    >
-                      <h2
-                        className="Title-jjovxk-0 cJTFXi"
-                      >
-                        An error 404 occurred
-                      </h2>
-                    </StyledComponent>
-                  </Title>
-                  <Description>
-                    <StyledComponent
-                      forwardedComponent={
-                        Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "attrs": Array [],
-                          "componentStyle": ComponentStyle {
-                            "componentId": "Description-vyc75-0",
-                            "isStatic": false,
-                            "lastClassName": "dYkFIK",
-                            "rules": Array [
-                              "color:",
-                              [Function],
-                              ";font-size:14px;font-weight:400;margin:10px;",
-                            ],
-                          },
-                          "displayName": "Description",
-                          "foldedComponentIds": Array [],
-                          "render": [Function],
-                          "styledComponentId": "Description-vyc75-0",
-                          "target": "p",
-                          "toString": [Function],
-                          "warnTooManyClasses": [Function],
-                          "withComponent": [Function],
-                        }
-                      }
-                      forwardedRef={null}
-                    >
-                      <p
-                        className="Description-vyc75-0 dYkFIK"
-                      >
-                        The page you are looking for might have been removed had its name changed or is temporarily unavailable.
-                      </p>
-                    </StyledComponent>
-                  </Description>
-                  <Link
-                    href="/"
+              <Header>
+                <Header__Container>
+                  <div
+                    className="Header__Container-nhyd32-0 kgllBY"
                   >
-                    <Button
-                      onClick={[Function]}
-                      onMouseEnter={[Function]}
-                    >
-                      <StyledComponent
-                        forwardedComponent={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "attrs": Array [],
-                            "componentStyle": ComponentStyle {
-                              "componentId": "Button-sc-1kpji73-0",
-                              "isStatic": false,
-                              "lastClassName": "iKgSqt",
-                              "rules": Array [
-                                "font-size:",
-                                [Function],
-                                ";text-decoration:none;text-transform:uppercase;background:",
-                                [Function],
-                                ";display:inline-block;padding:15px 30px;border-radius:40px;color:",
-                                [Function],
-                                ";font-weight:700;box-shadow:0 4px 15px -5px ",
-                                [Function],
-                                ";border:none;margin:10px;cursor:pointer;",
-                              ],
-                            },
-                            "displayName": "Button",
-                            "foldedComponentIds": Array [],
-                            "render": [Function],
-                            "styledComponentId": "Button-sc-1kpji73-0",
-                            "target": "a",
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={[Function]}
-                        onClick={[Function]}
-                        onMouseEnter={[Function]}
+                    <Header__Style>
+                      <h1
+                        className="Header__Style-nhyd32-1 ISpmx"
                       >
-                        <a
-                          className="Button-sc-1kpji73-0 iKgSqt"
-                          onClick={[Function]}
-                          onMouseEnter={[Function]}
-                        >
-                           Go To Homepage 
-                        </a>
-                      </StyledComponent>
-                    </Button>
-                  </Link>
-                </Layout>
-              </NotFound>
-            </div>
-          </StyledComponent>
-        </Error__Content>
-      </div>
-    </StyledComponent>
+                        Oops!
+                      </h1>
+                    </Header__Style>
+                  </div>
+                </Header__Container>
+              </Header>
+              <Title>
+                <h2
+                  className="Title-jjovxk-0 cHhkGG"
+                >
+                  An error 404 occurred
+                </h2>
+              </Title>
+              <Description>
+                <p
+                  className="Description-vyc75-0 jxsRoO"
+                >
+                  The page you are looking for might have been removed had its name changed or is temporarily unavailable.
+                </p>
+              </Description>
+              <Link
+                href="/"
+              >
+                <Button
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                >
+                  <a
+                    className="Button-sc-1kpji73-0 kRvudf"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                     Go To Homepage 
+                  </a>
+                </Button>
+              </Link>
+            </Layout>
+          </NotFound>
+        </div>
+      </Error__Content>
+    </div>
   </Error__Container>
 </Error>
 `;
@@ -822,270 +216,68 @@ exports[`Error should render Error Component with 500 1`] = `
   statusCode={500}
 >
   <Error__Container>
-    <StyledComponent
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "Error__Container-sc-18n92w4-0",
-            "isStatic": false,
-            "lastClassName": "iWUaEV",
-            "rules": Array [
-              "position:absolute;width:100%;height:100%;top:50%;text-align:center;transform:translateY(-50%);background-color:",
-              [Function],
-              ";",
-            ],
-          },
-          "displayName": "Error__Container",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "Error__Container-sc-18n92w4-0",
-          "target": "div",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
+    <div
+      className="Error__Container-sc-18n92w4-0 jqKIzq"
     >
-      <div
-        className="Error__Container-sc-18n92w4-0 iWUaEV"
-      >
-        <Error__Content>
-          <StyledComponent
-            forwardedComponent={
-              Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "attrs": Array [],
-                "componentStyle": ComponentStyle {
-                  "componentId": "Error__Content-sc-18n92w4-1",
-                  "isStatic": false,
-                  "lastClassName": "ggGBIY",
-                  "rules": Array [
-                    "max-width:410px;position:relative;float:left;top:50%;left:50%;transform:translate(-50%,-50%);",
-                  ],
-                },
-                "displayName": "Error__Content",
-                "foldedComponentIds": Array [],
-                "render": [Function],
-                "styledComponentId": "Error__Content-sc-18n92w4-1",
-                "target": "div",
-                "toString": [Function],
-                "warnTooManyClasses": [Function],
-                "withComponent": [Function],
-              }
-            }
-            forwardedRef={null}
-          >
-            <div
-              className="Error__Content-sc-18n92w4-1 ggGBIY"
+      <Error__Content>
+        <div
+          className="Error__Content-sc-18n92w4-1 bzcNPN"
+        >
+          <InternalServer>
+            <Layout
+              description="The server encountered an internal error or misconfiguration and was unable to complete your request."
+              title="An error 500 Internal Server Error occurred"
             >
-              <InternalServer>
-                <Layout
-                  description="The server encountered an internal error or misconfiguration and was unable to complete your request."
-                  title="An error 500 Internal Server Error occurred"
-                >
-                  <Header>
-                    <Header__Container>
-                      <StyledComponent
-                        forwardedComponent={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "attrs": Array [],
-                            "componentStyle": ComponentStyle {
-                              "componentId": "Header__Container-nhyd32-0",
-                              "isStatic": false,
-                              "lastClassName": "jhlbgJ",
-                              "rules": Array [
-                                "height:280px;position:relative;z-index:-1;@media only screen and (max-width:767px){height:142px;}",
-                              ],
-                            },
-                            "displayName": "Header__Container",
-                            "foldedComponentIds": Array [],
-                            "render": [Function],
-                            "styledComponentId": "Header__Container-nhyd32-0",
-                            "target": "div",
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
-                      >
-                        <div
-                          className="Header__Container-nhyd32-0 jhlbgJ"
-                        >
-                          <Header__Style>
-                            <StyledComponent
-                              forwardedComponent={
-                                Object {
-                                  "$$typeof": Symbol(react.forward_ref),
-                                  "attrs": Array [],
-                                  "componentStyle": ComponentStyle {
-                                    "componentId": "Header__Style-nhyd32-1",
-                                    "isStatic": false,
-                                    "lastClassName": "lMWyG",
-                                    "rules": Array [
-                                      "@media only screen and (max-width:767px){font-size:112px;}font-size:230px;margin:0;font-weight:900;position:absolute;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);background:url(/images/oops.jpg) no-repeat;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-size:cover;background-position:center;",
-                                    ],
-                                  },
-                                  "displayName": "Header__Style",
-                                  "foldedComponentIds": Array [],
-                                  "render": [Function],
-                                  "styledComponentId": "Header__Style-nhyd32-1",
-                                  "target": "h1",
-                                  "toString": [Function],
-                                  "warnTooManyClasses": [Function],
-                                  "withComponent": [Function],
-                                }
-                              }
-                              forwardedRef={null}
-                            >
-                              <h1
-                                className="Header__Style-nhyd32-1 lMWyG"
-                              >
-                                Oops!
-                              </h1>
-                            </StyledComponent>
-                          </Header__Style>
-                        </div>
-                      </StyledComponent>
-                    </Header__Container>
-                  </Header>
-                  <Title>
-                    <StyledComponent
-                      forwardedComponent={
-                        Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "attrs": Array [],
-                          "componentStyle": ComponentStyle {
-                            "componentId": "Title-jjovxk-0",
-                            "isStatic": false,
-                            "lastClassName": "cJTFXi",
-                            "rules": Array [
-                              "font-family:",
-                              [Function],
-                              ";color:",
-                              [Function],
-                              ";font-size:",
-                              [Function],
-                              ";font-weight:700;text-transform:uppercase;margin:10px;",
-                            ],
-                          },
-                          "displayName": "Title",
-                          "foldedComponentIds": Array [],
-                          "render": [Function],
-                          "styledComponentId": "Title-jjovxk-0",
-                          "target": "h2",
-                          "toString": [Function],
-                          "warnTooManyClasses": [Function],
-                          "withComponent": [Function],
-                        }
-                      }
-                      forwardedRef={null}
-                    >
-                      <h2
-                        className="Title-jjovxk-0 cJTFXi"
-                      >
-                        An error 500 Internal Server Error occurred
-                      </h2>
-                    </StyledComponent>
-                  </Title>
-                  <Description>
-                    <StyledComponent
-                      forwardedComponent={
-                        Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "attrs": Array [],
-                          "componentStyle": ComponentStyle {
-                            "componentId": "Description-vyc75-0",
-                            "isStatic": false,
-                            "lastClassName": "dYkFIK",
-                            "rules": Array [
-                              "color:",
-                              [Function],
-                              ";font-size:14px;font-weight:400;margin:10px;",
-                            ],
-                          },
-                          "displayName": "Description",
-                          "foldedComponentIds": Array [],
-                          "render": [Function],
-                          "styledComponentId": "Description-vyc75-0",
-                          "target": "p",
-                          "toString": [Function],
-                          "warnTooManyClasses": [Function],
-                          "withComponent": [Function],
-                        }
-                      }
-                      forwardedRef={null}
-                    >
-                      <p
-                        className="Description-vyc75-0 dYkFIK"
-                      >
-                        The server encountered an internal error or misconfiguration and was unable to complete your request.
-                      </p>
-                    </StyledComponent>
-                  </Description>
-                  <Link
-                    href="/"
+              <Header>
+                <Header__Container>
+                  <div
+                    className="Header__Container-nhyd32-0 kgllBY"
                   >
-                    <Button
-                      onClick={[Function]}
-                      onMouseEnter={[Function]}
-                    >
-                      <StyledComponent
-                        forwardedComponent={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "attrs": Array [],
-                            "componentStyle": ComponentStyle {
-                              "componentId": "Button-sc-1kpji73-0",
-                              "isStatic": false,
-                              "lastClassName": "iKgSqt",
-                              "rules": Array [
-                                "font-size:",
-                                [Function],
-                                ";text-decoration:none;text-transform:uppercase;background:",
-                                [Function],
-                                ";display:inline-block;padding:15px 30px;border-radius:40px;color:",
-                                [Function],
-                                ";font-weight:700;box-shadow:0 4px 15px -5px ",
-                                [Function],
-                                ";border:none;margin:10px;cursor:pointer;",
-                              ],
-                            },
-                            "displayName": "Button",
-                            "foldedComponentIds": Array [],
-                            "render": [Function],
-                            "styledComponentId": "Button-sc-1kpji73-0",
-                            "target": "a",
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={[Function]}
-                        onClick={[Function]}
-                        onMouseEnter={[Function]}
+                    <Header__Style>
+                      <h1
+                        className="Header__Style-nhyd32-1 ISpmx"
                       >
-                        <a
-                          className="Button-sc-1kpji73-0 iKgSqt"
-                          onClick={[Function]}
-                          onMouseEnter={[Function]}
-                        >
-                           Go To Homepage 
-                        </a>
-                      </StyledComponent>
-                    </Button>
-                  </Link>
-                </Layout>
-              </InternalServer>
-            </div>
-          </StyledComponent>
-        </Error__Content>
-      </div>
-    </StyledComponent>
+                        Oops!
+                      </h1>
+                    </Header__Style>
+                  </div>
+                </Header__Container>
+              </Header>
+              <Title>
+                <h2
+                  className="Title-jjovxk-0 cHhkGG"
+                >
+                  An error 500 Internal Server Error occurred
+                </h2>
+              </Title>
+              <Description>
+                <p
+                  className="Description-vyc75-0 jxsRoO"
+                >
+                  The server encountered an internal error or misconfiguration and was unable to complete your request.
+                </p>
+              </Description>
+              <Link
+                href="/"
+              >
+                <Button
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                >
+                  <a
+                    className="Button-sc-1kpji73-0 kRvudf"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                     Go To Homepage 
+                  </a>
+                </Button>
+              </Link>
+            </Layout>
+          </InternalServer>
+        </div>
+      </Error__Content>
+    </div>
   </Error__Container>
 </Error>
 `;

@@ -3,1498 +3,624 @@
 exports[`Navbar should render without throwing an error 1`] = `
 <Navbar>
   <Navbar__MainHeader>
-    <StyledComponent
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "Navbar__MainHeader-sc-1gngg6w-0",
-            "isStatic": false,
-            "lastClassName": "bmoIxF",
-            "rules": Array [
-              "position:fixed;z-index:100;width:100vw;height:",
-              [Function],
-              ";",
-            ],
-          },
-          "displayName": "Navbar__MainHeader",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "Navbar__MainHeader-sc-1gngg6w-0",
-          "target": "header",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
+    <header
+      className="Navbar__MainHeader-sc-1gngg6w-0 gyPzFY"
     >
-      <header
-        className="Navbar__MainHeader-sc-1gngg6w-0 bmoIxF"
+      <NavHeader
+        isShowNavContent={false}
+        switchNav={[Function]}
       >
-        <NavHeader
-          isShowNavContent={false}
-          switchNav={[Function]}
-        >
-          <NavHeader__NavContainer>
-            <StyledComponent
-              forwardedComponent={
-                Object {
-                  "$$typeof": Symbol(react.forward_ref),
-                  "attrs": Array [],
-                  "componentStyle": ComponentStyle {
-                    "componentId": "NavHeader__NavContainer-twnsn2-0",
-                    "isStatic": false,
-                    "lastClassName": "dKrLWz",
-                    "rules": Array [
-                      "width:100%;position:absolute;z-index:200;top:0;left:0;height:",
-                      [Function],
-                      ";overflow:hidden;background-color:",
-                      [Function],
-                      ";box-shadow:",
-                      [Function],
-                      ";",
-                    ],
-                  },
-                  "displayName": "NavHeader__NavContainer",
-                  "foldedComponentIds": Array [],
-                  "render": [Function],
-                  "styledComponentId": "NavHeader__NavContainer-twnsn2-0",
-                  "target": "div",
-                  "toString": [Function],
-                  "warnTooManyClasses": [Function],
-                  "withComponent": [Function],
-                }
-              }
-              forwardedRef={null}
-            >
-              <div
-                className="NavHeader__NavContainer-twnsn2-0 dKrLWz"
-              >
-                <MobileContainer>
-                  <StyledComponent
-                    forwardedComponent={
-                      Object {
-                        "$$typeof": Symbol(react.forward_ref),
-                        "attrs": Array [],
-                        "componentStyle": ComponentStyle {
-                          "componentId": "MobileContainer-sc-14bpgy4-0",
-                          "isStatic": false,
-                          "lastClassName": "cQdUeW",
-                          "rules": Array [
-                            "@media (max-width:800px){max-width:100%;}",
-                          ],
-                        },
-                        "displayName": "MobileContainer",
-                        "foldedComponentIds": Array [],
-                        "render": [Function],
-                        "styledComponentId": "MobileContainer-sc-14bpgy4-0",
-                        "target": Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "defaultProps": Object {
-                            "fluid": false,
-                          },
-                          "displayName": "Container",
-                          "render": [Function],
-                        },
-                        "toString": [Function],
-                        "warnTooManyClasses": [Function],
-                        "withComponent": [Function],
-                      }
-                    }
-                    forwardedRef={null}
-                  >
-                    <Container
-                      className="MobileContainer-sc-14bpgy4-0 cQdUeW"
-                      fluid={false}
-                    >
-                      <div
-                        className="MobileContainer-sc-14bpgy4-0 cQdUeW container"
-                      >
-                        <ForwardRef
-                          fluid="true"
-                          noGutters={false}
-                        >
-                          <div
-                            className="row"
-                            fluid="true"
-                          >
-                            <Col
-                              xs={6}
-                            >
-                              <div
-                                className="col-6"
-                              >
-                                <NavLang>
-                                  <NavLang__NotSelectableDiv>
-                                    <StyledComponent
-                                      forwardedComponent={
-                                        Object {
-                                          "$$typeof": Symbol(react.forward_ref),
-                                          "attrs": Array [],
-                                          "componentStyle": ComponentStyle {
-                                            "componentId": "NavLang__NotSelectableDiv-sc-7efc3x-0",
-                                            "isStatic": false,
-                                            "lastClassName": "jjunQF",
-                                            "rules": Array [
-                                              "-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;",
-                                            ],
-                                          },
-                                          "displayName": "NavLang__NotSelectableDiv",
-                                          "foldedComponentIds": Array [],
-                                          "render": [Function],
-                                          "styledComponentId": "NavLang__NotSelectableDiv-sc-7efc3x-0",
-                                          "target": "nav",
-                                          "toString": [Function],
-                                          "warnTooManyClasses": [Function],
-                                          "withComponent": [Function],
-                                        }
-                                      }
-                                      forwardedRef={null}
-                                    >
-                                      <nav
-                                        className="NavLang__NotSelectableDiv-sc-7efc3x-0 jjunQF"
-                                      >
-                                        <ul>
-                                          <NavLang__NavLinkItem>
-                                            <StyledComponent
-                                              forwardedComponent={
-                                                Object {
-                                                  "$$typeof": Symbol(react.forward_ref),
-                                                  "attrs": Array [],
-                                                  "componentStyle": ComponentStyle {
-                                                    "componentId": "NavLang__NavLinkItem-sc-7efc3x-1",
-                                                    "isStatic": false,
-                                                    "lastClassName": "gISzZC",
-                                                    "rules": Array [
-                                                      "display:inline-block;margin:0 10px;cursor:pointer;@media screen and (max-width:800px){margin:0 7px;}",
-                                                    ],
-                                                  },
-                                                  "displayName": "NavLang__NavLinkItem",
-                                                  "foldedComponentIds": Array [],
-                                                  "render": [Function],
-                                                  "styledComponentId": "NavLang__NavLinkItem-sc-7efc3x-1",
-                                                  "target": "li",
-                                                  "toString": [Function],
-                                                  "warnTooManyClasses": [Function],
-                                                  "withComponent": [Function],
-                                                }
-                                              }
-                                              forwardedRef={null}
-                                            >
-                                              <li
-                                                className="NavLang__NavLinkItem-sc-7efc3x-1 gISzZC"
-                                              >
-                                                <LocalizedComponent
-                                                  lang="en"
-                                                  selectedLang="en"
-                                                  setSelectedLang={[Function]}
-                                                >
-                                                  <NavLink
-                                                    addTranslation={[Function]}
-                                                    addTranslationForLanguage={[Function]}
-                                                    ignoreTranslateChildren={false}
-                                                    initialize={[Function]}
-                                                    lang="en"
-                                                    languages={Array []}
-                                                    renderToStaticMarkup={false}
-                                                    selectedLang="en"
-                                                    setActiveLanguage={[Function]}
-                                                    setSelectedLang={[Function]}
-                                                    translate={[Function]}
-                                                  >
-                                                    <NavLink__Container
-                                                      isSelected={true}
-                                                      onClick={[Function]}
-                                                    >
-                                                      <StyledComponent
-                                                        forwardedComponent={
-                                                          Object {
-                                                            "$$typeof": Symbol(react.forward_ref),
-                                                            "attrs": Array [],
-                                                            "componentStyle": ComponentStyle {
-                                                              "componentId": "NavLink__Container-v6tuz9-0",
-                                                              "isStatic": false,
-                                                              "lastClassName": "izGeSK",
-                                                              "rules": Array [
-                                                                "color:",
-                                                                [Function],
-                                                                " !important;cursor:",
-                                                                [Function],
-                                                                ";text-decoration:",
-                                                                [Function],
-                                                                " !important;border:",
-                                                                [Function],
-                                                                ";border-color:",
-                                                                [Function],
-                                                                ";font-family:",
-                                                                [Function],
-                                                                ";font-style:italic;line-height:",
-                                                                [Function],
-                                                                ";transition:color 0.5s;&:hover{color:",
-                                                                [Function],
-                                                                ";border:none;}",
-                                                              ],
-                                                            },
-                                                            "displayName": "NavLink__Container",
-                                                            "foldedComponentIds": Array [],
-                                                            "render": [Function],
-                                                            "styledComponentId": "NavLink__Container-v6tuz9-0",
-                                                            "target": "a",
-                                                            "toString": [Function],
-                                                            "warnTooManyClasses": [Function],
-                                                            "withComponent": [Function],
-                                                          }
-                                                        }
-                                                        forwardedRef={null}
-                                                        isSelected={true}
-                                                        onClick={[Function]}
-                                                      >
-                                                        <a
-                                                          className="NavLink__Container-v6tuz9-0 jNbxWp"
-                                                          onClick={[Function]}
-                                                        >
-                                                          <Translate
-                                                            id="english"
-                                                          >
-                                                            <WrappedTranslate
-                                                              context={
-                                                                Object {
-                                                                  "activeLanguage": undefined,
-                                                                  "addTranslation": [Function],
-                                                                  "addTranslationForLanguage": [Function],
-                                                                  "defaultLanguage": undefined,
-                                                                  "ignoreTranslateChildren": false,
-                                                                  "initialize": [Function],
-                                                                  "languages": Array [],
-                                                                  "renderToStaticMarkup": false,
-                                                                  "setActiveLanguage": [Function],
-                                                                  "translate": [Function],
-                                                                }
-                                                              }
-                                                              id="english"
-                                                            >
-                                                              Missing translationId: english for language: \${ languageCode }
-                                                            </WrappedTranslate>
-                                                          </Translate>
-                                                        </a>
-                                                      </StyledComponent>
-                                                    </NavLink__Container>
-                                                  </NavLink>
-                                                </LocalizedComponent>
-                                                <NavLang__InlineBlock>
-                                                  <StyledComponent
-                                                    forwardedComponent={
-                                                      Object {
-                                                        "$$typeof": Symbol(react.forward_ref),
-                                                        "attrs": Array [],
-                                                        "componentStyle": ComponentStyle {
-                                                          "componentId": "NavLang__InlineBlock-sc-7efc3x-2",
-                                                          "isStatic": false,
-                                                          "lastClassName": "eBtnkR",
-                                                          "rules": Array [
-                                                            "display:inline-block;padding:5px;",
-                                                          ],
-                                                        },
-                                                        "displayName": "NavLang__InlineBlock",
-                                                        "foldedComponentIds": Array [],
-                                                        "render": [Function],
-                                                        "styledComponentId": "NavLang__InlineBlock-sc-7efc3x-2",
-                                                        "target": "div",
-                                                        "toString": [Function],
-                                                        "warnTooManyClasses": [Function],
-                                                        "withComponent": [Function],
-                                                      }
-                                                    }
-                                                    forwardedRef={null}
-                                                  >
-                                                    <div
-                                                      className="NavLang__InlineBlock-sc-7efc3x-2 eBtnkR"
-                                                    >
-                                                      /
-                                                    </div>
-                                                  </StyledComponent>
-                                                </NavLang__InlineBlock>
-                                                <LocalizedComponent
-                                                  lang="vn"
-                                                  selectedLang="en"
-                                                  setSelectedLang={[Function]}
-                                                >
-                                                  <NavLink
-                                                    addTranslation={[Function]}
-                                                    addTranslationForLanguage={[Function]}
-                                                    ignoreTranslateChildren={false}
-                                                    initialize={[Function]}
-                                                    lang="vn"
-                                                    languages={Array []}
-                                                    renderToStaticMarkup={false}
-                                                    selectedLang="en"
-                                                    setActiveLanguage={[Function]}
-                                                    setSelectedLang={[Function]}
-                                                    translate={[Function]}
-                                                  >
-                                                    <NavLink__Container
-                                                      isSelected={false}
-                                                      onClick={[Function]}
-                                                    >
-                                                      <StyledComponent
-                                                        forwardedComponent={
-                                                          Object {
-                                                            "$$typeof": Symbol(react.forward_ref),
-                                                            "attrs": Array [],
-                                                            "componentStyle": ComponentStyle {
-                                                              "componentId": "NavLink__Container-v6tuz9-0",
-                                                              "isStatic": false,
-                                                              "lastClassName": "izGeSK",
-                                                              "rules": Array [
-                                                                "color:",
-                                                                [Function],
-                                                                " !important;cursor:",
-                                                                [Function],
-                                                                ";text-decoration:",
-                                                                [Function],
-                                                                " !important;border:",
-                                                                [Function],
-                                                                ";border-color:",
-                                                                [Function],
-                                                                ";font-family:",
-                                                                [Function],
-                                                                ";font-style:italic;line-height:",
-                                                                [Function],
-                                                                ";transition:color 0.5s;&:hover{color:",
-                                                                [Function],
-                                                                ";border:none;}",
-                                                              ],
-                                                            },
-                                                            "displayName": "NavLink__Container",
-                                                            "foldedComponentIds": Array [],
-                                                            "render": [Function],
-                                                            "styledComponentId": "NavLink__Container-v6tuz9-0",
-                                                            "target": "a",
-                                                            "toString": [Function],
-                                                            "warnTooManyClasses": [Function],
-                                                            "withComponent": [Function],
-                                                          }
-                                                        }
-                                                        forwardedRef={null}
-                                                        isSelected={false}
-                                                        onClick={[Function]}
-                                                      >
-                                                        <a
-                                                          className="NavLink__Container-v6tuz9-0 izGeSK"
-                                                          onClick={[Function]}
-                                                        >
-                                                          <Translate
-                                                            id="vietnamese"
-                                                          >
-                                                            <WrappedTranslate
-                                                              context={
-                                                                Object {
-                                                                  "activeLanguage": undefined,
-                                                                  "addTranslation": [Function],
-                                                                  "addTranslationForLanguage": [Function],
-                                                                  "defaultLanguage": undefined,
-                                                                  "ignoreTranslateChildren": false,
-                                                                  "initialize": [Function],
-                                                                  "languages": Array [],
-                                                                  "renderToStaticMarkup": false,
-                                                                  "setActiveLanguage": [Function],
-                                                                  "translate": [Function],
-                                                                }
-                                                              }
-                                                              id="vietnamese"
-                                                            >
-                                                              Missing translationId: vietnamese for language: \${ languageCode }
-                                                            </WrappedTranslate>
-                                                          </Translate>
-                                                        </a>
-                                                      </StyledComponent>
-                                                    </NavLink__Container>
-                                                  </NavLink>
-                                                </LocalizedComponent>
-                                              </li>
-                                            </StyledComponent>
-                                          </NavLang__NavLinkItem>
-                                        </ul>
-                                      </nav>
-                                    </StyledComponent>
-                                  </NavLang__NotSelectableDiv>
-                                </NavLang>
-                              </div>
-                            </Col>
-                            <Col
-                              xs={6}
-                            >
-                              <div
-                                className="col-6"
-                              >
-                                <NavHeader__NavControl
-                                  data-test-id="switch-nav-content"
-                                  onClick={[Function]}
-                                >
-                                  <StyledComponent
-                                    data-test-id="switch-nav-content"
-                                    forwardedComponent={
-                                      Object {
-                                        "$$typeof": Symbol(react.forward_ref),
-                                        "attrs": Array [],
-                                        "componentStyle": ComponentStyle {
-                                          "componentId": "NavHeader__NavControl-twnsn2-1",
-                                          "isStatic": false,
-                                          "lastClassName": "chOABF",
-                                          "rules": Array [
-                                            "color:",
-                                            [Function],
-                                            ";line-height:",
-                                            [Function],
-                                            ";text-align:right;border:none;transition:color 0.5s;@media screen and (max-width:600px){margin-left:0;}&::before{display:inline-block;margin-right:10px;color:",
-                                            [Function],
-                                            ";font-size:",
-                                            [Function],
-                                            ";transition:color 0.5s;@media screen and (max-width:600px){margin-right:0;}}&:hover,&:hover::before{color:",
-                                            [Function],
-                                            ";}",
-                                          ],
-                                        },
-                                        "displayName": "NavHeader__NavControl",
-                                        "foldedComponentIds": Array [],
-                                        "render": [Function],
-                                        "styledComponentId": "NavHeader__NavControl-twnsn2-1",
-                                        "target": "div",
-                                        "toString": [Function],
-                                        "warnTooManyClasses": [Function],
-                                        "withComponent": [Function],
-                                      }
-                                    }
-                                    forwardedRef={null}
-                                    onClick={[Function]}
-                                  >
-                                    <div
-                                      className="NavHeader__NavControl-twnsn2-1 chOABF"
-                                      data-test-id="switch-nav-content"
-                                      onClick={[Function]}
-                                    >
-                                      <NavHeader__HamburgerIcon>
-                                        <StyledComponent
-                                          forwardedComponent={
-                                            Object {
-                                              "$$typeof": Symbol(react.forward_ref),
-                                              "attrs": Array [],
-                                              "componentStyle": ComponentStyle {
-                                                "componentId": "NavHeader__HamburgerIcon-twnsn2-2",
-                                                "isStatic": false,
-                                                "lastClassName": "btPVzD",
-                                                "rules": Array [
-                                                  "display:inline;padding-bottom:5px;",
-                                                ],
-                                              },
-                                              "displayName": "NavHeader__HamburgerIcon",
-                                              "foldedComponentIds": Array [],
-                                              "render": [Function],
-                                              "styledComponentId": "NavHeader__HamburgerIcon-twnsn2-2",
-                                              "target": [Function],
-                                              "toString": [Function],
-                                              "warnTooManyClasses": [Function],
-                                              "withComponent": [Function],
-                                            }
-                                          }
-                                          forwardedRef={null}
-                                        >
-                                          <GiHamburgerMenu
-                                            className="NavHeader__HamburgerIcon-twnsn2-2 btPVzD"
-                                          >
-                                            <IconBase
-                                              attr={
-                                                Object {
-                                                  "viewBox": "0 0 512 512",
-                                                }
-                                              }
-                                              className="NavHeader__HamburgerIcon-twnsn2-2 btPVzD"
-                                            >
-                                              <svg
-                                                className="NavHeader__HamburgerIcon-twnsn2-2 btPVzD"
-                                                fill="currentColor"
-                                                height="1em"
-                                                stroke="currentColor"
-                                                strokeWidth="0"
-                                                style={
-                                                  Object {
-                                                    "color": undefined,
-                                                  }
-                                                }
-                                                viewBox="0 0 512 512"
-                                                width="1em"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                              >
-                                                <path
-                                                  d="M32 96v64h448V96H32zm0 128v64h448v-64H32zm0 128v64h448v-64H32z"
-                                                  key="0"
-                                                />
-                                              </svg>
-                                            </IconBase>
-                                          </GiHamburgerMenu>
-                                        </StyledComponent>
-                                      </NavHeader__HamburgerIcon>
-                                       
-                                      <Translate
-                                        id="Menu"
-                                      >
-                                        <WrappedTranslate
-                                          context={
-                                            Object {
-                                              "activeLanguage": undefined,
-                                              "addTranslation": [Function],
-                                              "addTranslationForLanguage": [Function],
-                                              "defaultLanguage": undefined,
-                                              "ignoreTranslateChildren": false,
-                                              "initialize": [Function],
-                                              "languages": Array [],
-                                              "renderToStaticMarkup": false,
-                                              "setActiveLanguage": [Function],
-                                              "translate": [Function],
-                                            }
-                                          }
-                                          id="Menu"
-                                        >
-                                          Missing translationId: Menu for language: \${ languageCode }
-                                        </WrappedTranslate>
-                                      </Translate>
-                                    </div>
-                                  </StyledComponent>
-                                </NavHeader__NavControl>
-                              </div>
-                            </Col>
-                          </div>
-                        </ForwardRef>
-                      </div>
-                    </Container>
-                  </StyledComponent>
-                </MobileContainer>
-              </div>
-            </StyledComponent>
-          </NavHeader__NavContainer>
-        </NavHeader>
-        <NavContent
-          isShowNavContent={false}
-        >
-          <NavContent__NavContainer
-            isShowNavContent={false}
+        <NavHeader__NavContainer>
+          <div
+            className="NavHeader__NavContainer-twnsn2-0 hBaJqf"
           >
-            <StyledComponent
-              forwardedComponent={
-                Object {
-                  "$$typeof": Symbol(react.forward_ref),
-                  "attrs": Array [],
-                  "componentStyle": ComponentStyle {
-                    "componentId": "NavContent__NavContainer-sc-1bgb07m-0",
-                    "isStatic": false,
-                    "lastClassName": "iqImci",
-                    "rules": Array [
-                      "position:relative;min-height:",
-                      [Function],
-                      ";background-color:",
-                      [Function],
-                      ";margin-top:",
-                      [Function],
-                      ";box-shadow:",
-                      [Function],
-                      ";transition:all 0.5s;@media screen and (max-width:800px){margin-top:",
-                      [Function],
-                      ";}",
-                    ],
-                  },
-                  "displayName": "NavContent__NavContainer",
-                  "foldedComponentIds": Array [],
-                  "render": [Function],
-                  "styledComponentId": "NavContent__NavContainer-sc-1bgb07m-0",
-                  "target": "div",
-                  "toString": [Function],
-                  "warnTooManyClasses": [Function],
-                  "withComponent": [Function],
-                }
-              }
-              forwardedRef={null}
-              isShowNavContent={false}
-            >
-              <div
-                className="NavContent__NavContainer-sc-1bgb07m-0 iqImci"
+            <MobileContainer>
+              <Container
+                className="MobileContainer-sc-14bpgy4-0 cmmyDP"
+                fluid={false}
               >
-                <MobileContainer>
-                  <StyledComponent
-                    forwardedComponent={
-                      Object {
-                        "$$typeof": Symbol(react.forward_ref),
-                        "attrs": Array [],
-                        "componentStyle": ComponentStyle {
-                          "componentId": "MobileContainer-sc-14bpgy4-0",
-                          "isStatic": false,
-                          "lastClassName": "cQdUeW",
-                          "rules": Array [
-                            "@media (max-width:800px){max-width:100%;}",
-                          ],
-                        },
-                        "displayName": "MobileContainer",
-                        "foldedComponentIds": Array [],
-                        "render": [Function],
-                        "styledComponentId": "MobileContainer-sc-14bpgy4-0",
-                        "target": Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "defaultProps": Object {
-                            "fluid": false,
-                          },
-                          "displayName": "Container",
-                          "render": [Function],
-                        },
-                        "toString": [Function],
-                        "warnTooManyClasses": [Function],
-                        "withComponent": [Function],
-                      }
-                    }
-                    forwardedRef={null}
+                <div
+                  className="MobileContainer-sc-14bpgy4-0 cmmyDP container"
+                >
+                  <ForwardRef
+                    fluid="true"
+                    noGutters={false}
                   >
-                    <Container
-                      className="MobileContainer-sc-14bpgy4-0 cQdUeW"
-                      fluid={false}
+                    <div
+                      className="row"
+                      fluid="true"
                     >
-                      <div
-                        className="MobileContainer-sc-14bpgy4-0 cQdUeW container"
+                      <Col
+                        xs={6}
                       >
-                        <ForwardRef
-                          noGutters={false}
+                        <div
+                          className="col-6"
                         >
-                          <div
-                            className="row"
-                          >
-                            <Col
-                              md={2}
-                            >
-                              <div
-                                className="col-md-2"
+                          <NavLang>
+                            <NavLang__NotSelectableDiv>
+                              <nav
+                                className="NavLang__NotSelectableDiv-sc-7efc3x-0 gkLMmc"
                               >
-                                <NavLogo>
-                                  <NavLogo__Logo
-                                    href="https://github.com/DeKal/portfolio-next-js"
-                                  >
-                                    <StyledComponent
-                                      forwardedComponent={
-                                        Object {
-                                          "$$typeof": Symbol(react.forward_ref),
-                                          "attrs": Array [],
-                                          "componentStyle": ComponentStyle {
-                                            "componentId": "NavLogo__Logo-sc-1822jsu-0",
-                                            "isStatic": false,
-                                            "lastClassName": "hsWCem",
-                                            "rules": Array [
-                                              "display:block;position:absolute;width:",
-                                              [Function],
-                                              ";color:",
-                                              [Function],
-                                              ";font-size:",
-                                              [Function],
-                                              ";line-height:",
-                                              [Function],
-                                              ";font-family:",
-                                              [Function],
-                                              ";font-weight:bold;text-align:center;background-color:",
-                                              [Function],
-                                              ";border:none;@media screen and (max-width:800px){display:none;}&::after{content:'';position:absolute;bottom:-29px;left:0;z-index:250;border-top:30px solid ",
-                                              [Function],
-                                              ";border-left:40px solid transparent;border-right:40px solid transparent;}&:hover{color:",
-                                              [Function],
-                                              ";text-decoration:none;}&:active{color:",
-                                              [Function],
-                                              ";}",
-                                            ],
-                                          },
-                                          "displayName": "NavLogo__Logo",
-                                          "foldedComponentIds": Array [],
-                                          "render": [Function],
-                                          "styledComponentId": "NavLogo__Logo-sc-1822jsu-0",
-                                          "target": "a",
-                                          "toString": [Function],
-                                          "warnTooManyClasses": [Function],
-                                          "withComponent": [Function],
-                                        }
-                                      }
-                                      forwardedRef={null}
-                                      href="https://github.com/DeKal/portfolio-next-js"
+                                <ul>
+                                  <NavLang__NavLinkItem>
+                                    <li
+                                      className="NavLang__NavLinkItem-sc-7efc3x-1 iyUXK"
                                     >
-                                      <a
-                                        className="NavLogo__Logo-sc-1822jsu-0 hsWCem"
-                                        href="https://github.com/DeKal/portfolio-next-js"
+                                      <LocalizedComponent
+                                        lang="en"
+                                        selectedLang="en"
+                                        setSelectedLang={[Function]}
                                       >
-                                        <NavLogo__LogoText>
-                                          <StyledComponent
-                                            forwardedComponent={
-                                              Object {
-                                                "$$typeof": Symbol(react.forward_ref),
-                                                "attrs": Array [],
-                                                "componentStyle": ComponentStyle {
-                                                  "componentId": "NavLogo__LogoText-sc-1822jsu-1",
-                                                  "isStatic": false,
-                                                  "lastClassName": "cUhXTg",
-                                                  "rules": Array [
-                                                    "position:relative;display:block;width:100%;height:100%;&::after{content:'';position:absolute;bottom:-15px;right:-2px;width:50px;height:5px;background-color:transparent;box-shadow:",
-                                                    [Function],
-                                                    ";transform:rotate(-37deg);}&::before{content:'';position:absolute;bottom:-15px;left:-2px;width:50px;height:5px;background-color:transparent;box-shadow:",
-                                                    [Function],
-                                                    ";transform:rotate(37deg);}",
-                                                  ],
-                                                },
-                                                "displayName": "NavLogo__LogoText",
-                                                "foldedComponentIds": Array [],
-                                                "render": [Function],
-                                                "styledComponentId": "NavLogo__LogoText-sc-1822jsu-1",
-                                                "target": "span",
-                                                "toString": [Function],
-                                                "warnTooManyClasses": [Function],
-                                                "withComponent": [Function],
-                                              }
-                                            }
-                                            forwardedRef={null}
+                                        <NavLink
+                                          addTranslation={[Function]}
+                                          addTranslationForLanguage={[Function]}
+                                          ignoreTranslateChildren={false}
+                                          initialize={[Function]}
+                                          lang="en"
+                                          languages={Array []}
+                                          renderToStaticMarkup={false}
+                                          selectedLang="en"
+                                          setActiveLanguage={[Function]}
+                                          setSelectedLang={[Function]}
+                                          translate={[Function]}
+                                        >
+                                          <NavLink__Container
+                                            isSelected={true}
+                                            onClick={[Function]}
                                           >
-                                            <span
-                                              className="NavLogo__LogoText-sc-1822jsu-1 cUhXTg"
+                                            <a
+                                              className="NavLink__Container-v6tuz9-0 dUOeKU"
+                                              onClick={[Function]}
                                             >
-                                              JD
-                                            </span>
-                                          </StyledComponent>
-                                        </NavLogo__LogoText>
-                                      </a>
-                                    </StyledComponent>
-                                  </NavLogo__Logo>
-                                </NavLogo>
-                              </div>
-                            </Col>
-                            <Col
-                              fluid="true"
+                                              <Translate
+                                                id="english"
+                                              >
+                                                <WrappedTranslate
+                                                  context={
+                                                    Object {
+                                                      "activeLanguage": undefined,
+                                                      "addTranslation": [Function],
+                                                      "addTranslationForLanguage": [Function],
+                                                      "defaultLanguage": undefined,
+                                                      "ignoreTranslateChildren": false,
+                                                      "initialize": [Function],
+                                                      "languages": Array [],
+                                                      "renderToStaticMarkup": false,
+                                                      "setActiveLanguage": [Function],
+                                                      "translate": [Function],
+                                                    }
+                                                  }
+                                                  id="english"
+                                                >
+                                                  Missing translationId: english for language: \${ languageCode }
+                                                </WrappedTranslate>
+                                              </Translate>
+                                            </a>
+                                          </NavLink__Container>
+                                        </NavLink>
+                                      </LocalizedComponent>
+                                      <NavLang__InlineBlock>
+                                        <div
+                                          className="NavLang__InlineBlock-sc-7efc3x-2 gQsqjl"
+                                        >
+                                          /
+                                        </div>
+                                      </NavLang__InlineBlock>
+                                      <LocalizedComponent
+                                        lang="vn"
+                                        selectedLang="en"
+                                        setSelectedLang={[Function]}
+                                      >
+                                        <NavLink
+                                          addTranslation={[Function]}
+                                          addTranslationForLanguage={[Function]}
+                                          ignoreTranslateChildren={false}
+                                          initialize={[Function]}
+                                          lang="vn"
+                                          languages={Array []}
+                                          renderToStaticMarkup={false}
+                                          selectedLang="en"
+                                          setActiveLanguage={[Function]}
+                                          setSelectedLang={[Function]}
+                                          translate={[Function]}
+                                        >
+                                          <NavLink__Container
+                                            isSelected={false}
+                                            onClick={[Function]}
+                                          >
+                                            <a
+                                              className="NavLink__Container-v6tuz9-0 ddSDsj"
+                                              onClick={[Function]}
+                                            >
+                                              <Translate
+                                                id="vietnamese"
+                                              >
+                                                <WrappedTranslate
+                                                  context={
+                                                    Object {
+                                                      "activeLanguage": undefined,
+                                                      "addTranslation": [Function],
+                                                      "addTranslationForLanguage": [Function],
+                                                      "defaultLanguage": undefined,
+                                                      "ignoreTranslateChildren": false,
+                                                      "initialize": [Function],
+                                                      "languages": Array [],
+                                                      "renderToStaticMarkup": false,
+                                                      "setActiveLanguage": [Function],
+                                                      "translate": [Function],
+                                                    }
+                                                  }
+                                                  id="vietnamese"
+                                                >
+                                                  Missing translationId: vietnamese for language: \${ languageCode }
+                                                </WrappedTranslate>
+                                              </Translate>
+                                            </a>
+                                          </NavLink__Container>
+                                        </NavLink>
+                                      </LocalizedComponent>
+                                    </li>
+                                  </NavLang__NavLinkItem>
+                                </ul>
+                              </nav>
+                            </NavLang__NotSelectableDiv>
+                          </NavLang>
+                        </div>
+                      </Col>
+                      <Col
+                        xs={6}
+                      >
+                        <div
+                          className="col-6"
+                        >
+                          <NavHeader__NavControl
+                            data-test-id="switch-nav-content"
+                            onClick={[Function]}
+                          >
+                            <div
+                              className="NavHeader__NavControl-twnsn2-1 grKlkF"
+                              data-test-id="switch-nav-content"
+                              onClick={[Function]}
                             >
-                              <div
-                                className="col"
-                                fluid="true"
-                              >
-                                <NavContent__NavMenu>
-                                  <StyledComponent
-                                    forwardedComponent={
+                              <NavHeader__HamburgerIcon>
+                                <GiHamburgerMenu
+                                  className="NavHeader__HamburgerIcon-twnsn2-2 cJgLJz"
+                                >
+                                  <IconBase
+                                    attr={
                                       Object {
-                                        "$$typeof": Symbol(react.forward_ref),
-                                        "attrs": Array [],
-                                        "componentStyle": ComponentStyle {
-                                          "componentId": "NavContent__NavMenu-sc-1bgb07m-1",
-                                          "isStatic": false,
-                                          "lastClassName": "dxzTZf",
-                                          "rules": Array [
-                                            "text-align:right;@media screen and (max-width:800px){text-align:center;}",
-                                          ],
-                                        },
-                                        "displayName": "NavContent__NavMenu",
-                                        "foldedComponentIds": Array [],
-                                        "render": [Function],
-                                        "styledComponentId": "NavContent__NavMenu-sc-1bgb07m-1",
-                                        "target": "nav",
-                                        "toString": [Function],
-                                        "warnTooManyClasses": [Function],
-                                        "withComponent": [Function],
+                                        "viewBox": "0 0 512 512",
                                       }
                                     }
-                                    forwardedRef={null}
+                                    className="NavHeader__HamburgerIcon-twnsn2-2 cJgLJz"
                                   >
-                                    <nav
-                                      className="NavContent__NavMenu-sc-1bgb07m-1 dxzTZf"
+                                    <svg
+                                      className="NavHeader__HamburgerIcon-twnsn2-2 cJgLJz"
+                                      fill="currentColor"
+                                      height="1em"
+                                      stroke="currentColor"
+                                      strokeWidth="0"
+                                      style={
+                                        Object {
+                                          "color": undefined,
+                                        }
+                                      }
+                                      viewBox="0 0 512 512"
+                                      width="1em"
+                                      xmlns="http://www.w3.org/2000/svg"
                                     >
-                                      <ul>
-                                        <NavContent__NavLi
-                                          key="Home"
+                                      <path
+                                        d="M32 96v64h448V96H32zm0 128v64h448v-64H32zm0 128v64h448v-64H32z"
+                                        key="0"
+                                      />
+                                    </svg>
+                                  </IconBase>
+                                </GiHamburgerMenu>
+                              </NavHeader__HamburgerIcon>
+                               
+                              <Translate
+                                id="Menu"
+                              >
+                                <WrappedTranslate
+                                  context={
+                                    Object {
+                                      "activeLanguage": undefined,
+                                      "addTranslation": [Function],
+                                      "addTranslationForLanguage": [Function],
+                                      "defaultLanguage": undefined,
+                                      "ignoreTranslateChildren": false,
+                                      "initialize": [Function],
+                                      "languages": Array [],
+                                      "renderToStaticMarkup": false,
+                                      "setActiveLanguage": [Function],
+                                      "translate": [Function],
+                                    }
+                                  }
+                                  id="Menu"
+                                >
+                                  Missing translationId: Menu for language: \${ languageCode }
+                                </WrappedTranslate>
+                              </Translate>
+                            </div>
+                          </NavHeader__NavControl>
+                        </div>
+                      </Col>
+                    </div>
+                  </ForwardRef>
+                </div>
+              </Container>
+            </MobileContainer>
+          </div>
+        </NavHeader__NavContainer>
+      </NavHeader>
+      <NavContent
+        isShowNavContent={false}
+      >
+        <NavContent__NavContainer
+          isShowNavContent={false}
+        >
+          <div
+            className="NavContent__NavContainer-sc-1bgb07m-0 eHTNdM"
+          >
+            <MobileContainer>
+              <Container
+                className="MobileContainer-sc-14bpgy4-0 cmmyDP"
+                fluid={false}
+              >
+                <div
+                  className="MobileContainer-sc-14bpgy4-0 cmmyDP container"
+                >
+                  <ForwardRef
+                    noGutters={false}
+                  >
+                    <div
+                      className="row"
+                    >
+                      <Col
+                        md={2}
+                      >
+                        <div
+                          className="col-md-2"
+                        >
+                          <NavLogo>
+                            <NavLogo__Logo
+                              href="https://github.com/DeKal/portfolio-next-js"
+                            >
+                              <a
+                                className="NavLogo__Logo-sc-1822jsu-0 bmvzrf"
+                                href="https://github.com/DeKal/portfolio-next-js"
+                              >
+                                <NavLogo__LogoText>
+                                  <span
+                                    className="NavLogo__LogoText-sc-1822jsu-1 dQmdA-D"
+                                  >
+                                    JD
+                                  </span>
+                                </NavLogo__LogoText>
+                              </a>
+                            </NavLogo__Logo>
+                          </NavLogo>
+                        </div>
+                      </Col>
+                      <Col
+                        fluid="true"
+                      >
+                        <div
+                          className="col"
+                          fluid="true"
+                        >
+                          <NavContent__NavMenu>
+                            <nav
+                              className="NavContent__NavMenu-sc-1bgb07m-1 kgJvPe"
+                            >
+                              <ul>
+                                <NavContent__NavLi
+                                  key="Home"
+                                >
+                                  <li
+                                    className="NavContent__NavLi-sc-1bgb07m-2 gnuOKH"
+                                  >
+                                    <NavItem
+                                      isSelected={true}
+                                      page="Home"
+                                      setSelectedPage={[Function]}
+                                    >
+                                      <NavItem__SelectedContainer>
+                                        <a
+                                          className="NavItem__Container-a312fv-0 NavItem__SelectedContainer-a312fv-1 fhutBo"
                                         >
-                                          <StyledComponent
-                                            forwardedComponent={
-                                              Object {
-                                                "$$typeof": Symbol(react.forward_ref),
-                                                "attrs": Array [],
-                                                "componentStyle": ComponentStyle {
-                                                  "componentId": "NavContent__NavLi-sc-1bgb07m-2",
-                                                  "isStatic": false,
-                                                  "lastClassName": "kzVeLC",
-                                                  "rules": Array [
-                                                    "display:inline-block;margin-left:18px;@media screen and (max-width:800px){margin:0 9px;display:block;border-bottom:1px dashed ",
-                                                    [Function],
-                                                    ";}",
-                                                  ],
-                                                },
-                                                "displayName": "NavContent__NavLi",
-                                                "foldedComponentIds": Array [],
-                                                "render": [Function],
-                                                "styledComponentId": "NavContent__NavLi-sc-1bgb07m-2",
-                                                "target": "li",
-                                                "toString": [Function],
-                                                "warnTooManyClasses": [Function],
-                                                "withComponent": [Function],
-                                              }
-                                            }
-                                            forwardedRef={null}
+                                          <Translate
+                                            id="Home"
                                           >
-                                            <li
-                                              className="NavContent__NavLi-sc-1bgb07m-2 kzVeLC"
+                                            <WrappedTranslate
+                                              context={
+                                                Object {
+                                                  "activeLanguage": undefined,
+                                                  "addTranslation": [Function],
+                                                  "addTranslationForLanguage": [Function],
+                                                  "defaultLanguage": undefined,
+                                                  "ignoreTranslateChildren": false,
+                                                  "initialize": [Function],
+                                                  "languages": Array [],
+                                                  "renderToStaticMarkup": false,
+                                                  "setActiveLanguage": [Function],
+                                                  "translate": [Function],
+                                                }
+                                              }
+                                              id="Home"
                                             >
-                                              <NavItem
-                                                isSelected={true}
-                                                page="Home"
-                                                setSelectedPage={[Function]}
-                                              >
-                                                <NavItem__SelectedContainer>
-                                                  <StyledComponent
-                                                    forwardedComponent={
-                                                      Object {
-                                                        "$$typeof": Symbol(react.forward_ref),
-                                                        "attrs": Array [],
-                                                        "componentStyle": ComponentStyle {
-                                                          "componentId": "NavItem__SelectedContainer-a312fv-1",
-                                                          "isStatic": false,
-                                                          "lastClassName": "hKzjsJ",
-                                                          "rules": Array [
-                                                            "line-height:",
-                                                            [Function],
-                                                            ";font-size:",
-                                                            [Function],
-                                                            ";transition:color 0.5s;&:hover{color:",
-                                                            [Function],
-                                                            ";border:none;}@media screen and (max-width:800px){line-height:2;border-bottom:none;}",
-                                                            "color:",
-                                                            [Function],
-                                                            " !important;border:none;",
-                                                          ],
-                                                        },
-                                                        "displayName": "NavItem__SelectedContainer",
-                                                        "foldedComponentIds": Array [
-                                                          "NavItem__Container-a312fv-0",
-                                                        ],
-                                                        "render": [Function],
-                                                        "styledComponentId": "NavItem__SelectedContainer-a312fv-1",
-                                                        "target": "a",
-                                                        "toString": [Function],
-                                                        "warnTooManyClasses": [Function],
-                                                        "withComponent": [Function],
-                                                      }
-                                                    }
-                                                    forwardedRef={null}
-                                                  >
-                                                    <a
-                                                      className="NavItem__Container-a312fv-0 NavItem__SelectedContainer-a312fv-1 hKzjsJ"
-                                                    >
-                                                      <Translate
-                                                        id="Home"
-                                                      >
-                                                        <WrappedTranslate
-                                                          context={
-                                                            Object {
-                                                              "activeLanguage": undefined,
-                                                              "addTranslation": [Function],
-                                                              "addTranslationForLanguage": [Function],
-                                                              "defaultLanguage": undefined,
-                                                              "ignoreTranslateChildren": false,
-                                                              "initialize": [Function],
-                                                              "languages": Array [],
-                                                              "renderToStaticMarkup": false,
-                                                              "setActiveLanguage": [Function],
-                                                              "translate": [Function],
-                                                            }
-                                                          }
-                                                          id="Home"
-                                                        >
-                                                          Missing translationId: Home for language: \${ languageCode }
-                                                        </WrappedTranslate>
-                                                      </Translate>
-                                                    </a>
-                                                  </StyledComponent>
-                                                </NavItem__SelectedContainer>
-                                              </NavItem>
-                                            </li>
-                                          </StyledComponent>
-                                        </NavContent__NavLi>
-                                        <NavContent__NavLi
-                                          key="About"
+                                              Missing translationId: Home for language: \${ languageCode }
+                                            </WrappedTranslate>
+                                          </Translate>
+                                        </a>
+                                      </NavItem__SelectedContainer>
+                                    </NavItem>
+                                  </li>
+                                </NavContent__NavLi>
+                                <NavContent__NavLi
+                                  key="About"
+                                >
+                                  <li
+                                    className="NavContent__NavLi-sc-1bgb07m-2 gnuOKH"
+                                  >
+                                    <NavItem
+                                      isSelected={false}
+                                      page="About"
+                                      setSelectedPage={[Function]}
+                                    >
+                                      <NavItem__Container
+                                        data-test-id="nav-link"
+                                        href="#About"
+                                        onClick={[Function]}
+                                      >
+                                        <a
+                                          className="NavItem__Container-a312fv-0 dSWZyj"
+                                          data-test-id="nav-link"
+                                          href="#About"
+                                          onClick={[Function]}
                                         >
-                                          <StyledComponent
-                                            forwardedComponent={
-                                              Object {
-                                                "$$typeof": Symbol(react.forward_ref),
-                                                "attrs": Array [],
-                                                "componentStyle": ComponentStyle {
-                                                  "componentId": "NavContent__NavLi-sc-1bgb07m-2",
-                                                  "isStatic": false,
-                                                  "lastClassName": "kzVeLC",
-                                                  "rules": Array [
-                                                    "display:inline-block;margin-left:18px;@media screen and (max-width:800px){margin:0 9px;display:block;border-bottom:1px dashed ",
-                                                    [Function],
-                                                    ";}",
-                                                  ],
-                                                },
-                                                "displayName": "NavContent__NavLi",
-                                                "foldedComponentIds": Array [],
-                                                "render": [Function],
-                                                "styledComponentId": "NavContent__NavLi-sc-1bgb07m-2",
-                                                "target": "li",
-                                                "toString": [Function],
-                                                "warnTooManyClasses": [Function],
-                                                "withComponent": [Function],
-                                              }
-                                            }
-                                            forwardedRef={null}
+                                          <Translate
+                                            id="About"
                                           >
-                                            <li
-                                              className="NavContent__NavLi-sc-1bgb07m-2 kzVeLC"
+                                            <WrappedTranslate
+                                              context={
+                                                Object {
+                                                  "activeLanguage": undefined,
+                                                  "addTranslation": [Function],
+                                                  "addTranslationForLanguage": [Function],
+                                                  "defaultLanguage": undefined,
+                                                  "ignoreTranslateChildren": false,
+                                                  "initialize": [Function],
+                                                  "languages": Array [],
+                                                  "renderToStaticMarkup": false,
+                                                  "setActiveLanguage": [Function],
+                                                  "translate": [Function],
+                                                }
+                                              }
+                                              id="About"
                                             >
-                                              <NavItem
-                                                isSelected={false}
-                                                page="About"
-                                                setSelectedPage={[Function]}
-                                              >
-                                                <NavItem__Container
-                                                  data-test-id="nav-link"
-                                                  href="#About"
-                                                  onClick={[Function]}
-                                                >
-                                                  <StyledComponent
-                                                    data-test-id="nav-link"
-                                                    forwardedComponent={
-                                                      Object {
-                                                        "$$typeof": Symbol(react.forward_ref),
-                                                        "attrs": Array [],
-                                                        "componentStyle": ComponentStyle {
-                                                          "componentId": "NavItem__Container-a312fv-0",
-                                                          "isStatic": false,
-                                                          "lastClassName": "hzhptI",
-                                                          "rules": Array [
-                                                            "line-height:",
-                                                            [Function],
-                                                            ";font-size:",
-                                                            [Function],
-                                                            ";transition:color 0.5s;&:hover{color:",
-                                                            [Function],
-                                                            ";border:none;}@media screen and (max-width:800px){line-height:2;border-bottom:none;}",
-                                                          ],
-                                                        },
-                                                        "displayName": "NavItem__Container",
-                                                        "foldedComponentIds": Array [],
-                                                        "render": [Function],
-                                                        "styledComponentId": "NavItem__Container-a312fv-0",
-                                                        "target": "a",
-                                                        "toString": [Function],
-                                                        "warnTooManyClasses": [Function],
-                                                        "withComponent": [Function],
-                                                      }
-                                                    }
-                                                    forwardedRef={null}
-                                                    href="#About"
-                                                    onClick={[Function]}
-                                                  >
-                                                    <a
-                                                      className="NavItem__Container-a312fv-0 hzhptI"
-                                                      data-test-id="nav-link"
-                                                      href="#About"
-                                                      onClick={[Function]}
-                                                    >
-                                                      <Translate
-                                                        id="About"
-                                                      >
-                                                        <WrappedTranslate
-                                                          context={
-                                                            Object {
-                                                              "activeLanguage": undefined,
-                                                              "addTranslation": [Function],
-                                                              "addTranslationForLanguage": [Function],
-                                                              "defaultLanguage": undefined,
-                                                              "ignoreTranslateChildren": false,
-                                                              "initialize": [Function],
-                                                              "languages": Array [],
-                                                              "renderToStaticMarkup": false,
-                                                              "setActiveLanguage": [Function],
-                                                              "translate": [Function],
-                                                            }
-                                                          }
-                                                          id="About"
-                                                        >
-                                                          Missing translationId: About for language: \${ languageCode }
-                                                        </WrappedTranslate>
-                                                      </Translate>
-                                                    </a>
-                                                  </StyledComponent>
-                                                </NavItem__Container>
-                                              </NavItem>
-                                            </li>
-                                          </StyledComponent>
-                                        </NavContent__NavLi>
-                                        <NavContent__NavLi
-                                          key="Experiences"
+                                              Missing translationId: About for language: \${ languageCode }
+                                            </WrappedTranslate>
+                                          </Translate>
+                                        </a>
+                                      </NavItem__Container>
+                                    </NavItem>
+                                  </li>
+                                </NavContent__NavLi>
+                                <NavContent__NavLi
+                                  key="Experiences"
+                                >
+                                  <li
+                                    className="NavContent__NavLi-sc-1bgb07m-2 gnuOKH"
+                                  >
+                                    <NavItem
+                                      isSelected={false}
+                                      page="Experiences"
+                                      setSelectedPage={[Function]}
+                                    >
+                                      <NavItem__Container
+                                        data-test-id="nav-link"
+                                        href="#Experiences"
+                                        onClick={[Function]}
+                                      >
+                                        <a
+                                          className="NavItem__Container-a312fv-0 dSWZyj"
+                                          data-test-id="nav-link"
+                                          href="#Experiences"
+                                          onClick={[Function]}
                                         >
-                                          <StyledComponent
-                                            forwardedComponent={
-                                              Object {
-                                                "$$typeof": Symbol(react.forward_ref),
-                                                "attrs": Array [],
-                                                "componentStyle": ComponentStyle {
-                                                  "componentId": "NavContent__NavLi-sc-1bgb07m-2",
-                                                  "isStatic": false,
-                                                  "lastClassName": "kzVeLC",
-                                                  "rules": Array [
-                                                    "display:inline-block;margin-left:18px;@media screen and (max-width:800px){margin:0 9px;display:block;border-bottom:1px dashed ",
-                                                    [Function],
-                                                    ";}",
-                                                  ],
-                                                },
-                                                "displayName": "NavContent__NavLi",
-                                                "foldedComponentIds": Array [],
-                                                "render": [Function],
-                                                "styledComponentId": "NavContent__NavLi-sc-1bgb07m-2",
-                                                "target": "li",
-                                                "toString": [Function],
-                                                "warnTooManyClasses": [Function],
-                                                "withComponent": [Function],
-                                              }
-                                            }
-                                            forwardedRef={null}
+                                          <Translate
+                                            id="Experiences"
                                           >
-                                            <li
-                                              className="NavContent__NavLi-sc-1bgb07m-2 kzVeLC"
+                                            <WrappedTranslate
+                                              context={
+                                                Object {
+                                                  "activeLanguage": undefined,
+                                                  "addTranslation": [Function],
+                                                  "addTranslationForLanguage": [Function],
+                                                  "defaultLanguage": undefined,
+                                                  "ignoreTranslateChildren": false,
+                                                  "initialize": [Function],
+                                                  "languages": Array [],
+                                                  "renderToStaticMarkup": false,
+                                                  "setActiveLanguage": [Function],
+                                                  "translate": [Function],
+                                                }
+                                              }
+                                              id="Experiences"
                                             >
-                                              <NavItem
-                                                isSelected={false}
-                                                page="Experiences"
-                                                setSelectedPage={[Function]}
-                                              >
-                                                <NavItem__Container
-                                                  data-test-id="nav-link"
-                                                  href="#Experiences"
-                                                  onClick={[Function]}
-                                                >
-                                                  <StyledComponent
-                                                    data-test-id="nav-link"
-                                                    forwardedComponent={
-                                                      Object {
-                                                        "$$typeof": Symbol(react.forward_ref),
-                                                        "attrs": Array [],
-                                                        "componentStyle": ComponentStyle {
-                                                          "componentId": "NavItem__Container-a312fv-0",
-                                                          "isStatic": false,
-                                                          "lastClassName": "hzhptI",
-                                                          "rules": Array [
-                                                            "line-height:",
-                                                            [Function],
-                                                            ";font-size:",
-                                                            [Function],
-                                                            ";transition:color 0.5s;&:hover{color:",
-                                                            [Function],
-                                                            ";border:none;}@media screen and (max-width:800px){line-height:2;border-bottom:none;}",
-                                                          ],
-                                                        },
-                                                        "displayName": "NavItem__Container",
-                                                        "foldedComponentIds": Array [],
-                                                        "render": [Function],
-                                                        "styledComponentId": "NavItem__Container-a312fv-0",
-                                                        "target": "a",
-                                                        "toString": [Function],
-                                                        "warnTooManyClasses": [Function],
-                                                        "withComponent": [Function],
-                                                      }
-                                                    }
-                                                    forwardedRef={null}
-                                                    href="#Experiences"
-                                                    onClick={[Function]}
-                                                  >
-                                                    <a
-                                                      className="NavItem__Container-a312fv-0 hzhptI"
-                                                      data-test-id="nav-link"
-                                                      href="#Experiences"
-                                                      onClick={[Function]}
-                                                    >
-                                                      <Translate
-                                                        id="Experiences"
-                                                      >
-                                                        <WrappedTranslate
-                                                          context={
-                                                            Object {
-                                                              "activeLanguage": undefined,
-                                                              "addTranslation": [Function],
-                                                              "addTranslationForLanguage": [Function],
-                                                              "defaultLanguage": undefined,
-                                                              "ignoreTranslateChildren": false,
-                                                              "initialize": [Function],
-                                                              "languages": Array [],
-                                                              "renderToStaticMarkup": false,
-                                                              "setActiveLanguage": [Function],
-                                                              "translate": [Function],
-                                                            }
-                                                          }
-                                                          id="Experiences"
-                                                        >
-                                                          Missing translationId: Experiences for language: \${ languageCode }
-                                                        </WrappedTranslate>
-                                                      </Translate>
-                                                    </a>
-                                                  </StyledComponent>
-                                                </NavItem__Container>
-                                              </NavItem>
-                                            </li>
-                                          </StyledComponent>
-                                        </NavContent__NavLi>
-                                        <NavContent__NavLi
-                                          key="Projects"
+                                              Missing translationId: Experiences for language: \${ languageCode }
+                                            </WrappedTranslate>
+                                          </Translate>
+                                        </a>
+                                      </NavItem__Container>
+                                    </NavItem>
+                                  </li>
+                                </NavContent__NavLi>
+                                <NavContent__NavLi
+                                  key="Projects"
+                                >
+                                  <li
+                                    className="NavContent__NavLi-sc-1bgb07m-2 gnuOKH"
+                                  >
+                                    <NavItem
+                                      isSelected={false}
+                                      page="Projects"
+                                      setSelectedPage={[Function]}
+                                    >
+                                      <NavItem__Container
+                                        data-test-id="nav-link"
+                                        href="#Projects"
+                                        onClick={[Function]}
+                                      >
+                                        <a
+                                          className="NavItem__Container-a312fv-0 dSWZyj"
+                                          data-test-id="nav-link"
+                                          href="#Projects"
+                                          onClick={[Function]}
                                         >
-                                          <StyledComponent
-                                            forwardedComponent={
-                                              Object {
-                                                "$$typeof": Symbol(react.forward_ref),
-                                                "attrs": Array [],
-                                                "componentStyle": ComponentStyle {
-                                                  "componentId": "NavContent__NavLi-sc-1bgb07m-2",
-                                                  "isStatic": false,
-                                                  "lastClassName": "kzVeLC",
-                                                  "rules": Array [
-                                                    "display:inline-block;margin-left:18px;@media screen and (max-width:800px){margin:0 9px;display:block;border-bottom:1px dashed ",
-                                                    [Function],
-                                                    ";}",
-                                                  ],
-                                                },
-                                                "displayName": "NavContent__NavLi",
-                                                "foldedComponentIds": Array [],
-                                                "render": [Function],
-                                                "styledComponentId": "NavContent__NavLi-sc-1bgb07m-2",
-                                                "target": "li",
-                                                "toString": [Function],
-                                                "warnTooManyClasses": [Function],
-                                                "withComponent": [Function],
-                                              }
-                                            }
-                                            forwardedRef={null}
+                                          <Translate
+                                            id="Projects"
                                           >
-                                            <li
-                                              className="NavContent__NavLi-sc-1bgb07m-2 kzVeLC"
+                                            <WrappedTranslate
+                                              context={
+                                                Object {
+                                                  "activeLanguage": undefined,
+                                                  "addTranslation": [Function],
+                                                  "addTranslationForLanguage": [Function],
+                                                  "defaultLanguage": undefined,
+                                                  "ignoreTranslateChildren": false,
+                                                  "initialize": [Function],
+                                                  "languages": Array [],
+                                                  "renderToStaticMarkup": false,
+                                                  "setActiveLanguage": [Function],
+                                                  "translate": [Function],
+                                                }
+                                              }
+                                              id="Projects"
                                             >
-                                              <NavItem
-                                                isSelected={false}
-                                                page="Projects"
-                                                setSelectedPage={[Function]}
-                                              >
-                                                <NavItem__Container
-                                                  data-test-id="nav-link"
-                                                  href="#Projects"
-                                                  onClick={[Function]}
-                                                >
-                                                  <StyledComponent
-                                                    data-test-id="nav-link"
-                                                    forwardedComponent={
-                                                      Object {
-                                                        "$$typeof": Symbol(react.forward_ref),
-                                                        "attrs": Array [],
-                                                        "componentStyle": ComponentStyle {
-                                                          "componentId": "NavItem__Container-a312fv-0",
-                                                          "isStatic": false,
-                                                          "lastClassName": "hzhptI",
-                                                          "rules": Array [
-                                                            "line-height:",
-                                                            [Function],
-                                                            ";font-size:",
-                                                            [Function],
-                                                            ";transition:color 0.5s;&:hover{color:",
-                                                            [Function],
-                                                            ";border:none;}@media screen and (max-width:800px){line-height:2;border-bottom:none;}",
-                                                          ],
-                                                        },
-                                                        "displayName": "NavItem__Container",
-                                                        "foldedComponentIds": Array [],
-                                                        "render": [Function],
-                                                        "styledComponentId": "NavItem__Container-a312fv-0",
-                                                        "target": "a",
-                                                        "toString": [Function],
-                                                        "warnTooManyClasses": [Function],
-                                                        "withComponent": [Function],
-                                                      }
-                                                    }
-                                                    forwardedRef={null}
-                                                    href="#Projects"
-                                                    onClick={[Function]}
-                                                  >
-                                                    <a
-                                                      className="NavItem__Container-a312fv-0 hzhptI"
-                                                      data-test-id="nav-link"
-                                                      href="#Projects"
-                                                      onClick={[Function]}
-                                                    >
-                                                      <Translate
-                                                        id="Projects"
-                                                      >
-                                                        <WrappedTranslate
-                                                          context={
-                                                            Object {
-                                                              "activeLanguage": undefined,
-                                                              "addTranslation": [Function],
-                                                              "addTranslationForLanguage": [Function],
-                                                              "defaultLanguage": undefined,
-                                                              "ignoreTranslateChildren": false,
-                                                              "initialize": [Function],
-                                                              "languages": Array [],
-                                                              "renderToStaticMarkup": false,
-                                                              "setActiveLanguage": [Function],
-                                                              "translate": [Function],
-                                                            }
-                                                          }
-                                                          id="Projects"
-                                                        >
-                                                          Missing translationId: Projects for language: \${ languageCode }
-                                                        </WrappedTranslate>
-                                                      </Translate>
-                                                    </a>
-                                                  </StyledComponent>
-                                                </NavItem__Container>
-                                              </NavItem>
-                                            </li>
-                                          </StyledComponent>
-                                        </NavContent__NavLi>
-                                        <NavContent__NavLi
-                                          key="Certifications"
+                                              Missing translationId: Projects for language: \${ languageCode }
+                                            </WrappedTranslate>
+                                          </Translate>
+                                        </a>
+                                      </NavItem__Container>
+                                    </NavItem>
+                                  </li>
+                                </NavContent__NavLi>
+                                <NavContent__NavLi
+                                  key="Certifications"
+                                >
+                                  <li
+                                    className="NavContent__NavLi-sc-1bgb07m-2 gnuOKH"
+                                  >
+                                    <NavItem
+                                      isSelected={false}
+                                      page="Certifications"
+                                      setSelectedPage={[Function]}
+                                    >
+                                      <NavItem__Container
+                                        data-test-id="nav-link"
+                                        href="#Certifications"
+                                        onClick={[Function]}
+                                      >
+                                        <a
+                                          className="NavItem__Container-a312fv-0 dSWZyj"
+                                          data-test-id="nav-link"
+                                          href="#Certifications"
+                                          onClick={[Function]}
                                         >
-                                          <StyledComponent
-                                            forwardedComponent={
-                                              Object {
-                                                "$$typeof": Symbol(react.forward_ref),
-                                                "attrs": Array [],
-                                                "componentStyle": ComponentStyle {
-                                                  "componentId": "NavContent__NavLi-sc-1bgb07m-2",
-                                                  "isStatic": false,
-                                                  "lastClassName": "kzVeLC",
-                                                  "rules": Array [
-                                                    "display:inline-block;margin-left:18px;@media screen and (max-width:800px){margin:0 9px;display:block;border-bottom:1px dashed ",
-                                                    [Function],
-                                                    ";}",
-                                                  ],
-                                                },
-                                                "displayName": "NavContent__NavLi",
-                                                "foldedComponentIds": Array [],
-                                                "render": [Function],
-                                                "styledComponentId": "NavContent__NavLi-sc-1bgb07m-2",
-                                                "target": "li",
-                                                "toString": [Function],
-                                                "warnTooManyClasses": [Function],
-                                                "withComponent": [Function],
-                                              }
-                                            }
-                                            forwardedRef={null}
+                                          <Translate
+                                            id="Certifications"
                                           >
-                                            <li
-                                              className="NavContent__NavLi-sc-1bgb07m-2 kzVeLC"
+                                            <WrappedTranslate
+                                              context={
+                                                Object {
+                                                  "activeLanguage": undefined,
+                                                  "addTranslation": [Function],
+                                                  "addTranslationForLanguage": [Function],
+                                                  "defaultLanguage": undefined,
+                                                  "ignoreTranslateChildren": false,
+                                                  "initialize": [Function],
+                                                  "languages": Array [],
+                                                  "renderToStaticMarkup": false,
+                                                  "setActiveLanguage": [Function],
+                                                  "translate": [Function],
+                                                }
+                                              }
+                                              id="Certifications"
                                             >
-                                              <NavItem
-                                                isSelected={false}
-                                                page="Certifications"
-                                                setSelectedPage={[Function]}
-                                              >
-                                                <NavItem__Container
-                                                  data-test-id="nav-link"
-                                                  href="#Certifications"
-                                                  onClick={[Function]}
-                                                >
-                                                  <StyledComponent
-                                                    data-test-id="nav-link"
-                                                    forwardedComponent={
-                                                      Object {
-                                                        "$$typeof": Symbol(react.forward_ref),
-                                                        "attrs": Array [],
-                                                        "componentStyle": ComponentStyle {
-                                                          "componentId": "NavItem__Container-a312fv-0",
-                                                          "isStatic": false,
-                                                          "lastClassName": "hzhptI",
-                                                          "rules": Array [
-                                                            "line-height:",
-                                                            [Function],
-                                                            ";font-size:",
-                                                            [Function],
-                                                            ";transition:color 0.5s;&:hover{color:",
-                                                            [Function],
-                                                            ";border:none;}@media screen and (max-width:800px){line-height:2;border-bottom:none;}",
-                                                          ],
-                                                        },
-                                                        "displayName": "NavItem__Container",
-                                                        "foldedComponentIds": Array [],
-                                                        "render": [Function],
-                                                        "styledComponentId": "NavItem__Container-a312fv-0",
-                                                        "target": "a",
-                                                        "toString": [Function],
-                                                        "warnTooManyClasses": [Function],
-                                                        "withComponent": [Function],
-                                                      }
-                                                    }
-                                                    forwardedRef={null}
-                                                    href="#Certifications"
-                                                    onClick={[Function]}
-                                                  >
-                                                    <a
-                                                      className="NavItem__Container-a312fv-0 hzhptI"
-                                                      data-test-id="nav-link"
-                                                      href="#Certifications"
-                                                      onClick={[Function]}
-                                                    >
-                                                      <Translate
-                                                        id="Certifications"
-                                                      >
-                                                        <WrappedTranslate
-                                                          context={
-                                                            Object {
-                                                              "activeLanguage": undefined,
-                                                              "addTranslation": [Function],
-                                                              "addTranslationForLanguage": [Function],
-                                                              "defaultLanguage": undefined,
-                                                              "ignoreTranslateChildren": false,
-                                                              "initialize": [Function],
-                                                              "languages": Array [],
-                                                              "renderToStaticMarkup": false,
-                                                              "setActiveLanguage": [Function],
-                                                              "translate": [Function],
-                                                            }
-                                                          }
-                                                          id="Certifications"
-                                                        >
-                                                          Missing translationId: Certifications for language: \${ languageCode }
-                                                        </WrappedTranslate>
-                                                      </Translate>
-                                                    </a>
-                                                  </StyledComponent>
-                                                </NavItem__Container>
-                                              </NavItem>
-                                            </li>
-                                          </StyledComponent>
-                                        </NavContent__NavLi>
-                                        <NavContent__NavLi
-                                          key="Contacts"
+                                              Missing translationId: Certifications for language: \${ languageCode }
+                                            </WrappedTranslate>
+                                          </Translate>
+                                        </a>
+                                      </NavItem__Container>
+                                    </NavItem>
+                                  </li>
+                                </NavContent__NavLi>
+                                <NavContent__NavLi
+                                  key="Contacts"
+                                >
+                                  <li
+                                    className="NavContent__NavLi-sc-1bgb07m-2 gnuOKH"
+                                  >
+                                    <NavItem
+                                      isSelected={false}
+                                      page="Contacts"
+                                      setSelectedPage={[Function]}
+                                    >
+                                      <NavItem__Container
+                                        data-test-id="nav-link"
+                                        href="#Contacts"
+                                        onClick={[Function]}
+                                      >
+                                        <a
+                                          className="NavItem__Container-a312fv-0 dSWZyj"
+                                          data-test-id="nav-link"
+                                          href="#Contacts"
+                                          onClick={[Function]}
                                         >
-                                          <StyledComponent
-                                            forwardedComponent={
-                                              Object {
-                                                "$$typeof": Symbol(react.forward_ref),
-                                                "attrs": Array [],
-                                                "componentStyle": ComponentStyle {
-                                                  "componentId": "NavContent__NavLi-sc-1bgb07m-2",
-                                                  "isStatic": false,
-                                                  "lastClassName": "kzVeLC",
-                                                  "rules": Array [
-                                                    "display:inline-block;margin-left:18px;@media screen and (max-width:800px){margin:0 9px;display:block;border-bottom:1px dashed ",
-                                                    [Function],
-                                                    ";}",
-                                                  ],
-                                                },
-                                                "displayName": "NavContent__NavLi",
-                                                "foldedComponentIds": Array [],
-                                                "render": [Function],
-                                                "styledComponentId": "NavContent__NavLi-sc-1bgb07m-2",
-                                                "target": "li",
-                                                "toString": [Function],
-                                                "warnTooManyClasses": [Function],
-                                                "withComponent": [Function],
-                                              }
-                                            }
-                                            forwardedRef={null}
+                                          <Translate
+                                            id="Contacts"
                                           >
-                                            <li
-                                              className="NavContent__NavLi-sc-1bgb07m-2 kzVeLC"
+                                            <WrappedTranslate
+                                              context={
+                                                Object {
+                                                  "activeLanguage": undefined,
+                                                  "addTranslation": [Function],
+                                                  "addTranslationForLanguage": [Function],
+                                                  "defaultLanguage": undefined,
+                                                  "ignoreTranslateChildren": false,
+                                                  "initialize": [Function],
+                                                  "languages": Array [],
+                                                  "renderToStaticMarkup": false,
+                                                  "setActiveLanguage": [Function],
+                                                  "translate": [Function],
+                                                }
+                                              }
+                                              id="Contacts"
                                             >
-                                              <NavItem
-                                                isSelected={false}
-                                                page="Contacts"
-                                                setSelectedPage={[Function]}
-                                              >
-                                                <NavItem__Container
-                                                  data-test-id="nav-link"
-                                                  href="#Contacts"
-                                                  onClick={[Function]}
-                                                >
-                                                  <StyledComponent
-                                                    data-test-id="nav-link"
-                                                    forwardedComponent={
-                                                      Object {
-                                                        "$$typeof": Symbol(react.forward_ref),
-                                                        "attrs": Array [],
-                                                        "componentStyle": ComponentStyle {
-                                                          "componentId": "NavItem__Container-a312fv-0",
-                                                          "isStatic": false,
-                                                          "lastClassName": "hzhptI",
-                                                          "rules": Array [
-                                                            "line-height:",
-                                                            [Function],
-                                                            ";font-size:",
-                                                            [Function],
-                                                            ";transition:color 0.5s;&:hover{color:",
-                                                            [Function],
-                                                            ";border:none;}@media screen and (max-width:800px){line-height:2;border-bottom:none;}",
-                                                          ],
-                                                        },
-                                                        "displayName": "NavItem__Container",
-                                                        "foldedComponentIds": Array [],
-                                                        "render": [Function],
-                                                        "styledComponentId": "NavItem__Container-a312fv-0",
-                                                        "target": "a",
-                                                        "toString": [Function],
-                                                        "warnTooManyClasses": [Function],
-                                                        "withComponent": [Function],
-                                                      }
-                                                    }
-                                                    forwardedRef={null}
-                                                    href="#Contacts"
-                                                    onClick={[Function]}
-                                                  >
-                                                    <a
-                                                      className="NavItem__Container-a312fv-0 hzhptI"
-                                                      data-test-id="nav-link"
-                                                      href="#Contacts"
-                                                      onClick={[Function]}
-                                                    >
-                                                      <Translate
-                                                        id="Contacts"
-                                                      >
-                                                        <WrappedTranslate
-                                                          context={
-                                                            Object {
-                                                              "activeLanguage": undefined,
-                                                              "addTranslation": [Function],
-                                                              "addTranslationForLanguage": [Function],
-                                                              "defaultLanguage": undefined,
-                                                              "ignoreTranslateChildren": false,
-                                                              "initialize": [Function],
-                                                              "languages": Array [],
-                                                              "renderToStaticMarkup": false,
-                                                              "setActiveLanguage": [Function],
-                                                              "translate": [Function],
-                                                            }
-                                                          }
-                                                          id="Contacts"
-                                                        >
-                                                          Missing translationId: Contacts for language: \${ languageCode }
-                                                        </WrappedTranslate>
-                                                      </Translate>
-                                                    </a>
-                                                  </StyledComponent>
-                                                </NavItem__Container>
-                                              </NavItem>
-                                            </li>
-                                          </StyledComponent>
-                                        </NavContent__NavLi>
-                                      </ul>
-                                    </nav>
-                                  </StyledComponent>
-                                </NavContent__NavMenu>
-                              </div>
-                            </Col>
-                          </div>
-                        </ForwardRef>
-                      </div>
-                    </Container>
-                  </StyledComponent>
-                </MobileContainer>
-              </div>
-            </StyledComponent>
-          </NavContent__NavContainer>
-        </NavContent>
-      </header>
-    </StyledComponent>
+                                              Missing translationId: Contacts for language: \${ languageCode }
+                                            </WrappedTranslate>
+                                          </Translate>
+                                        </a>
+                                      </NavItem__Container>
+                                    </NavItem>
+                                  </li>
+                                </NavContent__NavLi>
+                              </ul>
+                            </nav>
+                          </NavContent__NavMenu>
+                        </div>
+                      </Col>
+                    </div>
+                  </ForwardRef>
+                </div>
+              </Container>
+            </MobileContainer>
+          </div>
+        </NavContent__NavContainer>
+      </NavContent>
+    </header>
   </Navbar__MainHeader>
 </Navbar>
 `;
