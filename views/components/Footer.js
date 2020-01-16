@@ -1,15 +1,30 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import GoTop from '~/views/components/footer/GoTop'
+import { Container, Row, Col } from 'react-bootstrap'
+import { FaGithub } from 'react-icons/fa'
 
 const Footer = () => (
   <FooterContainer>
-    <div className="container">
-      <CopyRight>
-        &copy;&nbsp;<Bold>Phat Ho</Bold>
-      </CopyRight>
-      <GoTop />
-    </div>
+    <Container>
+      <Row>
+        <Col md={4} xs={4}>
+          <CopyRight>
+            &copy;&nbsp;<Bold>Phat Ho</Bold>
+          </CopyRight>
+        </Col>
+        <Col
+          md={{ span: 4, offset: 4 }}
+          xs={{ span: 4, offset: 4 }}
+          className="d-flex justify-content-end"
+        >
+          <GitLogo href="https://github.com/DeKal/portfolio-next-js">
+            <FaGithub size="40px"></FaGithub>
+          </GitLogo>
+        </Col>
+        <GoTop />
+      </Row>
+    </Container>
   </FooterContainer>
 )
 
@@ -52,4 +67,19 @@ const CopyRight = styled.p`
 
 const Bold = styled.span`
   font-weight: bold;
+`
+
+const GitLogo = styled.a`
+  color: ${props => props.theme.colors.colorLight};
+  padding-top: 5px;
+  border: none;
+
+  &:hover {
+    color: ${props => props.theme.colors.colorDark};
+    text-decoration: none;
+  }
+
+  &:active {
+    color: ${props => props.theme.colors.colorDark};
+  }
 `
