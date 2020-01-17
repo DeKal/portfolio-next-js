@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Error from '~/views/components/Error'
+import Error from '~/views/home/components/Error'
 
 const ErrorPage = ({ statusCode }) => <Error statusCode={statusCode} />
 

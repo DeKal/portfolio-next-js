@@ -1,0 +1,374 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Project should render without throwing an error 1`] = `
+<Project>
+  <Container>
+    <Container__Style>
+      <section
+        className="Container__Style-u3rq5p-0 jJoRvR"
+      >
+        <Anchor
+          id="Projects"
+          top={-40}
+        >
+          <span
+            className="Anchor-sc-6rgj1q-0 fUCVuw"
+            id="Projects"
+          />
+        </Anchor>
+        <Header>
+          <Header__Container>
+            <header
+              className="Header__Container-sc-1cvg7gs-0 dABvpt"
+            >
+              <h2>
+                <Translate
+                  id="Project: Title"
+                >
+                  <WrappedTranslate
+                    context={
+                      Object {
+                        "activeLanguage": undefined,
+                        "addTranslation": [Function],
+                        "addTranslationForLanguage": [Function],
+                        "defaultLanguage": undefined,
+                        "ignoreTranslateChildren": false,
+                        "initialize": [Function],
+                        "languages": Array [],
+                        "renderToStaticMarkup": false,
+                        "setActiveLanguage": [Function],
+                        "translate": [Function],
+                      }
+                    }
+                    id="Project: Title"
+                  >
+                    Missing translationId: Project: Title for language: \${ languageCode }
+                  </WrappedTranslate>
+                </Translate>
+              </h2>
+              <h4>
+                <Translate
+                  id="Project: SubTitle"
+                >
+                  <WrappedTranslate
+                    context={
+                      Object {
+                        "activeLanguage": undefined,
+                        "addTranslation": [Function],
+                        "addTranslationForLanguage": [Function],
+                        "defaultLanguage": undefined,
+                        "ignoreTranslateChildren": false,
+                        "initialize": [Function],
+                        "languages": Array [],
+                        "renderToStaticMarkup": false,
+                        "setActiveLanguage": [Function],
+                        "translate": [Function],
+                      }
+                    }
+                    id="Project: SubTitle"
+                  >
+                    Missing translationId: Project: SubTitle for language: \${ languageCode }
+                  </WrappedTranslate>
+                </Translate>
+              </h4>
+            </header>
+          </Header__Container>
+        </Header>
+        <Content>
+          <Content__NoPaddingContainer>
+            <Container
+              className="Content__NoPaddingContainer-sc-17i3y13-0 iFAtVK"
+              fluid={false}
+            >
+              <div
+                className="Content__NoPaddingContainer-sc-17i3y13-0 iFAtVK container"
+              >
+                <ForwardRef
+                  noGutters={true}
+                >
+                  <div
+                    className="row no-gutters"
+                  >
+                    <Item
+                      hoverTitle="Brand360 project"
+                      imgAlt="Brand 360"
+                      imgSrc="/images/projects/brand360.jpg"
+                      linkToWeb="http://brand360.vn/"
+                    >
+                      <Col
+                        md={3}
+                        sm={6}
+                        xs={12}
+                      >
+                        <div
+                          className="col-md-3 col-sm-6 col-12"
+                        >
+                          <Item__Container>
+                            <figure
+                              className="Item__Container-sc-1lt0yq1-0 jQHbfr"
+                            >
+                              <Item__Image
+                                alt="Brand 360"
+                                src="/images/projects/brand360.jpg"
+                              >
+                                <img
+                                  alt="Brand 360"
+                                  className="Item__Image-sc-1lt0yq1-1 cMxERv"
+                                  src="/images/projects/brand360.jpg"
+                                />
+                              </Item__Image>
+                              <Caption
+                                hoverTitle="Brand360 project"
+                                linkToWeb="http://brand360.vn/"
+                              >
+                                <Caption__Container>
+                                  <figcaption
+                                    className="Caption__Container-sc-11nxcfb-0 cBRPgz"
+                                  >
+                                    <Caption__Link
+                                      href="http://brand360.vn/"
+                                      rel="nofollow"
+                                    >
+                                      <a
+                                        className="Caption__Link-sc-11nxcfb-1 RmdYI"
+                                        href="http://brand360.vn/"
+                                        rel="nofollow"
+                                      >
+                                        <Icon
+                                          name="link"
+                                        >
+                                          <Icon__Symbol
+                                            name="link"
+                                          >
+                                            <div
+                                              className="Icon__Symbol-lmunz5-0 hWOxA"
+                                              name="link"
+                                            />
+                                          </Icon__Symbol>
+                                        </Icon>
+                                        Brand360 project
+                                      </a>
+                                    </Caption__Link>
+                                  </figcaption>
+                                </Caption__Container>
+                              </Caption>
+                            </figure>
+                          </Item__Container>
+                        </div>
+                      </Col>
+                    </Item>
+                    <Item
+                      hoverTitle="Masan Report"
+                      imgAlt="Report application for Masan"
+                      imgSrc="/images/projects/anco.jpg"
+                      linkToWeb=""
+                    >
+                      <Col
+                        md={3}
+                        sm={6}
+                        xs={12}
+                      >
+                        <div
+                          className="col-md-3 col-sm-6 col-12"
+                        >
+                          <Item__Container>
+                            <figure
+                              className="Item__Container-sc-1lt0yq1-0 jQHbfr"
+                            >
+                              <Item__Image
+                                alt="Report application for Masan"
+                                src="/images/projects/anco.jpg"
+                              >
+                                <img
+                                  alt="Report application for Masan"
+                                  className="Item__Image-sc-1lt0yq1-1 cMxERv"
+                                  src="/images/projects/anco.jpg"
+                                />
+                              </Item__Image>
+                              <Caption
+                                hoverTitle="Masan Report"
+                                linkToWeb=""
+                              >
+                                <Caption__Container>
+                                  <figcaption
+                                    className="Caption__Container-sc-11nxcfb-0 cBRPgz"
+                                  >
+                                    <Caption__Link
+                                      href=""
+                                      rel="nofollow"
+                                    >
+                                      <a
+                                        className="Caption__Link-sc-11nxcfb-1 RmdYI"
+                                        href=""
+                                        rel="nofollow"
+                                      >
+                                        <Icon
+                                          name="link"
+                                        >
+                                          <Icon__Symbol
+                                            name="link"
+                                          >
+                                            <div
+                                              className="Icon__Symbol-lmunz5-0 hWOxA"
+                                              name="link"
+                                            />
+                                          </Icon__Symbol>
+                                        </Icon>
+                                        Masan Report
+                                      </a>
+                                    </Caption__Link>
+                                  </figcaption>
+                                </Caption__Container>
+                              </Caption>
+                            </figure>
+                          </Item__Container>
+                        </div>
+                      </Col>
+                    </Item>
+                    <Item
+                      hoverTitle="Tam An Web"
+                      imgAlt="Tam An Web"
+                      imgSrc="/images/projects/taman.jpg"
+                      linkToWeb="https://github.com/DeKal/Tam-An-Food-Store-Manager"
+                    >
+                      <Col
+                        md={3}
+                        sm={6}
+                        xs={12}
+                      >
+                        <div
+                          className="col-md-3 col-sm-6 col-12"
+                        >
+                          <Item__Container>
+                            <figure
+                              className="Item__Container-sc-1lt0yq1-0 jQHbfr"
+                            >
+                              <Item__Image
+                                alt="Tam An Web"
+                                src="/images/projects/taman.jpg"
+                              >
+                                <img
+                                  alt="Tam An Web"
+                                  className="Item__Image-sc-1lt0yq1-1 cMxERv"
+                                  src="/images/projects/taman.jpg"
+                                />
+                              </Item__Image>
+                              <Caption
+                                hoverTitle="Tam An Web"
+                                linkToWeb="https://github.com/DeKal/Tam-An-Food-Store-Manager"
+                              >
+                                <Caption__Container>
+                                  <figcaption
+                                    className="Caption__Container-sc-11nxcfb-0 cBRPgz"
+                                  >
+                                    <Caption__Link
+                                      href="https://github.com/DeKal/Tam-An-Food-Store-Manager"
+                                      rel="nofollow"
+                                    >
+                                      <a
+                                        className="Caption__Link-sc-11nxcfb-1 RmdYI"
+                                        href="https://github.com/DeKal/Tam-An-Food-Store-Manager"
+                                        rel="nofollow"
+                                      >
+                                        <Icon
+                                          name="link"
+                                        >
+                                          <Icon__Symbol
+                                            name="link"
+                                          >
+                                            <div
+                                              className="Icon__Symbol-lmunz5-0 hWOxA"
+                                              name="link"
+                                            />
+                                          </Icon__Symbol>
+                                        </Icon>
+                                        Tam An Web
+                                      </a>
+                                    </Caption__Link>
+                                  </figcaption>
+                                </Caption__Container>
+                              </Caption>
+                            </figure>
+                          </Item__Container>
+                        </div>
+                      </Col>
+                    </Item>
+                    <Item
+                      hoverTitle="2048 Fun Games"
+                      imgAlt="2048 Fun Games"
+                      imgSrc="/images/projects/2048.jpg"
+                      linkToWeb="https://github.com/DeKal/2048"
+                    >
+                      <Col
+                        md={3}
+                        sm={6}
+                        xs={12}
+                      >
+                        <div
+                          className="col-md-3 col-sm-6 col-12"
+                        >
+                          <Item__Container>
+                            <figure
+                              className="Item__Container-sc-1lt0yq1-0 jQHbfr"
+                            >
+                              <Item__Image
+                                alt="2048 Fun Games"
+                                src="/images/projects/2048.jpg"
+                              >
+                                <img
+                                  alt="2048 Fun Games"
+                                  className="Item__Image-sc-1lt0yq1-1 cMxERv"
+                                  src="/images/projects/2048.jpg"
+                                />
+                              </Item__Image>
+                              <Caption
+                                hoverTitle="2048 Fun Games"
+                                linkToWeb="https://github.com/DeKal/2048"
+                              >
+                                <Caption__Container>
+                                  <figcaption
+                                    className="Caption__Container-sc-11nxcfb-0 cBRPgz"
+                                  >
+                                    <Caption__Link
+                                      href="https://github.com/DeKal/2048"
+                                      rel="nofollow"
+                                    >
+                                      <a
+                                        className="Caption__Link-sc-11nxcfb-1 RmdYI"
+                                        href="https://github.com/DeKal/2048"
+                                        rel="nofollow"
+                                      >
+                                        <Icon
+                                          name="link"
+                                        >
+                                          <Icon__Symbol
+                                            name="link"
+                                          >
+                                            <div
+                                              className="Icon__Symbol-lmunz5-0 hWOxA"
+                                              name="link"
+                                            />
+                                          </Icon__Symbol>
+                                        </Icon>
+                                        2048 Fun Games
+                                      </a>
+                                    </Caption__Link>
+                                  </figcaption>
+                                </Caption__Container>
+                              </Caption>
+                            </figure>
+                          </Item__Container>
+                        </div>
+                      </Col>
+                    </Item>
+                  </div>
+                </ForwardRef>
+              </div>
+            </Container>
+          </Content__NoPaddingContainer>
+        </Content>
+      </section>
+    </Container__Style>
+  </Container>
+</Project>
+`;
