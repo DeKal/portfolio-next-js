@@ -3,7 +3,7 @@
 exports[`Nav Item should render Normal NavItem 1`] = `
 <NavItem__Container
   data-test-id="nav-link"
-  href="#Home"
+  href="/#Home"
   onClick={[Function]}
 >
   <Translate

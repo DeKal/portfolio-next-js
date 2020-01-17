@@ -40,17 +40,17 @@ const NavContent = ({ isShowNavContent }) => {
     <NavContainer isShowNavContent={isShowNavContent}>
       <MobileContainer>
         <Row>
-          <Col md={2}>
+          <Col lg={2}>
             <NavLogo />
           </Col>
           <Col fluid="true">
             <NavMenu>
               <ul>
                 {PAGE_LIST.map(page => (
-                  <NavLi key={page}>
+                  <NavLi key={page.name}>
                     <NavItem
                       page={page}
-                      isSelected={selectedPage === page}
+                      isSelected={selectedPage === page.cmpName}
                       setSelectedPage={setSelectedPage}
                     />
                   </NavLi>
@@ -81,7 +81,9 @@ const NavContainer = styled.div`
 
   @media screen and (max-width: 800px) {
     margin-top: ${props =>
-      props.isShowNavContent ? props.theme.navHeaderHeight : `-200px`};
+      props.isShowNavContent
+        ? props.theme.navHeaderHeight
+        : props.theme.navPosWhenHiding};
   }
 `
 const NavMenu = styled.nav`

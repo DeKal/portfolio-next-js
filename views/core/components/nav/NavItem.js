@@ -6,23 +6,26 @@ import { Translate } from 'react-localize-redux'
 const NavItem = ({ page, isSelected, setSelectedPage }) => {
   return isSelected ? (
     <SelectedContainer>
-      <Translate id={page} />
+      <Translate id={page.name} />
     </SelectedContainer>
   ) : (
     <Container
       data-test-id="nav-link"
-      href={`#${page}`}
+      href={page.url}
       onClick={() => {
-        setSelectedPage(page)
+        setSelectedPage(page.name)
       }}
     >
-      <Translate id={page} />
+      <Translate id={page.name} />
     </Container>
   )
 }
 
 NavItem.propTypes = {
-  page: PropTypes.string,
+  page: PropTypes.shape({
+    url: PropTypes.string,
+    name: PropTypes.string
+  }),
   isSelected: PropTypes.bool,
   setSelectedPage: PropTypes.func
 }

@@ -2,12 +2,17 @@ import * as React from 'react'
 import { shallowWithTheme, mountWithTheme } from '~/utils/withThemeProviders'
 import NavItem from '~/views/core/components/nav/NavItem'
 
+const page = {
+  name: "Home",
+  url: `/#Home`,
+  cmpName: "Home"
+}
 describe('Nav Item', () => {
   it('should render Selected NavItem', function() {
     const setSelectedPage = jest.fn()
 
     const tree = shallowWithTheme(
-      <NavItem page={'Home'} isSelected setSelectedPage={setSelectedPage} />
+      <NavItem page={page} isSelected setSelectedPage={setSelectedPage} />
     )
     expect(tree).toMatchSnapshot()
   })
@@ -16,7 +21,7 @@ describe('Nav Item', () => {
     const setSelectedPage = jest.fn()
 
     const tree = shallowWithTheme(
-      <NavItem page={'Home'} setSelectedPage={setSelectedPage} />
+      <NavItem page={page} setSelectedPage={setSelectedPage} />
     )
     expect(tree).toMatchSnapshot()
   })
@@ -25,7 +30,7 @@ describe('Nav Item', () => {
     const setSelectedPage = jest.fn()
 
     const tree = mountWithTheme(
-      <NavItem page={'Home'} setSelectedPage={setSelectedPage} />
+      <NavItem page={page} setSelectedPage={setSelectedPage} />
     )
     tree.find('a[data-test-id="nav-link"]').simulate('click')
     expect(setSelectedPage.mock.calls.length).toEqual(1)

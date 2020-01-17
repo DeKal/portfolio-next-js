@@ -59,6 +59,7 @@ exports[`Theme Provider Selector should render for christmas day without throwin
       "navContentMinHeight": "80px",
       "navHeaderHeight": "40px",
       "navHeightWhenScrollingOnMobile": "45px",
+      "navPosWhenHiding": "-220px",
       "productImageRatio": "143%",
       "spaces": Object {
         "gutter": 16,
@@ -131,6 +132,7 @@ exports[`Theme Provider Selector should render for christmas day without throwin
         "navContentMinHeight": "80px",
         "navHeaderHeight": "40px",
         "navHeightWhenScrollingOnMobile": "45px",
+        "navPosWhenHiding": "-220px",
         "productImageRatio": "143%",
         "spaces": Object {
           "gutter": 16,
@@ -207,6 +209,7 @@ exports[`Theme Provider Selector should render for new year day without throwing
       "navContentMinHeight": "80px",
       "navHeaderHeight": "40px",
       "navHeightWhenScrollingOnMobile": "45px",
+      "navPosWhenHiding": "-220px",
       "productImageRatio": "143%",
       "spaces": Object {
         "gutter": 16,
@@ -280,6 +283,7 @@ exports[`Theme Provider Selector should render for new year day without throwing
         "navContentMinHeight": "80px",
         "navHeaderHeight": "40px",
         "navHeightWhenScrollingOnMobile": "45px",
+        "navPosWhenHiding": "-220px",
         "productImageRatio": "143%",
         "spaces": Object {
           "gutter": 16,
@@ -357,6 +361,7 @@ exports[`Theme Provider Selector should render for normal day without throwing a
       "navContentMinHeight": "80px",
       "navHeaderHeight": "40px",
       "navHeightWhenScrollingOnMobile": "45px",
+      "navPosWhenHiding": "-220px",
       "productImageRatio": "143%",
       "spaces": Object {
         "gutter": 16,
@@ -429,6 +434,7 @@ exports[`Theme Provider Selector should render for normal day without throwing a
         "navContentMinHeight": "80px",
         "navHeaderHeight": "40px",
         "navHeightWhenScrollingOnMobile": "45px",
+        "navPosWhenHiding": "-220px",
         "productImageRatio": "143%",
         "spaces": Object {
           "gutter": 16,
@@ -505,6 +511,7 @@ exports[`Theme Provider Selector should render for tet without throwing an error
       "navContentMinHeight": "80px",
       "navHeaderHeight": "40px",
       "navHeightWhenScrollingOnMobile": "45px",
+      "navPosWhenHiding": "-220px",
       "productImageRatio": "143%",
       "spaces": Object {
         "gutter": 16,
@@ -578,6 +585,7 @@ exports[`Theme Provider Selector should render for tet without throwing an error
         "navContentMinHeight": "80px",
         "navHeaderHeight": "40px",
         "navHeightWhenScrollingOnMobile": "45px",
+        "navPosWhenHiding": "-220px",
         "productImageRatio": "143%",
         "spaces": Object {
           "gutter": 16,

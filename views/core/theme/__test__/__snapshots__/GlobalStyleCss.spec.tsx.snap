@@ -59,6 +59,7 @@ exports[`GlobalStyleCss should render defaultTheme without throwing an error 1`]
       "navContentMinHeight": "80px",
       "navHeaderHeight": "40px",
       "navHeightWhenScrollingOnMobile": "45px",
+      "navPosWhenHiding": "-220px",
       "productImageRatio": "143%",
       "spaces": Object {
         "gutter": 16,
@@ -169,6 +170,7 @@ exports[`GlobalStyleCss should render newyearTheme without throwing an error 1`]
       "navContentMinHeight": "80px",
       "navHeaderHeight": "40px",
       "navHeightWhenScrollingOnMobile": "45px",
+      "navPosWhenHiding": "-220px",
       "productImageRatio": "143%",
       "spaces": Object {
         "gutter": 16,
@@ -280,6 +282,7 @@ exports[`GlobalStyleCss should render xmasTheme without throwing an error 1`] = 
       "navContentMinHeight": "80px",
       "navHeaderHeight": "40px",
       "navHeightWhenScrollingOnMobile": "45px",
+      "navPosWhenHiding": "-220px",
       "productImageRatio": "143%",
       "spaces": Object {
         "gutter": 16,
