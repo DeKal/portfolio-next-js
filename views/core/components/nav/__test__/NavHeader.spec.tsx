@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { mountWithTheme, shallowWithTheme } from '~/utils/withThemeProviders'
-import NavHeader from '~/views/home/components/nav/NavHeader'
+import NavHeader from '~/views/core/components/nav/NavHeader'
 
 describe('Nav Header', () => {
   it('should render when show NavContent', function() {

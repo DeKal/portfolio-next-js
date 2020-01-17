@@ -8,7 +8,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
     isShowNavContent={false}
   >
     <div
-      className="NavContent__NavContainer-sc-1fjhoh9-0 fhOncd"
+      className="NavContent__NavContainer-sc-14r5cpy-0 ePDTbw"
     >
       <MobileContainer>
         <Container
@@ -35,12 +35,12 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                         href="https://github.com/DeKal/portfolio-next-js"
                       >
                         <a
-                          className="NavLogo__Logo-sc-94vjc7-0 invqvT"
+                          className="NavLogo__Logo-sc-14wvy38-0 wBGuq"
                           href="https://github.com/DeKal/portfolio-next-js"
                         >
                           <NavLogo__LogoText>
                             <span
-                              className="NavLogo__LogoText-sc-94vjc7-1 iMA-dJr"
+                              className="NavLogo__LogoText-sc-14wvy38-1 kbehzi"
                             >
                               JD
                             </span>
@@ -59,14 +59,14 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                   >
                     <NavContent__NavMenu>
                       <nav
-                        className="NavContent__NavMenu-sc-1fjhoh9-1 hJvlsz"
+                        className="NavContent__NavMenu-sc-14r5cpy-1 ifxgCa"
                       >
                         <ul>
                           <NavContent__NavLi
                             key="Home"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1fjhoh9-2 uiPJU"
+                              className="NavContent__NavLi-sc-14r5cpy-2 dQAysX"
                             >
                               <NavItem
                                 isSelected={true}
@@ -75,7 +75,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                               >
                                 <NavItem__SelectedContainer>
                                   <a
-                                    className="NavItem__Container-sc-1wmlvlx-0 NavItem__SelectedContainer-sc-1wmlvlx-1 kXqssD"
+                                    className="NavItem__Container-sc-1f6z3ag-0 NavItem__SelectedContainer-sc-1f6z3ag-1 lnvmnO"
                                   >
                                     <Translate
                                       id="Home"
@@ -109,7 +109,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                             key="About"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1fjhoh9-2 uiPJU"
+                              className="NavContent__NavLi-sc-14r5cpy-2 dQAysX"
                             >
                               <NavItem
                                 isSelected={false}
@@ -122,7 +122,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1wmlvlx-0 ygPuK"
+                                    className="NavItem__Container-sc-1f6z3ag-0 cYcjaB"
                                     data-test-id="nav-link"
                                     href="#About"
                                     onClick={[Function]}
@@ -159,7 +159,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                             key="Experiences"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1fjhoh9-2 uiPJU"
+                              className="NavContent__NavLi-sc-14r5cpy-2 dQAysX"
                             >
                               <NavItem
                                 isSelected={false}
@@ -172,7 +172,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1wmlvlx-0 ygPuK"
+                                    className="NavItem__Container-sc-1f6z3ag-0 cYcjaB"
                                     data-test-id="nav-link"
                                     href="#Experiences"
                                     onClick={[Function]}
@@ -209,7 +209,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                             key="Projects"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1fjhoh9-2 uiPJU"
+                              className="NavContent__NavLi-sc-14r5cpy-2 dQAysX"
                             >
                               <NavItem
                                 isSelected={false}
@@ -222,7 +222,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1wmlvlx-0 ygPuK"
+                                    className="NavItem__Container-sc-1f6z3ag-0 cYcjaB"
                                     data-test-id="nav-link"
                                     href="#Projects"
                                     onClick={[Function]}
@@ -259,7 +259,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                             key="Certifications"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1fjhoh9-2 uiPJU"
+                              className="NavContent__NavLi-sc-14r5cpy-2 dQAysX"
                             >
                               <NavItem
                                 isSelected={false}
@@ -272,7 +272,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1wmlvlx-0 ygPuK"
+                                    className="NavItem__Container-sc-1f6z3ag-0 cYcjaB"
                                     data-test-id="nav-link"
                                     href="#Certifications"
                                     onClick={[Function]}
@@ -309,7 +309,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                             key="Contacts"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1fjhoh9-2 uiPJU"
+                              className="NavContent__NavLi-sc-14r5cpy-2 dQAysX"
                             >
                               <NavItem
                                 isSelected={false}
@@ -322,7 +322,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1wmlvlx-0 ygPuK"
+                                    className="NavItem__Container-sc-1f6z3ag-0 cYcjaB"
                                     data-test-id="nav-link"
                                     href="#Contacts"
                                     onClick={[Function]}
@@ -378,7 +378,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
     isShowNavContent={true}
   >
     <div
-      className="NavContent__NavContainer-sc-1fjhoh9-0 bHOqLp"
+      className="NavContent__NavContainer-sc-14r5cpy-0 iHBLwk"
     >
       <MobileContainer>
         <Container
@@ -405,12 +405,12 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                         href="https://github.com/DeKal/portfolio-next-js"
                       >
                         <a
-                          className="NavLogo__Logo-sc-94vjc7-0 invqvT"
+                          className="NavLogo__Logo-sc-14wvy38-0 wBGuq"
                           href="https://github.com/DeKal/portfolio-next-js"
                         >
                           <NavLogo__LogoText>
                             <span
-                              className="NavLogo__LogoText-sc-94vjc7-1 iMA-dJr"
+                              className="NavLogo__LogoText-sc-14wvy38-1 kbehzi"
                             >
                               JD
                             </span>
@@ -429,14 +429,14 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                   >
                     <NavContent__NavMenu>
                       <nav
-                        className="NavContent__NavMenu-sc-1fjhoh9-1 hJvlsz"
+                        className="NavContent__NavMenu-sc-14r5cpy-1 ifxgCa"
                       >
                         <ul>
                           <NavContent__NavLi
                             key="Home"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1fjhoh9-2 uiPJU"
+                              className="NavContent__NavLi-sc-14r5cpy-2 dQAysX"
                             >
                               <NavItem
                                 isSelected={true}
@@ -445,7 +445,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                               >
                                 <NavItem__SelectedContainer>
                                   <a
-                                    className="NavItem__Container-sc-1wmlvlx-0 NavItem__SelectedContainer-sc-1wmlvlx-1 kXqssD"
+                                    className="NavItem__Container-sc-1f6z3ag-0 NavItem__SelectedContainer-sc-1f6z3ag-1 lnvmnO"
                                   >
                                     <Translate
                                       id="Home"
@@ -479,7 +479,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                             key="About"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1fjhoh9-2 uiPJU"
+                              className="NavContent__NavLi-sc-14r5cpy-2 dQAysX"
                             >
                               <NavItem
                                 isSelected={false}
@@ -492,7 +492,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1wmlvlx-0 ygPuK"
+                                    className="NavItem__Container-sc-1f6z3ag-0 cYcjaB"
                                     data-test-id="nav-link"
                                     href="#About"
                                     onClick={[Function]}
@@ -529,7 +529,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                             key="Experiences"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1fjhoh9-2 uiPJU"
+                              className="NavContent__NavLi-sc-14r5cpy-2 dQAysX"
                             >
                               <NavItem
                                 isSelected={false}
@@ -542,7 +542,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1wmlvlx-0 ygPuK"
+                                    className="NavItem__Container-sc-1f6z3ag-0 cYcjaB"
                                     data-test-id="nav-link"
                                     href="#Experiences"
                                     onClick={[Function]}
@@ -579,7 +579,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                             key="Projects"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1fjhoh9-2 uiPJU"
+                              className="NavContent__NavLi-sc-14r5cpy-2 dQAysX"
                             >
                               <NavItem
                                 isSelected={false}
@@ -592,7 +592,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1wmlvlx-0 ygPuK"
+                                    className="NavItem__Container-sc-1f6z3ag-0 cYcjaB"
                                     data-test-id="nav-link"
                                     href="#Projects"
                                     onClick={[Function]}
@@ -629,7 +629,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                             key="Certifications"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1fjhoh9-2 uiPJU"
+                              className="NavContent__NavLi-sc-14r5cpy-2 dQAysX"
                             >
                               <NavItem
                                 isSelected={false}
@@ -642,7 +642,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1wmlvlx-0 ygPuK"
+                                    className="NavItem__Container-sc-1f6z3ag-0 cYcjaB"
                                     data-test-id="nav-link"
                                     href="#Certifications"
                                     onClick={[Function]}
@@ -679,7 +679,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                             key="Contacts"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1fjhoh9-2 uiPJU"
+                              className="NavContent__NavLi-sc-14r5cpy-2 dQAysX"
                             >
                               <NavItem
                                 isSelected={false}
@@ -692,7 +692,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1wmlvlx-0 ygPuK"
+                                    className="NavItem__Container-sc-1f6z3ag-0 cYcjaB"
                                     data-test-id="nav-link"
                                     href="#Contacts"
                                     onClick={[Function]}

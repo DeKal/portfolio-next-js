@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 
 import styled from 'styled-components/macro'
-import NavHeader from '~/views/home/components/nav/NavHeader'
-import NavContent from '~/views/home/components/nav/NavContent'
+import NavHeader from '~/views/core/components/nav/NavHeader'
+import NavContent from '~/views/core/components/nav/NavContent'
 import { INIT_NAV_CONTENT_SHOW } from '~/consts/initState'
 
 const Navbar = () => {
