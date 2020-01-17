@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Header should render without throwing an error 1`] = `
+<LocalizedComponent>
+  <CardHeader
+    addTranslation={[Function]}
+    addTranslationForLanguage={[Function]}
+    ignoreTranslateChildren={false}
+    initialize={[Function]}
+    languages={Array []}
+    renderToStaticMarkup={false}
+    setActiveLanguage={[Function]}
+    translate={[Function]}
+  >
+    <CardHeader__Header>
+      <header
+        className="CardHeader__Header-qscxnh-0 gYYlMW"
+      >
+        <CardHeader__MainText>
+          <h2
+            className="CardHeader__MainText-qscxnh-1 hJuEVu"
+          >
+            <Translate
+              id="About me"
+            >
+              <WrappedTranslate
+                context={
+                  Object {
+                    "activeLanguage": undefined,
+                    "addTranslation": [Function],
+                    "addTranslationForLanguage": [Function],
+                    "defaultLanguage": undefined,
+                    "ignoreTranslateChildren": false,
+                    "initialize": [Function],
+                    "languages": Array [],
+                    "renderToStaticMarkup": false,
+                    "setActiveLanguage": [Function],
+                    "translate": [Function],
+                  }
+                }
+                id="About me"
+              >
+                Missing translationId: About me for language: \${ languageCode }
+              </WrappedTranslate>
+            </Translate>
+          </h2>
+        </CardHeader__MainText>
+        <CardHeader__SubText>
+          <h4
+            className="CardHeader__SubText-qscxnh-2 gBRNDd"
+          >
+            <Translate
+              id="About Me: Subtext"
+            >
+              <WrappedTranslate
+                context={
+                  Object {
+                    "activeLanguage": undefined,
+                    "addTranslation": [Function],
+                    "addTranslationForLanguage": [Function],
+                    "defaultLanguage": undefined,
+                    "ignoreTranslateChildren": false,
+                    "initialize": [Function],
+                    "languages": Array [],
+                    "renderToStaticMarkup": false,
+                    "setActiveLanguage": [Function],
+                    "translate": [Function],
+                  }
+                }
+                id="About Me: Subtext"
+              >
+                Missing translationId: About Me: Subtext for language: \${ languageCode }
+              </WrappedTranslate>
+            </Translate>
+          </h4>
+        </CardHeader__SubText>
+      </header>
+    </CardHeader__Header>
+  </CardHeader>
+</LocalizedComponent>
+`;

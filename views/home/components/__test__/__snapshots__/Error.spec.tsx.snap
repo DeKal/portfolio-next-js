@@ -1,0 +1,283 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error should render Error Component in general case 1`] = `
+<Error
+  statusCode={999}
+>
+  <Error__Container>
+    <div
+      className="Error__Container-sc-4uqxs4-0 ieKuLm"
+    >
+      <Error__Content>
+        <div
+          className="Error__Content-sc-4uqxs4-1 Japah"
+        >
+          <General>
+            <Layout
+              description="There are some errors happened during the process, please back to home page and try again."
+              title="An error occurred"
+            >
+              <Header>
+                <Header__Container>
+                  <div
+                    className="Header__Container-sc-12819dc-0 gvsaJz"
+                  >
+                    <Header__Style>
+                      <h1
+                        className="Header__Style-sc-12819dc-1 cVQwvk"
+                      >
+                        Oops!
+                      </h1>
+                    </Header__Style>
+                  </div>
+                </Header__Container>
+              </Header>
+              <Title>
+                <h2
+                  className="Title-sc-1veana5-0 WFIKi"
+                >
+                  An error occurred
+                </h2>
+              </Title>
+              <Description>
+                <p
+                  className="Description-m0q6we-0 hHzwcQ"
+                >
+                  There are some errors happened during the process, please back to home page and try again.
+                </p>
+              </Description>
+              <Link
+                href="/"
+              >
+                <Button
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                >
+                  <a
+                    className="Button-sc-8cc99x-0 jMnhRu"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                     Go To Homepage 
+                  </a>
+                </Button>
+              </Link>
+            </Layout>
+          </General>
+        </div>
+      </Error__Content>
+    </div>
+  </Error__Container>
+</Error>
+`;
+
+exports[`Error should render Error Component in undefined case 1`] = `
+<Error>
+  <Error__Container>
+    <div
+      className="Error__Container-sc-4uqxs4-0 ieKuLm"
+    >
+      <Error__Content>
+        <div
+          className="Error__Content-sc-4uqxs4-1 Japah"
+        >
+          <General>
+            <Layout
+              description="There are some errors happened during the process, please back to home page and try again."
+              title="An error occurred"
+            >
+              <Header>
+                <Header__Container>
+                  <div
+                    className="Header__Container-sc-12819dc-0 gvsaJz"
+                  >
+                    <Header__Style>
+                      <h1
+                        className="Header__Style-sc-12819dc-1 cVQwvk"
+                      >
+                        Oops!
+                      </h1>
+                    </Header__Style>
+                  </div>
+                </Header__Container>
+              </Header>
+              <Title>
+                <h2
+                  className="Title-sc-1veana5-0 WFIKi"
+                >
+                  An error occurred
+                </h2>
+              </Title>
+              <Description>
+                <p
+                  className="Description-m0q6we-0 hHzwcQ"
+                >
+                  There are some errors happened during the process, please back to home page and try again.
+                </p>
+              </Description>
+              <Link
+                href="/"
+              >
+                <Button
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                >
+                  <a
+                    className="Button-sc-8cc99x-0 jMnhRu"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                     Go To Homepage 
+                  </a>
+                </Button>
+              </Link>
+            </Layout>
+          </General>
+        </div>
+      </Error__Content>
+    </div>
+  </Error__Container>
+</Error>
+`;
+
+exports[`Error should render Error Component with 404 1`] = `
+<Error
+  statusCode={404}
+>
+  <Error__Container>
+    <div
+      className="Error__Container-sc-4uqxs4-0 ieKuLm"
+    >
+      <Error__Content>
+        <div
+          className="Error__Content-sc-4uqxs4-1 Japah"
+        >
+          <NotFound>
+            <Layout
+              description="The page you are looking for might have been removed had its name changed or is temporarily unavailable."
+              title="An error 404 occurred"
+            >
+              <Header>
+                <Header__Container>
+                  <div
+                    className="Header__Container-sc-12819dc-0 gvsaJz"
+                  >
+                    <Header__Style>
+                      <h1
+                        className="Header__Style-sc-12819dc-1 cVQwvk"
+                      >
+                        Oops!
+                      </h1>
+                    </Header__Style>
+                  </div>
+                </Header__Container>
+              </Header>
+              <Title>
+                <h2
+                  className="Title-sc-1veana5-0 WFIKi"
+                >
+                  An error 404 occurred
+                </h2>
+              </Title>
+              <Description>
+                <p
+                  className="Description-m0q6we-0 hHzwcQ"
+                >
+                  The page you are looking for might have been removed had its name changed or is temporarily unavailable.
+                </p>
+              </Description>
+              <Link
+                href="/"
+              >
+                <Button
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                >
+                  <a
+                    className="Button-sc-8cc99x-0 jMnhRu"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                     Go To Homepage 
+                  </a>
+                </Button>
+              </Link>
+            </Layout>
+          </NotFound>
+        </div>
+      </Error__Content>
+    </div>
+  </Error__Container>
+</Error>
+`;
+
+exports[`Error should render Error Component with 500 1`] = `
+<Error
+  statusCode={500}
+>
+  <Error__Container>
+    <div
+      className="Error__Container-sc-4uqxs4-0 ieKuLm"
+    >
+      <Error__Content>
+        <div
+          className="Error__Content-sc-4uqxs4-1 Japah"
+        >
+          <InternalServer>
+            <Layout
+              description="The server encountered an internal error or misconfiguration and was unable to complete your request."
+              title="An error 500 Internal Server Error occurred"
+            >
+              <Header>
+                <Header__Container>
+                  <div
+                    className="Header__Container-sc-12819dc-0 gvsaJz"
+                  >
+                    <Header__Style>
+                      <h1
+                        className="Header__Style-sc-12819dc-1 cVQwvk"
+                      >
+                        Oops!
+                      </h1>
+                    </Header__Style>
+                  </div>
+                </Header__Container>
+              </Header>
+              <Title>
+                <h2
+                  className="Title-sc-1veana5-0 WFIKi"
+                >
+                  An error 500 Internal Server Error occurred
+                </h2>
+              </Title>
+              <Description>
+                <p
+                  className="Description-m0q6we-0 hHzwcQ"
+                >
+                  The server encountered an internal error or misconfiguration and was unable to complete your request.
+                </p>
+              </Description>
+              <Link
+                href="/"
+              >
+                <Button
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                >
+                  <a
+                    className="Button-sc-8cc99x-0 jMnhRu"
+                    onClick={[Function]}
+                    onMouseEnter={[Function]}
+                  >
+                     Go To Homepage 
+                  </a>
+                </Button>
+              </Link>
+            </Layout>
+          </InternalServer>
+        </div>
+      </Error__Content>
+    </div>
+  </Error__Container>
+</Error>
+`;
