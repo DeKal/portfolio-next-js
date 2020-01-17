@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import styled from 'styled-components/macro'
 import PropTypes from 'prop-types'
-import NavLogo from '~/views/home/components/nav/NavLogo'
-import NavItem from '~/views/home/components/nav/NavItem'
+import NavLogo from '~/views/core/components/nav/NavLogo'
+import NavItem from '~/views/core/components/nav/NavItem'
 import MobileContainer from '~/views/home/components/common/container/MobileContainer'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -40,17 +40,17 @@ const NavContent = ({ isShowNavContent }) => {
     <NavContainer isShowNavContent={isShowNavContent}>
       <MobileContainer>
         <Row>
-          <Col md={2}>
+          <Col lg={2}>
             <NavLogo />
           </Col>
           <Col fluid="true">
             <NavMenu>
               <ul>
                 {PAGE_LIST.map(page => (
-                  <NavLi key={page}>
+                  <NavLi key={page.name}>
                     <NavItem
                       page={page}
-                      isSelected={selectedPage === page}
+                      isSelected={selectedPage === page.cmpName}
                       setSelectedPage={setSelectedPage}
                     />
                   </NavLi>
@@ -81,7 +81,9 @@ const NavContainer = styled.div`
 
   @media screen and (max-width: 800px) {
     margin-top: ${props =>
-      props.isShowNavContent ? props.theme.navHeaderHeight : `-200px`};
+      props.isShowNavContent
+        ? props.theme.navHeaderHeight
+        : props.theme.navPosWhenHiding};
   }
 `
 const NavMenu = styled.nav`

@@ -55,7 +55,10 @@ export const getSelectedSection = () => {
   if (location.hash.length !== 0) {
     const selectedPage = location.hash.substr(1)
     return selectedPage
+  } else if (location.pathname.length !== 0) {
+    return location.pathname.substr(1)
   }
+
   return INIT_SELECTED_PAGE
 }
 

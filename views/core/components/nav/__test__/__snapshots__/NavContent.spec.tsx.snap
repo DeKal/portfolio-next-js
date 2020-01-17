@@ -8,7 +8,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
     isShowNavContent={false}
   >
     <div
-      className="NavContent__NavContainer-sc-1fjhoh9-0 fhOncd"
+      className="NavContent__NavContainer-sc-14r5cpy-0 dOMkVW"
     >
       <MobileContainer>
         <Container
@@ -25,22 +25,22 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                 className="row"
               >
                 <Col
-                  md={2}
+                  lg={2}
                 >
                   <div
-                    className="col-md-2"
+                    className="col-lg-2"
                   >
                     <NavLogo>
                       <NavLogo__Logo
                         href="https://github.com/DeKal/portfolio-next-js"
                       >
                         <a
-                          className="NavLogo__Logo-sc-94vjc7-0 invqvT"
+                          className="NavLogo__Logo-sc-14wvy38-0 wBGuq"
                           href="https://github.com/DeKal/portfolio-next-js"
                         >
                           <NavLogo__LogoText>
                             <span
-                              className="NavLogo__LogoText-sc-94vjc7-1 iMA-dJr"
+                              className="NavLogo__LogoText-sc-14wvy38-1 kbehzi"
                             >
                               JD
                             </span>
@@ -59,23 +59,36 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                   >
                     <NavContent__NavMenu>
                       <nav
-                        className="NavContent__NavMenu-sc-1fjhoh9-1 hJvlsz"
+                        className="NavContent__NavMenu-sc-14r5cpy-1 ifxgCa"
                       >
                         <ul>
                           <NavContent__NavLi
                             key="Home"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1fjhoh9-2 uiPJU"
+                              className="NavContent__NavLi-sc-14r5cpy-2 dQAysX"
                             >
                               <NavItem
-                                isSelected={true}
-                                page="Home"
+                                isSelected={false}
+                                page={
+                                  Object {
+                                    "cmpName": "Home",
+                                    "name": "Home",
+                                    "url": "/#Home",
+                                  }
+                                }
                                 setSelectedPage={[Function]}
                               >
-                                <NavItem__SelectedContainer>
+                                <NavItem__Container
+                                  data-test-id="nav-link"
+                                  href="/#Home"
+                                  onClick={[Function]}
+                                >
                                   <a
-                                    className="NavItem__Container-sc-1wmlvlx-0 NavItem__SelectedContainer-sc-1wmlvlx-1 kXqssD"
+                                    className="NavItem__Container-sc-1f6z3ag-0 cYcjaB"
+                                    data-test-id="nav-link"
+                                    href="/#Home"
+                                    onClick={[Function]}
                                   >
                                     <Translate
                                       id="Home"
@@ -101,7 +114,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                       </WrappedTranslate>
                                     </Translate>
                                   </a>
-                                </NavItem__SelectedContainer>
+                                </NavItem__Container>
                               </NavItem>
                             </li>
                           </NavContent__NavLi>
@@ -109,22 +122,28 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                             key="About"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1fjhoh9-2 uiPJU"
+                              className="NavContent__NavLi-sc-14r5cpy-2 dQAysX"
                             >
                               <NavItem
                                 isSelected={false}
-                                page="About"
+                                page={
+                                  Object {
+                                    "cmpName": "About",
+                                    "name": "About",
+                                    "url": "/#About",
+                                  }
+                                }
                                 setSelectedPage={[Function]}
                               >
                                 <NavItem__Container
                                   data-test-id="nav-link"
-                                  href="#About"
+                                  href="/#About"
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1wmlvlx-0 ygPuK"
+                                    className="NavItem__Container-sc-1f6z3ag-0 cYcjaB"
                                     data-test-id="nav-link"
-                                    href="#About"
+                                    href="/#About"
                                     onClick={[Function]}
                                   >
                                     <Translate
@@ -159,22 +178,28 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                             key="Experiences"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1fjhoh9-2 uiPJU"
+                              className="NavContent__NavLi-sc-14r5cpy-2 dQAysX"
                             >
                               <NavItem
                                 isSelected={false}
-                                page="Experiences"
+                                page={
+                                  Object {
+                                    "cmpName": "Experiences",
+                                    "name": "Experiences",
+                                    "url": "/#Experiences",
+                                  }
+                                }
                                 setSelectedPage={[Function]}
                               >
                                 <NavItem__Container
                                   data-test-id="nav-link"
-                                  href="#Experiences"
+                                  href="/#Experiences"
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1wmlvlx-0 ygPuK"
+                                    className="NavItem__Container-sc-1f6z3ag-0 cYcjaB"
                                     data-test-id="nav-link"
-                                    href="#Experiences"
+                                    href="/#Experiences"
                                     onClick={[Function]}
                                   >
                                     <Translate
@@ -209,22 +234,28 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                             key="Projects"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1fjhoh9-2 uiPJU"
+                              className="NavContent__NavLi-sc-14r5cpy-2 dQAysX"
                             >
                               <NavItem
                                 isSelected={false}
-                                page="Projects"
+                                page={
+                                  Object {
+                                    "cmpName": "Projects",
+                                    "name": "Projects",
+                                    "url": "/#Projects",
+                                  }
+                                }
                                 setSelectedPage={[Function]}
                               >
                                 <NavItem__Container
                                   data-test-id="nav-link"
-                                  href="#Projects"
+                                  href="/#Projects"
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1wmlvlx-0 ygPuK"
+                                    className="NavItem__Container-sc-1f6z3ag-0 cYcjaB"
                                     data-test-id="nav-link"
-                                    href="#Projects"
+                                    href="/#Projects"
                                     onClick={[Function]}
                                   >
                                     <Translate
@@ -259,22 +290,28 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                             key="Certifications"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1fjhoh9-2 uiPJU"
+                              className="NavContent__NavLi-sc-14r5cpy-2 dQAysX"
                             >
                               <NavItem
                                 isSelected={false}
-                                page="Certifications"
+                                page={
+                                  Object {
+                                    "cmpName": "Certifications",
+                                    "name": "Certifications",
+                                    "url": "/#Certifications",
+                                  }
+                                }
                                 setSelectedPage={[Function]}
                               >
                                 <NavItem__Container
                                   data-test-id="nav-link"
-                                  href="#Certifications"
+                                  href="/#Certifications"
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1wmlvlx-0 ygPuK"
+                                    className="NavItem__Container-sc-1f6z3ag-0 cYcjaB"
                                     data-test-id="nav-link"
-                                    href="#Certifications"
+                                    href="/#Certifications"
                                     onClick={[Function]}
                                   >
                                     <Translate
@@ -309,22 +346,28 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                             key="Contacts"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1fjhoh9-2 uiPJU"
+                              className="NavContent__NavLi-sc-14r5cpy-2 dQAysX"
                             >
                               <NavItem
                                 isSelected={false}
-                                page="Contacts"
+                                page={
+                                  Object {
+                                    "cmpName": "Contacts",
+                                    "name": "Contacts",
+                                    "url": "/#Contacts",
+                                  }
+                                }
                                 setSelectedPage={[Function]}
                               >
                                 <NavItem__Container
                                   data-test-id="nav-link"
-                                  href="#Contacts"
+                                  href="/#Contacts"
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1wmlvlx-0 ygPuK"
+                                    className="NavItem__Container-sc-1f6z3ag-0 cYcjaB"
                                     data-test-id="nav-link"
-                                    href="#Contacts"
+                                    href="/#Contacts"
                                     onClick={[Function]}
                                   >
                                     <Translate
@@ -348,6 +391,62 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                         id="Contacts"
                                       >
                                         Missing translationId: Contacts for language: \${ languageCode }
+                                      </WrappedTranslate>
+                                    </Translate>
+                                  </a>
+                                </NavItem__Container>
+                              </NavItem>
+                            </li>
+                          </NavContent__NavLi>
+                          <NavContent__NavLi
+                            key="Blogs"
+                          >
+                            <li
+                              className="NavContent__NavLi-sc-14r5cpy-2 dQAysX"
+                            >
+                              <NavItem
+                                isSelected={false}
+                                page={
+                                  Object {
+                                    "cmpName": "blogs",
+                                    "name": "Blogs",
+                                    "url": "/blogs",
+                                  }
+                                }
+                                setSelectedPage={[Function]}
+                              >
+                                <NavItem__Container
+                                  data-test-id="nav-link"
+                                  href="/blogs"
+                                  onClick={[Function]}
+                                >
+                                  <a
+                                    className="NavItem__Container-sc-1f6z3ag-0 cYcjaB"
+                                    data-test-id="nav-link"
+                                    href="/blogs"
+                                    onClick={[Function]}
+                                  >
+                                    <Translate
+                                      id="Blogs"
+                                    >
+                                      <WrappedTranslate
+                                        context={
+                                          Object {
+                                            "activeLanguage": undefined,
+                                            "addTranslation": [Function],
+                                            "addTranslationForLanguage": [Function],
+                                            "defaultLanguage": undefined,
+                                            "ignoreTranslateChildren": false,
+                                            "initialize": [Function],
+                                            "languages": Array [],
+                                            "renderToStaticMarkup": false,
+                                            "setActiveLanguage": [Function],
+                                            "translate": [Function],
+                                          }
+                                        }
+                                        id="Blogs"
+                                      >
+                                        Missing translationId: Blogs for language: \${ languageCode }
                                       </WrappedTranslate>
                                     </Translate>
                                   </a>
@@ -378,7 +477,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
     isShowNavContent={true}
   >
     <div
-      className="NavContent__NavContainer-sc-1fjhoh9-0 bHOqLp"
+      className="NavContent__NavContainer-sc-14r5cpy-0 iHBLwk"
     >
       <MobileContainer>
         <Container
@@ -395,22 +494,22 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                 className="row"
               >
                 <Col
-                  md={2}
+                  lg={2}
                 >
                   <div
-                    className="col-md-2"
+                    className="col-lg-2"
                   >
                     <NavLogo>
                       <NavLogo__Logo
                         href="https://github.com/DeKal/portfolio-next-js"
                       >
                         <a
-                          className="NavLogo__Logo-sc-94vjc7-0 invqvT"
+                          className="NavLogo__Logo-sc-14wvy38-0 wBGuq"
                           href="https://github.com/DeKal/portfolio-next-js"
                         >
                           <NavLogo__LogoText>
                             <span
-                              className="NavLogo__LogoText-sc-94vjc7-1 iMA-dJr"
+                              className="NavLogo__LogoText-sc-14wvy38-1 kbehzi"
                             >
                               JD
                             </span>
@@ -429,23 +528,36 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                   >
                     <NavContent__NavMenu>
                       <nav
-                        className="NavContent__NavMenu-sc-1fjhoh9-1 hJvlsz"
+                        className="NavContent__NavMenu-sc-14r5cpy-1 ifxgCa"
                       >
                         <ul>
                           <NavContent__NavLi
                             key="Home"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1fjhoh9-2 uiPJU"
+                              className="NavContent__NavLi-sc-14r5cpy-2 dQAysX"
                             >
                               <NavItem
-                                isSelected={true}
-                                page="Home"
+                                isSelected={false}
+                                page={
+                                  Object {
+                                    "cmpName": "Home",
+                                    "name": "Home",
+                                    "url": "/#Home",
+                                  }
+                                }
                                 setSelectedPage={[Function]}
                               >
-                                <NavItem__SelectedContainer>
+                                <NavItem__Container
+                                  data-test-id="nav-link"
+                                  href="/#Home"
+                                  onClick={[Function]}
+                                >
                                   <a
-                                    className="NavItem__Container-sc-1wmlvlx-0 NavItem__SelectedContainer-sc-1wmlvlx-1 kXqssD"
+                                    className="NavItem__Container-sc-1f6z3ag-0 cYcjaB"
+                                    data-test-id="nav-link"
+                                    href="/#Home"
+                                    onClick={[Function]}
                                   >
                                     <Translate
                                       id="Home"
@@ -471,7 +583,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                       </WrappedTranslate>
                                     </Translate>
                                   </a>
-                                </NavItem__SelectedContainer>
+                                </NavItem__Container>
                               </NavItem>
                             </li>
                           </NavContent__NavLi>
@@ -479,22 +591,28 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                             key="About"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1fjhoh9-2 uiPJU"
+                              className="NavContent__NavLi-sc-14r5cpy-2 dQAysX"
                             >
                               <NavItem
                                 isSelected={false}
-                                page="About"
+                                page={
+                                  Object {
+                                    "cmpName": "About",
+                                    "name": "About",
+                                    "url": "/#About",
+                                  }
+                                }
                                 setSelectedPage={[Function]}
                               >
                                 <NavItem__Container
                                   data-test-id="nav-link"
-                                  href="#About"
+                                  href="/#About"
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1wmlvlx-0 ygPuK"
+                                    className="NavItem__Container-sc-1f6z3ag-0 cYcjaB"
                                     data-test-id="nav-link"
-                                    href="#About"
+                                    href="/#About"
                                     onClick={[Function]}
                                   >
                                     <Translate
@@ -529,22 +647,28 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                             key="Experiences"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1fjhoh9-2 uiPJU"
+                              className="NavContent__NavLi-sc-14r5cpy-2 dQAysX"
                             >
                               <NavItem
                                 isSelected={false}
-                                page="Experiences"
+                                page={
+                                  Object {
+                                    "cmpName": "Experiences",
+                                    "name": "Experiences",
+                                    "url": "/#Experiences",
+                                  }
+                                }
                                 setSelectedPage={[Function]}
                               >
                                 <NavItem__Container
                                   data-test-id="nav-link"
-                                  href="#Experiences"
+                                  href="/#Experiences"
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1wmlvlx-0 ygPuK"
+                                    className="NavItem__Container-sc-1f6z3ag-0 cYcjaB"
                                     data-test-id="nav-link"
-                                    href="#Experiences"
+                                    href="/#Experiences"
                                     onClick={[Function]}
                                   >
                                     <Translate
@@ -579,22 +703,28 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                             key="Projects"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1fjhoh9-2 uiPJU"
+                              className="NavContent__NavLi-sc-14r5cpy-2 dQAysX"
                             >
                               <NavItem
                                 isSelected={false}
-                                page="Projects"
+                                page={
+                                  Object {
+                                    "cmpName": "Projects",
+                                    "name": "Projects",
+                                    "url": "/#Projects",
+                                  }
+                                }
                                 setSelectedPage={[Function]}
                               >
                                 <NavItem__Container
                                   data-test-id="nav-link"
-                                  href="#Projects"
+                                  href="/#Projects"
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1wmlvlx-0 ygPuK"
+                                    className="NavItem__Container-sc-1f6z3ag-0 cYcjaB"
                                     data-test-id="nav-link"
-                                    href="#Projects"
+                                    href="/#Projects"
                                     onClick={[Function]}
                                   >
                                     <Translate
@@ -629,22 +759,28 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                             key="Certifications"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1fjhoh9-2 uiPJU"
+                              className="NavContent__NavLi-sc-14r5cpy-2 dQAysX"
                             >
                               <NavItem
                                 isSelected={false}
-                                page="Certifications"
+                                page={
+                                  Object {
+                                    "cmpName": "Certifications",
+                                    "name": "Certifications",
+                                    "url": "/#Certifications",
+                                  }
+                                }
                                 setSelectedPage={[Function]}
                               >
                                 <NavItem__Container
                                   data-test-id="nav-link"
-                                  href="#Certifications"
+                                  href="/#Certifications"
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1wmlvlx-0 ygPuK"
+                                    className="NavItem__Container-sc-1f6z3ag-0 cYcjaB"
                                     data-test-id="nav-link"
-                                    href="#Certifications"
+                                    href="/#Certifications"
                                     onClick={[Function]}
                                   >
                                     <Translate
@@ -679,22 +815,28 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                             key="Contacts"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1fjhoh9-2 uiPJU"
+                              className="NavContent__NavLi-sc-14r5cpy-2 dQAysX"
                             >
                               <NavItem
                                 isSelected={false}
-                                page="Contacts"
+                                page={
+                                  Object {
+                                    "cmpName": "Contacts",
+                                    "name": "Contacts",
+                                    "url": "/#Contacts",
+                                  }
+                                }
                                 setSelectedPage={[Function]}
                               >
                                 <NavItem__Container
                                   data-test-id="nav-link"
-                                  href="#Contacts"
+                                  href="/#Contacts"
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1wmlvlx-0 ygPuK"
+                                    className="NavItem__Container-sc-1f6z3ag-0 cYcjaB"
                                     data-test-id="nav-link"
-                                    href="#Contacts"
+                                    href="/#Contacts"
                                     onClick={[Function]}
                                   >
                                     <Translate
@@ -725,6 +867,62 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                               </NavItem>
                             </li>
                           </NavContent__NavLi>
+                          <NavContent__NavLi
+                            key="Blogs"
+                          >
+                            <li
+                              className="NavContent__NavLi-sc-14r5cpy-2 dQAysX"
+                            >
+                              <NavItem
+                                isSelected={false}
+                                page={
+                                  Object {
+                                    "cmpName": "blogs",
+                                    "name": "Blogs",
+                                    "url": "/blogs",
+                                  }
+                                }
+                                setSelectedPage={[Function]}
+                              >
+                                <NavItem__Container
+                                  data-test-id="nav-link"
+                                  href="/blogs"
+                                  onClick={[Function]}
+                                >
+                                  <a
+                                    className="NavItem__Container-sc-1f6z3ag-0 cYcjaB"
+                                    data-test-id="nav-link"
+                                    href="/blogs"
+                                    onClick={[Function]}
+                                  >
+                                    <Translate
+                                      id="Blogs"
+                                    >
+                                      <WrappedTranslate
+                                        context={
+                                          Object {
+                                            "activeLanguage": undefined,
+                                            "addTranslation": [Function],
+                                            "addTranslationForLanguage": [Function],
+                                            "defaultLanguage": undefined,
+                                            "ignoreTranslateChildren": false,
+                                            "initialize": [Function],
+                                            "languages": Array [],
+                                            "renderToStaticMarkup": false,
+                                            "setActiveLanguage": [Function],
+                                            "translate": [Function],
+                                          }
+                                        }
+                                        id="Blogs"
+                                      >
+                                        Missing translationId: Blogs for language: \${ languageCode }
+                                      </WrappedTranslate>
+                                    </Translate>
+                                  </a>
+                                </NavItem__Container>
+                              </NavItem>
+                            </li>
+                          </NavContent__NavLi>
                         </ul>
                       </nav>
                     </NavContent__NavMenu>
@@ -747,7 +945,7 @@ exports[`Nav Content should render without throwing an error 1`] = `
       noGutters={false}
     >
       <Col
-        md={2}
+        lg={2}
       >
         <NavLogo />
       </Col>
@@ -760,8 +958,14 @@ exports[`Nav Content should render without throwing an error 1`] = `
               key="Home"
             >
               <NavItem
-                isSelected={true}
-                page="Home"
+                isSelected={false}
+                page={
+                  Object {
+                    "cmpName": "Home",
+                    "name": "Home",
+                    "url": "/#Home",
+                  }
+                }
                 setSelectedPage={[Function]}
               />
             </NavContent__NavLi>
@@ -770,7 +974,13 @@ exports[`Nav Content should render without throwing an error 1`] = `
             >
               <NavItem
                 isSelected={false}
-                page="About"
+                page={
+                  Object {
+                    "cmpName": "About",
+                    "name": "About",
+                    "url": "/#About",
+                  }
+                }
                 setSelectedPage={[Function]}
               />
             </NavContent__NavLi>
@@ -779,7 +989,13 @@ exports[`Nav Content should render without throwing an error 1`] = `
             >
               <NavItem
                 isSelected={false}
-                page="Experiences"
+                page={
+                  Object {
+                    "cmpName": "Experiences",
+                    "name": "Experiences",
+                    "url": "/#Experiences",
+                  }
+                }
                 setSelectedPage={[Function]}
               />
             </NavContent__NavLi>
@@ -788,7 +1004,13 @@ exports[`Nav Content should render without throwing an error 1`] = `
             >
               <NavItem
                 isSelected={false}
-                page="Projects"
+                page={
+                  Object {
+                    "cmpName": "Projects",
+                    "name": "Projects",
+                    "url": "/#Projects",
+                  }
+                }
                 setSelectedPage={[Function]}
               />
             </NavContent__NavLi>
@@ -797,7 +1019,13 @@ exports[`Nav Content should render without throwing an error 1`] = `
             >
               <NavItem
                 isSelected={false}
-                page="Certifications"
+                page={
+                  Object {
+                    "cmpName": "Certifications",
+                    "name": "Certifications",
+                    "url": "/#Certifications",
+                  }
+                }
                 setSelectedPage={[Function]}
               />
             </NavContent__NavLi>
@@ -806,7 +1034,28 @@ exports[`Nav Content should render without throwing an error 1`] = `
             >
               <NavItem
                 isSelected={false}
-                page="Contacts"
+                page={
+                  Object {
+                    "cmpName": "Contacts",
+                    "name": "Contacts",
+                    "url": "/#Contacts",
+                  }
+                }
+                setSelectedPage={[Function]}
+              />
+            </NavContent__NavLi>
+            <NavContent__NavLi
+              key="Blogs"
+            >
+              <NavItem
+                isSelected={false}
+                page={
+                  Object {
+                    "cmpName": "blogs",
+                    "name": "Blogs",
+                    "url": "/blogs",
+                  }
+                }
                 setSelectedPage={[Function]}
               />
             </NavContent__NavLi>

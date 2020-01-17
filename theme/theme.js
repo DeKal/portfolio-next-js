@@ -5,6 +5,7 @@ const theme = {
   navContentMinHeight: '80px',
   footerHeight: '50px',
   navHeightWhenScrollingOnMobile: '45px',
+  navPosWhenHiding: '-220px',
   aboutMarginTop: '-200px',
   colors: {
     // Color variables

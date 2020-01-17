@@ -4,7 +4,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
 <NavHeader>
   <NavHeader__NavContainer>
     <div
-      className="NavHeader__NavContainer-ustrcb-0 ektEKS"
+      className="NavHeader__NavContainer-sc-160hfd6-0 dvGvst"
     >
       <MobileContainer>
         <Container
@@ -31,12 +31,12 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                     <NavLang>
                       <NavLang__NotSelectableDiv>
                         <nav
-                          className="NavLang__NotSelectableDiv-aysloj-0 eeBxyb"
+                          className="NavLang__NotSelectableDiv-sc-17yrsle-0 HuDtT"
                         >
                           <ul>
                             <NavLang__NavLinkItem>
                               <li
-                                className="NavLang__NavLinkItem-aysloj-1 fnEXEp"
+                                className="NavLang__NavLinkItem-sc-17yrsle-1 bklgoh"
                               >
                                 <LocalizedComponent
                                   lang="en"
@@ -61,7 +61,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                                       onClick={[Function]}
                                     >
                                       <a
-                                        className="NavLink__Container-sc-14bn6cd-0 bZIfvx"
+                                        className="NavLink__Container-sc-1ptvs3q-0 jsFbwt"
                                         onClick={[Function]}
                                       >
                                         <Translate
@@ -93,7 +93,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                                 </LocalizedComponent>
                                 <NavLang__InlineBlock>
                                   <div
-                                    className="NavLang__InlineBlock-aysloj-2 dCEQtc"
+                                    className="NavLang__InlineBlock-sc-17yrsle-2 cOuZXI"
                                   >
                                     /
                                   </div>
@@ -121,7 +121,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                                       onClick={[Function]}
                                     >
                                       <a
-                                        className="NavLink__Container-sc-14bn6cd-0 gBWpuU"
+                                        className="NavLink__Container-sc-1ptvs3q-0 jRokRc"
                                         onClick={[Function]}
                                       >
                                         <Translate
@@ -170,13 +170,13 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                       onClick={[Function]}
                     >
                       <div
-                        className="NavHeader__NavControl-ustrcb-1 hNFHhI"
+                        className="NavHeader__NavControl-sc-160hfd6-1 dFNMQf"
                         data-test-id="switch-nav-content"
                         onClick={[Function]}
                       >
                         <NavHeader__HamburgerIcon>
                           <GiHamburgerMenu
-                            className="NavHeader__HamburgerIcon-ustrcb-2 hVcfUK"
+                            className="NavHeader__HamburgerIcon-sc-160hfd6-2 jkcwFV"
                           >
                             <IconBase
                               attr={
@@ -184,10 +184,10 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                                   "viewBox": "0 0 512 512",
                                 }
                               }
-                              className="NavHeader__HamburgerIcon-ustrcb-2 hVcfUK"
+                              className="NavHeader__HamburgerIcon-sc-160hfd6-2 jkcwFV"
                             >
                               <svg
-                                className="NavHeader__HamburgerIcon-ustrcb-2 hVcfUK"
+                                className="NavHeader__HamburgerIcon-sc-160hfd6-2 jkcwFV"
                                 fill="currentColor"
                                 height="1em"
                                 stroke="currentColor"
@@ -253,7 +253,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
 >
   <NavHeader__NavContainer>
     <div
-      className="NavHeader__NavContainer-ustrcb-0 ektEKS"
+      className="NavHeader__NavContainer-sc-160hfd6-0 dvGvst"
     >
       <MobileContainer>
         <Container
@@ -280,12 +280,12 @@ exports[`Nav Header should render when show NavContent 1`] = `
                     <NavLang>
                       <NavLang__NotSelectableDiv>
                         <nav
-                          className="NavLang__NotSelectableDiv-aysloj-0 eeBxyb"
+                          className="NavLang__NotSelectableDiv-sc-17yrsle-0 HuDtT"
                         >
                           <ul>
                             <NavLang__NavLinkItem>
                               <li
-                                className="NavLang__NavLinkItem-aysloj-1 fnEXEp"
+                                className="NavLang__NavLinkItem-sc-17yrsle-1 bklgoh"
                               >
                                 <LocalizedComponent
                                   lang="en"
@@ -310,7 +310,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
                                       onClick={[Function]}
                                     >
                                       <a
-                                        className="NavLink__Container-sc-14bn6cd-0 bZIfvx"
+                                        className="NavLink__Container-sc-1ptvs3q-0 jsFbwt"
                                         onClick={[Function]}
                                       >
                                         <Translate
@@ -342,7 +342,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
                                 </LocalizedComponent>
                                 <NavLang__InlineBlock>
                                   <div
-                                    className="NavLang__InlineBlock-aysloj-2 dCEQtc"
+                                    className="NavLang__InlineBlock-sc-17yrsle-2 cOuZXI"
                                   >
                                     /
                                   </div>
@@ -370,7 +370,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
                                       onClick={[Function]}
                                     >
                                       <a
-                                        className="NavLink__Container-sc-14bn6cd-0 gBWpuU"
+                                        className="NavLink__Container-sc-1ptvs3q-0 jRokRc"
                                         onClick={[Function]}
                                       >
                                         <Translate
@@ -419,13 +419,13 @@ exports[`Nav Header should render when show NavContent 1`] = `
                       onClick={[Function]}
                     >
                       <div
-                        className="NavHeader__NavControl-ustrcb-1 hNFHhI"
+                        className="NavHeader__NavControl-sc-160hfd6-1 dFNMQf"
                         data-test-id="switch-nav-content"
                         onClick={[Function]}
                       >
                         <NavHeader__CloseIcon>
                           <MdClose
-                            className="NavHeader__CloseIcon-ustrcb-3 klmhTS"
+                            className="NavHeader__CloseIcon-sc-160hfd6-3 McIfR"
                           >
                             <IconBase
                               attr={
@@ -433,10 +433,10 @@ exports[`Nav Header should render when show NavContent 1`] = `
                                   "viewBox": "0 0 24 24",
                                 }
                               }
-                              className="NavHeader__CloseIcon-ustrcb-3 klmhTS"
+                              className="NavHeader__CloseIcon-sc-160hfd6-3 McIfR"
                             >
                               <svg
-                                className="NavHeader__CloseIcon-ustrcb-3 klmhTS"
+                                className="NavHeader__CloseIcon-sc-160hfd6-3 McIfR"
                                 fill="currentColor"
                                 height="1em"
                                 stroke="currentColor"
