@@ -39,7 +39,7 @@ exports[`Theme Provider Selector Selector fo blog theme should render for blog t
         "workexp": "\\\\e804",
       },
       "images": Object {},
-      "postPaddingTop": "80px",
+      "postPaddingTop": "35px",
       "spaces": Object {
         "gutter": 16,
         "large": 35,
@@ -91,7 +91,7 @@ exports[`Theme Provider Selector Selector fo blog theme should render for blog t
           "workexp": "\\\\e804",
         },
         "images": Object {},
-        "postPaddingTop": "80px",
+        "postPaddingTop": "35px",
         "spaces": Object {
           "gutter": 16,
           "large": 35,

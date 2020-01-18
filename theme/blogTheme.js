@@ -2,7 +2,7 @@ import baseTheme from '~/theme/baseTheme'
 
 const theme = {
   ...baseTheme,
-  postPaddingTop: '80px',
+  postPaddingTop: '35px',
   colors: {}
 }
 
