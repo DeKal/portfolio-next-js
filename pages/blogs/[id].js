@@ -1,12 +1,13 @@
 import React, { Fragment } from 'react'
-
-import Navbar from '~/views/core/components/Navbar'
 import Head from '~/views/blogs/components/Head'
+import StickyNav from '~/views/blogs/components/StickyNav'
+import Post from '~/views/blogs/components/Post'
 
 const Blogs = () => (
   <Fragment>
     <Head />
-    <Navbar />
+    <StickyNav />
+    <Post />
   </Fragment>
 )
 
