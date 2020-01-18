@@ -1,5 +1,5 @@
 import React from 'react'
-import { useRouter } from 'next/router'
+// import { useRouter } from 'next/router'
 import BContainer from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -14,8 +14,8 @@ const data = {
 }
 
 const Posts = () => {
-  const router = useRouter()
-  const { id } = router.query
+  // const router = useRouter()
+  // const { id } = router.query
 
   return (
     <Container>
