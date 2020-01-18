@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Blog Post should render without throwing an error 1`] = `
+<Container>
+  <article>
+    <ForwardRef
+      noGutters={false}
+    >
+      <Header>
+        Search: The Whole Story
+      </Header>
+    </ForwardRef>
+    <PostInfo
+      authorName="Daniel Tunkelang"
+      avatar="/images/blogs/default-avatar.png"
+      date="Mar 25, 2019"
+      minRead="6"
+    />
+    <Content>
+      Query understanding and relevance are key aspects of search, but they don’t tell the whole story. A holistic framework for search calls for a broader perspective. Search is about computers helping humans help themselves, a framework also known as human-computer information retrieval (HCIR). In order to understand search as HCIR, we need to consider it from both the human and computational perspectives.Query understanding and relevance are key aspects of search, but they don’t tell the whole story. A holistic framework for search calls for a broader perspective. Search is about computers helping humans help themselves, a framework also known as human-computer information retrieval (HCIR). In order to understand search as HCIR, we need to consider it from both the human and computational perspectives.Query understanding and relevance are key aspects of search, but they don’t tell the whole story. A holistic framework for search calls for a broader perspective. Search is about computers helping humans help themselves, a framework also known as human-computer information retrieval (HCIR). In order to understand search as HCIR, we need to consider it from both the human and computational perspectives.
+    </Content>
+  </article>
+</Container>
+`;
