@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '~/views/home/components/error/Layout'
+import Layout from '~/views/core/components/error/Layout'
 
 const InternalServer = () => {
   return (

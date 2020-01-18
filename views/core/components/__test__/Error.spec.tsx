@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { mountWithTheme } from '~/utils/withThemeProviders'
-import Error from '~/views/home/components/Error'
+import Error from '~/views/core/components/Error'
 
 describe('Error', () => {
   it('should render Error Component with 404', function() {

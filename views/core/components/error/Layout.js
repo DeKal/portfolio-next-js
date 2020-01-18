@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
 import Link from 'next/link'
-import Header from '~/views/home/components/error/layout/Header'
-import Title from '~/views/home/components/error/layout/Title'
-import Description from '~/views/home/components/error/layout/Description'
-import Button from '~/views/home/components/error/layout/Button'
+import Header from '~/views/core/components/error/layout/Header'
+import Title from '~/views/core/components/error/layout/Title'
+import Description from '~/views/core/components/error/layout/Description'
+import Button from '~/views/core/components/error/layout/Button'
 
 const Layout = ({ title, description }) => {
   return (

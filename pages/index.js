@@ -8,7 +8,7 @@ import Certification from '~/views/home/components/Certification'
 import Project from '~/views/home/components/Project'
 import Contact from '~/views/home/components/Contact'
 import Footer from '~/views/home/components/Footer'
-import SlideIterator from '~/views/home/components/SlideIterator'
+import SlideIterator from '~/views/core/components/SlideIterator'
 import Head from '~/views/home/components/Head'
 
 const HomePage = () => (

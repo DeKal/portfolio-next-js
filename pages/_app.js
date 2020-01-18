@@ -4,7 +4,7 @@ import { LocalizeProvider } from 'react-localize-redux'
 import { IconContext } from 'react-icons/lib/'
 import LocalizedComponent from '~/views/core/localize/LocalizedComponent'
 import Loading from '~/views/core/components/Loading'
-import ErrorBoundary from '~/views/home/components/ErrorBoundary'
+import ErrorBoundary from '~/views/core/components/ErrorBoundary'
 import ThemeProviderSelector from '~/views/core/theme/ThemeProviderSelector'
 import 'bootstrap/dist/css/bootstrap.min.css'
 //Import Global style

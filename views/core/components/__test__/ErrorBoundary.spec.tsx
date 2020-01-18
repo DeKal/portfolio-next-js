@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { mount, shallow } from 'enzyme'
-import ErrorBoundary from '~/views/home/components/ErrorBoundary'
+import ErrorBoundary from '~/views/core/components/ErrorBoundary'
 
 describe('ErrorBoundary', () => {
   it('should render children div', function() {

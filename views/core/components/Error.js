@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components/macro'
-import NotFound from '~/views/home/components/error/NotFound'
-import InternalServer from '~/views/home/components/error/InternalServer'
-import General from '~/views/home/components/error/General'
+import NotFound from '~/views/core/components/error/NotFound'
+import InternalServer from '~/views/core/components/error/InternalServer'
+import General from '~/views/core/components/error/General'
 
 const Error = ({ statusCode }) => {
   return (

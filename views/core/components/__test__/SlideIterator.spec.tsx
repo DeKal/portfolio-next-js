@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { mountWithTheme } from '~/utils/withThemeProviders'
-import SlideIterator from '~/views/home/components/SlideIterator'
+import SlideIterator from '~/views/core/components/SlideIterator'
 
 describe('Slide', () => {
   it('should render without throwing an error', function() {
