@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import styled from 'styled-components/macro'
 import { INIT_SELECTED_LANG } from '~/consts/initState'
 import { EN, VN } from '~/consts/langs'
-import NavLink from '~/views/core/components/nav/NavLink'
+import NavLink from '~/views/home/components/nav/NavLink'
 
 const NavLang = () => {
   const [selectedLang, setSelectedLang] = useState(getSelectedLang())

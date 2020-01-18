@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { mountWithTheme } from '~/utils/withThemeProviders'
-import Navbar from '~/views/core/components/Navbar'
+import Navbar from '~/views/home/components/Navbar'
 
 describe('Navbar', () => {
 

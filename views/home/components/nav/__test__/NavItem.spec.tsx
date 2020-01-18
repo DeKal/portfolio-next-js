@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { shallowWithTheme, mountWithTheme } from '~/utils/withThemeProviders'
-import NavItem from '~/views/core/components/nav/NavItem'
+import NavItem from '~/views/home/components/nav/NavItem'
 
 const page = {
   name: "Home",

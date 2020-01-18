@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { mountWithTheme, shallowWithTheme } from '~/utils/withThemeProviders'
-import NavLogo from '~/views/core/components/nav/NavLogo'
+import NavLogo from '~/views/home/components/nav/NavLogo'
 
 describe('Nav Logo', () => {
 

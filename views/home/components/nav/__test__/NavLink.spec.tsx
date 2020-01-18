@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { mountWithTheme } from '~/utils/withThemeProviders'
-import NavLink from '~/views/core/components/nav/NavLink'
+import NavLink from '~/views/home/components/nav/NavLink'
 import { EN, VN } from '~/consts/langs'
 
 import useWindowDimensions from '~/utils/useWindowDimensions'

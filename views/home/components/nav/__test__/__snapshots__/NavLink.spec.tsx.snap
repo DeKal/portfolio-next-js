@@ -81,7 +81,7 @@ exports[`Nav Link Big Device >= 600px should change Language when clicking 1`] =
       onClick={[Function]}
     >
       <a
-        className="NavLink__Container-sc-1ptvs3q-0 jRokRc"
+        className="NavLink__Container-sc-14bn6cd-0 gBWpuU"
         onClick={[Function]}
       >
         <Translate
@@ -135,7 +135,7 @@ exports[`Nav Link Big Device >= 600px should render with English selected 1`] = 
       onClick={[Function]}
     >
       <a
-        className="NavLink__Container-sc-1ptvs3q-0 jsFbwt"
+        className="NavLink__Container-sc-14bn6cd-0 bZIfvx"
         onClick={[Function]}
       >
         <Translate
@@ -189,7 +189,7 @@ exports[`Nav Link Big Device >= 600px should render with Vietnamese selected 1`]
       onClick={[Function]}
     >
       <a
-        className="NavLink__Container-sc-1ptvs3q-0 jsFbwt"
+        className="NavLink__Container-sc-14bn6cd-0 bZIfvx"
         onClick={[Function]}
       >
         <Translate
@@ -243,7 +243,7 @@ exports[`Nav Link Small Device < 600px should render with English selected 1`] =
       onClick={[Function]}
     >
       <a
-        className="NavLink__Container-sc-1ptvs3q-0 jsFbwt"
+        className="NavLink__Container-sc-14bn6cd-0 bZIfvx"
         onClick={[Function]}
       >
         en
@@ -275,7 +275,7 @@ exports[`Nav Link Small Device < 600px should render with Vietnamese selected 1`
       onClick={[Function]}
     >
       <a
-        className="NavLink__Container-sc-1ptvs3q-0 jsFbwt"
+        className="NavLink__Container-sc-14bn6cd-0 bZIfvx"
         onClick={[Function]}
       >
         vn

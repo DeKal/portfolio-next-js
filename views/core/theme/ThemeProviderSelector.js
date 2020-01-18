@@ -16,7 +16,8 @@ import GlobalStyleCss from '~/views/core/theme/GlobalStyleCss'
 import { useRouter } from 'next/router'
 
 const ThemeProviderSelector = ({ children }) => {
-  const theme = useTheme()
+  const router = useRouter()
+  const theme = useTheme(router)
   return (
     <ThemeProvider theme={theme}>
       {children}
@@ -31,9 +32,7 @@ ThemeProviderSelector.propTypes = {
 
 export default ThemeProviderSelector
 
-const useTheme = () => {
-  const router = useRouter()
-  console.log(isBlogs(router.pathname))
+const useTheme = router => {
   if (isBlogs(router.pathname)) {
     return blogTheme
   }

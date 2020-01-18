@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import Nav from '~/views/core/components/Navbar'
+import Nav from '~/views/home/components/Navbar'
 import Home from '~/views/home/components/Home'
 import About from '~/views/home/components/About'
 import Experiences from '~/views/home/components/Experiences'
