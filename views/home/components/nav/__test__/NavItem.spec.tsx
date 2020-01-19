@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { shallowWithTheme, mountWithTheme } from '~/utils/withThemeProviders'
+import { shallowWithTheme, mountWithTheme } from '~/views/core/utils/withThemeProviders'
 import NavItem from '~/views/home/components/nav/NavItem'
 
 const page = {

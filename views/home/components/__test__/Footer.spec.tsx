@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { mountWithTheme } from '~/utils/withThemeProviders'
+import { mountWithTheme } from '~/views/core/utils/withThemeProviders'
 import Footer from '~/views/home/components/Footer'
 
 describe('Footer', () => {

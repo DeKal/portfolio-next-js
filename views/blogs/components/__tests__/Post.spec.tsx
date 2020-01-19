@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { shallowWithTheme } from '~/utils/withThemeProviders'
+import { shallowWithTheme } from '~/views/core/utils/withThemeProviders'
 import Post from '~/views/blogs/components/Post'
 
 const data = {

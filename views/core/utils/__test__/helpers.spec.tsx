@@ -4,7 +4,7 @@ import {
   isNewYearComing,
   isTet,
   getWindowDimensions
-} from '~/utils/helpers'
+} from '~/views/core/utils/helpers'
 
 describe('helpers test', () => {
   describe('isSafari', () => {

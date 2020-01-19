@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { mountWithTheme } from '~/utils/withThemeProviders'
+import { mountWithTheme } from '~/views/core/utils/withThemeProviders'
 import Certification from '~/views/home/components/Certification'
 
 describe('Certification', () => {

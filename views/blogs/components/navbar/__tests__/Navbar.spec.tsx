@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { shallowWithTheme } from '~/utils/withThemeProviders'
+import { shallowWithTheme } from '~/views/core/utils/withThemeProviders'
 import NavLogo from '~/views/blogs/components/navbar/NavLogo'
 
 describe('Blog NavLogo', () => {

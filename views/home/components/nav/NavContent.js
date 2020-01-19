@@ -13,7 +13,7 @@ import {
   cleanUpScrollEvent,
   isSafari,
   initHashLocation
-} from '~/utils/helpers'
+} from '~/views/core/utils/helpers'
 
 const NavContent = ({ isShowNavContent }) => {
   const [selectedPage, setSelectedPage] = useState(getSelectedSection())

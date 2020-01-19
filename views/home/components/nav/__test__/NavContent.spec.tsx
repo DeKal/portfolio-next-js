@@ -1,7 +1,7 @@
 import * as React from 'react'
-import { mountWithTheme, shallowWithTheme } from '~/utils/withThemeProviders'
+import { mountWithTheme, shallowWithTheme } from '~/views/core/utils/withThemeProviders'
 import NavContent from '~/views/home/components/nav/NavContent'
-import * as helpers from '~/utils/helpers'
+import * as helpers from '~/views/core/utils/helpers'
 import { ABOUT } from '~/consts/pages'
 
 describe('Nav Content', () => {

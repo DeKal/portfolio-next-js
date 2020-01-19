@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { mountWithTheme } from '~/utils/withThemeProviders'
+import { mountWithTheme } from '~/views/core/utils/withThemeProviders'
 import Typist from '~/views/home/components/common/Typist'
 import { act } from 'react-dom/test-utils'
 
