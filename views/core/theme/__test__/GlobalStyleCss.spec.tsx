@@ -1,9 +1,9 @@
 import * as React from 'react'
 import { mount } from 'enzyme'
 import GlobalStyleCss from '~/views/core/theme/GlobalStyleCss'
-import defaultTheme from '~/theme/theme'
-import xmasTheme from '~/theme/christMasTheme'
-import newyearTheme from '~/theme/newYearTheme'
+import defaultTheme from '~/views/core/theme/styleguide/theme'
+import xmasTheme from '~/views/core/theme/styleguide/christMasTheme'
+import newyearTheme from '~/views/core/theme/styleguide/newYearTheme'
 
 describe('GlobalStyleCss', () => {
 

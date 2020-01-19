@@ -1,7 +1,7 @@
 import { shallow, mount } from 'enzyme'
 import { ThemeConsumer } from 'styled-components/macro'
-import homeTheme from '~/theme/theme'
-import baseTheme from '~/theme/baseTheme'
+import homeTheme from '~/views/core/theme/styleguide/theme'
+import baseTheme from '~/views/core/theme/styleguide/baseTheme'
 
 /* istanbul ignore next */
 export const shallowWithTheme = (children, theme = homeTheme) => {
