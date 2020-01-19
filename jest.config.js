@@ -15,7 +15,11 @@ module.exports = {
   coveragePathIgnorePatterns: ['/node_modules/', 'enzyme.js'],
   setupFilesAfterEnv: ['<rootDir>/enzyme.js'],
   coverageReporters: ['json', 'lcov', 'text', 'clover'],
-  collectCoverageFrom: ['utils/**/*.js', 'views/**/*.js'],
+  collectCoverageFrom: [
+    'utils/**/*.js',
+    'views/**/*.js',
+    '!*/**/containers/**'
+  ],
   testResultsProcessor: './node_modules/jest-junit-reporter',
   moduleNameMapper: {
     '~/(.*)': '<rootDir>/$1'

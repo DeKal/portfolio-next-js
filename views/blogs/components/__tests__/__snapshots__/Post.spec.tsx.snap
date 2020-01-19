@@ -17,7 +17,7 @@ exports[`Blog Post should render without throwing an error 1`] = `
       minRead="6"
     />
     <Content>
-      Query understanding and relevance are key aspects of search, but they don’t tell the whole story. A holistic framework for search calls for a broader perspective. Search is about computers helping humans help themselves, a framework also known as human-computer information retrieval (HCIR). In order to understand search as HCIR, we need to consider it from both the human and computational perspectives.Query understanding and relevance are key aspects of search, but they don’t tell the whole story. A holistic framework for search calls for a broader perspective. Search is about computers helping humans help themselves, a framework also known as human-computer information retrieval (HCIR). In order to understand search as HCIR, we need to consider it from both the human and computational perspectives.Query understanding and relevance are key aspects of search, but they don’t tell the whole story. A holistic framework for search calls for a broader perspective. Search is about computers helping humans help themselves, a framework also known as human-computer information retrieval (HCIR). In order to understand search as HCIR, we need to consider it from both the human and computational perspectives.
+      Query understanding and relevance are key aspects of search, but they don’t tell the whole story.
     </Content>
   </article>
 </Container>

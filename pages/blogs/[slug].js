@@ -1,14 +1,15 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import Head from '~/views/blogs/components/Head'
 import Navbar from '~/views/blogs/components/Navbar'
-import Post from '~/views/blogs/components/Post'
+import Post from '~/views/blogs/containers/Post'
+import { PostProvider } from '~/views/blogs/state/post/provider'
 
 const Blogs = () => (
-  <Fragment>
+  <PostProvider>
     <Head />
     <Navbar />
     <Post />
-  </Fragment>
+  </PostProvider>
 )
 
 export default Blogs
