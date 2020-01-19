@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { shallowWithBaseTheme } from '~/utils/withThemeProviders'
+import { shallowWithBaseTheme } from '~/views/core/utils/withThemeProviders'
 import Header from '~/views/blogs/components/post/Header'
 import theme from '~/theme/blogTheme'
 

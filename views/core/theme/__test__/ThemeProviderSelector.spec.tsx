@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { shallow } from 'enzyme'
 import ThemeProviderSelector from '~/views/core/theme/ThemeProviderSelector'
-import * as helpers from '~/utils/helpers'
+import * as helpers from '~/views/core/utils/helpers'
 import * as Router from 'next/router'
 
 describe('Theme Provider Selector', () => {

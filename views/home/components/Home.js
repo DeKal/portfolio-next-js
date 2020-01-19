@@ -5,7 +5,7 @@ import { Translate } from 'react-localize-redux'
 import Container from 'react-bootstrap/Container'
 import Anchor from '~/views/home/components/common/Anchor'
 import Typist from '~/views/home/components/common/Typist'
-import useWindowDimensions from '~/utils/useWindowDimensions'
+import useWindowDimensions from '~/views/core/utils/useWindowDimensions'
 
 const Home = () => {
   const { width } = useWindowDimensions()

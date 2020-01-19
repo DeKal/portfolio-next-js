@@ -1,10 +1,10 @@
 import * as React from 'react'
-import { mountWithTheme } from '~/utils/withThemeProviders'
+import { mountWithTheme } from '~/views/core/utils/withThemeProviders'
 import NavLink from '~/views/home/components/nav/NavLink'
 import { EN, VN } from '~/consts/langs'
 
-import useWindowDimensions from '~/utils/useWindowDimensions'
-jest.mock('~/utils/useWindowDimensions')
+import useWindowDimensions from '~/views/core/utils/useWindowDimensions'
+jest.mock('~/views/core/utils/useWindowDimensions')
 
 describe('Nav Link', () => {
   describe('Big Device >= 600px', () => {

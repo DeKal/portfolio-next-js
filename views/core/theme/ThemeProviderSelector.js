@@ -6,7 +6,7 @@ import {
   isNewYearComing,
   isTet,
   isBlogs
-} from '~/utils/helpers'
+} from '~/views/core/utils/helpers'
 import theme from '~/theme/theme'
 import christMasTheme from '~/theme/christMasTheme'
 import newYearTheme from '~/theme/newYearTheme'

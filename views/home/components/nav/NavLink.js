@@ -3,7 +3,7 @@ import styled from 'styled-components/macro'
 import PropTypes from 'prop-types'
 import { EN } from '~/consts/langs'
 import { Translate, withLocalize } from 'react-localize-redux'
-import useWindowDimensions from '~/utils/useWindowDimensions'
+import useWindowDimensions from '~/views/core/utils/useWindowDimensions'
 
 const NavLink = ({
   lang,

@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { shallowWithTheme } from '~/utils/withThemeProviders'
+import { shallowWithTheme } from '~/views/core/utils/withThemeProviders'
 import Socials from '~/views/home/components/contact/Socials'
 
 describe('Social', () => {
