@@ -1,36 +1,36 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Blog PostInfo should render without throwing an error 1`] = `
-<PostInfo__InfoRow>
+<Container>
   <Col
     md={6}
   >
     <ForwardRef
       noGutters={false}
     >
-      <PostInfo__ColNoGutter
+      <ColNoGutter
         sm="auto"
         xs="auto"
       >
-        <PostInfo__Avatar />
-      </PostInfo__ColNoGutter>
-      <PostInfo__Info>
+        <Avatar />
+      </ColNoGutter>
+      <ColInfo>
         <ForwardRef
           noGutters={true}
         >
-          <PostInfo__Author>
+          <Author>
              
              
-          </PostInfo__Author>
+          </Author>
         </ForwardRef>
         <ForwardRef
           noGutters={true}
         >
-          <PostInfo__SubInfo>
+          <SubInfo>
             undefined - undefined mins read
-          </PostInfo__SubInfo>
+          </SubInfo>
         </ForwardRef>
-      </PostInfo__Info>
+      </ColInfo>
     </ForwardRef>
   </Col>
   <Col
@@ -41,5 +41,5 @@ exports[`Blog PostInfo should render without throwing an error 1`] = `
       }
     }
   />
-</PostInfo__InfoRow>
+</Container>
 `;

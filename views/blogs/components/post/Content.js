@@ -1,10 +1,10 @@
 import styled from 'styled-components/macro'
 
 export default styled.div`
-  margin-top: 2em;
-  font-size: 22px;
-  letter-spacing: -0.004em;
-  line-height: 38px;
-  color: rgba(0, 0, 0, 0.84);
-  font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
+  margin-top: ${props => props.theme.content.marginTop};
+  font-size: ${props => props.theme.fontSizes.XXL};
+  letter-spacing: ${props => props.theme.content.letterSpacing};
+  line-height: ${props => props.theme.content.lineHeight};
+  color: ${props => props.theme.colors.dark};
+  font-family: ${props => props.theme.fonts.fontSerif};
 `

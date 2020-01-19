@@ -4,7 +4,16 @@ exports[`Theme Provider Selector Selector fo blog theme should render for blog t
 <ThemeProvider
   theme={
     Object {
-      "colors": Object {},
+      "colors": Object {
+        "dark": "rgba(0, 0, 0, 0.84)",
+        "light": "rgb(255, 255, 255)",
+        "lightDark": "rgba(0, 0, 0, 0.54)",
+      },
+      "content": Object {
+        "letterSpacing": "-0.004em",
+        "lineHeight": "40px",
+        "marginTop": "2em",
+      },
       "defaultLineHeight": 1.57,
       "extra": Object {},
       "font": "-apple-system, blinkmacsystemfont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", sans-serif",
@@ -26,6 +35,9 @@ exports[`Theme Provider Selector Selector fo blog theme should render for blog t
         "fontSerif": "Georgia, Times, \\"Times New Roman\\", serif",
         "fontTrebuchet": "Trebuchet MS, sans-serif",
       },
+      "header": Object {
+        "fontSize": "36px",
+      },
       "icons": Object {
         "c": "C",
         "fb": "\\\\e811",
@@ -39,7 +51,10 @@ exports[`Theme Provider Selector Selector fo blog theme should render for blog t
         "workexp": "\\\\e804",
       },
       "images": Object {},
-      "postPaddingTop": "35px",
+      "marginFromContent": "32px",
+      "postMarginTop": "35px",
+      "postMaxWidth": "768px",
+      "postSurroundingsPadding": "35px",
       "spaces": Object {
         "gutter": 16,
         "large": 35,
@@ -56,7 +71,16 @@ exports[`Theme Provider Selector Selector fo blog theme should render for blog t
   <GlobalStyleCss
     theme={
       Object {
-        "colors": Object {},
+        "colors": Object {
+          "dark": "rgba(0, 0, 0, 0.84)",
+          "light": "rgb(255, 255, 255)",
+          "lightDark": "rgba(0, 0, 0, 0.54)",
+        },
+        "content": Object {
+          "letterSpacing": "-0.004em",
+          "lineHeight": "40px",
+          "marginTop": "2em",
+        },
         "defaultLineHeight": 1.57,
         "extra": Object {},
         "font": "-apple-system, blinkmacsystemfont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", sans-serif",
@@ -78,6 +102,9 @@ exports[`Theme Provider Selector Selector fo blog theme should render for blog t
           "fontSerif": "Georgia, Times, \\"Times New Roman\\", serif",
           "fontTrebuchet": "Trebuchet MS, sans-serif",
         },
+        "header": Object {
+          "fontSize": "36px",
+        },
         "icons": Object {
           "c": "C",
           "fb": "\\\\e811",
@@ -91,7 +118,10 @@ exports[`Theme Provider Selector Selector fo blog theme should render for blog t
           "workexp": "\\\\e804",
         },
         "images": Object {},
-        "postPaddingTop": "35px",
+        "marginFromContent": "32px",
+        "postMarginTop": "35px",
+        "postMaxWidth": "768px",
+        "postSurroundingsPadding": "35px",
         "spaces": Object {
           "gutter": 16,
           "large": 35,

@@ -1,29 +1,34 @@
 import React from 'react'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import styled from 'styled-components/macro'
 import PropTypes from 'prop-types'
+import Container from './postinfo/Container'
+import ColNoGutter from './postinfo/ColNoGutter'
+import Avatar from './postinfo/Avatar'
+import ColInfo from './postinfo/ColInfo'
+import Author from './postinfo/Author'
+import SubInfo from './postinfo/SubInfo'
 
 const PostInfo = ({ authorName, date, minRead, avatar }) => {
   return (
-    <InfoRow>
+    <Container>
       <Col md={6}>
         <Row>
           <ColNoGutter xs={'auto'} sm={'auto'}>
             <Avatar alt={authorName} src={avatar} />
           </ColNoGutter>
-          <Info>
+          <ColInfo>
             <Row noGutters>
               <Author> {authorName} </Author>
             </Row>
             <Row noGutters>
               <SubInfo>{`${date} - ${minRead} mins read`}</SubInfo>
             </Row>
-          </Info>
+          </ColInfo>
         </Row>
       </Col>
       <Col md={{ span: 2, offset: 4 }}></Col>
-    </InfoRow>
+    </Container>
   )
 }
 
@@ -35,36 +40,3 @@ PostInfo.propTypes = {
 }
 
 export default PostInfo
-
-const InfoRow = styled(Row)`
-  margin-top: 32px;
-`
-const Avatar = styled.img`
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  display: block;
-  vertical-align: middle;
-`
-const Info = styled(Col)`
-  display: block;
-  width: 100%;
-  padding-left: 12px;
-`
-const SubInfo = styled.div`
-  font-weight: 300;
-  font-size: 14px;
-  color: rgba(0, 0, 0, 0.54);
-`
-
-const Author = styled.div`
-  line-height: 20px;
-  font-size: 16px;
-  color: rgba(0, 0, 0, 0.84);
-  font-weight: 400;
-  margin-bottom: 2px;
-`
-const ColNoGutter = styled(Col)`
-  padding-left: 0;
-  padding-right: 0;
-`

@@ -1,11 +1,11 @@
 import * as React from 'react'
 import { shallowWithBaseTheme } from '~/utils/withThemeProviders'
-import Container from '~/views/blogs/components/post/Container'
+import Author from '../Author'
 import theme from '~/theme/blogTheme'
 
-describe('Blog Container', () => {
+describe('Blog Post Info Author', () => {
   it('should render without throwing an error', function () {
-    const wrap = shallowWithBaseTheme(<Container />, theme)
+    const wrap = shallowWithBaseTheme(<Author />, theme)
     expect(wrap).toMatchSnapshot()
   })
 })
