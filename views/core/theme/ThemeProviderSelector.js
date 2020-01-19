@@ -1,15 +1,23 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { ThemeProvider } from 'styled-components/macro'
-import { isChristmasDay, isNewYearComing, isTet } from '~/utils/helpers'
+import {
+  isChristmasDay,
+  isNewYearComing,
+  isTet,
+  isBlogs
+} from '~/utils/helpers'
 import theme from '~/theme/theme'
 import christMasTheme from '~/theme/christMasTheme'
 import newYearTheme from '~/theme/newYearTheme'
 import tetTheme from '~/theme/tetTheme'
+import blogTheme from '~/theme/blogTheme'
 import GlobalStyleCss from '~/views/core/theme/GlobalStyleCss'
+import { useRouter } from 'next/router'
 
 const ThemeProviderSelector = ({ children }) => {
-  const theme = useTheme()
+  const router = useRouter()
+  const theme = useTheme(router)
   return (
     <ThemeProvider theme={theme}>
       {children}
@@ -24,7 +32,11 @@ ThemeProviderSelector.propTypes = {
 
 export default ThemeProviderSelector
 
-const useTheme = () => {
+const useTheme = router => {
+  if (isBlogs(router.pathname)) {
+    return blogTheme
+  }
+
   if (isChristmasDay()) {
     return christMasTheme
   }

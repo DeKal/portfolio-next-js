@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Blog Navbar should render without throwing an error 1`] = `
+<Fragment>
+  <Navbar
+    bg="light"
+    collapseOnSelect={false}
+    expand={true}
+    variant="light"
+  >
+    <Container
+      fluid={false}
+    >
+      <NavLogo
+        image="/images/logo.png"
+        redirectLink="/blogs"
+      />
+      <Nav
+        className="mr-auto"
+        fill={false}
+        justify={false}
+      >
+        <NavItem
+          href="/"
+        >
+          Home
+        </NavItem>
+        <NavItem
+          href="/blogs"
+        >
+          Blogs
+        </NavItem>
+      </Nav>
+      <Search />
+    </Container>
+  </Navbar>
+</Fragment>
+`;

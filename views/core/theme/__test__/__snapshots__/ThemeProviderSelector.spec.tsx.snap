@@ -1,6 +1,144 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Theme Provider Selector should render for christmas day without throwing an error 1`] = `
+exports[`Theme Provider Selector Selector fo blog theme should render for blog the,e throwing an error 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "colors": Object {
+        "dark": "rgba(0, 0, 0, 0.84)",
+        "light": "rgb(255, 255, 255)",
+        "lightDark": "rgba(0, 0, 0, 0.54)",
+      },
+      "content": Object {
+        "letterSpacing": "-0.004em",
+        "lineHeight": "40px",
+        "marginTop": "2em",
+      },
+      "defaultLineHeight": 1.57,
+      "extra": Object {},
+      "font": "-apple-system, blinkmacsystemfont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", sans-serif",
+      "fontSizes": Object {
+        "L": "16px",
+        "M": "14px",
+        "S": "12px",
+        "XL": "18px",
+        "XS": "10px",
+        "XXL": "22px",
+        "XXXL": "24px",
+        "base": "14px",
+      },
+      "fonts": Object {
+        "fontCert": "Times, serif",
+        "fontCondensed": "\\"Open Sans Condensed\\", Tahoma, Verdana, Arial, sans-serif",
+        "fontIp": "\\"ip\\", sans-serif",
+        "fontSans": "\\"Open Sans\\", Tahoma, Verdana, Arial, sans-serif",
+        "fontSerif": "Georgia, Times, \\"Times New Roman\\", serif",
+        "fontTrebuchet": "Trebuchet MS, sans-serif",
+      },
+      "header": Object {
+        "fontSize": "36px",
+      },
+      "icons": Object {
+        "c": "C",
+        "fb": "\\\\e811",
+        "goTop": "\\\\e817",
+        "link": "\\\\e819",
+        "linkedin": "\\\\e815",
+        "location": "\\\\e806",
+        "mail": "\\\\e800",
+        "p": "P",
+        "phone": "\\\\e81a",
+        "workexp": "\\\\e804",
+      },
+      "images": Object {},
+      "marginFromContent": "32px",
+      "postMarginTop": "35px",
+      "postMaxWidth": "768px",
+      "postSurroundingsPadding": "35px",
+      "spaces": Object {
+        "gutter": 16,
+        "large": 35,
+        "medium": 25,
+        "small": 16,
+        "xlarge": 45,
+        "xsmall": 13,
+        "xxsmall": 10,
+        "xxxsmall": 7,
+      },
+    }
+  }
+>
+  <GlobalStyleCss
+    theme={
+      Object {
+        "colors": Object {
+          "dark": "rgba(0, 0, 0, 0.84)",
+          "light": "rgb(255, 255, 255)",
+          "lightDark": "rgba(0, 0, 0, 0.54)",
+        },
+        "content": Object {
+          "letterSpacing": "-0.004em",
+          "lineHeight": "40px",
+          "marginTop": "2em",
+        },
+        "defaultLineHeight": 1.57,
+        "extra": Object {},
+        "font": "-apple-system, blinkmacsystemfont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", sans-serif",
+        "fontSizes": Object {
+          "L": "16px",
+          "M": "14px",
+          "S": "12px",
+          "XL": "18px",
+          "XS": "10px",
+          "XXL": "22px",
+          "XXXL": "24px",
+          "base": "14px",
+        },
+        "fonts": Object {
+          "fontCert": "Times, serif",
+          "fontCondensed": "\\"Open Sans Condensed\\", Tahoma, Verdana, Arial, sans-serif",
+          "fontIp": "\\"ip\\", sans-serif",
+          "fontSans": "\\"Open Sans\\", Tahoma, Verdana, Arial, sans-serif",
+          "fontSerif": "Georgia, Times, \\"Times New Roman\\", serif",
+          "fontTrebuchet": "Trebuchet MS, sans-serif",
+        },
+        "header": Object {
+          "fontSize": "36px",
+        },
+        "icons": Object {
+          "c": "C",
+          "fb": "\\\\e811",
+          "goTop": "\\\\e817",
+          "link": "\\\\e819",
+          "linkedin": "\\\\e815",
+          "location": "\\\\e806",
+          "mail": "\\\\e800",
+          "p": "P",
+          "phone": "\\\\e81a",
+          "workexp": "\\\\e804",
+        },
+        "images": Object {},
+        "marginFromContent": "32px",
+        "postMarginTop": "35px",
+        "postMaxWidth": "768px",
+        "postSurroundingsPadding": "35px",
+        "spaces": Object {
+          "gutter": 16,
+          "large": 35,
+          "medium": 25,
+          "small": 16,
+          "xlarge": 45,
+          "xsmall": 13,
+          "xxsmall": 10,
+          "xxxsmall": 7,
+        },
+      }
+    }
+  />
+</ThemeProvider>
+`;
+
+exports[`Theme Provider Selector Selector fo normal theme should render for christmas day without throwing an error 1`] = `
 <ThemeProvider
   theme={
     Object {
@@ -150,7 +288,7 @@ exports[`Theme Provider Selector should render for christmas day without throwin
 </ThemeProvider>
 `;
 
-exports[`Theme Provider Selector should render for new year day without throwing an error 1`] = `
+exports[`Theme Provider Selector Selector fo normal theme should render for new year day without throwing an error 1`] = `
 <ThemeProvider
   theme={
     Object {
@@ -302,7 +440,7 @@ exports[`Theme Provider Selector should render for new year day without throwing
 </ThemeProvider>
 `;
 
-exports[`Theme Provider Selector should render for normal day without throwing an error 1`] = `
+exports[`Theme Provider Selector Selector fo normal theme should render for normal day without throwing an error 1`] = `
 <ThemeProvider
   theme={
     Object {
@@ -452,7 +590,7 @@ exports[`Theme Provider Selector should render for normal day without throwing a
 </ThemeProvider>
 `;
 
-exports[`Theme Provider Selector should render for tet without throwing an error 1`] = `
+exports[`Theme Provider Selector Selector fo normal theme should render for tet without throwing an error 1`] = `
 <ThemeProvider
   theme={
     Object {

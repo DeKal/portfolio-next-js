@@ -99,3 +99,7 @@ export const isTet = () => {
 
   return isJanuary && isTetTime
 }
+
+export const isBlogs = path => {
+  return /blogs/.test(path)
+}
