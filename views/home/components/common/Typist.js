@@ -1,7 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 
-import { START_COUNT, MAX_LIMIT, SEC_PER_TURN, INTERVAL } from '~/consts/typist'
+import {
+  START_COUNT,
+  MAX_LIMIT,
+  SEC_PER_TURN,
+  INTERVAL
+} from '~/views/home/consts/typist'
 
 const Typist = ({ children }) => {
   const [seconds, setSeconds] = useState(START_COUNT)

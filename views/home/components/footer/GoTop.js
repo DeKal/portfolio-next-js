@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import Icon from '~/views/home/components/common/Icon'
-import { HOME } from '~/consts/pages'
+import { HOME } from '~/views/home/consts/pages'
 
 const GoTop = () => (
   <Container href={`#${HOME}`}>

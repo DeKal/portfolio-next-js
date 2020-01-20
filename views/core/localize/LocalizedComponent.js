@@ -4,7 +4,7 @@ import { renderToStaticMarkup } from 'react-dom/server'
 import { withLocalize } from 'react-localize-redux'
 import enTrans from '~/public/translations/en.json'
 import vnTrans from '~/public/translations/vn.json'
-import { EN } from '~/consts/langs'
+import { EN } from '~/views/home/consts/langs'
 
 const defaultLanguage = EN
 

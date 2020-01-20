@@ -1,5 +1,5 @@
 import React from 'react'
-import { HOME } from '~/consts/pages'
+import { HOME } from '~/views/home/consts/pages'
 import styled from 'styled-components/macro'
 import { Translate } from 'react-localize-redux'
 import Container from 'react-bootstrap/Container'

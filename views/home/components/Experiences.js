@@ -1,6 +1,6 @@
 import React from 'react'
-import { EXPERIENCES } from '~/consts/pages'
-import { getCompanies } from '~/consts/experiences'
+import { EXPERIENCES } from '~/views/home/consts/pages'
+import { getCompanies } from '~/views/home/consts/experiences'
 import Header from '~/views/home/components/common/section/Header'
 import SectionContainer from '~/views/home/components/common/section/Container'
 import List from '~/views/home/components/experiences/List'

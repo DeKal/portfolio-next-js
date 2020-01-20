@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { mountWithTheme } from '~/views/core/utils/withThemeProviders'
 import NavLink from '~/views/home/components/nav/NavLink'
-import { EN, VN } from '~/consts/langs'
+import { EN, VN } from '~/views/home/consts/langs'
 
 import useWindowDimensions from '~/views/core/utils/useWindowDimensions'
 jest.mock('~/views/core/utils/useWindowDimensions')

@@ -1,5 +1,5 @@
 import React from 'react'
-import { ABOUT } from '~/consts/pages'
+import { ABOUT } from '~/views/home/consts/pages'
 import styled from 'styled-components/macro'
 import Container from 'react-bootstrap/Container'
 import CardHeader from '~/views/home/components/about/CardHeader'
