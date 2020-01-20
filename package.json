@@ -15,7 +15,6 @@
   },
   "dependencies": {
     "@zeit/next-css": "1.0.1",
-    "@zeit/next-sass": "1.0.1",
     "axios": "0.19.1",
     "bootstrap": "4.4.1",
     "jquery": "3.4.1",

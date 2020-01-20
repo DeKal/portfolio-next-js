@@ -17,7 +17,13 @@ exports[`Blog Post should render without throwing an error 1`] = `
       minRead="6"
     />
     <Content>
-      Query understanding and relevance are key aspects of search, but they don’t tell the whole story.
+      <div
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Query understanding and relevance are key aspects of search, but they don’t tell the whole story.",
+          }
+        }
+      />
     </Content>
   </article>
 </Container>

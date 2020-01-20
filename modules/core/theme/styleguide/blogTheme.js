@@ -2,8 +2,8 @@ import baseTheme from './baseTheme'
 
 const theme = {
   ...baseTheme,
-  postMarginTop: '35px',
-  postSurroundingsPadding: '35px',
+  postMarginTop: '0',
+  postSurroundingsPadding: '0px 35px',
   postMaxWidth: '768px',
   marginFromContent: '32px',
   colors: {
@@ -17,7 +17,8 @@ const theme = {
     letterSpacing: '-0.004em'
   },
   header: {
-    fontSize: '36px'
+    fontSize: '36px',
+    fontSizeOnPhone: '28px'
   }
 }
 

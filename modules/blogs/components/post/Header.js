@@ -5,4 +5,8 @@ export default styled.h1`
   font-size: ${props => props.theme.header.fontSize};
   color: ${props => props.theme.colors.dark};
   font-weight: 400;
+
+  @media (max-width: 576px) {
+    font-size: ${props => props.theme.header.fontSizeOnPhone};
+  }
 `

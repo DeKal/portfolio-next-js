@@ -22,13 +22,19 @@ exports[`Blog Navbar should render without throwing an error 1`] = `
       >
         <NavItem
           href="/"
+          key="Home"
         >
-          Home
+          <Translate
+            id="Home"
+          />
         </NavItem>
         <NavItem
           href="/blogs"
+          key="Blogs"
         >
-          Blogs
+          <Translate
+            id="Blogs"
+          />
         </NavItem>
       </Nav>
       <Search />

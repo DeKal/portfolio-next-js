@@ -18,10 +18,15 @@ const Post = ({ data }) => (
         date={data.date}
         minRead={data.minRead}
       />
-      <Content>{data.content}</Content>
+      <Content>
+        <div dangerouslySetInnerHTML={createMarkup(data.content)} />
+      </Content>
     </article>
   </Container>
 )
+function createMarkup(content) {
+  return { __html: content }
+}
 
 Post.propTypes = {
   data: PropTypes.shape({

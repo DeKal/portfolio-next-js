@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { mount } from 'enzyme'
-import GlobalStyleCss from '~/modules/core/theme/GlobalStyleCss'
+import GlobalStyleCss from '~/modules/home/theme/GlobalStyleCss'
 import defaultTheme from '~/modules/core/theme/styleguide/theme'
 import xmasTheme from '~/modules/core/theme/styleguide/christMasTheme'
 import newyearTheme from '~/modules/core/theme/styleguide/newYearTheme'

@@ -2,7 +2,7 @@
 
 exports[`Blog Container should render without throwing an error 1`] = `
 <Container
-  className="Container-ffzdp6-0 gIFPgt"
+  className="Container-ffzdp6-0 kErHWJ"
   fluid={false}
 />
 `;
