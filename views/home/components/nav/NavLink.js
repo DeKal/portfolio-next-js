@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import PropTypes from 'prop-types'
-import { EN } from '~/consts/langs'
+import { EN } from '~/views/home/consts/langs'
 import { Translate, withLocalize } from 'react-localize-redux'
 import useWindowDimensions from '~/views/core/utils/useWindowDimensions'
 

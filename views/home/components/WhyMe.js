@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import Container from 'react-bootstrap/Container'
-import { WHYME } from '~/consts/pages'
+import { WHYME } from '~/views/home/consts/pages'
 import Title from '~/views/home/components/whyme/Title'
 import Quote from '~/views/home/components/whyme/Quote'
 import { Translate } from 'react-localize-redux'

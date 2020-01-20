@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components/macro'
-import { CONTACTS } from '~/consts/pages'
+import { CONTACTS } from '~/views/home/consts/pages'
 import Map from '~/views/home/components/contact/Map'
 import Content from '~/views/home/components/contact/Content'
 import Header from '~/views/home/components/contact/Header'

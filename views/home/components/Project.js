@@ -4,7 +4,7 @@ import Container from '~/views/home/components/common/section/Container'
 import Header from '~/views/home/components/common/section/Header'
 import Content from '~/views/home/components/project/Content'
 import Item from '~/views/home/components/project/Item'
-import { PROJECTS } from '~/consts/pages'
+import { PROJECTS } from '~/views/home/consts/pages'
 import Anchor from '~/views/home/components/common/Anchor'
 
 const Project = () => (

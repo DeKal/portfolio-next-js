@@ -1,4 +1,4 @@
-import { INIT_SELECTED_PAGE } from '~/consts/initState'
+import { INIT_SELECTED_PAGE } from '~/views/home/consts/initState'
 import $ from 'jquery'
 
 /* istanbul ignore next */

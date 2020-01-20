@@ -6,7 +6,7 @@ import NavItem from '~/views/home/components/nav/NavItem'
 import MobileContainer from '~/views/home/components/common/container/MobileContainer'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import { PAGE_LIST } from '~/consts/pages'
+import { PAGE_LIST } from '~/views/home/consts/pages'
 import {
   getSelectedSection,
   setJqueryScrollEvent,
