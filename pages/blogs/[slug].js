@@ -1,8 +1,8 @@
 import React from 'react'
-import Head from '~/views/blogs/components/Head'
-import Navbar from '~/views/blogs/components/Navbar'
-import Post from '~/views/blogs/containers/Post'
-import { PostProvider } from '~/views/blogs/state/post/provider'
+import Head from '~/modules/blogs/components/Head'
+import Navbar from '~/modules/blogs/components/Navbar'
+import Post from '~/modules/blogs/containers/Post'
+import { PostProvider } from '~/modules/blogs/state/post/provider'
 
 const Blogs = () => (
   <PostProvider>

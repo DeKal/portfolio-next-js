@@ -1,8 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Blog Post Info Container should render without throwing an error 1`] = `
-<ForwardRef
-  className="Container-m1cy8s-0 eFIuUd"
-  noGutters={false}
-/>
-`;

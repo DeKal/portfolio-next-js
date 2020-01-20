@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 
-import Head from '~/views/blogs/components/Head'
-import Navbar from '~/views/blogs/components/Navbar'
+import Head from '~/modules/blogs/components/Head'
+import Navbar from '~/modules/blogs/components/Navbar'
 
 const Blogs = () => (
   <Fragment>
