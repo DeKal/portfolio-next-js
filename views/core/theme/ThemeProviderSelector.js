@@ -7,11 +7,11 @@ import {
   isTet,
   isBlogs
 } from '~/views/core/utils/helpers'
-import theme from '~/theme/theme'
-import christMasTheme from '~/theme/christMasTheme'
-import newYearTheme from '~/theme/newYearTheme'
-import tetTheme from '~/theme/tetTheme'
-import blogTheme from '~/theme/blogTheme'
+import theme from '~/views/core/theme/styleguide/theme'
+import christMasTheme from '~/views/core/theme/styleguide/christMasTheme'
+import newYearTheme from '~/views/core/theme/styleguide/newYearTheme'
+import tetTheme from '~/views/core/theme/styleguide/tetTheme'
+import blogTheme from '~/views/core/theme/styleguide/blogTheme'
 import GlobalStyleCss from '~/views/core/theme/GlobalStyleCss'
 import { useRouter } from 'next/router'
 

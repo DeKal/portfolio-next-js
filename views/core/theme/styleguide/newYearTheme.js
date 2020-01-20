@@ -1,4 +1,4 @@
-import baseTheme from '~/theme/theme'
+import baseTheme from './theme'
 
 const theme = {
   ...baseTheme,
