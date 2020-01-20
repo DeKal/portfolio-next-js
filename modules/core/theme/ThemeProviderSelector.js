@@ -12,7 +12,8 @@ import christMasTheme from '~/modules/core/theme/styleguide/christMasTheme'
 import newYearTheme from '~/modules/core/theme/styleguide/newYearTheme'
 import tetTheme from '~/modules/core/theme/styleguide/tetTheme'
 import blogTheme from '~/modules/core/theme/styleguide/blogTheme'
-import GlobalStyleCss from '~/modules/core/theme/GlobalStyleCss'
+import BlogGlobalStyleCss from '~/modules/blogs/theme/GlobalStyleCss'
+import HomeGlobalStyleCss from '~/modules/home/theme/GlobalStyleCss'
 import { useRouter } from 'next/router'
 
 const ThemeProviderSelector = ({ children }) => {
@@ -21,7 +22,7 @@ const ThemeProviderSelector = ({ children }) => {
   return (
     <ThemeProvider theme={theme}>
       {children}
-      <GlobalStyleCss theme={theme} />
+      {selectGlobalCss(router, theme)}
     </ThemeProvider>
   )
 }
@@ -50,4 +51,11 @@ const useTheme = router => {
   }
 
   return theme
+}
+
+const selectGlobalCss = (router, theme) => {
+  if (!isBlogs(router.pathname)) {
+    return <HomeGlobalStyleCss theme={theme} />
+  }
+  return <BlogGlobalStyleCss theme={theme} />
 }

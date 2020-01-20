@@ -2,7 +2,7 @@ import baseTheme from './baseTheme'
 
 const theme = {
   ...baseTheme,
-  postMarginTop: '35px',
+  postMarginTop: '0',
   postSurroundingsPadding: '35px',
   postMaxWidth: '768px',
   marginFromContent: '32px',

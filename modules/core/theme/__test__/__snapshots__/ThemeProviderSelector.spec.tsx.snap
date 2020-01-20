@@ -52,7 +52,7 @@ exports[`Theme Provider Selector Selector fo blog theme should render for blog t
       },
       "images": Object {},
       "marginFromContent": "32px",
-      "postMarginTop": "35px",
+      "postMarginTop": "0",
       "postMaxWidth": "768px",
       "postSurroundingsPadding": "35px",
       "spaces": Object {
@@ -119,7 +119,7 @@ exports[`Theme Provider Selector Selector fo blog theme should render for blog t
         },
         "images": Object {},
         "marginFromContent": "32px",
-        "postMarginTop": "35px",
+        "postMarginTop": "0",
         "postMaxWidth": "768px",
         "postSurroundingsPadding": "35px",
         "spaces": Object {
