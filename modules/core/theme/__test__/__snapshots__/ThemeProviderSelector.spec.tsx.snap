@@ -37,6 +37,7 @@ exports[`Theme Provider Selector Selector fo blog theme should render for blog t
       },
       "header": Object {
         "fontSize": "36px",
+        "fontSizeOnPhone": "28px",
       },
       "icons": Object {
         "c": "C",
@@ -54,7 +55,7 @@ exports[`Theme Provider Selector Selector fo blog theme should render for blog t
       "marginFromContent": "32px",
       "postMarginTop": "0",
       "postMaxWidth": "768px",
-      "postSurroundingsPadding": "35px",
+      "postSurroundingsPadding": "0px 35px",
       "spaces": Object {
         "gutter": 16,
         "large": 35,
@@ -104,6 +105,7 @@ exports[`Theme Provider Selector Selector fo blog theme should render for blog t
         },
         "header": Object {
           "fontSize": "36px",
+          "fontSizeOnPhone": "28px",
         },
         "icons": Object {
           "c": "C",
@@ -121,7 +123,7 @@ exports[`Theme Provider Selector Selector fo blog theme should render for blog t
         "marginFromContent": "32px",
         "postMarginTop": "0",
         "postMaxWidth": "768px",
-        "postSurroundingsPadding": "35px",
+        "postSurroundingsPadding": "0px 35px",
         "spaces": Object {
           "gutter": 16,
           "large": 35,
