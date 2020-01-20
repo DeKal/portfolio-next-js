@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WhyMe should render without throwing an error 1`] = `
+<WhyMe>
+  <WhyMe__Section
+    id="Whyme"
+  >
+    <Container
+      className="WhyMe__Section-es5ehw-0 cQlYyK"
+      fluid={false}
+      id="Whyme"
+    >
+      <div
+        className="WhyMe__Section-es5ehw-0 cQlYyK container"
+        id="Whyme"
+      >
+        <WhyMe__Inner>
+          <div
+            className="WhyMe__Inner-es5ehw-1 cXKplh"
+          >
+            <Title>
+              <Title__Container>
+                <h2
+                  className="Title__Container-sjy7ck-0 enqaLX"
+                >
+                  <Translate
+                    id="Why me: Title"
+                  >
+                    <WrappedTranslate
+                      context={
+                        Object {
+                          "activeLanguage": undefined,
+                          "addTranslation": [Function],
+                          "addTranslationForLanguage": [Function],
+                          "defaultLanguage": undefined,
+                          "ignoreTranslateChildren": false,
+                          "initialize": [Function],
+                          "languages": Array [],
+                          "renderToStaticMarkup": false,
+                          "setActiveLanguage": [Function],
+                          "translate": [Function],
+                        }
+                      }
+                      id="Why me: Title"
+                    >
+                      Missing translationId: Why me: Title for language: \${ languageCode }
+                    </WrappedTranslate>
+                  </Translate>
+                </h2>
+              </Title__Container>
+            </Title>
+            <Quote>
+              <Quote__Container>
+                <div
+                  className="Quote__Container-bhoerb-0 iwkzlf"
+                >
+                  <Quote__Content>
+                    <p
+                      className="Quote__Content-bhoerb-1 cucVeK"
+                    >
+                      <Translate
+                        id="Why me: Quote"
+                      >
+                        <WrappedTranslate
+                          context={
+                            Object {
+                              "activeLanguage": undefined,
+                              "addTranslation": [Function],
+                              "addTranslationForLanguage": [Function],
+                              "defaultLanguage": undefined,
+                              "ignoreTranslateChildren": false,
+                              "initialize": [Function],
+                              "languages": Array [],
+                              "renderToStaticMarkup": false,
+                              "setActiveLanguage": [Function],
+                              "translate": [Function],
+                            }
+                          }
+                          id="Why me: Quote"
+                        >
+                          Missing translationId: Why me: Quote for language: \${ languageCode }
+                        </WrappedTranslate>
+                      </Translate>
+                    </p>
+                  </Quote__Content>
+                </div>
+              </Quote__Container>
+            </Quote>
+          </div>
+        </WhyMe__Inner>
+      </div>
+    </Container>
+  </WhyMe__Section>
+</WhyMe>
+`;

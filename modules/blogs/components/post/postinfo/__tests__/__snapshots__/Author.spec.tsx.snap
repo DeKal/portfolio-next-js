@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Blog Post Info Author should render without throwing an error 1`] = `
+<div
+  className="Author-x1e1vy-0 gGkeSp"
+/>
+`;

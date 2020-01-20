@@ -1,0 +1,559 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav Header should render when not show NavContent 1`] = `
+<NavHeader>
+  <NavHeader__NavContainer>
+    <div
+      className="NavHeader__NavContainer-sc-1iyu030-0 dncZSN"
+    >
+      <MobileContainer>
+        <Container
+          className="MobileContainer-phmkm8-0 irmGhi"
+          fluid={false}
+        >
+          <div
+            className="MobileContainer-phmkm8-0 irmGhi container"
+          >
+            <ForwardRef
+              fluid="true"
+              noGutters={false}
+            >
+              <div
+                className="row"
+                fluid="true"
+              >
+                <Col
+                  xs={6}
+                >
+                  <div
+                    className="col-6"
+                  >
+                    <NavLang>
+                      <NavLang__NotSelectableDiv>
+                        <nav
+                          className="NavLang__NotSelectableDiv-sc-1thvcuk-0 bIBazu"
+                        >
+                          <ul>
+                            <NavLang__NavLinkItem>
+                              <li
+                                className="NavLang__NavLinkItem-sc-1thvcuk-1 jIWYyo"
+                              >
+                                <LocalizedComponent
+                                  lang="en"
+                                  selectedLang="en"
+                                  setSelectedLang={[Function]}
+                                >
+                                  <NavLink
+                                    addTranslation={[Function]}
+                                    addTranslationForLanguage={[Function]}
+                                    ignoreTranslateChildren={false}
+                                    initialize={[Function]}
+                                    lang="en"
+                                    languages={Array []}
+                                    renderToStaticMarkup={false}
+                                    selectedLang="en"
+                                    setActiveLanguage={[Function]}
+                                    setSelectedLang={[Function]}
+                                    translate={[Function]}
+                                  >
+                                    <NavLink__Container
+                                      isSelected={true}
+                                      onClick={[Function]}
+                                    >
+                                      <a
+                                        className="NavLink__Container-sc-13fjz5m-0 kOssoX"
+                                        onClick={[Function]}
+                                      >
+                                        <Translate
+                                          id="english"
+                                        >
+                                          <WrappedTranslate
+                                            context={
+                                              Object {
+                                                "activeLanguage": undefined,
+                                                "addTranslation": [Function],
+                                                "addTranslationForLanguage": [Function],
+                                                "defaultLanguage": undefined,
+                                                "ignoreTranslateChildren": false,
+                                                "initialize": [Function],
+                                                "languages": Array [],
+                                                "renderToStaticMarkup": false,
+                                                "setActiveLanguage": [Function],
+                                                "translate": [Function],
+                                              }
+                                            }
+                                            id="english"
+                                          >
+                                            Missing translationId: english for language: \${ languageCode }
+                                          </WrappedTranslate>
+                                        </Translate>
+                                      </a>
+                                    </NavLink__Container>
+                                  </NavLink>
+                                </LocalizedComponent>
+                                <NavLang__InlineBlock>
+                                  <div
+                                    className="NavLang__InlineBlock-sc-1thvcuk-2 eRwfjr"
+                                  >
+                                    /
+                                  </div>
+                                </NavLang__InlineBlock>
+                                <LocalizedComponent
+                                  lang="vn"
+                                  selectedLang="en"
+                                  setSelectedLang={[Function]}
+                                >
+                                  <NavLink
+                                    addTranslation={[Function]}
+                                    addTranslationForLanguage={[Function]}
+                                    ignoreTranslateChildren={false}
+                                    initialize={[Function]}
+                                    lang="vn"
+                                    languages={Array []}
+                                    renderToStaticMarkup={false}
+                                    selectedLang="en"
+                                    setActiveLanguage={[Function]}
+                                    setSelectedLang={[Function]}
+                                    translate={[Function]}
+                                  >
+                                    <NavLink__Container
+                                      isSelected={false}
+                                      onClick={[Function]}
+                                    >
+                                      <a
+                                        className="NavLink__Container-sc-13fjz5m-0 fYhrRG"
+                                        onClick={[Function]}
+                                      >
+                                        <Translate
+                                          id="vietnamese"
+                                        >
+                                          <WrappedTranslate
+                                            context={
+                                              Object {
+                                                "activeLanguage": undefined,
+                                                "addTranslation": [Function],
+                                                "addTranslationForLanguage": [Function],
+                                                "defaultLanguage": undefined,
+                                                "ignoreTranslateChildren": false,
+                                                "initialize": [Function],
+                                                "languages": Array [],
+                                                "renderToStaticMarkup": false,
+                                                "setActiveLanguage": [Function],
+                                                "translate": [Function],
+                                              }
+                                            }
+                                            id="vietnamese"
+                                          >
+                                            Missing translationId: vietnamese for language: \${ languageCode }
+                                          </WrappedTranslate>
+                                        </Translate>
+                                      </a>
+                                    </NavLink__Container>
+                                  </NavLink>
+                                </LocalizedComponent>
+                              </li>
+                            </NavLang__NavLinkItem>
+                          </ul>
+                        </nav>
+                      </NavLang__NotSelectableDiv>
+                    </NavLang>
+                  </div>
+                </Col>
+                <Col
+                  xs={6}
+                >
+                  <div
+                    className="col-6"
+                  >
+                    <NavHeader__NavControl
+                      data-test-id="switch-nav-content"
+                      onClick={[Function]}
+                    >
+                      <div
+                        className="NavHeader__NavControl-sc-1iyu030-1 eFKIxD"
+                        data-test-id="switch-nav-content"
+                        onClick={[Function]}
+                      >
+                        <NavHeader__HamburgerIcon>
+                          <GiHamburgerMenu
+                            className="NavHeader__HamburgerIcon-sc-1iyu030-2 bvOrDJ"
+                          >
+                            <IconBase
+                              attr={
+                                Object {
+                                  "viewBox": "0 0 512 512",
+                                }
+                              }
+                              className="NavHeader__HamburgerIcon-sc-1iyu030-2 bvOrDJ"
+                            >
+                              <svg
+                                className="NavHeader__HamburgerIcon-sc-1iyu030-2 bvOrDJ"
+                                fill="currentColor"
+                                height="1em"
+                                stroke="currentColor"
+                                strokeWidth="0"
+                                style={
+                                  Object {
+                                    "color": undefined,
+                                  }
+                                }
+                                viewBox="0 0 512 512"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M32 96v64h448V96H32zm0 128v64h448v-64H32zm0 128v64h448v-64H32z"
+                                  key="0"
+                                />
+                              </svg>
+                            </IconBase>
+                          </GiHamburgerMenu>
+                        </NavHeader__HamburgerIcon>
+                         
+                        <Translate
+                          id="Menu"
+                        >
+                          <WrappedTranslate
+                            context={
+                              Object {
+                                "activeLanguage": undefined,
+                                "addTranslation": [Function],
+                                "addTranslationForLanguage": [Function],
+                                "defaultLanguage": undefined,
+                                "ignoreTranslateChildren": false,
+                                "initialize": [Function],
+                                "languages": Array [],
+                                "renderToStaticMarkup": false,
+                                "setActiveLanguage": [Function],
+                                "translate": [Function],
+                              }
+                            }
+                            id="Menu"
+                          >
+                            Missing translationId: Menu for language: \${ languageCode }
+                          </WrappedTranslate>
+                        </Translate>
+                      </div>
+                    </NavHeader__NavControl>
+                  </div>
+                </Col>
+              </div>
+            </ForwardRef>
+          </div>
+        </Container>
+      </MobileContainer>
+    </div>
+  </NavHeader__NavContainer>
+</NavHeader>
+`;
+
+exports[`Nav Header should render when show NavContent 1`] = `
+<NavHeader
+  isShowNavContent={true}
+>
+  <NavHeader__NavContainer>
+    <div
+      className="NavHeader__NavContainer-sc-1iyu030-0 dncZSN"
+    >
+      <MobileContainer>
+        <Container
+          className="MobileContainer-phmkm8-0 irmGhi"
+          fluid={false}
+        >
+          <div
+            className="MobileContainer-phmkm8-0 irmGhi container"
+          >
+            <ForwardRef
+              fluid="true"
+              noGutters={false}
+            >
+              <div
+                className="row"
+                fluid="true"
+              >
+                <Col
+                  xs={6}
+                >
+                  <div
+                    className="col-6"
+                  >
+                    <NavLang>
+                      <NavLang__NotSelectableDiv>
+                        <nav
+                          className="NavLang__NotSelectableDiv-sc-1thvcuk-0 bIBazu"
+                        >
+                          <ul>
+                            <NavLang__NavLinkItem>
+                              <li
+                                className="NavLang__NavLinkItem-sc-1thvcuk-1 jIWYyo"
+                              >
+                                <LocalizedComponent
+                                  lang="en"
+                                  selectedLang="en"
+                                  setSelectedLang={[Function]}
+                                >
+                                  <NavLink
+                                    addTranslation={[Function]}
+                                    addTranslationForLanguage={[Function]}
+                                    ignoreTranslateChildren={false}
+                                    initialize={[Function]}
+                                    lang="en"
+                                    languages={Array []}
+                                    renderToStaticMarkup={false}
+                                    selectedLang="en"
+                                    setActiveLanguage={[Function]}
+                                    setSelectedLang={[Function]}
+                                    translate={[Function]}
+                                  >
+                                    <NavLink__Container
+                                      isSelected={true}
+                                      onClick={[Function]}
+                                    >
+                                      <a
+                                        className="NavLink__Container-sc-13fjz5m-0 kOssoX"
+                                        onClick={[Function]}
+                                      >
+                                        <Translate
+                                          id="english"
+                                        >
+                                          <WrappedTranslate
+                                            context={
+                                              Object {
+                                                "activeLanguage": undefined,
+                                                "addTranslation": [Function],
+                                                "addTranslationForLanguage": [Function],
+                                                "defaultLanguage": undefined,
+                                                "ignoreTranslateChildren": false,
+                                                "initialize": [Function],
+                                                "languages": Array [],
+                                                "renderToStaticMarkup": false,
+                                                "setActiveLanguage": [Function],
+                                                "translate": [Function],
+                                              }
+                                            }
+                                            id="english"
+                                          >
+                                            Missing translationId: english for language: \${ languageCode }
+                                          </WrappedTranslate>
+                                        </Translate>
+                                      </a>
+                                    </NavLink__Container>
+                                  </NavLink>
+                                </LocalizedComponent>
+                                <NavLang__InlineBlock>
+                                  <div
+                                    className="NavLang__InlineBlock-sc-1thvcuk-2 eRwfjr"
+                                  >
+                                    /
+                                  </div>
+                                </NavLang__InlineBlock>
+                                <LocalizedComponent
+                                  lang="vn"
+                                  selectedLang="en"
+                                  setSelectedLang={[Function]}
+                                >
+                                  <NavLink
+                                    addTranslation={[Function]}
+                                    addTranslationForLanguage={[Function]}
+                                    ignoreTranslateChildren={false}
+                                    initialize={[Function]}
+                                    lang="vn"
+                                    languages={Array []}
+                                    renderToStaticMarkup={false}
+                                    selectedLang="en"
+                                    setActiveLanguage={[Function]}
+                                    setSelectedLang={[Function]}
+                                    translate={[Function]}
+                                  >
+                                    <NavLink__Container
+                                      isSelected={false}
+                                      onClick={[Function]}
+                                    >
+                                      <a
+                                        className="NavLink__Container-sc-13fjz5m-0 fYhrRG"
+                                        onClick={[Function]}
+                                      >
+                                        <Translate
+                                          id="vietnamese"
+                                        >
+                                          <WrappedTranslate
+                                            context={
+                                              Object {
+                                                "activeLanguage": undefined,
+                                                "addTranslation": [Function],
+                                                "addTranslationForLanguage": [Function],
+                                                "defaultLanguage": undefined,
+                                                "ignoreTranslateChildren": false,
+                                                "initialize": [Function],
+                                                "languages": Array [],
+                                                "renderToStaticMarkup": false,
+                                                "setActiveLanguage": [Function],
+                                                "translate": [Function],
+                                              }
+                                            }
+                                            id="vietnamese"
+                                          >
+                                            Missing translationId: vietnamese for language: \${ languageCode }
+                                          </WrappedTranslate>
+                                        </Translate>
+                                      </a>
+                                    </NavLink__Container>
+                                  </NavLink>
+                                </LocalizedComponent>
+                              </li>
+                            </NavLang__NavLinkItem>
+                          </ul>
+                        </nav>
+                      </NavLang__NotSelectableDiv>
+                    </NavLang>
+                  </div>
+                </Col>
+                <Col
+                  xs={6}
+                >
+                  <div
+                    className="col-6"
+                  >
+                    <NavHeader__NavControl
+                      data-test-id="switch-nav-content"
+                      onClick={[Function]}
+                    >
+                      <div
+                        className="NavHeader__NavControl-sc-1iyu030-1 eFKIxD"
+                        data-test-id="switch-nav-content"
+                        onClick={[Function]}
+                      >
+                        <NavHeader__CloseIcon>
+                          <MdClose
+                            className="NavHeader__CloseIcon-sc-1iyu030-3 hwlcpF"
+                          >
+                            <IconBase
+                              attr={
+                                Object {
+                                  "viewBox": "0 0 24 24",
+                                }
+                              }
+                              className="NavHeader__CloseIcon-sc-1iyu030-3 hwlcpF"
+                            >
+                              <svg
+                                className="NavHeader__CloseIcon-sc-1iyu030-3 hwlcpF"
+                                fill="currentColor"
+                                height="1em"
+                                stroke="currentColor"
+                                strokeWidth="0"
+                                style={
+                                  Object {
+                                    "color": undefined,
+                                  }
+                                }
+                                viewBox="0 0 24 24"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                                  key="0"
+                                />
+                              </svg>
+                            </IconBase>
+                          </MdClose>
+                        </NavHeader__CloseIcon>
+                         
+                        <Translate
+                          id="Menu"
+                        >
+                          <WrappedTranslate
+                            context={
+                              Object {
+                                "activeLanguage": undefined,
+                                "addTranslation": [Function],
+                                "addTranslationForLanguage": [Function],
+                                "defaultLanguage": undefined,
+                                "ignoreTranslateChildren": false,
+                                "initialize": [Function],
+                                "languages": Array [],
+                                "renderToStaticMarkup": false,
+                                "setActiveLanguage": [Function],
+                                "translate": [Function],
+                              }
+                            }
+                            id="Menu"
+                          >
+                            Missing translationId: Menu for language: \${ languageCode }
+                          </WrappedTranslate>
+                        </Translate>
+                      </div>
+                    </NavHeader__NavControl>
+                  </div>
+                </Col>
+              </div>
+            </ForwardRef>
+          </div>
+        </Container>
+      </MobileContainer>
+    </div>
+  </NavHeader__NavContainer>
+</NavHeader>
+`;
+
+exports[`Nav Header should switchNav from Off to On 1`] = `
+<NavHeader__NavContainer>
+  <MobileContainer>
+    <ForwardRef
+      fluid="true"
+      noGutters={false}
+    >
+      <Col
+        xs={6}
+      >
+        <NavLang />
+      </Col>
+      <Col
+        xs={6}
+      >
+        <NavHeader__NavControl
+          data-test-id="switch-nav-content"
+          onClick={[Function]}
+        >
+          <NavHeader__HamburgerIcon />
+           
+          <Translate
+            id="Menu"
+          />
+        </NavHeader__NavControl>
+      </Col>
+    </ForwardRef>
+  </MobileContainer>
+</NavHeader__NavContainer>
+`;
+
+exports[`Nav Header should switchNav from On to Off 1`] = `
+<NavHeader__NavContainer>
+  <MobileContainer>
+    <ForwardRef
+      fluid="true"
+      noGutters={false}
+    >
+      <Col
+        xs={6}
+      >
+        <NavLang />
+      </Col>
+      <Col
+        xs={6}
+      >
+        <NavHeader__NavControl
+          data-test-id="switch-nav-content"
+          onClick={[Function]}
+        >
+          <NavHeader__CloseIcon />
+           
+          <Translate
+            id="Menu"
+          />
+        </NavHeader__NavControl>
+      </Col>
+    </ForwardRef>
+  </MobileContainer>
+</NavHeader__NavContainer>
+`;

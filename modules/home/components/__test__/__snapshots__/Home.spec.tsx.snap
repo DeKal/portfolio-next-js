@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home getTexts should render with width < 460px 1`] = `
+Array [
+  <Translate
+    id="Job"
+  />,
+  <Translate
+    id="Welcome-short"
+  />,
+]
+`;
+
+exports[`Home getTexts should render with width > 460px 1`] = `
+Array [
+  <Translate
+    id="Job"
+  />,
+  <Translate
+    id="Welcome"
+  />,
+]
+`;
+
+exports[`Home should render without throwing an error 1`] = `
+<Home>
+  <Home__HomeSection>
+    <section
+      className="Home__HomeSection-gfpuen-0 jDAvdn"
+    >
+      <Anchor
+        id="Home"
+      >
+        <span
+          className="Anchor-sc-1axmo0z-0 kqfIkc"
+          id="Home"
+        />
+      </Anchor>
+      <Home__Background>
+        <div
+          className="Home__Background-gfpuen-3 TPTlE"
+        />
+      </Home__Background>
+      <Home__Overlay>
+        <div
+          className="Home__Overlay-gfpuen-4 lfDpxj"
+        >
+          <Container
+            fluid={false}
+          >
+            <div
+              className="container"
+            >
+              <Home__Header>
+                <header
+                  className="Home__Header-gfpuen-5 lbOUii"
+                >
+                  <Home__TitleName>
+                    <h1
+                      className="Home__TitleName-gfpuen-1 hGdDfj"
+                    >
+                      <Translate
+                        id="Name"
+                      >
+                        <WrappedTranslate
+                          context={
+                            Object {
+                              "activeLanguage": undefined,
+                              "addTranslation": [Function],
+                              "addTranslationForLanguage": [Function],
+                              "defaultLanguage": undefined,
+                              "ignoreTranslateChildren": false,
+                              "initialize": [Function],
+                              "languages": Array [],
+                              "renderToStaticMarkup": false,
+                              "setActiveLanguage": [Function],
+                              "translate": [Function],
+                            }
+                          }
+                          id="Name"
+                        >
+                          Missing translationId: Name for language: \${ languageCode }
+                        </WrappedTranslate>
+                      </Translate>
+                    </h1>
+                  </Home__TitleName>
+                  <Home__TitleJob>
+                    <h2
+                      className="Home__TitleJob-gfpuen-2 jcpsSM"
+                    >
+                      <Typist>
+                        <div>
+                          <div
+                            className="type-effect"
+                            key="0"
+                          >
+                            <Translate
+                              id="Job"
+                              key="Job"
+                            >
+                              <WrappedTranslate
+                                context={
+                                  Object {
+                                    "activeLanguage": undefined,
+                                    "addTranslation": [Function],
+                                    "addTranslationForLanguage": [Function],
+                                    "defaultLanguage": undefined,
+                                    "ignoreTranslateChildren": false,
+                                    "initialize": [Function],
+                                    "languages": Array [],
+                                    "renderToStaticMarkup": false,
+                                    "setActiveLanguage": [Function],
+                                    "translate": [Function],
+                                  }
+                                }
+                                id="Job"
+                              >
+                                Missing translationId: Job for language: \${ languageCode }
+                              </WrappedTranslate>
+                            </Translate>
+                            <style>
+                              
+        .type-effect {
+          overflow: hidden;
+          white-space: nowrap;
+          border-right: 0.15em solid #ecf0f1;
+          animation: typing 1.25s steps(40, end),
+            blink-caret 0.5s step-end infinite;
+        }
+        /* The typing effect */
+        @keyframes typing {
+          from {
+            width: 0;
+          }
+          to {
+            width: 100%;
+          }
+        }
+        /* The typewriter cursor effect */
+        @keyframes blink-caret {
+          from,
+          to {
+            border-color: transparent;
+          }
+          50% {
+            border-color: #ecf0f1;
+          }
+        }
+      
+                            </style>
+                          </div>
+                        </div>
+                      </Typist>
+                    </h2>
+                  </Home__TitleJob>
+                </header>
+              </Home__Header>
+            </div>
+          </Container>
+        </div>
+      </Home__Overlay>
+    </section>
+  </Home__HomeSection>
+</Home>
+`;
