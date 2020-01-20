@@ -11,9 +11,6 @@ import Footer from '~/modules/home/components/Footer'
 import SlideIterator from '~/modules/core/components/SlideIterator'
 import Head from '~/modules/home/components/Head'
 
-//Import Global style
-import '~/public/styles/globalStyle.sass'
-
 const HomePage = () => (
   <Fragment>
     <Head />
