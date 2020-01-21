@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Blog Header should render without throwing an error 1`] = `
-<h1
-  className="Header-jjjp7w-0 bgGXsi"
-/>
-`;

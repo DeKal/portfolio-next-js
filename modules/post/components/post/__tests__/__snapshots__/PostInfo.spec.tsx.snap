@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostInfo should render without throwing an error 1`] = `
+<Container>
+  <Col
+    md={6}
+  >
+    <ForwardRef
+      noGutters={false}
+    >
+      <ColNoGutter
+        sm="auto"
+        xs="auto"
+      >
+        <Avatar />
+      </ColNoGutter>
+      <ColInfo>
+        <ForwardRef
+          noGutters={true}
+        >
+          <Author>
+             
+             
+          </Author>
+        </ForwardRef>
+        <ForwardRef
+          noGutters={true}
+        >
+          <SubInfo>
+            undefined - undefined mins read
+          </SubInfo>
+        </ForwardRef>
+      </ColInfo>
+    </ForwardRef>
+  </Col>
+  <Col
+    md={
+      Object {
+        "offset": 4,
+        "span": 2,
+      }
+    }
+  />
+</Container>
+`;

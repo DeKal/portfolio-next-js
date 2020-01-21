@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post Head should render without throwing an error 1`] = `
+<Head>
+  <Head>
+    <Component
+      handleStateChange={null}
+      inAmpMode={false}
+      reduceComponentsToState={[Function]}
+    />
+  </Head>
+</Head>
+`;
