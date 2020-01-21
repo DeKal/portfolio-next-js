@@ -1,15 +1,15 @@
 import React from 'react'
-import Head from '~/modules/blogs/components/Head'
-import Navbar from '~/modules/blogs/components/Navbar'
-import Post from '~/modules/blogs/containers/Post'
-import { PostProvider } from '~/modules/blogs/state/post/provider'
+import Head from '~/modules/post/components/Head'
+import Navbar from '~/modules/core/components/PostNavbar'
+import PostContent from '~/modules/post/containers/Post'
+import { PostProvider } from '~/modules/post/state/provider'
 
-const Blogs = () => (
+const Post = () => (
   <PostProvider>
     <Head />
     <Navbar />
-    <Post />
+    <PostContent />
   </PostProvider>
 )
 
-export default Blogs
+export default Post

@@ -12,7 +12,7 @@ import christMasTheme from '~/modules/core/theme/styleguide/christMasTheme'
 import newYearTheme from '~/modules/core/theme/styleguide/newYearTheme'
 import tetTheme from '~/modules/core/theme/styleguide/tetTheme'
 import blogTheme from '~/modules/core/theme/styleguide/blogTheme'
-import BlogGlobalStyleCss from '~/modules/blogs/theme/GlobalStyleCss'
+import BlogGlobalStyleCss from '~/modules/post/theme/GlobalStyleCss'
 import HomeGlobalStyleCss from '~/modules/home/theme/GlobalStyleCss'
 import { useRouter } from 'next/router'
 

@@ -1,8 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Blog Container should render without throwing an error 1`] = `
-<Container
-  className="Container-ffzdp6-0 kErHWJ"
-  fluid={false}
-/>
-`;
