@@ -6,7 +6,6 @@ import LocalizedComponent from '~/modules/core/localize/LocalizedComponent'
 import Loading from '~/modules/core/components/Loading'
 import ErrorBoundary from '~/modules/core/components/ErrorBoundary'
 import ThemeProviderSelector from '~/modules/core/theme/ThemeProviderSelector'
-import Router from 'next/router'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -38,11 +37,3 @@ export default class MyApp extends App {
     )
   }
 }
-
-Router.events.on('routeChangeComplete', () => {
-  const els = document.querySelectorAll(
-    'link[href*="/_next/static/css/styles.chunk.css"]'
-  )
-  const timestamp = new Date().valueOf()
-  els[0].href = '/_next/static/css/styles.chunk.css?v=' + timestamp
-})
