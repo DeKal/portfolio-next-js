@@ -39,7 +39,7 @@
     "babel-jest": "24.9.0",
     "babel-plugin-macros": "2.8.0",
     "babel-plugin-root-import": "6.4.1",
-    "babel-plugin-styled-components": "1.10.6",
+    "babel-plugin-styled-components": "1.10.7",
     "babel-preset-env": "1.7.0",
     "babel-preset-react": "6.24.1",
     "danger": "9.2.10",
