@@ -30,7 +30,7 @@
     "styled-components": "5.0.0"
   },
   "devDependencies": {
-    "@types/enzyme": "3.10.4",
+    "@types/enzyme": "3.10.5",
     "@types/enzyme-adapter-react-16": "1.0.5",
     "@types/jest": "25.1.2",
     "auto-changelog": "1.16.2",
