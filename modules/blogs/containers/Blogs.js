@@ -1,20 +1,16 @@
 import React, { useEffect } from 'react'
-import { useRouter } from 'next/router'
-import PostComponent from '~/modules/post/components/Post'
+import BlogsComponent from '~/modules/blogs/components/Blogs'
 import Dispatcher from '~/modules/core/dispatch/Dispatcher'
-import { getPostWithSlug } from '~/modules/post/state/action'
+import { getPostSummary } from '~/modules/blogs/state/action'
 import { useState, useDispatch } from '~/modules/core/state/context'
 
-const Post = () => {
+const Blogs = () => {
   const state = useState()
   const dispatch = useDispatch()
-  const router = useRouter()
-  const { slug } = router.query
 
   useEffect(() => {
-    if (!slug) return
-    Dispatcher(dispatch).send(getPostWithSlug, slug)
-  }, [router])
+    Dispatcher(dispatch).send(getPostSummary)
+  }, [])
 
   const { loading, error, data } = state
   return error ? (
@@ -22,8 +18,8 @@ const Post = () => {
   ) : loading ? (
     <div> </div>
   ) : (
-    <PostComponent data={data} />
+    <BlogsComponent posts={data} />
   )
 }
 
-export default Post
+export default Blogs

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Blogs Container should render without throwing an error 1`] = `
+<Container>
+  <Container
+    className="Container-sc-6seq4k-0 gBcfja"
+    fluid={false}
+  >
+    <div
+      className="Container-sc-6seq4k-0 gBcfja container"
+    />
+  </Container>
+</Container>
+`;

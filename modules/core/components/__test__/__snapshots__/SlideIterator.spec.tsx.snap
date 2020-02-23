@@ -43,7 +43,7 @@ exports[`Slide should render without throwing an error 1`] = `
         className="react-reveal"
         style={
           Object {
-            "opacity": 1,
+            "opacity": undefined,
           }
         }
       >
@@ -92,7 +92,7 @@ exports[`Slide should render without throwing an error 1`] = `
         className="react-reveal"
         style={
           Object {
-            "opacity": 1,
+            "opacity": undefined,
           }
         }
       >
@@ -141,7 +141,7 @@ exports[`Slide should render without throwing an error 1`] = `
         className="react-reveal"
         style={
           Object {
-            "opacity": 1,
+            "opacity": undefined,
           }
         }
       >

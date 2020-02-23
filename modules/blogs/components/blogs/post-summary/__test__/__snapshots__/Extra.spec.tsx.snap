@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Blogs Extra should render without throwing an error 1`] = `
+<Container
+  fluid={false}
+>
+  <ForwardRef
+    noGutters={false}
+  >
+    <Col
+      sm="auto"
+      xs="auto"
+    >
+      <Avatar
+        alt="test author"
+        src="avatar"
+      />
+    </Col>
+    <ColInfo>
+      <ForwardRef
+        noGutters={true}
+      >
+        <Author>
+           
+          test author
+           
+        </Author>
+      </ForwardRef>
+      <ForwardRef
+        noGutters={true}
+      >
+        <SubInfo>
+          20/12/2020 - 6 mins read
+        </SubInfo>
+      </ForwardRef>
+    </ColInfo>
+  </ForwardRef>
+</Container>
+`;

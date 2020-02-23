@@ -2,14 +2,14 @@ import React from 'react'
 import Head from '~/modules/post/components/Head'
 import Navbar from '~/modules/core/components/PostNavbar'
 import PostContent from '~/modules/post/containers/Post'
-import { PostProvider } from '~/modules/post/state/provider'
+import { Provider } from '~/modules/core/state/provider'
 
 const Post = () => (
-  <PostProvider>
+  <Provider>
     <Head />
     <Navbar />
     <PostContent />
-  </PostProvider>
+  </Provider>
 )
 
 export default Post

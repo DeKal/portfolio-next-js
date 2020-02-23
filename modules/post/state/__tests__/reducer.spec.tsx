@@ -1,4 +1,4 @@
-import { postReducer } from '../reducer'
+import postReducer from '../reducer'
 import {
   GET_POST_START,
   GET_POST_FINISH,
@@ -55,15 +55,16 @@ describe('Reducers', () => {
     })
   })
 
-  it('should throw exception with unknown action', async function() {
+  it('should return orignal state with unknown action', async function() {
     const state = {
       test: 'test'
     }
     const action = {
       type: 'unknown action'
     }
-    expect(() => {
-      postReducer(state, action)
-    }).toThrow(Error);
+    const postState = postReducer(state, action)
+    expect(postState).toEqual({
+      test: 'test',
+    })
   })
 })
