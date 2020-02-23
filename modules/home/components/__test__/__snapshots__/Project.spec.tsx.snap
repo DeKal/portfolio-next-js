@@ -5,21 +5,21 @@ exports[`Project should render without throwing an error 1`] = `
   <Container>
     <Container__Style>
       <section
-        className="Container__Style-sc-3utn0w-0 erCcKZ"
+        className="Container__Style-sc-3utn0w-0 bsmDng"
       >
         <Anchor
           id="Projects"
           top={-40}
         >
           <span
-            className="Anchor-sc-1axmo0z-0 eIaPaB"
+            className="Anchor-sc-1axmo0z-0 qtHhk"
             id="Projects"
           />
         </Anchor>
         <Header>
           <Header__Container>
             <header
-              className="Header__Container-hz47ou-0 jLrtjx"
+              className="Header__Container-hz47ou-0 dxCyVk"
             >
               <h2>
                 <Translate
@@ -77,11 +77,11 @@ exports[`Project should render without throwing an error 1`] = `
         <Content>
           <Content__NoPaddingContainer>
             <Container
-              className="Content__NoPaddingContainer-sc-1sx6qta-0 yJbBR"
+              className="Content__NoPaddingContainer-sc-1sx6qta-0 NgcQg"
               fluid={false}
             >
               <div
-                className="Content__NoPaddingContainer-sc-1sx6qta-0 yJbBR container"
+                className="Content__NoPaddingContainer-sc-1sx6qta-0 NgcQg container"
               >
                 <ForwardRef
                   noGutters={true}
@@ -105,7 +105,7 @@ exports[`Project should render without throwing an error 1`] = `
                         >
                           <Item__Container>
                             <figure
-                              className="Item__Container-sc-1su8qr-0 gxlYnz"
+                              className="Item__Container-sc-1su8qr-0 uLOae"
                             >
                               <Item__Image
                                 alt="Brand 360"
@@ -113,7 +113,7 @@ exports[`Project should render without throwing an error 1`] = `
                               >
                                 <img
                                   alt="Brand 360"
-                                  className="Item__Image-sc-1su8qr-1 idIEsH"
+                                  className="Item__Image-sc-1su8qr-1 kTULZk"
                                   src="/images/projects/brand360.jpg"
                                 />
                               </Item__Image>
@@ -123,14 +123,14 @@ exports[`Project should render without throwing an error 1`] = `
                               >
                                 <Caption__Container>
                                   <figcaption
-                                    className="Caption__Container-yh5xu2-0 hKLSrm"
+                                    className="Caption__Container-yh5xu2-0 FXvGj"
                                   >
                                     <Caption__Link
                                       href="http://brand360.vn/"
                                       rel="nofollow"
                                     >
                                       <a
-                                        className="Caption__Link-yh5xu2-1 iCViSP"
+                                        className="Caption__Link-yh5xu2-1 iWiGMI"
                                         href="http://brand360.vn/"
                                         rel="nofollow"
                                       >
@@ -141,7 +141,7 @@ exports[`Project should render without throwing an error 1`] = `
                                             name="link"
                                           >
                                             <div
-                                              className="Icon__Symbol-sc-6mj7rl-0 jSyxdu"
+                                              className="Icon__Symbol-sc-6mj7rl-0 facaPX"
                                               name="link"
                                             />
                                           </Icon__Symbol>
@@ -173,7 +173,7 @@ exports[`Project should render without throwing an error 1`] = `
                         >
                           <Item__Container>
                             <figure
-                              className="Item__Container-sc-1su8qr-0 gxlYnz"
+                              className="Item__Container-sc-1su8qr-0 uLOae"
                             >
                               <Item__Image
                                 alt="Report application for Masan"
@@ -181,7 +181,7 @@ exports[`Project should render without throwing an error 1`] = `
                               >
                                 <img
                                   alt="Report application for Masan"
-                                  className="Item__Image-sc-1su8qr-1 idIEsH"
+                                  className="Item__Image-sc-1su8qr-1 kTULZk"
                                   src="/images/projects/anco.jpg"
                                 />
                               </Item__Image>
@@ -191,14 +191,14 @@ exports[`Project should render without throwing an error 1`] = `
                               >
                                 <Caption__Container>
                                   <figcaption
-                                    className="Caption__Container-yh5xu2-0 hKLSrm"
+                                    className="Caption__Container-yh5xu2-0 FXvGj"
                                   >
                                     <Caption__Link
                                       href=""
                                       rel="nofollow"
                                     >
                                       <a
-                                        className="Caption__Link-yh5xu2-1 iCViSP"
+                                        className="Caption__Link-yh5xu2-1 iWiGMI"
                                         href=""
                                         rel="nofollow"
                                       >
@@ -209,7 +209,7 @@ exports[`Project should render without throwing an error 1`] = `
                                             name="link"
                                           >
                                             <div
-                                              className="Icon__Symbol-sc-6mj7rl-0 jSyxdu"
+                                              className="Icon__Symbol-sc-6mj7rl-0 facaPX"
                                               name="link"
                                             />
                                           </Icon__Symbol>
@@ -241,7 +241,7 @@ exports[`Project should render without throwing an error 1`] = `
                         >
                           <Item__Container>
                             <figure
-                              className="Item__Container-sc-1su8qr-0 gxlYnz"
+                              className="Item__Container-sc-1su8qr-0 uLOae"
                             >
                               <Item__Image
                                 alt="Tam An Web"
@@ -249,7 +249,7 @@ exports[`Project should render without throwing an error 1`] = `
                               >
                                 <img
                                   alt="Tam An Web"
-                                  className="Item__Image-sc-1su8qr-1 idIEsH"
+                                  className="Item__Image-sc-1su8qr-1 kTULZk"
                                   src="/images/projects/taman.jpg"
                                 />
                               </Item__Image>
@@ -259,14 +259,14 @@ exports[`Project should render without throwing an error 1`] = `
                               >
                                 <Caption__Container>
                                   <figcaption
-                                    className="Caption__Container-yh5xu2-0 hKLSrm"
+                                    className="Caption__Container-yh5xu2-0 FXvGj"
                                   >
                                     <Caption__Link
                                       href="https://github.com/DeKal/Tam-An-Food-Store-Manager"
                                       rel="nofollow"
                                     >
                                       <a
-                                        className="Caption__Link-yh5xu2-1 iCViSP"
+                                        className="Caption__Link-yh5xu2-1 iWiGMI"
                                         href="https://github.com/DeKal/Tam-An-Food-Store-Manager"
                                         rel="nofollow"
                                       >
@@ -277,7 +277,7 @@ exports[`Project should render without throwing an error 1`] = `
                                             name="link"
                                           >
                                             <div
-                                              className="Icon__Symbol-sc-6mj7rl-0 jSyxdu"
+                                              className="Icon__Symbol-sc-6mj7rl-0 facaPX"
                                               name="link"
                                             />
                                           </Icon__Symbol>
@@ -309,7 +309,7 @@ exports[`Project should render without throwing an error 1`] = `
                         >
                           <Item__Container>
                             <figure
-                              className="Item__Container-sc-1su8qr-0 gxlYnz"
+                              className="Item__Container-sc-1su8qr-0 uLOae"
                             >
                               <Item__Image
                                 alt="2048 Fun Games"
@@ -317,7 +317,7 @@ exports[`Project should render without throwing an error 1`] = `
                               >
                                 <img
                                   alt="2048 Fun Games"
-                                  className="Item__Image-sc-1su8qr-1 idIEsH"
+                                  className="Item__Image-sc-1su8qr-1 kTULZk"
                                   src="/images/projects/2048.jpg"
                                 />
                               </Item__Image>
@@ -327,14 +327,14 @@ exports[`Project should render without throwing an error 1`] = `
                               >
                                 <Caption__Container>
                                   <figcaption
-                                    className="Caption__Container-yh5xu2-0 hKLSrm"
+                                    className="Caption__Container-yh5xu2-0 FXvGj"
                                   >
                                     <Caption__Link
                                       href="https://github.com/DeKal/2048"
                                       rel="nofollow"
                                     >
                                       <a
-                                        className="Caption__Link-yh5xu2-1 iCViSP"
+                                        className="Caption__Link-yh5xu2-1 iWiGMI"
                                         href="https://github.com/DeKal/2048"
                                         rel="nofollow"
                                       >
@@ -345,7 +345,7 @@ exports[`Project should render without throwing an error 1`] = `
                                             name="link"
                                           >
                                             <div
-                                              className="Icon__Symbol-sc-6mj7rl-0 jSyxdu"
+                                              className="Icon__Symbol-sc-6mj7rl-0 facaPX"
                                               name="link"
                                             />
                                           </Icon__Symbol>

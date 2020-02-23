@@ -14,7 +14,7 @@ exports[`Card Info should render without throwing an error 1`] = `
   >
     <CardInfo__Container>
       <div
-        className="CardInfo__Container-sc-11lu4r3-0 cGwSGi"
+        className="CardInfo__Container-sc-11lu4r3-0 cKibHh"
       >
         <p>
           <Translate
@@ -43,7 +43,7 @@ exports[`Card Info should render without throwing an error 1`] = `
         </p>
         <CardInfo__Quote>
           <blockquote
-            className="CardInfo__Quote-sc-11lu4r3-1 fSoDIW"
+            className="CardInfo__Quote-sc-11lu4r3-1 jOABTh"
           >
             <Translate
               id="About me: Card Info Quote"
@@ -97,11 +97,11 @@ exports[`Card Info should render without throwing an error 1`] = `
         </p>
         <CardInfo__Status>
           <p
-            className="CardInfo__Status-sc-11lu4r3-2 cwyNSL"
+            className="CardInfo__Status-sc-11lu4r3-2 gFePwW"
           >
             <CardInfo__Bold>
               <span
-                className="CardInfo__Bold-sc-11lu4r3-3 iwYBSe"
+                className="CardInfo__Bold-sc-11lu4r3-3 jVnuCP"
               >
                 Current Status:
               </span>

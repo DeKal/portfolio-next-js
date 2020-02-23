@@ -2,6 +2,6 @@
 
 exports[`Header should render without throwing an error 1`] = `
 <h1
-  className="Header-ih8zb6-0 dWGPhd"
+  className="Header-ih8zb6-0 iJoWXu"
 />
 `;

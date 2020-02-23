@@ -6,22 +6,22 @@ exports[`WhyMe should render without throwing an error 1`] = `
     id="Whyme"
   >
     <Container
-      className="WhyMe__Section-es5ehw-0 cQlYyK"
+      className="WhyMe__Section-es5ehw-0 hfxYWx"
       fluid={false}
       id="Whyme"
     >
       <div
-        className="WhyMe__Section-es5ehw-0 cQlYyK container"
+        className="WhyMe__Section-es5ehw-0 hfxYWx container"
         id="Whyme"
       >
         <WhyMe__Inner>
           <div
-            className="WhyMe__Inner-es5ehw-1 cXKplh"
+            className="WhyMe__Inner-es5ehw-1 dxEavC"
           >
             <Title>
               <Title__Container>
                 <h2
-                  className="Title__Container-sjy7ck-0 enqaLX"
+                  className="Title__Container-sjy7ck-0 bTICUu"
                 >
                   <Translate
                     id="Why me: Title"
@@ -52,11 +52,11 @@ exports[`WhyMe should render without throwing an error 1`] = `
             <Quote>
               <Quote__Container>
                 <div
-                  className="Quote__Container-bhoerb-0 iwkzlf"
+                  className="Quote__Container-bhoerb-0 iyuLOi"
                 >
                   <Quote__Content>
                     <p
-                      className="Quote__Content-bhoerb-1 cucVeK"
+                      className="Quote__Content-bhoerb-1 fuOdXX"
                     >
                       <Translate
                         id="Why me: Quote"

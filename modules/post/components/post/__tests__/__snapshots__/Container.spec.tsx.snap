@@ -2,7 +2,7 @@
 
 exports[`Container should render without throwing an error 1`] = `
 <Container
-  className="Container-fogec-0 hPDgux"
+  className="Container-fogec-0 hxSdaw"
   fluid={false}
 />
 `;
