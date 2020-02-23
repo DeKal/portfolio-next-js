@@ -4,7 +4,7 @@ exports[`Navbar should render without throwing an error 1`] = `
 <Navbar>
   <Navbar__MainHeader>
     <header
-      className="Navbar__MainHeader-sc-10ipwjz-0 jOMhqY"
+      className="Navbar__MainHeader-sc-10ipwjz-0 keBUsN"
     >
       <NavHeader
         isShowNavContent={false}
@@ -12,15 +12,15 @@ exports[`Navbar should render without throwing an error 1`] = `
       >
         <NavHeader__NavContainer>
           <div
-            className="NavHeader__NavContainer-sc-1iyu030-0 dncZSN"
+            className="NavHeader__NavContainer-sc-1iyu030-0 fgCwFy"
           >
             <MobileContainer>
               <Container
-                className="MobileContainer-phmkm8-0 irmGhi"
+                className="MobileContainer-phmkm8-0 hUiOpP"
                 fluid={false}
               >
                 <div
-                  className="MobileContainer-phmkm8-0 irmGhi container"
+                  className="MobileContainer-phmkm8-0 hUiOpP container"
                 >
                   <ForwardRef
                     fluid="true"
@@ -39,12 +39,12 @@ exports[`Navbar should render without throwing an error 1`] = `
                           <NavLang>
                             <NavLang__NotSelectableDiv>
                               <nav
-                                className="NavLang__NotSelectableDiv-sc-1thvcuk-0 bIBazu"
+                                className="NavLang__NotSelectableDiv-sc-1thvcuk-0 bvxHiF"
                               >
                                 <ul>
                                   <NavLang__NavLinkItem>
                                     <li
-                                      className="NavLang__NavLinkItem-sc-1thvcuk-1 jIWYyo"
+                                      className="NavLang__NavLinkItem-sc-1thvcuk-1 cjAtQx"
                                     >
                                       <LocalizedComponent
                                         lang="en"
@@ -69,7 +69,7 @@ exports[`Navbar should render without throwing an error 1`] = `
                                             onClick={[Function]}
                                           >
                                             <a
-                                              className="NavLink__Container-sc-13fjz5m-0 kOssoX"
+                                              className="NavLink__Container-sc-13fjz5m-0 eoBhFg"
                                               onClick={[Function]}
                                             >
                                               <Translate
@@ -101,7 +101,7 @@ exports[`Navbar should render without throwing an error 1`] = `
                                       </LocalizedComponent>
                                       <NavLang__InlineBlock>
                                         <div
-                                          className="NavLang__InlineBlock-sc-1thvcuk-2 eRwfjr"
+                                          className="NavLang__InlineBlock-sc-1thvcuk-2 cMKVTg"
                                         >
                                           /
                                         </div>
@@ -129,7 +129,7 @@ exports[`Navbar should render without throwing an error 1`] = `
                                             onClick={[Function]}
                                           >
                                             <a
-                                              className="NavLink__Container-sc-13fjz5m-0 fYhrRG"
+                                              className="NavLink__Container-sc-13fjz5m-0 jfMZCV"
                                               onClick={[Function]}
                                             >
                                               <Translate
@@ -178,13 +178,13 @@ exports[`Navbar should render without throwing an error 1`] = `
                             onClick={[Function]}
                           >
                             <div
-                              className="NavHeader__NavControl-sc-1iyu030-1 eFKIxD"
+                              className="NavHeader__NavControl-sc-1iyu030-1 gEDkuw"
                               data-test-id="switch-nav-content"
                               onClick={[Function]}
                             >
                               <NavHeader__HamburgerIcon>
                                 <GiHamburgerMenu
-                                  className="NavHeader__HamburgerIcon-sc-1iyu030-2 bvOrDJ"
+                                  className="NavHeader__HamburgerIcon-sc-1iyu030-2 cOqDWm"
                                 >
                                   <IconBase
                                     attr={
@@ -192,10 +192,10 @@ exports[`Navbar should render without throwing an error 1`] = `
                                         "viewBox": "0 0 512 512",
                                       }
                                     }
-                                    className="NavHeader__HamburgerIcon-sc-1iyu030-2 bvOrDJ"
+                                    className="NavHeader__HamburgerIcon-sc-1iyu030-2 cOqDWm"
                                   >
                                     <svg
-                                      className="NavHeader__HamburgerIcon-sc-1iyu030-2 bvOrDJ"
+                                      className="NavHeader__HamburgerIcon-sc-1iyu030-2 cOqDWm"
                                       fill="currentColor"
                                       height="1em"
                                       stroke="currentColor"
@@ -260,15 +260,15 @@ exports[`Navbar should render without throwing an error 1`] = `
           isShowNavContent={false}
         >
           <div
-            className="NavContent__NavContainer-sc-1iay8fd-0 cpZrak"
+            className="NavContent__NavContainer-sc-1iay8fd-0 ergUuj"
           >
             <MobileContainer>
               <Container
-                className="MobileContainer-phmkm8-0 irmGhi"
+                className="MobileContainer-phmkm8-0 hUiOpP"
                 fluid={false}
               >
                 <div
-                  className="MobileContainer-phmkm8-0 irmGhi container"
+                  className="MobileContainer-phmkm8-0 hUiOpP container"
                 >
                   <ForwardRef
                     noGutters={false}
@@ -287,12 +287,12 @@ exports[`Navbar should render without throwing an error 1`] = `
                               href="https://github.com/DeKal/portfolio-next-js"
                             >
                               <a
-                                className="NavLogo__Logo-sc-100re03-0 jFYXCv"
+                                className="NavLogo__Logo-sc-100re03-0 dvQNOo"
                                 href="https://github.com/DeKal/portfolio-next-js"
                               >
                                 <NavLogo__LogoText>
                                   <span
-                                    className="NavLogo__LogoText-sc-100re03-1 hwjGqH"
+                                    className="NavLogo__LogoText-sc-100re03-1 haQzGG"
                                   >
                                     JD
                                   </span>
@@ -311,14 +311,14 @@ exports[`Navbar should render without throwing an error 1`] = `
                         >
                           <NavContent__NavMenu>
                             <nav
-                              className="NavContent__NavMenu-sc-1iay8fd-1 fDwjCo"
+                              className="NavContent__NavMenu-sc-1iay8fd-1 bVuaSZ"
                             >
                               <ul>
                                 <NavContent__NavLi
                                   key="Home"
                                 >
                                   <li
-                                    className="NavContent__NavLi-sc-1iay8fd-2 bcYaVl"
+                                    className="NavContent__NavLi-sc-1iay8fd-2 iAlobq"
                                   >
                                     <NavItem
                                       isSelected={false}
@@ -337,7 +337,7 @@ exports[`Navbar should render without throwing an error 1`] = `
                                         onClick={[Function]}
                                       >
                                         <a
-                                          className="NavItem__Container-sc-1cwb00j-0 khWLaq"
+                                          className="NavItem__Container-sc-1cwb00j-0 hEukb"
                                           data-test-id="nav-link"
                                           href="/#Home"
                                           onClick={[Function]}
@@ -374,7 +374,7 @@ exports[`Navbar should render without throwing an error 1`] = `
                                   key="About"
                                 >
                                   <li
-                                    className="NavContent__NavLi-sc-1iay8fd-2 bcYaVl"
+                                    className="NavContent__NavLi-sc-1iay8fd-2 iAlobq"
                                   >
                                     <NavItem
                                       isSelected={false}
@@ -393,7 +393,7 @@ exports[`Navbar should render without throwing an error 1`] = `
                                         onClick={[Function]}
                                       >
                                         <a
-                                          className="NavItem__Container-sc-1cwb00j-0 khWLaq"
+                                          className="NavItem__Container-sc-1cwb00j-0 hEukb"
                                           data-test-id="nav-link"
                                           href="/#About"
                                           onClick={[Function]}
@@ -430,7 +430,7 @@ exports[`Navbar should render without throwing an error 1`] = `
                                   key="Experiences"
                                 >
                                   <li
-                                    className="NavContent__NavLi-sc-1iay8fd-2 bcYaVl"
+                                    className="NavContent__NavLi-sc-1iay8fd-2 iAlobq"
                                   >
                                     <NavItem
                                       isSelected={false}
@@ -449,7 +449,7 @@ exports[`Navbar should render without throwing an error 1`] = `
                                         onClick={[Function]}
                                       >
                                         <a
-                                          className="NavItem__Container-sc-1cwb00j-0 khWLaq"
+                                          className="NavItem__Container-sc-1cwb00j-0 hEukb"
                                           data-test-id="nav-link"
                                           href="/#Experiences"
                                           onClick={[Function]}
@@ -486,7 +486,7 @@ exports[`Navbar should render without throwing an error 1`] = `
                                   key="Projects"
                                 >
                                   <li
-                                    className="NavContent__NavLi-sc-1iay8fd-2 bcYaVl"
+                                    className="NavContent__NavLi-sc-1iay8fd-2 iAlobq"
                                   >
                                     <NavItem
                                       isSelected={false}
@@ -505,7 +505,7 @@ exports[`Navbar should render without throwing an error 1`] = `
                                         onClick={[Function]}
                                       >
                                         <a
-                                          className="NavItem__Container-sc-1cwb00j-0 khWLaq"
+                                          className="NavItem__Container-sc-1cwb00j-0 hEukb"
                                           data-test-id="nav-link"
                                           href="/#Projects"
                                           onClick={[Function]}
@@ -542,7 +542,7 @@ exports[`Navbar should render without throwing an error 1`] = `
                                   key="Certifications"
                                 >
                                   <li
-                                    className="NavContent__NavLi-sc-1iay8fd-2 bcYaVl"
+                                    className="NavContent__NavLi-sc-1iay8fd-2 iAlobq"
                                   >
                                     <NavItem
                                       isSelected={false}
@@ -561,7 +561,7 @@ exports[`Navbar should render without throwing an error 1`] = `
                                         onClick={[Function]}
                                       >
                                         <a
-                                          className="NavItem__Container-sc-1cwb00j-0 khWLaq"
+                                          className="NavItem__Container-sc-1cwb00j-0 hEukb"
                                           data-test-id="nav-link"
                                           href="/#Certifications"
                                           onClick={[Function]}
@@ -598,7 +598,7 @@ exports[`Navbar should render without throwing an error 1`] = `
                                   key="Contacts"
                                 >
                                   <li
-                                    className="NavContent__NavLi-sc-1iay8fd-2 bcYaVl"
+                                    className="NavContent__NavLi-sc-1iay8fd-2 iAlobq"
                                   >
                                     <NavItem
                                       isSelected={false}
@@ -617,7 +617,7 @@ exports[`Navbar should render without throwing an error 1`] = `
                                         onClick={[Function]}
                                       >
                                         <a
-                                          className="NavItem__Container-sc-1cwb00j-0 khWLaq"
+                                          className="NavItem__Container-sc-1cwb00j-0 hEukb"
                                           data-test-id="nav-link"
                                           href="/#Contacts"
                                           onClick={[Function]}
@@ -654,7 +654,7 @@ exports[`Navbar should render without throwing an error 1`] = `
                                   key="Blogs"
                                 >
                                   <li
-                                    className="NavContent__NavLi-sc-1iay8fd-2 bcYaVl"
+                                    className="NavContent__NavLi-sc-1iay8fd-2 iAlobq"
                                   >
                                     <NavItem
                                       isSelected={false}
@@ -673,7 +673,7 @@ exports[`Navbar should render without throwing an error 1`] = `
                                         onClick={[Function]}
                                       >
                                         <a
-                                          className="NavItem__Container-sc-1cwb00j-0 khWLaq"
+                                          className="NavItem__Container-sc-1cwb00j-0 hEukb"
                                           data-test-id="nav-link"
                                           href="/blogs"
                                           onClick={[Function]}

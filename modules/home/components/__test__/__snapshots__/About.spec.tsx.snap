@@ -4,14 +4,14 @@ exports[`About should render without throwing an error 1`] = `
 <About>
   <About__Section>
     <section
-      className="About__Section-sc-1u748j1-0 iatm"
+      className="About__Section-sc-1u748j1-0 BwGRD"
     >
       <Anchor
         id="About"
         top={-150}
       >
         <span
-          className="Anchor-sc-1axmo0z-0 dwLciD"
+          className="Anchor-sc-1axmo0z-0 kTNmeg"
           id="About"
         />
       </Anchor>
@@ -23,7 +23,7 @@ exports[`About should render without throwing an error 1`] = `
         >
           <About__Card>
             <div
-              className="About__Card-sc-1u748j1-1 brytLY"
+              className="About__Card-sc-1u748j1-1 gjHseN"
             >
               <LocalizedComponent>
                 <CardHeader
@@ -38,11 +38,11 @@ exports[`About should render without throwing an error 1`] = `
                 >
                   <CardHeader__Header>
                     <header
-                      className="CardHeader__Header-r5umbs-0 hfwWjn"
+                      className="CardHeader__Header-r5umbs-0 gQjbYW"
                     >
                       <CardHeader__MainText>
                         <h2
-                          className="CardHeader__MainText-r5umbs-1 EBlPf"
+                          className="CardHeader__MainText-r5umbs-1 KTkgu"
                         >
                           <Translate
                             id="About me"
@@ -71,7 +71,7 @@ exports[`About should render without throwing an error 1`] = `
                       </CardHeader__MainText>
                       <CardHeader__SubText>
                         <h4
-                          className="CardHeader__SubText-r5umbs-2 kzjOLC"
+                          className="CardHeader__SubText-r5umbs-2 kXiaxV"
                         >
                           <Translate
                             id="About Me: Subtext"
@@ -115,7 +115,7 @@ exports[`About should render without throwing an error 1`] = `
                 >
                   <CardInfo__Container>
                     <div
-                      className="CardInfo__Container-sc-11lu4r3-0 cGwSGi"
+                      className="CardInfo__Container-sc-11lu4r3-0 cKibHh"
                     >
                       <p>
                         <Translate
@@ -144,7 +144,7 @@ exports[`About should render without throwing an error 1`] = `
                       </p>
                       <CardInfo__Quote>
                         <blockquote
-                          className="CardInfo__Quote-sc-11lu4r3-1 fSoDIW"
+                          className="CardInfo__Quote-sc-11lu4r3-1 jOABTh"
                         >
                           <Translate
                             id="About me: Card Info Quote"
@@ -198,11 +198,11 @@ exports[`About should render without throwing an error 1`] = `
                       </p>
                       <CardInfo__Status>
                         <p
-                          className="CardInfo__Status-sc-11lu4r3-2 cwyNSL"
+                          className="CardInfo__Status-sc-11lu4r3-2 gFePwW"
                         >
                           <CardInfo__Bold>
                             <span
-                              className="CardInfo__Bold-sc-11lu4r3-3 iwYBSe"
+                              className="CardInfo__Bold-sc-11lu4r3-3 jVnuCP"
                             >
                               Current Status:
                             </span>

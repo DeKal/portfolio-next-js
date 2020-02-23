@@ -2,7 +2,7 @@
 
 exports[`Post Info Container should render without throwing an error 1`] = `
 <ForwardRef
-  className="Container-sc-17blqsn-0 dSckQz"
+  className="Container-sc-17blqsn-0 lixbUG"
   noGutters={false}
 />
 `;

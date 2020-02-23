@@ -3,11 +3,11 @@
 exports[`Blogs Container should render without throwing an error 1`] = `
 <Container>
   <Container
-    className="Container-sc-6seq4k-0 gBcfja"
+    className="Container-sc-6seq4k-0 bNPclf"
     fluid={false}
   >
     <div
-      className="Container-sc-6seq4k-0 gBcfja container"
+      className="Container-sc-6seq4k-0 bNPclf container"
     />
   </Container>
 </Container>

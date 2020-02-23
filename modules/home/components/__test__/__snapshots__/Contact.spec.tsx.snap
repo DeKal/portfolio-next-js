@@ -4,14 +4,14 @@ exports[`Footer should render without throwing an error 1`] = `
 <Contact>
   <Contact__Wrapper>
     <div
-      className="Contact__Wrapper-sc-19q81t0-0 cXDZgP"
+      className="Contact__Wrapper-sc-19q81t0-0 dxiLEu"
     >
       <Anchor
         id="Contacts"
         top={-40}
       >
         <span
-          className="Anchor-sc-1axmo0z-0 eIaPaB"
+          className="Anchor-sc-1axmo0z-0 qtHhk"
           id="Contacts"
         />
       </Anchor>
@@ -23,14 +23,14 @@ exports[`Footer should render without throwing an error 1`] = `
         >
           <Contact__Card>
             <section
-              className="Contact__Card-sc-19q81t0-1 dELuDg"
+              className="Contact__Card-sc-19q81t0-1 crLKhH"
             >
               <Header>
                 <Header__Container
                   className="contact-card__header"
                 >
                   <header
-                    className="Header__Container-sc-9x4isp-0 vlaQk contact-card__header"
+                    className="Header__Container-sc-9x4isp-0 duAKjn contact-card__header"
                   >
                     <h2>
                       <Translate
@@ -88,12 +88,12 @@ exports[`Footer should render without throwing an error 1`] = `
               <Content>
                 <Content__Container>
                   <div
-                    className="Content__Container-h48asr-0 ddIKTo"
+                    className="Content__Container-h48asr-0 jFTQHL"
                   >
                     <Logo>
                       <Logo__Container>
                         <div
-                          className="Logo__Container-sc-3ksn80-0 xeaCS"
+                          className="Logo__Container-sc-3ksn80-0 hnaXbJ"
                         >
                           JD
                         </div>
@@ -101,12 +101,12 @@ exports[`Footer should render without throwing an error 1`] = `
                     </Logo>
                     <Content__Group>
                       <div
-                        className="Content__Group-h48asr-1 kSyJKW"
+                        className="Content__Group-h48asr-1 dBdkwx"
                       >
                         <Description>
                           <Description__Container>
                             <div
-                              className="Description__Container-sc-148khb-0 kdIkkn"
+                              className="Description__Container-sc-148khb-0 hKojaM"
                             >
                               <p>
                                 <Translate
@@ -164,11 +164,11 @@ exports[`Footer should render without throwing an error 1`] = `
                         <Info>
                           <Info__Container>
                             <div
-                              className="Info__Container-sc-1c7fwcl-0 hVonwt"
+                              className="Info__Container-sc-1c7fwcl-0 iZltGY"
                             >
                               <Info__Name>
                                 <h4
-                                  className="Info__Name-sc-1c7fwcl-1 TAjbs"
+                                  className="Info__Name-sc-1c7fwcl-1 hDvRwD"
                                 >
                                   <Translate
                                     id="Contact: Info Name"
@@ -197,7 +197,7 @@ exports[`Footer should render without throwing an error 1`] = `
                               </Info__Name>
                               <Info__Role>
                                 <div
-                                  className="Info__Paragraph-sc-1c7fwcl-2 Info__Role-sc-1c7fwcl-3 hFleiJ"
+                                  className="Info__Paragraph-sc-1c7fwcl-2 Info__Role-sc-1c7fwcl-3 iDHjq"
                                 >
                                   <Translate
                                     id="Contact: Info Role"
@@ -226,21 +226,21 @@ exports[`Footer should render without throwing an error 1`] = `
                               </Info__Role>
                               <Info__Location>
                                 <div
-                                  className="Info__Paragraph-sc-1c7fwcl-2 Info__Location-sc-1c7fwcl-4 hmDcil"
+                                  className="Info__Paragraph-sc-1c7fwcl-2 Info__Location-sc-1c7fwcl-4 jpwgZE"
                                 >
                                   <Info__LocationIcon
                                     name="location"
                                   >
                                     <Icon
-                                      className="Info__LocationIcon-sc-1c7fwcl-11 hvaZzP"
+                                      className="Info__LocationIcon-sc-1c7fwcl-11 fMZoek"
                                       name="location"
                                     >
                                       <Icon__Symbol
-                                        className="Info__LocationIcon-sc-1c7fwcl-11 hvaZzP"
+                                        className="Info__LocationIcon-sc-1c7fwcl-11 fMZoek"
                                         name="location"
                                       >
                                         <div
-                                          className="Icon__Symbol-sc-6mj7rl-0 ghODLO Info__LocationIcon-sc-1c7fwcl-11 hvaZzP"
+                                          className="Icon__Symbol-sc-6mj7rl-0 iupPwJ Info__LocationIcon-sc-1c7fwcl-11 fMZoek"
                                           name="location"
                                         />
                                       </Icon__Symbol>
@@ -250,12 +250,12 @@ exports[`Footer should render without throwing an error 1`] = `
                                     href="#map"
                                   >
                                     <a
-                                      className="Info__Underline-sc-1c7fwcl-10 fmETax"
+                                      className="Info__Underline-sc-1c7fwcl-10 tSqkm"
                                       href="#map"
                                     >
                                       <Info__Country>
                                         <span
-                                          className="Info__Inline-sc-1c7fwcl-7 Info__Country-sc-1c7fwcl-8 efCkUl"
+                                          className="Info__Inline-sc-1c7fwcl-7 Info__Country-sc-1c7fwcl-8 hYuTNo"
                                         >
                                           <Translate
                                             id="Contact: Info Country"
@@ -285,7 +285,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                       , 
                                       <Info__Address>
                                         <span
-                                          className="Info__Inline-sc-1c7fwcl-7 Info__Address-sc-1c7fwcl-9 dWeoPc"
+                                          className="Info__Inline-sc-1c7fwcl-7 Info__Address-sc-1c7fwcl-9 bExWBz"
                                         >
                                           <Translate
                                             id="Contact: Info Dist"
@@ -318,21 +318,21 @@ exports[`Footer should render without throwing an error 1`] = `
                               </Info__Location>
                               <Info__Email>
                                 <div
-                                  className="Info__Paragraph-sc-1c7fwcl-2 Info__Email-sc-1c7fwcl-5 hQMIRF"
+                                  className="Info__Paragraph-sc-1c7fwcl-2 Info__Email-sc-1c7fwcl-5 eeYNSQ"
                                 >
                                   <Info__EmailIcon
                                     name="mail"
                                   >
                                     <Icon
-                                      className="Info__EmailIcon-sc-1c7fwcl-12 jNPLjl"
+                                      className="Info__EmailIcon-sc-1c7fwcl-12 ZEwqu"
                                       name="mail"
                                     >
                                       <Icon__Symbol
-                                        className="Info__EmailIcon-sc-1c7fwcl-12 jNPLjl"
+                                        className="Info__EmailIcon-sc-1c7fwcl-12 ZEwqu"
                                         name="mail"
                                       >
                                         <div
-                                          className="Icon__Symbol-sc-6mj7rl-0 fBIERA Info__EmailIcon-sc-1c7fwcl-12 jNPLjl"
+                                          className="Icon__Symbol-sc-6mj7rl-0 ksJtXj Info__EmailIcon-sc-1c7fwcl-12 ZEwqu"
                                           name="mail"
                                         />
                                       </Icon__Symbol>
@@ -340,7 +340,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                   </Info__EmailIcon>
                                   <Info__Underline>
                                     <a
-                                      className="Info__Underline-sc-1c7fwcl-10 fmETax"
+                                      className="Info__Underline-sc-1c7fwcl-10 tSqkm"
                                     >
                                       hohuuphat22@gmail.com
                                     </a>
@@ -349,21 +349,21 @@ exports[`Footer should render without throwing an error 1`] = `
                               </Info__Email>
                               <Info__Phone>
                                 <div
-                                  className="Info__Paragraph-sc-1c7fwcl-2 Info__Phone-sc-1c7fwcl-6 eHfkcg"
+                                  className="Info__Paragraph-sc-1c7fwcl-2 Info__Phone-sc-1c7fwcl-6 juJfOj"
                                 >
                                   <Info__PhoneIcon
                                     name="phone"
                                   >
                                     <Icon
-                                      className="Info__PhoneIcon-sc-1c7fwcl-13 dZHOB"
+                                      className="Info__PhoneIcon-sc-1c7fwcl-13 jHKmUe"
                                       name="phone"
                                     >
                                       <Icon__Symbol
-                                        className="Info__PhoneIcon-sc-1c7fwcl-13 dZHOB"
+                                        className="Info__PhoneIcon-sc-1c7fwcl-13 jHKmUe"
                                         name="phone"
                                       >
                                         <div
-                                          className="Icon__Symbol-sc-6mj7rl-0 cJhXAW Info__PhoneIcon-sc-1c7fwcl-13 dZHOB"
+                                          className="Icon__Symbol-sc-6mj7rl-0 hqtnvj Info__PhoneIcon-sc-1c7fwcl-13 jHKmUe"
                                           name="phone"
                                         />
                                       </Icon__Symbol>
@@ -371,7 +371,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                   </Info__PhoneIcon>
                                   <Info__Underline>
                                     <a
-                                      className="Info__Underline-sc-1c7fwcl-10 fmETax"
+                                      className="Info__Underline-sc-1c7fwcl-10 tSqkm"
                                     >
                                       +84 906323761
                                     </a>
@@ -384,14 +384,14 @@ exports[`Footer should render without throwing an error 1`] = `
                         <Socials>
                           <Socials__Container>
                             <ul
-                              className="Socials__Container-sc-1g7e2kk-0 goPAno"
+                              className="Socials__Container-sc-1g7e2kk-0 fpJdTl"
                             >
                               <Socials__Item
                                 data-test-id="socials-fb-link"
                                 onClick={[Function]}
                               >
                                 <li
-                                  className="Socials__Item-sc-1g7e2kk-1 dusopV"
+                                  className="Socials__Item-sc-1g7e2kk-1 laTpwS"
                                   data-test-id="socials-fb-link"
                                   onClick={[Function]}
                                 >
@@ -399,15 +399,15 @@ exports[`Footer should render without throwing an error 1`] = `
                                     name="fb"
                                   >
                                     <Icon
-                                      className="Socials__IconWrapper-sc-1g7e2kk-2 kiaPUk"
+                                      className="Socials__IconWrapper-sc-1g7e2kk-2 cTBPR"
                                       name="fb"
                                     >
                                       <Icon__Symbol
-                                        className="Socials__IconWrapper-sc-1g7e2kk-2 kiaPUk"
+                                        className="Socials__IconWrapper-sc-1g7e2kk-2 cTBPR"
                                         name="fb"
                                       >
                                         <div
-                                          className="Icon__Symbol-sc-6mj7rl-0 jbHPTK Socials__IconWrapper-sc-1g7e2kk-2 kiaPUk"
+                                          className="Icon__Symbol-sc-6mj7rl-0 dgmAAL Socials__IconWrapper-sc-1g7e2kk-2 cTBPR"
                                           name="fb"
                                         />
                                       </Icon__Symbol>
@@ -420,7 +420,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                 onClick={[Function]}
                               >
                                 <li
-                                  className="Socials__Item-sc-1g7e2kk-1 dusopV"
+                                  className="Socials__Item-sc-1g7e2kk-1 laTpwS"
                                   data-test-id="socials-linkedin-link"
                                   onClick={[Function]}
                                 >
@@ -428,15 +428,15 @@ exports[`Footer should render without throwing an error 1`] = `
                                     name="linkedin"
                                   >
                                     <Icon
-                                      className="Socials__IconWrapper-sc-1g7e2kk-2 kiaPUk"
+                                      className="Socials__IconWrapper-sc-1g7e2kk-2 cTBPR"
                                       name="linkedin"
                                     >
                                       <Icon__Symbol
-                                        className="Socials__IconWrapper-sc-1g7e2kk-2 kiaPUk"
+                                        className="Socials__IconWrapper-sc-1g7e2kk-2 cTBPR"
                                         name="linkedin"
                                       >
                                         <div
-                                          className="Icon__Symbol-sc-6mj7rl-0 jxdgyC Socials__IconWrapper-sc-1g7e2kk-2 kiaPUk"
+                                          className="Icon__Symbol-sc-6mj7rl-0 pacIb Socials__IconWrapper-sc-1g7e2kk-2 cTBPR"
                                           name="linkedin"
                                         />
                                       </Icon__Symbol>
@@ -461,7 +461,7 @@ exports[`Footer should render without throwing an error 1`] = `
           id="map"
         >
           <div
-            className="Map__Container-g4b71z-0 kLUKIr"
+            className="Map__Container-g4b71z-0 iMBiWe"
             id="map"
           />
         </Map__Container>

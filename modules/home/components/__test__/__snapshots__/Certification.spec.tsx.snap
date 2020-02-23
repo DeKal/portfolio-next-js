@@ -5,14 +5,14 @@ exports[`Certification should render without throwing an error 1`] = `
   <Container>
     <Container__Style>
       <section
-        className="Container__Style-sc-3utn0w-0 erCcKZ"
+        className="Container__Style-sc-3utn0w-0 bsmDng"
       >
         <Anchor
           id="Certifications"
           top={-40}
         >
           <span
-            className="Anchor-sc-1axmo0z-0 eIaPaB"
+            className="Anchor-sc-1axmo0z-0 qtHhk"
             id="Certifications"
           />
         </Anchor>
@@ -25,7 +25,7 @@ exports[`Certification should render without throwing an error 1`] = `
             <Header>
               <Header__Container>
                 <header
-                  className="Header__Container-hz47ou-0 jLrtjx"
+                  className="Header__Container-hz47ou-0 dxCyVk"
                 >
                   <h2>
                     <Translate
@@ -57,7 +57,7 @@ exports[`Certification should render without throwing an error 1`] = `
             </Header>
             <Certification__List>
               <ul
-                className="Certification__List-sc-4w16ra-0 fkOnOP"
+                className="Certification__List-sc-4w16ra-0 gNzUvy"
               >
                 <ForwardRef
                   noGutters={false}
@@ -85,7 +85,7 @@ exports[`Certification should render without throwing an error 1`] = `
                             onClick={[Function]}
                           >
                             <li
-                              className="Item-sc-11dfzz4-0 ftLjbI"
+                              className="Item-sc-11dfzz4-0 gQyKjn"
                               data-test-id="cert-item"
                               id={1}
                               onClick={[Function]}
@@ -99,15 +99,15 @@ exports[`Certification should render without throwing an error 1`] = `
                                   name="c"
                                 >
                                   <Icon
-                                    className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__ActiveIcon-sc-1s17nas-2 etrMuz"
+                                    className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__ActiveIcon-sc-1s17nas-2 djlVOs"
                                     name="c"
                                   >
                                     <Icon__Symbol
-                                      className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__ActiveIcon-sc-1s17nas-2 etrMuz"
+                                      className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__ActiveIcon-sc-1s17nas-2 djlVOs"
                                       name="c"
                                     >
                                       <div
-                                        className="Icon__Symbol-sc-6mj7rl-0 kLlFHC CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__ActiveIcon-sc-1s17nas-2 etrMuz"
+                                        className="Icon__Symbol-sc-6mj7rl-0 fTWOAh CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__ActiveIcon-sc-1s17nas-2 djlVOs"
                                         name="c"
                                       />
                                     </Icon__Symbol>
@@ -139,7 +139,7 @@ exports[`Certification should render without throwing an error 1`] = `
                             onClick={[Function]}
                           >
                             <li
-                              className="Item-sc-11dfzz4-0 ftLjbI"
+                              className="Item-sc-11dfzz4-0 gQyKjn"
                               data-test-id="cert-item"
                               id={2}
                               onClick={[Function]}
@@ -153,15 +153,15 @@ exports[`Certification should render without throwing an error 1`] = `
                                   name="c"
                                 >
                                   <Icon
-                                    className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 hUxsim"
+                                    className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 kFIlst"
                                     name="c"
                                   >
                                     <Icon__Symbol
-                                      className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 hUxsim"
+                                      className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 kFIlst"
                                       name="c"
                                     >
                                       <div
-                                        className="Icon__Symbol-sc-6mj7rl-0 kLlFHC CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 hUxsim"
+                                        className="Icon__Symbol-sc-6mj7rl-0 fTWOAh CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 kFIlst"
                                         name="c"
                                       />
                                     </Icon__Symbol>
@@ -193,7 +193,7 @@ exports[`Certification should render without throwing an error 1`] = `
                             onClick={[Function]}
                           >
                             <li
-                              className="Item-sc-11dfzz4-0 ftLjbI"
+                              className="Item-sc-11dfzz4-0 gQyKjn"
                               data-test-id="cert-item"
                               id={3}
                               onClick={[Function]}
@@ -207,15 +207,15 @@ exports[`Certification should render without throwing an error 1`] = `
                                   name="p"
                                 >
                                   <Icon
-                                    className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 hUxsim"
+                                    className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 kFIlst"
                                     name="p"
                                   >
                                     <Icon__Symbol
-                                      className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 hUxsim"
+                                      className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 kFIlst"
                                       name="p"
                                     >
                                       <div
-                                        className="Icon__Symbol-sc-6mj7rl-0 NuleT CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 hUxsim"
+                                        className="Icon__Symbol-sc-6mj7rl-0 fRHIzO CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 kFIlst"
                                         name="p"
                                       />
                                     </Icon__Symbol>
@@ -247,7 +247,7 @@ exports[`Certification should render without throwing an error 1`] = `
                             onClick={[Function]}
                           >
                             <li
-                              className="Item-sc-11dfzz4-0 ftLjbI"
+                              className="Item-sc-11dfzz4-0 gQyKjn"
                               data-test-id="cert-item"
                               id={4}
                               onClick={[Function]}
@@ -261,15 +261,15 @@ exports[`Certification should render without throwing an error 1`] = `
                                   name="p"
                                 >
                                   <Icon
-                                    className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 hUxsim"
+                                    className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 kFIlst"
                                     name="p"
                                   >
                                     <Icon__Symbol
-                                      className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 hUxsim"
+                                      className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 kFIlst"
                                       name="p"
                                     >
                                       <div
-                                        className="Icon__Symbol-sc-6mj7rl-0 NuleT CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 hUxsim"
+                                        className="Icon__Symbol-sc-6mj7rl-0 fRHIzO CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 kFIlst"
                                         name="p"
                                       />
                                     </Icon__Symbol>
@@ -303,14 +303,14 @@ exports[`Certification should render without throwing an error 1`] = `
                         xs={12}
                       >
                         <Col
-                          className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 lfwGsy"
+                          className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 cRkXqF"
                           id={1}
                           itemselected={1}
                           sm={12}
                           xs={12}
                         >
                           <div
-                            className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 lfwGsy col-sm-12 col-12"
+                            className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 cRkXqF col-sm-12 col-12"
                             id={1}
                             itemselected={1}
                           >
@@ -318,12 +318,12 @@ exports[`Certification should render without throwing an error 1`] = `
                               id={1}
                             >
                               <li
-                                className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 lhfmSf"
+                                className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 dVRdAa"
                                 id={1}
                               >
                                 <Title>
                                   <h3
-                                    className="Title-sdbbbt-0 bTroOb"
+                                    className="Title-sdbbbt-0 dJvCKs"
                                   >
                                     <span>
                                       1
@@ -399,14 +399,14 @@ exports[`Certification should render without throwing an error 1`] = `
                         xs={12}
                       >
                         <Col
-                          className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 gRgPZz"
+                          className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 ecAlWC"
                           id={2}
                           itemselected={1}
                           sm={12}
                           xs={12}
                         >
                           <div
-                            className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 gRgPZz col-sm-12 col-12"
+                            className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 ecAlWC col-sm-12 col-12"
                             id={2}
                             itemselected={1}
                           >
@@ -414,12 +414,12 @@ exports[`Certification should render without throwing an error 1`] = `
                               id={2}
                             >
                               <li
-                                className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 eUxuYv"
+                                className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 dKPDKC"
                                 id={2}
                               >
                                 <Title>
                                   <h3
-                                    className="Title-sdbbbt-0 bTroOb"
+                                    className="Title-sdbbbt-0 dJvCKs"
                                   >
                                     <span>
                                       2
@@ -495,14 +495,14 @@ exports[`Certification should render without throwing an error 1`] = `
                         xs={12}
                       >
                         <Col
-                          className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 gRgPZz"
+                          className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 ecAlWC"
                           id={3}
                           itemselected={1}
                           sm={12}
                           xs={12}
                         >
                           <div
-                            className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 gRgPZz col-sm-12 col-12"
+                            className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 ecAlWC col-sm-12 col-12"
                             id={3}
                             itemselected={1}
                           >
@@ -510,12 +510,12 @@ exports[`Certification should render without throwing an error 1`] = `
                               id={3}
                             >
                               <li
-                                className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 cdZDCB"
+                                className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 dQqpQK"
                                 id={3}
                               >
                                 <Title>
                                   <h3
-                                    className="Title-sdbbbt-0 bTroOb"
+                                    className="Title-sdbbbt-0 dJvCKs"
                                   >
                                     <span>
                                       3
@@ -591,14 +591,14 @@ exports[`Certification should render without throwing an error 1`] = `
                         xs={12}
                       >
                         <Col
-                          className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 gRgPZz"
+                          className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 ecAlWC"
                           id={4}
                           itemselected={1}
                           sm={12}
                           xs={12}
                         >
                           <div
-                            className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 gRgPZz col-sm-12 col-12"
+                            className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 ecAlWC col-sm-12 col-12"
                             id={4}
                             itemselected={1}
                           >
@@ -606,12 +606,12 @@ exports[`Certification should render without throwing an error 1`] = `
                               id={4}
                             >
                               <li
-                                className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 hgNvhN"
+                                className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 cRdcPK"
                                 id={4}
                               >
                                 <Title>
                                   <h3
-                                    className="Title-sdbbbt-0 bTroOb"
+                                    className="Title-sdbbbt-0 dJvCKs"
                                   >
                                     <span>
                                       4

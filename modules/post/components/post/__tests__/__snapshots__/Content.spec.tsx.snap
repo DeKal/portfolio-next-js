@@ -2,6 +2,6 @@
 
 exports[`Content should render without throwing an error 1`] = `
 <div
-  className="Content-sc-5zcxbp-0 ehwVyG"
+  className="Content-sc-5zcxbp-0 idbPxL"
 />
 `;

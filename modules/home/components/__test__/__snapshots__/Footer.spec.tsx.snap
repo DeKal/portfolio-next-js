@@ -4,7 +4,7 @@ exports[`Footer should render without throwing an error 1`] = `
 <Footer>
   <Footer__FooterContainer>
     <footer
-      className="Footer__FooterContainer-x896os-0 dBgEyy"
+      className="Footer__FooterContainer-x896os-0 iHWoeX"
     >
       <Container
         fluid={false}
@@ -27,12 +27,12 @@ exports[`Footer should render without throwing an error 1`] = `
                 >
                   <Footer__CopyRight>
                     <p
-                      className="Footer__CopyRight-x896os-1 dCbhNj"
+                      className="Footer__CopyRight-x896os-1 dGRrGa"
                     >
                       © 
                       <Footer__Bold>
                         <span
-                          className="Footer__Bold-x896os-2 fbURKd"
+                          className="Footer__Bold-x896os-2 iQFmgw"
                         >
                           Phat Ho
                         </span>
@@ -63,7 +63,7 @@ exports[`Footer should render without throwing an error 1`] = `
                     href="https://github.com/DeKal/portfolio-next-js"
                   >
                     <a
-                      className="Footer__GitLogo-x896os-3 jHlbCK"
+                      className="Footer__GitLogo-x896os-3 hOyXxL"
                       href="https://github.com/DeKal/portfolio-next-js"
                     >
                       <FaGithub
@@ -108,22 +108,22 @@ exports[`Footer should render without throwing an error 1`] = `
                   href="#Home"
                 >
                   <a
-                    className="GoTop__Container-sc-137nslr-0 jRYMYr"
+                    className="GoTop__Container-sc-137nslr-0 fCDaNA"
                     href="#Home"
                   >
                     <GoTop__GoTopIcon
                       name="goTop"
                     >
                       <Icon
-                        className="GoTop__GoTopIcon-sc-137nslr-1 gKsUyJ"
+                        className="GoTop__GoTopIcon-sc-137nslr-1 cIvAmA"
                         name="goTop"
                       >
                         <Icon__Symbol
-                          className="GoTop__GoTopIcon-sc-137nslr-1 gKsUyJ"
+                          className="GoTop__GoTopIcon-sc-137nslr-1 cIvAmA"
                           name="goTop"
                         >
                           <div
-                            className="Icon__Symbol-sc-6mj7rl-0 jHNONY GoTop__GoTopIcon-sc-137nslr-1 gKsUyJ"
+                            className="Icon__Symbol-sc-6mj7rl-0 bhSWal GoTop__GoTopIcon-sc-137nslr-1 cIvAmA"
                             name="goTop"
                           />
                         </Icon__Symbol>

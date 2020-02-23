@@ -2,6 +2,6 @@
 
 exports[`Post Info SubInfo should render without throwing an error 1`] = `
 <div
-  className="SubInfo-sc-1bbx7ap-0 hdgwxa"
+  className="SubInfo-sc-1bbx7ap-0 eHWfDZ"
 />
 `;

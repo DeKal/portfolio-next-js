@@ -6,11 +6,11 @@ exports[`Error should render Error Component in general case 1`] = `
 >
   <Error__Container>
     <div
-      className="Error__Container-sc-38ag4q-0 iHbHqF"
+      className="Error__Container-sc-38ag4q-0 dLCeqI"
     >
       <Error__Content>
         <div
-          className="Error__Content-sc-38ag4q-1 gKRFkE"
+          className="Error__Content-sc-38ag4q-1 eizRxx"
         >
           <General>
             <Layout
@@ -20,11 +20,11 @@ exports[`Error should render Error Component in general case 1`] = `
               <Header>
                 <Header__Container>
                   <div
-                    className="Header__Container-sc-1tbyssu-0 iDdUCu"
+                    className="Header__Container-sc-1tbyssu-0 hEXQXb"
                   >
                     <Header__Style>
                       <h1
-                        className="Header__Style-sc-1tbyssu-1 lomLTj"
+                        className="Header__Style-sc-1tbyssu-1 duHoIG"
                       >
                         Oops!
                       </h1>
@@ -34,14 +34,14 @@ exports[`Error should render Error Component in general case 1`] = `
               </Header>
               <Title>
                 <h2
-                  className="Title-sc-11tbde6-0 jqa-dOU"
+                  className="Title-sc-11tbde6-0 iXiNAL"
                 >
                   An error occurred
                 </h2>
               </Title>
               <Description>
                 <p
-                  className="Description-aoyhzi-0 cYhLeM"
+                  className="Description-aoyhzi-0 gZOhql"
                 >
                   There are some errors happened during the process, please back to home page and try again.
                 </p>
@@ -54,7 +54,7 @@ exports[`Error should render Error Component in general case 1`] = `
                   onMouseEnter={[Function]}
                 >
                   <a
-                    className="Button-sc-1ng70vn-0 kfEEGP"
+                    className="Button-sc-1ng70vn-0 hzqQHS"
                     onClick={[Function]}
                     onMouseEnter={[Function]}
                   >
@@ -75,11 +75,11 @@ exports[`Error should render Error Component in undefined case 1`] = `
 <Error>
   <Error__Container>
     <div
-      className="Error__Container-sc-38ag4q-0 iHbHqF"
+      className="Error__Container-sc-38ag4q-0 dLCeqI"
     >
       <Error__Content>
         <div
-          className="Error__Content-sc-38ag4q-1 gKRFkE"
+          className="Error__Content-sc-38ag4q-1 eizRxx"
         >
           <General>
             <Layout
@@ -89,11 +89,11 @@ exports[`Error should render Error Component in undefined case 1`] = `
               <Header>
                 <Header__Container>
                   <div
-                    className="Header__Container-sc-1tbyssu-0 iDdUCu"
+                    className="Header__Container-sc-1tbyssu-0 hEXQXb"
                   >
                     <Header__Style>
                       <h1
-                        className="Header__Style-sc-1tbyssu-1 lomLTj"
+                        className="Header__Style-sc-1tbyssu-1 duHoIG"
                       >
                         Oops!
                       </h1>
@@ -103,14 +103,14 @@ exports[`Error should render Error Component in undefined case 1`] = `
               </Header>
               <Title>
                 <h2
-                  className="Title-sc-11tbde6-0 jqa-dOU"
+                  className="Title-sc-11tbde6-0 iXiNAL"
                 >
                   An error occurred
                 </h2>
               </Title>
               <Description>
                 <p
-                  className="Description-aoyhzi-0 cYhLeM"
+                  className="Description-aoyhzi-0 gZOhql"
                 >
                   There are some errors happened during the process, please back to home page and try again.
                 </p>
@@ -123,7 +123,7 @@ exports[`Error should render Error Component in undefined case 1`] = `
                   onMouseEnter={[Function]}
                 >
                   <a
-                    className="Button-sc-1ng70vn-0 kfEEGP"
+                    className="Button-sc-1ng70vn-0 hzqQHS"
                     onClick={[Function]}
                     onMouseEnter={[Function]}
                   >
@@ -146,11 +146,11 @@ exports[`Error should render Error Component with 404 1`] = `
 >
   <Error__Container>
     <div
-      className="Error__Container-sc-38ag4q-0 iHbHqF"
+      className="Error__Container-sc-38ag4q-0 dLCeqI"
     >
       <Error__Content>
         <div
-          className="Error__Content-sc-38ag4q-1 gKRFkE"
+          className="Error__Content-sc-38ag4q-1 eizRxx"
         >
           <NotFound>
             <Layout
@@ -160,11 +160,11 @@ exports[`Error should render Error Component with 404 1`] = `
               <Header>
                 <Header__Container>
                   <div
-                    className="Header__Container-sc-1tbyssu-0 iDdUCu"
+                    className="Header__Container-sc-1tbyssu-0 hEXQXb"
                   >
                     <Header__Style>
                       <h1
-                        className="Header__Style-sc-1tbyssu-1 lomLTj"
+                        className="Header__Style-sc-1tbyssu-1 duHoIG"
                       >
                         Oops!
                       </h1>
@@ -174,14 +174,14 @@ exports[`Error should render Error Component with 404 1`] = `
               </Header>
               <Title>
                 <h2
-                  className="Title-sc-11tbde6-0 jqa-dOU"
+                  className="Title-sc-11tbde6-0 iXiNAL"
                 >
                   An error 404 occurred
                 </h2>
               </Title>
               <Description>
                 <p
-                  className="Description-aoyhzi-0 cYhLeM"
+                  className="Description-aoyhzi-0 gZOhql"
                 >
                   The page you are looking for might have been removed had its name changed or is temporarily unavailable.
                 </p>
@@ -194,7 +194,7 @@ exports[`Error should render Error Component with 404 1`] = `
                   onMouseEnter={[Function]}
                 >
                   <a
-                    className="Button-sc-1ng70vn-0 kfEEGP"
+                    className="Button-sc-1ng70vn-0 hzqQHS"
                     onClick={[Function]}
                     onMouseEnter={[Function]}
                   >
@@ -217,11 +217,11 @@ exports[`Error should render Error Component with 500 1`] = `
 >
   <Error__Container>
     <div
-      className="Error__Container-sc-38ag4q-0 iHbHqF"
+      className="Error__Container-sc-38ag4q-0 dLCeqI"
     >
       <Error__Content>
         <div
-          className="Error__Content-sc-38ag4q-1 gKRFkE"
+          className="Error__Content-sc-38ag4q-1 eizRxx"
         >
           <InternalServer>
             <Layout
@@ -231,11 +231,11 @@ exports[`Error should render Error Component with 500 1`] = `
               <Header>
                 <Header__Container>
                   <div
-                    className="Header__Container-sc-1tbyssu-0 iDdUCu"
+                    className="Header__Container-sc-1tbyssu-0 hEXQXb"
                   >
                     <Header__Style>
                       <h1
-                        className="Header__Style-sc-1tbyssu-1 lomLTj"
+                        className="Header__Style-sc-1tbyssu-1 duHoIG"
                       >
                         Oops!
                       </h1>
@@ -245,14 +245,14 @@ exports[`Error should render Error Component with 500 1`] = `
               </Header>
               <Title>
                 <h2
-                  className="Title-sc-11tbde6-0 jqa-dOU"
+                  className="Title-sc-11tbde6-0 iXiNAL"
                 >
                   An error 500 Internal Server Error occurred
                 </h2>
               </Title>
               <Description>
                 <p
-                  className="Description-aoyhzi-0 cYhLeM"
+                  className="Description-aoyhzi-0 gZOhql"
                 >
                   The server encountered an internal error or misconfiguration and was unable to complete your request.
                 </p>
@@ -265,7 +265,7 @@ exports[`Error should render Error Component with 500 1`] = `
                   onMouseEnter={[Function]}
                 >
                   <a
-                    className="Button-sc-1ng70vn-0 kfEEGP"
+                    className="Button-sc-1ng70vn-0 hzqQHS"
                     onClick={[Function]}
                     onMouseEnter={[Function]}
                   >
