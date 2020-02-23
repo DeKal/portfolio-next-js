@@ -20,6 +20,7 @@ const AllowedClickContainer = styled(Container)`
 
 const Article = ({ header, brief, slug }) => (
   <AllowedClickContainer
+    data-test-id="article-container"
     onClick={() => {
       document.location.href = `blogs/${slug}`
     }}

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Blogs should render without empty posts 1`] = `<Container />`;
+
+exports[`Blogs should render without throwing an error 1`] = `
+<Container>
+  <PostSummary
+    brief="This is test brief 1"
+    date="20/1/2019"
+    header="Test header 1"
+    key="1"
+    slug="test-slug-1"
+  />
+  <PostSummary
+    brief="This is test brief 2"
+    date="20/1/2019"
+    header="Test header 2"
+    key="2"
+    slug="test-slug-2"
+  />
+</Container>
+`;

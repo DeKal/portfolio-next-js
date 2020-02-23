@@ -3,14 +3,14 @@ import React from 'react'
 import Head from '~/modules/blogs/components/Head'
 import Navbar from '~/modules/core/components/PostNavbar'
 import BlogList from '~/modules/blogs/containers/Blogs'
-import { BlogsProvider } from '~/modules/blogs/state/provider'
+import { Provider } from '~/modules/core/state/provider'
 
 const Blogs = () => (
-  <BlogsProvider>
+  <Provider>
     <Head />
     <Navbar />
     <BlogList />
-  </BlogsProvider>
+  </Provider>
 )
 
 export default Blogs

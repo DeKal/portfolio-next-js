@@ -3,10 +3,10 @@ import PropTypes from 'prop-types'
 import PostSummary from '~/modules/blogs/components/blogs/PostSummary'
 import Container from '~/modules/blogs/components/blogs/Container'
 
-const Blogs = ({ data }) => {
+const Blogs = ({ posts }) => {
   return (
     <Container>
-      {data.map(postSummary => {
+      {posts.map(postSummary => {
         return (
           <PostSummary
             key={postSummary.id}
@@ -23,7 +23,7 @@ const Blogs = ({ data }) => {
 }
 
 Blogs.propTypes = {
-  data: PropTypes.array
+  posts: PropTypes.array
 }
 
 export default Blogs

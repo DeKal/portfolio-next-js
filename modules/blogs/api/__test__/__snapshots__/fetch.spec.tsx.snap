@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fetch  fetchPostFromSlug with empty request 1`] = `Object {}`;
+
+exports[`Fetch  fetchPostFromSlug with mock request 1`] = `
+Array [
+  Object {
+    "author": "test author 1",
+    "brief": "This is test brief 1",
+    "date": "20/1/2019",
+    "header": "Test header 1",
+    "id": 1,
+    "slug": "test-slug-1",
+  },
+  Object {
+    "author": "test author 2",
+    "brief": "This is test brief 2",
+    "date": "20/1/2019",
+    "header": "Test header 2",
+    "id": 2,
+    "slug": "test-slug-2",
+  },
+]
+`;

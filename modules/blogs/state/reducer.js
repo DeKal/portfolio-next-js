@@ -4,7 +4,7 @@ import {
   GET_BLOGS_ERROR
 } from '~/modules/blogs/state/action'
 
-export const reducer = (state, action) => {
+export default (state, action) => {
   switch (action.type) {
     case GET_BLOGS_START: {
       return {
@@ -26,8 +26,7 @@ export const reducer = (state, action) => {
         error: action.error
       }
     }
-    default: {
-      throw new Error(`Unhandled action type: ${action.type}`)
-    }
+    default:
+      return state
   }
 }

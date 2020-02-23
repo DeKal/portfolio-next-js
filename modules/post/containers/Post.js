@@ -3,11 +3,11 @@ import { useRouter } from 'next/router'
 import PostComponent from '~/modules/post/components/Post'
 import Dispatcher from '~/modules/core/dispatch/Dispatcher'
 import { getPostWithSlug } from '~/modules/post/state/action'
-import { usePostState, usePostDispatch } from '~/modules/post/state/context'
+import { useState, useDispatch } from '~/modules/core/state/context'
 
 const Post = () => {
-  const state = usePostState()
-  const dispatch = usePostDispatch()
+  const state = useState()
+  const dispatch = useDispatch()
   const router = useRouter()
   const { slug } = router.query
 

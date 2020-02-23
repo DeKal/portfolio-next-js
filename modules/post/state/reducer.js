@@ -4,7 +4,7 @@ import {
   GET_POST_ERROR
 } from '~/modules/post/state/action'
 
-export const postReducer = (state, action) => {
+export default (state, action) => {
   switch (action.type) {
     case GET_POST_START: {
       return {
@@ -26,8 +26,7 @@ export const postReducer = (state, action) => {
         error: action.error
       }
     }
-    default: {
-      throw new Error(`Unhandled action type: ${action.type}`)
-    }
+    default:
+      return state
   }
 }

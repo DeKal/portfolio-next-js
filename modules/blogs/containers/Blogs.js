@@ -2,11 +2,11 @@ import React, { useEffect } from 'react'
 import BlogsComponent from '~/modules/blogs/components/Blogs'
 import Dispatcher from '~/modules/core/dispatch/Dispatcher'
 import { getPostSummary } from '~/modules/blogs/state/action'
-import { useBlogsState, useBlogsDispatch } from '~/modules/blogs/state/context'
+import { useState, useDispatch } from '~/modules/core/state/context'
 
 const Blogs = () => {
-  const state = useBlogsState()
-  const dispatch = useBlogsDispatch()
+  const state = useState()
+  const dispatch = useDispatch()
 
   useEffect(() => {
     Dispatcher(dispatch).send(getPostSummary)
@@ -18,7 +18,7 @@ const Blogs = () => {
   ) : loading ? (
     <div> </div>
   ) : (
-    <BlogsComponent data={data} />
+    <BlogsComponent posts={data} />
   )
 }
 
