@@ -3,12 +3,15 @@ import mockAxios from 'axios'
 jest.mock('axios')
 
 const post = {
-  title: 'Search: The Whole Story',
-  content:
-    'Query understanding and relevance are key aspects of search, but they don’t tell the whole story.',
-  author: 'Daniel Tunkelang',
-  time: 'Mar 25, 2019',
-  minRead: '6'
+  data: {
+    title: 'Search: The Whole Story',
+    content:
+      'Query understanding and relevance are key aspects of search, but they don’t tell the whole story.',
+    author: 'Daniel Tunkelang',
+    time: 'Mar 25, 2019',
+    minRead: '6'
+  },
+  success: true
 }
 
 describe('Fetch ', () => {
@@ -31,7 +34,10 @@ describe('Fetch ', () => {
   it('fetchPostFromSlug with empty request', async () => {
     //@ts-ignore
     mockAxios.get.mockResolvedValue({
-      data: {}
+      data: {
+        data: {},
+        success: true
+      }
     })
 
     const data = await fetchPostFromSlug()
@@ -42,5 +48,21 @@ describe('Fetch ', () => {
       date: '',
       minRead: '6'
     })
+  })
+
+  it('fetchPostFromSlug with error request', async () => {
+    //@ts-ignore
+    mockAxios.get.mockResolvedValue({
+      data: {
+        error: {
+          code: 204,
+          message: 'Cannot find post'
+        },
+        success: false
+      }
+    })
+
+    const data = await fetchPostFromSlug()
+    expect(data).toMatchSnapshot()
   })
 })

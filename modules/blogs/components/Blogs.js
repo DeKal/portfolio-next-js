@@ -9,12 +9,12 @@ const Blogs = ({ posts }) => {
       {posts.map(postSummary => {
         return (
           <PostSummary
-            key={postSummary.id}
-            header={postSummary.header}
+            key={postSummary.slug}
+            title={postSummary.title}
             slug={postSummary.slug}
             brief={postSummary.brief}
-            author={postSummary.authorName}
-            date={postSummary.date}
+            author={postSummary.author}
+            time={postSummary.time}
           />
         )
       })}

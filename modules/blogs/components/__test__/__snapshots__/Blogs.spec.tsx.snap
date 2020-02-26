@@ -5,17 +5,15 @@ exports[`Blogs should render without empty posts 1`] = `<Container />`;
 exports[`Blogs should render without throwing an error 1`] = `
 <Container>
   <PostSummary
+    author="test author 1"
     brief="This is test brief 1"
-    date="20/1/2019"
-    header="Test header 1"
-    key="1"
+    key="test-slug-1"
     slug="test-slug-1"
   />
   <PostSummary
+    author="test author 2"
     brief="This is test brief 2"
-    date="20/1/2019"
-    header="Test header 2"
-    key="2"
+    key="test-slug-2"
     slug="test-slug-2"
   />
 </Container>

@@ -8,9 +8,7 @@ exports[`Blogs Article should render without throwing an error 1`] = `
   <ForwardRef
     noGutters={false}
   >
-    <Article__Title>
-      test header
-    </Article__Title>
+    <Article__Title />
   </ForwardRef>
   <ForwardRef
     noGutters={false}

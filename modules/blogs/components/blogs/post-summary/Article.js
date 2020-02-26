@@ -18,7 +18,7 @@ const AllowedClickContainer = styled(Container)`
   cursor: pointer;
 `
 
-const Article = ({ header, brief, slug }) => (
+const Article = ({ title, brief, slug }) => (
   <AllowedClickContainer
     data-test-id="article-container"
     onClick={() => {
@@ -26,7 +26,7 @@ const Article = ({ header, brief, slug }) => (
     }}
   >
     <Row>
-      <Title>{header}</Title>
+      <Title>{title}</Title>
     </Row>
     <Row>
       <Summary>{brief}</Summary>
@@ -35,7 +35,7 @@ const Article = ({ header, brief, slug }) => (
 )
 
 Article.propTypes = {
-  header: PropTypes.string,
+  title: PropTypes.string,
   brief: PropTypes.string,
   slug: PropTypes.string
 }
