@@ -6,12 +6,10 @@ exports[`Blogs PostSummary should render without throwing an error 1`] = `
     <Extra
       author="post author"
       avatar="/images/blogs/default-avatar.png"
-      date="20/11/2020"
       minRead="6"
     />
     <Article
       brief="post brief"
-      header="post header"
       slug="post"
     />
   </Content>

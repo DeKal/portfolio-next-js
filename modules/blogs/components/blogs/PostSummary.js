@@ -5,28 +5,28 @@ import Content from './post-summary/Content'
 import Extra from './post-summary/Extra'
 import Article from './post-summary/Article'
 
-const PostSummary = ({ header, author, date, brief, slug }) => {
+const PostSummary = ({ title, author, time, brief, slug }) => {
   return (
     <Container>
       <Content>
         <Extra
           author={author}
-          date={date}
+          date={time}
           minRead={'6'}
           avatar={'/images/blogs/default-avatar.png'}
         />
-        <Article header={header} brief={brief} slug={slug} />
+        <Article title={title} brief={brief} slug={slug} />
       </Content>
     </Container>
   )
 }
 
 PostSummary.propTypes = {
-  header: PropTypes.string,
+  title: PropTypes.string,
   slug: PropTypes.string,
   brief: PropTypes.string,
   author: PropTypes.string,
-  date: PropTypes.string
+  time: PropTypes.string
 }
 
 export default PostSummary
