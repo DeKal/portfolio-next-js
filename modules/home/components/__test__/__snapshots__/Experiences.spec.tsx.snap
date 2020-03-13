@@ -80,7 +80,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                 </header>
               </Header__Container>
             </Header>
-            <ForwardRef
+            <Row
               key="0"
               noGutters={false}
             >
@@ -373,8 +373,8 @@ exports[`Experiences should render without throwing an error 1`] = `
                   </Col>
                 </List>
               </div>
-            </ForwardRef>
-            <ForwardRef
+            </Row>
+            <Row
               key="1"
               noGutters={false}
             >
@@ -667,8 +667,8 @@ exports[`Experiences should render without throwing an error 1`] = `
                   </Col>
                 </List>
               </div>
-            </ForwardRef>
-            <ForwardRef
+            </Row>
+            <Row
               key="2"
               noGutters={false}
             >
@@ -961,7 +961,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                   </Col>
                 </List>
               </div>
-            </ForwardRef>
+            </Row>
           </div>
         </Container>
       </section>

@@ -14,7 +14,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
           <div
             className="MobileContainer-phmkm8-0 hUiOpP container"
           >
-            <ForwardRef
+            <Row
               fluid="true"
               noGutters={false}
             >
@@ -238,7 +238,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                   </div>
                 </Col>
               </div>
-            </ForwardRef>
+            </Row>
           </div>
         </Container>
       </MobileContainer>
@@ -263,7 +263,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
           <div
             className="MobileContainer-phmkm8-0 hUiOpP container"
           >
-            <ForwardRef
+            <Row
               fluid="true"
               noGutters={false}
             >
@@ -487,7 +487,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
                   </div>
                 </Col>
               </div>
-            </ForwardRef>
+            </Row>
           </div>
         </Container>
       </MobileContainer>
@@ -499,7 +499,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
 exports[`Nav Header should switchNav from Off to On 1`] = `
 <NavHeader__NavContainer>
   <MobileContainer>
-    <ForwardRef
+    <Row
       fluid="true"
       noGutters={false}
     >
@@ -522,7 +522,7 @@ exports[`Nav Header should switchNav from Off to On 1`] = `
           />
         </NavHeader__NavControl>
       </Col>
-    </ForwardRef>
+    </Row>
   </MobileContainer>
 </NavHeader__NavContainer>
 `;
@@ -530,7 +530,7 @@ exports[`Nav Header should switchNav from Off to On 1`] = `
 exports[`Nav Header should switchNav from On to Off 1`] = `
 <NavHeader__NavContainer>
   <MobileContainer>
-    <ForwardRef
+    <Row
       fluid="true"
       noGutters={false}
     >
@@ -553,7 +553,7 @@ exports[`Nav Header should switchNav from On to Off 1`] = `
           />
         </NavHeader__NavControl>
       </Col>
-    </ForwardRef>
+    </Row>
   </MobileContainer>
 </NavHeader__NavContainer>
 `;

@@ -5,7 +5,7 @@ exports[`PostInfo should render without throwing an error 1`] = `
   <Col
     md={6}
   >
-    <ForwardRef
+    <Row
       noGutters={false}
     >
       <ColNoGutter
@@ -15,23 +15,23 @@ exports[`PostInfo should render without throwing an error 1`] = `
         <Avatar />
       </ColNoGutter>
       <ColInfo>
-        <ForwardRef
+        <Row
           noGutters={true}
         >
           <Author>
              
              
           </Author>
-        </ForwardRef>
-        <ForwardRef
+        </Row>
+        <Row
           noGutters={true}
         >
           <SubInfo>
             undefined - undefined mins read
           </SubInfo>
-        </ForwardRef>
+        </Row>
       </ColInfo>
-    </ForwardRef>
+    </Row>
   </Col>
   <Col
     md={

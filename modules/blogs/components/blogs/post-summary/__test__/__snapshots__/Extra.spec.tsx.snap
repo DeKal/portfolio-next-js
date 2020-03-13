@@ -4,7 +4,7 @@ exports[`Blogs Extra should render without throwing an error 1`] = `
 <Container
   fluid={false}
 >
-  <ForwardRef
+  <Row
     noGutters={false}
   >
     <Col
@@ -17,7 +17,7 @@ exports[`Blogs Extra should render without throwing an error 1`] = `
       />
     </Col>
     <ColInfo>
-      <ForwardRef
+      <Row
         noGutters={true}
       >
         <Author>
@@ -25,15 +25,15 @@ exports[`Blogs Extra should render without throwing an error 1`] = `
           test author
            
         </Author>
-      </ForwardRef>
-      <ForwardRef
+      </Row>
+      <Row
         noGutters={true}
       >
         <SubInfo>
           20/12/2020 - 6 mins read
         </SubInfo>
-      </ForwardRef>
+      </Row>
     </ColInfo>
-  </ForwardRef>
+  </Row>
 </Container>
 `;

@@ -59,7 +59,7 @@ exports[`Certification should render without throwing an error 1`] = `
               <ul
                 className="Certification__List-sc-4w16ra-0 gNzUvy"
               >
-                <ForwardRef
+                <Row
                   noGutters={false}
                 >
                   <div
@@ -282,8 +282,8 @@ exports[`Certification should render without throwing an error 1`] = `
                       </Col>
                     </CertItem>
                   </div>
-                </ForwardRef>
-                <ForwardRef
+                </Row>
+                <Row
                   noGutters={false}
                 >
                   <div
@@ -674,7 +674,7 @@ exports[`Certification should render without throwing an error 1`] = `
                       </CertInfo__ShowOnSelectedCol>
                     </CertInfo>
                   </div>
-                </ForwardRef>
+                </Row>
               </ul>
             </Certification__List>
           </div>
