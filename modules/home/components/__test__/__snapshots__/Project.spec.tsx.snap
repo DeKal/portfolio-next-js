@@ -83,7 +83,7 @@ exports[`Project should render without throwing an error 1`] = `
               <div
                 className="Content__NoPaddingContainer-sc-1sx6qta-0 NgcQg container"
               >
-                <ForwardRef
+                <Row
                   noGutters={true}
                 >
                   <div
@@ -362,7 +362,7 @@ exports[`Project should render without throwing an error 1`] = `
                       </Col>
                     </Item>
                   </div>
-                </ForwardRef>
+                </Row>
               </div>
             </Container>
           </Content__NoPaddingContainer>

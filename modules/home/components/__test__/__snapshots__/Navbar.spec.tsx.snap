@@ -22,7 +22,7 @@ exports[`Navbar should render without throwing an error 1`] = `
                 <div
                   className="MobileContainer-phmkm8-0 hUiOpP container"
                 >
-                  <ForwardRef
+                  <Row
                     fluid="true"
                     noGutters={false}
                   >
@@ -246,7 +246,7 @@ exports[`Navbar should render without throwing an error 1`] = `
                         </div>
                       </Col>
                     </div>
-                  </ForwardRef>
+                  </Row>
                 </div>
               </Container>
             </MobileContainer>
@@ -270,7 +270,7 @@ exports[`Navbar should render without throwing an error 1`] = `
                 <div
                   className="MobileContainer-phmkm8-0 hUiOpP container"
                 >
-                  <ForwardRef
+                  <Row
                     noGutters={false}
                   >
                     <div
@@ -712,7 +712,7 @@ exports[`Navbar should render without throwing an error 1`] = `
                         </div>
                       </Col>
                     </div>
-                  </ForwardRef>
+                  </Row>
                 </div>
               </Container>
             </MobileContainer>

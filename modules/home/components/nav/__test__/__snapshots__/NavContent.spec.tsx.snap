@@ -18,7 +18,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
           <div
             className="MobileContainer-phmkm8-0 hUiOpP container"
           >
-            <ForwardRef
+            <Row
               noGutters={false}
             >
               <div
@@ -460,7 +460,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                   </div>
                 </Col>
               </div>
-            </ForwardRef>
+            </Row>
           </div>
         </Container>
       </MobileContainer>
@@ -487,7 +487,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
           <div
             className="MobileContainer-phmkm8-0 hUiOpP container"
           >
-            <ForwardRef
+            <Row
               noGutters={false}
             >
               <div
@@ -929,7 +929,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                   </div>
                 </Col>
               </div>
-            </ForwardRef>
+            </Row>
           </div>
         </Container>
       </MobileContainer>
@@ -941,7 +941,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
 exports[`Nav Content should render without throwing an error 1`] = `
 <NavContent__NavContainer>
   <MobileContainer>
-    <ForwardRef
+    <Row
       noGutters={false}
     >
       <Col
@@ -1062,7 +1062,7 @@ exports[`Nav Content should render without throwing an error 1`] = `
           </ul>
         </NavContent__NavMenu>
       </Col>
-    </ForwardRef>
+    </Row>
   </MobileContainer>
 </NavContent__NavContainer>
 `;

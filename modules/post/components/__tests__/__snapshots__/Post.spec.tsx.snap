@@ -3,13 +3,13 @@
 exports[`Post should render without throwing an error 1`] = `
 <Container>
   <article>
-    <ForwardRef
+    <Row
       noGutters={false}
     >
       <Header>
         Search: The Whole Story
       </Header>
-    </ForwardRef>
+    </Row>
     <PostInfo
       authorName="Daniel Tunkelang"
       avatar="/images/blogs/default-avatar.png"
