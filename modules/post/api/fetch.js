@@ -3,7 +3,7 @@ import { API_END_POINT } from '~/modules/core/consts/api'
 import { isSuccess, getData, getError } from '~/modules/core/api/selector'
 
 const fetchPostFromSlug = async slug => {
-  const result = await axios.get(`${API_END_POINT}post/${slug}`)
+  const result = await axios.get(`${API_END_POINT}/post/${slug}`)
   const { data: response } = result
   if (isSuccess(response)) {
     const data = getData(response)
