@@ -107,6 +107,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                           className="List__Container-sc-1s8tx8z-0 cmjuOV"
                         >
                           <Item
+                            dates="Exp: Zalora Dates"
                             description="Exp: Zalora Desc"
                             skill="Exp: Zalora Skill"
                             title="Exp: Zalora Title"
@@ -135,7 +136,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                 </ExpIcon>
                                 <Title>
                                   <h4
-                                    className="Title-sc-1d79yk1-0 cRQkWu"
+                                    className="Title-sc-1d79yk1-0 ddGQjm"
                                   >
                                     <Translate
                                       id="Exp: Zalora Title"
@@ -162,6 +163,37 @@ exports[`Experiences should render without throwing an error 1`] = `
                                     </Translate>
                                   </h4>
                                 </Title>
+                                <Dates>
+                                  <p
+                                    className="Dates-q2saym-0 euchLD"
+                                  >
+                                    (
+                                    <Translate
+                                      id="Exp: Zalora Dates"
+                                    >
+                                      <WrappedTranslate
+                                        context={
+                                          Object {
+                                            "activeLanguage": undefined,
+                                            "addTranslation": [Function],
+                                            "addTranslationForLanguage": [Function],
+                                            "defaultLanguage": undefined,
+                                            "ignoreTranslateChildren": false,
+                                            "initialize": [Function],
+                                            "languages": Array [],
+                                            "renderToStaticMarkup": false,
+                                            "setActiveLanguage": [Function],
+                                            "translate": [Function],
+                                          }
+                                        }
+                                        id="Exp: Zalora Dates"
+                                      >
+                                        Missing translationId: Exp: Zalora Dates for language: \${ languageCode }
+                                      </WrappedTranslate>
+                                    </Translate>
+                                    )
+                                  </p>
+                                </Dates>
                                 <Description>
                                   <p
                                     className="Description-sc-83rdc7-0 kEyhQo"
@@ -245,6 +277,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                           className="List__Container-sc-1s8tx8z-0 cmjuOV"
                         >
                           <Item
+                            dates="Exp: Dek Dates"
                             description="Exp: Dek Desc"
                             skill="Exp: Dek Skill"
                             title="Exp: Dek Title"
@@ -273,7 +306,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                 </ExpIcon>
                                 <Title>
                                   <h4
-                                    className="Title-sc-1d79yk1-0 cRQkWu"
+                                    className="Title-sc-1d79yk1-0 ddGQjm"
                                   >
                                     <Translate
                                       id="Exp: Dek Title"
@@ -300,6 +333,37 @@ exports[`Experiences should render without throwing an error 1`] = `
                                     </Translate>
                                   </h4>
                                 </Title>
+                                <Dates>
+                                  <p
+                                    className="Dates-q2saym-0 euchLD"
+                                  >
+                                    (
+                                    <Translate
+                                      id="Exp: Dek Dates"
+                                    >
+                                      <WrappedTranslate
+                                        context={
+                                          Object {
+                                            "activeLanguage": undefined,
+                                            "addTranslation": [Function],
+                                            "addTranslationForLanguage": [Function],
+                                            "defaultLanguage": undefined,
+                                            "ignoreTranslateChildren": false,
+                                            "initialize": [Function],
+                                            "languages": Array [],
+                                            "renderToStaticMarkup": false,
+                                            "setActiveLanguage": [Function],
+                                            "translate": [Function],
+                                          }
+                                        }
+                                        id="Exp: Dek Dates"
+                                      >
+                                        Missing translationId: Exp: Dek Dates for language: \${ languageCode }
+                                      </WrappedTranslate>
+                                    </Translate>
+                                    )
+                                  </p>
+                                </Dates>
                                 <Description>
                                   <p
                                     className="Description-sc-83rdc7-0 kEyhQo"
@@ -401,6 +465,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                           className="List__Container-sc-1s8tx8z-0 cmjuOV"
                         >
                           <Item
+                            dates="Exp: GCS Dates"
                             description="Exp: GCS Desc"
                             skill="Exp: GCS Skill"
                             title="Exp: GCS Title"
@@ -429,7 +494,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                 </ExpIcon>
                                 <Title>
                                   <h4
-                                    className="Title-sc-1d79yk1-0 cRQkWu"
+                                    className="Title-sc-1d79yk1-0 ddGQjm"
                                   >
                                     <Translate
                                       id="Exp: GCS Title"
@@ -456,6 +521,37 @@ exports[`Experiences should render without throwing an error 1`] = `
                                     </Translate>
                                   </h4>
                                 </Title>
+                                <Dates>
+                                  <p
+                                    className="Dates-q2saym-0 euchLD"
+                                  >
+                                    (
+                                    <Translate
+                                      id="Exp: GCS Dates"
+                                    >
+                                      <WrappedTranslate
+                                        context={
+                                          Object {
+                                            "activeLanguage": undefined,
+                                            "addTranslation": [Function],
+                                            "addTranslationForLanguage": [Function],
+                                            "defaultLanguage": undefined,
+                                            "ignoreTranslateChildren": false,
+                                            "initialize": [Function],
+                                            "languages": Array [],
+                                            "renderToStaticMarkup": false,
+                                            "setActiveLanguage": [Function],
+                                            "translate": [Function],
+                                          }
+                                        }
+                                        id="Exp: GCS Dates"
+                                      >
+                                        Missing translationId: Exp: GCS Dates for language: \${ languageCode }
+                                      </WrappedTranslate>
+                                    </Translate>
+                                    )
+                                  </p>
+                                </Dates>
                                 <Description>
                                   <p
                                     className="Description-sc-83rdc7-0 kEyhQo"
@@ -539,6 +635,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                           className="List__Container-sc-1s8tx8z-0 cmjuOV"
                         >
                           <Item
+                            dates="Exp: GCS-intern Dates"
                             description="Exp: GCS-intern Desc"
                             skill="Exp: GCS-intern Skill"
                             title="Exp: GCS-intern Title"
@@ -567,7 +664,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                 </ExpIcon>
                                 <Title>
                                   <h4
-                                    className="Title-sc-1d79yk1-0 cRQkWu"
+                                    className="Title-sc-1d79yk1-0 ddGQjm"
                                   >
                                     <Translate
                                       id="Exp: GCS-intern Title"
@@ -594,6 +691,37 @@ exports[`Experiences should render without throwing an error 1`] = `
                                     </Translate>
                                   </h4>
                                 </Title>
+                                <Dates>
+                                  <p
+                                    className="Dates-q2saym-0 euchLD"
+                                  >
+                                    (
+                                    <Translate
+                                      id="Exp: GCS-intern Dates"
+                                    >
+                                      <WrappedTranslate
+                                        context={
+                                          Object {
+                                            "activeLanguage": undefined,
+                                            "addTranslation": [Function],
+                                            "addTranslationForLanguage": [Function],
+                                            "defaultLanguage": undefined,
+                                            "ignoreTranslateChildren": false,
+                                            "initialize": [Function],
+                                            "languages": Array [],
+                                            "renderToStaticMarkup": false,
+                                            "setActiveLanguage": [Function],
+                                            "translate": [Function],
+                                          }
+                                        }
+                                        id="Exp: GCS-intern Dates"
+                                      >
+                                        Missing translationId: Exp: GCS-intern Dates for language: \${ languageCode }
+                                      </WrappedTranslate>
+                                    </Translate>
+                                    )
+                                  </p>
+                                </Dates>
                                 <Description>
                                   <p
                                     className="Description-sc-83rdc7-0 kEyhQo"

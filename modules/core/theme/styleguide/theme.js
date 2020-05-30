@@ -14,7 +14,8 @@ const theme = {
     colorDarken: '#bdc3c7',
     colorDark: '#2c3e50',
     colorAccent: '#FFA726',
-    bgColor: '#fff'
+    bgColor: '#fff',
+    grey: '#696969'
   },
   images: {
     background: '/images/bg.jpg',

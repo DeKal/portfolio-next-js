@@ -11,6 +11,7 @@ exports[`GlobalStyleCss should render defaultTheme without throwing an error 1`]
         "colorDark": "#2c3e50",
         "colorDarken": "#bdc3c7",
         "colorLight": "#ecf0f1",
+        "grey": "#696969",
       },
       "defaultLineHeight": 1.57,
       "extra": Object {

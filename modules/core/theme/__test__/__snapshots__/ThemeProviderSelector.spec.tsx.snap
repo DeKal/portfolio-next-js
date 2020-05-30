@@ -453,6 +453,7 @@ exports[`Theme Provider Selector Selector fo normal theme should render for norm
         "colorDark": "#2c3e50",
         "colorDarken": "#bdc3c7",
         "colorLight": "#ecf0f1",
+        "grey": "#696969",
       },
       "defaultLineHeight": 1.57,
       "extra": Object {
@@ -526,6 +527,7 @@ exports[`Theme Provider Selector Selector fo normal theme should render for norm
           "colorDark": "#2c3e50",
           "colorDarken": "#bdc3c7",
           "colorLight": "#ecf0f1",
+          "grey": "#696969",
         },
         "defaultLineHeight": 1.57,
         "extra": Object {

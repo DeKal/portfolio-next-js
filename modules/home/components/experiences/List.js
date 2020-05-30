@@ -9,6 +9,7 @@ const List = ({ companies }) =>
       <Container>
         <Item
           title={`Exp: ${company} Title`}
+          dates={`Exp: ${company} Dates`}
           description={`Exp: ${company} Desc`}
           skill={`Exp: ${company} Skill`}
         />
