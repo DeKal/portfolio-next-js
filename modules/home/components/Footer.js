@@ -36,7 +36,7 @@ const FooterContainer = styled.footer`
   width: 100%;
   background-color: ${props => props.theme.colors.colorAccent};
   color: ${props => props.theme.colors.colorLight};
-  box-shadow: 0 -2px 2px -1px ${props => props.theme.colors.colorDark};
+  box-shadow: 0 -2px 2px -1px ${props => props.theme.colors.colorAccent};
   height: ${props => props.theme.footerHeight};
 
   &::before {
