@@ -3,6 +3,7 @@ import Nav from '~/modules/home/components/Navbar'
 import Home from '~/modules/home/components/Home'
 import About from '~/modules/home/components/About'
 import Experiences from '~/modules/home/components/Experiences'
+import SideProjects from '~/modules/home/components/SideProjects'
 import WhyMe from '~/modules/home/components/WhyMe'
 import Certification from '~/modules/home/components/Certification'
 import Project from '~/modules/home/components/Project'
@@ -19,6 +20,7 @@ const HomePage = () => (
     <About />
     <SlideIterator>
       <Experiences />
+      <SideProjects />
       <WhyMe />
       <Project />
       <Certification />
