@@ -25,16 +25,10 @@ const Container = styled.div`
 
 const Content = styled.p`
   display: inline-block;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
-  margin-bottom: 20px;
-  font-size: 25px;
-
-  @media screen and (max-width: 960px) {
-    font-size: 20px;
-  }
-
-  @media screen and (max-width: 600px) {
-    font-size: 16px;
-  }
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 1.75;
+  font-style: italic;
 `

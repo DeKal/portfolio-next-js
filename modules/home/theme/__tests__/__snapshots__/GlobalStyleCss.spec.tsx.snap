@@ -37,7 +37,7 @@ exports[`GlobalStyleCss should render defaultTheme without throwing an error 1`]
         "fontTrebuchet": "Trebuchet MS, sans-serif",
       },
       "footerHeight": "50px",
-      "headerPadding": "200px 10px 400px",
+      "headerPadding": "200px 10px 350px",
       "icons": Object {
         "c": "C",
         "fb": "\\\\e811",
@@ -400,7 +400,7 @@ exports[`GlobalStyleCss should render newyearTheme without throwing an error 1`]
         "fontTrebuchet": "Trebuchet MS, sans-serif",
       },
       "footerHeight": "50px",
-      "headerPadding": "200px 10px 400px",
+      "headerPadding": "200px 10px 350px",
       "icons": Object {
         "c": "C",
         "fb": "\\\\e811",
@@ -764,7 +764,7 @@ exports[`GlobalStyleCss should render xmasTheme without throwing an error 1`] = 
         "fontTrebuchet": "Trebuchet MS, sans-serif",
       },
       "footerHeight": "50px",
-      "headerPadding": "200px 10px 400px",
+      "headerPadding": "200px 10px 350px",
       "icons": Object {
         "c": "C",
         "fb": "\\\\e811",

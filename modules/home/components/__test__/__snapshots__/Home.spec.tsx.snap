@@ -53,7 +53,7 @@ exports[`Home should render without throwing an error 1`] = `
             >
               <Home__Header>
                 <header
-                  className="Home__Header-gfpuen-5 bNNMSp"
+                  className="Home__Header-gfpuen-5 eYVEa-D"
                 >
                   <Home__TitleName>
                     <h1
