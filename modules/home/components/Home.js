@@ -90,6 +90,13 @@ const Background = styled.div`
     0 no-repeat;
   background-attachment: fixed;
   background-size: cover;
+
+  @media screen and (max-width: 800px) {
+    background: transparent url(${props => props.theme.images.backgroundMobile})
+      center 0 no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 `
 
 const Overlay = styled.div`

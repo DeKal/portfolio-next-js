@@ -176,7 +176,7 @@ exports[`Theme Provider Selector Selector fo normal theme should render for chri
         "fontTrebuchet": "Trebuchet MS, sans-serif",
       },
       "footerHeight": "50px",
-      "headerPadding": "200px 10px 350px",
+      "headerPadding": "200px 10px 250px",
       "icons": Object {
         "c": "C",
         "fb": "\\\\e811",
@@ -249,7 +249,7 @@ exports[`Theme Provider Selector Selector fo normal theme should render for chri
           "fontTrebuchet": "Trebuchet MS, sans-serif",
         },
         "footerHeight": "50px",
-        "headerPadding": "200px 10px 350px",
+        "headerPadding": "200px 10px 250px",
         "icons": Object {
           "c": "C",
           "fb": "\\\\e811",
@@ -326,7 +326,7 @@ exports[`Theme Provider Selector Selector fo normal theme should render for new 
         "fontTrebuchet": "Trebuchet MS, sans-serif",
       },
       "footerHeight": "50px",
-      "headerPadding": "200px 10px 350px",
+      "headerPadding": "200px 10px 250px",
       "icons": Object {
         "c": "C",
         "fb": "\\\\e811",
@@ -400,7 +400,7 @@ exports[`Theme Provider Selector Selector fo normal theme should render for new 
           "fontTrebuchet": "Trebuchet MS, sans-serif",
         },
         "footerHeight": "50px",
-        "headerPadding": "200px 10px 350px",
+        "headerPadding": "200px 10px 250px",
         "icons": Object {
           "c": "C",
           "fb": "\\\\e811",
@@ -480,7 +480,7 @@ exports[`Theme Provider Selector Selector fo normal theme should render for norm
         "fontTrebuchet": "Trebuchet MS, sans-serif",
       },
       "footerHeight": "50px",
-      "headerPadding": "200px 10px 350px",
+      "headerPadding": "200px 10px 250px",
       "icons": Object {
         "c": "C",
         "fb": "\\\\e811",
@@ -495,6 +495,7 @@ exports[`Theme Provider Selector Selector fo normal theme should render for norm
       },
       "images": Object {
         "background": "/images/bg.jpg",
+        "backgroundMobile": "/images/bg-mobile.jpg",
         "bgPattern": "/images/bg-pattern.jpg",
         "bgPatternOpacity": "1",
         "overlay": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC",
@@ -555,7 +556,7 @@ exports[`Theme Provider Selector Selector fo normal theme should render for norm
           "fontTrebuchet": "Trebuchet MS, sans-serif",
         },
         "footerHeight": "50px",
-        "headerPadding": "200px 10px 350px",
+        "headerPadding": "200px 10px 250px",
         "icons": Object {
           "c": "C",
           "fb": "\\\\e811",
@@ -570,6 +571,7 @@ exports[`Theme Provider Selector Selector fo normal theme should render for norm
         },
         "images": Object {
           "background": "/images/bg.jpg",
+          "backgroundMobile": "/images/bg-mobile.jpg",
           "bgPattern": "/images/bg-pattern.jpg",
           "bgPatternOpacity": "1",
           "overlay": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC",
@@ -632,7 +634,7 @@ exports[`Theme Provider Selector Selector fo normal theme should render for tet 
         "fontTrebuchet": "Trebuchet MS, sans-serif",
       },
       "footerHeight": "50px",
-      "headerPadding": "200px 10px 350px",
+      "headerPadding": "200px 10px 250px",
       "icons": Object {
         "c": "C",
         "fb": "\\\\e811",
@@ -706,7 +708,7 @@ exports[`Theme Provider Selector Selector fo normal theme should render for tet 
           "fontTrebuchet": "Trebuchet MS, sans-serif",
         },
         "footerHeight": "50px",
-        "headerPadding": "200px 10px 350px",
+        "headerPadding": "200px 10px 250px",
         "icons": Object {
           "c": "C",
           "fb": "\\\\e811",

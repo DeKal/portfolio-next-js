@@ -20,6 +20,7 @@ const theme = {
   },
   images: {
     background: '/images/bg.jpg',
+    backgroundMobile: '/images/bg-mobile.jpg',
     bgPattern: '/images/bg-pattern.jpg',
     bgPatternOpacity: '1',
     overlayBgColor: 'rgba(44, 62, 80, 0.4)',
@@ -27,7 +28,7 @@ const theme = {
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC'
   },
   productImageRatio: '143%',
-  headerPadding: '200px 10px 350px'
+  headerPadding: '200px 10px 250px'
 }
 
 const themeExtra = {
