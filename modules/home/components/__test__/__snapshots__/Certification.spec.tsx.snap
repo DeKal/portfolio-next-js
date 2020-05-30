@@ -318,7 +318,7 @@ exports[`Certification should render without throwing an error 1`] = `
                               id={1}
                             >
                               <li
-                                className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 dzwzjn"
+                                className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 spuSb"
                                 id={1}
                               >
                                 <Title>
@@ -414,7 +414,7 @@ exports[`Certification should render without throwing an error 1`] = `
                               id={2}
                             >
                               <li
-                                className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 douZtP"
+                                className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 hnVcD"
                                 id={2}
                               >
                                 <Title>
@@ -510,7 +510,7 @@ exports[`Certification should render without throwing an error 1`] = `
                               id={3}
                             >
                               <li
-                                className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 dDIRbX"
+                                className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 wBMKL"
                                 id={3}
                               >
                                 <Title>
@@ -606,7 +606,7 @@ exports[`Certification should render without throwing an error 1`] = `
                               id={4}
                             >
                               <li
-                                className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 ejxVfD"
+                                className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 bcqQOr"
                                 id={4}
                               >
                                 <Title>
