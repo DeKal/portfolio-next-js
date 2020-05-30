@@ -17,7 +17,7 @@ const ExpIcon = styled(Icon)`
     color: ${props => props.theme.colors.colorAccent};
   }
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 1000px) {
     display: none;
   }
 `
