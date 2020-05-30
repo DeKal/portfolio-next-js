@@ -43,7 +43,7 @@ exports[`Home should render without throwing an error 1`] = `
       </Home__Background>
       <Home__Overlay>
         <div
-          className="Home__Overlay-gfpuen-4 lcWQzC"
+          className="Home__Overlay-gfpuen-4 fCgNFB"
         >
           <Container
             fluid={false}
@@ -57,7 +57,7 @@ exports[`Home should render without throwing an error 1`] = `
                 >
                   <Home__TitleName>
                     <h1
-                      className="Home__TitleName-gfpuen-1 dPqBlO"
+                      className="Home__TitleName-gfpuen-1 cCxJZC"
                     >
                       <Translate
                         id="Name"
@@ -86,7 +86,7 @@ exports[`Home should render without throwing an error 1`] = `
                   </Home__TitleName>
                   <Home__TitleJob>
                     <h2
-                      className="Home__TitleJob-gfpuen-2 cdBdbZ"
+                      className="Home__TitleJob-gfpuen-2 DwJcy"
                     >
                       <Typist>
                         <div>
