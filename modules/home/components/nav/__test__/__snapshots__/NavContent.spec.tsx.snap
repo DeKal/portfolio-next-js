@@ -8,7 +8,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
     isShowNavContent={false}
   >
     <div
-      className="NavContent__NavContainer-sc-1iay8fd-0 ergUuj"
+      className="NavContent__NavContainer-sc-1iay8fd-0 hPKryM"
     >
       <MobileContainer>
         <Container
@@ -35,7 +35,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                         href="https://github.com/DeKal/portfolio-next-js"
                       >
                         <a
-                          className="NavLogo__Logo-sc-100re03-0 dvQNOo"
+                          className="NavLogo__Logo-sc-100re03-0 flwyMz"
                           href="https://github.com/DeKal/portfolio-next-js"
                         >
                           <NavLogo__LogoText>
@@ -59,14 +59,14 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                   >
                     <NavContent__NavMenu>
                       <nav
-                        className="NavContent__NavMenu-sc-1iay8fd-1 bVuaSZ"
+                        className="NavContent__NavMenu-sc-1iay8fd-1 gDCNoK"
                       >
                         <ul>
                           <NavContent__NavLi
                             key="Home"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1iay8fd-2 iAlobq"
+                              className="NavContent__NavLi-sc-1iay8fd-2 bvffaB"
                             >
                               <NavItem
                                 isSelected={false}
@@ -85,7 +85,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1cwb00j-0 hEukb"
+                                    className="NavItem__Container-sc-1cwb00j-0 gUrgyM"
                                     data-test-id="nav-link"
                                     href="/#Home"
                                     onClick={[Function]}
@@ -119,66 +119,10 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                             </li>
                           </NavContent__NavLi>
                           <NavContent__NavLi
-                            key="About"
-                          >
-                            <li
-                              className="NavContent__NavLi-sc-1iay8fd-2 iAlobq"
-                            >
-                              <NavItem
-                                isSelected={false}
-                                page={
-                                  Object {
-                                    "cmpName": "About",
-                                    "name": "About",
-                                    "url": "/#About",
-                                  }
-                                }
-                                setSelectedPage={[Function]}
-                              >
-                                <NavItem__Container
-                                  data-test-id="nav-link"
-                                  href="/#About"
-                                  onClick={[Function]}
-                                >
-                                  <a
-                                    className="NavItem__Container-sc-1cwb00j-0 hEukb"
-                                    data-test-id="nav-link"
-                                    href="/#About"
-                                    onClick={[Function]}
-                                  >
-                                    <Translate
-                                      id="About"
-                                    >
-                                      <WrappedTranslate
-                                        context={
-                                          Object {
-                                            "activeLanguage": undefined,
-                                            "addTranslation": [Function],
-                                            "addTranslationForLanguage": [Function],
-                                            "defaultLanguage": undefined,
-                                            "ignoreTranslateChildren": false,
-                                            "initialize": [Function],
-                                            "languages": Array [],
-                                            "renderToStaticMarkup": false,
-                                            "setActiveLanguage": [Function],
-                                            "translate": [Function],
-                                          }
-                                        }
-                                        id="About"
-                                      >
-                                        Missing translationId: About for language: \${ languageCode }
-                                      </WrappedTranslate>
-                                    </Translate>
-                                  </a>
-                                </NavItem__Container>
-                              </NavItem>
-                            </li>
-                          </NavContent__NavLi>
-                          <NavContent__NavLi
                             key="Experiences"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1iay8fd-2 iAlobq"
+                              className="NavContent__NavLi-sc-1iay8fd-2 bvffaB"
                             >
                               <NavItem
                                 isSelected={false}
@@ -197,7 +141,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1cwb00j-0 hEukb"
+                                    className="NavItem__Container-sc-1cwb00j-0 gUrgyM"
                                     data-test-id="nav-link"
                                     href="/#Experiences"
                                     onClick={[Function]}
@@ -234,7 +178,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                             key="Projects"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1iay8fd-2 iAlobq"
+                              className="NavContent__NavLi-sc-1iay8fd-2 bvffaB"
                             >
                               <NavItem
                                 isSelected={false}
@@ -253,7 +197,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1cwb00j-0 hEukb"
+                                    className="NavItem__Container-sc-1cwb00j-0 gUrgyM"
                                     data-test-id="nav-link"
                                     href="/#Projects"
                                     onClick={[Function]}
@@ -290,7 +234,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                             key="Certifications"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1iay8fd-2 iAlobq"
+                              className="NavContent__NavLi-sc-1iay8fd-2 bvffaB"
                             >
                               <NavItem
                                 isSelected={false}
@@ -309,7 +253,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1cwb00j-0 hEukb"
+                                    className="NavItem__Container-sc-1cwb00j-0 gUrgyM"
                                     data-test-id="nav-link"
                                     href="/#Certifications"
                                     onClick={[Function]}
@@ -346,7 +290,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                             key="Contacts"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1iay8fd-2 iAlobq"
+                              className="NavContent__NavLi-sc-1iay8fd-2 bvffaB"
                             >
                               <NavItem
                                 isSelected={false}
@@ -365,7 +309,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1cwb00j-0 hEukb"
+                                    className="NavItem__Container-sc-1cwb00j-0 gUrgyM"
                                     data-test-id="nav-link"
                                     href="/#Contacts"
                                     onClick={[Function]}
@@ -402,7 +346,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                             key="Blogs"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1iay8fd-2 iAlobq"
+                              className="NavContent__NavLi-sc-1iay8fd-2 bvffaB"
                             >
                               <NavItem
                                 isSelected={false}
@@ -421,7 +365,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1cwb00j-0 hEukb"
+                                    className="NavItem__Container-sc-1cwb00j-0 gUrgyM"
                                     data-test-id="nav-link"
                                     href="/blogs"
                                     onClick={[Function]}
@@ -477,7 +421,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
     isShowNavContent={true}
   >
     <div
-      className="NavContent__NavContainer-sc-1iay8fd-0 gGyGDj"
+      className="NavContent__NavContainer-sc-1iay8fd-0 bLhvLU"
     >
       <MobileContainer>
         <Container
@@ -504,7 +448,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                         href="https://github.com/DeKal/portfolio-next-js"
                       >
                         <a
-                          className="NavLogo__Logo-sc-100re03-0 dvQNOo"
+                          className="NavLogo__Logo-sc-100re03-0 flwyMz"
                           href="https://github.com/DeKal/portfolio-next-js"
                         >
                           <NavLogo__LogoText>
@@ -528,14 +472,14 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                   >
                     <NavContent__NavMenu>
                       <nav
-                        className="NavContent__NavMenu-sc-1iay8fd-1 bVuaSZ"
+                        className="NavContent__NavMenu-sc-1iay8fd-1 gDCNoK"
                       >
                         <ul>
                           <NavContent__NavLi
                             key="Home"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1iay8fd-2 iAlobq"
+                              className="NavContent__NavLi-sc-1iay8fd-2 bvffaB"
                             >
                               <NavItem
                                 isSelected={false}
@@ -554,7 +498,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1cwb00j-0 hEukb"
+                                    className="NavItem__Container-sc-1cwb00j-0 gUrgyM"
                                     data-test-id="nav-link"
                                     href="/#Home"
                                     onClick={[Function]}
@@ -588,66 +532,10 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                             </li>
                           </NavContent__NavLi>
                           <NavContent__NavLi
-                            key="About"
-                          >
-                            <li
-                              className="NavContent__NavLi-sc-1iay8fd-2 iAlobq"
-                            >
-                              <NavItem
-                                isSelected={false}
-                                page={
-                                  Object {
-                                    "cmpName": "About",
-                                    "name": "About",
-                                    "url": "/#About",
-                                  }
-                                }
-                                setSelectedPage={[Function]}
-                              >
-                                <NavItem__Container
-                                  data-test-id="nav-link"
-                                  href="/#About"
-                                  onClick={[Function]}
-                                >
-                                  <a
-                                    className="NavItem__Container-sc-1cwb00j-0 hEukb"
-                                    data-test-id="nav-link"
-                                    href="/#About"
-                                    onClick={[Function]}
-                                  >
-                                    <Translate
-                                      id="About"
-                                    >
-                                      <WrappedTranslate
-                                        context={
-                                          Object {
-                                            "activeLanguage": undefined,
-                                            "addTranslation": [Function],
-                                            "addTranslationForLanguage": [Function],
-                                            "defaultLanguage": undefined,
-                                            "ignoreTranslateChildren": false,
-                                            "initialize": [Function],
-                                            "languages": Array [],
-                                            "renderToStaticMarkup": false,
-                                            "setActiveLanguage": [Function],
-                                            "translate": [Function],
-                                          }
-                                        }
-                                        id="About"
-                                      >
-                                        Missing translationId: About for language: \${ languageCode }
-                                      </WrappedTranslate>
-                                    </Translate>
-                                  </a>
-                                </NavItem__Container>
-                              </NavItem>
-                            </li>
-                          </NavContent__NavLi>
-                          <NavContent__NavLi
                             key="Experiences"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1iay8fd-2 iAlobq"
+                              className="NavContent__NavLi-sc-1iay8fd-2 bvffaB"
                             >
                               <NavItem
                                 isSelected={false}
@@ -666,7 +554,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1cwb00j-0 hEukb"
+                                    className="NavItem__Container-sc-1cwb00j-0 gUrgyM"
                                     data-test-id="nav-link"
                                     href="/#Experiences"
                                     onClick={[Function]}
@@ -703,7 +591,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                             key="Projects"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1iay8fd-2 iAlobq"
+                              className="NavContent__NavLi-sc-1iay8fd-2 bvffaB"
                             >
                               <NavItem
                                 isSelected={false}
@@ -722,7 +610,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1cwb00j-0 hEukb"
+                                    className="NavItem__Container-sc-1cwb00j-0 gUrgyM"
                                     data-test-id="nav-link"
                                     href="/#Projects"
                                     onClick={[Function]}
@@ -759,7 +647,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                             key="Certifications"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1iay8fd-2 iAlobq"
+                              className="NavContent__NavLi-sc-1iay8fd-2 bvffaB"
                             >
                               <NavItem
                                 isSelected={false}
@@ -778,7 +666,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1cwb00j-0 hEukb"
+                                    className="NavItem__Container-sc-1cwb00j-0 gUrgyM"
                                     data-test-id="nav-link"
                                     href="/#Certifications"
                                     onClick={[Function]}
@@ -815,7 +703,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                             key="Contacts"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1iay8fd-2 iAlobq"
+                              className="NavContent__NavLi-sc-1iay8fd-2 bvffaB"
                             >
                               <NavItem
                                 isSelected={false}
@@ -834,7 +722,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1cwb00j-0 hEukb"
+                                    className="NavItem__Container-sc-1cwb00j-0 gUrgyM"
                                     data-test-id="nav-link"
                                     href="/#Contacts"
                                     onClick={[Function]}
@@ -871,7 +759,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                             key="Blogs"
                           >
                             <li
-                              className="NavContent__NavLi-sc-1iay8fd-2 iAlobq"
+                              className="NavContent__NavLi-sc-1iay8fd-2 bvffaB"
                             >
                               <NavItem
                                 isSelected={false}
@@ -890,7 +778,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                   onClick={[Function]}
                                 >
                                   <a
-                                    className="NavItem__Container-sc-1cwb00j-0 hEukb"
+                                    className="NavItem__Container-sc-1cwb00j-0 gUrgyM"
                                     data-test-id="nav-link"
                                     href="/blogs"
                                     onClick={[Function]}
@@ -964,21 +852,6 @@ exports[`Nav Content should render without throwing an error 1`] = `
                     "cmpName": "Home",
                     "name": "Home",
                     "url": "/#Home",
-                  }
-                }
-                setSelectedPage={[Function]}
-              />
-            </NavContent__NavLi>
-            <NavContent__NavLi
-              key="About"
-            >
-              <NavItem
-                isSelected={false}
-                page={
-                  Object {
-                    "cmpName": "About",
-                    "name": "About",
-                    "url": "/#About",
                   }
                 }
                 setSelectedPage={[Function]}

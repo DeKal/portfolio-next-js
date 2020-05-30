@@ -25,5 +25,5 @@ const MainText = styled.h2`
 `
 
 const SubText = styled.h4`
-  /* no style */
+  font-style: italic;
 `

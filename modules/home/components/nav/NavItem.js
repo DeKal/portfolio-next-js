@@ -42,7 +42,7 @@ const Container = styled.a`
     border: none;
   }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 700px) {
     line-height: 2;
     border-bottom: none;
   }

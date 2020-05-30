@@ -14,11 +14,6 @@ export const PAGE_LIST = [
     cmpName: HOME
   },
   {
-    name: ABOUT,
-    url: `/#${ABOUT}`,
-    cmpName: ABOUT
-  },
-  {
     name: EXPERIENCES,
     url: `/#${EXPERIENCES}`,
     cmpName: EXPERIENCES
