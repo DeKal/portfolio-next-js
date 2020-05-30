@@ -108,6 +108,10 @@ const Overlay = styled.div`
   background-image: url(${props => props.theme.images.overlay});
   background-repeat: repeat;
   background-attachment: fixed;
+
+  @media screen and (max-width: 800px) {
+    background-color: ${props => props.theme.images.overlayBgColorMobile};
+  }
 `
 
 const Header = styled.header`
