@@ -24,6 +24,7 @@ export default withLocalize(CardInfo)
 const Container = styled.div`
   padding: 20px;
   background-color: ${props => props.theme.colors.colorLight};
+  font-style: italic;
 `
 
 const Quote = styled.blockquote`

@@ -59,6 +59,7 @@ const HomeSection = styled.section`
 const TitleName = styled.h1`
   margin-bottom: 10px;
   font-size: 100px;
+  color: ${props => props.theme.colors.ghostWhite};
   text-shadow: 1px 1px 1px ${props => props.theme.colors.colorDark};
   width: fit-content;
   background: ${props => props.theme.titleBgColor};
@@ -75,7 +76,7 @@ const TitleName = styled.h1`
 const TitleJob = styled.h2`
   width: fit-content;
   background: ${props => props.theme.titleBgColor};
-  color: ${props => props.theme.colors.colorLight};
+  color: ${props => props.theme.colors.ghostWhite};
   font-family: ${props => props.theme.fonts.fontTrebuchet};
   text-shadow: 1px 1px 2px ${props => props.theme.colors.colorDark};
 `
@@ -89,6 +90,13 @@ const Background = styled.div`
     0 no-repeat;
   background-attachment: fixed;
   background-size: cover;
+
+  @media screen and (max-width: 800px) {
+    background: transparent url(${props => props.theme.images.backgroundMobile})
+      center 0 no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 `
 
 const Overlay = styled.div`

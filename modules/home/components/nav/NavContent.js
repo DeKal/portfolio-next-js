@@ -79,7 +79,7 @@ const NavContainer = styled.div`
   box-shadow: ${props => props.theme.extra.boxShadow};
   transition: all 0.5s;
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 700px) {
     margin-top: ${props =>
       props.isShowNavContent
         ? props.theme.navHeaderHeight
@@ -89,7 +89,7 @@ const NavContainer = styled.div`
 const NavMenu = styled.nav`
   text-align: right;
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 700px) {
     text-align: center;
   }
 `
@@ -97,7 +97,7 @@ const NavLi = styled.li`
   display: inline-block;
   margin-left: 18px;
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 700px) {
     margin: 0 9px;
     display: block;
     border-bottom: 1px dashed ${props => props.theme.colors.colorDarken};

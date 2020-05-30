@@ -4,15 +4,19 @@ import PropTypes from 'prop-types'
 import ExpIcon from '~/modules/home/components/experiences/ExpIcon'
 import Title from '~/modules/home/components/experiences/Title'
 import Description from '~/modules/home/components/experiences/Description'
+import Dates from '~/modules/home/components/experiences/Dates'
 import Bold from '~/modules/home/components/experiences/Bold'
 import { Translate } from 'react-localize-redux'
 
-const Item = ({ title, description, skill }) => (
+const Item = ({ title, dates, description, skill }) => (
   <Container>
     <ExpIcon name="workexp" />
     <Title>
       <Translate id={title} />
     </Title>
+    <Dates>
+      (<Translate id={dates} />)
+    </Dates>
     <Description>
       <Translate id={description} />
     </Description>
@@ -27,7 +31,8 @@ const Item = ({ title, description, skill }) => (
 Item.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
-  skill: PropTypes.string
+  skill: PropTypes.string,
+  dates: PropTypes.string
 }
 
 export default Item

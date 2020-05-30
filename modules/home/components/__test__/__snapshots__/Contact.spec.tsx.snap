@@ -461,7 +461,7 @@ exports[`Footer should render without throwing an error 1`] = `
           id="map"
         >
           <div
-            className="Map__Container-g4b71z-0 iMBiWe"
+            className="Map__Container-g4b71z-0 fRcSxI"
             id="map"
           />
         </Map__Container>

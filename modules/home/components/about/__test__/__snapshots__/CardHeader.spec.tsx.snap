@@ -47,7 +47,7 @@ exports[`Card Header should render without throwing an error 1`] = `
         </CardHeader__MainText>
         <CardHeader__SubText>
           <h4
-            className="CardHeader__SubText-r5umbs-2 kXiaxV"
+            className="CardHeader__SubText-r5umbs-2 hWGYTf"
           >
             <Translate
               id="About Me: Subtext"

@@ -98,6 +98,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                           className="List__Container-sc-1s8tx8z-0 cmjuOV"
                         >
                           <Item
+                            dates="Exp: Portfolio Dates"
                             description="Exp: Portfolio Desc"
                             skill="Exp: Portfolio Skill"
                             title="Exp: Portfolio Title"
@@ -110,15 +111,15 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                   name="workexp"
                                 >
                                   <Icon
-                                    className="ExpIcon-pd7zps-0 dhnVtU"
+                                    className="ExpIcon-pd7zps-0 hjUGkD"
                                     name="workexp"
                                   >
                                     <Icon__Symbol
-                                      className="ExpIcon-pd7zps-0 dhnVtU"
+                                      className="ExpIcon-pd7zps-0 hjUGkD"
                                       name="workexp"
                                     >
                                       <div
-                                        className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-pd7zps-0 dhnVtU"
+                                        className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-pd7zps-0 hjUGkD"
                                         name="workexp"
                                       />
                                     </Icon__Symbol>
@@ -126,7 +127,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                 </ExpIcon>
                                 <Title>
                                   <h4
-                                    className="Title-sc-1d79yk1-0 cRQkWu"
+                                    className="Title-sc-1d79yk1-0 fEalcW"
                                   >
                                     <Translate
                                       id="Exp: Portfolio Title"
@@ -153,9 +154,40 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                     </Translate>
                                   </h4>
                                 </Title>
+                                <Dates>
+                                  <p
+                                    className="Dates-q2saym-0 jTIAVn"
+                                  >
+                                    (
+                                    <Translate
+                                      id="Exp: Portfolio Dates"
+                                    >
+                                      <WrappedTranslate
+                                        context={
+                                          Object {
+                                            "activeLanguage": undefined,
+                                            "addTranslation": [Function],
+                                            "addTranslationForLanguage": [Function],
+                                            "defaultLanguage": undefined,
+                                            "ignoreTranslateChildren": false,
+                                            "initialize": [Function],
+                                            "languages": Array [],
+                                            "renderToStaticMarkup": false,
+                                            "setActiveLanguage": [Function],
+                                            "translate": [Function],
+                                          }
+                                        }
+                                        id="Exp: Portfolio Dates"
+                                      >
+                                        Missing translationId: Exp: Portfolio Dates for language: \${ languageCode }
+                                      </WrappedTranslate>
+                                    </Translate>
+                                    )
+                                  </p>
+                                </Dates>
                                 <Description>
                                   <p
-                                    className="Description-sc-83rdc7-0 kEyhQo"
+                                    className="Description-sc-83rdc7-0 jzqBMd"
                                   >
                                     <Translate
                                       id="Exp: Portfolio Desc"
@@ -184,7 +216,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                 </Description>
                                 <Description>
                                   <p
-                                    className="Description-sc-83rdc7-0 kEyhQo"
+                                    className="Description-sc-83rdc7-0 jzqBMd"
                                   >
                                     <Bold>
                                       <b
@@ -236,6 +268,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                           className="List__Container-sc-1s8tx8z-0 cmjuOV"
                         >
                           <Item
+                            dates="Exp: LiveGuess Dates"
                             description="Exp: LiveGuess Desc"
                             skill="Exp: LiveGuess Skill"
                             title="Exp: LiveGuess Title"
@@ -248,15 +281,15 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                   name="workexp"
                                 >
                                   <Icon
-                                    className="ExpIcon-pd7zps-0 dhnVtU"
+                                    className="ExpIcon-pd7zps-0 hjUGkD"
                                     name="workexp"
                                   >
                                     <Icon__Symbol
-                                      className="ExpIcon-pd7zps-0 dhnVtU"
+                                      className="ExpIcon-pd7zps-0 hjUGkD"
                                       name="workexp"
                                     >
                                       <div
-                                        className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-pd7zps-0 dhnVtU"
+                                        className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-pd7zps-0 hjUGkD"
                                         name="workexp"
                                       />
                                     </Icon__Symbol>
@@ -264,7 +297,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                 </ExpIcon>
                                 <Title>
                                   <h4
-                                    className="Title-sc-1d79yk1-0 cRQkWu"
+                                    className="Title-sc-1d79yk1-0 fEalcW"
                                   >
                                     <Translate
                                       id="Exp: LiveGuess Title"
@@ -291,9 +324,40 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                     </Translate>
                                   </h4>
                                 </Title>
+                                <Dates>
+                                  <p
+                                    className="Dates-q2saym-0 jTIAVn"
+                                  >
+                                    (
+                                    <Translate
+                                      id="Exp: LiveGuess Dates"
+                                    >
+                                      <WrappedTranslate
+                                        context={
+                                          Object {
+                                            "activeLanguage": undefined,
+                                            "addTranslation": [Function],
+                                            "addTranslationForLanguage": [Function],
+                                            "defaultLanguage": undefined,
+                                            "ignoreTranslateChildren": false,
+                                            "initialize": [Function],
+                                            "languages": Array [],
+                                            "renderToStaticMarkup": false,
+                                            "setActiveLanguage": [Function],
+                                            "translate": [Function],
+                                          }
+                                        }
+                                        id="Exp: LiveGuess Dates"
+                                      >
+                                        Missing translationId: Exp: LiveGuess Dates for language: \${ languageCode }
+                                      </WrappedTranslate>
+                                    </Translate>
+                                    )
+                                  </p>
+                                </Dates>
                                 <Description>
                                   <p
-                                    className="Description-sc-83rdc7-0 kEyhQo"
+                                    className="Description-sc-83rdc7-0 jzqBMd"
                                   >
                                     <Translate
                                       id="Exp: LiveGuess Desc"
@@ -322,7 +386,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                 </Description>
                                 <Description>
                                   <p
-                                    className="Description-sc-83rdc7-0 kEyhQo"
+                                    className="Description-sc-83rdc7-0 jzqBMd"
                                   >
                                     <Bold>
                                       <b
@@ -392,6 +456,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                           className="List__Container-sc-1s8tx8z-0 cmjuOV"
                         >
                           <Item
+                            dates="Exp: SmartApp Dates"
                             description="Exp: SmartApp Desc"
                             skill="Exp: SmartApp Skill"
                             title="Exp: SmartApp Title"
@@ -404,15 +469,15 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                   name="workexp"
                                 >
                                   <Icon
-                                    className="ExpIcon-pd7zps-0 dhnVtU"
+                                    className="ExpIcon-pd7zps-0 hjUGkD"
                                     name="workexp"
                                   >
                                     <Icon__Symbol
-                                      className="ExpIcon-pd7zps-0 dhnVtU"
+                                      className="ExpIcon-pd7zps-0 hjUGkD"
                                       name="workexp"
                                     >
                                       <div
-                                        className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-pd7zps-0 dhnVtU"
+                                        className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-pd7zps-0 hjUGkD"
                                         name="workexp"
                                       />
                                     </Icon__Symbol>
@@ -420,7 +485,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                 </ExpIcon>
                                 <Title>
                                   <h4
-                                    className="Title-sc-1d79yk1-0 cRQkWu"
+                                    className="Title-sc-1d79yk1-0 fEalcW"
                                   >
                                     <Translate
                                       id="Exp: SmartApp Title"
@@ -447,9 +512,40 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                     </Translate>
                                   </h4>
                                 </Title>
+                                <Dates>
+                                  <p
+                                    className="Dates-q2saym-0 jTIAVn"
+                                  >
+                                    (
+                                    <Translate
+                                      id="Exp: SmartApp Dates"
+                                    >
+                                      <WrappedTranslate
+                                        context={
+                                          Object {
+                                            "activeLanguage": undefined,
+                                            "addTranslation": [Function],
+                                            "addTranslationForLanguage": [Function],
+                                            "defaultLanguage": undefined,
+                                            "ignoreTranslateChildren": false,
+                                            "initialize": [Function],
+                                            "languages": Array [],
+                                            "renderToStaticMarkup": false,
+                                            "setActiveLanguage": [Function],
+                                            "translate": [Function],
+                                          }
+                                        }
+                                        id="Exp: SmartApp Dates"
+                                      >
+                                        Missing translationId: Exp: SmartApp Dates for language: \${ languageCode }
+                                      </WrappedTranslate>
+                                    </Translate>
+                                    )
+                                  </p>
+                                </Dates>
                                 <Description>
                                   <p
-                                    className="Description-sc-83rdc7-0 kEyhQo"
+                                    className="Description-sc-83rdc7-0 jzqBMd"
                                   >
                                     <Translate
                                       id="Exp: SmartApp Desc"
@@ -478,7 +574,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                 </Description>
                                 <Description>
                                   <p
-                                    className="Description-sc-83rdc7-0 kEyhQo"
+                                    className="Description-sc-83rdc7-0 jzqBMd"
                                   >
                                     <Bold>
                                       <b
@@ -530,6 +626,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                           className="List__Container-sc-1s8tx8z-0 cmjuOV"
                         >
                           <Item
+                            dates="Exp: Brand360 Dates"
                             description="Exp: Brand360 Desc"
                             skill="Exp: Brand360 Skill"
                             title="Exp: Brand360 Title"
@@ -542,15 +639,15 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                   name="workexp"
                                 >
                                   <Icon
-                                    className="ExpIcon-pd7zps-0 dhnVtU"
+                                    className="ExpIcon-pd7zps-0 hjUGkD"
                                     name="workexp"
                                   >
                                     <Icon__Symbol
-                                      className="ExpIcon-pd7zps-0 dhnVtU"
+                                      className="ExpIcon-pd7zps-0 hjUGkD"
                                       name="workexp"
                                     >
                                       <div
-                                        className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-pd7zps-0 dhnVtU"
+                                        className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-pd7zps-0 hjUGkD"
                                         name="workexp"
                                       />
                                     </Icon__Symbol>
@@ -558,7 +655,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                 </ExpIcon>
                                 <Title>
                                   <h4
-                                    className="Title-sc-1d79yk1-0 cRQkWu"
+                                    className="Title-sc-1d79yk1-0 fEalcW"
                                   >
                                     <Translate
                                       id="Exp: Brand360 Title"
@@ -585,9 +682,40 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                     </Translate>
                                   </h4>
                                 </Title>
+                                <Dates>
+                                  <p
+                                    className="Dates-q2saym-0 jTIAVn"
+                                  >
+                                    (
+                                    <Translate
+                                      id="Exp: Brand360 Dates"
+                                    >
+                                      <WrappedTranslate
+                                        context={
+                                          Object {
+                                            "activeLanguage": undefined,
+                                            "addTranslation": [Function],
+                                            "addTranslationForLanguage": [Function],
+                                            "defaultLanguage": undefined,
+                                            "ignoreTranslateChildren": false,
+                                            "initialize": [Function],
+                                            "languages": Array [],
+                                            "renderToStaticMarkup": false,
+                                            "setActiveLanguage": [Function],
+                                            "translate": [Function],
+                                          }
+                                        }
+                                        id="Exp: Brand360 Dates"
+                                      >
+                                        Missing translationId: Exp: Brand360 Dates for language: \${ languageCode }
+                                      </WrappedTranslate>
+                                    </Translate>
+                                    )
+                                  </p>
+                                </Dates>
                                 <Description>
                                   <p
-                                    className="Description-sc-83rdc7-0 kEyhQo"
+                                    className="Description-sc-83rdc7-0 jzqBMd"
                                   >
                                     <Translate
                                       id="Exp: Brand360 Desc"
@@ -616,7 +744,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                 </Description>
                                 <Description>
                                   <p
-                                    className="Description-sc-83rdc7-0 kEyhQo"
+                                    className="Description-sc-83rdc7-0 jzqBMd"
                                   >
                                     <Bold>
                                       <b

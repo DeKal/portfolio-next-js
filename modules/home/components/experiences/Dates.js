@@ -1,13 +1,14 @@
 import styled from 'styled-components/macro'
 
-const Title = styled.h4`
+const Dates = styled.p`
+  color: ${props => props.theme.colors.grey};
   margin-left: 80px;
-  text-transform: uppercase;
-  font-weight: bold;
+  margin-bottom: 10px;
 
   @media screen and (max-width: 700px) {
     margin-left: 0;
     text-align: center;
   }
 `
-export default Title
+
+export default Dates

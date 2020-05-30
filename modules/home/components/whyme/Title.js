@@ -21,7 +21,7 @@ const Container = styled.h2`
     top: 15px;
     display: block;
     width: 30%;
-    height: 10px;
+    height: 5px;
     background-color: ${props => props.theme.colors.colorAccent};
 
     @media screen and (max-width: 960px) {

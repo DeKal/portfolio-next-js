@@ -1,14 +1,11 @@
 import React from 'react'
-import { ABOUT } from '~/modules/home/consts/pages'
 import styled from 'styled-components/macro'
 import Container from 'react-bootstrap/Container'
 import CardHeader from '~/modules/home/components/about/CardHeader'
 import CardInfo from '~/modules/home/components/about/CardInfo'
-import Anchor from '~/modules/home/components/common/Anchor'
 
 const About = () => (
   <Section>
-    <Anchor id={ABOUT} top={-150} />
     <Container>
       <Card>
         <CardHeader />

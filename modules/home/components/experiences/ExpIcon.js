@@ -5,20 +5,20 @@ const ExpIcon = styled(Icon)`
   display: block;
 
   &::before {
-    margin-top: 30px;
     float: left;
+    padding-left: 16px;
     color: ${props => props.theme.colors.colorDarken};
-    font-size: 60px;
+    font-size: 45px;
     transition: color 0.5s;
     display: block;
-
-    @media screen and (max-width: 600px) {
-      font-size: 45px;
-    }
   }
 
   &:hover::before {
     color: ${props => props.theme.colors.colorAccent};
+  }
+
+  @media screen and (max-width: 700px) {
+    display: none;
   }
 `
 export default ExpIcon
