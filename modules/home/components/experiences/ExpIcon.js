@@ -16,5 +16,9 @@ const ExpIcon = styled(Icon)`
   &:hover::before {
     color: ${props => props.theme.colors.colorAccent};
   }
+
+  @media screen and (max-width: 700px) {
+    display: none;
+  }
 `
 export default ExpIcon

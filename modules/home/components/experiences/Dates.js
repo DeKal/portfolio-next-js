@@ -5,8 +5,9 @@ const Dates = styled.p`
   margin-left: 80px;
   margin-bottom: 10px;
 
-  @media screen and (max-width: 600px) {
-    margin-left: 60px;
+  @media screen and (max-width: 700px) {
+    margin-left: 0;
+    text-align: center;
   }
 `
 

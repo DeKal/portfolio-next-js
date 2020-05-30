@@ -120,15 +120,15 @@ exports[`Experiences should render without throwing an error 1`] = `
                                   name="workexp"
                                 >
                                   <Icon
-                                    className="ExpIcon-pd7zps-0 hiLyZo"
+                                    className="ExpIcon-pd7zps-0 hjUGkD"
                                     name="workexp"
                                   >
                                     <Icon__Symbol
-                                      className="ExpIcon-pd7zps-0 hiLyZo"
+                                      className="ExpIcon-pd7zps-0 hjUGkD"
                                       name="workexp"
                                     >
                                       <div
-                                        className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-pd7zps-0 hiLyZo"
+                                        className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-pd7zps-0 hjUGkD"
                                         name="workexp"
                                       />
                                     </Icon__Symbol>
@@ -136,7 +136,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                 </ExpIcon>
                                 <Title>
                                   <h4
-                                    className="Title-sc-1d79yk1-0 ddGQjm"
+                                    className="Title-sc-1d79yk1-0 fEalcW"
                                   >
                                     <Translate
                                       id="Exp: Zalora Title"
@@ -165,7 +165,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                 </Title>
                                 <Dates>
                                   <p
-                                    className="Dates-q2saym-0 euchLD"
+                                    className="Dates-q2saym-0 jTIAVn"
                                   >
                                     (
                                     <Translate
@@ -196,7 +196,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                 </Dates>
                                 <Description>
                                   <p
-                                    className="Description-sc-83rdc7-0 kEyhQo"
+                                    className="Description-sc-83rdc7-0 jzqBMd"
                                   >
                                     <Translate
                                       id="Exp: Zalora Desc"
@@ -225,7 +225,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                 </Description>
                                 <Description>
                                   <p
-                                    className="Description-sc-83rdc7-0 kEyhQo"
+                                    className="Description-sc-83rdc7-0 jzqBMd"
                                   >
                                     <Bold>
                                       <b
@@ -290,15 +290,15 @@ exports[`Experiences should render without throwing an error 1`] = `
                                   name="workexp"
                                 >
                                   <Icon
-                                    className="ExpIcon-pd7zps-0 hiLyZo"
+                                    className="ExpIcon-pd7zps-0 hjUGkD"
                                     name="workexp"
                                   >
                                     <Icon__Symbol
-                                      className="ExpIcon-pd7zps-0 hiLyZo"
+                                      className="ExpIcon-pd7zps-0 hjUGkD"
                                       name="workexp"
                                     >
                                       <div
-                                        className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-pd7zps-0 hiLyZo"
+                                        className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-pd7zps-0 hjUGkD"
                                         name="workexp"
                                       />
                                     </Icon__Symbol>
@@ -306,7 +306,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                 </ExpIcon>
                                 <Title>
                                   <h4
-                                    className="Title-sc-1d79yk1-0 ddGQjm"
+                                    className="Title-sc-1d79yk1-0 fEalcW"
                                   >
                                     <Translate
                                       id="Exp: Dek Title"
@@ -335,7 +335,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                 </Title>
                                 <Dates>
                                   <p
-                                    className="Dates-q2saym-0 euchLD"
+                                    className="Dates-q2saym-0 jTIAVn"
                                   >
                                     (
                                     <Translate
@@ -366,7 +366,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                 </Dates>
                                 <Description>
                                   <p
-                                    className="Description-sc-83rdc7-0 kEyhQo"
+                                    className="Description-sc-83rdc7-0 jzqBMd"
                                   >
                                     <Translate
                                       id="Exp: Dek Desc"
@@ -395,7 +395,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                 </Description>
                                 <Description>
                                   <p
-                                    className="Description-sc-83rdc7-0 kEyhQo"
+                                    className="Description-sc-83rdc7-0 jzqBMd"
                                   >
                                     <Bold>
                                       <b
@@ -478,15 +478,15 @@ exports[`Experiences should render without throwing an error 1`] = `
                                   name="workexp"
                                 >
                                   <Icon
-                                    className="ExpIcon-pd7zps-0 hiLyZo"
+                                    className="ExpIcon-pd7zps-0 hjUGkD"
                                     name="workexp"
                                   >
                                     <Icon__Symbol
-                                      className="ExpIcon-pd7zps-0 hiLyZo"
+                                      className="ExpIcon-pd7zps-0 hjUGkD"
                                       name="workexp"
                                     >
                                       <div
-                                        className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-pd7zps-0 hiLyZo"
+                                        className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-pd7zps-0 hjUGkD"
                                         name="workexp"
                                       />
                                     </Icon__Symbol>
@@ -494,7 +494,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                 </ExpIcon>
                                 <Title>
                                   <h4
-                                    className="Title-sc-1d79yk1-0 ddGQjm"
+                                    className="Title-sc-1d79yk1-0 fEalcW"
                                   >
                                     <Translate
                                       id="Exp: GCS Title"
@@ -523,7 +523,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                 </Title>
                                 <Dates>
                                   <p
-                                    className="Dates-q2saym-0 euchLD"
+                                    className="Dates-q2saym-0 jTIAVn"
                                   >
                                     (
                                     <Translate
@@ -554,7 +554,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                 </Dates>
                                 <Description>
                                   <p
-                                    className="Description-sc-83rdc7-0 kEyhQo"
+                                    className="Description-sc-83rdc7-0 jzqBMd"
                                   >
                                     <Translate
                                       id="Exp: GCS Desc"
@@ -583,7 +583,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                 </Description>
                                 <Description>
                                   <p
-                                    className="Description-sc-83rdc7-0 kEyhQo"
+                                    className="Description-sc-83rdc7-0 jzqBMd"
                                   >
                                     <Bold>
                                       <b
@@ -648,15 +648,15 @@ exports[`Experiences should render without throwing an error 1`] = `
                                   name="workexp"
                                 >
                                   <Icon
-                                    className="ExpIcon-pd7zps-0 hiLyZo"
+                                    className="ExpIcon-pd7zps-0 hjUGkD"
                                     name="workexp"
                                   >
                                     <Icon__Symbol
-                                      className="ExpIcon-pd7zps-0 hiLyZo"
+                                      className="ExpIcon-pd7zps-0 hjUGkD"
                                       name="workexp"
                                     >
                                       <div
-                                        className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-pd7zps-0 hiLyZo"
+                                        className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-pd7zps-0 hjUGkD"
                                         name="workexp"
                                       />
                                     </Icon__Symbol>
@@ -664,7 +664,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                 </ExpIcon>
                                 <Title>
                                   <h4
-                                    className="Title-sc-1d79yk1-0 ddGQjm"
+                                    className="Title-sc-1d79yk1-0 fEalcW"
                                   >
                                     <Translate
                                       id="Exp: GCS-intern Title"
@@ -693,7 +693,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                 </Title>
                                 <Dates>
                                   <p
-                                    className="Dates-q2saym-0 euchLD"
+                                    className="Dates-q2saym-0 jTIAVn"
                                   >
                                     (
                                     <Translate
@@ -724,7 +724,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                 </Dates>
                                 <Description>
                                   <p
-                                    className="Description-sc-83rdc7-0 kEyhQo"
+                                    className="Description-sc-83rdc7-0 jzqBMd"
                                   >
                                     <Translate
                                       id="Exp: GCS-intern Desc"
@@ -753,7 +753,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                                 </Description>
                                 <Description>
                                   <p
-                                    className="Description-sc-83rdc7-0 kEyhQo"
+                                    className="Description-sc-83rdc7-0 jzqBMd"
                                   >
                                     <Bold>
                                       <b

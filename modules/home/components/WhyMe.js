@@ -37,12 +37,12 @@ const Inner = styled.div`
 
   &::before {
     left: 15px;
-    border-left: 10px solid ${props => props.theme.colors.colorAccent};
+    border-left: 5px solid ${props => props.theme.colors.colorAccent};
   }
 
   &::after {
     left: -15px;
-    border-right: 10px solid ${props => props.theme.colors.colorAccent};
+    border-right: 5px solid ${props => props.theme.colors.colorAccent};
     width: 100%;
   }
 

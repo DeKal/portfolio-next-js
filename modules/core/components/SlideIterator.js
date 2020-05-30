@@ -1,14 +1,14 @@
 import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
-import Fade from 'react-reveal/Fade'
+import Slide from 'react-reveal/Slide'
 
 const SlideIterator = ({ children }) => {
   return (
     <Fragment>
       {children.map((element, index) => (
-        <Fade key={index} left={index % 2 == 0} right={index % 2 != 0}>
+        <Slide key={index} left>
           {element}
-        </Fade>
+        </Slide>
       ))}
     </Fragment>
   )

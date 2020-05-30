@@ -16,12 +16,12 @@ exports[`WhyMe should render without throwing an error 1`] = `
       >
         <WhyMe__Inner>
           <div
-            className="WhyMe__Inner-es5ehw-1 oQCTq"
+            className="WhyMe__Inner-es5ehw-1 llTudy"
           >
             <Title>
               <Title__Container>
                 <h2
-                  className="Title__Container-sjy7ck-0 bTICUu"
+                  className="Title__Container-sjy7ck-0 loVYPK"
                 >
                   <Translate
                     id="Why me: Title"
@@ -52,7 +52,7 @@ exports[`WhyMe should render without throwing an error 1`] = `
             <Quote>
               <Quote__Container>
                 <div
-                  className="Quote__Container-bhoerb-0 iyuLOi"
+                  className="Quote__Container-bhoerb-0 fWHjbO"
                 >
                   <Quote__Content>
                     <p

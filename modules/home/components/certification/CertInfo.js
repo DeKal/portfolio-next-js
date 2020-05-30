@@ -33,6 +33,7 @@ CertInfo.propTypes = {
 
 const ListInfo = styled(Info)`
   position: relative;
+  z-index: 1000;
 
   &::before,
   &::after {

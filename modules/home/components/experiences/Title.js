@@ -5,8 +5,9 @@ const Title = styled.h4`
   text-transform: uppercase;
   font-weight: bold;
 
-  @media screen and (max-width: 600px) {
-    margin-left: 60px;
+  @media screen and (max-width: 700px) {
+    margin-left: 0;
+    text-align: center;
   }
 `
 export default Title

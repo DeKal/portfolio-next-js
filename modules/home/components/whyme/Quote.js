@@ -16,7 +16,7 @@ export default Quote
 
 const Container = styled.div`
   padding: 40px 0;
-  border-bottom: 10px solid ${props => props.theme.colors.colorAccent};
+  border-bottom: 5px solid ${props => props.theme.colors.colorAccent};
 
   @media screen and (max-width: 600px) {
     padding: 20px 0;
