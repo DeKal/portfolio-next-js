@@ -35,6 +35,7 @@ yarn lint
 Use `stylelint` to check SCSS embedded in JS code.
 ```bash
 yarn lint:css
+
 ```
 ### Dangerjs
 DangerJs is running to check PRs info when pulling request.
