@@ -1,7 +1,6 @@
 [![Code Coverage](https://scrutinizer-ci.com/g/DeKal/portfolio-next-js/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/DeKal/portfolio-next-js/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/DeKal/portfolio-next-js/badges/build.png?b=master)](https://scrutinizer-ci.com/g/DeKal/portfolio-next-js/build-status/master)
 
-# DeKal Portfolio
-
+# [DeKal Portfolio](https://dekal.github.io/portfolio-next-js/)
 Basically it is my profile :)
 
 ## Prerequisites
