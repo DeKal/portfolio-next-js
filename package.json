@@ -54,7 +54,7 @@
     "jest-junit-reporter": "1.1.0",
     "lerna": "3.22.1",
     "prettier": "1.19.1",
-    "stylelint": "13.6.0",
+    "stylelint": "13.6.1",
     "stylelint-config-standard": "20.0.0",
     "stylelint-processor-styled-components": "1.10.0",
     "ts-jest": "26.1.0",
