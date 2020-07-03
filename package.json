@@ -58,7 +58,7 @@
     "stylelint-config-standard": "20.0.0",
     "stylelint-processor-styled-components": "1.10.0",
     "ts-jest": "26.1.1",
-    "typescript": "3.9.5"
+    "typescript": "3.9.6"
   },
   "babelMacros": {
     "styledComponents": {}
