@@ -32,7 +32,7 @@
   "devDependencies": {
     "@types/enzyme": "3.10.5",
     "@types/enzyme-adapter-react-16": "1.0.6",
-    "@types/jest": "26.0.3",
+    "@types/jest": "26.0.4",
     "auto-changelog": "2.1.0",
     "babel-core": "6.26.3",
     "babel-eslint": "10.1.0",
