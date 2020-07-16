@@ -7,7 +7,7 @@ describe('CertItem', () => {
     const setSelectedItemMock = jest.fn()
     const wrap = shallowWithTheme(
       <CertItem
-        idNum={0}
+        idnum={0}
         setSelectedItem={setSelectedItemMock}
       />
     )

@@ -42,6 +42,12 @@ class MyDocument extends Document {
           <meta name="robots" content="index,follow" />
 
           <meta name="googlebot" content="index,follow" />
+          <link
+            rel="preload"
+            href="fonts/ip/font/ip.woff"
+            as="font"
+            crossOrigin=""
+          />
         </Head>
         <body>
           <Main />
