@@ -33,127 +33,125 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                         <nav
                           className="NavLang__NotSelectableDiv-sc-1thvcuk-0 bvxHiF"
                         >
-                          <ul>
-                            <NavLang__NavLinkItem>
-                              <li
-                                className="NavLang__NavLinkItem-sc-1thvcuk-1 cjAtQx"
+                          <NavLang__NavLinkItem>
+                            <div
+                              className="NavLang__NavLinkItem-sc-1thvcuk-1 cjAtQx"
+                            >
+                              <LocalizedComponent
+                                lang="en"
+                                selectedLang="en"
+                                setSelectedLang={[Function]}
                               >
-                                <LocalizedComponent
+                                <NavLink
+                                  addTranslation={[Function]}
+                                  addTranslationForLanguage={[Function]}
+                                  ignoreTranslateChildren={false}
+                                  initialize={[Function]}
                                   lang="en"
+                                  languages={Array []}
+                                  renderToStaticMarkup={false}
                                   selectedLang="en"
+                                  setActiveLanguage={[Function]}
                                   setSelectedLang={[Function]}
+                                  translate={[Function]}
                                 >
-                                  <NavLink
-                                    addTranslation={[Function]}
-                                    addTranslationForLanguage={[Function]}
-                                    ignoreTranslateChildren={false}
-                                    initialize={[Function]}
-                                    lang="en"
-                                    languages={Array []}
-                                    renderToStaticMarkup={false}
-                                    selectedLang="en"
-                                    setActiveLanguage={[Function]}
-                                    setSelectedLang={[Function]}
-                                    translate={[Function]}
+                                  <NavLink__Container
+                                    isSelected={true}
+                                    onClick={[Function]}
                                   >
-                                    <NavLink__Container
-                                      isSelected={true}
+                                    <a
+                                      className="NavLink__Container-sc-13fjz5m-0 exdEua"
                                       onClick={[Function]}
                                     >
-                                      <a
-                                        className="NavLink__Container-sc-13fjz5m-0 eoBhFg"
-                                        onClick={[Function]}
+                                      <Translate
+                                        id="english"
                                       >
-                                        <Translate
+                                        <WrappedTranslate
+                                          context={
+                                            Object {
+                                              "activeLanguage": undefined,
+                                              "addTranslation": [Function],
+                                              "addTranslationForLanguage": [Function],
+                                              "defaultLanguage": undefined,
+                                              "ignoreTranslateChildren": false,
+                                              "initialize": [Function],
+                                              "languages": Array [],
+                                              "renderToStaticMarkup": false,
+                                              "setActiveLanguage": [Function],
+                                              "translate": [Function],
+                                            }
+                                          }
                                           id="english"
                                         >
-                                          <WrappedTranslate
-                                            context={
-                                              Object {
-                                                "activeLanguage": undefined,
-                                                "addTranslation": [Function],
-                                                "addTranslationForLanguage": [Function],
-                                                "defaultLanguage": undefined,
-                                                "ignoreTranslateChildren": false,
-                                                "initialize": [Function],
-                                                "languages": Array [],
-                                                "renderToStaticMarkup": false,
-                                                "setActiveLanguage": [Function],
-                                                "translate": [Function],
-                                              }
-                                            }
-                                            id="english"
-                                          >
-                                            Missing translationId: english for language: \${ languageCode }
-                                          </WrappedTranslate>
-                                        </Translate>
-                                      </a>
-                                    </NavLink__Container>
-                                  </NavLink>
-                                </LocalizedComponent>
-                                <NavLang__InlineBlock>
-                                  <div
-                                    className="NavLang__InlineBlock-sc-1thvcuk-2 cMKVTg"
-                                  >
-                                    /
-                                  </div>
-                                </NavLang__InlineBlock>
-                                <LocalizedComponent
-                                  lang="vn"
-                                  selectedLang="en"
-                                  setSelectedLang={[Function]}
+                                          Missing translationId: english for language: \${ languageCode }
+                                        </WrappedTranslate>
+                                      </Translate>
+                                    </a>
+                                  </NavLink__Container>
+                                </NavLink>
+                              </LocalizedComponent>
+                              <NavLang__InlineBlock>
+                                <div
+                                  className="NavLang__InlineBlock-sc-1thvcuk-2 cMKVTg"
                                 >
-                                  <NavLink
-                                    addTranslation={[Function]}
-                                    addTranslationForLanguage={[Function]}
-                                    ignoreTranslateChildren={false}
-                                    initialize={[Function]}
-                                    lang="vn"
-                                    languages={Array []}
-                                    renderToStaticMarkup={false}
-                                    selectedLang="en"
-                                    setActiveLanguage={[Function]}
-                                    setSelectedLang={[Function]}
-                                    translate={[Function]}
+                                  /
+                                </div>
+                              </NavLang__InlineBlock>
+                              <LocalizedComponent
+                                lang="vn"
+                                selectedLang="en"
+                                setSelectedLang={[Function]}
+                              >
+                                <NavLink
+                                  addTranslation={[Function]}
+                                  addTranslationForLanguage={[Function]}
+                                  ignoreTranslateChildren={false}
+                                  initialize={[Function]}
+                                  lang="vn"
+                                  languages={Array []}
+                                  renderToStaticMarkup={false}
+                                  selectedLang="en"
+                                  setActiveLanguage={[Function]}
+                                  setSelectedLang={[Function]}
+                                  translate={[Function]}
+                                >
+                                  <NavLink__Container
+                                    isSelected={false}
+                                    onClick={[Function]}
                                   >
-                                    <NavLink__Container
-                                      isSelected={false}
+                                    <a
+                                      className="NavLink__Container-sc-13fjz5m-0 bqjnET"
                                       onClick={[Function]}
                                     >
-                                      <a
-                                        className="NavLink__Container-sc-13fjz5m-0 jfMZCV"
-                                        onClick={[Function]}
+                                      <Translate
+                                        id="vietnamese"
                                       >
-                                        <Translate
+                                        <WrappedTranslate
+                                          context={
+                                            Object {
+                                              "activeLanguage": undefined,
+                                              "addTranslation": [Function],
+                                              "addTranslationForLanguage": [Function],
+                                              "defaultLanguage": undefined,
+                                              "ignoreTranslateChildren": false,
+                                              "initialize": [Function],
+                                              "languages": Array [],
+                                              "renderToStaticMarkup": false,
+                                              "setActiveLanguage": [Function],
+                                              "translate": [Function],
+                                            }
+                                          }
                                           id="vietnamese"
                                         >
-                                          <WrappedTranslate
-                                            context={
-                                              Object {
-                                                "activeLanguage": undefined,
-                                                "addTranslation": [Function],
-                                                "addTranslationForLanguage": [Function],
-                                                "defaultLanguage": undefined,
-                                                "ignoreTranslateChildren": false,
-                                                "initialize": [Function],
-                                                "languages": Array [],
-                                                "renderToStaticMarkup": false,
-                                                "setActiveLanguage": [Function],
-                                                "translate": [Function],
-                                              }
-                                            }
-                                            id="vietnamese"
-                                          >
-                                            Missing translationId: vietnamese for language: \${ languageCode }
-                                          </WrappedTranslate>
-                                        </Translate>
-                                      </a>
-                                    </NavLink__Container>
-                                  </NavLink>
-                                </LocalizedComponent>
-                              </li>
-                            </NavLang__NavLinkItem>
-                          </ul>
+                                          Missing translationId: vietnamese for language: \${ languageCode }
+                                        </WrappedTranslate>
+                                      </Translate>
+                                    </a>
+                                  </NavLink__Container>
+                                </NavLink>
+                              </LocalizedComponent>
+                            </div>
+                          </NavLang__NavLinkItem>
                         </nav>
                       </NavLang__NotSelectableDiv>
                     </NavLang>
@@ -170,7 +168,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                       onClick={[Function]}
                     >
                       <div
-                        className="NavHeader__NavControl-sc-1iyu030-1 gEDkuw"
+                        className="NavHeader__NavControl-sc-1iyu030-1 hqaxLs"
                         data-test-id="switch-nav-content"
                         onClick={[Function]}
                       >
@@ -282,127 +280,125 @@ exports[`Nav Header should render when show NavContent 1`] = `
                         <nav
                           className="NavLang__NotSelectableDiv-sc-1thvcuk-0 bvxHiF"
                         >
-                          <ul>
-                            <NavLang__NavLinkItem>
-                              <li
-                                className="NavLang__NavLinkItem-sc-1thvcuk-1 cjAtQx"
+                          <NavLang__NavLinkItem>
+                            <div
+                              className="NavLang__NavLinkItem-sc-1thvcuk-1 cjAtQx"
+                            >
+                              <LocalizedComponent
+                                lang="en"
+                                selectedLang="en"
+                                setSelectedLang={[Function]}
                               >
-                                <LocalizedComponent
+                                <NavLink
+                                  addTranslation={[Function]}
+                                  addTranslationForLanguage={[Function]}
+                                  ignoreTranslateChildren={false}
+                                  initialize={[Function]}
                                   lang="en"
+                                  languages={Array []}
+                                  renderToStaticMarkup={false}
                                   selectedLang="en"
+                                  setActiveLanguage={[Function]}
                                   setSelectedLang={[Function]}
+                                  translate={[Function]}
                                 >
-                                  <NavLink
-                                    addTranslation={[Function]}
-                                    addTranslationForLanguage={[Function]}
-                                    ignoreTranslateChildren={false}
-                                    initialize={[Function]}
-                                    lang="en"
-                                    languages={Array []}
-                                    renderToStaticMarkup={false}
-                                    selectedLang="en"
-                                    setActiveLanguage={[Function]}
-                                    setSelectedLang={[Function]}
-                                    translate={[Function]}
+                                  <NavLink__Container
+                                    isSelected={true}
+                                    onClick={[Function]}
                                   >
-                                    <NavLink__Container
-                                      isSelected={true}
+                                    <a
+                                      className="NavLink__Container-sc-13fjz5m-0 exdEua"
                                       onClick={[Function]}
                                     >
-                                      <a
-                                        className="NavLink__Container-sc-13fjz5m-0 eoBhFg"
-                                        onClick={[Function]}
+                                      <Translate
+                                        id="english"
                                       >
-                                        <Translate
+                                        <WrappedTranslate
+                                          context={
+                                            Object {
+                                              "activeLanguage": undefined,
+                                              "addTranslation": [Function],
+                                              "addTranslationForLanguage": [Function],
+                                              "defaultLanguage": undefined,
+                                              "ignoreTranslateChildren": false,
+                                              "initialize": [Function],
+                                              "languages": Array [],
+                                              "renderToStaticMarkup": false,
+                                              "setActiveLanguage": [Function],
+                                              "translate": [Function],
+                                            }
+                                          }
                                           id="english"
                                         >
-                                          <WrappedTranslate
-                                            context={
-                                              Object {
-                                                "activeLanguage": undefined,
-                                                "addTranslation": [Function],
-                                                "addTranslationForLanguage": [Function],
-                                                "defaultLanguage": undefined,
-                                                "ignoreTranslateChildren": false,
-                                                "initialize": [Function],
-                                                "languages": Array [],
-                                                "renderToStaticMarkup": false,
-                                                "setActiveLanguage": [Function],
-                                                "translate": [Function],
-                                              }
-                                            }
-                                            id="english"
-                                          >
-                                            Missing translationId: english for language: \${ languageCode }
-                                          </WrappedTranslate>
-                                        </Translate>
-                                      </a>
-                                    </NavLink__Container>
-                                  </NavLink>
-                                </LocalizedComponent>
-                                <NavLang__InlineBlock>
-                                  <div
-                                    className="NavLang__InlineBlock-sc-1thvcuk-2 cMKVTg"
-                                  >
-                                    /
-                                  </div>
-                                </NavLang__InlineBlock>
-                                <LocalizedComponent
-                                  lang="vn"
-                                  selectedLang="en"
-                                  setSelectedLang={[Function]}
+                                          Missing translationId: english for language: \${ languageCode }
+                                        </WrappedTranslate>
+                                      </Translate>
+                                    </a>
+                                  </NavLink__Container>
+                                </NavLink>
+                              </LocalizedComponent>
+                              <NavLang__InlineBlock>
+                                <div
+                                  className="NavLang__InlineBlock-sc-1thvcuk-2 cMKVTg"
                                 >
-                                  <NavLink
-                                    addTranslation={[Function]}
-                                    addTranslationForLanguage={[Function]}
-                                    ignoreTranslateChildren={false}
-                                    initialize={[Function]}
-                                    lang="vn"
-                                    languages={Array []}
-                                    renderToStaticMarkup={false}
-                                    selectedLang="en"
-                                    setActiveLanguage={[Function]}
-                                    setSelectedLang={[Function]}
-                                    translate={[Function]}
+                                  /
+                                </div>
+                              </NavLang__InlineBlock>
+                              <LocalizedComponent
+                                lang="vn"
+                                selectedLang="en"
+                                setSelectedLang={[Function]}
+                              >
+                                <NavLink
+                                  addTranslation={[Function]}
+                                  addTranslationForLanguage={[Function]}
+                                  ignoreTranslateChildren={false}
+                                  initialize={[Function]}
+                                  lang="vn"
+                                  languages={Array []}
+                                  renderToStaticMarkup={false}
+                                  selectedLang="en"
+                                  setActiveLanguage={[Function]}
+                                  setSelectedLang={[Function]}
+                                  translate={[Function]}
+                                >
+                                  <NavLink__Container
+                                    isSelected={false}
+                                    onClick={[Function]}
                                   >
-                                    <NavLink__Container
-                                      isSelected={false}
+                                    <a
+                                      className="NavLink__Container-sc-13fjz5m-0 bqjnET"
                                       onClick={[Function]}
                                     >
-                                      <a
-                                        className="NavLink__Container-sc-13fjz5m-0 jfMZCV"
-                                        onClick={[Function]}
+                                      <Translate
+                                        id="vietnamese"
                                       >
-                                        <Translate
+                                        <WrappedTranslate
+                                          context={
+                                            Object {
+                                              "activeLanguage": undefined,
+                                              "addTranslation": [Function],
+                                              "addTranslationForLanguage": [Function],
+                                              "defaultLanguage": undefined,
+                                              "ignoreTranslateChildren": false,
+                                              "initialize": [Function],
+                                              "languages": Array [],
+                                              "renderToStaticMarkup": false,
+                                              "setActiveLanguage": [Function],
+                                              "translate": [Function],
+                                            }
+                                          }
                                           id="vietnamese"
                                         >
-                                          <WrappedTranslate
-                                            context={
-                                              Object {
-                                                "activeLanguage": undefined,
-                                                "addTranslation": [Function],
-                                                "addTranslationForLanguage": [Function],
-                                                "defaultLanguage": undefined,
-                                                "ignoreTranslateChildren": false,
-                                                "initialize": [Function],
-                                                "languages": Array [],
-                                                "renderToStaticMarkup": false,
-                                                "setActiveLanguage": [Function],
-                                                "translate": [Function],
-                                              }
-                                            }
-                                            id="vietnamese"
-                                          >
-                                            Missing translationId: vietnamese for language: \${ languageCode }
-                                          </WrappedTranslate>
-                                        </Translate>
-                                      </a>
-                                    </NavLink__Container>
-                                  </NavLink>
-                                </LocalizedComponent>
-                              </li>
-                            </NavLang__NavLinkItem>
-                          </ul>
+                                          Missing translationId: vietnamese for language: \${ languageCode }
+                                        </WrappedTranslate>
+                                      </Translate>
+                                    </a>
+                                  </NavLink__Container>
+                                </NavLink>
+                              </LocalizedComponent>
+                            </div>
+                          </NavLang__NavLinkItem>
                         </nav>
                       </NavLang__NotSelectableDiv>
                     </NavLang>
@@ -419,7 +415,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
                       onClick={[Function]}
                     >
                       <div
-                        className="NavHeader__NavControl-sc-1iyu030-1 gEDkuw"
+                        className="NavHeader__NavControl-sc-1iyu030-1 hqaxLs"
                         data-test-id="switch-nav-content"
                         onClick={[Function]}
                       >

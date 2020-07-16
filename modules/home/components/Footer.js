@@ -18,7 +18,10 @@ const Footer = () => (
           xs={{ span: 4, offset: 4 }}
           className="d-flex justify-content-end"
         >
-          <GitLogo href="https://github.com/DeKal/portfolio-next-js">
+          <GitLogo
+            href="https://github.com/DeKal/portfolio-next-js"
+            aria-label="Github"
+          >
             <FaGithub size="40px"></FaGithub>
           </GitLogo>
         </Col>

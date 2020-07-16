@@ -21,7 +21,7 @@ const Header = styled.header`
 `
 
 const MainText = styled.h2`
-  color: ${props => props.theme.colors.colorLight};
+  color: ${props => props.theme.colors.colorDark};
 `
 
 const SubText = styled.h4`

@@ -50,7 +50,7 @@ const NavContainer = styled.div`
 `
 
 const NavControl = styled.div`
-  color: ${props => props.theme.colors.colorLight};
+  color: ${props => props.theme.colors.colorDark};
   line-height: ${props => props.theme.navHeaderHeight};
   text-align: right;
   border: none;
@@ -63,7 +63,7 @@ const NavControl = styled.div`
   &::before {
     display: inline-block;
     margin-right: 10px;
-    color: ${props => props.theme.colors.colorLight};
+    color: ${props => props.theme.colors.colorDark};
     font-size: ${props => props.theme.fontSizes.XL};
     transition: color 0.5s;
 

@@ -4,7 +4,7 @@ import Icon from '~/modules/home/components/common/Icon'
 import { HOME } from '~/modules/home/consts/pages'
 
 const GoTop = () => (
-  <Container href={`#${HOME}`}>
+  <Container href={`#${HOME}`} aria-label="Home">
     <GoTopIcon name="goTop" />
   </Container>
 )

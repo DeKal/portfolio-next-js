@@ -15,6 +15,7 @@ const theme = {
     colorDarken: '#bdc3c7',
     colorDark: '#2c3e50',
     colorAccent: '#FFA726',
+    colorBlack: '#000000',
     bgColor: '#fff',
     grey: '#696969'
   },

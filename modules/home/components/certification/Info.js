@@ -1,6 +1,6 @@
 import styled from 'styled-components/macro'
 
-const Info = styled.li`
+const Info = styled.div`
   position: relative;
   top: 0;
   left: 0;

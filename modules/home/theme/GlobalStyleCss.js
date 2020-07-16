@@ -172,16 +172,6 @@ const GlobalStyleCss = ({ theme }) => {
         content: none;
       }
 
-      table {
-        border-collapse: collapse;
-        border-spacing: 0;
-      }
-
-      button,
-      input[type='submit'] {
-        cursor: pointer;
-      }
-
       html,
       body {
         width: 100%;

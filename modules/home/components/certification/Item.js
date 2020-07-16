@@ -1,6 +1,6 @@
 import styled from 'styled-components/macro'
 
-const Item = styled.li`
+const Item = styled.div`
   top: 0;
   display: block;
   width: 25%;
