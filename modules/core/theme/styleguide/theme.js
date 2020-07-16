@@ -20,8 +20,8 @@ const theme = {
     grey: '#696969'
   },
   images: {
-    background: '/images/bg.jpg',
-    backgroundMobile: '/images/bg-mobile.jpg',
+    background: '/images/bg.webp',
+    backgroundMobile: '/images/bg-mobile.webp',
     bgPattern: '/images/bg-pattern.jpg',
     bgPatternOpacity: '1',
     overlayBgColor: 'rgba(44, 62, 80, 0.4)',
