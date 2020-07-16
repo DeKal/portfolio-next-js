@@ -30,7 +30,7 @@ exports[`Footer should render without throwing an error 1`] = `
                   className="contact-card__header"
                 >
                   <header
-                    className="Header__Container-sc-9x4isp-0 duAKjn contact-card__header"
+                    className="Header__Container-sc-9x4isp-0 hpYRsS contact-card__header"
                   >
                     <h2>
                       <Translate

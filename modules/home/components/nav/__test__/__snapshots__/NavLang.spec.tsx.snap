@@ -2,22 +2,20 @@
 
 exports[`Nav Lang should render without throwing an error 1`] = `
 <NavLang__NotSelectableDiv>
-  <ul>
-    <NavLang__NavLinkItem>
-      <LocalizedComponent
-        lang="en"
-        selectedLang="en"
-        setSelectedLang={[Function]}
-      />
-      <NavLang__InlineBlock>
-        /
-      </NavLang__InlineBlock>
-      <LocalizedComponent
-        lang="vn"
-        selectedLang="en"
-        setSelectedLang={[Function]}
-      />
-    </NavLang__NavLinkItem>
-  </ul>
+  <NavLang__NavLinkItem>
+    <LocalizedComponent
+      lang="en"
+      selectedLang="en"
+      setSelectedLang={[Function]}
+    />
+    <NavLang__InlineBlock>
+      /
+    </NavLang__InlineBlock>
+    <LocalizedComponent
+      lang="vn"
+      selectedLang="en"
+      setSelectedLang={[Function]}
+    />
+  </NavLang__NavLinkItem>
 </NavLang__NotSelectableDiv>
 `;

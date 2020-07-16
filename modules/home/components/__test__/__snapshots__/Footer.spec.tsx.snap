@@ -60,9 +60,11 @@ exports[`Footer should render without throwing an error 1`] = `
                   className="d-flex justify-content-end col-md-4 col-4 offset-md-4 offset-4"
                 >
                   <Footer__GitLogo
+                    aria-label="Github"
                     href="https://github.com/DeKal/portfolio-next-js"
                   >
                     <a
+                      aria-label="Github"
                       className="Footer__GitLogo-x896os-3 hOyXxL"
                       href="https://github.com/DeKal/portfolio-next-js"
                     >
@@ -105,9 +107,11 @@ exports[`Footer should render without throwing an error 1`] = `
               </Col>
               <GoTop>
                 <GoTop__Container
+                  aria-label="Home"
                   href="#Home"
                 >
                   <a
+                    aria-label="Home"
                     className="GoTop__Container-sc-137nslr-0 fCDaNA"
                     href="#Home"
                   >

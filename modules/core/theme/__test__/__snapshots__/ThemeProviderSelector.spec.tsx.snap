@@ -450,6 +450,7 @@ exports[`Theme Provider Selector Selector fo normal theme should render for norm
       "colors": Object {
         "bgColor": "#fff",
         "colorAccent": "#FFA726",
+        "colorBlack": "#000000",
         "colorDark": "#2c3e50",
         "colorDarken": "#bdc3c7",
         "colorLight": "#ecf0f1",
@@ -527,6 +528,7 @@ exports[`Theme Provider Selector Selector fo normal theme should render for norm
         "colors": Object {
           "bgColor": "#fff",
           "colorAccent": "#FFA726",
+          "colorBlack": "#000000",
           "colorDark": "#2c3e50",
           "colorDarken": "#bdc3c7",
           "colorLight": "#ecf0f1",

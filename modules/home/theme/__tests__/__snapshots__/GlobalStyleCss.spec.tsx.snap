@@ -8,6 +8,7 @@ exports[`GlobalStyleCss should render defaultTheme without throwing an error 1`]
       "colors": Object {
         "bgColor": "#fff",
         "colorAccent": "#FFA726",
+        "colorBlack": "#000000",
         "colorDark": "#2c3e50",
         "colorDarken": "#bdc3c7",
         "colorLight": "#ecf0f1",
@@ -246,16 +247,6 @@ exports[`GlobalStyleCss should render defaultTheme without throwing an error 1`]
       q:after {
         content: '';
         content: none;
-      }
-
-      table {
-        border-collapse: collapse;
-        border-spacing: 0;
-      }
-
-      button,
-      input[type='submit'] {
-        cursor: pointer;
       }
 
       html,
@@ -612,16 +603,6 @@ exports[`GlobalStyleCss should render newyearTheme without throwing an error 1`]
         content: none;
       }
 
-      table {
-        border-collapse: collapse;
-        border-spacing: 0;
-      }
-
-      button,
-      input[type='submit'] {
-        cursor: pointer;
-      }
-
       html,
       body {
         width: 100%;
@@ -973,16 +954,6 @@ exports[`GlobalStyleCss should render xmasTheme without throwing an error 1`] = 
       q:after {
         content: '';
         content: none;
-      }
-
-      table {
-        border-collapse: collapse;
-        border-spacing: 0;
-      }
-
-      button,
-      input[type='submit'] {
-        cursor: pointer;
       }
 
       html,

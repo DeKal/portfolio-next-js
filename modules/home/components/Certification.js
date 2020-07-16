@@ -27,10 +27,11 @@ const Certification = () => {
           <Row>
             {ITEM.map((name, index) => (
               <CertItem
+                id={`cert-item-${index + 1}`}
                 key={index}
                 itemSelected={itemSelected}
                 setSelectedItem={setSelectedItem}
-                id={index + 1}
+                idNum={index + 1}
                 name={name}
               />
             ))}
@@ -40,7 +41,8 @@ const Certification = () => {
               <CertInfo
                 key={index}
                 itemSelected={itemSelected}
-                id={index + 1}
+                id={`cert-info-${index + 1}`}
+                idNum={index + 1}
                 title={info.title}
                 content={info.content}
               />
@@ -54,8 +56,7 @@ const Certification = () => {
 
 export default Certification
 
-const List = styled.ul`
+const List = styled.div`
   position: relative;
-  list-style-type: none;
   height: 360px;
 `

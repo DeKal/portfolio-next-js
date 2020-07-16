@@ -9,21 +9,19 @@ const NavLang = () => {
 
   return (
     <NotSelectableDiv>
-      <ul>
-        <NavLinkItem>
-          <NavLink
-            lang={EN}
-            selectedLang={selectedLang}
-            setSelectedLang={setSelectedLang}
-          />
-          <InlineBlock>/</InlineBlock>
-          <NavLink
-            lang={VN}
-            selectedLang={selectedLang}
-            setSelectedLang={setSelectedLang}
-          />
-        </NavLinkItem>
-      </ul>
+      <NavLinkItem>
+        <NavLink
+          lang={EN}
+          selectedLang={selectedLang}
+          setSelectedLang={setSelectedLang}
+        />
+        <InlineBlock>/</InlineBlock>
+        <NavLink
+          lang={VN}
+          selectedLang={selectedLang}
+          setSelectedLang={setSelectedLang}
+        />
+      </NavLinkItem>
     </NotSelectableDiv>
   )
 }
@@ -43,7 +41,7 @@ const NotSelectableDiv = styled.nav`
   user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
 `
 
-const NavLinkItem = styled.li`
+const NavLinkItem = styled.div`
   display: inline-block;
   margin: 0 10px;
   cursor: pointer;

@@ -18,7 +18,7 @@ exports[`Card Header should render without throwing an error 1`] = `
       >
         <CardHeader__MainText>
           <h2
-            className="CardHeader__MainText-r5umbs-1 KTkgu"
+            className="CardHeader__MainText-r5umbs-1 gmVsDf"
           >
             <Translate
               id="About me"

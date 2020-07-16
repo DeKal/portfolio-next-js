@@ -4,15 +4,14 @@ import Item from '~/modules/home/components/certification/Item'
 import PropTypes from 'prop-types'
 import Col from 'react-bootstrap/Col'
 
-const CertItem = ({ itemSelected, setSelectedItem, id, name }) => {
+const CertItem = ({ itemSelected, setSelectedItem, idNum, name }) => {
   return (
     <Col sm={3} xs={3}>
       <Item
-        data-test-id="cert-item"
-        id={id}
-        onClick={() => setSelectedItem(id)}
+        data-test-id={`cert-item-${idNum}`}
+        onClick={() => setSelectedItem(idNum)}
       >
-        <CertIcon id={id} itemSelected={itemSelected} name={name} />
+        <CertIcon idNum={idNum} itemSelected={itemSelected} name={name} />
       </Item>
     </Col>
   )
@@ -23,6 +22,6 @@ export default CertItem
 CertItem.propTypes = {
   itemSelected: PropTypes.number,
   setSelectedItem: PropTypes.func,
-  id: PropTypes.number,
+  idNum: PropTypes.number,
   name: PropTypes.string
 }
