@@ -38,7 +38,7 @@ exports[`Home should render without throwing an error 1`] = `
       </Anchor>
       <Home__Background>
         <div
-          className="Home__Background-gfpuen-3 dQpcR"
+          className="Home__Background-gfpuen-3 gLbVfp"
         />
       </Home__Background>
       <Home__Overlay>

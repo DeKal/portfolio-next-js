@@ -53,8 +53,8 @@ exports[`GlobalStyleCss should render defaultTheme without throwing an error 1`]
         "workexp": "\\\\e804",
       },
       "images": Object {
-        "background": "/images/bg.jpg",
-        "backgroundMobile": "/images/bg-mobile.jpg",
+        "background": "/images/bg.webp",
+        "backgroundMobile": "/images/bg-mobile.webp",
         "bgPattern": "/images/bg-pattern.jpg",
         "bgPatternOpacity": "1",
         "overlay": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC",
