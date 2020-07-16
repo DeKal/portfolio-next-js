@@ -31,7 +31,7 @@ const Certification = () => {
                 key={index}
                 itemSelected={itemSelected}
                 setSelectedItem={setSelectedItem}
-                idNum={index + 1}
+                idnum={index + 1}
                 name={name}
               />
             ))}
@@ -42,7 +42,7 @@ const Certification = () => {
                 key={index}
                 itemSelected={itemSelected}
                 id={`cert-info-${index + 1}`}
-                idNum={index + 1}
+                idnum={index + 1}
                 title={info.title}
                 content={info.content}
               />

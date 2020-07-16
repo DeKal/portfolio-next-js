@@ -42,6 +42,19 @@ class MyDocument extends Document {
           <meta name="robots" content="index,follow" />
 
           <meta name="googlebot" content="index,follow" />
+          <link rel="preload" href="fonts/ip/font/ip.woff" as="font" />
+          <style>
+            {`@font-face {
+              font-family: 'ip';
+              src: url('/fonts/ip/font/ip.eot');
+              src: url('/fonts/ip/font/ip.eot#iefix') format('embedded-opentype'),
+              url('/fonts/ip/font/ip.woff') format('woff'),
+              url('/fonts/ip/font/ip.ttf') format('truetype'),
+              url('/fonts/ip/font/ip.svg') format('svg');
+              font-weight: normal;
+              font-style: normal;
+            }`}
+          </style>
         </Head>
         <body>
           <Main />

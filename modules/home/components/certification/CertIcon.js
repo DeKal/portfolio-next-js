@@ -3,8 +3,8 @@ import styled from 'styled-components/macro'
 import Icon from '~/modules/home/components/common/Icon'
 import PropTypes from 'prop-types'
 
-const CertIcon = ({ idNum, itemSelected, name }) => {
-  return itemSelected == idNum ? (
+const CertIcon = ({ idnum, itemSelected, name }) => {
+  return itemSelected == idnum ? (
     <ActiveIcon name={name} />
   ) : (
     <InactiveIcon name={name} />
@@ -12,7 +12,7 @@ const CertIcon = ({ idNum, itemSelected, name }) => {
 }
 
 CertIcon.propTypes = {
-  idNum: PropTypes.number,
+  idnum: PropTypes.number,
   itemSelected: PropTypes.any,
   name: PropTypes.string
 }

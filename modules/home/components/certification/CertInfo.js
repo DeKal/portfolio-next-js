@@ -7,17 +7,17 @@ import PropTypes from 'prop-types'
 import { Translate } from 'react-localize-redux'
 import Col from 'react-bootstrap/Col'
 
-const CertInfo = ({ itemSelected, idNum, title, content }) => {
+const CertInfo = ({ itemSelected, idnum, title, content }) => {
   return (
     <ShowOnSelectedCol
       sm={12}
       xs={12}
       itemselected={itemSelected}
-      idNum={idNum}
+      idnum={idnum}
     >
-      <ListInfo idNum={idNum}>
+      <ListInfo idnum={idnum}>
         <Title>
-          <span>{idNum}</span> &mdash; <Translate id={title} />
+          <span>{idnum}</span> &mdash; <Translate id={title} />
         </Title>
         <p>
           <Translate id={content} />
@@ -31,7 +31,7 @@ export default CertInfo
 
 CertInfo.propTypes = {
   itemSelected: PropTypes.number,
-  idNum: PropTypes.number,
+  idnum: PropTypes.number,
   title: PropTypes.string,
   content: PropTypes.string
 }
@@ -42,11 +42,11 @@ const ListInfo = styled(Info)`
 
   &::before,
   &::after {
-    left: ${({ idNum }) => LEFT_INFO_POS[idNum - 1]};
+    left: ${({ idnum }) => LEFT_INFO_POS[idnum - 1]};
   }
 `
 
 const ShowOnSelectedCol = styled(Col)`
-  display: ${({ itemselected, idNum }) =>
-    itemselected == idNum ? 'block' : 'none'};
+  display: ${({ itemselected, idnum }) =>
+    itemselected == idnum ? 'block' : 'none'};
 `

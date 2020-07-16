@@ -13,7 +13,7 @@ const Logo = styled.a`
   display: block;
   position: absolute;
   width: ${props => props.theme.navContentMinHeight};
-  color: ${props => props.theme.colors.colorLight};
+  color: ${props => props.theme.colors.colorDark};
   font-size: ${props => props.theme.navHeaderHeight};
   line-height: ${props => props.theme.navContentMinHeight};
   font-family: ${props => props.theme.fonts.fontSerif};

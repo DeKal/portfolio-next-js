@@ -67,7 +67,7 @@ exports[`Certification should render without throwing an error 1`] = `
                   >
                     <CertItem
                       id="cert-item-1"
-                      idNum={1}
+                      idnum={1}
                       itemSelected={1}
                       key="0"
                       name="c"
@@ -90,7 +90,7 @@ exports[`Certification should render without throwing an error 1`] = `
                               onClick={[Function]}
                             >
                               <CertIcon
-                                idNum={1}
+                                idnum={1}
                                 itemSelected={1}
                                 name="c"
                               >
@@ -120,7 +120,7 @@ exports[`Certification should render without throwing an error 1`] = `
                     </CertItem>
                     <CertItem
                       id="cert-item-2"
-                      idNum={2}
+                      idnum={2}
                       itemSelected={1}
                       key="1"
                       name="c"
@@ -143,7 +143,7 @@ exports[`Certification should render without throwing an error 1`] = `
                               onClick={[Function]}
                             >
                               <CertIcon
-                                idNum={2}
+                                idnum={2}
                                 itemSelected={1}
                                 name="c"
                               >
@@ -173,7 +173,7 @@ exports[`Certification should render without throwing an error 1`] = `
                     </CertItem>
                     <CertItem
                       id="cert-item-3"
-                      idNum={3}
+                      idnum={3}
                       itemSelected={1}
                       key="2"
                       name="p"
@@ -196,7 +196,7 @@ exports[`Certification should render without throwing an error 1`] = `
                               onClick={[Function]}
                             >
                               <CertIcon
-                                idNum={3}
+                                idnum={3}
                                 itemSelected={1}
                                 name="p"
                               >
@@ -226,7 +226,7 @@ exports[`Certification should render without throwing an error 1`] = `
                     </CertItem>
                     <CertItem
                       id="cert-item-4"
-                      idNum={4}
+                      idnum={4}
                       itemSelected={1}
                       key="3"
                       name="p"
@@ -249,7 +249,7 @@ exports[`Certification should render without throwing an error 1`] = `
                               onClick={[Function]}
                             >
                               <CertIcon
-                                idNum={4}
+                                idnum={4}
                                 itemSelected={1}
                                 name="p"
                               >
@@ -288,31 +288,31 @@ exports[`Certification should render without throwing an error 1`] = `
                     <CertInfo
                       content="CertContentBachelor"
                       id="cert-info-1"
-                      idNum={1}
+                      idnum={1}
                       itemSelected={1}
                       key="0"
                       title="CertBachelor"
                     >
                       <CertInfo__ShowOnSelectedCol
-                        idNum={1}
+                        idnum={1}
                         itemselected={1}
                         sm={12}
                         xs={12}
                       >
                         <Col
                           className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 cRkXqF"
-                          idNum={1}
+                          idnum={1}
                           itemselected={1}
                           sm={12}
                           xs={12}
                         >
                           <div
                             className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 cRkXqF col-sm-12 col-12"
-                            idNum={1}
+                            idnum={1}
                             itemselected={1}
                           >
                             <CertInfo__ListInfo
-                              idNum={1}
+                              idnum={1}
                             >
                               <div
                                 className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 spuSb"
@@ -384,31 +384,31 @@ exports[`Certification should render without throwing an error 1`] = `
                     <CertInfo
                       content="CertContentComm"
                       id="cert-info-2"
-                      idNum={2}
+                      idnum={2}
                       itemSelected={1}
                       key="1"
                       title="CertCom"
                     >
                       <CertInfo__ShowOnSelectedCol
-                        idNum={2}
+                        idnum={2}
                         itemselected={1}
                         sm={12}
                         xs={12}
                       >
                         <Col
                           className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 ecAlWC"
-                          idNum={2}
+                          idnum={2}
                           itemselected={1}
                           sm={12}
                           xs={12}
                         >
                           <div
                             className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 ecAlWC col-sm-12 col-12"
-                            idNum={2}
+                            idnum={2}
                             itemselected={1}
                           >
                             <CertInfo__ListInfo
-                              idNum={2}
+                              idnum={2}
                             >
                               <div
                                 className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 hnVcD"
@@ -480,31 +480,31 @@ exports[`Certification should render without throwing an error 1`] = `
                     <CertInfo
                       content="CertContentSPrize"
                       id="cert-info-3"
-                      idNum={3}
+                      idnum={3}
                       itemSelected={1}
                       key="2"
                       title="CertSPrize"
                     >
                       <CertInfo__ShowOnSelectedCol
-                        idNum={3}
+                        idnum={3}
                         itemselected={1}
                         sm={12}
                         xs={12}
                       >
                         <Col
                           className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 ecAlWC"
-                          idNum={3}
+                          idnum={3}
                           itemselected={1}
                           sm={12}
                           xs={12}
                         >
                           <div
                             className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 ecAlWC col-sm-12 col-12"
-                            idNum={3}
+                            idnum={3}
                             itemselected={1}
                           >
                             <CertInfo__ListInfo
-                              idNum={3}
+                              idnum={3}
                             >
                               <div
                                 className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 wBMKL"
@@ -576,31 +576,31 @@ exports[`Certification should render without throwing an error 1`] = `
                     <CertInfo
                       content="CertContentFPrize"
                       id="cert-info-4"
-                      idNum={4}
+                      idnum={4}
                       itemSelected={1}
                       key="3"
                       title="CertFPrize"
                     >
                       <CertInfo__ShowOnSelectedCol
-                        idNum={4}
+                        idnum={4}
                         itemselected={1}
                         sm={12}
                         xs={12}
                       >
                         <Col
                           className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 ecAlWC"
-                          idNum={4}
+                          idnum={4}
                           itemselected={1}
                           sm={12}
                           xs={12}
                         >
                           <div
                             className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 ecAlWC col-sm-12 col-12"
-                            idNum={4}
+                            idnum={4}
                             itemselected={1}
                           >
                             <CertInfo__ListInfo
-                              idNum={4}
+                              idnum={4}
                             >
                               <div
                                 className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 bcqQOr"

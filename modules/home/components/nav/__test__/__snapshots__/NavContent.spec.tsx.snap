@@ -35,7 +35,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                         href="https://github.com/DeKal/portfolio-next-js"
                       >
                         <a
-                          className="NavLogo__Logo-sc-100re03-0 flwyMz"
+                          className="NavLogo__Logo-sc-100re03-0 hHNwkm"
                           href="https://github.com/DeKal/portfolio-next-js"
                         >
                           <NavLogo__LogoText>
@@ -448,7 +448,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                         href="https://github.com/DeKal/portfolio-next-js"
                       >
                         <a
-                          className="NavLogo__Logo-sc-100re03-0 flwyMz"
+                          className="NavLogo__Logo-sc-100re03-0 hHNwkm"
                           href="https://github.com/DeKal/portfolio-next-js"
                         >
                           <NavLogo__LogoText>

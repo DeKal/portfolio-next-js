@@ -112,17 +112,6 @@ exports[`GlobalStyleCss should render defaultTheme without throwing an error 1`]
         background-color: #bdc3c7;
       }
 
-      @font-face {
-        font-family: 'ip';
-        src: url('/fonts/ip/font/ip.eot');
-        src: url('/fonts/ip/font/ip.eot#iefix') format('embedded-opentype'),
-          url('/fonts/ip/font/ip.woff') format('woff'),
-          url('/fonts/ip/font/ip.ttf') format('truetype'),
-          url('/fonts/ip/font/ip.svg') format('svg');
-        font-weight: normal;
-        font-style: normal;
-      }
-
       html,
       body,
       div,
@@ -466,17 +455,6 @@ exports[`GlobalStyleCss should render newyearTheme without throwing an error 1`]
         background-color: #bdc3c7;
       }
 
-      @font-face {
-        font-family: 'ip';
-        src: url('/fonts/ip/font/ip.eot');
-        src: url('/fonts/ip/font/ip.eot#iefix') format('embedded-opentype'),
-          url('/fonts/ip/font/ip.woff') format('woff'),
-          url('/fonts/ip/font/ip.ttf') format('truetype'),
-          url('/fonts/ip/font/ip.svg') format('svg');
-        font-weight: normal;
-        font-style: normal;
-      }
-
       html,
       body,
       div,
@@ -817,17 +795,6 @@ exports[`GlobalStyleCss should render xmasTheme without throwing an error 1`] = 
       *::-moz-selection {
         color: #ecf0f1;
         background-color: #bdc3c7;
-      }
-
-      @font-face {
-        font-family: 'ip';
-        src: url('/fonts/ip/font/ip.eot');
-        src: url('/fonts/ip/font/ip.eot#iefix') format('embedded-opentype'),
-          url('/fonts/ip/font/ip.woff') format('woff'),
-          url('/fonts/ip/font/ip.ttf') format('truetype'),
-          url('/fonts/ip/font/ip.svg') format('svg');
-        font-weight: normal;
-        font-style: normal;
       }
 
       html,

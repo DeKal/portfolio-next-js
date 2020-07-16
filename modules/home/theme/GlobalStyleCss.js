@@ -35,17 +35,6 @@ const GlobalStyleCss = ({ theme }) => {
         background-color: ${theme.colors.colorDarken};
       }
 
-      @font-face {
-        font-family: 'ip';
-        src: url('/fonts/ip/font/ip.eot');
-        src: url('/fonts/ip/font/ip.eot#iefix') format('embedded-opentype'),
-          url('/fonts/ip/font/ip.woff') format('woff'),
-          url('/fonts/ip/font/ip.ttf') format('truetype'),
-          url('/fonts/ip/font/ip.svg') format('svg');
-        font-weight: normal;
-        font-style: normal;
-      }
-
       html,
       body,
       div,
