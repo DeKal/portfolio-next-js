@@ -1,5 +1,8 @@
-name: Performance
-on: [push]
+name: Master Workflow - Check final performance
+on:
+  push:
+    branches:
+      - master
 jobs:
   lhci:
     name: Lighthouse
@@ -19,4 +22,4 @@ jobs:
       - name: run Lighthouse CI
         run: |
           npm install -g @lhci/cli@0.4.x
-          lhci autorun --config=./.lighthouse/lighthouserc-local.json
+          lhci autorun --config=./.lighthouse/lighthouserc-prod.json

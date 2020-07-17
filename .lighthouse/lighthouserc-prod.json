@@ -1,0 +1,23 @@
+{
+  "ci": {
+    "collect": {
+      "startServerCommand": "npm run start",
+      "startServerReadyPattern": "ready on",
+      "url": [
+        "https://phatho-folio.now.sh/"
+      ],
+      "numberOfRuns": 3
+    },
+    "assert": {
+      "assertions": {
+        "categories:performance": ["error", { "minScore": 0.8 }],
+        "first-contentful-paint": ["error", { "maxNumericValue": 2000 }],
+        "interactive": ["error", { "maxNumericValue": 5200 }],
+        "speed-index": ["error", { "maxNumericValue": 4300 }]
+      }
+    },
+    "upload": {
+      "target": "temporary-public-storage"
+    }
+  }
+}
