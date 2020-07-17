@@ -49,10 +49,11 @@ Testing is supported by Jester and using typescript. To run test using:
 
 ## Release
 Only release a version when git status is clean and on branch `master`.\
-Use `auto-changelog` to generate CHANGELOG.md.
+Use `auto-changelog` to generate [CHANGELOG.md](/CHANGELOG.md).
 ```bash
 yarn release
 ```
+
 
 ## CircleCI
 CI is supported by **Circle.io**. See detail at [CircleCI Guide](/docs/circleci.md)
