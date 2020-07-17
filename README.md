@@ -74,6 +74,9 @@ Circle.io will run through (Looking at .circleci/config.yml for details)
 #### VScode config: `jsconfig.json`
 #### Nextjs config: `next.config.js`
 
+## Lighthouse with Github action
+Running with Google Lighthouse for performance measuring.
+See detail at [Lighthouse](/docs/light-house.md)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
