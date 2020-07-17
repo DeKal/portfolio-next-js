@@ -5,7 +5,7 @@ const theme = {
   aboutMarginTop: '-111px',
   titleBgColor: 'rgba(44, 25, 0, 0.2)',
   colors: {
-    // Color variables
+    ...baseTheme.colors,
     colorLight: '#ecf0f1',
     colorDarken: '#bdc3c7',
     colorDark: '#2c3e50',

@@ -43,6 +43,7 @@ jobs:
       - run: yarn danger ci
       - run: yarn lint
       - run: yarn lint:css
+
       # run tests!
       - run: yarn test:coverage -w 1
       - store_artifacts:
