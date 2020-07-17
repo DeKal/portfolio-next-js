@@ -20,61 +20,50 @@ yarn
 ```
 
 ## Development
-### Dev
-To Dev using
+- To Dev using
 ```bash
 yarn dev
 ```
-### Lint check
+- To run in production mode using:
+```bash
+yarn build
+yarn start
+```
+
+## Lint check
 Use `eslint` to check Javascript code.
 ```bash
 yarn lint
 ```
-### StyleLint check
+
 Use `stylelint` to check SCSS embedded in JS code.
 ```bash
 yarn lint:css
 ```
-### Dangerjs
-DangerJs is running to check PRs info when pulling request.
 
-### Testing
-Testing is supported by Jester and using typescript.
-## Config
-- Jest config: `jest.config.js`
-- Typescript config for jest: `jest.tsconfig.json`
-- Jest init script: `enzyme.js`
-## Running Test
+## Testing
+Testing is supported by Jester and using typescript. To run test using:
 - Run test `yarn test`
 - Run test while developing `yarn test:watch`
 - Run test coverage `yarn test:coverage`
 
-### Release
-## Release a version
+## Release
 Only release a version when git status is clean and on branch `master`.\
 Use `auto-changelog` to generate CHANGELOG.md.
 ```bash
 yarn release
 ```
 
-## CD/CI
-CD/CI is supported by **Circle.io**.\
-Circle.io will run through (Looking at .circleci/config.yml for details)
-- `yarn`
-- `yarn danger ci`
-- `yarn lint`
-- `yarn lint:css`
-- `yarn test:coverage`
+## CircleCI
+CI is supported by **Circle.io**. See detail at [CircleCI Guide](/docs/circleci.md)
+
+## Scrutinizer
+Code Quality and assurance are supported by **Scrutinizer**. See detail at [Scrutinizer Guide](/docs/scrutinizer.md)
 
 ## Config files
-#### Prettier config: `.prettierrc`
-#### Babel config: `.bababelrc`
-#### Eslint config: `.eslintrc`
-#### Stylelint config: `.stylelintrc`
-#### VScode config: `jsconfig.json`
-#### Nextjs config: `next.config.js`
+A list of configs and setup files can be found at [Configs](/docs/configs.md).
 
-## Lighthouse with Github action
+## Lighthouse
 Running with Google Lighthouse for performance measuring.
 See detail at [Lighthouse](/docs/light-house.md)
 
