@@ -3,7 +3,7 @@ import baseTheme from './theme'
 const theme = {
   ...baseTheme,
   colors: {
-    // Color variables
+    ...baseTheme.colors,
     colorLight: '#ecf0f1',
     colorDarken: '#bdc3c7',
     colorDark: '#2c3e50',
