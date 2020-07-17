@@ -44,9 +44,6 @@ jobs:
       - run: yarn lint
       - run: yarn lint:css
 
-      - run: yarn global add -g @lhci/cli@0.4.x
-      - run: lhci autorun
-
       # run tests!
       - run: yarn test:coverage -w 1
       - store_artifacts:
