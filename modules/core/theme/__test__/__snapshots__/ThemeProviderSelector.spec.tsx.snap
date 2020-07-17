@@ -148,9 +148,12 @@ exports[`Theme Provider Selector Selector fo normal theme should render for chri
       "colors": Object {
         "bgColor": "#fff",
         "colorAccent": "#ff8484",
+        "colorBlack": "#000000",
         "colorDark": "#2c3e50",
         "colorDarken": "#bdc3c7",
         "colorLight": "#ecf0f1",
+        "ghostWhite": "#f8f8ff ",
+        "grey": "#696969",
       },
       "defaultLineHeight": 1.57,
       "extra": Object {
@@ -221,9 +224,12 @@ exports[`Theme Provider Selector Selector fo normal theme should render for chri
         "colors": Object {
           "bgColor": "#fff",
           "colorAccent": "#ff8484",
+          "colorBlack": "#000000",
           "colorDark": "#2c3e50",
           "colorDarken": "#bdc3c7",
           "colorLight": "#ecf0f1",
+          "ghostWhite": "#f8f8ff ",
+          "grey": "#696969",
         },
         "defaultLineHeight": 1.57,
         "extra": Object {
@@ -298,9 +304,12 @@ exports[`Theme Provider Selector Selector fo normal theme should render for new 
       "colors": Object {
         "bgColor": "#fff",
         "colorAccent": "#F0B14A",
+        "colorBlack": "#000000",
         "colorDark": "#2c3e50",
         "colorDarken": "#bdc3c7",
         "colorLight": "#ecf0f1",
+        "ghostWhite": "#f8f8ff ",
+        "grey": "#696969",
       },
       "defaultLineHeight": 1.57,
       "extra": Object {
@@ -372,9 +381,12 @@ exports[`Theme Provider Selector Selector fo normal theme should render for new 
         "colors": Object {
           "bgColor": "#fff",
           "colorAccent": "#F0B14A",
+          "colorBlack": "#000000",
           "colorDark": "#2c3e50",
           "colorDarken": "#bdc3c7",
           "colorLight": "#ecf0f1",
+          "ghostWhite": "#f8f8ff ",
+          "grey": "#696969",
         },
         "defaultLineHeight": 1.57,
         "extra": Object {
@@ -610,9 +622,12 @@ exports[`Theme Provider Selector Selector fo normal theme should render for tet 
       "colors": Object {
         "bgColor": "#fff",
         "colorAccent": "#FFA500",
+        "colorBlack": "#000000",
         "colorDark": "#2c3e50",
         "colorDarken": "#bdc3c7",
         "colorLight": "#ecf0f1",
+        "ghostWhite": "#f8f8ff ",
+        "grey": "#696969",
       },
       "defaultLineHeight": 1.57,
       "extra": Object {
@@ -684,9 +699,12 @@ exports[`Theme Provider Selector Selector fo normal theme should render for tet 
         "colors": Object {
           "bgColor": "#fff",
           "colorAccent": "#FFA500",
+          "colorBlack": "#000000",
           "colorDark": "#2c3e50",
           "colorDarken": "#bdc3c7",
           "colorLight": "#ecf0f1",
+          "ghostWhite": "#f8f8ff ",
+          "grey": "#696969",
         },
         "defaultLineHeight": 1.57,
         "extra": Object {
