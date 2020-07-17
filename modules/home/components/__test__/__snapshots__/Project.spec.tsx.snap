@@ -92,7 +92,7 @@ exports[`Project should render without throwing an error 1`] = `
                     <Item
                       hoverTitle="Brand360 project"
                       imgAlt="Brand 360"
-                      imgSrc="/images/projects/brand360.jpg"
+                      imgSrc="/images/projects/brand360.webp"
                       linkToWeb="http://brand360.vn/"
                     >
                       <Col
@@ -109,12 +109,12 @@ exports[`Project should render without throwing an error 1`] = `
                             >
                               <Item__Image
                                 alt="Brand 360"
-                                src="/images/projects/brand360.jpg"
+                                src="/images/projects/brand360.webp"
                               >
                                 <img
                                   alt="Brand 360"
                                   className="Item__Image-sc-1su8qr-1 kTULZk"
-                                  src="/images/projects/brand360.jpg"
+                                  src="/images/projects/brand360.webp"
                                 />
                               </Item__Image>
                               <Caption
@@ -160,7 +160,7 @@ exports[`Project should render without throwing an error 1`] = `
                     <Item
                       hoverTitle="Masan Report"
                       imgAlt="Report application for Masan"
-                      imgSrc="/images/projects/anco.jpg"
+                      imgSrc="/images/projects/anco.webp"
                       linkToWeb=""
                     >
                       <Col
@@ -177,12 +177,12 @@ exports[`Project should render without throwing an error 1`] = `
                             >
                               <Item__Image
                                 alt="Report application for Masan"
-                                src="/images/projects/anco.jpg"
+                                src="/images/projects/anco.webp"
                               >
                                 <img
                                   alt="Report application for Masan"
                                   className="Item__Image-sc-1su8qr-1 kTULZk"
-                                  src="/images/projects/anco.jpg"
+                                  src="/images/projects/anco.webp"
                                 />
                               </Item__Image>
                               <Caption
@@ -228,7 +228,7 @@ exports[`Project should render without throwing an error 1`] = `
                     <Item
                       hoverTitle="Tam An Web"
                       imgAlt="Tam An Web"
-                      imgSrc="/images/projects/taman.jpg"
+                      imgSrc="/images/projects/taman.webp"
                       linkToWeb="https://github.com/DeKal/Tam-An-Food-Store-Manager"
                     >
                       <Col
@@ -245,12 +245,12 @@ exports[`Project should render without throwing an error 1`] = `
                             >
                               <Item__Image
                                 alt="Tam An Web"
-                                src="/images/projects/taman.jpg"
+                                src="/images/projects/taman.webp"
                               >
                                 <img
                                   alt="Tam An Web"
                                   className="Item__Image-sc-1su8qr-1 kTULZk"
-                                  src="/images/projects/taman.jpg"
+                                  src="/images/projects/taman.webp"
                                 />
                               </Item__Image>
                               <Caption
@@ -296,7 +296,7 @@ exports[`Project should render without throwing an error 1`] = `
                     <Item
                       hoverTitle="2048 Fun Games"
                       imgAlt="2048 Fun Games"
-                      imgSrc="/images/projects/2048.jpg"
+                      imgSrc="/images/projects/2048.webp"
                       linkToWeb="https://github.com/DeKal/2048"
                     >
                       <Col
@@ -313,12 +313,12 @@ exports[`Project should render without throwing an error 1`] = `
                             >
                               <Item__Image
                                 alt="2048 Fun Games"
-                                src="/images/projects/2048.jpg"
+                                src="/images/projects/2048.webp"
                               >
                                 <img
                                   alt="2048 Fun Games"
                                   className="Item__Image-sc-1su8qr-1 kTULZk"
-                                  src="/images/projects/2048.jpg"
+                                  src="/images/projects/2048.webp"
                                 />
                               </Item__Image>
                               <Caption
