@@ -20,28 +20,28 @@ const Project = () => (
     </Header>
     <Content>
       <Item
-        imgSrc="/images/projects/brand360.jpg"
+        imgSrc="/images/projects/brand360.webp"
         imgAlt="Brand 360"
         linkToWeb="http://brand360.vn/"
         hoverTitle="Brand360 project"
       />
 
       <Item
-        imgSrc="/images/projects/anco.jpg"
+        imgSrc="/images/projects/anco.webp"
         imgAlt="Report application for Masan"
         linkToWeb=""
         hoverTitle="Masan Report"
       />
 
       <Item
-        imgSrc="/images/projects/taman.jpg"
+        imgSrc="/images/projects/taman.webp"
         imgAlt="Tam An Web"
         linkToWeb="https://github.com/DeKal/Tam-An-Food-Store-Manager"
         hoverTitle="Tam An Web"
       />
 
       <Item
-        imgSrc="/images/projects/2048.jpg"
+        imgSrc="/images/projects/2048.webp"
         imgAlt="2048 Fun Games"
         linkToWeb="https://github.com/DeKal/2048"
         hoverTitle="2048 Fun Games"
