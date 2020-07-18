@@ -19,6 +19,9 @@ Use yarn to install dependencies.
 yarn
 ```
 
+## Config files
+A list of configs can be found at [Configs](/docs/configs.md).
+
 ## Development
 - To Dev using
 ```bash
@@ -54,19 +57,30 @@ Use `auto-changelog` to generate [CHANGELOG.md](/CHANGELOG.md).
 yarn release
 ```
 
+## Deployment
+Deployment was handled by [Vercel](https://vercel.com/dashboard) Deploy, Preview and Ship (DPS). 
+
+See detail at [Deployment](/docs/deployment.md)
 
 ## CircleCI
-CI is supported by **Circle.io**. See detail at [CircleCI Guide](/docs/circleci.md)
+CI is supported by **Circle.io**. 
+
+See detail at [CircleCI Guide](/docs/circleci.md).
 
 ## Scrutinizer
-Code Quality and assurance are supported by **Scrutinizer**. See detail at [Scrutinizer Guide](/docs/scrutinizer.md)
+Code Quality and assurance are supported by **Scrutinizer**. 
 
-## Config files
-A list of configs and setup files can be found at [Configs](/docs/configs.md).
+See detail at [Scrutinizer Guide](/docs/scrutinizer.md).
+
+## Supportive Bots
+Bots are used for maintaining dependencies, optimizing images and quality control PRs. 
+
+See detail at [Bots](/docs/bots.md).
 
 ## Lighthouse
 Running with Google Lighthouse for performance measuring.
-See detail at [Lighthouse](/docs/light-house.md)
+
+See detail at [Lighthouse](/docs/light-house.md).
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
