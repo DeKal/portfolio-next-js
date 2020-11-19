@@ -5643,10 +5643,10 @@ d@1, d@^1.0.1:
     es5-ext "^0.10.50"
     type "^1.0.1"
 
-danger@10.4.1:
-  version "10.4.1"
-  resolved "https://registry.yarnpkg.com/danger/-/danger-10.4.1.tgz#7614539f234d642c8f95e625fb7f09f540a5fb97"
-  integrity sha512-C0Iz1FY1oZ1Rc98jNpdIirKasiBpSeEVj378UvCupdfJ6/ZvL/CIH1ae5NBnV6eT/GXkah44o8h/nAuXtGW6fQ==
+danger@10.5.3:
+  version "10.5.3"
+  resolved "https://registry.yarnpkg.com/danger/-/danger-10.5.3.tgz#5828fdc90bb5aca04540b418656f5a93639bb74b"
+  integrity sha512-64ZjkDQNhQNDfUWOyEG9VgT1yjIY0q5dN5K1ocWrZ5whOySN5GjBX4CxaFrY1+HgQldCXCMSp6Xq+3+vFbUt4g==
   dependencies:
     "@babel/polyfill" "^7.2.5"
     "@octokit/rest" "^16.43.1"
