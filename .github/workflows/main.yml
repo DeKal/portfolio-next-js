@@ -7,9 +7,9 @@ jobs:
   lhci:
     name: Lighthouse
     runs-on: ubuntu-latest
+    env:
+      LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
     steps:
-      - name: Set LHCI_GITHUB_APP_TOKEN
-        run: echo '::set-env name=LHCI_GITHUB_APP_TOKEN::${{ secrets.LHCI_GITHUB_APP_TOKEN }}'
       - uses: actions/checkout@v2
       - name: Use Node.js 10.x
         uses: actions/setup-node@v2
