@@ -14,6 +14,7 @@ const theme = {
   },
   images: {
     background: '/images/newyear/bg-newyear.jpg',
+    backgroundMobile: '/images/bg-mobile.webp',
     bgPattern: '/images/newyear/bg-pattern.jpg',
     bgPatternOpacity: '0.3',
     overlayBgColor: 'rgba(44, 62, 80, 0.3)',

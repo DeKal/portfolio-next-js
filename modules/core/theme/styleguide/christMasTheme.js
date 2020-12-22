@@ -12,6 +12,7 @@ const theme = {
   },
   images: {
     background: '/images/christmas/bg-christmas.jpg',
+    backgroundMobile: '/images/bg-mobile.webp',
     bgPattern: '/images/christmas/bg-pattern-snow.png',
     bgPatternOpacity: '0.25',
     overlayBgColor: 'rgba(44, 62, 80, 0.3)',

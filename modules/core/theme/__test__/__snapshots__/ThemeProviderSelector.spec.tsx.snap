@@ -194,6 +194,7 @@ exports[`Theme Provider Selector Selector fo normal theme should render for chri
       },
       "images": Object {
         "background": "/images/christmas/bg-christmas.jpg",
+        "backgroundMobile": "/images/bg-mobile.webp",
         "bgPattern": "/images/christmas/bg-pattern-snow.png",
         "bgPatternOpacity": "0.25",
         "overlay": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC",
@@ -270,6 +271,7 @@ exports[`Theme Provider Selector Selector fo normal theme should render for chri
         },
         "images": Object {
           "background": "/images/christmas/bg-christmas.jpg",
+          "backgroundMobile": "/images/bg-mobile.webp",
           "bgPattern": "/images/christmas/bg-pattern-snow.png",
           "bgPatternOpacity": "0.25",
           "overlay": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC",
@@ -350,6 +352,7 @@ exports[`Theme Provider Selector Selector fo normal theme should render for new 
       },
       "images": Object {
         "background": "/images/newyear/bg-newyear.jpg",
+        "backgroundMobile": "/images/bg-mobile.webp",
         "bgPattern": "/images/newyear/bg-pattern.jpg",
         "bgPatternOpacity": "0.3",
         "overlay": "",
@@ -427,6 +430,7 @@ exports[`Theme Provider Selector Selector fo normal theme should render for new 
         },
         "images": Object {
           "background": "/images/newyear/bg-newyear.jpg",
+          "backgroundMobile": "/images/bg-mobile.webp",
           "bgPattern": "/images/newyear/bg-pattern.jpg",
           "bgPatternOpacity": "0.3",
           "overlay": "",
@@ -668,6 +672,7 @@ exports[`Theme Provider Selector Selector fo normal theme should render for tet 
       },
       "images": Object {
         "background": "/images/tet/bg-tet.jpg",
+        "backgroundMobile": "/images/bg-mobile.webp",
         "bgPattern": "/images/tet/bg-pattern.jpg",
         "bgPatternOpacity": "0.1",
         "overlay": "",
@@ -745,6 +750,7 @@ exports[`Theme Provider Selector Selector fo normal theme should render for tet 
         },
         "images": Object {
           "background": "/images/tet/bg-tet.jpg",
+          "backgroundMobile": "/images/bg-mobile.webp",
           "bgPattern": "/images/tet/bg-pattern.jpg",
           "bgPatternOpacity": "0.1",
           "overlay": "",
