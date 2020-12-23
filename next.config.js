@@ -10,7 +10,8 @@ module.exports = withPlugins([
       cssLoaderOptions: {
         importLoaders: 1,
         localIdentName: '[local]'
-      }
+      },
+      exportTrailingSlash: true
     }
   ]
 ])
