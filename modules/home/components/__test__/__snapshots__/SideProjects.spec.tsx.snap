@@ -81,30 +81,31 @@ exports[`SideProjects should render without throwing an error 1`] = `
                 <List
                   companies={
                     Array [
-                      "Portfolio",
-                      "LiveGuess",
+                      "Portfolio-FE",
+                      "Portfolio-BE",
                     ]
                   }
                 >
                   <Col
-                    key="Portfolio"
+                    key="Portfolio-FE"
                     md={6}
                   >
                     <div
                       className="col-md-6"
                     >
                       <List__Container>
-                        <ul
-                          className="List__Container-sc-1asami6-0 Zlfwd"
+                        <div
+                          className="List__Container-sc-1asami6-0 iRpqJL"
                         >
                           <Item
-                            dates="Exp: Portfolio Dates"
-                            description="Exp: Portfolio Desc"
-                            skill="Exp: Portfolio Skill"
-                            title="Exp: Portfolio Title"
+                            dates="Exp: Portfolio-FE Dates"
+                            description="Exp: Portfolio-FE Desc"
+                            role="Exp: Portfolio-FE Role"
+                            skill="Exp: Portfolio-FE Skill"
+                            title="Exp: Portfolio-FE Title"
                           >
                             <Item__Container>
-                              <li
+                              <div
                                 className="Item__Container-phyof1-0 kibNdn"
                               >
                                 <ExpIcon
@@ -130,7 +131,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                     className="Title-sc-12w0cji-0 dEValg"
                                   >
                                     <Translate
-                                      id="Exp: Portfolio Title"
+                                      id="Exp: Portfolio-FE Title"
                                     >
                                       <WrappedTranslate
                                         context={
@@ -147,20 +148,19 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                             "translate": [Function],
                                           }
                                         }
-                                        id="Exp: Portfolio Title"
+                                        id="Exp: Portfolio-FE Title"
                                       >
-                                        Missing translationId: Exp: Portfolio Title for language: \${ languageCode }
+                                        Missing translationId: Exp: Portfolio-FE Title for language: \${ languageCode }
                                       </WrappedTranslate>
                                     </Translate>
                                   </h4>
                                 </Title>
                                 <Dates>
                                   <p
-                                    className="Dates-zjn4sl-0 bPyzhJ"
+                                    className="Dates-zjn4sl-0 dYyzdi"
                                   >
-                                    (
                                     <Translate
-                                      id="Exp: Portfolio Dates"
+                                      id="Exp: Portfolio-FE Role"
                                     >
                                       <WrappedTranslate
                                         context={
@@ -177,9 +177,33 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                             "translate": [Function],
                                           }
                                         }
-                                        id="Exp: Portfolio Dates"
+                                        id="Exp: Portfolio-FE Role"
                                       >
-                                        Missing translationId: Exp: Portfolio Dates for language: \${ languageCode }
+                                        Missing translationId: Exp: Portfolio-FE Role for language: \${ languageCode }
+                                      </WrappedTranslate>
+                                    </Translate>
+                                     (
+                                    <Translate
+                                      id="Exp: Portfolio-FE Dates"
+                                    >
+                                      <WrappedTranslate
+                                        context={
+                                          Object {
+                                            "activeLanguage": undefined,
+                                            "addTranslation": [Function],
+                                            "addTranslationForLanguage": [Function],
+                                            "defaultLanguage": undefined,
+                                            "ignoreTranslateChildren": false,
+                                            "initialize": [Function],
+                                            "languages": Array [],
+                                            "renderToStaticMarkup": false,
+                                            "setActiveLanguage": [Function],
+                                            "translate": [Function],
+                                          }
+                                        }
+                                        id="Exp: Portfolio-FE Dates"
+                                      >
+                                        Missing translationId: Exp: Portfolio-FE Dates for language: \${ languageCode }
                                       </WrappedTranslate>
                                     </Translate>
                                     )
@@ -189,41 +213,12 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                   <p
                                     className="Description-sc-83rdc7-0 JaXoG"
                                   >
-                                    <Translate
-                                      id="Exp: Portfolio Desc"
-                                    >
-                                      <WrappedTranslate
-                                        context={
-                                          Object {
-                                            "activeLanguage": undefined,
-                                            "addTranslation": [Function],
-                                            "addTranslationForLanguage": [Function],
-                                            "defaultLanguage": undefined,
-                                            "ignoreTranslateChildren": false,
-                                            "initialize": [Function],
-                                            "languages": Array [],
-                                            "renderToStaticMarkup": false,
-                                            "setActiveLanguage": [Function],
-                                            "translate": [Function],
-                                          }
-                                        }
-                                        id="Exp: Portfolio Desc"
-                                      >
-                                        Missing translationId: Exp: Portfolio Desc for language: \${ languageCode }
-                                      </WrappedTranslate>
-                                    </Translate>
-                                  </p>
-                                </Description>
-                                <Description>
-                                  <p
-                                    className="Description-sc-83rdc7-0 JaXoG"
-                                  >
                                     <Bold>
                                       <b
                                         className="Bold-sc-13i2l06-0 dtbVKu"
                                       >
                                         <Translate
-                                          id="Exp: Portfolio Skill"
+                                          id="Exp: Portfolio-FE Skill"
                                         >
                                           <WrappedTranslate
                                             context={
@@ -240,19 +235,454 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                                 "translate": [Function],
                                               }
                                             }
-                                            id="Exp: Portfolio Skill"
+                                            id="Exp: Portfolio-FE Skill"
                                           >
-                                            Missing translationId: Exp: Portfolio Skill for language: \${ languageCode }
+                                            Missing translationId: Exp: Portfolio-FE Skill for language: \${ languageCode }
                                           </WrappedTranslate>
                                         </Translate>
                                       </b>
                                     </Bold>
                                   </p>
                                 </Description>
-                              </li>
+                                <Description>
+                                  <p
+                                    className="Description-sc-83rdc7-0 JaXoG"
+                                  >
+                                    <Translate
+                                      id="Exp: Portfolio-FE Desc"
+                                    >
+                                      <WrappedTranslate
+                                        context={
+                                          Object {
+                                            "activeLanguage": undefined,
+                                            "addTranslation": [Function],
+                                            "addTranslationForLanguage": [Function],
+                                            "defaultLanguage": undefined,
+                                            "ignoreTranslateChildren": false,
+                                            "initialize": [Function],
+                                            "languages": Array [],
+                                            "renderToStaticMarkup": false,
+                                            "setActiveLanguage": [Function],
+                                            "translate": [Function],
+                                          }
+                                        }
+                                        id="Exp: Portfolio-FE Desc"
+                                      >
+                                        Missing translationId: Exp: Portfolio-FE Desc for language: \${ languageCode }
+                                      </WrappedTranslate>
+                                    </Translate>
+                                  </p>
+                                </Description>
+                              </div>
                             </Item__Container>
                           </Item>
-                        </ul>
+                        </div>
+                      </List__Container>
+                    </div>
+                  </Col>
+                  <Col
+                    key="Portfolio-BE"
+                    md={6}
+                  >
+                    <div
+                      className="col-md-6"
+                    >
+                      <List__Container>
+                        <div
+                          className="List__Container-sc-1asami6-0 iRpqJL"
+                        >
+                          <Item
+                            dates="Exp: Portfolio-BE Dates"
+                            description="Exp: Portfolio-BE Desc"
+                            role="Exp: Portfolio-BE Role"
+                            skill="Exp: Portfolio-BE Skill"
+                            title="Exp: Portfolio-BE Title"
+                          >
+                            <Item__Container>
+                              <div
+                                className="Item__Container-phyof1-0 kibNdn"
+                              >
+                                <ExpIcon
+                                  name="workexp"
+                                >
+                                  <Icon
+                                    className="ExpIcon-sc-2nr1xu-0 bHORkU"
+                                    name="workexp"
+                                  >
+                                    <Icon__Symbol
+                                      className="ExpIcon-sc-2nr1xu-0 bHORkU"
+                                      name="workexp"
+                                    >
+                                      <div
+                                        className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-sc-2nr1xu-0 bHORkU"
+                                        name="workexp"
+                                      />
+                                    </Icon__Symbol>
+                                  </Icon>
+                                </ExpIcon>
+                                <Title>
+                                  <h4
+                                    className="Title-sc-12w0cji-0 dEValg"
+                                  >
+                                    <Translate
+                                      id="Exp: Portfolio-BE Title"
+                                    >
+                                      <WrappedTranslate
+                                        context={
+                                          Object {
+                                            "activeLanguage": undefined,
+                                            "addTranslation": [Function],
+                                            "addTranslationForLanguage": [Function],
+                                            "defaultLanguage": undefined,
+                                            "ignoreTranslateChildren": false,
+                                            "initialize": [Function],
+                                            "languages": Array [],
+                                            "renderToStaticMarkup": false,
+                                            "setActiveLanguage": [Function],
+                                            "translate": [Function],
+                                          }
+                                        }
+                                        id="Exp: Portfolio-BE Title"
+                                      >
+                                        Missing translationId: Exp: Portfolio-BE Title for language: \${ languageCode }
+                                      </WrappedTranslate>
+                                    </Translate>
+                                  </h4>
+                                </Title>
+                                <Dates>
+                                  <p
+                                    className="Dates-zjn4sl-0 dYyzdi"
+                                  >
+                                    <Translate
+                                      id="Exp: Portfolio-BE Role"
+                                    >
+                                      <WrappedTranslate
+                                        context={
+                                          Object {
+                                            "activeLanguage": undefined,
+                                            "addTranslation": [Function],
+                                            "addTranslationForLanguage": [Function],
+                                            "defaultLanguage": undefined,
+                                            "ignoreTranslateChildren": false,
+                                            "initialize": [Function],
+                                            "languages": Array [],
+                                            "renderToStaticMarkup": false,
+                                            "setActiveLanguage": [Function],
+                                            "translate": [Function],
+                                          }
+                                        }
+                                        id="Exp: Portfolio-BE Role"
+                                      >
+                                        Missing translationId: Exp: Portfolio-BE Role for language: \${ languageCode }
+                                      </WrappedTranslate>
+                                    </Translate>
+                                     (
+                                    <Translate
+                                      id="Exp: Portfolio-BE Dates"
+                                    >
+                                      <WrappedTranslate
+                                        context={
+                                          Object {
+                                            "activeLanguage": undefined,
+                                            "addTranslation": [Function],
+                                            "addTranslationForLanguage": [Function],
+                                            "defaultLanguage": undefined,
+                                            "ignoreTranslateChildren": false,
+                                            "initialize": [Function],
+                                            "languages": Array [],
+                                            "renderToStaticMarkup": false,
+                                            "setActiveLanguage": [Function],
+                                            "translate": [Function],
+                                          }
+                                        }
+                                        id="Exp: Portfolio-BE Dates"
+                                      >
+                                        Missing translationId: Exp: Portfolio-BE Dates for language: \${ languageCode }
+                                      </WrappedTranslate>
+                                    </Translate>
+                                    )
+                                  </p>
+                                </Dates>
+                                <Description>
+                                  <p
+                                    className="Description-sc-83rdc7-0 JaXoG"
+                                  >
+                                    <Bold>
+                                      <b
+                                        className="Bold-sc-13i2l06-0 dtbVKu"
+                                      >
+                                        <Translate
+                                          id="Exp: Portfolio-BE Skill"
+                                        >
+                                          <WrappedTranslate
+                                            context={
+                                              Object {
+                                                "activeLanguage": undefined,
+                                                "addTranslation": [Function],
+                                                "addTranslationForLanguage": [Function],
+                                                "defaultLanguage": undefined,
+                                                "ignoreTranslateChildren": false,
+                                                "initialize": [Function],
+                                                "languages": Array [],
+                                                "renderToStaticMarkup": false,
+                                                "setActiveLanguage": [Function],
+                                                "translate": [Function],
+                                              }
+                                            }
+                                            id="Exp: Portfolio-BE Skill"
+                                          >
+                                            Missing translationId: Exp: Portfolio-BE Skill for language: \${ languageCode }
+                                          </WrappedTranslate>
+                                        </Translate>
+                                      </b>
+                                    </Bold>
+                                  </p>
+                                </Description>
+                                <Description>
+                                  <p
+                                    className="Description-sc-83rdc7-0 JaXoG"
+                                  >
+                                    <Translate
+                                      id="Exp: Portfolio-BE Desc"
+                                    >
+                                      <WrappedTranslate
+                                        context={
+                                          Object {
+                                            "activeLanguage": undefined,
+                                            "addTranslation": [Function],
+                                            "addTranslationForLanguage": [Function],
+                                            "defaultLanguage": undefined,
+                                            "ignoreTranslateChildren": false,
+                                            "initialize": [Function],
+                                            "languages": Array [],
+                                            "renderToStaticMarkup": false,
+                                            "setActiveLanguage": [Function],
+                                            "translate": [Function],
+                                          }
+                                        }
+                                        id="Exp: Portfolio-BE Desc"
+                                      >
+                                        Missing translationId: Exp: Portfolio-BE Desc for language: \${ languageCode }
+                                      </WrappedTranslate>
+                                    </Translate>
+                                  </p>
+                                </Description>
+                              </div>
+                            </Item__Container>
+                          </Item>
+                        </div>
+                      </List__Container>
+                    </div>
+                  </Col>
+                </List>
+              </div>
+            </Row>
+            <Row
+              key="1"
+              noGutters={false}
+            >
+              <div
+                className="row"
+              >
+                <List
+                  companies={
+                    Array [
+                      "Popswap",
+                      "LiveGuess",
+                    ]
+                  }
+                >
+                  <Col
+                    key="Popswap"
+                    md={6}
+                  >
+                    <div
+                      className="col-md-6"
+                    >
+                      <List__Container>
+                        <div
+                          className="List__Container-sc-1asami6-0 iRpqJL"
+                        >
+                          <Item
+                            dates="Exp: Popswap Dates"
+                            description="Exp: Popswap Desc"
+                            role="Exp: Popswap Role"
+                            skill="Exp: Popswap Skill"
+                            title="Exp: Popswap Title"
+                          >
+                            <Item__Container>
+                              <div
+                                className="Item__Container-phyof1-0 kibNdn"
+                              >
+                                <ExpIcon
+                                  name="workexp"
+                                >
+                                  <Icon
+                                    className="ExpIcon-sc-2nr1xu-0 bHORkU"
+                                    name="workexp"
+                                  >
+                                    <Icon__Symbol
+                                      className="ExpIcon-sc-2nr1xu-0 bHORkU"
+                                      name="workexp"
+                                    >
+                                      <div
+                                        className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-sc-2nr1xu-0 bHORkU"
+                                        name="workexp"
+                                      />
+                                    </Icon__Symbol>
+                                  </Icon>
+                                </ExpIcon>
+                                <Title>
+                                  <h4
+                                    className="Title-sc-12w0cji-0 dEValg"
+                                  >
+                                    <Translate
+                                      id="Exp: Popswap Title"
+                                    >
+                                      <WrappedTranslate
+                                        context={
+                                          Object {
+                                            "activeLanguage": undefined,
+                                            "addTranslation": [Function],
+                                            "addTranslationForLanguage": [Function],
+                                            "defaultLanguage": undefined,
+                                            "ignoreTranslateChildren": false,
+                                            "initialize": [Function],
+                                            "languages": Array [],
+                                            "renderToStaticMarkup": false,
+                                            "setActiveLanguage": [Function],
+                                            "translate": [Function],
+                                          }
+                                        }
+                                        id="Exp: Popswap Title"
+                                      >
+                                        Missing translationId: Exp: Popswap Title for language: \${ languageCode }
+                                      </WrappedTranslate>
+                                    </Translate>
+                                  </h4>
+                                </Title>
+                                <Dates>
+                                  <p
+                                    className="Dates-zjn4sl-0 dYyzdi"
+                                  >
+                                    <Translate
+                                      id="Exp: Popswap Role"
+                                    >
+                                      <WrappedTranslate
+                                        context={
+                                          Object {
+                                            "activeLanguage": undefined,
+                                            "addTranslation": [Function],
+                                            "addTranslationForLanguage": [Function],
+                                            "defaultLanguage": undefined,
+                                            "ignoreTranslateChildren": false,
+                                            "initialize": [Function],
+                                            "languages": Array [],
+                                            "renderToStaticMarkup": false,
+                                            "setActiveLanguage": [Function],
+                                            "translate": [Function],
+                                          }
+                                        }
+                                        id="Exp: Popswap Role"
+                                      >
+                                        Missing translationId: Exp: Popswap Role for language: \${ languageCode }
+                                      </WrappedTranslate>
+                                    </Translate>
+                                     (
+                                    <Translate
+                                      id="Exp: Popswap Dates"
+                                    >
+                                      <WrappedTranslate
+                                        context={
+                                          Object {
+                                            "activeLanguage": undefined,
+                                            "addTranslation": [Function],
+                                            "addTranslationForLanguage": [Function],
+                                            "defaultLanguage": undefined,
+                                            "ignoreTranslateChildren": false,
+                                            "initialize": [Function],
+                                            "languages": Array [],
+                                            "renderToStaticMarkup": false,
+                                            "setActiveLanguage": [Function],
+                                            "translate": [Function],
+                                          }
+                                        }
+                                        id="Exp: Popswap Dates"
+                                      >
+                                        Missing translationId: Exp: Popswap Dates for language: \${ languageCode }
+                                      </WrappedTranslate>
+                                    </Translate>
+                                    )
+                                  </p>
+                                </Dates>
+                                <Description>
+                                  <p
+                                    className="Description-sc-83rdc7-0 JaXoG"
+                                  >
+                                    <Bold>
+                                      <b
+                                        className="Bold-sc-13i2l06-0 dtbVKu"
+                                      >
+                                        <Translate
+                                          id="Exp: Popswap Skill"
+                                        >
+                                          <WrappedTranslate
+                                            context={
+                                              Object {
+                                                "activeLanguage": undefined,
+                                                "addTranslation": [Function],
+                                                "addTranslationForLanguage": [Function],
+                                                "defaultLanguage": undefined,
+                                                "ignoreTranslateChildren": false,
+                                                "initialize": [Function],
+                                                "languages": Array [],
+                                                "renderToStaticMarkup": false,
+                                                "setActiveLanguage": [Function],
+                                                "translate": [Function],
+                                              }
+                                            }
+                                            id="Exp: Popswap Skill"
+                                          >
+                                            Missing translationId: Exp: Popswap Skill for language: \${ languageCode }
+                                          </WrappedTranslate>
+                                        </Translate>
+                                      </b>
+                                    </Bold>
+                                  </p>
+                                </Description>
+                                <Description>
+                                  <p
+                                    className="Description-sc-83rdc7-0 JaXoG"
+                                  >
+                                    <Translate
+                                      id="Exp: Popswap Desc"
+                                    >
+                                      <WrappedTranslate
+                                        context={
+                                          Object {
+                                            "activeLanguage": undefined,
+                                            "addTranslation": [Function],
+                                            "addTranslationForLanguage": [Function],
+                                            "defaultLanguage": undefined,
+                                            "ignoreTranslateChildren": false,
+                                            "initialize": [Function],
+                                            "languages": Array [],
+                                            "renderToStaticMarkup": false,
+                                            "setActiveLanguage": [Function],
+                                            "translate": [Function],
+                                          }
+                                        }
+                                        id="Exp: Popswap Desc"
+                                      >
+                                        Missing translationId: Exp: Popswap Desc for language: \${ languageCode }
+                                      </WrappedTranslate>
+                                    </Translate>
+                                  </p>
+                                </Description>
+                              </div>
+                            </Item__Container>
+                          </Item>
+                        </div>
                       </List__Container>
                     </div>
                   </Col>
@@ -264,17 +694,18 @@ exports[`SideProjects should render without throwing an error 1`] = `
                       className="col-md-6"
                     >
                       <List__Container>
-                        <ul
-                          className="List__Container-sc-1asami6-0 Zlfwd"
+                        <div
+                          className="List__Container-sc-1asami6-0 iRpqJL"
                         >
                           <Item
                             dates="Exp: LiveGuess Dates"
                             description="Exp: LiveGuess Desc"
+                            role="Exp: LiveGuess Role"
                             skill="Exp: LiveGuess Skill"
                             title="Exp: LiveGuess Title"
                           >
                             <Item__Container>
-                              <li
+                              <div
                                 className="Item__Container-phyof1-0 kibNdn"
                               >
                                 <ExpIcon
@@ -326,9 +757,32 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                 </Title>
                                 <Dates>
                                   <p
-                                    className="Dates-zjn4sl-0 bPyzhJ"
+                                    className="Dates-zjn4sl-0 dYyzdi"
                                   >
-                                    (
+                                    <Translate
+                                      id="Exp: LiveGuess Role"
+                                    >
+                                      <WrappedTranslate
+                                        context={
+                                          Object {
+                                            "activeLanguage": undefined,
+                                            "addTranslation": [Function],
+                                            "addTranslationForLanguage": [Function],
+                                            "defaultLanguage": undefined,
+                                            "ignoreTranslateChildren": false,
+                                            "initialize": [Function],
+                                            "languages": Array [],
+                                            "renderToStaticMarkup": false,
+                                            "setActiveLanguage": [Function],
+                                            "translate": [Function],
+                                          }
+                                        }
+                                        id="Exp: LiveGuess Role"
+                                      >
+                                        Missing translationId: Exp: LiveGuess Role for language: \${ languageCode }
+                                      </WrappedTranslate>
+                                    </Translate>
+                                     (
                                     <Translate
                                       id="Exp: LiveGuess Dates"
                                     >
@@ -355,35 +809,6 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                     )
                                   </p>
                                 </Dates>
-                                <Description>
-                                  <p
-                                    className="Description-sc-83rdc7-0 JaXoG"
-                                  >
-                                    <Translate
-                                      id="Exp: LiveGuess Desc"
-                                    >
-                                      <WrappedTranslate
-                                        context={
-                                          Object {
-                                            "activeLanguage": undefined,
-                                            "addTranslation": [Function],
-                                            "addTranslationForLanguage": [Function],
-                                            "defaultLanguage": undefined,
-                                            "ignoreTranslateChildren": false,
-                                            "initialize": [Function],
-                                            "languages": Array [],
-                                            "renderToStaticMarkup": false,
-                                            "setActiveLanguage": [Function],
-                                            "translate": [Function],
-                                          }
-                                        }
-                                        id="Exp: LiveGuess Desc"
-                                      >
-                                        Missing translationId: Exp: LiveGuess Desc for language: \${ languageCode }
-                                      </WrappedTranslate>
-                                    </Translate>
-                                  </p>
-                                </Description>
                                 <Description>
                                   <p
                                     className="Description-sc-83rdc7-0 JaXoG"
@@ -419,368 +844,39 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                     </Bold>
                                   </p>
                                 </Description>
-                              </li>
+                                <Description>
+                                  <p
+                                    className="Description-sc-83rdc7-0 JaXoG"
+                                  >
+                                    <Translate
+                                      id="Exp: LiveGuess Desc"
+                                    >
+                                      <WrappedTranslate
+                                        context={
+                                          Object {
+                                            "activeLanguage": undefined,
+                                            "addTranslation": [Function],
+                                            "addTranslationForLanguage": [Function],
+                                            "defaultLanguage": undefined,
+                                            "ignoreTranslateChildren": false,
+                                            "initialize": [Function],
+                                            "languages": Array [],
+                                            "renderToStaticMarkup": false,
+                                            "setActiveLanguage": [Function],
+                                            "translate": [Function],
+                                          }
+                                        }
+                                        id="Exp: LiveGuess Desc"
+                                      >
+                                        Missing translationId: Exp: LiveGuess Desc for language: \${ languageCode }
+                                      </WrappedTranslate>
+                                    </Translate>
+                                  </p>
+                                </Description>
+                              </div>
                             </Item__Container>
                           </Item>
-                        </ul>
-                      </List__Container>
-                    </div>
-                  </Col>
-                </List>
-              </div>
-            </Row>
-            <Row
-              key="1"
-              noGutters={false}
-            >
-              <div
-                className="row"
-              >
-                <List
-                  companies={
-                    Array [
-                      "SmartApp",
-                      "Brand360",
-                    ]
-                  }
-                >
-                  <Col
-                    key="SmartApp"
-                    md={6}
-                  >
-                    <div
-                      className="col-md-6"
-                    >
-                      <List__Container>
-                        <ul
-                          className="List__Container-sc-1asami6-0 Zlfwd"
-                        >
-                          <Item
-                            dates="Exp: SmartApp Dates"
-                            description="Exp: SmartApp Desc"
-                            skill="Exp: SmartApp Skill"
-                            title="Exp: SmartApp Title"
-                          >
-                            <Item__Container>
-                              <li
-                                className="Item__Container-phyof1-0 kibNdn"
-                              >
-                                <ExpIcon
-                                  name="workexp"
-                                >
-                                  <Icon
-                                    className="ExpIcon-sc-2nr1xu-0 bHORkU"
-                                    name="workexp"
-                                  >
-                                    <Icon__Symbol
-                                      className="ExpIcon-sc-2nr1xu-0 bHORkU"
-                                      name="workexp"
-                                    >
-                                      <div
-                                        className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-sc-2nr1xu-0 bHORkU"
-                                        name="workexp"
-                                      />
-                                    </Icon__Symbol>
-                                  </Icon>
-                                </ExpIcon>
-                                <Title>
-                                  <h4
-                                    className="Title-sc-12w0cji-0 dEValg"
-                                  >
-                                    <Translate
-                                      id="Exp: SmartApp Title"
-                                    >
-                                      <WrappedTranslate
-                                        context={
-                                          Object {
-                                            "activeLanguage": undefined,
-                                            "addTranslation": [Function],
-                                            "addTranslationForLanguage": [Function],
-                                            "defaultLanguage": undefined,
-                                            "ignoreTranslateChildren": false,
-                                            "initialize": [Function],
-                                            "languages": Array [],
-                                            "renderToStaticMarkup": false,
-                                            "setActiveLanguage": [Function],
-                                            "translate": [Function],
-                                          }
-                                        }
-                                        id="Exp: SmartApp Title"
-                                      >
-                                        Missing translationId: Exp: SmartApp Title for language: \${ languageCode }
-                                      </WrappedTranslate>
-                                    </Translate>
-                                  </h4>
-                                </Title>
-                                <Dates>
-                                  <p
-                                    className="Dates-zjn4sl-0 bPyzhJ"
-                                  >
-                                    (
-                                    <Translate
-                                      id="Exp: SmartApp Dates"
-                                    >
-                                      <WrappedTranslate
-                                        context={
-                                          Object {
-                                            "activeLanguage": undefined,
-                                            "addTranslation": [Function],
-                                            "addTranslationForLanguage": [Function],
-                                            "defaultLanguage": undefined,
-                                            "ignoreTranslateChildren": false,
-                                            "initialize": [Function],
-                                            "languages": Array [],
-                                            "renderToStaticMarkup": false,
-                                            "setActiveLanguage": [Function],
-                                            "translate": [Function],
-                                          }
-                                        }
-                                        id="Exp: SmartApp Dates"
-                                      >
-                                        Missing translationId: Exp: SmartApp Dates for language: \${ languageCode }
-                                      </WrappedTranslate>
-                                    </Translate>
-                                    )
-                                  </p>
-                                </Dates>
-                                <Description>
-                                  <p
-                                    className="Description-sc-83rdc7-0 JaXoG"
-                                  >
-                                    <Translate
-                                      id="Exp: SmartApp Desc"
-                                    >
-                                      <WrappedTranslate
-                                        context={
-                                          Object {
-                                            "activeLanguage": undefined,
-                                            "addTranslation": [Function],
-                                            "addTranslationForLanguage": [Function],
-                                            "defaultLanguage": undefined,
-                                            "ignoreTranslateChildren": false,
-                                            "initialize": [Function],
-                                            "languages": Array [],
-                                            "renderToStaticMarkup": false,
-                                            "setActiveLanguage": [Function],
-                                            "translate": [Function],
-                                          }
-                                        }
-                                        id="Exp: SmartApp Desc"
-                                      >
-                                        Missing translationId: Exp: SmartApp Desc for language: \${ languageCode }
-                                      </WrappedTranslate>
-                                    </Translate>
-                                  </p>
-                                </Description>
-                                <Description>
-                                  <p
-                                    className="Description-sc-83rdc7-0 JaXoG"
-                                  >
-                                    <Bold>
-                                      <b
-                                        className="Bold-sc-13i2l06-0 dtbVKu"
-                                      >
-                                        <Translate
-                                          id="Exp: SmartApp Skill"
-                                        >
-                                          <WrappedTranslate
-                                            context={
-                                              Object {
-                                                "activeLanguage": undefined,
-                                                "addTranslation": [Function],
-                                                "addTranslationForLanguage": [Function],
-                                                "defaultLanguage": undefined,
-                                                "ignoreTranslateChildren": false,
-                                                "initialize": [Function],
-                                                "languages": Array [],
-                                                "renderToStaticMarkup": false,
-                                                "setActiveLanguage": [Function],
-                                                "translate": [Function],
-                                              }
-                                            }
-                                            id="Exp: SmartApp Skill"
-                                          >
-                                            Missing translationId: Exp: SmartApp Skill for language: \${ languageCode }
-                                          </WrappedTranslate>
-                                        </Translate>
-                                      </b>
-                                    </Bold>
-                                  </p>
-                                </Description>
-                              </li>
-                            </Item__Container>
-                          </Item>
-                        </ul>
-                      </List__Container>
-                    </div>
-                  </Col>
-                  <Col
-                    key="Brand360"
-                    md={6}
-                  >
-                    <div
-                      className="col-md-6"
-                    >
-                      <List__Container>
-                        <ul
-                          className="List__Container-sc-1asami6-0 Zlfwd"
-                        >
-                          <Item
-                            dates="Exp: Brand360 Dates"
-                            description="Exp: Brand360 Desc"
-                            skill="Exp: Brand360 Skill"
-                            title="Exp: Brand360 Title"
-                          >
-                            <Item__Container>
-                              <li
-                                className="Item__Container-phyof1-0 kibNdn"
-                              >
-                                <ExpIcon
-                                  name="workexp"
-                                >
-                                  <Icon
-                                    className="ExpIcon-sc-2nr1xu-0 bHORkU"
-                                    name="workexp"
-                                  >
-                                    <Icon__Symbol
-                                      className="ExpIcon-sc-2nr1xu-0 bHORkU"
-                                      name="workexp"
-                                    >
-                                      <div
-                                        className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-sc-2nr1xu-0 bHORkU"
-                                        name="workexp"
-                                      />
-                                    </Icon__Symbol>
-                                  </Icon>
-                                </ExpIcon>
-                                <Title>
-                                  <h4
-                                    className="Title-sc-12w0cji-0 dEValg"
-                                  >
-                                    <Translate
-                                      id="Exp: Brand360 Title"
-                                    >
-                                      <WrappedTranslate
-                                        context={
-                                          Object {
-                                            "activeLanguage": undefined,
-                                            "addTranslation": [Function],
-                                            "addTranslationForLanguage": [Function],
-                                            "defaultLanguage": undefined,
-                                            "ignoreTranslateChildren": false,
-                                            "initialize": [Function],
-                                            "languages": Array [],
-                                            "renderToStaticMarkup": false,
-                                            "setActiveLanguage": [Function],
-                                            "translate": [Function],
-                                          }
-                                        }
-                                        id="Exp: Brand360 Title"
-                                      >
-                                        Missing translationId: Exp: Brand360 Title for language: \${ languageCode }
-                                      </WrappedTranslate>
-                                    </Translate>
-                                  </h4>
-                                </Title>
-                                <Dates>
-                                  <p
-                                    className="Dates-zjn4sl-0 bPyzhJ"
-                                  >
-                                    (
-                                    <Translate
-                                      id="Exp: Brand360 Dates"
-                                    >
-                                      <WrappedTranslate
-                                        context={
-                                          Object {
-                                            "activeLanguage": undefined,
-                                            "addTranslation": [Function],
-                                            "addTranslationForLanguage": [Function],
-                                            "defaultLanguage": undefined,
-                                            "ignoreTranslateChildren": false,
-                                            "initialize": [Function],
-                                            "languages": Array [],
-                                            "renderToStaticMarkup": false,
-                                            "setActiveLanguage": [Function],
-                                            "translate": [Function],
-                                          }
-                                        }
-                                        id="Exp: Brand360 Dates"
-                                      >
-                                        Missing translationId: Exp: Brand360 Dates for language: \${ languageCode }
-                                      </WrappedTranslate>
-                                    </Translate>
-                                    )
-                                  </p>
-                                </Dates>
-                                <Description>
-                                  <p
-                                    className="Description-sc-83rdc7-0 JaXoG"
-                                  >
-                                    <Translate
-                                      id="Exp: Brand360 Desc"
-                                    >
-                                      <WrappedTranslate
-                                        context={
-                                          Object {
-                                            "activeLanguage": undefined,
-                                            "addTranslation": [Function],
-                                            "addTranslationForLanguage": [Function],
-                                            "defaultLanguage": undefined,
-                                            "ignoreTranslateChildren": false,
-                                            "initialize": [Function],
-                                            "languages": Array [],
-                                            "renderToStaticMarkup": false,
-                                            "setActiveLanguage": [Function],
-                                            "translate": [Function],
-                                          }
-                                        }
-                                        id="Exp: Brand360 Desc"
-                                      >
-                                        Missing translationId: Exp: Brand360 Desc for language: \${ languageCode }
-                                      </WrappedTranslate>
-                                    </Translate>
-                                  </p>
-                                </Description>
-                                <Description>
-                                  <p
-                                    className="Description-sc-83rdc7-0 JaXoG"
-                                  >
-                                    <Bold>
-                                      <b
-                                        className="Bold-sc-13i2l06-0 dtbVKu"
-                                      >
-                                        <Translate
-                                          id="Exp: Brand360 Skill"
-                                        >
-                                          <WrappedTranslate
-                                            context={
-                                              Object {
-                                                "activeLanguage": undefined,
-                                                "addTranslation": [Function],
-                                                "addTranslationForLanguage": [Function],
-                                                "defaultLanguage": undefined,
-                                                "ignoreTranslateChildren": false,
-                                                "initialize": [Function],
-                                                "languages": Array [],
-                                                "renderToStaticMarkup": false,
-                                                "setActiveLanguage": [Function],
-                                                "translate": [Function],
-                                              }
-                                            }
-                                            id="Exp: Brand360 Skill"
-                                          >
-                                            Missing translationId: Exp: Brand360 Skill for language: \${ languageCode }
-                                          </WrappedTranslate>
-                                        </Translate>
-                                      </b>
-                                    </Bold>
-                                  </p>
-                                </Description>
-                              </li>
-                            </Item__Container>
-                          </Item>
-                        </ul>
+                        </div>
                       </List__Container>
                     </div>
                   </Col>

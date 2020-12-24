@@ -8,22 +8,22 @@ import Dates from '~/modules/home/components/sideProject/Dates'
 import Bold from '~/modules/home/components/experiences/Bold'
 import { Translate } from 'react-localize-redux'
 
-const Item = ({ title, dates, description, skill }) => (
+const Item = ({ title, dates, description, skill, role }) => (
   <Container>
     <ExpIcon name="workexp" />
     <Title>
       <Translate id={title} />
     </Title>
     <Dates>
-      (<Translate id={dates} />)
+      <Translate id={role} /> (<Translate id={dates} />)
     </Dates>
-    <Description>
-      <Translate id={description} />
-    </Description>
     <Description>
       <Bold>
         <Translate id={skill} />
       </Bold>
+    </Description>
+    <Description>
+      <Translate id={description} />
     </Description>
   </Container>
 )
@@ -32,12 +32,13 @@ Item.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   skill: PropTypes.string,
-  dates: PropTypes.string
+  dates: PropTypes.string,
+  role: PropTypes.string
 }
 
 export default Item
 
-const Container = styled.li`
+const Container = styled.div`
   margin-bottom: 50px;
 
   @media screen and (max-width: 800px) {
