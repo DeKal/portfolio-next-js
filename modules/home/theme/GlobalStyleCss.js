@@ -276,6 +276,19 @@ const GlobalStyleCss = ({ theme }) => {
       a:hover {
         border-bottom: none;
       }
+
+      /* CUSTOM LINE COLOR */
+      /* The line */
+      .vertical-timeline.vertical-timeline-experience-line::before {
+        background: #bdc3c7;
+      }
+
+      .vertical-timeline.vertical-timeline-experience-line
+        .vertical-timeline-element--education
+        .vertical-timeline-element-icon {
+        box-shadow: 0 0 0 2px #bdc3c7, inset 0 2px 0 #bdc3c7,
+          0 2px 0 2px #bdc3c7;
+      }
     `}</style>
   )
 }
