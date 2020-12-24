@@ -9,7 +9,8 @@ import { useTheme } from '~/modules/core/theme/ThemeProviderSelector'
 const useStyles = theme => ({
   content: {
     borderTop: `4px solid  ${theme.colors.colorAccent}`,
-    background: theme.colors.colorLight
+    background: theme.colors.colorLight,
+    paddingLeft: 25
   },
   arrow: {
     borderRight: `10px solid  ${theme.colors.colorLight}`
@@ -44,8 +45,10 @@ const Experience = ({ company, icon }) => {
       <Container>
         <Item
           title={`Exp: ${company} Title`}
+          role={`Exp: ${company} Role`}
           dates={`Exp: ${company} Dates`}
           description={`Exp: ${company} Desc`}
+          descriptionExtra={`Exp: ${company} Extra`}
           skill={`Exp: ${company} Skill`}
         />
       </Container>

@@ -100,6 +100,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                     Object {
                       "background": "#f3f6f6",
                       "borderTop": "4px solid  #ff8484",
+                      "paddingLeft": 25,
                     }
                   }
                   date={
@@ -144,6 +145,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                     Object {
                       "background": "#f3f6f6",
                       "borderTop": "4px solid  #ff8484",
+                      "paddingLeft": 25,
                     }
                   }
                   date={
@@ -188,6 +190,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                     Object {
                       "background": "#f3f6f6",
                       "borderTop": "4px solid  #ff8484",
+                      "paddingLeft": 25,
                     }
                   }
                   date={
@@ -232,6 +235,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                     Object {
                       "background": "#f3f6f6",
                       "borderTop": "4px solid  #ff8484",
+                      "paddingLeft": 25,
                     }
                   }
                   date={

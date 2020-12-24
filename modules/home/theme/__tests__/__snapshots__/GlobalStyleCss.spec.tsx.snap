@@ -366,6 +366,10 @@ exports[`GlobalStyleCss should render defaultTheme without throwing an error 1`]
         box-shadow: 0 0 0 2px #bdc3c7, inset 0 2px 0 #bdc3c7,
           0 2px 0 2px #bdc3c7;
       }
+
+      .vertical-timeline-element-content .vertical-timeline-element-date {
+        float: right;
+      }
     
   </style>
 </GlobalStyleCss>
@@ -737,6 +741,10 @@ exports[`GlobalStyleCss should render newyearTheme without throwing an error 1`]
         box-shadow: 0 0 0 2px #bdc3c7, inset 0 2px 0 #bdc3c7,
           0 2px 0 2px #bdc3c7;
       }
+
+      .vertical-timeline-element-content .vertical-timeline-element-date {
+        float: right;
+      }
     
   </style>
 </GlobalStyleCss>
@@ -1106,6 +1114,10 @@ exports[`GlobalStyleCss should render xmasTheme without throwing an error 1`] = 
         .vertical-timeline-element-icon {
         box-shadow: 0 0 0 2px #bdc3c7, inset 0 2px 0 #bdc3c7,
           0 2px 0 2px #bdc3c7;
+      }
+
+      .vertical-timeline-element-content .vertical-timeline-element-date {
+        float: right;
       }
     
   </style>
