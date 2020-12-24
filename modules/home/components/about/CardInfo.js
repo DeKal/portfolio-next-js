@@ -1,23 +1,31 @@
 import * as React from 'react'
 import styled from 'styled-components/macro'
 import { Translate, withLocalize } from 'react-localize-redux'
+import useWindowDimensions from '~/modules/core/utils/useWindowDimensions'
 
-const CardInfo = () => (
-  <Container>
-    <p>
-      <Translate id="About me: Card Info Verse 1" />
-    </p>
-    <Quote>
-      <Translate id="About me: Card Info Quote" />
-    </Quote>
-    <p>
-      <Translate id="About me: Card Info Verse 2" />
-    </p>
-    <Status>
-      <Bold>Current Status:</Bold> <Translate id="About me: Current status" />
-    </Status>
-  </Container>
-)
+const CardInfo = () => {
+  const { width } = useWindowDimensions()
+  return (
+    <Container>
+      <p>
+        {width < 700 ? (
+          <Translate id="About me: Card Info Mobile Verse 1" />
+        ) : (
+          <Translate id="About me: Card Info Verse 1" />
+        )}
+      </p>
+      <Quote>
+        <Translate id="About me: Card Info Quote" />
+      </Quote>
+      <p>
+        <Translate id="About me: Card Info Verse 2" />
+      </p>
+      <Status>
+        <Bold>Current Status:</Bold> <Translate id="About me: Current status" />
+      </Status>
+    </Container>
+  )
+}
 
 export default withLocalize(CardInfo)
 
