@@ -33,7 +33,7 @@ ThemeProviderSelector.propTypes = {
 
 export default ThemeProviderSelector
 
-const useTheme = router => {
+export const useTheme = router => {
   if (isBlogs(router.pathname)) {
     return blogTheme
   }

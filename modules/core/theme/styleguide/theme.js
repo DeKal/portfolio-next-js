@@ -11,7 +11,7 @@ const theme = {
   colors: {
     // Color variables
     ghostWhite: '#f8f8ff ',
-    colorLight: '#ecf0f1',
+    colorLight: '#f3f6f6',
     colorDarken: '#bdc3c7',
     colorDark: '#2c3e50',
     colorAccent: '#FFA726',
