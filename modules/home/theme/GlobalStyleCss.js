@@ -289,6 +289,10 @@ const GlobalStyleCss = ({ theme }) => {
         box-shadow: 0 0 0 2px #bdc3c7, inset 0 2px 0 #bdc3c7,
           0 2px 0 2px #bdc3c7;
       }
+
+      .vertical-timeline-element-content .vertical-timeline-element-date {
+        float: right;
+      }
     `}</style>
   )
 }
