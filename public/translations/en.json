@@ -98,5 +98,15 @@
   "Project: Title": "Projects",
   "Project: SubTitle": "Something cool to look back!!!",
   "Blogs": "Blogs",
-  "See more": "See more"
+  "See more": "See more",
+
+  "###!!!!!!!!Deprecated": "Bellow text are not used anymore",
+  "Exp: SmartApp Title": "SmartApp Technology",
+  "Exp: SmartApp Desc": "Working on the multi-platform framework Angular-JS, I handle the task of developing the application to summarize agency’s information from Masan company as the report for higher executive in the line to review and analyze.",
+  "Exp: SmartApp Skill": "Technical skills: Angular-JS, HTML/CSS, JQuery.",
+  "Exp: SmartApp Dates": "2/2017 – 5/2017",
+  "Exp: Brand360 Title": "Brand360",
+  "Exp: Brand360 Desc": "As a team leader, I operate the team to develop a web for Brand 360 company inorder to broadcast their images in Viet Nam. The idea is to use Wordpress template in order to have a fast and user-friendly web/admin UI.",
+  "Exp: Brand360 Skill": "Technical skills: Wordpress template, HTML, CSS, JS.",
+  "Exp: Brand360 Dates": "2/2016 – 5/2016"
 }

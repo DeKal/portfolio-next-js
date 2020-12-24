@@ -97,5 +97,15 @@
   "Project: Title": "Dự án",
   "Project: SubTitle": "Một vài kỉ niệm để nhìn lại!!!",
   "Blogs": "Blogs",
-  "See more": "Xem thêm"
+  "See more": "Xem thêm",
+
+  "###!!!!!!!!Deprecated": "Bellow text are not used anymore",
+  "Exp: Brand360 Title": "Brand360",
+  "Exp: Brand360 Desc": "Trên vị trí là team leader, mình tổ chức một nhóm để xây dựng trang web cho công ty Brand 360 để quảng bá hình ảnh của họ ở Việt Nam. Ý tưởng chung là xây dựng trang web dựa trên Wordpress để xây dựng nhanh và công cấp cho người dùng một giao diện thân thiện để điều phối trang web.",
+  "Exp: Brand360 Skill": "Kĩ thuật: Wordpress template, HTML, CSS, JS.",
+  "Exp: Brand360 Dates": "2/2016 – 5/2016",
+  "Exp: SmartApp Title": "SmartApp Technology",
+  "Exp: SmartApp Desc": "Làm việc trên một framework hỗ trợ cho hệ thống đa nền tảng là Angular-JS, mình đảm nhận phát triển một phần mềm để thống kê thông tin của các nhân viên bán hàng từ công ty Masan. Đồng thời, thống kê số liệu để xuất ra báo cáo cho ban lãnh đạo để phân tích và đánh giá.",
+  "Exp: SmartApp Skill": "Kĩ thuật: Angular-JS, HTML/CSS, JQuery.",
+  "Exp: SmartApp Dates": "2/2016 – 5/2016"
 }
