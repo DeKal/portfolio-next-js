@@ -13,22 +13,19 @@ describe('ErrorBoundary', () => {
   })
 
   it('should return object with error and has error', function() {
-    
-    const state = ErrorBoundary.getDerivedStateFromError("Error")
+    const state = ErrorBoundary.getDerivedStateFromError('Error')
     expect(state).toMatchSnapshot()
   })
 
   it('should render error with setState', function() {
     const wrap = shallow(
       <ErrorBoundary>
-        <div>
-          noError
-        </div>
+        <div>noError</div>
       </ErrorBoundary>
     )
     wrap.setState({
-      hasError: true,
-    });
+      hasError: true
+    })
 
     expect(wrap).toMatchSnapshot()
   })

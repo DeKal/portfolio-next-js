@@ -3,10 +3,8 @@ import { mountWithTheme } from '~/modules/core/utils/withThemeProviders'
 import Project from '~/modules/home/components/Project'
 
 describe('Project', () => {
-
-  it('should render without throwing an error', function () {
+  it('should render without throwing an error', function() {
     const wrap = mountWithTheme(<Project />)
     expect(wrap).toMatchSnapshot()
   })
-
 })

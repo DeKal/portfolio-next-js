@@ -1,8 +1,9 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import PropTypes from 'prop-types'
-import Item from '~/modules/home/components/experiences/Item'
+import Item from '~/modules/home/components/sideProject/Item'
 import Col from 'react-bootstrap/Col'
+
 const List = ({ companies }) =>
   companies.map(company => (
     <Col md={Math.floor(12 / companies.length)} key={company}>

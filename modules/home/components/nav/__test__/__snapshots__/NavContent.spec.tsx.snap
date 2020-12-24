@@ -8,7 +8,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
     isShowNavContent={false}
   >
     <div
-      className="NavContent__NavContainer-sc-1iay8fd-0 hPKryM"
+      className="NavContent__NavContainer-sc-1iay8fd-0 epXvue"
     >
       <MobileContainer>
         <Container
@@ -421,7 +421,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
     isShowNavContent={true}
   >
     <div
-      className="NavContent__NavContainer-sc-1iay8fd-0 bLhvLU"
+      className="NavContent__NavContainer-sc-1iay8fd-0 fXNHia"
     >
       <MobileContainer>
         <Container

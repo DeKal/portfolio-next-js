@@ -1,13 +1,13 @@
 import styled from 'styled-components/macro'
 
-const Description = styled.p`
+const Title = styled.h4`
   margin-left: 80px;
-  margin-top: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
 
   @media screen and (max-width: 1000px) {
     margin-left: 0;
-    text-align: justify;
+    text-align: center;
   }
 `
-
-export default Description
+export default Title

@@ -6,7 +6,6 @@ const theme = {
   titleBgColor: 'rgba(44, 25, 0, 0.2)',
   colors: {
     ...baseTheme.colors,
-    colorLight: '#ecf0f1',
     colorDarken: '#bdc3c7',
     colorDark: '#2c3e50',
     colorAccent: '#FFA500',

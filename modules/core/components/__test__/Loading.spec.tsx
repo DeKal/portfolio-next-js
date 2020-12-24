@@ -3,10 +3,8 @@ import { shallow } from 'enzyme'
 import Loading from '~/modules/core/components/Loading'
 
 describe('Loading', () => {
-
-  it('should render without throwing an error', function () {
+  it('should render without throwing an error', function() {
     const wrap = shallow(<Loading />)
     expect(wrap).toMatchSnapshot()
   })
-
 })

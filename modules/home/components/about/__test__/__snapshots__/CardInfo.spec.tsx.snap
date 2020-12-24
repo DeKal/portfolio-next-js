@@ -14,7 +14,7 @@ exports[`Card Info should render without throwing an error 1`] = `
   >
     <CardInfo__Container>
       <div
-        className="CardInfo__Container-sc-11lu4r3-0 giOaaz"
+        className="CardInfo__Container-sc-11lu4r3-0 dQwcDN"
       >
         <p>
           <Translate

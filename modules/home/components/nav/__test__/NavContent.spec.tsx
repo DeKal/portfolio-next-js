@@ -1,5 +1,8 @@
 import * as React from 'react'
-import { mountWithTheme, shallowWithTheme } from '~/modules/core/utils/withThemeProviders'
+import {
+  mountWithTheme,
+  shallowWithTheme
+} from '~/modules/core/utils/withThemeProviders'
 import NavContent from '~/modules/home/components/nav/NavContent'
 import * as helpers from '~/modules/core/utils/helpers'
 import { ABOUT } from '~/modules/home/consts/pages'

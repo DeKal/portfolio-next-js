@@ -4,14 +4,15 @@ import Post from '~/modules/post/components/Post'
 
 const data = {
   header: 'Search: The Whole Story',
-  content: 'Query understanding and relevance are key aspects of search, but they don’t tell the whole story.',
+  content:
+    'Query understanding and relevance are key aspects of search, but they don’t tell the whole story.',
   authorName: 'Daniel Tunkelang',
   date: 'Mar 25, 2019',
   minRead: '6'
 }
 
 describe('Post', () => {
-  it('should render without throwing an error', function () {
+  it('should render without throwing an error', function() {
     const wrap = shallowWithTheme(<Post data={data} />)
     expect(wrap).toMatchSnapshot()
   })

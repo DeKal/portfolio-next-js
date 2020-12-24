@@ -3,8 +3,6 @@ import { mountWithTheme } from '~/modules/core/utils/withThemeProviders'
 import Typist from '~/modules/home/components/common/Typist'
 import { act } from 'react-dom/test-utils'
 
-
-
 describe('Typist', () => {
   it('should render without throwing an error', function() {
     jest.useFakeTimers()

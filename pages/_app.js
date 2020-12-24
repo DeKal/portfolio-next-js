@@ -8,7 +8,7 @@ import ErrorBoundary from '~/modules/core/components/ErrorBoundary'
 import ThemeProviderSelector from '~/modules/core/theme/ThemeProviderSelector'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-
+import 'react-vertical-timeline-component/style.min.css'
 export default class MyApp extends App {
   state = {
     loading: true

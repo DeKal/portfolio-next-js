@@ -18,8 +18,8 @@ const HomePage = () => (
     <Nav />
     <Home />
     <About />
+    <Experiences />
     <SlideIterator>
-      <Experiences />
       <SideProjects />
       <WhyMe />
       <Project />

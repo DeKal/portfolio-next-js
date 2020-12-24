@@ -64,7 +64,7 @@ describe('Reducers', () => {
     }
     const postState = postReducer(state, action)
     expect(postState).toEqual({
-      test: 'test',
+      test: 'test'
     })
   })
 })

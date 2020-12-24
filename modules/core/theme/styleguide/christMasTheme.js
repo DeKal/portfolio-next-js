@@ -4,7 +4,6 @@ const theme = {
   ...baseTheme,
   colors: {
     ...baseTheme.colors,
-    colorLight: '#ecf0f1',
     colorDarken: '#bdc3c7',
     colorDark: '#2c3e50',
     colorAccent: '#ff8484',

@@ -1,11 +1,14 @@
 import * as React from 'react'
-import { shallowWithTheme, mountWithTheme } from '~/modules/core/utils/withThemeProviders'
+import {
+  shallowWithTheme,
+  mountWithTheme
+} from '~/modules/core/utils/withThemeProviders'
 import NavItem from '~/modules/home/components/nav/NavItem'
 
 const page = {
-  name: "Home",
+  name: 'Home',
   url: `/#Home`,
-  cmpName: "Home"
+  cmpName: 'Home'
 }
 describe('Nav Item', () => {
   it('should render Selected NavItem', function() {
@@ -34,6 +37,6 @@ describe('Nav Item', () => {
     )
     tree.find('a[data-test-id="nav-link"]').simulate('click')
     expect(setSelectedPage.mock.calls.length).toEqual(1)
-    expect(setSelectedPage).toHaveBeenCalledWith('Home');
+    expect(setSelectedPage).toHaveBeenCalledWith('Home')
   })
 })
