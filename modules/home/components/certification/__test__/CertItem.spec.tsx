@@ -3,13 +3,10 @@ import { shallowWithTheme } from '~/modules/core/utils/withThemeProviders'
 import CertItem from '~/modules/home/components/certification/CertItem'
 
 describe('CertItem', () => {
-  it('should setSelected Item when clicking', function () {
+  it('should setSelected Item when clicking', function() {
     const setSelectedItemMock = jest.fn()
     const wrap = shallowWithTheme(
-      <CertItem
-        idnum={0}
-        setSelectedItem={setSelectedItemMock}
-      />
+      <CertItem idnum={0} setSelectedItem={setSelectedItemMock} />
     )
     wrap.find('[data-test-id="cert-item-0"]').simulate('click')
 

@@ -10,11 +10,11 @@ describe('Theme Provider Selector', () => {
       const mockUseRouter = () => ({
         pathname: '/'
       })
-      // @ts-ignore 
+      // @ts-ignore
       jest.spyOn(Router, 'useRouter').mockImplementation(mockUseRouter)
     })
 
-    it('should render for normal day without throwing an error', function () {
+    it('should render for normal day without throwing an error', function() {
       jest.spyOn(helpers, 'isChristmasDay').mockImplementation(() => false)
       jest.spyOn(helpers, 'isNewYearComing').mockImplementation(() => false)
       jest.spyOn(helpers, 'isTet').mockImplementation(() => false)
@@ -22,21 +22,21 @@ describe('Theme Provider Selector', () => {
       expect(wrap).toMatchSnapshot()
     })
 
-    it('should render for christmas day without throwing an error', function () {
+    it('should render for christmas day without throwing an error', function() {
       jest.spyOn(helpers, 'isChristmasDay').mockImplementation(() => true)
       jest.spyOn(helpers, 'isNewYearComing').mockImplementation(() => false)
       const wrap = shallow(<ThemeProviderSelector />)
       expect(wrap).toMatchSnapshot()
     })
 
-    it('should render for new year day without throwing an error', function () {
+    it('should render for new year day without throwing an error', function() {
       jest.spyOn(helpers, 'isChristmasDay').mockImplementation(() => false)
       jest.spyOn(helpers, 'isNewYearComing').mockImplementation(() => true)
       const wrap = shallow(<ThemeProviderSelector />)
       expect(wrap).toMatchSnapshot()
     })
 
-    it('should render for tet without throwing an error', function () {
+    it('should render for tet without throwing an error', function() {
       jest.spyOn(helpers, 'isChristmasDay').mockImplementation(() => false)
       jest.spyOn(helpers, 'isNewYearComing').mockImplementation(() => false)
       jest.spyOn(helpers, 'isTet').mockImplementation(() => true)
@@ -50,14 +50,13 @@ describe('Theme Provider Selector', () => {
       const mockUseRouter = () => ({
         pathname: '/blogs'
       })
-      // @ts-ignore 
+      // @ts-ignore
       jest.spyOn(Router, 'useRouter').mockImplementation(mockUseRouter)
     })
-    
-    it('should render for blog the,e throwing an error', function () {
+
+    it('should render for blog the,e throwing an error', function() {
       const wrap = shallow(<ThemeProviderSelector />)
       expect(wrap).toMatchSnapshot()
     })
   })
-
 })

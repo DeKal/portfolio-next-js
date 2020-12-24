@@ -5,7 +5,7 @@ describe('Dispatcher', () => {
     const dispatch = jest.fn()
     const action = jest.fn()
     const params = {
-      test: "params"
+      test: 'params'
     }
     const dispatcher = Dispatcher(dispatch)
     dispatcher.send(action, params)
