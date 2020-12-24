@@ -10,6 +10,7 @@ const List = ({ companies }) =>
       <Container>
         <Item
           title={`Exp: ${company} Title`}
+          role={`Exp: ${company} Role`}
           dates={`Exp: ${company} Dates`}
           description={`Exp: ${company} Desc`}
           skill={`Exp: ${company} Skill`}
@@ -24,6 +25,6 @@ List.propTypes = {
 
 export default List
 
-const Container = styled.ul`
-  list-style-type: none;
+const Container = styled.div`
+  padding: 0 15px;
 `

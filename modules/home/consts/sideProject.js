@@ -1,4 +1,5 @@
-const row1 = ['Portfolio', 'LiveGuess']
-const row2 = ['SmartApp', 'Brand360']
+const row1 = ['BootCareer-FE', 'BootCareer-BE']
+const row2 = ['Portfolio-FE', 'Portfolio-BE']
+const row3 = ['Popswap', 'LiveGuess']
 
-export const getCompanies = () => [row1, row2]
+export const getProjects = () => [row1, row2, row3]
