@@ -68,7 +68,7 @@ exports[`Navbar should render without throwing an error 1`] = `
                                           onClick={[Function]}
                                         >
                                           <a
-                                            className="NavLink__Container-sc-13fjz5m-0 exdEua"
+                                            className="NavLink__Container-sc-13fjz5m-0 hruwlM"
                                             onClick={[Function]}
                                           >
                                             <Translate
@@ -128,7 +128,7 @@ exports[`Navbar should render without throwing an error 1`] = `
                                           onClick={[Function]}
                                         >
                                           <a
-                                            className="NavLink__Container-sc-13fjz5m-0 bqjnET"
+                                            className="NavLink__Container-sc-13fjz5m-0 hbFJHd"
                                             onClick={[Function]}
                                           >
                                             <Translate
@@ -258,7 +258,7 @@ exports[`Navbar should render without throwing an error 1`] = `
           isShowNavContent={false}
         >
           <div
-            className="NavContent__NavContainer-sc-1iay8fd-0 hPKryM"
+            className="NavContent__NavContainer-sc-1iay8fd-0 epXvue"
           >
             <MobileContainer>
               <Container

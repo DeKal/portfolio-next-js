@@ -98,15 +98,15 @@ exports[`Certification should render without throwing an error 1`] = `
                                   name="c"
                                 >
                                   <Icon
-                                    className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__ActiveIcon-sc-1s17nas-2 djlVOs"
+                                    className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__ActiveIcon-sc-1s17nas-2 dKdqGq"
                                     name="c"
                                   >
                                     <Icon__Symbol
-                                      className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__ActiveIcon-sc-1s17nas-2 djlVOs"
+                                      className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__ActiveIcon-sc-1s17nas-2 dKdqGq"
                                       name="c"
                                     >
                                       <div
-                                        className="Icon__Symbol-sc-6mj7rl-0 fTWOAh CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__ActiveIcon-sc-1s17nas-2 djlVOs"
+                                        className="Icon__Symbol-sc-6mj7rl-0 fTWOAh CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__ActiveIcon-sc-1s17nas-2 dKdqGq"
                                         name="c"
                                       />
                                     </Icon__Symbol>
@@ -151,15 +151,15 @@ exports[`Certification should render without throwing an error 1`] = `
                                   name="c"
                                 >
                                   <Icon
-                                    className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 kFIlst"
+                                    className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 bdjIuP"
                                     name="c"
                                   >
                                     <Icon__Symbol
-                                      className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 kFIlst"
+                                      className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 bdjIuP"
                                       name="c"
                                     >
                                       <div
-                                        className="Icon__Symbol-sc-6mj7rl-0 fTWOAh CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 kFIlst"
+                                        className="Icon__Symbol-sc-6mj7rl-0 fTWOAh CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 bdjIuP"
                                         name="c"
                                       />
                                     </Icon__Symbol>
@@ -204,15 +204,15 @@ exports[`Certification should render without throwing an error 1`] = `
                                   name="p"
                                 >
                                   <Icon
-                                    className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 kFIlst"
+                                    className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 bdjIuP"
                                     name="p"
                                   >
                                     <Icon__Symbol
-                                      className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 kFIlst"
+                                      className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 bdjIuP"
                                       name="p"
                                     >
                                       <div
-                                        className="Icon__Symbol-sc-6mj7rl-0 fRHIzO CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 kFIlst"
+                                        className="Icon__Symbol-sc-6mj7rl-0 fRHIzO CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 bdjIuP"
                                         name="p"
                                       />
                                     </Icon__Symbol>
@@ -257,15 +257,15 @@ exports[`Certification should render without throwing an error 1`] = `
                                   name="p"
                                 >
                                   <Icon
-                                    className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 kFIlst"
+                                    className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 bdjIuP"
                                     name="p"
                                   >
                                     <Icon__Symbol
-                                      className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 kFIlst"
+                                      className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 bdjIuP"
                                       name="p"
                                     >
                                       <div
-                                        className="Icon__Symbol-sc-6mj7rl-0 fRHIzO CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 kFIlst"
+                                        className="Icon__Symbol-sc-6mj7rl-0 fRHIzO CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 bdjIuP"
                                         name="p"
                                       />
                                     </Icon__Symbol>
@@ -315,7 +315,7 @@ exports[`Certification should render without throwing an error 1`] = `
                               idnum={1}
                             >
                               <div
-                                className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 spuSb"
+                                className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 hqCzXT"
                               >
                                 <Title>
                                   <h3
@@ -411,7 +411,7 @@ exports[`Certification should render without throwing an error 1`] = `
                               idnum={2}
                             >
                               <div
-                                className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 hnVcD"
+                                className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 hfAXbX"
                               >
                                 <Title>
                                   <h3
@@ -507,7 +507,7 @@ exports[`Certification should render without throwing an error 1`] = `
                               idnum={3}
                             >
                               <div
-                                className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 wBMKL"
+                                className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 huOOKf"
                               >
                                 <Title>
                                   <h3
@@ -603,7 +603,7 @@ exports[`Certification should render without throwing an error 1`] = `
                               idnum={4}
                             >
                               <div
-                                className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 bcqQOr"
+                                className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 ia-DVUj"
                               >
                                 <Title>
                                   <h3

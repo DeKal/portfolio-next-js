@@ -6,7 +6,7 @@ exports[`Error should render Error Component in general case 1`] = `
 >
   <Error__Container>
     <div
-      className="Error__Container-sc-38ag4q-0 dLCeqI"
+      className="Error__Container-sc-38ag4q-0 gwIRWG"
     >
       <Error__Content>
         <div
@@ -54,7 +54,7 @@ exports[`Error should render Error Component in general case 1`] = `
                   onMouseEnter={[Function]}
                 >
                   <a
-                    className="Button-sc-1ng70vn-0 hzqQHS"
+                    className="Button-sc-1ng70vn-0 bFYxlg"
                     onClick={[Function]}
                     onMouseEnter={[Function]}
                   >
@@ -75,7 +75,7 @@ exports[`Error should render Error Component in undefined case 1`] = `
 <Error>
   <Error__Container>
     <div
-      className="Error__Container-sc-38ag4q-0 dLCeqI"
+      className="Error__Container-sc-38ag4q-0 gwIRWG"
     >
       <Error__Content>
         <div
@@ -123,7 +123,7 @@ exports[`Error should render Error Component in undefined case 1`] = `
                   onMouseEnter={[Function]}
                 >
                   <a
-                    className="Button-sc-1ng70vn-0 hzqQHS"
+                    className="Button-sc-1ng70vn-0 bFYxlg"
                     onClick={[Function]}
                     onMouseEnter={[Function]}
                   >
@@ -146,7 +146,7 @@ exports[`Error should render Error Component with 404 1`] = `
 >
   <Error__Container>
     <div
-      className="Error__Container-sc-38ag4q-0 dLCeqI"
+      className="Error__Container-sc-38ag4q-0 gwIRWG"
     >
       <Error__Content>
         <div
@@ -194,7 +194,7 @@ exports[`Error should render Error Component with 404 1`] = `
                   onMouseEnter={[Function]}
                 >
                   <a
-                    className="Button-sc-1ng70vn-0 hzqQHS"
+                    className="Button-sc-1ng70vn-0 bFYxlg"
                     onClick={[Function]}
                     onMouseEnter={[Function]}
                   >
@@ -217,7 +217,7 @@ exports[`Error should render Error Component with 500 1`] = `
 >
   <Error__Container>
     <div
-      className="Error__Container-sc-38ag4q-0 dLCeqI"
+      className="Error__Container-sc-38ag4q-0 gwIRWG"
     >
       <Error__Content>
         <div
@@ -265,7 +265,7 @@ exports[`Error should render Error Component with 500 1`] = `
                   onMouseEnter={[Function]}
                 >
                   <a
-                    className="Button-sc-1ng70vn-0 hzqQHS"
+                    className="Button-sc-1ng70vn-0 bFYxlg"
                     onClick={[Function]}
                     onMouseEnter={[Function]}
                   >

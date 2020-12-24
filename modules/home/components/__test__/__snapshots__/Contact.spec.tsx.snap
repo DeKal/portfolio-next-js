@@ -88,7 +88,7 @@ exports[`Footer should render without throwing an error 1`] = `
               <Content>
                 <Content__Container>
                   <div
-                    className="Content__Container-h48asr-0 jFTQHL"
+                    className="Content__Container-h48asr-0 bniial"
                   >
                     <Logo>
                       <Logo__Container>
@@ -391,7 +391,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                 onClick={[Function]}
                               >
                                 <li
-                                  className="Socials__Item-sc-1g7e2kk-1 laTpwS"
+                                  className="Socials__Item-sc-1g7e2kk-1 fJZAU"
                                   data-test-id="socials-fb-link"
                                   onClick={[Function]}
                                 >
@@ -399,15 +399,15 @@ exports[`Footer should render without throwing an error 1`] = `
                                     name="fb"
                                   >
                                     <Icon
-                                      className="Socials__IconWrapper-sc-1g7e2kk-2 cTBPR"
+                                      className="Socials__IconWrapper-sc-1g7e2kk-2 cYpKxd"
                                       name="fb"
                                     >
                                       <Icon__Symbol
-                                        className="Socials__IconWrapper-sc-1g7e2kk-2 cTBPR"
+                                        className="Socials__IconWrapper-sc-1g7e2kk-2 cYpKxd"
                                         name="fb"
                                       >
                                         <div
-                                          className="Icon__Symbol-sc-6mj7rl-0 dgmAAL Socials__IconWrapper-sc-1g7e2kk-2 cTBPR"
+                                          className="Icon__Symbol-sc-6mj7rl-0 dgmAAL Socials__IconWrapper-sc-1g7e2kk-2 cYpKxd"
                                           name="fb"
                                         />
                                       </Icon__Symbol>
@@ -420,7 +420,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                 onClick={[Function]}
                               >
                                 <li
-                                  className="Socials__Item-sc-1g7e2kk-1 laTpwS"
+                                  className="Socials__Item-sc-1g7e2kk-1 fJZAU"
                                   data-test-id="socials-linkedin-link"
                                   onClick={[Function]}
                                 >
@@ -428,15 +428,15 @@ exports[`Footer should render without throwing an error 1`] = `
                                     name="linkedin"
                                   >
                                     <Icon
-                                      className="Socials__IconWrapper-sc-1g7e2kk-2 cTBPR"
+                                      className="Socials__IconWrapper-sc-1g7e2kk-2 cYpKxd"
                                       name="linkedin"
                                     >
                                       <Icon__Symbol
-                                        className="Socials__IconWrapper-sc-1g7e2kk-2 cTBPR"
+                                        className="Socials__IconWrapper-sc-1g7e2kk-2 cYpKxd"
                                         name="linkedin"
                                       >
                                         <div
-                                          className="Icon__Symbol-sc-6mj7rl-0 pacIb Socials__IconWrapper-sc-1g7e2kk-2 cTBPR"
+                                          className="Icon__Symbol-sc-6mj7rl-0 pacIb Socials__IconWrapper-sc-1g7e2kk-2 cYpKxd"
                                           name="linkedin"
                                         />
                                       </Icon__Symbol>

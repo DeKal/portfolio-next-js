@@ -4,7 +4,7 @@ exports[`Footer should render without throwing an error 1`] = `
 <Footer>
   <Footer__FooterContainer>
     <footer
-      className="Footer__FooterContainer-x896os-0 kkqKmb"
+      className="Footer__FooterContainer-x896os-0 dwTAHV"
     >
       <Container
         fluid={false}
@@ -65,7 +65,7 @@ exports[`Footer should render without throwing an error 1`] = `
                   >
                     <a
                       aria-label="Github"
-                      className="Footer__GitLogo-x896os-3 hOyXxL"
+                      className="Footer__GitLogo-x896os-3 hFisuJ"
                       href="https://github.com/DeKal/portfolio-next-js"
                     >
                       <FaGithub
@@ -112,22 +112,22 @@ exports[`Footer should render without throwing an error 1`] = `
                 >
                   <a
                     aria-label="Home"
-                    className="GoTop__Container-sc-137nslr-0 fCDaNA"
+                    className="GoTop__Container-sc-137nslr-0 hspWCw"
                     href="#Home"
                   >
                     <GoTop__GoTopIcon
                       name="goTop"
                     >
                       <Icon
-                        className="GoTop__GoTopIcon-sc-137nslr-1 cIvAmA"
+                        className="GoTop__GoTopIcon-sc-137nslr-1 hasGIW"
                         name="goTop"
                       >
                         <Icon__Symbol
-                          className="GoTop__GoTopIcon-sc-137nslr-1 cIvAmA"
+                          className="GoTop__GoTopIcon-sc-137nslr-1 hasGIW"
                           name="goTop"
                         >
                           <div
-                            className="Icon__Symbol-sc-6mj7rl-0 bhSWal GoTop__GoTopIcon-sc-137nslr-1 cIvAmA"
+                            className="Icon__Symbol-sc-6mj7rl-0 bhSWal GoTop__GoTopIcon-sc-137nslr-1 hasGIW"
                             name="goTop"
                           />
                         </Icon__Symbol>

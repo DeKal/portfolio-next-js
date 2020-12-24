@@ -95,7 +95,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                     >
                       <List__Container>
                         <ul
-                          className="List__Container-sc-1s8tx8z-0 cmjuOV"
+                          className="List__Container-sc-1asami6-0 Zlfwd"
                         >
                           <Item
                             dates="Exp: Portfolio Dates"
@@ -105,21 +105,21 @@ exports[`SideProjects should render without throwing an error 1`] = `
                           >
                             <Item__Container>
                               <li
-                                className="Item__Container-yry9ye-0 kezTPZ"
+                                className="Item__Container-phyof1-0 kibNdn"
                               >
                                 <ExpIcon
                                   name="workexp"
                                 >
                                   <Icon
-                                    className="ExpIcon-pd7zps-0 eqsbIB"
+                                    className="ExpIcon-sc-2nr1xu-0 bHORkU"
                                     name="workexp"
                                   >
                                     <Icon__Symbol
-                                      className="ExpIcon-pd7zps-0 eqsbIB"
+                                      className="ExpIcon-sc-2nr1xu-0 bHORkU"
                                       name="workexp"
                                     >
                                       <div
-                                        className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-pd7zps-0 eqsbIB"
+                                        className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-sc-2nr1xu-0 bHORkU"
                                         name="workexp"
                                       />
                                     </Icon__Symbol>
@@ -127,7 +127,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                 </ExpIcon>
                                 <Title>
                                   <h4
-                                    className="Title-sc-1d79yk1-0 hrZUiE"
+                                    className="Title-sc-12w0cji-0 dEValg"
                                   >
                                     <Translate
                                       id="Exp: Portfolio Title"
@@ -156,7 +156,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                 </Title>
                                 <Dates>
                                   <p
-                                    className="Dates-q2saym-0 bAksaV"
+                                    className="Dates-zjn4sl-0 bPyzhJ"
                                   >
                                     (
                                     <Translate
@@ -187,7 +187,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                 </Dates>
                                 <Description>
                                   <p
-                                    className="Description-sc-83rdc7-0 bFMWMf"
+                                    className="Description-sc-83rdc7-0 cYyTSi"
                                   >
                                     <Translate
                                       id="Exp: Portfolio Desc"
@@ -216,11 +216,11 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                 </Description>
                                 <Description>
                                   <p
-                                    className="Description-sc-83rdc7-0 bFMWMf"
+                                    className="Description-sc-83rdc7-0 cYyTSi"
                                   >
                                     <Bold>
                                       <b
-                                        className="Bold-sc-13i2l06-0 rbYzo"
+                                        className="Bold-sc-13i2l06-0 dtbVKu"
                                       >
                                         <Translate
                                           id="Exp: Portfolio Skill"
@@ -265,7 +265,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                     >
                       <List__Container>
                         <ul
-                          className="List__Container-sc-1s8tx8z-0 cmjuOV"
+                          className="List__Container-sc-1asami6-0 Zlfwd"
                         >
                           <Item
                             dates="Exp: LiveGuess Dates"
@@ -275,21 +275,21 @@ exports[`SideProjects should render without throwing an error 1`] = `
                           >
                             <Item__Container>
                               <li
-                                className="Item__Container-yry9ye-0 kezTPZ"
+                                className="Item__Container-phyof1-0 kibNdn"
                               >
                                 <ExpIcon
                                   name="workexp"
                                 >
                                   <Icon
-                                    className="ExpIcon-pd7zps-0 eqsbIB"
+                                    className="ExpIcon-sc-2nr1xu-0 bHORkU"
                                     name="workexp"
                                   >
                                     <Icon__Symbol
-                                      className="ExpIcon-pd7zps-0 eqsbIB"
+                                      className="ExpIcon-sc-2nr1xu-0 bHORkU"
                                       name="workexp"
                                     >
                                       <div
-                                        className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-pd7zps-0 eqsbIB"
+                                        className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-sc-2nr1xu-0 bHORkU"
                                         name="workexp"
                                       />
                                     </Icon__Symbol>
@@ -297,7 +297,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                 </ExpIcon>
                                 <Title>
                                   <h4
-                                    className="Title-sc-1d79yk1-0 hrZUiE"
+                                    className="Title-sc-12w0cji-0 dEValg"
                                   >
                                     <Translate
                                       id="Exp: LiveGuess Title"
@@ -326,7 +326,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                 </Title>
                                 <Dates>
                                   <p
-                                    className="Dates-q2saym-0 bAksaV"
+                                    className="Dates-zjn4sl-0 bPyzhJ"
                                   >
                                     (
                                     <Translate
@@ -357,7 +357,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                 </Dates>
                                 <Description>
                                   <p
-                                    className="Description-sc-83rdc7-0 bFMWMf"
+                                    className="Description-sc-83rdc7-0 cYyTSi"
                                   >
                                     <Translate
                                       id="Exp: LiveGuess Desc"
@@ -386,11 +386,11 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                 </Description>
                                 <Description>
                                   <p
-                                    className="Description-sc-83rdc7-0 bFMWMf"
+                                    className="Description-sc-83rdc7-0 cYyTSi"
                                   >
                                     <Bold>
                                       <b
-                                        className="Bold-sc-13i2l06-0 rbYzo"
+                                        className="Bold-sc-13i2l06-0 dtbVKu"
                                       >
                                         <Translate
                                           id="Exp: LiveGuess Skill"
@@ -453,7 +453,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                     >
                       <List__Container>
                         <ul
-                          className="List__Container-sc-1s8tx8z-0 cmjuOV"
+                          className="List__Container-sc-1asami6-0 Zlfwd"
                         >
                           <Item
                             dates="Exp: SmartApp Dates"
@@ -463,21 +463,21 @@ exports[`SideProjects should render without throwing an error 1`] = `
                           >
                             <Item__Container>
                               <li
-                                className="Item__Container-yry9ye-0 kezTPZ"
+                                className="Item__Container-phyof1-0 kibNdn"
                               >
                                 <ExpIcon
                                   name="workexp"
                                 >
                                   <Icon
-                                    className="ExpIcon-pd7zps-0 eqsbIB"
+                                    className="ExpIcon-sc-2nr1xu-0 bHORkU"
                                     name="workexp"
                                   >
                                     <Icon__Symbol
-                                      className="ExpIcon-pd7zps-0 eqsbIB"
+                                      className="ExpIcon-sc-2nr1xu-0 bHORkU"
                                       name="workexp"
                                     >
                                       <div
-                                        className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-pd7zps-0 eqsbIB"
+                                        className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-sc-2nr1xu-0 bHORkU"
                                         name="workexp"
                                       />
                                     </Icon__Symbol>
@@ -485,7 +485,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                 </ExpIcon>
                                 <Title>
                                   <h4
-                                    className="Title-sc-1d79yk1-0 hrZUiE"
+                                    className="Title-sc-12w0cji-0 dEValg"
                                   >
                                     <Translate
                                       id="Exp: SmartApp Title"
@@ -514,7 +514,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                 </Title>
                                 <Dates>
                                   <p
-                                    className="Dates-q2saym-0 bAksaV"
+                                    className="Dates-zjn4sl-0 bPyzhJ"
                                   >
                                     (
                                     <Translate
@@ -545,7 +545,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                 </Dates>
                                 <Description>
                                   <p
-                                    className="Description-sc-83rdc7-0 bFMWMf"
+                                    className="Description-sc-83rdc7-0 cYyTSi"
                                   >
                                     <Translate
                                       id="Exp: SmartApp Desc"
@@ -574,11 +574,11 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                 </Description>
                                 <Description>
                                   <p
-                                    className="Description-sc-83rdc7-0 bFMWMf"
+                                    className="Description-sc-83rdc7-0 cYyTSi"
                                   >
                                     <Bold>
                                       <b
-                                        className="Bold-sc-13i2l06-0 rbYzo"
+                                        className="Bold-sc-13i2l06-0 dtbVKu"
                                       >
                                         <Translate
                                           id="Exp: SmartApp Skill"
@@ -623,7 +623,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                     >
                       <List__Container>
                         <ul
-                          className="List__Container-sc-1s8tx8z-0 cmjuOV"
+                          className="List__Container-sc-1asami6-0 Zlfwd"
                         >
                           <Item
                             dates="Exp: Brand360 Dates"
@@ -633,21 +633,21 @@ exports[`SideProjects should render without throwing an error 1`] = `
                           >
                             <Item__Container>
                               <li
-                                className="Item__Container-yry9ye-0 kezTPZ"
+                                className="Item__Container-phyof1-0 kibNdn"
                               >
                                 <ExpIcon
                                   name="workexp"
                                 >
                                   <Icon
-                                    className="ExpIcon-pd7zps-0 eqsbIB"
+                                    className="ExpIcon-sc-2nr1xu-0 bHORkU"
                                     name="workexp"
                                   >
                                     <Icon__Symbol
-                                      className="ExpIcon-pd7zps-0 eqsbIB"
+                                      className="ExpIcon-sc-2nr1xu-0 bHORkU"
                                       name="workexp"
                                     >
                                       <div
-                                        className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-pd7zps-0 eqsbIB"
+                                        className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-sc-2nr1xu-0 bHORkU"
                                         name="workexp"
                                       />
                                     </Icon__Symbol>
@@ -655,7 +655,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                 </ExpIcon>
                                 <Title>
                                   <h4
-                                    className="Title-sc-1d79yk1-0 hrZUiE"
+                                    className="Title-sc-12w0cji-0 dEValg"
                                   >
                                     <Translate
                                       id="Exp: Brand360 Title"
@@ -684,7 +684,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                 </Title>
                                 <Dates>
                                   <p
-                                    className="Dates-q2saym-0 bAksaV"
+                                    className="Dates-zjn4sl-0 bPyzhJ"
                                   >
                                     (
                                     <Translate
@@ -715,7 +715,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                 </Dates>
                                 <Description>
                                   <p
-                                    className="Description-sc-83rdc7-0 bFMWMf"
+                                    className="Description-sc-83rdc7-0 cYyTSi"
                                   >
                                     <Translate
                                       id="Exp: Brand360 Desc"
@@ -744,11 +744,11 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                 </Description>
                                 <Description>
                                   <p
-                                    className="Description-sc-83rdc7-0 bFMWMf"
+                                    className="Description-sc-83rdc7-0 cYyTSi"
                                   >
                                     <Bold>
                                       <b
-                                        className="Bold-sc-13i2l06-0 rbYzo"
+                                        className="Bold-sc-13i2l06-0 dtbVKu"
                                       >
                                         <Translate
                                           id="Exp: Brand360 Skill"

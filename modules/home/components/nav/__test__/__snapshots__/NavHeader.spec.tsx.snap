@@ -60,7 +60,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                                     onClick={[Function]}
                                   >
                                     <a
-                                      className="NavLink__Container-sc-13fjz5m-0 exdEua"
+                                      className="NavLink__Container-sc-13fjz5m-0 hruwlM"
                                       onClick={[Function]}
                                     >
                                       <Translate
@@ -120,7 +120,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                                     onClick={[Function]}
                                   >
                                     <a
-                                      className="NavLink__Container-sc-13fjz5m-0 bqjnET"
+                                      className="NavLink__Container-sc-13fjz5m-0 hbFJHd"
                                       onClick={[Function]}
                                     >
                                       <Translate
@@ -246,9 +246,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
 `;
 
 exports[`Nav Header should render when show NavContent 1`] = `
-<NavHeader
-  isShowNavContent={true}
->
+<NavHeader>
   <NavHeader__NavContainer>
     <div
       className="NavHeader__NavContainer-sc-1iyu030-0 fgCwFy"
@@ -307,7 +305,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
                                     onClick={[Function]}
                                   >
                                     <a
-                                      className="NavLink__Container-sc-13fjz5m-0 exdEua"
+                                      className="NavLink__Container-sc-13fjz5m-0 hruwlM"
                                       onClick={[Function]}
                                     >
                                       <Translate
@@ -367,7 +365,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
                                     onClick={[Function]}
                                   >
                                     <a
-                                      className="NavLink__Container-sc-13fjz5m-0 bqjnET"
+                                      className="NavLink__Container-sc-13fjz5m-0 hbFJHd"
                                       onClick={[Function]}
                                     >
                                       <Translate
@@ -419,20 +417,20 @@ exports[`Nav Header should render when show NavContent 1`] = `
                         data-test-id="switch-nav-content"
                         onClick={[Function]}
                       >
-                        <NavHeader__CloseIcon>
-                          <MdClose
-                            className="NavHeader__CloseIcon-sc-1iyu030-3 izndOW"
+                        <NavHeader__HamburgerIcon>
+                          <GiHamburgerMenu
+                            className="NavHeader__HamburgerIcon-sc-1iyu030-2 cOqDWm"
                           >
                             <IconBase
                               attr={
                                 Object {
-                                  "viewBox": "0 0 24 24",
+                                  "viewBox": "0 0 512 512",
                                 }
                               }
-                              className="NavHeader__CloseIcon-sc-1iyu030-3 izndOW"
+                              className="NavHeader__HamburgerIcon-sc-1iyu030-2 cOqDWm"
                             >
                               <svg
-                                className="NavHeader__CloseIcon-sc-1iyu030-3 izndOW"
+                                className="NavHeader__HamburgerIcon-sc-1iyu030-2 cOqDWm"
                                 fill="currentColor"
                                 height="1em"
                                 stroke="currentColor"
@@ -442,18 +440,18 @@ exports[`Nav Header should render when show NavContent 1`] = `
                                     "color": undefined,
                                   }
                                 }
-                                viewBox="0 0 24 24"
+                                viewBox="0 0 512 512"
                                 width="1em"
                                 xmlns="http://www.w3.org/2000/svg"
                               >
                                 <path
-                                  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                                  d="M32 96v64h448V96H32zm0 128v64h448v-64H32zm0 128v64h448v-64H32z"
                                   key="0"
                                 />
                               </svg>
                             </IconBase>
-                          </MdClose>
-                        </NavHeader__CloseIcon>
+                          </GiHamburgerMenu>
+                        </NavHeader__HamburgerIcon>
                          
                         <Translate
                           id="Menu"

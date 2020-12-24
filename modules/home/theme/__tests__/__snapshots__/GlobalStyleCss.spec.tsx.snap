@@ -11,7 +11,7 @@ exports[`GlobalStyleCss should render defaultTheme without throwing an error 1`]
         "colorBlack": "#000000",
         "colorDark": "#2c3e50",
         "colorDarken": "#bdc3c7",
-        "colorLight": "#ecf0f1",
+        "colorLight": "#f3f6f6",
         "ghostWhite": "#f8f8ff ",
         "grey": "#696969",
       },
@@ -86,7 +86,7 @@ exports[`GlobalStyleCss should render defaultTheme without throwing an error 1`]
         color: #2c3e50;
       }
       h1 {
-        color: #ecf0f1;
+        color: #f3f6f6;
       }
       a {
         color: #2c3e50;
@@ -104,11 +104,11 @@ exports[`GlobalStyleCss should render defaultTheme without throwing an error 1`]
         background: #fff url(/images/bg-pattern.jpg);
       }
       *:selection {
-        color: #ecf0f1;
+        color: #f3f6f6;
         background-color: #bdc3c7;
       }
       *::-moz-selection {
-        color: #ecf0f1;
+        color: #f3f6f6;
         background-color: #bdc3c7;
       }
 
@@ -353,6 +353,19 @@ exports[`GlobalStyleCss should render defaultTheme without throwing an error 1`]
       a:hover {
         border-bottom: none;
       }
+
+      /* CUSTOM LINE COLOR */
+      /* The line */
+      .vertical-timeline.vertical-timeline-experience-line::before {
+        background: #bdc3c7;
+      }
+
+      .vertical-timeline.vertical-timeline-experience-line
+        .vertical-timeline-element--education
+        .vertical-timeline-element-icon {
+        box-shadow: 0 0 0 2px #bdc3c7, inset 0 2px 0 #bdc3c7,
+          0 2px 0 2px #bdc3c7;
+      }
     
   </style>
 </GlobalStyleCss>
@@ -369,7 +382,7 @@ exports[`GlobalStyleCss should render newyearTheme without throwing an error 1`]
         "colorBlack": "#000000",
         "colorDark": "#2c3e50",
         "colorDarken": "#bdc3c7",
-        "colorLight": "#ecf0f1",
+        "colorLight": "#f3f6f6",
         "ghostWhite": "#f8f8ff ",
         "grey": "#696969",
       },
@@ -444,7 +457,7 @@ exports[`GlobalStyleCss should render newyearTheme without throwing an error 1`]
         color: #2c3e50;
       }
       h1 {
-        color: #ecf0f1;
+        color: #f3f6f6;
       }
       a {
         color: #2c3e50;
@@ -462,11 +475,11 @@ exports[`GlobalStyleCss should render newyearTheme without throwing an error 1`]
         background: #fff url(/images/newyear/bg-pattern.jpg);
       }
       *:selection {
-        color: #ecf0f1;
+        color: #f3f6f6;
         background-color: #bdc3c7;
       }
       *::-moz-selection {
-        color: #ecf0f1;
+        color: #f3f6f6;
         background-color: #bdc3c7;
       }
 
@@ -711,6 +724,19 @@ exports[`GlobalStyleCss should render newyearTheme without throwing an error 1`]
       a:hover {
         border-bottom: none;
       }
+
+      /* CUSTOM LINE COLOR */
+      /* The line */
+      .vertical-timeline.vertical-timeline-experience-line::before {
+        background: #bdc3c7;
+      }
+
+      .vertical-timeline.vertical-timeline-experience-line
+        .vertical-timeline-element--education
+        .vertical-timeline-element-icon {
+        box-shadow: 0 0 0 2px #bdc3c7, inset 0 2px 0 #bdc3c7,
+          0 2px 0 2px #bdc3c7;
+      }
     
   </style>
 </GlobalStyleCss>
@@ -727,7 +753,7 @@ exports[`GlobalStyleCss should render xmasTheme without throwing an error 1`] = 
         "colorBlack": "#000000",
         "colorDark": "#2c3e50",
         "colorDarken": "#bdc3c7",
-        "colorLight": "#ecf0f1",
+        "colorLight": "#f3f6f6",
         "ghostWhite": "#f8f8ff ",
         "grey": "#696969",
       },
@@ -801,7 +827,7 @@ exports[`GlobalStyleCss should render xmasTheme without throwing an error 1`] = 
         color: #2c3e50;
       }
       h1 {
-        color: #ecf0f1;
+        color: #f3f6f6;
       }
       a {
         color: #2c3e50;
@@ -819,11 +845,11 @@ exports[`GlobalStyleCss should render xmasTheme without throwing an error 1`] = 
         background: #fff url(/images/christmas/bg-pattern-snow.png);
       }
       *:selection {
-        color: #ecf0f1;
+        color: #f3f6f6;
         background-color: #bdc3c7;
       }
       *::-moz-selection {
-        color: #ecf0f1;
+        color: #f3f6f6;
         background-color: #bdc3c7;
       }
 
@@ -1067,6 +1093,19 @@ exports[`GlobalStyleCss should render xmasTheme without throwing an error 1`] = 
       }
       a:hover {
         border-bottom: none;
+      }
+
+      /* CUSTOM LINE COLOR */
+      /* The line */
+      .vertical-timeline.vertical-timeline-experience-line::before {
+        background: #bdc3c7;
+      }
+
+      .vertical-timeline.vertical-timeline-experience-line
+        .vertical-timeline-element--education
+        .vertical-timeline-element-icon {
+        box-shadow: 0 0 0 2px #bdc3c7, inset 0 2px 0 #bdc3c7,
+          0 2px 0 2px #bdc3c7;
       }
     
   </style>
