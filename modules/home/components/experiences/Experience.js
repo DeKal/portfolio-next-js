@@ -8,6 +8,7 @@ import { useTheme } from '~/modules/core/theme/ThemeProviderSelector'
 
 const useStyles = theme => ({
   content: {
+    borderTop: `4px solid  ${theme.colors.colorAccent}`,
     background: theme.colors.colorLight
   },
   arrow: {
