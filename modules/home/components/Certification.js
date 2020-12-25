@@ -5,7 +5,9 @@ import CertInfo from '~/modules/home/components/certification/CertInfo'
 import { CERTIFICATIONS } from '~/modules/home/consts/pages'
 import { ITEM, INFO } from '~/modules/home/consts/certification'
 import Header from '~/modules/home/components/common/section/Header'
-import Anchor from '~/modules/home/components/common/Anchor'
+import Anchor, {
+  ANCHOR_DISTANCE_TO_TOP_OF_SECTION
+} from '~/modules/home/components/common/Anchor'
 import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
 import SectionContainer from '~/modules/home/components/common/section/Container'
@@ -16,7 +18,7 @@ const Certification = () => {
 
   return (
     <SectionContainer>
-      <Anchor id={CERTIFICATIONS} top={-125} />
+      <Anchor id={CERTIFICATIONS} top={ANCHOR_DISTANCE_TO_TOP_OF_SECTION} />
       <Container>
         <Header>
           <h2>

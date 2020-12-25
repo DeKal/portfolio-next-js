@@ -5,7 +5,9 @@ import Header from '~/modules/home/components/common/section/Header'
 import Content from '~/modules/home/components/project/Content'
 import SelectedImage from '~/modules/home/components/project/SelectedImage'
 import { PROJECTS } from '~/modules/home/consts/pages'
-import Anchor from '~/modules/home/components/common/Anchor'
+import Anchor, {
+  ANCHOR_DISTANCE_TO_TOP_OF_SECTION
+} from '~/modules/home/components/common/Anchor'
 import Gallery from 'react-photo-gallery'
 import Carousel, { Modal, ModalGateway } from 'react-images'
 import { photos } from '~/modules/home/consts/photos.js'
@@ -37,7 +39,7 @@ const Project = () => {
 
   return (
     <Container>
-      <Anchor id={PROJECTS} top={-125} />
+      <Anchor id={PROJECTS} top={ANCHOR_DISTANCE_TO_TOP_OF_SECTION} />
       <Header>
         <h2>
           <Translate id="Project: Title" />
