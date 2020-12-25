@@ -23,6 +23,7 @@ export default SelectedImage
 
 const Image = styled.img`
   border: 0.5px solid ${props => props.theme.colors.colorDarken};
+
   &:hover {
     transition: transform 0.135s cubic-bezier(0, 0, 0.2, 1),
       opacity linear 0.15s;
