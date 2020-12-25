@@ -2,177 +2,142 @@
 
 exports[`Footer should render without throwing an error 1`] = `
 <Contact>
-  <Contact__Wrapper>
-    <div
-      className="Contact__Wrapper-sc-19q81t0-0 dxiLEu"
-    >
-      <Anchor
-        id="Contacts"
-        top={-40}
+  <Container>
+    <Container__Style>
+      <section
+        className="Container__Style-sc-3utn0w-0 fovYsq"
       >
-        <span
-          className="Anchor-sc-1axmo0z-0 qtHhk"
+        <Anchor
           id="Contacts"
-        />
-      </Anchor>
-      <Container
-        fluid={false}
-      >
-        <div
-          className="container"
+          top={-125}
         >
-          <Contact__Card>
-            <section
-              className="Contact__Card-sc-19q81t0-1 crLKhH"
-            >
-              <Header>
-                <Header__Container
-                  className="contact-card__header"
-                >
-                  <header
-                    className="Header__Container-sc-9x4isp-0 hpYRsS contact-card__header"
+          <span
+            className="Anchor-sc-1axmo0z-0 hMVkAm"
+            id="Contacts"
+          />
+        </Anchor>
+        <Container
+          fluid={false}
+        >
+          <div
+            className="container"
+          >
+            <Contact__Card>
+              <section
+                className="Contact__Card-sc-19q81t0-0 fCoDHi"
+              >
+                <Header>
+                  <Header__Container
+                    className="contact-card__header"
                   >
-                    <h2>
-                      <Translate
-                        id="Contact: Header 1"
-                      >
-                        <WrappedTranslate
-                          context={
-                            Object {
-                              "activeLanguage": undefined,
-                              "addTranslation": [Function],
-                              "addTranslationForLanguage": [Function],
-                              "defaultLanguage": undefined,
-                              "ignoreTranslateChildren": false,
-                              "initialize": [Function],
-                              "languages": Array [],
-                              "renderToStaticMarkup": false,
-                              "setActiveLanguage": [Function],
-                              "translate": [Function],
-                            }
-                          }
+                    <header
+                      className="Header__Container-sc-9x4isp-0 hpYRsS contact-card__header"
+                    >
+                      <h2>
+                        <Translate
                           id="Contact: Header 1"
                         >
-                          Missing translationId: Contact: Header 1 for language: \${ languageCode }
-                        </WrappedTranslate>
-                      </Translate>
-                    </h2>
-                    <h4>
-                      <Translate
-                        id="Contact: Header 2"
-                      >
-                        <WrappedTranslate
-                          context={
-                            Object {
-                              "activeLanguage": undefined,
-                              "addTranslation": [Function],
-                              "addTranslationForLanguage": [Function],
-                              "defaultLanguage": undefined,
-                              "ignoreTranslateChildren": false,
-                              "initialize": [Function],
-                              "languages": Array [],
-                              "renderToStaticMarkup": false,
-                              "setActiveLanguage": [Function],
-                              "translate": [Function],
+                          <WrappedTranslate
+                            context={
+                              Object {
+                                "activeLanguage": undefined,
+                                "addTranslation": [Function],
+                                "addTranslationForLanguage": [Function],
+                                "defaultLanguage": undefined,
+                                "ignoreTranslateChildren": false,
+                                "initialize": [Function],
+                                "languages": Array [],
+                                "renderToStaticMarkup": false,
+                                "setActiveLanguage": [Function],
+                                "translate": [Function],
+                              }
                             }
-                          }
+                            id="Contact: Header 1"
+                          >
+                            Missing translationId: Contact: Header 1 for language: \${ languageCode }
+                          </WrappedTranslate>
+                        </Translate>
+                      </h2>
+                      <h4>
+                        <Translate
                           id="Contact: Header 2"
                         >
-                          Missing translationId: Contact: Header 2 for language: \${ languageCode }
-                        </WrappedTranslate>
-                      </Translate>
-                    </h4>
-                  </header>
-                </Header__Container>
-              </Header>
-              <Content>
-                <Content__Container>
-                  <div
-                    className="Content__Container-h48asr-0 bniial"
-                  >
-                    <Logo>
-                      <Logo__Container>
+                          <WrappedTranslate
+                            context={
+                              Object {
+                                "activeLanguage": undefined,
+                                "addTranslation": [Function],
+                                "addTranslationForLanguage": [Function],
+                                "defaultLanguage": undefined,
+                                "ignoreTranslateChildren": false,
+                                "initialize": [Function],
+                                "languages": Array [],
+                                "renderToStaticMarkup": false,
+                                "setActiveLanguage": [Function],
+                                "translate": [Function],
+                              }
+                            }
+                            id="Contact: Header 2"
+                          >
+                            Missing translationId: Contact: Header 2 for language: \${ languageCode }
+                          </WrappedTranslate>
+                        </Translate>
+                      </h4>
+                    </header>
+                  </Header__Container>
+                </Header>
+                <Content>
+                  <Content__Container>
+                    <div
+                      className="Content__Container-h48asr-0 bniial"
+                    >
+                      <Logo>
+                        <Logo__Container>
+                          <div
+                            className="Logo__Container-sc-3ksn80-0 hnaXbJ"
+                          >
+                            JD
+                          </div>
+                        </Logo__Container>
+                      </Logo>
+                      <Content__Group>
                         <div
-                          className="Logo__Container-sc-3ksn80-0 hnaXbJ"
+                          className="Content__Group-h48asr-1 dBdkwx"
                         >
-                          JD
-                        </div>
-                      </Logo__Container>
-                    </Logo>
-                    <Content__Group>
-                      <div
-                        className="Content__Group-h48asr-1 dBdkwx"
-                      >
-                        <Description>
-                          <Description__Container>
-                            <div
-                              className="Description__Container-sc-148khb-0 hKojaM"
-                            >
-                              <p>
-                                <Translate
-                                  id="Contact: Description 1"
-                                >
-                                  <WrappedTranslate
-                                    context={
-                                      Object {
-                                        "activeLanguage": undefined,
-                                        "addTranslation": [Function],
-                                        "addTranslationForLanguage": [Function],
-                                        "defaultLanguage": undefined,
-                                        "ignoreTranslateChildren": false,
-                                        "initialize": [Function],
-                                        "languages": Array [],
-                                        "renderToStaticMarkup": false,
-                                        "setActiveLanguage": [Function],
-                                        "translate": [Function],
-                                      }
-                                    }
+                          <Description>
+                            <Description__Container>
+                              <div
+                                className="Description__Container-sc-148khb-0 hKojaM"
+                              >
+                                <p>
+                                  <Translate
                                     id="Contact: Description 1"
                                   >
-                                    Missing translationId: Contact: Description 1 for language: \${ languageCode }
-                                  </WrappedTranslate>
-                                </Translate>
-                              </p>
-                              <p>
-                                <Translate
-                                  id="Contact: Description 2"
-                                >
-                                  <WrappedTranslate
-                                    context={
-                                      Object {
-                                        "activeLanguage": undefined,
-                                        "addTranslation": [Function],
-                                        "addTranslationForLanguage": [Function],
-                                        "defaultLanguage": undefined,
-                                        "ignoreTranslateChildren": false,
-                                        "initialize": [Function],
-                                        "languages": Array [],
-                                        "renderToStaticMarkup": false,
-                                        "setActiveLanguage": [Function],
-                                        "translate": [Function],
+                                    <WrappedTranslate
+                                      context={
+                                        Object {
+                                          "activeLanguage": undefined,
+                                          "addTranslation": [Function],
+                                          "addTranslationForLanguage": [Function],
+                                          "defaultLanguage": undefined,
+                                          "ignoreTranslateChildren": false,
+                                          "initialize": [Function],
+                                          "languages": Array [],
+                                          "renderToStaticMarkup": false,
+                                          "setActiveLanguage": [Function],
+                                          "translate": [Function],
+                                        }
                                       }
-                                    }
+                                      id="Contact: Description 1"
+                                    >
+                                      Missing translationId: Contact: Description 1 for language: \${ languageCode }
+                                    </WrappedTranslate>
+                                  </Translate>
+                                </p>
+                                <p>
+                                  <Translate
                                     id="Contact: Description 2"
                                   >
-                                    Missing translationId: Contact: Description 2 for language: \${ languageCode }
-                                  </WrappedTranslate>
-                                </Translate>
-                              </p>
-                            </div>
-                          </Description__Container>
-                        </Description>
-                        <Info>
-                          <Info__Container>
-                            <div
-                              className="Info__Container-sc-1c7fwcl-0 iZltGY"
-                            >
-                              <Info__Name>
-                                <h4
-                                  className="Info__Name-sc-1c7fwcl-1 hDvRwD"
-                                >
-                                  <Translate
-                                    id="Contact: Info Name"
-                                  >
                                     <WrappedTranslate
                                       context={
                                         Object {
@@ -188,285 +153,322 @@ exports[`Footer should render without throwing an error 1`] = `
                                           "translate": [Function],
                                         }
                                       }
+                                      id="Contact: Description 2"
+                                    >
+                                      Missing translationId: Contact: Description 2 for language: \${ languageCode }
+                                    </WrappedTranslate>
+                                  </Translate>
+                                </p>
+                              </div>
+                            </Description__Container>
+                          </Description>
+                          <Info>
+                            <Info__Container>
+                              <div
+                                className="Info__Container-sc-1c7fwcl-0 iZltGY"
+                              >
+                                <Info__Name>
+                                  <h4
+                                    className="Info__Name-sc-1c7fwcl-1 hDvRwD"
+                                  >
+                                    <Translate
                                       id="Contact: Info Name"
                                     >
-                                      Missing translationId: Contact: Info Name for language: \${ languageCode }
-                                    </WrappedTranslate>
-                                  </Translate>
-                                </h4>
-                              </Info__Name>
-                              <Info__Role>
-                                <div
-                                  className="Info__Paragraph-sc-1c7fwcl-2 Info__Role-sc-1c7fwcl-3 iDHjq"
-                                >
-                                  <Translate
-                                    id="Contact: Info Role"
-                                  >
-                                    <WrappedTranslate
-                                      context={
-                                        Object {
-                                          "activeLanguage": undefined,
-                                          "addTranslation": [Function],
-                                          "addTranslationForLanguage": [Function],
-                                          "defaultLanguage": undefined,
-                                          "ignoreTranslateChildren": false,
-                                          "initialize": [Function],
-                                          "languages": Array [],
-                                          "renderToStaticMarkup": false,
-                                          "setActiveLanguage": [Function],
-                                          "translate": [Function],
+                                      <WrappedTranslate
+                                        context={
+                                          Object {
+                                            "activeLanguage": undefined,
+                                            "addTranslation": [Function],
+                                            "addTranslationForLanguage": [Function],
+                                            "defaultLanguage": undefined,
+                                            "ignoreTranslateChildren": false,
+                                            "initialize": [Function],
+                                            "languages": Array [],
+                                            "renderToStaticMarkup": false,
+                                            "setActiveLanguage": [Function],
+                                            "translate": [Function],
+                                          }
                                         }
-                                      }
+                                        id="Contact: Info Name"
+                                      >
+                                        Missing translationId: Contact: Info Name for language: \${ languageCode }
+                                      </WrappedTranslate>
+                                    </Translate>
+                                  </h4>
+                                </Info__Name>
+                                <Info__Role>
+                                  <div
+                                    className="Info__Paragraph-sc-1c7fwcl-2 Info__Role-sc-1c7fwcl-3 iDHjq"
+                                  >
+                                    <Translate
                                       id="Contact: Info Role"
                                     >
-                                      Missing translationId: Contact: Info Role for language: \${ languageCode }
-                                    </WrappedTranslate>
-                                  </Translate>
-                                </div>
-                              </Info__Role>
-                              <Info__Location>
-                                <div
-                                  className="Info__Paragraph-sc-1c7fwcl-2 Info__Location-sc-1c7fwcl-4 jpwgZE"
-                                >
-                                  <Info__LocationIcon
-                                    name="location"
+                                      <WrappedTranslate
+                                        context={
+                                          Object {
+                                            "activeLanguage": undefined,
+                                            "addTranslation": [Function],
+                                            "addTranslationForLanguage": [Function],
+                                            "defaultLanguage": undefined,
+                                            "ignoreTranslateChildren": false,
+                                            "initialize": [Function],
+                                            "languages": Array [],
+                                            "renderToStaticMarkup": false,
+                                            "setActiveLanguage": [Function],
+                                            "translate": [Function],
+                                          }
+                                        }
+                                        id="Contact: Info Role"
+                                      >
+                                        Missing translationId: Contact: Info Role for language: \${ languageCode }
+                                      </WrappedTranslate>
+                                    </Translate>
+                                  </div>
+                                </Info__Role>
+                                <Info__Location>
+                                  <div
+                                    className="Info__Paragraph-sc-1c7fwcl-2 Info__Location-sc-1c7fwcl-4 jpwgZE"
                                   >
-                                    <Icon
-                                      className="Info__LocationIcon-sc-1c7fwcl-11 fMZoek"
+                                    <Info__LocationIcon
                                       name="location"
                                     >
-                                      <Icon__Symbol
+                                      <Icon
                                         className="Info__LocationIcon-sc-1c7fwcl-11 fMZoek"
                                         name="location"
                                       >
-                                        <div
-                                          className="Icon__Symbol-sc-6mj7rl-0 iupPwJ Info__LocationIcon-sc-1c7fwcl-11 fMZoek"
+                                        <Icon__Symbol
+                                          className="Info__LocationIcon-sc-1c7fwcl-11 fMZoek"
                                           name="location"
-                                        />
-                                      </Icon__Symbol>
-                                    </Icon>
-                                  </Info__LocationIcon>
-                                  <Info__Underline
-                                    href="#map"
-                                  >
-                                    <a
-                                      className="Info__Underline-sc-1c7fwcl-10 tSqkm"
+                                        >
+                                          <div
+                                            className="Icon__Symbol-sc-6mj7rl-0 iupPwJ Info__LocationIcon-sc-1c7fwcl-11 fMZoek"
+                                            name="location"
+                                          />
+                                        </Icon__Symbol>
+                                      </Icon>
+                                    </Info__LocationIcon>
+                                    <Info__Underline
                                       href="#map"
                                     >
-                                      <Info__Country>
-                                        <span
-                                          className="Info__Inline-sc-1c7fwcl-7 Info__Country-sc-1c7fwcl-8 hYuTNo"
-                                        >
-                                          <Translate
-                                            id="Contact: Info Country"
+                                      <a
+                                        className="Info__Underline-sc-1c7fwcl-10 tSqkm"
+                                        href="#map"
+                                      >
+                                        <Info__Country>
+                                          <span
+                                            className="Info__Inline-sc-1c7fwcl-7 Info__Country-sc-1c7fwcl-8 hYuTNo"
                                           >
-                                            <WrappedTranslate
-                                              context={
-                                                Object {
-                                                  "activeLanguage": undefined,
-                                                  "addTranslation": [Function],
-                                                  "addTranslationForLanguage": [Function],
-                                                  "defaultLanguage": undefined,
-                                                  "ignoreTranslateChildren": false,
-                                                  "initialize": [Function],
-                                                  "languages": Array [],
-                                                  "renderToStaticMarkup": false,
-                                                  "setActiveLanguage": [Function],
-                                                  "translate": [Function],
-                                                }
-                                              }
+                                            <Translate
                                               id="Contact: Info Country"
                                             >
-                                              Missing translationId: Contact: Info Country for language: \${ languageCode }
-                                            </WrappedTranslate>
-                                          </Translate>
-                                        </span>
-                                      </Info__Country>
-                                      , 
-                                      <Info__Address>
-                                        <span
-                                          className="Info__Inline-sc-1c7fwcl-7 Info__Address-sc-1c7fwcl-9 bExWBz"
-                                        >
-                                          <Translate
-                                            id="Contact: Info Dist"
-                                          >
-                                            <WrappedTranslate
-                                              context={
-                                                Object {
-                                                  "activeLanguage": undefined,
-                                                  "addTranslation": [Function],
-                                                  "addTranslationForLanguage": [Function],
-                                                  "defaultLanguage": undefined,
-                                                  "ignoreTranslateChildren": false,
-                                                  "initialize": [Function],
-                                                  "languages": Array [],
-                                                  "renderToStaticMarkup": false,
-                                                  "setActiveLanguage": [Function],
-                                                  "translate": [Function],
+                                              <WrappedTranslate
+                                                context={
+                                                  Object {
+                                                    "activeLanguage": undefined,
+                                                    "addTranslation": [Function],
+                                                    "addTranslationForLanguage": [Function],
+                                                    "defaultLanguage": undefined,
+                                                    "ignoreTranslateChildren": false,
+                                                    "initialize": [Function],
+                                                    "languages": Array [],
+                                                    "renderToStaticMarkup": false,
+                                                    "setActiveLanguage": [Function],
+                                                    "translate": [Function],
+                                                  }
                                                 }
-                                              }
+                                                id="Contact: Info Country"
+                                              >
+                                                Missing translationId: Contact: Info Country for language: \${ languageCode }
+                                              </WrappedTranslate>
+                                            </Translate>
+                                          </span>
+                                        </Info__Country>
+                                        , 
+                                        <Info__Address>
+                                          <span
+                                            className="Info__Inline-sc-1c7fwcl-7 Info__Address-sc-1c7fwcl-9 bExWBz"
+                                          >
+                                            <Translate
                                               id="Contact: Info Dist"
                                             >
-                                              Missing translationId: Contact: Info Dist for language: \${ languageCode }
-                                            </WrappedTranslate>
-                                          </Translate>
-                                        </span>
-                                      </Info__Address>
-                                    </a>
-                                  </Info__Underline>
-                                </div>
-                              </Info__Location>
-                              <Info__Email>
-                                <div
-                                  className="Info__Paragraph-sc-1c7fwcl-2 Info__Email-sc-1c7fwcl-5 eeYNSQ"
-                                >
-                                  <Info__EmailIcon
-                                    name="mail"
+                                              <WrappedTranslate
+                                                context={
+                                                  Object {
+                                                    "activeLanguage": undefined,
+                                                    "addTranslation": [Function],
+                                                    "addTranslationForLanguage": [Function],
+                                                    "defaultLanguage": undefined,
+                                                    "ignoreTranslateChildren": false,
+                                                    "initialize": [Function],
+                                                    "languages": Array [],
+                                                    "renderToStaticMarkup": false,
+                                                    "setActiveLanguage": [Function],
+                                                    "translate": [Function],
+                                                  }
+                                                }
+                                                id="Contact: Info Dist"
+                                              >
+                                                Missing translationId: Contact: Info Dist for language: \${ languageCode }
+                                              </WrappedTranslate>
+                                            </Translate>
+                                          </span>
+                                        </Info__Address>
+                                      </a>
+                                    </Info__Underline>
+                                  </div>
+                                </Info__Location>
+                                <Info__Email>
+                                  <div
+                                    className="Info__Paragraph-sc-1c7fwcl-2 Info__Email-sc-1c7fwcl-5 eeYNSQ"
                                   >
-                                    <Icon
-                                      className="Info__EmailIcon-sc-1c7fwcl-12 ZEwqu"
+                                    <Info__EmailIcon
                                       name="mail"
                                     >
-                                      <Icon__Symbol
+                                      <Icon
                                         className="Info__EmailIcon-sc-1c7fwcl-12 ZEwqu"
                                         name="mail"
                                       >
-                                        <div
-                                          className="Icon__Symbol-sc-6mj7rl-0 ksJtXj Info__EmailIcon-sc-1c7fwcl-12 ZEwqu"
+                                        <Icon__Symbol
+                                          className="Info__EmailIcon-sc-1c7fwcl-12 ZEwqu"
                                           name="mail"
-                                        />
-                                      </Icon__Symbol>
-                                    </Icon>
-                                  </Info__EmailIcon>
-                                  <Info__Underline>
-                                    <a
-                                      className="Info__Underline-sc-1c7fwcl-10 tSqkm"
-                                    >
-                                      hohuuphat22@gmail.com
-                                    </a>
-                                  </Info__Underline>
-                                </div>
-                              </Info__Email>
-                              <Info__Phone>
-                                <div
-                                  className="Info__Paragraph-sc-1c7fwcl-2 Info__Phone-sc-1c7fwcl-6 juJfOj"
-                                >
-                                  <Info__PhoneIcon
-                                    name="phone"
+                                        >
+                                          <div
+                                            className="Icon__Symbol-sc-6mj7rl-0 ksJtXj Info__EmailIcon-sc-1c7fwcl-12 ZEwqu"
+                                            name="mail"
+                                          />
+                                        </Icon__Symbol>
+                                      </Icon>
+                                    </Info__EmailIcon>
+                                    <Info__Underline>
+                                      <a
+                                        className="Info__Underline-sc-1c7fwcl-10 tSqkm"
+                                      >
+                                        hohuuphat22@gmail.com
+                                      </a>
+                                    </Info__Underline>
+                                  </div>
+                                </Info__Email>
+                                <Info__Phone>
+                                  <div
+                                    className="Info__Paragraph-sc-1c7fwcl-2 Info__Phone-sc-1c7fwcl-6 juJfOj"
                                   >
-                                    <Icon
-                                      className="Info__PhoneIcon-sc-1c7fwcl-13 jHKmUe"
+                                    <Info__PhoneIcon
                                       name="phone"
                                     >
-                                      <Icon__Symbol
+                                      <Icon
                                         className="Info__PhoneIcon-sc-1c7fwcl-13 jHKmUe"
                                         name="phone"
                                       >
-                                        <div
-                                          className="Icon__Symbol-sc-6mj7rl-0 hqtnvj Info__PhoneIcon-sc-1c7fwcl-13 jHKmUe"
+                                        <Icon__Symbol
+                                          className="Info__PhoneIcon-sc-1c7fwcl-13 jHKmUe"
                                           name="phone"
-                                        />
-                                      </Icon__Symbol>
-                                    </Icon>
-                                  </Info__PhoneIcon>
-                                  <Info__Underline>
-                                    <a
-                                      className="Info__Underline-sc-1c7fwcl-10 tSqkm"
-                                    >
-                                      +84 906323761
-                                    </a>
-                                  </Info__Underline>
-                                </div>
-                              </Info__Phone>
-                            </div>
-                          </Info__Container>
-                        </Info>
-                        <Socials>
-                          <Socials__Container>
-                            <ul
-                              className="Socials__Container-sc-1g7e2kk-0 fpJdTl"
-                            >
-                              <Socials__Item
-                                data-test-id="socials-fb-link"
-                                onClick={[Function]}
+                                        >
+                                          <div
+                                            className="Icon__Symbol-sc-6mj7rl-0 hqtnvj Info__PhoneIcon-sc-1c7fwcl-13 jHKmUe"
+                                            name="phone"
+                                          />
+                                        </Icon__Symbol>
+                                      </Icon>
+                                    </Info__PhoneIcon>
+                                    <Info__Underline>
+                                      <a
+                                        className="Info__Underline-sc-1c7fwcl-10 tSqkm"
+                                      >
+                                        +84 906323761
+                                      </a>
+                                    </Info__Underline>
+                                  </div>
+                                </Info__Phone>
+                              </div>
+                            </Info__Container>
+                          </Info>
+                          <Socials>
+                            <Socials__Container>
+                              <ul
+                                className="Socials__Container-sc-1g7e2kk-0 fpJdTl"
                               >
-                                <li
-                                  className="Socials__Item-sc-1g7e2kk-1 fJZAU"
+                                <Socials__Item
                                   data-test-id="socials-fb-link"
                                   onClick={[Function]}
                                 >
-                                  <Socials__IconWrapper
-                                    name="fb"
+                                  <li
+                                    className="Socials__Item-sc-1g7e2kk-1 fJZAU"
+                                    data-test-id="socials-fb-link"
+                                    onClick={[Function]}
                                   >
-                                    <Icon
-                                      className="Socials__IconWrapper-sc-1g7e2kk-2 cYpKxd"
+                                    <Socials__IconWrapper
                                       name="fb"
                                     >
-                                      <Icon__Symbol
+                                      <Icon
                                         className="Socials__IconWrapper-sc-1g7e2kk-2 cYpKxd"
                                         name="fb"
                                       >
-                                        <div
-                                          className="Icon__Symbol-sc-6mj7rl-0 dgmAAL Socials__IconWrapper-sc-1g7e2kk-2 cYpKxd"
+                                        <Icon__Symbol
+                                          className="Socials__IconWrapper-sc-1g7e2kk-2 cYpKxd"
                                           name="fb"
-                                        />
-                                      </Icon__Symbol>
-                                    </Icon>
-                                  </Socials__IconWrapper>
-                                </li>
-                              </Socials__Item>
-                              <Socials__Item
-                                data-test-id="socials-linkedin-link"
-                                onClick={[Function]}
-                              >
-                                <li
-                                  className="Socials__Item-sc-1g7e2kk-1 fJZAU"
+                                        >
+                                          <div
+                                            className="Icon__Symbol-sc-6mj7rl-0 dgmAAL Socials__IconWrapper-sc-1g7e2kk-2 cYpKxd"
+                                            name="fb"
+                                          />
+                                        </Icon__Symbol>
+                                      </Icon>
+                                    </Socials__IconWrapper>
+                                  </li>
+                                </Socials__Item>
+                                <Socials__Item
                                   data-test-id="socials-linkedin-link"
                                   onClick={[Function]}
                                 >
-                                  <Socials__IconWrapper
-                                    name="linkedin"
+                                  <li
+                                    className="Socials__Item-sc-1g7e2kk-1 fJZAU"
+                                    data-test-id="socials-linkedin-link"
+                                    onClick={[Function]}
                                   >
-                                    <Icon
-                                      className="Socials__IconWrapper-sc-1g7e2kk-2 cYpKxd"
+                                    <Socials__IconWrapper
                                       name="linkedin"
                                     >
-                                      <Icon__Symbol
+                                      <Icon
                                         className="Socials__IconWrapper-sc-1g7e2kk-2 cYpKxd"
                                         name="linkedin"
                                       >
-                                        <div
-                                          className="Icon__Symbol-sc-6mj7rl-0 pacIb Socials__IconWrapper-sc-1g7e2kk-2 cYpKxd"
+                                        <Icon__Symbol
+                                          className="Socials__IconWrapper-sc-1g7e2kk-2 cYpKxd"
                                           name="linkedin"
-                                        />
-                                      </Icon__Symbol>
-                                    </Icon>
-                                  </Socials__IconWrapper>
-                                </li>
-                              </Socials__Item>
-                            </ul>
-                          </Socials__Container>
-                        </Socials>
-                      </div>
-                    </Content__Group>
-                  </div>
-                </Content__Container>
-              </Content>
-            </section>
-          </Contact__Card>
-        </div>
-      </Container>
-      <Map>
-        <Map__Container
-          id="map"
-        >
-          <div
-            className="Map__Container-g4b71z-0 byHcfk"
+                                        >
+                                          <div
+                                            className="Icon__Symbol-sc-6mj7rl-0 pacIb Socials__IconWrapper-sc-1g7e2kk-2 cYpKxd"
+                                            name="linkedin"
+                                          />
+                                        </Icon__Symbol>
+                                      </Icon>
+                                    </Socials__IconWrapper>
+                                  </li>
+                                </Socials__Item>
+                              </ul>
+                            </Socials__Container>
+                          </Socials>
+                        </div>
+                      </Content__Group>
+                    </div>
+                  </Content__Container>
+                </Content>
+              </section>
+            </Contact__Card>
+          </div>
+        </Container>
+        <Map>
+          <Map__Container
             id="map"
-          />
-        </Map__Container>
-      </Map>
-    </div>
-  </Contact__Wrapper>
+          >
+            <div
+              className="Map__Container-g4b71z-0 byHcfk"
+              id="map"
+            />
+          </Map__Container>
+        </Map>
+      </section>
+    </Container__Style>
+  </Container>
 </Contact>
 `;

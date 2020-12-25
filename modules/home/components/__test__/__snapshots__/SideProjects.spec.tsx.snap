@@ -5,7 +5,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
   <Container>
     <Container__Style>
       <section
-        className="Container__Style-sc-3utn0w-0 bsmDng"
+        className="Container__Style-sc-3utn0w-0 fovYsq"
       >
         <Container
           fluid={false}

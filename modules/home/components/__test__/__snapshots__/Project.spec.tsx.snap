@@ -2,373 +2,163 @@
 
 exports[`Project should render without throwing an error 1`] = `
 <Project>
-  <Container>
-    <Container__Style>
-      <section
-        className="Container__Style-sc-3utn0w-0 bsmDng"
+  <Container__StyleContainer>
+    <Container
+      className="Container__StyleContainer-sc-1lxo144-0 jvJFla"
+    >
+      <Container__Style
+        className="Container__StyleContainer-sc-1lxo144-0 jvJFla"
       >
-        <Anchor
-          id="Projects"
-          top={-40}
+        <section
+          className="Container__Style-sc-3utn0w-0 fovYsq Container__StyleContainer-sc-1lxo144-0 jvJFla"
         >
-          <span
-            className="Anchor-sc-1axmo0z-0 qtHhk"
+          <Anchor
             id="Projects"
-          />
-        </Anchor>
-        <Header>
-          <Header__Container>
-            <header
-              className="Header__Container-hz47ou-0 dxCyVk"
-            >
-              <h2>
-                <Translate
-                  id="Project: Title"
-                >
-                  <WrappedTranslate
-                    context={
-                      Object {
-                        "activeLanguage": undefined,
-                        "addTranslation": [Function],
-                        "addTranslationForLanguage": [Function],
-                        "defaultLanguage": undefined,
-                        "ignoreTranslateChildren": false,
-                        "initialize": [Function],
-                        "languages": Array [],
-                        "renderToStaticMarkup": false,
-                        "setActiveLanguage": [Function],
-                        "translate": [Function],
-                      }
-                    }
+            top={-125}
+          >
+            <span
+              className="Anchor-sc-1axmo0z-0 hMVkAm"
+              id="Projects"
+            />
+          </Anchor>
+          <Header>
+            <Header__Container>
+              <header
+                className="Header__Container-hz47ou-0 dxCyVk"
+              >
+                <h2>
+                  <Translate
                     id="Project: Title"
                   >
-                    Missing translationId: Project: Title for language: \${ languageCode }
-                  </WrappedTranslate>
-                </Translate>
-              </h2>
-              <h4>
-                <Translate
-                  id="Project: SubTitle"
-                >
-                  <WrappedTranslate
-                    context={
-                      Object {
-                        "activeLanguage": undefined,
-                        "addTranslation": [Function],
-                        "addTranslationForLanguage": [Function],
-                        "defaultLanguage": undefined,
-                        "ignoreTranslateChildren": false,
-                        "initialize": [Function],
-                        "languages": Array [],
-                        "renderToStaticMarkup": false,
-                        "setActiveLanguage": [Function],
-                        "translate": [Function],
+                    <WrappedTranslate
+                      context={
+                        Object {
+                          "activeLanguage": undefined,
+                          "addTranslation": [Function],
+                          "addTranslationForLanguage": [Function],
+                          "defaultLanguage": undefined,
+                          "ignoreTranslateChildren": false,
+                          "initialize": [Function],
+                          "languages": Array [],
+                          "renderToStaticMarkup": false,
+                          "setActiveLanguage": [Function],
+                          "translate": [Function],
+                        }
                       }
-                    }
+                      id="Project: Title"
+                    >
+                      Missing translationId: Project: Title for language: \${ languageCode }
+                    </WrappedTranslate>
+                  </Translate>
+                </h2>
+                <h4>
+                  <Translate
                     id="Project: SubTitle"
                   >
-                    Missing translationId: Project: SubTitle for language: \${ languageCode }
-                  </WrappedTranslate>
-                </Translate>
-              </h4>
-            </header>
-          </Header__Container>
-        </Header>
-        <Content>
-          <Content__NoPaddingContainer>
-            <Container
-              className="Content__NoPaddingContainer-sc-1sx6qta-0 NgcQg"
-              fluid={false}
-            >
-              <div
-                className="Content__NoPaddingContainer-sc-1sx6qta-0 NgcQg container"
+                    <WrappedTranslate
+                      context={
+                        Object {
+                          "activeLanguage": undefined,
+                          "addTranslation": [Function],
+                          "addTranslationForLanguage": [Function],
+                          "defaultLanguage": undefined,
+                          "ignoreTranslateChildren": false,
+                          "initialize": [Function],
+                          "languages": Array [],
+                          "renderToStaticMarkup": false,
+                          "setActiveLanguage": [Function],
+                          "translate": [Function],
+                        }
+                      }
+                      id="Project: SubTitle"
+                    >
+                      Missing translationId: Project: SubTitle for language: \${ languageCode }
+                    </WrappedTranslate>
+                  </Translate>
+                </h4>
+              </header>
+            </Header__Container>
+          </Header>
+          <Content>
+            <Content__NoPaddingContainer>
+              <Container
+                className="Content__NoPaddingContainer-sc-1sx6qta-0 bNngOs"
+                fluid={false}
               >
-                <Row
-                  noGutters={true}
+                <div
+                  className="Content__NoPaddingContainer-sc-1sx6qta-0 bNngOs container"
                 >
-                  <div
-                    className="row no-gutters"
+                  <Gallery
+                    direction="row"
+                    margin={2}
+                    onClick={[Function]}
+                    photos={
+                      Array [
+                        Object {
+                          "height": 4,
+                          "src": "/images/projects/zalora.webp",
+                          "title": "Zalora Lite",
+                          "width": 2,
+                        },
+                        Object {
+                          "height": 4,
+                          "src": "/images/projects/popswap.webp",
+                          "title": "Popswap",
+                          "width": 2,
+                        },
+                        Object {
+                          "height": 4,
+                          "src": "/images/projects/bootcareer.webp",
+                          "title": "Bootcareer Jobseeker",
+                          "width": 7,
+                        },
+                        Object {
+                          "height": 5,
+                          "src": "/images/projects/brand360.webp",
+                          "title": "Brand360 project",
+                          "width": 6,
+                        },
+                        Object {
+                          "height": 2,
+                          "src": "/images/projects/taman.webp",
+                          "title": "Tam An Web",
+                          "width": 3,
+                        },
+                        Object {
+                          "height": 6,
+                          "src": "/images/projects/2048.webp",
+                          "title": "2048 Fun Games",
+                          "width": 6,
+                        },
+                      ]
+                    }
+                    targetRowHeight={300}
                   >
-                    <Item
-                      hoverTitle="Brand360 project"
-                      imgAlt="Brand 360"
-                      imgSrc="/images/projects/brand360.webp"
-                      linkToWeb="http://brand360.vn/"
+                    <div>
+                       
+                    </div>
+                  </Gallery>
+                  <ModalGateway
+                    target={<body />}
+                  >
+                    <Portal
+                      containerInfo={<body />}
                     >
-                      <Col
-                        md={3}
-                        sm={6}
-                        xs={12}
+                      <TransitionGroup
+                        childFactory={[Function]}
+                        component={[Function]}
                       >
-                        <div
-                          className="col-md-3 col-sm-6 col-12"
-                        >
-                          <Item__Container>
-                            <figure
-                              className="Item__Container-sc-1su8qr-0 uLOae"
-                            >
-                              <Item__Image
-                                alt="Brand 360"
-                                src="/images/projects/brand360.webp"
-                              >
-                                <img
-                                  alt="Brand 360"
-                                  className="Item__Image-sc-1su8qr-1 kTULZk"
-                                  src="/images/projects/brand360.webp"
-                                />
-                              </Item__Image>
-                              <Caption
-                                hoverTitle="Brand360 project"
-                                linkToWeb="http://brand360.vn/"
-                              >
-                                <Caption__Container>
-                                  <figcaption
-                                    className="Caption__Container-yh5xu2-0 bsTqzx"
-                                  >
-                                    <Caption__Link
-                                      href="http://brand360.vn/"
-                                      rel="nofollow"
-                                    >
-                                      <a
-                                        className="Caption__Link-yh5xu2-1 iWiGMI"
-                                        href="http://brand360.vn/"
-                                        rel="nofollow"
-                                      >
-                                        <Icon
-                                          name="link"
-                                        >
-                                          <Icon__Symbol
-                                            name="link"
-                                          >
-                                            <div
-                                              className="Icon__Symbol-sc-6mj7rl-0 facaPX"
-                                              name="link"
-                                            />
-                                          </Icon__Symbol>
-                                        </Icon>
-                                        Brand360 project
-                                      </a>
-                                    </Caption__Link>
-                                  </figcaption>
-                                </Caption__Container>
-                              </Caption>
-                            </figure>
-                          </Item__Container>
-                        </div>
-                      </Col>
-                    </Item>
-                    <Item
-                      hoverTitle="Masan Report"
-                      imgAlt="Report application for Masan"
-                      imgSrc="/images/projects/anco.webp"
-                      linkToWeb=""
-                    >
-                      <Col
-                        md={3}
-                        sm={6}
-                        xs={12}
-                      >
-                        <div
-                          className="col-md-3 col-sm-6 col-12"
-                        >
-                          <Item__Container>
-                            <figure
-                              className="Item__Container-sc-1su8qr-0 uLOae"
-                            >
-                              <Item__Image
-                                alt="Report application for Masan"
-                                src="/images/projects/anco.webp"
-                              >
-                                <img
-                                  alt="Report application for Masan"
-                                  className="Item__Image-sc-1su8qr-1 kTULZk"
-                                  src="/images/projects/anco.webp"
-                                />
-                              </Item__Image>
-                              <Caption
-                                hoverTitle="Masan Report"
-                                linkToWeb=""
-                              >
-                                <Caption__Container>
-                                  <figcaption
-                                    className="Caption__Container-yh5xu2-0 bsTqzx"
-                                  >
-                                    <Caption__Link
-                                      href=""
-                                      rel="nofollow"
-                                    >
-                                      <a
-                                        className="Caption__Link-yh5xu2-1 iWiGMI"
-                                        href=""
-                                        rel="nofollow"
-                                      >
-                                        <Icon
-                                          name="link"
-                                        >
-                                          <Icon__Symbol
-                                            name="link"
-                                          >
-                                            <div
-                                              className="Icon__Symbol-sc-6mj7rl-0 facaPX"
-                                              name="link"
-                                            />
-                                          </Icon__Symbol>
-                                        </Icon>
-                                        Masan Report
-                                      </a>
-                                    </Caption__Link>
-                                  </figcaption>
-                                </Caption__Container>
-                              </Caption>
-                            </figure>
-                          </Item__Container>
-                        </div>
-                      </Col>
-                    </Item>
-                    <Item
-                      hoverTitle="Tam An Web"
-                      imgAlt="Tam An Web"
-                      imgSrc="/images/projects/taman.webp"
-                      linkToWeb="https://github.com/DeKal/Tam-An-Food-Store-Manager"
-                    >
-                      <Col
-                        md={3}
-                        sm={6}
-                        xs={12}
-                      >
-                        <div
-                          className="col-md-3 col-sm-6 col-12"
-                        >
-                          <Item__Container>
-                            <figure
-                              className="Item__Container-sc-1su8qr-0 uLOae"
-                            >
-                              <Item__Image
-                                alt="Tam An Web"
-                                src="/images/projects/taman.webp"
-                              >
-                                <img
-                                  alt="Tam An Web"
-                                  className="Item__Image-sc-1su8qr-1 kTULZk"
-                                  src="/images/projects/taman.webp"
-                                />
-                              </Item__Image>
-                              <Caption
-                                hoverTitle="Tam An Web"
-                                linkToWeb="https://github.com/DeKal/Tam-An-Food-Store-Manager"
-                              >
-                                <Caption__Container>
-                                  <figcaption
-                                    className="Caption__Container-yh5xu2-0 bsTqzx"
-                                  >
-                                    <Caption__Link
-                                      href="https://github.com/DeKal/Tam-An-Food-Store-Manager"
-                                      rel="nofollow"
-                                    >
-                                      <a
-                                        className="Caption__Link-yh5xu2-1 iWiGMI"
-                                        href="https://github.com/DeKal/Tam-An-Food-Store-Manager"
-                                        rel="nofollow"
-                                      >
-                                        <Icon
-                                          name="link"
-                                        >
-                                          <Icon__Symbol
-                                            name="link"
-                                          >
-                                            <div
-                                              className="Icon__Symbol-sc-6mj7rl-0 facaPX"
-                                              name="link"
-                                            />
-                                          </Icon__Symbol>
-                                        </Icon>
-                                        Tam An Web
-                                      </a>
-                                    </Caption__Link>
-                                  </figcaption>
-                                </Caption__Container>
-                              </Caption>
-                            </figure>
-                          </Item__Container>
-                        </div>
-                      </Col>
-                    </Item>
-                    <Item
-                      hoverTitle="2048 Fun Games"
-                      imgAlt="2048 Fun Games"
-                      imgSrc="/images/projects/2048.webp"
-                      linkToWeb="https://github.com/DeKal/2048"
-                    >
-                      <Col
-                        md={3}
-                        sm={6}
-                        xs={12}
-                      >
-                        <div
-                          className="col-md-3 col-sm-6 col-12"
-                        >
-                          <Item__Container>
-                            <figure
-                              className="Item__Container-sc-1su8qr-0 uLOae"
-                            >
-                              <Item__Image
-                                alt="2048 Fun Games"
-                                src="/images/projects/2048.webp"
-                              >
-                                <img
-                                  alt="2048 Fun Games"
-                                  className="Item__Image-sc-1su8qr-1 kTULZk"
-                                  src="/images/projects/2048.webp"
-                                />
-                              </Item__Image>
-                              <Caption
-                                hoverTitle="2048 Fun Games"
-                                linkToWeb="https://github.com/DeKal/2048"
-                              >
-                                <Caption__Container>
-                                  <figcaption
-                                    className="Caption__Container-yh5xu2-0 bsTqzx"
-                                  >
-                                    <Caption__Link
-                                      href="https://github.com/DeKal/2048"
-                                      rel="nofollow"
-                                    >
-                                      <a
-                                        className="Caption__Link-yh5xu2-1 iWiGMI"
-                                        href="https://github.com/DeKal/2048"
-                                        rel="nofollow"
-                                      >
-                                        <Icon
-                                          name="link"
-                                        >
-                                          <Icon__Symbol
-                                            name="link"
-                                          >
-                                            <div
-                                              className="Icon__Symbol-sc-6mj7rl-0 facaPX"
-                                              name="link"
-                                            />
-                                          </Icon__Symbol>
-                                        </Icon>
-                                        2048 Fun Games
-                                      </a>
-                                    </Caption__Link>
-                                  </figcaption>
-                                </Caption__Container>
-                              </Caption>
-                            </figure>
-                          </Item__Container>
-                        </div>
-                      </Col>
-                    </Item>
-                  </div>
-                </Row>
-              </div>
-            </Container>
-          </Content__NoPaddingContainer>
-        </Content>
-      </section>
-    </Container__Style>
-  </Container>
+                        <FirstChild />
+                      </TransitionGroup>
+                    </Portal>
+                  </ModalGateway>
+                </div>
+              </Container>
+            </Content__NoPaddingContainer>
+          </Content>
+        </section>
+      </Container__Style>
+    </Container>
+  </Container__StyleContainer>
 </Project>
 `;

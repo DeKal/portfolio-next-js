@@ -5,14 +5,14 @@ exports[`Certification should render without throwing an error 1`] = `
   <Container>
     <Container__Style>
       <section
-        className="Container__Style-sc-3utn0w-0 bsmDng"
+        className="Container__Style-sc-3utn0w-0 fovYsq"
       >
         <Anchor
           id="Certifications"
-          top={-40}
+          top={-125}
         >
           <span
-            className="Anchor-sc-1axmo0z-0 qtHhk"
+            className="Anchor-sc-1axmo0z-0 hMVkAm"
             id="Certifications"
           />
         </Anchor>
