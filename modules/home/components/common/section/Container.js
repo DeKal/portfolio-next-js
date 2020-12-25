@@ -18,9 +18,11 @@ export default Container
 
 const Style = styled.section`
   position: relative;
-  padding-top: 100px;
+  margin-top: 100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 
   @media screen and (max-width: 800px) {
-    padding-top: 50px;
+    margin-top: 30px;
   }
 `

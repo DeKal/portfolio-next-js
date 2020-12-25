@@ -1,53 +1,77 @@
-import React from 'react'
+import React, { useState, useCallback } from 'react'
 import { Translate } from 'react-localize-redux'
-import Container from '~/modules/home/components/common/section/Container'
+import Container from '~/modules/home/components/project/Container'
 import Header from '~/modules/home/components/common/section/Header'
 import Content from '~/modules/home/components/project/Content'
-import Item from '~/modules/home/components/project/Item'
+import SelectedImage from '~/modules/home/components/project/SelectedImage'
 import { PROJECTS } from '~/modules/home/consts/pages'
-import Anchor from '~/modules/home/components/common/Anchor'
+import Anchor, {
+  ANCHOR_DISTANCE_TO_TOP_OF_SECTION
+} from '~/modules/home/components/common/Anchor'
+import Gallery from 'react-photo-gallery'
+import Carousel, { Modal, ModalGateway } from 'react-images'
+import { photos } from '~/modules/home/consts/photos.js'
+import useWindowDimensions from '~/modules/core/utils/useWindowDimensions'
 
-const Project = () => (
-  <Container>
-    <Anchor id={PROJECTS} top={-40} />
-    <Header>
-      <h2>
-        <Translate id="Project: Title" />
-      </h2>
-      <h4>
-        <Translate id="Project: SubTitle" />
-      </h4>
-    </Header>
-    <Content>
-      <Item
-        imgSrc="/images/projects/brand360.webp"
-        imgAlt="Brand 360"
-        linkToWeb="http://brand360.vn/"
-        hoverTitle="Brand360 project"
-      />
+const Project = () => {
+  const { width } = useWindowDimensions()
+  const [currentImage, setCurrentImage] = useState(0)
+  const [viewerIsOpen, setViewerIsOpen] = useState(false)
 
-      <Item
-        imgSrc="/images/projects/anco.webp"
-        imgAlt="Report application for Masan"
-        linkToWeb=""
-        hoverTitle="Masan Report"
-      />
+  const openLightbox = useCallback(index => {
+    setCurrentImage(index)
+    setViewerIsOpen(true)
+  }, [])
 
-      <Item
-        imgSrc="/images/projects/taman.webp"
-        imgAlt="Tam An Web"
-        linkToWeb="https://github.com/DeKal/Tam-An-Food-Store-Manager"
-        hoverTitle="Tam An Web"
-      />
+  const closeLightbox = () => {
+    setCurrentImage(0)
+    setViewerIsOpen(false)
+  }
+  const imageRenderer = useCallback(({ index, key, photo }) => (
+    <SelectedImage
+      key={key}
+      margin={'2px'}
+      index={index}
+      photo={photo}
+      onClick={openLightbox}
+    />
+  ))
 
-      <Item
-        imgSrc="/images/projects/2048.webp"
-        imgAlt="2048 Fun Games"
-        linkToWeb="https://github.com/DeKal/2048"
-        hoverTitle="2048 Fun Games"
-      />
-    </Content>
-  </Container>
-)
+  return (
+    <Container>
+      <Anchor id={PROJECTS} top={ANCHOR_DISTANCE_TO_TOP_OF_SECTION} />
+      <Header>
+        <h2>
+          <Translate id="Project: Title" />
+        </h2>
+        <h4>
+          <Translate id="Project: SubTitle" />
+        </h4>
+      </Header>
+      <Content>
+        <Gallery
+          photos={photos}
+          direction={width < 768 ? 'column' : 'row'}
+          renderImage={imageRenderer}
+        />
+        <ModalGateway>
+          {viewerIsOpen ? (
+            <Modal onClose={closeLightbox}>
+              <Carousel
+                currentIndex={currentImage}
+                views={photos.map(x => ({
+                  ...x,
+                  src: `${x.src}.jpg`,
+                  srcSet: `${x.src}.jpg`,
+                  caption: x.title
+                }))}
+              />
+            </Modal>
+          ) : null}
+        </ModalGateway>
+      </Content>
+    </Container>
+  )
+}
 
 export default Project

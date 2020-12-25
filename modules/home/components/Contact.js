@@ -5,11 +5,14 @@ import Map from '~/modules/home/components/contact/Map'
 import Content from '~/modules/home/components/contact/Content'
 import Header from '~/modules/home/components/contact/Header'
 import Container from 'react-bootstrap/Container'
-import Anchor from '~/modules/home/components/common/Anchor'
+import Anchor, {
+  ANCHOR_DISTANCE_TO_TOP_OF_SECTION
+} from '~/modules/home/components/common/Anchor'
+import SectionContainer from '~/modules/home/components/common/section/Container'
 
 const Contact = () => (
-  <Wrapper>
-    <Anchor id={CONTACTS} top={-40} />
+  <SectionContainer>
+    <Anchor id={CONTACTS} top={ANCHOR_DISTANCE_TO_TOP_OF_SECTION} />
     <Container>
       <Card>
         <Header />
@@ -17,15 +20,11 @@ const Contact = () => (
       </Card>
     </Container>
     <Map />
-  </Wrapper>
+  </SectionContainer>
 )
 
 export default Contact
 
-const Wrapper = styled.div`
-  position: relative;
-  padding-top: 100px;
-`
 const Card = styled.section`
   z-index: 50;
   width: 75%;

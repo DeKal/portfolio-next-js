@@ -6,7 +6,9 @@ import SectionContainer from '~/modules/home/components/common/section/Container
 import Experience from '~/modules/home/components/experiences/Experience'
 import StartExp from '~/modules/home/components/experiences/StartExp'
 import Container from 'react-bootstrap/Container'
-import Anchor from '~/modules/home/components/common/Anchor'
+import Anchor, {
+  ANCHOR_DISTANCE_TO_TOP_OF_SECTION
+} from '~/modules/home/components/common/Anchor'
 import { Translate } from 'react-localize-redux'
 import { VerticalTimeline } from 'react-vertical-timeline-component'
 import useWindowDimensions from '~/modules/core/utils/useWindowDimensions'
@@ -16,7 +18,7 @@ const Experiences = () => {
 
   return (
     <SectionContainer>
-      <Anchor id={EXPERIENCES} top={-40} />
+      <Anchor id={EXPERIENCES} top={ANCHOR_DISTANCE_TO_TOP_OF_SECTION} />
       <Container>
         <Header>
           <h2>
