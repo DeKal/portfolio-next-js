@@ -16,7 +16,7 @@ const Experiences = () => {
 
   return (
     <SectionContainer>
-      <Anchor id={EXPERIENCES} top={-40} />
+      <Anchor id={EXPERIENCES} top={-125} />
       <Container>
         <Header>
           <h2>

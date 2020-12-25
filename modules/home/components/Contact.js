@@ -6,10 +6,11 @@ import Content from '~/modules/home/components/contact/Content'
 import Header from '~/modules/home/components/contact/Header'
 import Container from 'react-bootstrap/Container'
 import Anchor from '~/modules/home/components/common/Anchor'
+import SectionContainer from '~/modules/home/components/common/section/Container'
 
 const Contact = () => (
-  <Wrapper>
-    <Anchor id={CONTACTS} top={-40} />
+  <SectionContainer>
+    <Anchor id={CONTACTS} top={-125} />
     <Container>
       <Card>
         <Header />
@@ -17,15 +18,11 @@ const Contact = () => (
       </Card>
     </Container>
     <Map />
-  </Wrapper>
+  </SectionContainer>
 )
 
 export default Contact
 
-const Wrapper = styled.div`
-  position: relative;
-  padding-top: 100px;
-`
 const Card = styled.section`
   z-index: 50;
   width: 75%;

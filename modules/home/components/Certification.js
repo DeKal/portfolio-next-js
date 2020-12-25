@@ -16,7 +16,7 @@ const Certification = () => {
 
   return (
     <SectionContainer>
-      <Anchor id={CERTIFICATIONS} top={-40} />
+      <Anchor id={CERTIFICATIONS} top={-125} />
       <Container>
         <Header>
           <h2>
