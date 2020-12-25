@@ -12,8 +12,8 @@ SelectedImage.propTypes = {
   index: PropTypes.number,
   photo: PropTypes.shape({
     title: PropTypes.string,
-    height: PropTypes.string,
-    width: PropTypes.string
+    height: PropTypes.number,
+    width: PropTypes.number
   }),
   margin: PropTypes.string,
   onClick: PropTypes.func
