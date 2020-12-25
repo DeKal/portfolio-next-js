@@ -15,5 +15,4 @@ export default Content
 
 const NoPaddingContainer = styled(Container)`
   padding: 0;
-  background: #e1e1d4;
 `

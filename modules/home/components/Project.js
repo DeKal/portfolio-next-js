@@ -3,6 +3,7 @@ import { Translate } from 'react-localize-redux'
 import Container from '~/modules/home/components/project/Container'
 import Header from '~/modules/home/components/common/section/Header'
 import Content from '~/modules/home/components/project/Content'
+import SelectedImage from '~/modules/home/components/project/SelectedImage'
 import { PROJECTS } from '~/modules/home/consts/pages'
 import Anchor from '~/modules/home/components/common/Anchor'
 import Gallery from 'react-photo-gallery'
@@ -15,7 +16,7 @@ const Project = () => {
   const [currentImage, setCurrentImage] = useState(0)
   const [viewerIsOpen, setViewerIsOpen] = useState(false)
 
-  const openLightbox = useCallback((__, { index }) => {
+  const openLightbox = useCallback(index => {
     setCurrentImage(index)
     setViewerIsOpen(true)
   }, [])
@@ -24,6 +25,15 @@ const Project = () => {
     setCurrentImage(0)
     setViewerIsOpen(false)
   }
+  const imageRenderer = useCallback(({ index, key, photo }) => (
+    <SelectedImage
+      key={key}
+      margin={'2px'}
+      index={index}
+      photo={photo}
+      onClick={openLightbox}
+    />
+  ))
 
   return (
     <Container>
@@ -39,9 +49,8 @@ const Project = () => {
       <Content>
         <Gallery
           photos={photos}
-          onClick={openLightbox}
-          margin={2}
           direction={width < 768 ? 'column' : 'row'}
+          renderImage={imageRenderer}
         />
         <ModalGateway>
           {viewerIsOpen ? (
@@ -51,6 +60,7 @@ const Project = () => {
                 views={photos.map(x => ({
                   ...x,
                   src: `${x.src}.jpg`,
+                  srcSet: `${x.src}.jpg`,
                   caption: x.title
                 }))}
               />

@@ -82,16 +82,15 @@ exports[`Project should render without throwing an error 1`] = `
           <Content>
             <Content__NoPaddingContainer>
               <Container
-                className="Content__NoPaddingContainer-sc-1sx6qta-0 bNngOs"
+                className="Content__NoPaddingContainer-sc-1sx6qta-0 NgcQg"
                 fluid={false}
               >
                 <div
-                  className="Content__NoPaddingContainer-sc-1sx6qta-0 bNngOs container"
+                  className="Content__NoPaddingContainer-sc-1sx6qta-0 NgcQg container"
                 >
                   <Gallery
                     direction="row"
                     margin={2}
-                    onClick={[Function]}
                     photos={
                       Array [
                         Object {
@@ -132,6 +131,7 @@ exports[`Project should render without throwing an error 1`] = `
                         },
                       ]
                     }
+                    renderImage={[Function]}
                     targetRowHeight={300}
                   >
                     <div>
