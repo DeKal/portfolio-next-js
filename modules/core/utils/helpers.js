@@ -5,7 +5,14 @@ import $ from 'jquery'
 export const initHashLocation = () => {
   if (location.hash) {
     const offset = $(location.hash).offset()
-    window.scrollTo(offset.left, offset.top)
+    if (offset) {
+      window.scrollTo(offset.left, offset.top)
+    } else {
+      setTimeout(() => {
+        const offset = $(location.hash).offset()
+        window.scrollTo(offset.left, offset.top)
+      }, 300)
+    }
   }
 }
 

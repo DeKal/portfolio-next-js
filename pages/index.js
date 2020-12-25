@@ -2,14 +2,10 @@ import React, { Fragment } from 'react'
 import Nav from '~/modules/home/components/Navbar'
 import Home from '~/modules/home/components/Home'
 import About from '~/modules/home/components/About'
-import Experiences from '~/modules/home/components/Experiences'
-import SideProjects from '~/modules/home/components/SideProjects'
-import Certification from '~/modules/home/components/Certification'
-import Project from '~/modules/home/components/Project'
-import Contact from '~/modules/home/components/Contact'
-import Footer from '~/modules/home/components/Footer'
-import SlideIterator from '~/modules/core/components/SlideIterator'
 import Head from '~/modules/home/components/Head'
+
+import dynamic from 'next/dynamic'
+const AsyncBody = dynamic(import('~/modules/home/async-components/AsyncBody'))
 
 const HomePage = () => (
   <Fragment>
@@ -17,14 +13,7 @@ const HomePage = () => (
     <Nav />
     <Home />
     <About />
-    <Experiences />
-    <SlideIterator>
-      <SideProjects />
-      <Project />
-      <Certification />
-      <Contact />
-    </SlideIterator>
-    <Footer />
+    <AsyncBody />
   </Fragment>
 )
 
