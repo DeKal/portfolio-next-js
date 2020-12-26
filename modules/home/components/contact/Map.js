@@ -7,8 +7,8 @@ const Container = styled.div`
   z-index: 0;
   position: relative;
   width: 100%;
-  margin-top: -200px;
-  height: 500px;
+  margin-top: -150px;
+  height: 400px;
   overflow: hidden;
   background-position: top center;
   background-size: cover;

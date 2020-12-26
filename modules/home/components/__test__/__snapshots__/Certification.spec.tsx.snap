@@ -55,624 +55,740 @@ exports[`Certification should render without throwing an error 1`] = `
                 </header>
               </Header__Container>
             </Header>
-            <Certification__List>
+            <Carousel
+              controls={true}
+              defaultActiveIndex={0}
+              fade={false}
+              indicators={true}
+              interval={2000}
+              keyboard={true}
+              nextIcon={
+                <span
+                  aria-hidden="true"
+                  className="carousel-control-next-icon"
+                />
+              }
+              nextLabel="Next"
+              pause="hover"
+              prevIcon={
+                <span
+                  aria-hidden="true"
+                  className="carousel-control-prev-icon"
+                />
+              }
+              prevLabel="Previous"
+              slide={true}
+              touch={true}
+              wrap={true}
+            >
               <div
-                className="Certification__List-sc-4w16ra-0 hjUCxU"
+                className="carousel slide"
+                onKeyDown={[Function]}
+                onMouseOut={[Function]}
+                onMouseOver={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
               >
-                <Row
-                  noGutters={false}
+                <ol
+                  className="carousel-indicators"
                 >
-                  <div
-                    className="row"
-                  >
-                    <CertItem
-                      id="cert-item-1"
-                      idnum={1}
-                      itemSelected={1}
-                      key="0"
-                      name="c"
-                      setSelectedItem={[Function]}
-                    >
-                      <Col
-                        sm={3}
-                        xs={3}
-                      >
-                        <div
-                          className="col-sm-3 col-3"
-                        >
-                          <Item
-                            data-test-id="cert-item-1"
-                            onClick={[Function]}
-                          >
-                            <div
-                              className="Item-sc-11dfzz4-0 gQyKjn"
-                              data-test-id="cert-item-1"
-                              onClick={[Function]}
-                            >
-                              <CertIcon
-                                idnum={1}
-                                itemSelected={1}
-                                name="c"
-                              >
-                                <CertIcon__ActiveIcon
-                                  name="c"
-                                >
-                                  <Icon
-                                    className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__ActiveIcon-sc-1s17nas-2 dKdqGq"
-                                    name="c"
-                                  >
-                                    <Icon__Symbol
-                                      className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__ActiveIcon-sc-1s17nas-2 dKdqGq"
-                                      name="c"
-                                    >
-                                      <div
-                                        className="Icon__Symbol-sc-6mj7rl-0 fTWOAh CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__ActiveIcon-sc-1s17nas-2 dKdqGq"
-                                        name="c"
-                                      />
-                                    </Icon__Symbol>
-                                  </Icon>
-                                </CertIcon__ActiveIcon>
-                              </CertIcon>
-                            </div>
-                          </Item>
-                        </div>
-                      </Col>
-                    </CertItem>
-                    <CertItem
-                      id="cert-item-2"
-                      idnum={2}
-                      itemSelected={1}
-                      key="1"
-                      name="c"
-                      setSelectedItem={[Function]}
-                    >
-                      <Col
-                        sm={3}
-                        xs={3}
-                      >
-                        <div
-                          className="col-sm-3 col-3"
-                        >
-                          <Item
-                            data-test-id="cert-item-2"
-                            onClick={[Function]}
-                          >
-                            <div
-                              className="Item-sc-11dfzz4-0 gQyKjn"
-                              data-test-id="cert-item-2"
-                              onClick={[Function]}
-                            >
-                              <CertIcon
-                                idnum={2}
-                                itemSelected={1}
-                                name="c"
-                              >
-                                <CertIcon__InactiveIcon
-                                  name="c"
-                                >
-                                  <Icon
-                                    className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 bdjIuP"
-                                    name="c"
-                                  >
-                                    <Icon__Symbol
-                                      className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 bdjIuP"
-                                      name="c"
-                                    >
-                                      <div
-                                        className="Icon__Symbol-sc-6mj7rl-0 fTWOAh CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 bdjIuP"
-                                        name="c"
-                                      />
-                                    </Icon__Symbol>
-                                  </Icon>
-                                </CertIcon__InactiveIcon>
-                              </CertIcon>
-                            </div>
-                          </Item>
-                        </div>
-                      </Col>
-                    </CertItem>
-                    <CertItem
-                      id="cert-item-3"
-                      idnum={3}
-                      itemSelected={1}
-                      key="2"
-                      name="p"
-                      setSelectedItem={[Function]}
-                    >
-                      <Col
-                        sm={3}
-                        xs={3}
-                      >
-                        <div
-                          className="col-sm-3 col-3"
-                        >
-                          <Item
-                            data-test-id="cert-item-3"
-                            onClick={[Function]}
-                          >
-                            <div
-                              className="Item-sc-11dfzz4-0 gQyKjn"
-                              data-test-id="cert-item-3"
-                              onClick={[Function]}
-                            >
-                              <CertIcon
-                                idnum={3}
-                                itemSelected={1}
-                                name="p"
-                              >
-                                <CertIcon__InactiveIcon
-                                  name="p"
-                                >
-                                  <Icon
-                                    className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 bdjIuP"
-                                    name="p"
-                                  >
-                                    <Icon__Symbol
-                                      className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 bdjIuP"
-                                      name="p"
-                                    >
-                                      <div
-                                        className="Icon__Symbol-sc-6mj7rl-0 fRHIzO CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 bdjIuP"
-                                        name="p"
-                                      />
-                                    </Icon__Symbol>
-                                  </Icon>
-                                </CertIcon__InactiveIcon>
-                              </CertIcon>
-                            </div>
-                          </Item>
-                        </div>
-                      </Col>
-                    </CertItem>
-                    <CertItem
-                      id="cert-item-4"
-                      idnum={4}
-                      itemSelected={1}
-                      key="3"
-                      name="p"
-                      setSelectedItem={[Function]}
-                    >
-                      <Col
-                        sm={3}
-                        xs={3}
-                      >
-                        <div
-                          className="col-sm-3 col-3"
-                        >
-                          <Item
-                            data-test-id="cert-item-4"
-                            onClick={[Function]}
-                          >
-                            <div
-                              className="Item-sc-11dfzz4-0 gQyKjn"
-                              data-test-id="cert-item-4"
-                              onClick={[Function]}
-                            >
-                              <CertIcon
-                                idnum={4}
-                                itemSelected={1}
-                                name="p"
-                              >
-                                <CertIcon__InactiveIcon
-                                  name="p"
-                                >
-                                  <Icon
-                                    className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 bdjIuP"
-                                    name="p"
-                                  >
-                                    <Icon__Symbol
-                                      className="CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 bdjIuP"
-                                      name="p"
-                                    >
-                                      <div
-                                        className="Icon__Symbol-sc-6mj7rl-0 fRHIzO CertIcon__ItemIcon-sc-1s17nas-0 CertIcon__InactiveIcon-sc-1s17nas-1 bdjIuP"
-                                        name="p"
-                                      />
-                                    </Icon__Symbol>
-                                  </Icon>
-                                </CertIcon__InactiveIcon>
-                              </CertIcon>
-                            </div>
-                          </Item>
-                        </div>
-                      </Col>
-                    </CertItem>
-                  </div>
-                </Row>
-                <Row
-                  noGutters={false}
+                  <li
+                    className="active"
+                    key=".$0"
+                    onClick={[Function]}
+                  />
+                  <li
+                    className={null}
+                    key=".$1"
+                    onClick={[Function]}
+                  />
+                  <li
+                    className={null}
+                    key=".$2"
+                    onClick={[Function]}
+                  />
+                  <li
+                    className={null}
+                    key=".$3"
+                    onClick={[Function]}
+                  />
+                  <li
+                    className={null}
+                    key=".$4"
+                    onClick={[Function]}
+                  />
+                </ol>
+                <div
+                  className="carousel-inner"
                 >
-                  <div
-                    className="row"
+                  <Transition
+                    addEndListener={[Function]}
+                    appear={false}
+                    enter={true}
+                    exit={true}
+                    in={true}
+                    key=".$0"
+                    mountOnEnter={false}
+                    onEnter={[Function]}
+                    onEntered={[Function]}
+                    onEntering={[Function]}
+                    onExit={[Function]}
+                    onExited={[Function]}
+                    onExiting={[Function]}
+                    unmountOnExit={false}
                   >
                     <CertInfo
+                      className="active"
                       content="CertContentBachelor"
+                      cover="/images/certs/graduation.webp"
+                      coverMobile="/images/certs/graduation-mobile.webp"
                       id="cert-info-1"
-                      idnum={1}
-                      itemSelected={1}
                       key="0"
                       title="CertBachelor"
                     >
-                      <CertInfo__ShowOnSelectedCol
-                        idnum={1}
-                        itemselected={1}
-                        sm={12}
-                        xs={12}
+                      <CarouselItem
+                        className="active"
+                        id="cert-info-1"
                       >
-                        <Col
-                          className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 cRkXqF"
-                          idnum={1}
-                          itemselected={1}
-                          sm={12}
-                          xs={12}
+                        <div
+                          className="active carousel-item"
+                          id="cert-info-1"
                         >
-                          <div
-                            className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 cRkXqF col-sm-12 col-12"
-                            idnum={1}
-                            itemselected={1}
-                          >
-                            <CertInfo__ListInfo
-                              idnum={1}
+                          <CertInfo__Container>
+                            <div
+                              className="CertInfo__Container-sc-1xe9lwl-0 cYCcNv"
                             >
-                              <div
-                                className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 hqCzXT"
+                              <CertInfo__Image
+                                alt="CertBachelor"
+                                className="d-block w-100 h-100"
+                                src="/images/certs/graduation.webp"
                               >
-                                <Title>
-                                  <h3
-                                    className="Title-sdbbbt-0 dJvCKs"
-                                  >
-                                    <span>
-                                      1
-                                    </span>
-                                     — 
-                                    <Translate
-                                      id="CertBachelor"
+                                <img
+                                  alt="CertBachelor"
+                                  className="CertInfo__Image-sc-1xe9lwl-1 bJqpNd d-block w-100 h-100"
+                                  src="/images/certs/graduation.webp"
+                                />
+                              </CertInfo__Image>
+                              <CarouselCaption>
+                                <div
+                                  className="carousel-caption"
+                                >
+                                  <Info>
+                                    <div
+                                      className="Info-kxijpf-0 FEWIS"
                                     >
-                                      <WrappedTranslate
-                                        context={
-                                          Object {
-                                            "activeLanguage": undefined,
-                                            "addTranslation": [Function],
-                                            "addTranslationForLanguage": [Function],
-                                            "defaultLanguage": undefined,
-                                            "ignoreTranslateChildren": false,
-                                            "initialize": [Function],
-                                            "languages": Array [],
-                                            "renderToStaticMarkup": false,
-                                            "setActiveLanguage": [Function],
-                                            "translate": [Function],
-                                          }
-                                        }
-                                        id="CertBachelor"
-                                      >
-                                        Missing translationId: CertBachelor for language: \${ languageCode }
-                                      </WrappedTranslate>
-                                    </Translate>
-                                  </h3>
-                                </Title>
-                                <p>
-                                  <Translate
-                                    id="CertContentBachelor"
-                                  >
-                                    <WrappedTranslate
-                                      context={
-                                        Object {
-                                          "activeLanguage": undefined,
-                                          "addTranslation": [Function],
-                                          "addTranslationForLanguage": [Function],
-                                          "defaultLanguage": undefined,
-                                          "ignoreTranslateChildren": false,
-                                          "initialize": [Function],
-                                          "languages": Array [],
-                                          "renderToStaticMarkup": false,
-                                          "setActiveLanguage": [Function],
-                                          "translate": [Function],
-                                        }
-                                      }
-                                      id="CertContentBachelor"
-                                    >
-                                      Missing translationId: CertContentBachelor for language: \${ languageCode }
-                                    </WrappedTranslate>
-                                  </Translate>
-                                </p>
-                              </div>
-                            </CertInfo__ListInfo>
-                          </div>
-                        </Col>
-                      </CertInfo__ShowOnSelectedCol>
+                                      <Title>
+                                        <h4
+                                          className="Title-sdbbbt-0 fIZtgO"
+                                        >
+                                          <Translate
+                                            id="CertBachelor"
+                                          >
+                                            <WrappedTranslate
+                                              context={
+                                                Object {
+                                                  "activeLanguage": undefined,
+                                                  "addTranslation": [Function],
+                                                  "addTranslationForLanguage": [Function],
+                                                  "defaultLanguage": undefined,
+                                                  "ignoreTranslateChildren": false,
+                                                  "initialize": [Function],
+                                                  "languages": Array [],
+                                                  "renderToStaticMarkup": false,
+                                                  "setActiveLanguage": [Function],
+                                                  "translate": [Function],
+                                                }
+                                              }
+                                              id="CertBachelor"
+                                            >
+                                              Missing translationId: CertBachelor for language: \${ languageCode }
+                                            </WrappedTranslate>
+                                          </Translate>
+                                        </h4>
+                                      </Title>
+                                      <CertInfo__Text>
+                                        <p
+                                          className="CertInfo__Text-sc-1xe9lwl-2 bdVSIt"
+                                        >
+                                          <Translate
+                                            id="CertContentBachelor"
+                                          >
+                                            <WrappedTranslate
+                                              context={
+                                                Object {
+                                                  "activeLanguage": undefined,
+                                                  "addTranslation": [Function],
+                                                  "addTranslationForLanguage": [Function],
+                                                  "defaultLanguage": undefined,
+                                                  "ignoreTranslateChildren": false,
+                                                  "initialize": [Function],
+                                                  "languages": Array [],
+                                                  "renderToStaticMarkup": false,
+                                                  "setActiveLanguage": [Function],
+                                                  "translate": [Function],
+                                                }
+                                              }
+                                              id="CertContentBachelor"
+                                            >
+                                              Missing translationId: CertContentBachelor for language: \${ languageCode }
+                                            </WrappedTranslate>
+                                          </Translate>
+                                        </p>
+                                      </CertInfo__Text>
+                                    </div>
+                                  </Info>
+                                </div>
+                              </CarouselCaption>
+                            </div>
+                          </CertInfo__Container>
+                        </div>
+                      </CarouselItem>
                     </CertInfo>
+                  </Transition>
+                  <Transition
+                    addEndListener={[Function]}
+                    appear={false}
+                    enter={true}
+                    exit={true}
+                    in={false}
+                    key=".$1"
+                    mountOnEnter={false}
+                    onEnter={null}
+                    onEntered={null}
+                    onEntering={[Function]}
+                    onExit={[Function]}
+                    onExited={[Function]}
+                    onExiting={[Function]}
+                    unmountOnExit={false}
+                  >
                     <CertInfo
+                      className=""
                       content="CertContentComm"
+                      cover="/images/certs/communication.webp"
+                      coverMobile="/images/certs/communication-mobile.webp"
                       id="cert-info-2"
-                      idnum={2}
-                      itemSelected={1}
                       key="1"
                       title="CertCom"
                     >
-                      <CertInfo__ShowOnSelectedCol
-                        idnum={2}
-                        itemselected={1}
-                        sm={12}
-                        xs={12}
+                      <CarouselItem
+                        className=""
+                        id="cert-info-2"
                       >
-                        <Col
-                          className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 ecAlWC"
-                          idnum={2}
-                          itemselected={1}
-                          sm={12}
-                          xs={12}
+                        <div
+                          className="carousel-item"
+                          id="cert-info-2"
                         >
-                          <div
-                            className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 ecAlWC col-sm-12 col-12"
-                            idnum={2}
-                            itemselected={1}
-                          >
-                            <CertInfo__ListInfo
-                              idnum={2}
+                          <CertInfo__Container>
+                            <div
+                              className="CertInfo__Container-sc-1xe9lwl-0 cYCcNv"
                             >
-                              <div
-                                className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 hfAXbX"
+                              <CertInfo__Image
+                                alt="CertCom"
+                                className="d-block w-100 h-100"
+                                src="/images/certs/communication.webp"
                               >
-                                <Title>
-                                  <h3
-                                    className="Title-sdbbbt-0 dJvCKs"
-                                  >
-                                    <span>
-                                      2
-                                    </span>
-                                     — 
-                                    <Translate
-                                      id="CertCom"
+                                <img
+                                  alt="CertCom"
+                                  className="CertInfo__Image-sc-1xe9lwl-1 bJqpNd d-block w-100 h-100"
+                                  src="/images/certs/communication.webp"
+                                />
+                              </CertInfo__Image>
+                              <CarouselCaption>
+                                <div
+                                  className="carousel-caption"
+                                >
+                                  <Info>
+                                    <div
+                                      className="Info-kxijpf-0 FEWIS"
                                     >
-                                      <WrappedTranslate
-                                        context={
-                                          Object {
-                                            "activeLanguage": undefined,
-                                            "addTranslation": [Function],
-                                            "addTranslationForLanguage": [Function],
-                                            "defaultLanguage": undefined,
-                                            "ignoreTranslateChildren": false,
-                                            "initialize": [Function],
-                                            "languages": Array [],
-                                            "renderToStaticMarkup": false,
-                                            "setActiveLanguage": [Function],
-                                            "translate": [Function],
-                                          }
-                                        }
-                                        id="CertCom"
-                                      >
-                                        Missing translationId: CertCom for language: \${ languageCode }
-                                      </WrappedTranslate>
-                                    </Translate>
-                                  </h3>
-                                </Title>
-                                <p>
-                                  <Translate
-                                    id="CertContentComm"
-                                  >
-                                    <WrappedTranslate
-                                      context={
-                                        Object {
-                                          "activeLanguage": undefined,
-                                          "addTranslation": [Function],
-                                          "addTranslationForLanguage": [Function],
-                                          "defaultLanguage": undefined,
-                                          "ignoreTranslateChildren": false,
-                                          "initialize": [Function],
-                                          "languages": Array [],
-                                          "renderToStaticMarkup": false,
-                                          "setActiveLanguage": [Function],
-                                          "translate": [Function],
-                                        }
-                                      }
-                                      id="CertContentComm"
-                                    >
-                                      Missing translationId: CertContentComm for language: \${ languageCode }
-                                    </WrappedTranslate>
-                                  </Translate>
-                                </p>
-                              </div>
-                            </CertInfo__ListInfo>
-                          </div>
-                        </Col>
-                      </CertInfo__ShowOnSelectedCol>
+                                      <Title>
+                                        <h4
+                                          className="Title-sdbbbt-0 fIZtgO"
+                                        >
+                                          <Translate
+                                            id="CertCom"
+                                          >
+                                            <WrappedTranslate
+                                              context={
+                                                Object {
+                                                  "activeLanguage": undefined,
+                                                  "addTranslation": [Function],
+                                                  "addTranslationForLanguage": [Function],
+                                                  "defaultLanguage": undefined,
+                                                  "ignoreTranslateChildren": false,
+                                                  "initialize": [Function],
+                                                  "languages": Array [],
+                                                  "renderToStaticMarkup": false,
+                                                  "setActiveLanguage": [Function],
+                                                  "translate": [Function],
+                                                }
+                                              }
+                                              id="CertCom"
+                                            >
+                                              Missing translationId: CertCom for language: \${ languageCode }
+                                            </WrappedTranslate>
+                                          </Translate>
+                                        </h4>
+                                      </Title>
+                                      <CertInfo__Text>
+                                        <p
+                                          className="CertInfo__Text-sc-1xe9lwl-2 bdVSIt"
+                                        >
+                                          <Translate
+                                            id="CertContentComm"
+                                          >
+                                            <WrappedTranslate
+                                              context={
+                                                Object {
+                                                  "activeLanguage": undefined,
+                                                  "addTranslation": [Function],
+                                                  "addTranslationForLanguage": [Function],
+                                                  "defaultLanguage": undefined,
+                                                  "ignoreTranslateChildren": false,
+                                                  "initialize": [Function],
+                                                  "languages": Array [],
+                                                  "renderToStaticMarkup": false,
+                                                  "setActiveLanguage": [Function],
+                                                  "translate": [Function],
+                                                }
+                                              }
+                                              id="CertContentComm"
+                                            >
+                                              Missing translationId: CertContentComm for language: \${ languageCode }
+                                            </WrappedTranslate>
+                                          </Translate>
+                                        </p>
+                                      </CertInfo__Text>
+                                    </div>
+                                  </Info>
+                                </div>
+                              </CarouselCaption>
+                            </div>
+                          </CertInfo__Container>
+                        </div>
+                      </CarouselItem>
                     </CertInfo>
+                  </Transition>
+                  <Transition
+                    addEndListener={[Function]}
+                    appear={false}
+                    enter={true}
+                    exit={true}
+                    in={false}
+                    key=".$2"
+                    mountOnEnter={false}
+                    onEnter={null}
+                    onEntered={null}
+                    onEntering={[Function]}
+                    onExit={[Function]}
+                    onExited={[Function]}
+                    onExiting={[Function]}
+                    unmountOnExit={false}
+                  >
                     <CertInfo
-                      content="CertContentSPrize"
+                      className=""
+                      content="CertContentACMPrize"
+                      cover="/images/certs/award.webp"
+                      coverMobile="/images/certs/award-mobile.webp"
                       id="cert-info-3"
-                      idnum={3}
-                      itemSelected={1}
                       key="2"
+                      title="CertACMPrize"
+                    >
+                      <CarouselItem
+                        className=""
+                        id="cert-info-3"
+                      >
+                        <div
+                          className="carousel-item"
+                          id="cert-info-3"
+                        >
+                          <CertInfo__Container>
+                            <div
+                              className="CertInfo__Container-sc-1xe9lwl-0 cYCcNv"
+                            >
+                              <CertInfo__Image
+                                alt="CertACMPrize"
+                                className="d-block w-100 h-100"
+                                src="/images/certs/award.webp"
+                              >
+                                <img
+                                  alt="CertACMPrize"
+                                  className="CertInfo__Image-sc-1xe9lwl-1 bJqpNd d-block w-100 h-100"
+                                  src="/images/certs/award.webp"
+                                />
+                              </CertInfo__Image>
+                              <CarouselCaption>
+                                <div
+                                  className="carousel-caption"
+                                >
+                                  <Info>
+                                    <div
+                                      className="Info-kxijpf-0 FEWIS"
+                                    >
+                                      <Title>
+                                        <h4
+                                          className="Title-sdbbbt-0 fIZtgO"
+                                        >
+                                          <Translate
+                                            id="CertACMPrize"
+                                          >
+                                            <WrappedTranslate
+                                              context={
+                                                Object {
+                                                  "activeLanguage": undefined,
+                                                  "addTranslation": [Function],
+                                                  "addTranslationForLanguage": [Function],
+                                                  "defaultLanguage": undefined,
+                                                  "ignoreTranslateChildren": false,
+                                                  "initialize": [Function],
+                                                  "languages": Array [],
+                                                  "renderToStaticMarkup": false,
+                                                  "setActiveLanguage": [Function],
+                                                  "translate": [Function],
+                                                }
+                                              }
+                                              id="CertACMPrize"
+                                            >
+                                              Missing translationId: CertACMPrize for language: \${ languageCode }
+                                            </WrappedTranslate>
+                                          </Translate>
+                                        </h4>
+                                      </Title>
+                                      <CertInfo__Text>
+                                        <p
+                                          className="CertInfo__Text-sc-1xe9lwl-2 bdVSIt"
+                                        >
+                                          <Translate
+                                            id="CertContentACMPrize"
+                                          >
+                                            <WrappedTranslate
+                                              context={
+                                                Object {
+                                                  "activeLanguage": undefined,
+                                                  "addTranslation": [Function],
+                                                  "addTranslationForLanguage": [Function],
+                                                  "defaultLanguage": undefined,
+                                                  "ignoreTranslateChildren": false,
+                                                  "initialize": [Function],
+                                                  "languages": Array [],
+                                                  "renderToStaticMarkup": false,
+                                                  "setActiveLanguage": [Function],
+                                                  "translate": [Function],
+                                                }
+                                              }
+                                              id="CertContentACMPrize"
+                                            >
+                                              Missing translationId: CertContentACMPrize for language: \${ languageCode }
+                                            </WrappedTranslate>
+                                          </Translate>
+                                        </p>
+                                      </CertInfo__Text>
+                                    </div>
+                                  </Info>
+                                </div>
+                              </CarouselCaption>
+                            </div>
+                          </CertInfo__Container>
+                        </div>
+                      </CarouselItem>
+                    </CertInfo>
+                  </Transition>
+                  <Transition
+                    addEndListener={[Function]}
+                    appear={false}
+                    enter={true}
+                    exit={true}
+                    in={false}
+                    key=".$3"
+                    mountOnEnter={false}
+                    onEnter={null}
+                    onEntered={null}
+                    onEntering={[Function]}
+                    onExit={[Function]}
+                    onExited={[Function]}
+                    onExiting={[Function]}
+                    unmountOnExit={false}
+                  >
+                    <CertInfo
+                      className=""
+                      content="CertContentSPrize"
+                      cover="/images/certs/award.webp"
+                      coverMobile="/images/certs/award-mobile.webp"
+                      id="cert-info-4"
+                      key="3"
                       title="CertSPrize"
                     >
-                      <CertInfo__ShowOnSelectedCol
-                        idnum={3}
-                        itemselected={1}
-                        sm={12}
-                        xs={12}
+                      <CarouselItem
+                        className=""
+                        id="cert-info-4"
                       >
-                        <Col
-                          className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 ecAlWC"
-                          idnum={3}
-                          itemselected={1}
-                          sm={12}
-                          xs={12}
+                        <div
+                          className="carousel-item"
+                          id="cert-info-4"
                         >
-                          <div
-                            className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 ecAlWC col-sm-12 col-12"
-                            idnum={3}
-                            itemselected={1}
-                          >
-                            <CertInfo__ListInfo
-                              idnum={3}
+                          <CertInfo__Container>
+                            <div
+                              className="CertInfo__Container-sc-1xe9lwl-0 cYCcNv"
                             >
-                              <div
-                                className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 huOOKf"
+                              <CertInfo__Image
+                                alt="CertSPrize"
+                                className="d-block w-100 h-100"
+                                src="/images/certs/award.webp"
                               >
-                                <Title>
-                                  <h3
-                                    className="Title-sdbbbt-0 dJvCKs"
-                                  >
-                                    <span>
-                                      3
-                                    </span>
-                                     — 
-                                    <Translate
-                                      id="CertSPrize"
+                                <img
+                                  alt="CertSPrize"
+                                  className="CertInfo__Image-sc-1xe9lwl-1 bJqpNd d-block w-100 h-100"
+                                  src="/images/certs/award.webp"
+                                />
+                              </CertInfo__Image>
+                              <CarouselCaption>
+                                <div
+                                  className="carousel-caption"
+                                >
+                                  <Info>
+                                    <div
+                                      className="Info-kxijpf-0 FEWIS"
                                     >
-                                      <WrappedTranslate
-                                        context={
-                                          Object {
-                                            "activeLanguage": undefined,
-                                            "addTranslation": [Function],
-                                            "addTranslationForLanguage": [Function],
-                                            "defaultLanguage": undefined,
-                                            "ignoreTranslateChildren": false,
-                                            "initialize": [Function],
-                                            "languages": Array [],
-                                            "renderToStaticMarkup": false,
-                                            "setActiveLanguage": [Function],
-                                            "translate": [Function],
-                                          }
-                                        }
-                                        id="CertSPrize"
-                                      >
-                                        Missing translationId: CertSPrize for language: \${ languageCode }
-                                      </WrappedTranslate>
-                                    </Translate>
-                                  </h3>
-                                </Title>
-                                <p>
-                                  <Translate
-                                    id="CertContentSPrize"
-                                  >
-                                    <WrappedTranslate
-                                      context={
-                                        Object {
-                                          "activeLanguage": undefined,
-                                          "addTranslation": [Function],
-                                          "addTranslationForLanguage": [Function],
-                                          "defaultLanguage": undefined,
-                                          "ignoreTranslateChildren": false,
-                                          "initialize": [Function],
-                                          "languages": Array [],
-                                          "renderToStaticMarkup": false,
-                                          "setActiveLanguage": [Function],
-                                          "translate": [Function],
-                                        }
-                                      }
-                                      id="CertContentSPrize"
-                                    >
-                                      Missing translationId: CertContentSPrize for language: \${ languageCode }
-                                    </WrappedTranslate>
-                                  </Translate>
-                                </p>
-                              </div>
-                            </CertInfo__ListInfo>
-                          </div>
-                        </Col>
-                      </CertInfo__ShowOnSelectedCol>
+                                      <Title>
+                                        <h4
+                                          className="Title-sdbbbt-0 fIZtgO"
+                                        >
+                                          <Translate
+                                            id="CertSPrize"
+                                          >
+                                            <WrappedTranslate
+                                              context={
+                                                Object {
+                                                  "activeLanguage": undefined,
+                                                  "addTranslation": [Function],
+                                                  "addTranslationForLanguage": [Function],
+                                                  "defaultLanguage": undefined,
+                                                  "ignoreTranslateChildren": false,
+                                                  "initialize": [Function],
+                                                  "languages": Array [],
+                                                  "renderToStaticMarkup": false,
+                                                  "setActiveLanguage": [Function],
+                                                  "translate": [Function],
+                                                }
+                                              }
+                                              id="CertSPrize"
+                                            >
+                                              Missing translationId: CertSPrize for language: \${ languageCode }
+                                            </WrappedTranslate>
+                                          </Translate>
+                                        </h4>
+                                      </Title>
+                                      <CertInfo__Text>
+                                        <p
+                                          className="CertInfo__Text-sc-1xe9lwl-2 bdVSIt"
+                                        >
+                                          <Translate
+                                            id="CertContentSPrize"
+                                          >
+                                            <WrappedTranslate
+                                              context={
+                                                Object {
+                                                  "activeLanguage": undefined,
+                                                  "addTranslation": [Function],
+                                                  "addTranslationForLanguage": [Function],
+                                                  "defaultLanguage": undefined,
+                                                  "ignoreTranslateChildren": false,
+                                                  "initialize": [Function],
+                                                  "languages": Array [],
+                                                  "renderToStaticMarkup": false,
+                                                  "setActiveLanguage": [Function],
+                                                  "translate": [Function],
+                                                }
+                                              }
+                                              id="CertContentSPrize"
+                                            >
+                                              Missing translationId: CertContentSPrize for language: \${ languageCode }
+                                            </WrappedTranslate>
+                                          </Translate>
+                                        </p>
+                                      </CertInfo__Text>
+                                    </div>
+                                  </Info>
+                                </div>
+                              </CarouselCaption>
+                            </div>
+                          </CertInfo__Container>
+                        </div>
+                      </CarouselItem>
                     </CertInfo>
+                  </Transition>
+                  <Transition
+                    addEndListener={[Function]}
+                    appear={false}
+                    enter={true}
+                    exit={true}
+                    in={false}
+                    key=".$4"
+                    mountOnEnter={false}
+                    onEnter={null}
+                    onEntered={null}
+                    onEntering={[Function]}
+                    onExit={[Function]}
+                    onExited={[Function]}
+                    onExiting={[Function]}
+                    unmountOnExit={false}
+                  >
                     <CertInfo
+                      className=""
                       content="CertContentFPrize"
-                      id="cert-info-4"
-                      idnum={4}
-                      itemSelected={1}
-                      key="3"
+                      cover="/images/certs/award.webp"
+                      coverMobile="/images/certs/award-mobile.webp"
+                      id="cert-info-5"
+                      key="4"
                       title="CertFPrize"
                     >
-                      <CertInfo__ShowOnSelectedCol
-                        idnum={4}
-                        itemselected={1}
-                        sm={12}
-                        xs={12}
+                      <CarouselItem
+                        className=""
+                        id="cert-info-5"
                       >
-                        <Col
-                          className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 ecAlWC"
-                          idnum={4}
-                          itemselected={1}
-                          sm={12}
-                          xs={12}
+                        <div
+                          className="carousel-item"
+                          id="cert-info-5"
                         >
-                          <div
-                            className="CertInfo__ShowOnSelectedCol-sc-1xe9lwl-1 ecAlWC col-sm-12 col-12"
-                            idnum={4}
-                            itemselected={1}
-                          >
-                            <CertInfo__ListInfo
-                              idnum={4}
+                          <CertInfo__Container>
+                            <div
+                              className="CertInfo__Container-sc-1xe9lwl-0 cYCcNv"
                             >
-                              <div
-                                className="Info-kxijpf-0 CertInfo__ListInfo-sc-1xe9lwl-0 ia-DVUj"
+                              <CertInfo__Image
+                                alt="CertFPrize"
+                                className="d-block w-100 h-100"
+                                src="/images/certs/award.webp"
                               >
-                                <Title>
-                                  <h3
-                                    className="Title-sdbbbt-0 dJvCKs"
-                                  >
-                                    <span>
-                                      4
-                                    </span>
-                                     — 
-                                    <Translate
-                                      id="CertFPrize"
+                                <img
+                                  alt="CertFPrize"
+                                  className="CertInfo__Image-sc-1xe9lwl-1 bJqpNd d-block w-100 h-100"
+                                  src="/images/certs/award.webp"
+                                />
+                              </CertInfo__Image>
+                              <CarouselCaption>
+                                <div
+                                  className="carousel-caption"
+                                >
+                                  <Info>
+                                    <div
+                                      className="Info-kxijpf-0 FEWIS"
                                     >
-                                      <WrappedTranslate
-                                        context={
-                                          Object {
-                                            "activeLanguage": undefined,
-                                            "addTranslation": [Function],
-                                            "addTranslationForLanguage": [Function],
-                                            "defaultLanguage": undefined,
-                                            "ignoreTranslateChildren": false,
-                                            "initialize": [Function],
-                                            "languages": Array [],
-                                            "renderToStaticMarkup": false,
-                                            "setActiveLanguage": [Function],
-                                            "translate": [Function],
-                                          }
-                                        }
-                                        id="CertFPrize"
-                                      >
-                                        Missing translationId: CertFPrize for language: \${ languageCode }
-                                      </WrappedTranslate>
-                                    </Translate>
-                                  </h3>
-                                </Title>
-                                <p>
-                                  <Translate
-                                    id="CertContentFPrize"
-                                  >
-                                    <WrappedTranslate
-                                      context={
-                                        Object {
-                                          "activeLanguage": undefined,
-                                          "addTranslation": [Function],
-                                          "addTranslationForLanguage": [Function],
-                                          "defaultLanguage": undefined,
-                                          "ignoreTranslateChildren": false,
-                                          "initialize": [Function],
-                                          "languages": Array [],
-                                          "renderToStaticMarkup": false,
-                                          "setActiveLanguage": [Function],
-                                          "translate": [Function],
-                                        }
-                                      }
-                                      id="CertContentFPrize"
-                                    >
-                                      Missing translationId: CertContentFPrize for language: \${ languageCode }
-                                    </WrappedTranslate>
-                                  </Translate>
-                                </p>
-                              </div>
-                            </CertInfo__ListInfo>
-                          </div>
-                        </Col>
-                      </CertInfo__ShowOnSelectedCol>
+                                      <Title>
+                                        <h4
+                                          className="Title-sdbbbt-0 fIZtgO"
+                                        >
+                                          <Translate
+                                            id="CertFPrize"
+                                          >
+                                            <WrappedTranslate
+                                              context={
+                                                Object {
+                                                  "activeLanguage": undefined,
+                                                  "addTranslation": [Function],
+                                                  "addTranslationForLanguage": [Function],
+                                                  "defaultLanguage": undefined,
+                                                  "ignoreTranslateChildren": false,
+                                                  "initialize": [Function],
+                                                  "languages": Array [],
+                                                  "renderToStaticMarkup": false,
+                                                  "setActiveLanguage": [Function],
+                                                  "translate": [Function],
+                                                }
+                                              }
+                                              id="CertFPrize"
+                                            >
+                                              Missing translationId: CertFPrize for language: \${ languageCode }
+                                            </WrappedTranslate>
+                                          </Translate>
+                                        </h4>
+                                      </Title>
+                                      <CertInfo__Text>
+                                        <p
+                                          className="CertInfo__Text-sc-1xe9lwl-2 bdVSIt"
+                                        >
+                                          <Translate
+                                            id="CertContentFPrize"
+                                          >
+                                            <WrappedTranslate
+                                              context={
+                                                Object {
+                                                  "activeLanguage": undefined,
+                                                  "addTranslation": [Function],
+                                                  "addTranslationForLanguage": [Function],
+                                                  "defaultLanguage": undefined,
+                                                  "ignoreTranslateChildren": false,
+                                                  "initialize": [Function],
+                                                  "languages": Array [],
+                                                  "renderToStaticMarkup": false,
+                                                  "setActiveLanguage": [Function],
+                                                  "translate": [Function],
+                                                }
+                                              }
+                                              id="CertContentFPrize"
+                                            >
+                                              Missing translationId: CertContentFPrize for language: \${ languageCode }
+                                            </WrappedTranslate>
+                                          </Translate>
+                                        </p>
+                                      </CertInfo__Text>
+                                    </div>
+                                  </Info>
+                                </div>
+                              </CarouselCaption>
+                            </div>
+                          </CertInfo__Container>
+                        </div>
+                      </CarouselItem>
                     </CertInfo>
-                  </div>
-                </Row>
+                  </Transition>
+                </div>
+                <SafeAnchor
+                  className="carousel-control-prev"
+                  onClick={[Function]}
+                >
+                  <a
+                    className="carousel-control-prev"
+                    href="#"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                    role="button"
+                  >
+                    <span
+                      aria-hidden="true"
+                      className="carousel-control-prev-icon"
+                    />
+                    <span
+                      className="sr-only"
+                    >
+                      Previous
+                    </span>
+                  </a>
+                </SafeAnchor>
+                <SafeAnchor
+                  className="carousel-control-next"
+                  onClick={[Function]}
+                >
+                  <a
+                    className="carousel-control-next"
+                    href="#"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                    role="button"
+                  >
+                    <span
+                      aria-hidden="true"
+                      className="carousel-control-next-icon"
+                    />
+                    <span
+                      className="sr-only"
+                    >
+                      Next
+                    </span>
+                  </a>
+                </SafeAnchor>
               </div>
-            </Certification__List>
+            </Carousel>
           </div>
         </Container>
       </section>

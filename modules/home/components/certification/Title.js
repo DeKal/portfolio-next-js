@@ -1,11 +1,7 @@
 import styled from 'styled-components/macro'
 
-const Title = styled.h3`
+const Title = styled.h4`
   margin-bottom: 10px;
-
-  & span {
-    color: ${props => props.theme.colors.colorDarken};
-  }
 `
 
 export default Title
