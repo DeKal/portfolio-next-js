@@ -11,7 +11,7 @@ export const initHashLocation = () => {
       setTimeout(() => {
         const offset = $(location.hash).offset()
         window.scrollTo(offset.left, offset.top)
-      }, 300)
+      }, 1000)
     }
   }
 }

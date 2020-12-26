@@ -11,7 +11,7 @@ import Anchor, {
 import SectionContainer from '~/modules/home/components/common/section/Container'
 
 const Contact = () => (
-  <SectionContainer>
+  <ContactContainer>
     <Anchor id={CONTACTS} top={ANCHOR_DISTANCE_TO_TOP_OF_SECTION} />
     <Container>
       <Card>
@@ -20,11 +20,14 @@ const Contact = () => (
       </Card>
     </Container>
     <Map />
-  </SectionContainer>
+  </ContactContainer>
 )
 
 export default Contact
 
+const ContactContainer = styled(SectionContainer)`
+  padding-bottom: 0;
+`
 const Card = styled.section`
   z-index: 50;
   width: 75%;

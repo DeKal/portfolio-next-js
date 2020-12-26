@@ -2,51 +2,57 @@ import React from 'react'
 import styled from 'styled-components/macro'
 import Info from '~/modules/home/components/certification/Info'
 import Title from '~/modules/home/components/certification/Title'
-import { LEFT_INFO_POS } from '~/modules/home/consts/certification'
 import PropTypes from 'prop-types'
 import { Translate } from 'react-localize-redux'
-import Col from 'react-bootstrap/Col'
+import { Carousel } from 'react-bootstrap'
+import useWindowDimensions from '~/modules/core/utils/useWindowDimensions'
 
-const CertInfo = ({ itemSelected, idnum, title, content }) => {
+const CertInfo = ({ cover, coverMobile, title, content, ...otherProps }) => {
+  const { width } = useWindowDimensions()
   return (
-    <ShowOnSelectedCol
-      sm={12}
-      xs={12}
-      itemselected={itemSelected}
-      idnum={idnum}
-    >
-      <ListInfo idnum={idnum}>
-        <Title>
-          <span>{idnum}</span> &mdash; <Translate id={title} />
-        </Title>
-        <p>
-          <Translate id={content} />
-        </p>
-      </ListInfo>
-    </ShowOnSelectedCol>
+    <Carousel.Item {...otherProps}>
+      <Container>
+        <Image
+          className="d-block w-100 h-100"
+          src={width < 768 ? coverMobile : cover}
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <Info>
+            <Title>
+              <Translate id={title} />
+            </Title>
+            <Text>
+              <Translate id={content} />
+            </Text>
+          </Info>
+        </Carousel.Caption>
+      </Container>
+    </Carousel.Item>
   )
 }
 
 export default CertInfo
 
 CertInfo.propTypes = {
+  cover: PropTypes.string,
+  coverMobile: PropTypes.string,
   itemSelected: PropTypes.number,
-  idnum: PropTypes.number,
   title: PropTypes.string,
   content: PropTypes.string
 }
 
-const ListInfo = styled(Info)`
-  position: relative;
-  z-index: 10;
+const Container = styled.div`
+  height: 360px;
 
-  &::before,
-  &::after {
-    left: ${({ idnum }) => LEFT_INFO_POS[idnum - 1]};
+  @media screen and (max-width: 768px) {
+    height: 250px;
   }
 `
 
-const ShowOnSelectedCol = styled(Col)`
-  display: ${({ itemselected, idnum }) =>
-    itemselected == idnum ? 'block' : 'none'};
+const Image = styled.img`
+  object-fit: fill;
+`
+const Text = styled.p`
+  font-size: 13px;
 `
