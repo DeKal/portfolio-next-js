@@ -1,22 +1,37 @@
 import React, { Fragment } from 'react'
-import Experiences from '~/modules/home/components/Experiences'
-import SideProjects from '~/modules/home/components/SideProjects'
-import Certification from '~/modules/home/components/Certification'
-import Project from '~/modules/home/components/Project'
-import Contact from '~/modules/home/components/Contact'
-import Footer from '~/modules/home/components/Footer'
+import dynamic from 'next/dynamic'
 import SlideIterator from '~/modules/core/components/SlideIterator'
+
+import 'react-vertical-timeline-component/style.min.css'
+
+const AsyncExperiences = dynamic(
+  import('~/modules/home/components/Experiences')
+)
+
+const AsyncSideProjects = dynamic(
+  import('~/modules/home/components/SideProjects')
+)
+
+const AsyncCertification = dynamic(
+  import('~/modules/home/components/Certification')
+)
+
+const AsyncProject = dynamic(import('~/modules/home/components/Project'))
+
+const AsyncContact = dynamic(import('~/modules/home/components/Contact'))
+
+const AsyncFooter = dynamic(import('~/modules/home/components/Footer'))
 
 const HomePage = () => (
   <Fragment>
-    <Experiences />
+    <AsyncExperiences />
     <SlideIterator>
-      <SideProjects />
-      <Project />
-      <Certification />
-      <Contact />
+      <AsyncSideProjects />
+      <AsyncProject />
+      <AsyncCertification />
+      <AsyncContact />
     </SlideIterator>
-    <Footer />
+    <AsyncFooter />
   </Fragment>
 )
 
