@@ -102,6 +102,7 @@ exports[`GlobalStyleCss should render defaultTheme without throwing an error 1`]
         opacity: 1;
         z-index: -1;
         background: #fff url(/images/bg-pattern.webp);
+        background-size: 600px 600px;
       }
       *:selection {
         color: #f3f6f6;
@@ -477,6 +478,7 @@ exports[`GlobalStyleCss should render newyearTheme without throwing an error 1`]
         opacity: 0.3;
         z-index: -1;
         background: #fff url(/images/newyear/bg-pattern.webp);
+        background-size: 600px 600px;
       }
       *:selection {
         color: #f3f6f6;
@@ -851,6 +853,7 @@ exports[`GlobalStyleCss should render xmasTheme without throwing an error 1`] = 
         opacity: 0.25;
         z-index: -1;
         background: #fff url(/images/christmas/bg-pattern-snow.webp);
+        background-size: 600px 600px;
       }
       *:selection {
         color: #f3f6f6;

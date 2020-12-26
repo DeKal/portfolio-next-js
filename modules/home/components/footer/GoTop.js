@@ -12,12 +12,12 @@ const GoTop = () => (
 export default GoTop
 
 const Container = styled.a`
-  color: ${props => props.theme.colors.colorLight};
-  border-color: ${props => props.theme.colors.colorLight};
+  color: ${props => props.theme.colors.colorDark};
+  border-color: ${props => props.theme.colors.colorDark};
   transition: color 0.5s;
 
   &:hover {
-    color: ${props => props.theme.colors.colorDark};
+    color: ${props => props.theme.colors.colorLight};
   }
 `
 
@@ -33,22 +33,22 @@ const GoTopIcon = styled(Icon)`
   font-size: 0;
   border: none;
   overflow: hidden;
-  color: ${props => props.theme.colors.colorLight};
-  border-color: ${props => props.theme.colors.colorLight};
+  color: ${props => props.theme.colors.colorDark};
+  border-color: ${props => props.theme.colors.colorDark};
   transition: color 0.5s;
 
   &::before {
     font-size: 45px;
     line-height: 35px;
-    color: ${props => props.theme.colors.colorLight};
+    color: ${props => props.theme.colors.colorDark};
     transition: color 0.5s;
   }
 
   &:hover {
-    color: ${props => props.theme.colors.colorDark};
+    color: ${props => props.theme.colors.colorLight};
 
     &::before {
-      color: ${props => props.theme.colors.colorDark};
+      color: ${props => props.theme.colors.colorLight};
     }
   }
 `

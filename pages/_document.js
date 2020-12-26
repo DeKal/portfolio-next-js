@@ -51,6 +51,7 @@ class MyDocument extends Document {
 
           <script
             async
+            defer
             src="https://www.googletagmanager.com/gtag/js?id=UA-172952138-1"
           />
 
