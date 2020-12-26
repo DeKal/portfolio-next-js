@@ -69,6 +69,6 @@ const Logo = styled.img`
   width: 100%;
 `
 const Dates = styled.span`
-  color: ${props => props.theme.colors.colorDark};
-  font-weight: 600;
+  color: ${props => props.theme.colors.colorBlack};
+  font-weight: 700;
 `

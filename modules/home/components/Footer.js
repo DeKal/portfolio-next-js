@@ -38,7 +38,7 @@ const FooterContainer = styled.footer`
   z-index: 100;
   width: 100%;
   background-color: ${props => props.theme.colors.colorAccent};
-  color: ${props => props.theme.colors.colorLight};
+  color: ${props => props.theme.colors.colorDark};
   box-shadow: 0 -2px 2px -1px ${props => props.theme.colors.colorAccent};
   height: ${props => props.theme.footerHeight};
 
@@ -73,16 +73,16 @@ const Bold = styled.span`
 `
 
 const GitLogo = styled.a`
-  color: ${props => props.theme.colors.colorLight};
+  color: ${props => props.theme.colors.colorDark};
   padding-top: 5px;
   border: none;
 
   &:hover {
-    color: ${props => props.theme.colors.colorDark};
+    color: ${props => props.theme.colors.colorLight};
     text-decoration: none;
   }
 
   &:active {
-    color: ${props => props.theme.colors.colorDark};
+    color: ${props => props.theme.colors.colorLight};
   }
 `
