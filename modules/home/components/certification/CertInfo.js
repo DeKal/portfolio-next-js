@@ -15,7 +15,7 @@ const CertInfo = ({ cover, coverMobile, title, content, ...otherProps }) => {
         <Image
           className="d-block w-100 h-100"
           src={width < 768 ? coverMobile : cover}
-          alt="First slide"
+          alt={title}
         />
         <Carousel.Caption>
           <Info>

@@ -160,12 +160,12 @@ exports[`Certification should render without throwing an error 1`] = `
                               className="CertInfo__Container-sc-1xe9lwl-0 cYCcNv"
                             >
                               <CertInfo__Image
-                                alt="First slide"
+                                alt="CertBachelor"
                                 className="d-block w-100 h-100"
                                 src="/images/certs/graduation.webp"
                               >
                                 <img
-                                  alt="First slide"
+                                  alt="CertBachelor"
                                   className="CertInfo__Image-sc-1xe9lwl-1 bJqpNd d-block w-100 h-100"
                                   src="/images/certs/graduation.webp"
                                 />
@@ -284,12 +284,12 @@ exports[`Certification should render without throwing an error 1`] = `
                               className="CertInfo__Container-sc-1xe9lwl-0 cYCcNv"
                             >
                               <CertInfo__Image
-                                alt="First slide"
+                                alt="CertCom"
                                 className="d-block w-100 h-100"
                                 src="/images/certs/communication.webp"
                               >
                                 <img
-                                  alt="First slide"
+                                  alt="CertCom"
                                   className="CertInfo__Image-sc-1xe9lwl-1 bJqpNd d-block w-100 h-100"
                                   src="/images/certs/communication.webp"
                                 />
@@ -408,12 +408,12 @@ exports[`Certification should render without throwing an error 1`] = `
                               className="CertInfo__Container-sc-1xe9lwl-0 cYCcNv"
                             >
                               <CertInfo__Image
-                                alt="First slide"
+                                alt="CertACMPrize"
                                 className="d-block w-100 h-100"
                                 src="/images/certs/award.webp"
                               >
                                 <img
-                                  alt="First slide"
+                                  alt="CertACMPrize"
                                   className="CertInfo__Image-sc-1xe9lwl-1 bJqpNd d-block w-100 h-100"
                                   src="/images/certs/award.webp"
                                 />
@@ -532,12 +532,12 @@ exports[`Certification should render without throwing an error 1`] = `
                               className="CertInfo__Container-sc-1xe9lwl-0 cYCcNv"
                             >
                               <CertInfo__Image
-                                alt="First slide"
+                                alt="CertSPrize"
                                 className="d-block w-100 h-100"
                                 src="/images/certs/award.webp"
                               >
                                 <img
-                                  alt="First slide"
+                                  alt="CertSPrize"
                                   className="CertInfo__Image-sc-1xe9lwl-1 bJqpNd d-block w-100 h-100"
                                   src="/images/certs/award.webp"
                                 />
@@ -656,12 +656,12 @@ exports[`Certification should render without throwing an error 1`] = `
                               className="CertInfo__Container-sc-1xe9lwl-0 cYCcNv"
                             >
                               <CertInfo__Image
-                                alt="First slide"
+                                alt="CertFPrize"
                                 className="d-block w-100 h-100"
                                 src="/images/certs/award.webp"
                               >
                                 <img
-                                  alt="First slide"
+                                  alt="CertFPrize"
                                   className="CertInfo__Image-sc-1xe9lwl-1 bJqpNd d-block w-100 h-100"
                                   src="/images/certs/award.webp"
                                 />
