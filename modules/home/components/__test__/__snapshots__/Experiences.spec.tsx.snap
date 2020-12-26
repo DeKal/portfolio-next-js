@@ -86,7 +86,7 @@ exports[`Experiences should render without throwing an error 1`] = `
             >
               <Experience
                 company="Zalora"
-                icon="/images/companies/zalora.png"
+                icon="/images/companies/zalora.webp"
                 key="0"
               >
                 <VerticalTimelineElement
@@ -113,7 +113,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                   icon={
                     <Experience__Logo
                       alt="Zalora"
-                      src="/images/companies/zalora.png"
+                      src="/images/companies/zalora.webp"
                     />
                   }
                   iconStyle={
@@ -131,7 +131,7 @@ exports[`Experiences should render without throwing an error 1`] = `
               </Experience>
               <Experience
                 company="Dek"
-                icon="/images/companies/dek.png"
+                icon="/images/companies/dek.webp"
                 key="1"
               >
                 <VerticalTimelineElement
@@ -158,7 +158,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                   icon={
                     <Experience__Logo
                       alt="Dek"
-                      src="/images/companies/dek.png"
+                      src="/images/companies/dek.webp"
                     />
                   }
                   iconStyle={
@@ -176,7 +176,7 @@ exports[`Experiences should render without throwing an error 1`] = `
               </Experience>
               <Experience
                 company="GCS"
-                icon="/images/companies/gcs.png"
+                icon="/images/companies/gcs.webp"
                 key="2"
               >
                 <VerticalTimelineElement
@@ -203,7 +203,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                   icon={
                     <Experience__Logo
                       alt="GCS"
-                      src="/images/companies/gcs.png"
+                      src="/images/companies/gcs.webp"
                     />
                   }
                   iconStyle={
@@ -221,7 +221,7 @@ exports[`Experiences should render without throwing an error 1`] = `
               </Experience>
               <Experience
                 company="GCS-intern"
-                icon="/images/companies/gcs.png"
+                icon="/images/companies/gcs.webp"
                 key="3"
               >
                 <VerticalTimelineElement
@@ -248,7 +248,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                   icon={
                     <Experience__Logo
                       alt="GCS-intern"
-                      src="/images/companies/gcs.png"
+                      src="/images/companies/gcs.webp"
                     />
                   }
                   iconStyle={

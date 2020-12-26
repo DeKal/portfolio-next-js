@@ -38,7 +38,7 @@ const Style = styled.h1`
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  background: url(/images/oops.jpg) no-repeat;
+  background: url(/images/oops.webp) no-repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: cover;

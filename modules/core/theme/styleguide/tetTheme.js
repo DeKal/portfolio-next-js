@@ -12,9 +12,9 @@ const theme = {
     bgColor: '#fff'
   },
   images: {
-    background: '/images/tet/bg-tet.jpg',
+    background: '/images/tet/bg-tet.webp',
     backgroundMobile: '/images/bg-mobile.webp',
-    bgPattern: '/images/tet/bg-pattern.jpg',
+    bgPattern: '/images/tet/bg-pattern.webp',
     bgPatternOpacity: '0.1',
     overlayBgColor: '',
     overlay: ''
