@@ -50,7 +50,7 @@ export const useTheme = router => {
     return tetTheme
   }
 
-  return tetTheme
+  return theme
 }
 
 const selectGlobalCss = (router, theme) => {
