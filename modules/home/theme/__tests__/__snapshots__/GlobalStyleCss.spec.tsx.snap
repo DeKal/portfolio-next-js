@@ -55,7 +55,7 @@ exports[`GlobalStyleCss should render defaultTheme without throwing an error 1`]
       "images": Object {
         "background": "/images/bg.webp",
         "backgroundMobile": "/images/bg-mobile.webp",
-        "bgPattern": "/images/bg-pattern.jpg",
+        "bgPattern": "/images/bg-pattern.webp",
         "bgPatternOpacity": "1",
         "overlay": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC",
         "overlayBgColor": "rgba(44, 62, 80, 0.4)",
@@ -101,7 +101,7 @@ exports[`GlobalStyleCss should render defaultTheme without throwing an error 1`]
         height: 100%;
         opacity: 1;
         z-index: -1;
-        background: #fff url(/images/bg-pattern.jpg);
+        background: #fff url(/images/bg-pattern.webp);
       }
       *:selection {
         color: #f3f6f6;
@@ -428,9 +428,9 @@ exports[`GlobalStyleCss should render newyearTheme without throwing an error 1`]
         "workexp": "\\\\e804",
       },
       "images": Object {
-        "background": "/images/newyear/bg-newyear.jpg",
+        "background": "/images/newyear/bg-newyear.webp",
         "backgroundMobile": "/images/bg-mobile.webp",
-        "bgPattern": "/images/newyear/bg-pattern.jpg",
+        "bgPattern": "/images/newyear/bg-pattern.webp",
         "bgPatternOpacity": "0.3",
         "overlay": "",
         "overlayBgColor": "rgba(44, 62, 80, 0.3)",
@@ -476,7 +476,7 @@ exports[`GlobalStyleCss should render newyearTheme without throwing an error 1`]
         height: 100%;
         opacity: 0.3;
         z-index: -1;
-        background: #fff url(/images/newyear/bg-pattern.jpg);
+        background: #fff url(/images/newyear/bg-pattern.webp);
       }
       *:selection {
         color: #f3f6f6;
@@ -803,9 +803,9 @@ exports[`GlobalStyleCss should render xmasTheme without throwing an error 1`] = 
         "workexp": "\\\\e804",
       },
       "images": Object {
-        "background": "/images/christmas/bg-christmas.jpg",
+        "background": "/images/christmas/bg-christmas.webp",
         "backgroundMobile": "/images/bg-mobile.webp",
-        "bgPattern": "/images/christmas/bg-pattern-snow.png",
+        "bgPattern": "/images/christmas/bg-pattern-snow.webp",
         "bgPatternOpacity": "0.25",
         "overlay": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC",
         "overlayBgColor": "rgba(44, 62, 80, 0.3)",
@@ -850,7 +850,7 @@ exports[`GlobalStyleCss should render xmasTheme without throwing an error 1`] = 
         height: 100%;
         opacity: 0.25;
         z-index: -1;
-        background: #fff url(/images/christmas/bg-pattern-snow.png);
+        background: #fff url(/images/christmas/bg-pattern-snow.webp);
       }
       *:selection {
         color: #f3f6f6;

@@ -10,9 +10,9 @@ const theme = {
     bgColor: '#fff'
   },
   images: {
-    background: '/images/christmas/bg-christmas.jpg',
+    background: '/images/christmas/bg-christmas.webp',
     backgroundMobile: '/images/bg-mobile.webp',
-    bgPattern: '/images/christmas/bg-pattern-snow.png',
+    bgPattern: '/images/christmas/bg-pattern-snow.webp',
     bgPatternOpacity: '0.25',
     overlayBgColor: 'rgba(44, 62, 80, 0.3)',
     overlay:

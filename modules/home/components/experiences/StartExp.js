@@ -14,7 +14,7 @@ const StartExp = () => (
 export default StartExp
 
 const StartLogo = () => (
-  <Logo src={'/images/companies/start.png'} alt={'Start'} />
+  <Logo src={'/images/companies/start.webp'} alt={'Start'} />
 )
 
 const Logo = styled.img`

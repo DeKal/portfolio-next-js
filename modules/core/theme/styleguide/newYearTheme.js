@@ -12,9 +12,9 @@ const theme = {
     bgColor: '#fff'
   },
   images: {
-    background: '/images/newyear/bg-newyear.jpg',
+    background: '/images/newyear/bg-newyear.webp',
     backgroundMobile: '/images/bg-mobile.webp',
-    bgPattern: '/images/newyear/bg-pattern.jpg',
+    bgPattern: '/images/newyear/bg-pattern.webp',
     bgPatternOpacity: '0.3',
     overlayBgColor: 'rgba(44, 62, 80, 0.3)',
     overlay: ''

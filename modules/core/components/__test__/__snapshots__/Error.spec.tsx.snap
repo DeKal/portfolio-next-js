@@ -24,7 +24,7 @@ exports[`Error should render Error Component in general case 1`] = `
                   >
                     <Header__Style>
                       <h1
-                        className="Header__Style-sc-1tbyssu-1 duHoIG"
+                        className="Header__Style-sc-1tbyssu-1 fhHUsn"
                       >
                         Oops!
                       </h1>
@@ -93,7 +93,7 @@ exports[`Error should render Error Component in undefined case 1`] = `
                   >
                     <Header__Style>
                       <h1
-                        className="Header__Style-sc-1tbyssu-1 duHoIG"
+                        className="Header__Style-sc-1tbyssu-1 fhHUsn"
                       >
                         Oops!
                       </h1>
@@ -164,7 +164,7 @@ exports[`Error should render Error Component with 404 1`] = `
                   >
                     <Header__Style>
                       <h1
-                        className="Header__Style-sc-1tbyssu-1 duHoIG"
+                        className="Header__Style-sc-1tbyssu-1 fhHUsn"
                       >
                         Oops!
                       </h1>
@@ -235,7 +235,7 @@ exports[`Error should render Error Component with 500 1`] = `
                   >
                     <Header__Style>
                       <h1
-                        className="Header__Style-sc-1tbyssu-1 duHoIG"
+                        className="Header__Style-sc-1tbyssu-1 fhHUsn"
                       >
                         Oops!
                       </h1>
