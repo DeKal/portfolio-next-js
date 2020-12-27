@@ -14,10 +14,11 @@ import {
   isSafari,
   initHashLocation
 } from '~/modules/core/utils/helpers'
+import useWindowDimensions from '~/modules/core/utils/useWindowDimensions'
 
 const NavContent = ({ isShowNavContent }) => {
   const [selectedPage, setSelectedPage] = useState(getSelectedSection())
-
+  const { width } = useWindowDimensions()
   useEffect(() => {
     const handleHashChange = () => {
       setSelectedPage(getSelectedSection())
@@ -43,21 +44,25 @@ const NavContent = ({ isShowNavContent }) => {
           <Col lg={2}>
             <NavLogo />
           </Col>
-          <Col fluid="true">
+          <MobileCol fluid="true">
             <NavMenu>
-              <ul>
-                {PAGE_LIST.map(page => (
-                  <NavLi key={page.name}>
-                    <NavItem
-                      page={page}
-                      isSelected={selectedPage === page.cmpName}
-                      setSelectedPage={setSelectedPage}
-                    />
-                  </NavLi>
-                ))}
-              </ul>
+              <NavUl>
+                {PAGE_LIST.map(
+                  page =>
+                    (width > 768 || page.isShowOnMobile) && (
+                      <NavLi key={page.name}>
+                        <NavItem
+                          page={page}
+                          isMobile={width < 768}
+                          isSelected={selectedPage === page.cmpName}
+                          setSelectedPage={setSelectedPage}
+                        />
+                      </NavLi>
+                    )
+                )}
+              </NavUl>
             </NavMenu>
-          </Col>
+          </MobileCol>
         </Row>
       </MobileContainer>
     </NavContainer>
@@ -79,28 +84,46 @@ const NavContainer = styled.div`
   box-shadow: ${props => props.theme.extra.boxShadow};
   transition: all 0.5s;
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 768px) {
     margin-top: ${props =>
       props.isShowNavContent
         ? props.theme.navHeaderHeight
         : props.theme.navPosWhenHiding};
+    position: fixed;
+    min-height: 0;
+    width: 100%;
+    bottom: 0;
+    background: white;
+    border-top: 1px solid ${props => props.theme.colors.colorAccent};
+  }
+`
+const MobileCol = styled(Col)`
+  @media screen and (max-width: 768px) {
+    padding: 0 !important;
   }
 `
 const NavMenu = styled.nav`
   text-align: right;
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 768px) {
     text-align: center;
+  }
+`
+
+const NavUl = styled.ul`
+  @media screen and (max-width: 768px) {
+    display: flex;
+    justify-content: space-evenly;
   }
 `
 const NavLi = styled.li`
   display: inline-block;
   margin-left: 18px;
 
-  @media screen and (max-width: 700px) {
-    margin: 0 9px;
-    display: block;
-    border-bottom: 1px dashed ${props => props.theme.colors.colorDarken};
+  @media screen and (max-width: 768px) {
+    display: flex;
+    margin: 8px;
+    font-size: 13px;
   }
 `
 export default NavContent

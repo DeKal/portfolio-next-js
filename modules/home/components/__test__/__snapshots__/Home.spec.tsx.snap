@@ -32,7 +32,7 @@ exports[`Home should render without throwing an error 1`] = `
         id="Home"
       >
         <span
-          className="Anchor-sc-1axmo0z-0 iZKhRZ"
+          className="Anchor-sc-1axmo0z-0 dWGAPT"
           id="Home"
         />
       </Anchor>

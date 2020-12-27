@@ -22,7 +22,7 @@ const Logo = styled.a`
   background-color: ${props => props.theme.colors.colorAccent};
   border: none;
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 768px) {
     display: none;
   }
 

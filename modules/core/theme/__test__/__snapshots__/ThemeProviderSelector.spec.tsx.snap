@@ -178,7 +178,7 @@ exports[`Theme Provider Selector Selector fo normal theme should render for chri
         "fontSerif": "Georgia, Times, \\"Times New Roman\\", serif",
         "fontTrebuchet": "Trebuchet MS, sans-serif",
       },
-      "footerHeight": "50px",
+      "footerHeight": "58px",
       "headerPadding": "200px 10px 250px",
       "icons": Object {
         "c": "C",
@@ -255,7 +255,7 @@ exports[`Theme Provider Selector Selector fo normal theme should render for chri
           "fontSerif": "Georgia, Times, \\"Times New Roman\\", serif",
           "fontTrebuchet": "Trebuchet MS, sans-serif",
         },
-        "footerHeight": "50px",
+        "footerHeight": "58px",
         "headerPadding": "200px 10px 250px",
         "icons": Object {
           "c": "C",
@@ -336,7 +336,7 @@ exports[`Theme Provider Selector Selector fo normal theme should render for new 
         "fontSerif": "Georgia, Times, \\"Times New Roman\\", serif",
         "fontTrebuchet": "Trebuchet MS, sans-serif",
       },
-      "footerHeight": "50px",
+      "footerHeight": "58px",
       "headerPadding": "200px 10px 250px",
       "icons": Object {
         "c": "C",
@@ -414,7 +414,7 @@ exports[`Theme Provider Selector Selector fo normal theme should render for new 
           "fontSerif": "Georgia, Times, \\"Times New Roman\\", serif",
           "fontTrebuchet": "Trebuchet MS, sans-serif",
         },
-        "footerHeight": "50px",
+        "footerHeight": "58px",
         "headerPadding": "200px 10px 250px",
         "icons": Object {
           "c": "C",
@@ -496,7 +496,7 @@ exports[`Theme Provider Selector Selector fo normal theme should render for norm
         "fontSerif": "Georgia, Times, \\"Times New Roman\\", serif",
         "fontTrebuchet": "Trebuchet MS, sans-serif",
       },
-      "footerHeight": "50px",
+      "footerHeight": "58px",
       "headerPadding": "200px 10px 250px",
       "icons": Object {
         "c": "C",
@@ -574,7 +574,7 @@ exports[`Theme Provider Selector Selector fo normal theme should render for norm
           "fontSerif": "Georgia, Times, \\"Times New Roman\\", serif",
           "fontTrebuchet": "Trebuchet MS, sans-serif",
         },
-        "footerHeight": "50px",
+        "footerHeight": "58px",
         "headerPadding": "200px 10px 250px",
         "icons": Object {
           "c": "C",
@@ -656,7 +656,7 @@ exports[`Theme Provider Selector Selector fo normal theme should render for tet 
         "fontSerif": "Georgia, Times, \\"Times New Roman\\", serif",
         "fontTrebuchet": "Trebuchet MS, sans-serif",
       },
-      "footerHeight": "50px",
+      "footerHeight": "58px",
       "headerPadding": "200px 10px 250px",
       "icons": Object {
         "c": "C",
@@ -734,7 +734,7 @@ exports[`Theme Provider Selector Selector fo normal theme should render for tet 
           "fontSerif": "Georgia, Times, \\"Times New Roman\\", serif",
           "fontTrebuchet": "Trebuchet MS, sans-serif",
         },
-        "footerHeight": "50px",
+        "footerHeight": "58px",
         "headerPadding": "200px 10px 250px",
         "icons": Object {
           "c": "C",
