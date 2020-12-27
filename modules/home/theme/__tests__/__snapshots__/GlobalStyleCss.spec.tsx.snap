@@ -38,7 +38,7 @@ exports[`GlobalStyleCss should render defaultTheme without throwing an error 1`]
         "fontSerif": "Georgia, Times, \\"Times New Roman\\", serif",
         "fontTrebuchet": "Trebuchet MS, sans-serif",
       },
-      "footerHeight": "50px",
+      "footerHeight": "58px",
       "headerPadding": "200px 10px 250px",
       "icons": Object {
         "c": "C",
@@ -415,7 +415,7 @@ exports[`GlobalStyleCss should render newyearTheme without throwing an error 1`]
         "fontSerif": "Georgia, Times, \\"Times New Roman\\", serif",
         "fontTrebuchet": "Trebuchet MS, sans-serif",
       },
-      "footerHeight": "50px",
+      "footerHeight": "58px",
       "headerPadding": "200px 10px 250px",
       "icons": Object {
         "c": "C",
@@ -792,7 +792,7 @@ exports[`GlobalStyleCss should render xmasTheme without throwing an error 1`] = 
         "fontSerif": "Georgia, Times, \\"Times New Roman\\", serif",
         "fontTrebuchet": "Trebuchet MS, sans-serif",
       },
-      "footerHeight": "50px",
+      "footerHeight": "58px",
       "headerPadding": "200px 10px 250px",
       "icons": Object {
         "c": "C",

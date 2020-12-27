@@ -4,7 +4,7 @@ exports[`Footer should render without throwing an error 1`] = `
 <Footer>
   <Footer__FooterContainer>
     <footer
-      className="Footer__FooterContainer-x896os-0 bQowue"
+      className="Footer__FooterContainer-x896os-0 gGsZsK"
     >
       <Container
         fluid={false}
@@ -42,7 +42,7 @@ exports[`Footer should render without throwing an error 1`] = `
                 </div>
               </Col>
               <Col
-                className="d-flex justify-content-end"
+                className="d-flex justify-content-end align-items-center"
                 md={
                   Object {
                     "offset": 4,
@@ -57,7 +57,7 @@ exports[`Footer should render without throwing an error 1`] = `
                 }
               >
                 <div
-                  className="d-flex justify-content-end col-md-4 col-4 offset-md-4 offset-4"
+                  className="d-flex justify-content-end align-items-center col-md-4 col-4 offset-md-4 offset-4"
                 >
                   <Footer__GitLogo
                     aria-label="Github"
@@ -65,7 +65,7 @@ exports[`Footer should render without throwing an error 1`] = `
                   >
                     <a
                       aria-label="Github"
-                      className="Footer__GitLogo-x896os-3 cOVCie"
+                      className="Footer__GitLogo-x896os-3 gzgNMN"
                       href="https://github.com/DeKal/portfolio-next-js"
                     >
                       <FaGithub

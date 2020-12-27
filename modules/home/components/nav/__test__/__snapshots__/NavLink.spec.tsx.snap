@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Nav Link Big Device >= 700px should change Language when clicking 1`] = `
+exports[`Nav Link Big Device >= 768px should change Language when clicking 1`] = `
 <LocalizedComponent
   lang="vn"
   selectedLang="en"
@@ -113,7 +113,7 @@ exports[`Nav Link Big Device >= 700px should change Language when clicking 1`] =
 </LocalizedComponent>
 `;
 
-exports[`Nav Link Big Device >= 700px should render with English selected 1`] = `
+exports[`Nav Link Big Device >= 768px should render with English selected 1`] = `
 <LocalizedComponent
   lang="en"
   selectedLang="en"
@@ -167,7 +167,7 @@ exports[`Nav Link Big Device >= 700px should render with English selected 1`] = 
 </LocalizedComponent>
 `;
 
-exports[`Nav Link Big Device >= 700px should render with Vietnamese selected 1`] = `
+exports[`Nav Link Big Device >= 768px should render with Vietnamese selected 1`] = `
 <LocalizedComponent
   lang="vn"
   selectedLang="vn"

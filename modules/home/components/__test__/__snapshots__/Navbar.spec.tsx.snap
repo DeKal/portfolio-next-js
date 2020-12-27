@@ -176,7 +176,7 @@ exports[`Navbar should render without throwing an error 1`] = `
                             onClick={[Function]}
                           >
                             <div
-                              className="NavHeader__NavControl-sc-1iyu030-1 hqaxLs"
+                              className="NavHeader__NavControl-sc-1iyu030-1 feFtxH"
                               data-test-id="switch-nav-content"
                               onClick={[Function]}
                             >
@@ -258,7 +258,7 @@ exports[`Navbar should render without throwing an error 1`] = `
           isShowNavContent={false}
         >
           <div
-            className="NavContent__NavContainer-sc-1iay8fd-0 epXvue"
+            className="NavContent__NavContainer-sc-1iay8fd-0 dlaiAn"
           >
             <MobileContainer>
               <Container
@@ -285,7 +285,7 @@ exports[`Navbar should render without throwing an error 1`] = `
                               href="https://github.com/DeKal/portfolio-next-js"
                             >
                               <a
-                                className="NavLogo__Logo-sc-100re03-0 hHNwkm"
+                                className="NavLogo__Logo-sc-100re03-0 jbuBiQ"
                                 href="https://github.com/DeKal/portfolio-next-js"
                               >
                                 <NavLogo__LogoText>
@@ -309,346 +309,319 @@ exports[`Navbar should render without throwing an error 1`] = `
                         >
                           <NavContent__NavMenu>
                             <nav
-                              className="NavContent__NavMenu-sc-1iay8fd-1 gDCNoK"
+                              className="NavContent__NavMenu-sc-1iay8fd-1 iKtXec"
                             >
-                              <ul>
-                                <NavContent__NavLi
-                                  key="Home"
+                              <NavContent__NavUl>
+                                <ul
+                                  className="NavContent__NavUl-sc-1iay8fd-2 jaWBhN"
                                 >
-                                  <li
-                                    className="NavContent__NavLi-sc-1iay8fd-2 bvffaB"
+                                  <NavContent__NavLi
+                                    key="Home"
                                   >
-                                    <NavItem
-                                      isSelected={false}
-                                      page={
-                                        Object {
-                                          "cmpName": "Home",
-                                          "name": "Home",
-                                          "url": "/#Home",
-                                        }
-                                      }
-                                      setSelectedPage={[Function]}
+                                    <li
+                                      className="NavContent__NavLi-sc-1iay8fd-3 ilRwyp"
                                     >
-                                      <NavItem__Container
-                                        data-test-id="nav-link"
-                                        href="/#Home"
-                                        onClick={[Function]}
+                                      <NavItem
+                                        isMobile={false}
+                                        isSelected={false}
+                                        page={
+                                          Object {
+                                            "Icon": <FaHome
+                                              size="22px"
+                                            />,
+                                            "cmpName": "Home",
+                                            "isShowOnMobile": true,
+                                            "name": "Home",
+                                            "url": "/#Home",
+                                          }
+                                        }
+                                        setSelectedPage={[Function]}
                                       >
-                                        <a
-                                          className="NavItem__Container-sc-1cwb00j-0 gUrgyM"
+                                        <NavItem__Container
                                           data-test-id="nav-link"
                                           href="/#Home"
                                           onClick={[Function]}
                                         >
-                                          <Translate
-                                            id="Home"
+                                          <a
+                                            className="NavItem__Container-sc-1cwb00j-0 lnnpdS"
+                                            data-test-id="nav-link"
+                                            href="/#Home"
+                                            onClick={[Function]}
                                           >
-                                            <WrappedTranslate
-                                              context={
-                                                Object {
-                                                  "activeLanguage": undefined,
-                                                  "addTranslation": [Function],
-                                                  "addTranslationForLanguage": [Function],
-                                                  "defaultLanguage": undefined,
-                                                  "ignoreTranslateChildren": false,
-                                                  "initialize": [Function],
-                                                  "languages": Array [],
-                                                  "renderToStaticMarkup": false,
-                                                  "setActiveLanguage": [Function],
-                                                  "translate": [Function],
-                                                }
-                                              }
+                                            <Translate
                                               id="Home"
                                             >
-                                              Missing translationId: Home for language: \${ languageCode }
-                                            </WrappedTranslate>
-                                          </Translate>
-                                        </a>
-                                      </NavItem__Container>
-                                    </NavItem>
-                                  </li>
-                                </NavContent__NavLi>
-                                <NavContent__NavLi
-                                  key="Experiences"
-                                >
-                                  <li
-                                    className="NavContent__NavLi-sc-1iay8fd-2 bvffaB"
+                                              <WrappedTranslate
+                                                context={
+                                                  Object {
+                                                    "activeLanguage": undefined,
+                                                    "addTranslation": [Function],
+                                                    "addTranslationForLanguage": [Function],
+                                                    "defaultLanguage": undefined,
+                                                    "ignoreTranslateChildren": false,
+                                                    "initialize": [Function],
+                                                    "languages": Array [],
+                                                    "renderToStaticMarkup": false,
+                                                    "setActiveLanguage": [Function],
+                                                    "translate": [Function],
+                                                  }
+                                                }
+                                                id="Home"
+                                              >
+                                                Missing translationId: Home for language: \${ languageCode }
+                                              </WrappedTranslate>
+                                            </Translate>
+                                          </a>
+                                        </NavItem__Container>
+                                      </NavItem>
+                                    </li>
+                                  </NavContent__NavLi>
+                                  <NavContent__NavLi
+                                    key="Experiences"
                                   >
-                                    <NavItem
-                                      isSelected={false}
-                                      page={
-                                        Object {
-                                          "cmpName": "Experiences",
-                                          "name": "Experiences",
-                                          "url": "/#Experiences",
-                                        }
-                                      }
-                                      setSelectedPage={[Function]}
+                                    <li
+                                      className="NavContent__NavLi-sc-1iay8fd-3 ilRwyp"
                                     >
-                                      <NavItem__Container
-                                        data-test-id="nav-link"
-                                        href="/#Experiences"
-                                        onClick={[Function]}
+                                      <NavItem
+                                        isMobile={false}
+                                        isSelected={false}
+                                        page={
+                                          Object {
+                                            "Icon": <FaBriefcase
+                                              size="22px"
+                                            />,
+                                            "cmpName": "Experiences",
+                                            "isShowOnMobile": true,
+                                            "name": "Experiences",
+                                            "url": "/#Experiences",
+                                          }
+                                        }
+                                        setSelectedPage={[Function]}
                                       >
-                                        <a
-                                          className="NavItem__Container-sc-1cwb00j-0 gUrgyM"
+                                        <NavItem__Container
                                           data-test-id="nav-link"
                                           href="/#Experiences"
                                           onClick={[Function]}
                                         >
-                                          <Translate
-                                            id="Experiences"
+                                          <a
+                                            className="NavItem__Container-sc-1cwb00j-0 lnnpdS"
+                                            data-test-id="nav-link"
+                                            href="/#Experiences"
+                                            onClick={[Function]}
                                           >
-                                            <WrappedTranslate
-                                              context={
-                                                Object {
-                                                  "activeLanguage": undefined,
-                                                  "addTranslation": [Function],
-                                                  "addTranslationForLanguage": [Function],
-                                                  "defaultLanguage": undefined,
-                                                  "ignoreTranslateChildren": false,
-                                                  "initialize": [Function],
-                                                  "languages": Array [],
-                                                  "renderToStaticMarkup": false,
-                                                  "setActiveLanguage": [Function],
-                                                  "translate": [Function],
-                                                }
-                                              }
+                                            <Translate
                                               id="Experiences"
                                             >
-                                              Missing translationId: Experiences for language: \${ languageCode }
-                                            </WrappedTranslate>
-                                          </Translate>
-                                        </a>
-                                      </NavItem__Container>
-                                    </NavItem>
-                                  </li>
-                                </NavContent__NavLi>
-                                <NavContent__NavLi
-                                  key="Projects"
-                                >
-                                  <li
-                                    className="NavContent__NavLi-sc-1iay8fd-2 bvffaB"
+                                              <WrappedTranslate
+                                                context={
+                                                  Object {
+                                                    "activeLanguage": undefined,
+                                                    "addTranslation": [Function],
+                                                    "addTranslationForLanguage": [Function],
+                                                    "defaultLanguage": undefined,
+                                                    "ignoreTranslateChildren": false,
+                                                    "initialize": [Function],
+                                                    "languages": Array [],
+                                                    "renderToStaticMarkup": false,
+                                                    "setActiveLanguage": [Function],
+                                                    "translate": [Function],
+                                                  }
+                                                }
+                                                id="Experiences"
+                                              >
+                                                Missing translationId: Experiences for language: \${ languageCode }
+                                              </WrappedTranslate>
+                                            </Translate>
+                                          </a>
+                                        </NavItem__Container>
+                                      </NavItem>
+                                    </li>
+                                  </NavContent__NavLi>
+                                  <NavContent__NavLi
+                                    key="Projects"
                                   >
-                                    <NavItem
-                                      isSelected={false}
-                                      page={
-                                        Object {
-                                          "cmpName": "Projects",
-                                          "name": "Projects",
-                                          "url": "/#Projects",
-                                        }
-                                      }
-                                      setSelectedPage={[Function]}
+                                    <li
+                                      className="NavContent__NavLi-sc-1iay8fd-3 ilRwyp"
                                     >
-                                      <NavItem__Container
-                                        data-test-id="nav-link"
-                                        href="/#Projects"
-                                        onClick={[Function]}
+                                      <NavItem
+                                        isMobile={false}
+                                        isSelected={false}
+                                        page={
+                                          Object {
+                                            "Icon": <FaCode
+                                              size="22px"
+                                            />,
+                                            "cmpName": "Projects",
+                                            "isShowOnMobile": true,
+                                            "name": "Projects",
+                                            "url": "/#Projects",
+                                          }
+                                        }
+                                        setSelectedPage={[Function]}
                                       >
-                                        <a
-                                          className="NavItem__Container-sc-1cwb00j-0 gUrgyM"
+                                        <NavItem__Container
                                           data-test-id="nav-link"
                                           href="/#Projects"
                                           onClick={[Function]}
                                         >
-                                          <Translate
-                                            id="Projects"
+                                          <a
+                                            className="NavItem__Container-sc-1cwb00j-0 lnnpdS"
+                                            data-test-id="nav-link"
+                                            href="/#Projects"
+                                            onClick={[Function]}
                                           >
-                                            <WrappedTranslate
-                                              context={
-                                                Object {
-                                                  "activeLanguage": undefined,
-                                                  "addTranslation": [Function],
-                                                  "addTranslationForLanguage": [Function],
-                                                  "defaultLanguage": undefined,
-                                                  "ignoreTranslateChildren": false,
-                                                  "initialize": [Function],
-                                                  "languages": Array [],
-                                                  "renderToStaticMarkup": false,
-                                                  "setActiveLanguage": [Function],
-                                                  "translate": [Function],
-                                                }
-                                              }
+                                            <Translate
                                               id="Projects"
                                             >
-                                              Missing translationId: Projects for language: \${ languageCode }
-                                            </WrappedTranslate>
-                                          </Translate>
-                                        </a>
-                                      </NavItem__Container>
-                                    </NavItem>
-                                  </li>
-                                </NavContent__NavLi>
-                                <NavContent__NavLi
-                                  key="Certifications"
-                                >
-                                  <li
-                                    className="NavContent__NavLi-sc-1iay8fd-2 bvffaB"
+                                              <WrappedTranslate
+                                                context={
+                                                  Object {
+                                                    "activeLanguage": undefined,
+                                                    "addTranslation": [Function],
+                                                    "addTranslationForLanguage": [Function],
+                                                    "defaultLanguage": undefined,
+                                                    "ignoreTranslateChildren": false,
+                                                    "initialize": [Function],
+                                                    "languages": Array [],
+                                                    "renderToStaticMarkup": false,
+                                                    "setActiveLanguage": [Function],
+                                                    "translate": [Function],
+                                                  }
+                                                }
+                                                id="Projects"
+                                              >
+                                                Missing translationId: Projects for language: \${ languageCode }
+                                              </WrappedTranslate>
+                                            </Translate>
+                                          </a>
+                                        </NavItem__Container>
+                                      </NavItem>
+                                    </li>
+                                  </NavContent__NavLi>
+                                  <NavContent__NavLi
+                                    key="Certifications"
                                   >
-                                    <NavItem
-                                      isSelected={false}
-                                      page={
-                                        Object {
-                                          "cmpName": "Certifications",
-                                          "name": "Certifications",
-                                          "url": "/#Certifications",
-                                        }
-                                      }
-                                      setSelectedPage={[Function]}
+                                    <li
+                                      className="NavContent__NavLi-sc-1iay8fd-3 ilRwyp"
                                     >
-                                      <NavItem__Container
-                                        data-test-id="nav-link"
-                                        href="/#Certifications"
-                                        onClick={[Function]}
+                                      <NavItem
+                                        isMobile={false}
+                                        isSelected={false}
+                                        page={
+                                          Object {
+                                            "Icon": <FaMedal
+                                              size="22px"
+                                            />,
+                                            "cmpName": "Certifications",
+                                            "isShowOnMobile": true,
+                                            "name": "Certifications",
+                                            "url": "/#Certifications",
+                                          }
+                                        }
+                                        setSelectedPage={[Function]}
                                       >
-                                        <a
-                                          className="NavItem__Container-sc-1cwb00j-0 gUrgyM"
+                                        <NavItem__Container
                                           data-test-id="nav-link"
                                           href="/#Certifications"
                                           onClick={[Function]}
                                         >
-                                          <Translate
-                                            id="Certifications"
+                                          <a
+                                            className="NavItem__Container-sc-1cwb00j-0 lnnpdS"
+                                            data-test-id="nav-link"
+                                            href="/#Certifications"
+                                            onClick={[Function]}
                                           >
-                                            <WrappedTranslate
-                                              context={
-                                                Object {
-                                                  "activeLanguage": undefined,
-                                                  "addTranslation": [Function],
-                                                  "addTranslationForLanguage": [Function],
-                                                  "defaultLanguage": undefined,
-                                                  "ignoreTranslateChildren": false,
-                                                  "initialize": [Function],
-                                                  "languages": Array [],
-                                                  "renderToStaticMarkup": false,
-                                                  "setActiveLanguage": [Function],
-                                                  "translate": [Function],
-                                                }
-                                              }
+                                            <Translate
                                               id="Certifications"
                                             >
-                                              Missing translationId: Certifications for language: \${ languageCode }
-                                            </WrappedTranslate>
-                                          </Translate>
-                                        </a>
-                                      </NavItem__Container>
-                                    </NavItem>
-                                  </li>
-                                </NavContent__NavLi>
-                                <NavContent__NavLi
-                                  key="Contacts"
-                                >
-                                  <li
-                                    className="NavContent__NavLi-sc-1iay8fd-2 bvffaB"
+                                              <WrappedTranslate
+                                                context={
+                                                  Object {
+                                                    "activeLanguage": undefined,
+                                                    "addTranslation": [Function],
+                                                    "addTranslationForLanguage": [Function],
+                                                    "defaultLanguage": undefined,
+                                                    "ignoreTranslateChildren": false,
+                                                    "initialize": [Function],
+                                                    "languages": Array [],
+                                                    "renderToStaticMarkup": false,
+                                                    "setActiveLanguage": [Function],
+                                                    "translate": [Function],
+                                                  }
+                                                }
+                                                id="Certifications"
+                                              >
+                                                Missing translationId: Certifications for language: \${ languageCode }
+                                              </WrappedTranslate>
+                                            </Translate>
+                                          </a>
+                                        </NavItem__Container>
+                                      </NavItem>
+                                    </li>
+                                  </NavContent__NavLi>
+                                  <NavContent__NavLi
+                                    key="Contacts"
                                   >
-                                    <NavItem
-                                      isSelected={false}
-                                      page={
-                                        Object {
-                                          "cmpName": "Contacts",
-                                          "name": "Contacts",
-                                          "url": "/#Contacts",
-                                        }
-                                      }
-                                      setSelectedPage={[Function]}
+                                    <li
+                                      className="NavContent__NavLi-sc-1iay8fd-3 ilRwyp"
                                     >
-                                      <NavItem__Container
-                                        data-test-id="nav-link"
-                                        href="/#Contacts"
-                                        onClick={[Function]}
+                                      <NavItem
+                                        isMobile={false}
+                                        isSelected={false}
+                                        page={
+                                          Object {
+                                            "Icon": <FaAddressBook
+                                              size="22px"
+                                            />,
+                                            "cmpName": "Contacts",
+                                            "isShowOnMobile": true,
+                                            "name": "Contacts",
+                                            "url": "/#Contacts",
+                                          }
+                                        }
+                                        setSelectedPage={[Function]}
                                       >
-                                        <a
-                                          className="NavItem__Container-sc-1cwb00j-0 gUrgyM"
+                                        <NavItem__Container
                                           data-test-id="nav-link"
                                           href="/#Contacts"
                                           onClick={[Function]}
                                         >
-                                          <Translate
-                                            id="Contacts"
+                                          <a
+                                            className="NavItem__Container-sc-1cwb00j-0 lnnpdS"
+                                            data-test-id="nav-link"
+                                            href="/#Contacts"
+                                            onClick={[Function]}
                                           >
-                                            <WrappedTranslate
-                                              context={
-                                                Object {
-                                                  "activeLanguage": undefined,
-                                                  "addTranslation": [Function],
-                                                  "addTranslationForLanguage": [Function],
-                                                  "defaultLanguage": undefined,
-                                                  "ignoreTranslateChildren": false,
-                                                  "initialize": [Function],
-                                                  "languages": Array [],
-                                                  "renderToStaticMarkup": false,
-                                                  "setActiveLanguage": [Function],
-                                                  "translate": [Function],
-                                                }
-                                              }
+                                            <Translate
                                               id="Contacts"
                                             >
-                                              Missing translationId: Contacts for language: \${ languageCode }
-                                            </WrappedTranslate>
-                                          </Translate>
-                                        </a>
-                                      </NavItem__Container>
-                                    </NavItem>
-                                  </li>
-                                </NavContent__NavLi>
-                                <NavContent__NavLi
-                                  key="Blogs"
-                                >
-                                  <li
-                                    className="NavContent__NavLi-sc-1iay8fd-2 bvffaB"
-                                  >
-                                    <NavItem
-                                      isSelected={false}
-                                      page={
-                                        Object {
-                                          "cmpName": "blogs",
-                                          "name": "Blogs",
-                                          "url": "/blogs",
-                                        }
-                                      }
-                                      setSelectedPage={[Function]}
-                                    >
-                                      <NavItem__Container
-                                        data-test-id="nav-link"
-                                        href="/blogs"
-                                        onClick={[Function]}
-                                      >
-                                        <a
-                                          className="NavItem__Container-sc-1cwb00j-0 gUrgyM"
-                                          data-test-id="nav-link"
-                                          href="/blogs"
-                                          onClick={[Function]}
-                                        >
-                                          <Translate
-                                            id="Blogs"
-                                          >
-                                            <WrappedTranslate
-                                              context={
-                                                Object {
-                                                  "activeLanguage": undefined,
-                                                  "addTranslation": [Function],
-                                                  "addTranslationForLanguage": [Function],
-                                                  "defaultLanguage": undefined,
-                                                  "ignoreTranslateChildren": false,
-                                                  "initialize": [Function],
-                                                  "languages": Array [],
-                                                  "renderToStaticMarkup": false,
-                                                  "setActiveLanguage": [Function],
-                                                  "translate": [Function],
+                                              <WrappedTranslate
+                                                context={
+                                                  Object {
+                                                    "activeLanguage": undefined,
+                                                    "addTranslation": [Function],
+                                                    "addTranslationForLanguage": [Function],
+                                                    "defaultLanguage": undefined,
+                                                    "ignoreTranslateChildren": false,
+                                                    "initialize": [Function],
+                                                    "languages": Array [],
+                                                    "renderToStaticMarkup": false,
+                                                    "setActiveLanguage": [Function],
+                                                    "translate": [Function],
+                                                  }
                                                 }
-                                              }
-                                              id="Blogs"
-                                            >
-                                              Missing translationId: Blogs for language: \${ languageCode }
-                                            </WrappedTranslate>
-                                          </Translate>
-                                        </a>
-                                      </NavItem__Container>
-                                    </NavItem>
-                                  </li>
-                                </NavContent__NavLi>
-                              </ul>
+                                                id="Contacts"
+                                              >
+                                                Missing translationId: Contacts for language: \${ languageCode }
+                                              </WrappedTranslate>
+                                            </Translate>
+                                          </a>
+                                        </NavItem__Container>
+                                      </NavItem>
+                                    </li>
+                                  </NavContent__NavLi>
+                                </ul>
+                              </NavContent__NavUl>
                             </nav>
                           </NavContent__NavMenu>
                         </div>

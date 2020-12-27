@@ -168,7 +168,7 @@ exports[`Nav Header should render when not show NavContent 1`] = `
                       onClick={[Function]}
                     >
                       <div
-                        className="NavHeader__NavControl-sc-1iyu030-1 hqaxLs"
+                        className="NavHeader__NavControl-sc-1iyu030-1 feFtxH"
                         data-test-id="switch-nav-content"
                         onClick={[Function]}
                       >
@@ -413,7 +413,7 @@ exports[`Nav Header should render when show NavContent 1`] = `
                       onClick={[Function]}
                     >
                       <div
-                        className="NavHeader__NavControl-sc-1iyu030-1 hqaxLs"
+                        className="NavHeader__NavControl-sc-1iyu030-1 feFtxH"
                         data-test-id="switch-nav-content"
                         onClick={[Function]}
                       >
