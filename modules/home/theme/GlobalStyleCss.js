@@ -45,6 +45,7 @@ const GlobalStyleCss = ({ theme }) => {
           url('/fonts/ip/font/ip.svg') format('svg');
         font-weight: normal;
         font-style: normal;
+        font-display: swap;
       }
 
       html,
