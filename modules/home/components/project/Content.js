@@ -14,5 +14,5 @@ Content.propTypes = {
 export default Content
 
 const NoPaddingContainer = styled(Container)`
-  padding: 0;
+  padding: 0 !important;
 `

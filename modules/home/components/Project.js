@@ -51,7 +51,7 @@ const Project = () => {
       <Content>
         <Gallery
           photos={photos}
-          direction={width <= 768 ? 'column' : 'row'}
+          direction={width < 768 ? 'column' : 'row'}
           renderImage={imageRenderer}
         />
         <ModalGateway>
