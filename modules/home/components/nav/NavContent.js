@@ -44,12 +44,12 @@ const NavContent = ({ isShowNavContent }) => {
           <Col lg={2}>
             <NavLogo />
           </Col>
-          <Col fluid="true">
+          <MobileCol fluid="true">
             <NavMenu>
               <NavUl>
                 {PAGE_LIST.map(
                   page =>
-                    page.isShowOnMobile && (
+                    (width > 768 || page.isShowOnMobile) && (
                       <NavLi key={page.name}>
                         <NavItem
                           page={page}
@@ -62,7 +62,7 @@ const NavContent = ({ isShowNavContent }) => {
                 )}
               </NavUl>
             </NavMenu>
-          </Col>
+          </MobileCol>
         </Row>
       </MobileContainer>
     </NavContainer>
@@ -97,6 +97,11 @@ const NavContainer = styled.div`
     border-top: 1px solid ${props => props.theme.colors.colorAccent};
   }
 `
+const MobileCol = styled(Col)`
+  @media screen and (max-width: 768px) {
+    padding: 0 !important;
+  }
+`
 const NavMenu = styled.nav`
   text-align: right;
 
@@ -117,7 +122,7 @@ const NavLi = styled.li`
 
   @media screen and (max-width: 768px) {
     display: flex;
-    margin: 16px;
+    margin: 8px;
     font-size: 13px;
   }
 `
