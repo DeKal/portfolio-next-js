@@ -29,7 +29,6 @@ const NavContent = ({ isShowNavContent }) => {
      * Currently safari doesnt support smooth scrolling with scroll-behavior
      * This is a workaround by jquery for the case in Safari
      */
-    console.log(isSafari())
     if (isSafari()) {
       setJqueryScrollEvent()
     }
