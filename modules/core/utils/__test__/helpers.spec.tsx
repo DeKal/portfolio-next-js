@@ -15,14 +15,14 @@ describe('helpers test', () => {
 
     it('should return true with chrome', function() {
       userAgentGetter.mockReturnValue(
-        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36'
+        'mozilla/5.0 (linux; android 6.0.1; moto g (4)) applewebkit/537.36 (khtml, like gecko) chrome/87.0.4280.88 mobile safari/537.36'
       )
       expect(isSafari()).toBe(false)
     })
 
     it('should return false with safari', function() {
       userAgentGetter.mockReturnValue(
-        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0 Safari/605.1.15'
+        'mozilla/5.0 (iphone; cpu iphone os 13_2_3 like mac os x) applewebkit/605.1.15 (khtml, like gecko) version/13.0.3 mobile/15e148 safari/604.1'
       )
       expect(isSafari()).toBe(true)
     })

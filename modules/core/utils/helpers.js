@@ -18,14 +18,7 @@ export const initHashLocation = () => {
 
 export const isSafari = () => {
   var userAgent = navigator.userAgent.toLowerCase()
-  if (userAgent.indexOf('safari') != -1) {
-    // Safari agent will not have Chrome
-    if (userAgent.indexOf('chrome') > -1) {
-      return false
-    } else {
-      return true
-    }
-  }
+  return /^((?!chrome|android).)*safari/i.test(userAgent)
 }
 
 /* istanbul ignore next */
@@ -42,7 +35,7 @@ export const setJqueryScrollEvent = () => {
         {
           scrollTop: $(hash).offset().top
         },
-        400,
+        200,
         function() {
           // Add hash (#) to URL when done scrolling (default click behavior)
           window.location.hash = hash
