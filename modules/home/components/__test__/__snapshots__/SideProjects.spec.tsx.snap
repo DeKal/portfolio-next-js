@@ -119,7 +119,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                       className="ExpIcon-sc-2nr1xu-0 bHORkU"
                                       name="workexp"
                                     >
-                                      <div
+                                      <span
                                         className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-sc-2nr1xu-0 bHORkU"
                                         name="workexp"
                                       />
@@ -313,7 +313,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                       className="ExpIcon-sc-2nr1xu-0 bHORkU"
                                       name="workexp"
                                     >
-                                      <div
+                                      <span
                                         className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-sc-2nr1xu-0 bHORkU"
                                         name="workexp"
                                       />
@@ -525,7 +525,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                       className="ExpIcon-sc-2nr1xu-0 bHORkU"
                                       name="workexp"
                                     >
-                                      <div
+                                      <span
                                         className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-sc-2nr1xu-0 bHORkU"
                                         name="workexp"
                                       />
@@ -719,7 +719,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                       className="ExpIcon-sc-2nr1xu-0 bHORkU"
                                       name="workexp"
                                     >
-                                      <div
+                                      <span
                                         className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-sc-2nr1xu-0 bHORkU"
                                         name="workexp"
                                       />
@@ -931,7 +931,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                       className="ExpIcon-sc-2nr1xu-0 bHORkU"
                                       name="workexp"
                                     >
-                                      <div
+                                      <span
                                         className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-sc-2nr1xu-0 bHORkU"
                                         name="workexp"
                                       />
@@ -1125,7 +1125,7 @@ exports[`SideProjects should render without throwing an error 1`] = `
                                       className="ExpIcon-sc-2nr1xu-0 bHORkU"
                                       name="workexp"
                                     >
-                                      <div
+                                      <span
                                         className="Icon__Symbol-sc-6mj7rl-0 hBwWez ExpIcon-sc-2nr1xu-0 bHORkU"
                                         name="workexp"
                                       />
