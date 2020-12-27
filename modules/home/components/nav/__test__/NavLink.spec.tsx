@@ -7,10 +7,10 @@ import useWindowDimensions from '~/modules/core/utils/useWindowDimensions'
 jest.mock('~/modules/core/utils/useWindowDimensions')
 
 describe('Nav Link', () => {
-  describe('Big Device >= 700px', () => {
+  describe('Big Device >= 768px', () => {
     beforeEach(() => {
       useWindowDimensions.mockReturnValue({
-        width: 700
+        width: 768
       })
     })
 

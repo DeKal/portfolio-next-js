@@ -16,7 +16,7 @@ const Footer = () => (
         <Col
           md={{ span: 4, offset: 4 }}
           xs={{ span: 4, offset: 4 }}
-          className="d-flex justify-content-end"
+          className="d-flex justify-content-end align-items-center"
         >
           <GitLogo
             href="https://github.com/DeKal/portfolio-next-js"
@@ -74,7 +74,6 @@ const Bold = styled.span`
 
 const GitLogo = styled.a`
   color: ${props => props.theme.colors.colorDark};
-  padding-top: 5px;
   border: none;
 
   &:hover {

@@ -4,7 +4,7 @@ const theme = {
   ...baseTheme,
   navHeaderHeight: '40px',
   navContentMinHeight: '80px',
-  footerHeight: '50px',
+  footerHeight: '58px',
   navHeightWhenScrollingOnMobile: '45px',
   navPosWhenHiding: '-220px',
   aboutMarginTop: '-200px',

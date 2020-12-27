@@ -56,8 +56,8 @@ const NavControl = styled.div`
   border: none;
   transition: color 0.5s;
 
-  @media screen and (max-width: 600px) {
-    margin-left: 0;
+  @media screen and (max-width: 768px) {
+    visibility: hidden;
   }
 
   &::before {

@@ -3,20 +3,25 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components/macro'
 import { Translate } from 'react-localize-redux'
 
-const NavItem = ({ page, isSelected, setSelectedPage }) => {
+const NavItem = ({
+  page: { Icon, name, url },
+  isSelected,
+  isMobile,
+  setSelectedPage
+}) => {
   return isSelected ? (
     <SelectedContainer>
-      <Translate id={page.name} />
+      {isMobile ? Icon : <Translate id={name} />}
     </SelectedContainer>
   ) : (
     <Container
       data-test-id="nav-link"
-      href={page.url}
+      href={url}
       onClick={() => {
-        setSelectedPage(page.name)
+        setSelectedPage(name)
       }}
     >
-      <Translate id={page.name} />
+      {isMobile ? Icon : <Translate id={name} />}
     </Container>
   )
 }
@@ -24,8 +29,10 @@ const NavItem = ({ page, isSelected, setSelectedPage }) => {
 NavItem.propTypes = {
   page: PropTypes.shape({
     url: PropTypes.string,
-    name: PropTypes.string
+    name: PropTypes.string,
+    Icon: PropTypes.element
   }),
+  isMobile: PropTypes.bool,
   isSelected: PropTypes.bool,
   setSelectedPage: PropTypes.func
 }
@@ -42,9 +49,10 @@ const Container = styled.a`
     border: none;
   }
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 768px) {
     line-height: 2;
     border-bottom: none;
+    font-size: 13px;
   }
 `
 const SelectedContainer = styled(Container)`
