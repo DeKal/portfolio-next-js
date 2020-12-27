@@ -4,13 +4,13 @@ exports[`Project should render without throwing an error 1`] = `
 <Project>
   <Container__StyleContainer>
     <Container
-      className="Container__StyleContainer-sc-1lxo144-0 jvJFla"
+      className="Container__StyleContainer-sc-1lxo144-0 VmhQa"
     >
       <Container__Style
-        className="Container__StyleContainer-sc-1lxo144-0 jvJFla"
+        className="Container__StyleContainer-sc-1lxo144-0 VmhQa"
       >
         <section
-          className="Container__Style-sc-3utn0w-0 fovYsq Container__StyleContainer-sc-1lxo144-0 jvJFla"
+          className="Container__Style-sc-3utn0w-0 fovYsq Container__StyleContainer-sc-1lxo144-0 VmhQa"
         >
           <Anchor
             id="Projects"

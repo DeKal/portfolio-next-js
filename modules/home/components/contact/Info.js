@@ -45,9 +45,8 @@ const Name = styled.h4`
   margin-bottom: 10px;
   font-weight: bold;
 `
-const Paragraph = styled.div`
+const Paragraph = styled.p`
   margin-bottom: 10px;
-  font-size: 18px;
   line-height: 1.5;
 
   &::before {
@@ -61,7 +60,9 @@ const Paragraph = styled.div`
 `
 const Role = styled(Paragraph)``
 
-const Location = styled(Paragraph)``
+const Location = styled(Paragraph)`
+  white-space: nowrap;
+`
 
 const Email = styled(Paragraph)``
 
@@ -79,7 +80,7 @@ const Underline = styled.a`
   vertical-align: top;
 `
 const LocationIcon = styled(Icon)`
-  padding-right: 15px;
+  padding-right: 14px;
 `
 const EmailIcon = styled(Icon)`
   padding-right: 8px;

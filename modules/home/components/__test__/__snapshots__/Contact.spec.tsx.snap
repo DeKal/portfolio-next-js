@@ -202,8 +202,8 @@ exports[`Footer should render without throwing an error 1`] = `
                                     </h4>
                                   </Info__Name>
                                   <Info__Role>
-                                    <div
-                                      className="Info__Paragraph-sc-1c7fwcl-2 Info__Role-sc-1c7fwcl-3 iDHjq"
+                                    <p
+                                      className="Info__Paragraph-sc-1c7fwcl-2 Info__Role-sc-1c7fwcl-3 fUMLJJ"
                                     >
                                       <Translate
                                         id="Contact: Info Role"
@@ -228,25 +228,25 @@ exports[`Footer should render without throwing an error 1`] = `
                                           Missing translationId: Contact: Info Role for language: \${ languageCode }
                                         </WrappedTranslate>
                                       </Translate>
-                                    </div>
+                                    </p>
                                   </Info__Role>
                                   <Info__Location>
-                                    <div
-                                      className="Info__Paragraph-sc-1c7fwcl-2 Info__Location-sc-1c7fwcl-4 jpwgZE"
+                                    <p
+                                      className="Info__Paragraph-sc-1c7fwcl-2 Info__Location-sc-1c7fwcl-4 hjPzmB"
                                     >
                                       <Info__LocationIcon
                                         name="location"
                                       >
                                         <Icon
-                                          className="Info__LocationIcon-sc-1c7fwcl-11 fMZoek"
+                                          className="Info__LocationIcon-sc-1c7fwcl-11 lfQChV"
                                           name="location"
                                         >
                                           <Icon__Symbol
-                                            className="Info__LocationIcon-sc-1c7fwcl-11 fMZoek"
+                                            className="Info__LocationIcon-sc-1c7fwcl-11 lfQChV"
                                             name="location"
                                           >
                                             <div
-                                              className="Icon__Symbol-sc-6mj7rl-0 iupPwJ Info__LocationIcon-sc-1c7fwcl-11 fMZoek"
+                                              className="Icon__Symbol-sc-6mj7rl-0 iupPwJ Info__LocationIcon-sc-1c7fwcl-11 lfQChV"
                                               name="location"
                                             />
                                           </Icon__Symbol>
@@ -320,11 +320,11 @@ exports[`Footer should render without throwing an error 1`] = `
                                           </Info__Address>
                                         </a>
                                       </Info__Underline>
-                                    </div>
+                                    </p>
                                   </Info__Location>
                                   <Info__Email>
-                                    <div
-                                      className="Info__Paragraph-sc-1c7fwcl-2 Info__Email-sc-1c7fwcl-5 eeYNSQ"
+                                    <p
+                                      className="Info__Paragraph-sc-1c7fwcl-2 Info__Email-sc-1c7fwcl-5 arsDT"
                                     >
                                       <Info__EmailIcon
                                         name="mail"
@@ -351,11 +351,11 @@ exports[`Footer should render without throwing an error 1`] = `
                                           hohuuphat22@gmail.com
                                         </a>
                                       </Info__Underline>
-                                    </div>
+                                    </p>
                                   </Info__Email>
                                   <Info__Phone>
-                                    <div
-                                      className="Info__Paragraph-sc-1c7fwcl-2 Info__Phone-sc-1c7fwcl-6 juJfOj"
+                                    <p
+                                      className="Info__Paragraph-sc-1c7fwcl-2 Info__Phone-sc-1c7fwcl-6 fmLSHU"
                                     >
                                       <Info__PhoneIcon
                                         name="phone"
@@ -382,7 +382,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                           +84 906323761
                                         </a>
                                       </Info__Underline>
-                                    </div>
+                                    </p>
                                   </Info__Phone>
                                 </div>
                               </Info__Container>
