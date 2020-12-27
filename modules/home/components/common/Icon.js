@@ -16,7 +16,7 @@ Icon.propTypes = {
 
 export default Icon
 
-const Symbol = styled.div`
+const Symbol = styled.span`
   display: inline-block;
 
   &::before {

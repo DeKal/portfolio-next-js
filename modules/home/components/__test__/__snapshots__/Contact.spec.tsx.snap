@@ -245,7 +245,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                             className="Info__LocationIcon-sc-1c7fwcl-11 lfQChV"
                                             name="location"
                                           >
-                                            <div
+                                            <span
                                               className="Icon__Symbol-sc-6mj7rl-0 iupPwJ Info__LocationIcon-sc-1c7fwcl-11 lfQChV"
                                               name="location"
                                             />
@@ -337,7 +337,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                             className="Info__EmailIcon-sc-1c7fwcl-12 ZEwqu"
                                             name="mail"
                                           >
-                                            <div
+                                            <span
                                               className="Icon__Symbol-sc-6mj7rl-0 ksJtXj Info__EmailIcon-sc-1c7fwcl-12 ZEwqu"
                                               name="mail"
                                             />
@@ -368,7 +368,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                             className="Info__PhoneIcon-sc-1c7fwcl-13 jHKmUe"
                                             name="phone"
                                           >
-                                            <div
+                                            <span
                                               className="Icon__Symbol-sc-6mj7rl-0 hqtnvj Info__PhoneIcon-sc-1c7fwcl-13 jHKmUe"
                                               name="phone"
                                             />
@@ -412,7 +412,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                             className="Socials__IconWrapper-sc-1g7e2kk-2 cYpKxd"
                                             name="fb"
                                           >
-                                            <div
+                                            <span
                                               className="Icon__Symbol-sc-6mj7rl-0 dgmAAL Socials__IconWrapper-sc-1g7e2kk-2 cYpKxd"
                                               name="fb"
                                             />
@@ -441,7 +441,7 @@ exports[`Footer should render without throwing an error 1`] = `
                                             className="Socials__IconWrapper-sc-1g7e2kk-2 cYpKxd"
                                             name="linkedin"
                                           >
-                                            <div
+                                            <span
                                               className="Icon__Symbol-sc-6mj7rl-0 pacIb Socials__IconWrapper-sc-1g7e2kk-2 cYpKxd"
                                               name="linkedin"
                                             />

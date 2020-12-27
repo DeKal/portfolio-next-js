@@ -126,7 +126,7 @@ exports[`Footer should render without throwing an error 1`] = `
                           className="GoTop__GoTopIcon-sc-137nslr-1 karrwN"
                           name="goTop"
                         >
-                          <div
+                          <span
                             className="Icon__Symbol-sc-6mj7rl-0 bhSWal GoTop__GoTopIcon-sc-137nslr-1 karrwN"
                             name="goTop"
                           />
