@@ -8,7 +8,7 @@ const CardInfo = () => {
   return (
     <Container>
       <p>
-        {width < 768 ? (
+        {width <= 768 ? (
           <Translate id="About me: Card Info Mobile Verse 1" />
         ) : (
           <Translate id="About me: Card Info Verse 1" />

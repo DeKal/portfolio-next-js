@@ -39,7 +39,7 @@ const NavContent = ({ isShowNavContent }) => {
         cleanUpScrollEvent()
       }
     }
-  })
+  }, [])
 
   return (
     <NavContainer isShowNavContent={isShowNavContent}>
@@ -57,7 +57,7 @@ const NavContent = ({ isShowNavContent }) => {
                       <NavLi key={page.name}>
                         <NavItem
                           page={page}
-                          isMobile={width < 768}
+                          isMobile={width <= 768}
                           isSelected={selectedPage === page.cmpName}
                           setSelectedPage={setSelectedPage}
                         />
