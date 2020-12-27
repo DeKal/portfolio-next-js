@@ -82,11 +82,11 @@ exports[`Project should render without throwing an error 1`] = `
           <Content>
             <Content__NoPaddingContainer>
               <Container
-                className="Content__NoPaddingContainer-sc-1sx6qta-0 NgcQg"
+                className="Content__NoPaddingContainer-sc-1sx6qta-0 jOFAtT"
                 fluid={false}
               >
                 <div
-                  className="Content__NoPaddingContainer-sc-1sx6qta-0 NgcQg container"
+                  className="Content__NoPaddingContainer-sc-1sx6qta-0 jOFAtT container"
                 >
                   <Gallery
                     direction="row"
