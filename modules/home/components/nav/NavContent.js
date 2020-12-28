@@ -126,7 +126,7 @@ const NavLi = styled.li`
 
   @media screen and (max-width: 768px) {
     display: flex;
-    margin: 8px;
+    margin: 12px;
     font-size: 13px;
   }
 `

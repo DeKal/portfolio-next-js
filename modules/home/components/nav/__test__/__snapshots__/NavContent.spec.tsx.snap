@@ -73,7 +73,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                 key="Home"
                               >
                                 <li
-                                  className="NavContent__NavLi-sc-1iay8fd-4 iefYNl"
+                                  className="NavContent__NavLi-sc-1iay8fd-4 kxPFKS"
                                 >
                                   <NavItem
                                     isMobile={false}
@@ -81,7 +81,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                     page={
                                       Object {
                                         "Icon": <FaHome
-                                          size="22px"
+                                          size="23px"
                                         />,
                                         "cmpName": "Home",
                                         "isShowOnMobile": true,
@@ -134,7 +134,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                 key="Experiences"
                               >
                                 <li
-                                  className="NavContent__NavLi-sc-1iay8fd-4 iefYNl"
+                                  className="NavContent__NavLi-sc-1iay8fd-4 kxPFKS"
                                 >
                                   <NavItem
                                     isMobile={false}
@@ -142,7 +142,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                     page={
                                       Object {
                                         "Icon": <FaBriefcase
-                                          size="22px"
+                                          size="23px"
                                         />,
                                         "cmpName": "Experiences",
                                         "isShowOnMobile": true,
@@ -195,7 +195,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                 key="Projects"
                               >
                                 <li
-                                  className="NavContent__NavLi-sc-1iay8fd-4 iefYNl"
+                                  className="NavContent__NavLi-sc-1iay8fd-4 kxPFKS"
                                 >
                                   <NavItem
                                     isMobile={false}
@@ -203,7 +203,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                     page={
                                       Object {
                                         "Icon": <FaCode
-                                          size="22px"
+                                          size="23px"
                                         />,
                                         "cmpName": "Projects",
                                         "isShowOnMobile": true,
@@ -256,7 +256,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                 key="Certifications"
                               >
                                 <li
-                                  className="NavContent__NavLi-sc-1iay8fd-4 iefYNl"
+                                  className="NavContent__NavLi-sc-1iay8fd-4 kxPFKS"
                                 >
                                   <NavItem
                                     isMobile={false}
@@ -264,7 +264,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                     page={
                                       Object {
                                         "Icon": <FaMedal
-                                          size="22px"
+                                          size="23px"
                                         />,
                                         "cmpName": "Certifications",
                                         "isShowOnMobile": true,
@@ -317,7 +317,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                 key="Contacts"
                               >
                                 <li
-                                  className="NavContent__NavLi-sc-1iay8fd-4 iefYNl"
+                                  className="NavContent__NavLi-sc-1iay8fd-4 kxPFKS"
                                 >
                                   <NavItem
                                     isMobile={false}
@@ -325,7 +325,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                     page={
                                       Object {
                                         "Icon": <FaAddressBook
-                                          size="22px"
+                                          size="23px"
                                         />,
                                         "cmpName": "Contacts",
                                         "isShowOnMobile": true,
@@ -378,7 +378,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                                 key="Blogs"
                               >
                                 <li
-                                  className="NavContent__NavLi-sc-1iay8fd-4 iefYNl"
+                                  className="NavContent__NavLi-sc-1iay8fd-4 kxPFKS"
                                 >
                                   <NavItem
                                     isMobile={false}
@@ -522,7 +522,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                 key="Home"
                               >
                                 <li
-                                  className="NavContent__NavLi-sc-1iay8fd-4 iefYNl"
+                                  className="NavContent__NavLi-sc-1iay8fd-4 kxPFKS"
                                 >
                                   <NavItem
                                     isMobile={false}
@@ -530,7 +530,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                     page={
                                       Object {
                                         "Icon": <FaHome
-                                          size="22px"
+                                          size="23px"
                                         />,
                                         "cmpName": "Home",
                                         "isShowOnMobile": true,
@@ -583,7 +583,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                 key="Experiences"
                               >
                                 <li
-                                  className="NavContent__NavLi-sc-1iay8fd-4 iefYNl"
+                                  className="NavContent__NavLi-sc-1iay8fd-4 kxPFKS"
                                 >
                                   <NavItem
                                     isMobile={false}
@@ -591,7 +591,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                     page={
                                       Object {
                                         "Icon": <FaBriefcase
-                                          size="22px"
+                                          size="23px"
                                         />,
                                         "cmpName": "Experiences",
                                         "isShowOnMobile": true,
@@ -644,7 +644,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                 key="Projects"
                               >
                                 <li
-                                  className="NavContent__NavLi-sc-1iay8fd-4 iefYNl"
+                                  className="NavContent__NavLi-sc-1iay8fd-4 kxPFKS"
                                 >
                                   <NavItem
                                     isMobile={false}
@@ -652,7 +652,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                     page={
                                       Object {
                                         "Icon": <FaCode
-                                          size="22px"
+                                          size="23px"
                                         />,
                                         "cmpName": "Projects",
                                         "isShowOnMobile": true,
@@ -705,7 +705,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                 key="Certifications"
                               >
                                 <li
-                                  className="NavContent__NavLi-sc-1iay8fd-4 iefYNl"
+                                  className="NavContent__NavLi-sc-1iay8fd-4 kxPFKS"
                                 >
                                   <NavItem
                                     isMobile={false}
@@ -713,7 +713,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                     page={
                                       Object {
                                         "Icon": <FaMedal
-                                          size="22px"
+                                          size="23px"
                                         />,
                                         "cmpName": "Certifications",
                                         "isShowOnMobile": true,
@@ -766,7 +766,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                 key="Contacts"
                               >
                                 <li
-                                  className="NavContent__NavLi-sc-1iay8fd-4 iefYNl"
+                                  className="NavContent__NavLi-sc-1iay8fd-4 kxPFKS"
                                 >
                                   <NavItem
                                     isMobile={false}
@@ -774,7 +774,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                     page={
                                       Object {
                                         "Icon": <FaAddressBook
-                                          size="22px"
+                                          size="23px"
                                         />,
                                         "cmpName": "Contacts",
                                         "isShowOnMobile": true,
@@ -827,7 +827,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                                 key="Blogs"
                               >
                                 <li
-                                  className="NavContent__NavLi-sc-1iay8fd-4 iefYNl"
+                                  className="NavContent__NavLi-sc-1iay8fd-4 kxPFKS"
                                 >
                                   <NavItem
                                     isMobile={false}
@@ -923,7 +923,7 @@ exports[`Nav Content should render without throwing an error 1`] = `
                 page={
                   Object {
                     "Icon": <FaHome
-                      size="22px"
+                      size="23px"
                     />,
                     "cmpName": "Home",
                     "isShowOnMobile": true,
@@ -943,7 +943,7 @@ exports[`Nav Content should render without throwing an error 1`] = `
                 page={
                   Object {
                     "Icon": <FaBriefcase
-                      size="22px"
+                      size="23px"
                     />,
                     "cmpName": "Experiences",
                     "isShowOnMobile": true,
@@ -963,7 +963,7 @@ exports[`Nav Content should render without throwing an error 1`] = `
                 page={
                   Object {
                     "Icon": <FaCode
-                      size="22px"
+                      size="23px"
                     />,
                     "cmpName": "Projects",
                     "isShowOnMobile": true,
@@ -983,7 +983,7 @@ exports[`Nav Content should render without throwing an error 1`] = `
                 page={
                   Object {
                     "Icon": <FaMedal
-                      size="22px"
+                      size="23px"
                     />,
                     "cmpName": "Certifications",
                     "isShowOnMobile": true,
@@ -1003,7 +1003,7 @@ exports[`Nav Content should render without throwing an error 1`] = `
                 page={
                   Object {
                     "Icon": <FaAddressBook
-                      size="22px"
+                      size="23px"
                     />,
                     "cmpName": "Contacts",
                     "isShowOnMobile": true,
