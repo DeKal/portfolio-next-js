@@ -43,8 +43,9 @@ class MyDocument extends Document {
           />
           <meta name="robots" content="index,follow" />
           <meta name="googlebot" content="index,follow" />
-
+          <meta name="theme-color" content="#ffffff" />
           <link rel="icon" href="/favicon.ico" />
+          <link rel="apple-touch-icon" href="/icons/Icon-64.png" />
           <link
             rel="preload"
             href="fonts/ip/font/ip.woff"
