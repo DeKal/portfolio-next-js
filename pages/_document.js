@@ -16,8 +16,10 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link rel="icon" href="/favicon.ico" />
-          <link rel="canonical" href="https://phatho-folio.now.sh/" />
+          <meta
+            name="viewport"
+            content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+          />
           <meta property="og:title" content="DeKal | Portfolio" />
           <meta property="og:type" content="website" />
           <meta
@@ -40,14 +42,30 @@ class MyDocument extends Document {
             content="ofwBFRuFL3aycSJjDcrhc8hWEPKuJ7LkNCLUrsB0Sj4"
           />
           <meta name="robots" content="index,follow" />
-
           <meta name="googlebot" content="index,follow" />
+
+          <link rel="icon" href="/favicon.ico" />
           <link
             rel="preload"
             href="fonts/ip/font/ip.woff"
             as="font"
             crossOrigin=""
           />
+          <link
+            href="/icons/Icon-32.png"
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+          />
+          <link
+            href="/icons/Icon-64.png"
+            rel="icon"
+            type="image/png"
+            sizes="64x64"
+          />
+
+          <link rel="canonical" href="https://phatho-folio.now.sh/" />
+          <link rel="manifest" href="/manifest.json" />
 
           <script
             async

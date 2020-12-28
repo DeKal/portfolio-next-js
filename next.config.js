@@ -1,5 +1,7 @@
 const withPlugins = require('next-compose-plugins')
 const withCSS = require('@zeit/next-css')
+const withPWA = require('next-pwa')
+const runtimeCaching = require('next-pwa/cache')
 
 module.exports = withPlugins([
   [
@@ -12,6 +14,15 @@ module.exports = withPlugins([
         localIdentName: '[local]'
       },
       exportTrailingSlash: true
+    }
+  ],
+  [
+    withPWA,
+    {
+      pwa: {
+        dest: 'public',
+        runtimeCaching
+      }
     }
   ]
 ])
