@@ -13,7 +13,7 @@ module.exports = withPlugins([
         importLoaders: 1,
         localIdentName: '[local]'
       },
-      exportTrailingSlash: true
+      assetPrefix: '.'
     }
   ],
   [
