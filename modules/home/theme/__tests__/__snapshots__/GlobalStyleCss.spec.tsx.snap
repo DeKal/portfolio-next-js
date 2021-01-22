@@ -57,6 +57,7 @@ exports[`GlobalStyleCss should render defaultTheme without throwing an error 1`]
         "backgroundMobile": "/images/bg-mobile.webp",
         "bgPattern": "/images/bg-pattern.webp",
         "bgPatternOpacity": "1",
+        "bgSize": "100px 100px",
         "overlay": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC",
         "overlayBgColor": "rgba(44, 62, 80, 0.4)",
         "overlayBgColorMobile": "rgba(44, 62, 80, 0.3)",
@@ -102,7 +103,7 @@ exports[`GlobalStyleCss should render defaultTheme without throwing an error 1`]
         opacity: 1;
         z-index: -1;
         background: #fff url(/images/bg-pattern.webp);
-        background-size: 600px 600px;
+        background-size: 100px 100px;
       }
       *:selection {
         color: #f3f6f6;
@@ -434,6 +435,7 @@ exports[`GlobalStyleCss should render newyearTheme without throwing an error 1`]
         "backgroundMobile": "/images/bg-mobile.webp",
         "bgPattern": "/images/newyear/bg-pattern.webp",
         "bgPatternOpacity": "0.3",
+        "bgSize": "400px 265px",
         "overlay": "",
         "overlayBgColor": "rgba(44, 62, 80, 0.3)",
       },
@@ -479,7 +481,7 @@ exports[`GlobalStyleCss should render newyearTheme without throwing an error 1`]
         opacity: 0.3;
         z-index: -1;
         background: #fff url(/images/newyear/bg-pattern.webp);
-        background-size: 600px 600px;
+        background-size: 400px 265px;
       }
       *:selection {
         color: #f3f6f6;
@@ -811,6 +813,7 @@ exports[`GlobalStyleCss should render xmasTheme without throwing an error 1`] = 
         "backgroundMobile": "/images/bg-mobile.webp",
         "bgPattern": "/images/christmas/bg-pattern-snow.webp",
         "bgPatternOpacity": "0.25",
+        "bgSize": "450px 450px",
         "overlay": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC",
         "overlayBgColor": "rgba(44, 62, 80, 0.3)",
       },
@@ -855,7 +858,7 @@ exports[`GlobalStyleCss should render xmasTheme without throwing an error 1`] = 
         opacity: 0.25;
         z-index: -1;
         background: #fff url(/images/christmas/bg-pattern-snow.webp);
-        background-size: 600px 600px;
+        background-size: 450px 450px;
       }
       *:selection {
         color: #f3f6f6;

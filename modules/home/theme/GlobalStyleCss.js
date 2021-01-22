@@ -25,7 +25,7 @@ const GlobalStyleCss = ({ theme }) => {
         opacity: ${theme.images.bgPatternOpacity};
         z-index: -1;
         background: ${theme.colors.bgColor} url(${theme.images.bgPattern});
-        background-size: 600px 600px;
+        background-size: ${theme.images.bgSize};
       }
       *:selection {
         color: ${theme.colors.colorLight};
