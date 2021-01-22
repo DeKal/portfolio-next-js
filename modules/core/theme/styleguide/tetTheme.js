@@ -15,6 +15,7 @@ const theme = {
     background: '/images/tet/bg-tet.webp',
     backgroundMobile: '/images/bg-mobile.webp',
     bgPattern: '/images/tet/bg-pattern.webp',
+    bgSize: '400px 265px',
     bgPatternOpacity: '0.1',
     overlayBgColor: '',
     overlay: ''

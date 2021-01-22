@@ -23,6 +23,7 @@ const theme = {
     background: '/images/bg.webp',
     backgroundMobile: '/images/bg-mobile.webp',
     bgPattern: '/images/bg-pattern.webp',
+    bgSize: '100px 100px',
     bgPatternOpacity: '1',
     overlayBgColor: 'rgba(44, 62, 80, 0.4)',
     overlayBgColorMobile: 'rgba(44, 62, 80, 0.3)',
