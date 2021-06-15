@@ -99,7 +99,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                   contentStyle={
                     Object {
                       "background": "#f3f6f6",
-                      "borderTop": "4px solid  #FFA500",
+                      "borderTop": "4px solid  #FFA726",
                       "paddingLeft": 25,
                     }
                   }
@@ -120,7 +120,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                     Object {
                       "alignItems": "center",
                       "background": "#f8f8ff ",
-                      "boxShadow": "0 0 0 3px #FFA500, inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05)",
+                      "boxShadow": "0 0 0 3px #FFA726, inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05)",
                       "color": "black",
                       "display": "flex",
                       "justifyContent": "center",
@@ -144,7 +144,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                   contentStyle={
                     Object {
                       "background": "#f3f6f6",
-                      "borderTop": "4px solid  #FFA500",
+                      "borderTop": "4px solid  #FFA726",
                       "paddingLeft": 25,
                     }
                   }
@@ -165,7 +165,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                     Object {
                       "alignItems": "center",
                       "background": "#f8f8ff ",
-                      "boxShadow": "0 0 0 3px #FFA500, inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05)",
+                      "boxShadow": "0 0 0 3px #FFA726, inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05)",
                       "color": "black",
                       "display": "flex",
                       "justifyContent": "center",
@@ -189,7 +189,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                   contentStyle={
                     Object {
                       "background": "#f3f6f6",
-                      "borderTop": "4px solid  #FFA500",
+                      "borderTop": "4px solid  #FFA726",
                       "paddingLeft": 25,
                     }
                   }
@@ -210,7 +210,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                     Object {
                       "alignItems": "center",
                       "background": "#f8f8ff ",
-                      "boxShadow": "0 0 0 3px #FFA500, inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05)",
+                      "boxShadow": "0 0 0 3px #FFA726, inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05)",
                       "color": "black",
                       "display": "flex",
                       "justifyContent": "center",
@@ -234,7 +234,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                   contentStyle={
                     Object {
                       "background": "#f3f6f6",
-                      "borderTop": "4px solid  #FFA500",
+                      "borderTop": "4px solid  #FFA726",
                       "paddingLeft": 25,
                     }
                   }
@@ -255,7 +255,7 @@ exports[`Experiences should render without throwing an error 1`] = `
                     Object {
                       "alignItems": "center",
                       "background": "#f8f8ff ",
-                      "boxShadow": "0 0 0 3px #FFA500, inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05)",
+                      "boxShadow": "0 0 0 3px #FFA726, inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05)",
                       "color": "black",
                       "display": "flex",
                       "justifyContent": "center",
