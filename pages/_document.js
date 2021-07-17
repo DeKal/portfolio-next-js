@@ -44,6 +44,8 @@ class MyDocument extends Document {
           <meta name="robots" content="index,follow" />
           <meta name="googlebot" content="index,follow" />
           <meta name="theme-color" content="#ffffff" />
+          <title>DeKal Portfolio</title>
+          <meta name="description" content="Dekal's Portfolio and Blog" />
           <link rel="icon" href="/favicon.ico" />
           <link rel="apple-touch-icon" href="/icons/Icon-64.png" />
           <link
