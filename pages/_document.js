@@ -20,23 +20,29 @@ class MyDocument extends Document {
             name="viewport"
             content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
           />
-          <meta property="og:title" content="DeKal | Portfolio" />
+          <meta property="og:title" content="PhatHo Portfolio and Website" />
           <meta property="og:type" content="website" />
           <meta
             property="og:description"
-            content="Dekal's Portfolio and Blog"
+            content="Fullstack Software Engineer. 5+ years of algorithm background since high school. 5+ years of experience specializing in frontend/backend development"
           />
           <meta
             property="og:image"
-            content="https://phatho-folio.now.sh/images/cover-img.png"
+            content="https://phatho-dev.com/images/cover-img.png"
           />
           <meta
             property="og:image:secure_url"
-            content="https://phatho-folio.now.sh/images/cover-img.png"
+            content="https://phatho-dev.com/images/cover-img.png"
           />
-          <meta property="og:url" content="https://phatho-folio.now.sh/" />
-          <meta property="og:site_name" content="DeKal Portfolio" />
-          <meta property="og:image:alt" content="DeKal Portfolio" />
+          <meta property="og:url" content="https://phatho-dev.com" />
+          <meta
+            property="og:site_name"
+            content="PhatHo Portfolio and Website"
+          />
+          <meta
+            property="og:image:alt"
+            content="PhatHo Portfolio and Website"
+          />
           <meta
             name="google-site-verification"
             content="ofwBFRuFL3aycSJjDcrhc8hWEPKuJ7LkNCLUrsB0Sj4"
@@ -44,8 +50,16 @@ class MyDocument extends Document {
           <meta name="robots" content="index,follow" />
           <meta name="googlebot" content="index,follow" />
           <meta name="theme-color" content="#ffffff" />
-          <title>DeKal Portfolio</title>
-          <meta name="description" content="Dekal's Portfolio and Blog" />
+          <title>PhatHo Portfolio and Website</title>
+          <meta
+            name="description"
+            content="Fullstack Software Engineer. 5+ years of algorithm background since high school. 5+ years of experience specializing in frontend/backend development"
+          />
+          <meta
+            name="keywords"
+            content="portfolio, website, cv, experiences, jobs"
+          />
+          <meta name="author" content="Phat Ho" />
           <link rel="icon" href="/favicon.ico" />
           <link rel="apple-touch-icon" href="/icons/Icon-64.png" />
           <link
@@ -67,7 +81,7 @@ class MyDocument extends Document {
             sizes="64x64"
           />
 
-          <link rel="canonical" href="https://phatho-folio.now.sh/" />
+          <link rel="canonical" href="https://phatho-dev.com" />
           <link rel="manifest" href="/manifest.json" />
 
           <script
