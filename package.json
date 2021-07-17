@@ -60,7 +60,7 @@
     "lerna": "3.22.1",
     "next-compose-plugins": "2.2.1",
     "prettier": "1.19.1",
-    "stylelint": "13.9.0",
+    "stylelint": "13.13.1",
     "stylelint-config-standard": "20.0.0",
     "stylelint-processor-styled-components": "1.10.0",
     "ts-jest": "26.5.0",
