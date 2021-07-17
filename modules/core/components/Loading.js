@@ -4,6 +4,7 @@ import theme from '~/modules/core/theme/styleguide/theme'
 
 const Loading = () => (
   <div className="progress-theme">
+    <h1 className="normal-size">Phat Ho portfolio and website</h1>
     <div className="inner">
       <div className="loader">
         <ScaleLoader
@@ -13,11 +14,15 @@ const Loading = () => (
           color={theme.colors.colorAccent}
           loading
         />
+        <br />
         Loading...
       </div>
     </div>
 
     <style jsx>{`
+      .normal-size {
+        font-size: 14px;
+      }
       .progress-theme {
         -webkit-transition: all 0.2s ease-out;
         -moz-transition: all 0.2s ease-out;
