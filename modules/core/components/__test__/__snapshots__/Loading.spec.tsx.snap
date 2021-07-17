@@ -4,6 +4,11 @@ exports[`Loading should render without throwing an error 1`] = `
 <div
   className="progress-theme"
 >
+  <h1
+    className="normal-size"
+  >
+    Phat Ho portfolio and website
+  </h1>
   <div
     className="inner"
   >
@@ -20,11 +25,15 @@ exports[`Loading should render without throwing an error 1`] = `
         sizeUnit="px"
         width={15}
       />
+      <br />
       Loading...
     </div>
   </div>
   <style>
     
+      .normal-size {
+        font-size: 14px;
+      }
       .progress-theme {
         -webkit-transition: all 0.2s ease-out;
         -moz-transition: all 0.2s ease-out;

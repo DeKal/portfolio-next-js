@@ -50,14 +50,13 @@ class MyDocument extends Document {
           <meta name="robots" content="index,follow" />
           <meta name="googlebot" content="index,follow" />
           <meta name="theme-color" content="#ffffff" />
-          <title>PhatHo Portfolio and Website</title>
           <meta
             name="description"
             content="Fullstack Software Engineer. 5+ years of algorithm background since high school. 5+ years of experience specializing in frontend/backend development"
           />
           <meta
             name="keywords"
-            content="portfolio, website, cv, experiences, jobs"
+            content="portfolio, phatho, dekal, software engineer, freelancer, cv, work"
           />
           <meta name="author" content="Phat Ho" />
           <link rel="icon" href="/favicon.ico" />
