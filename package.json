@@ -21,7 +21,7 @@
     "jquery": "3.5.1",
     "next": "9.3.6",
     "next-pwa": "5.0.1",
-    "node-sass": "5.0.0",
+    "node-sass": "7.0.0",
     "react": "16.14.0",
     "react-bootstrap": "1.0.1",
     "react-dom": "16.14.0",
