@@ -19,7 +19,7 @@
     "axios": "0.21.1",
     "bootstrap": "4.6.0",
     "jquery": "3.5.1",
-    "next": "9.3.6",
+    "next": "13.3.0",
     "next-pwa": "5.0.1",
     "node-sass": "5.0.0",
     "react": "16.14.0",
