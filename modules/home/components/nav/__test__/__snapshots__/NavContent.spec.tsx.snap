@@ -42,7 +42,7 @@ exports[`Nav Content should render with isShowNavContent disable 1`] = `
                             <span
                               className="NavLogo__LogoText-sc-100re03-1 haQzGG"
                             >
-                              JD
+                              PH
                             </span>
                           </NavLogo__LogoText>
                         </a>
@@ -491,7 +491,7 @@ exports[`Nav Content should render with isShowNavContent enable 1`] = `
                             <span
                               className="NavLogo__LogoText-sc-100re03-1 haQzGG"
                             >
-                              JD
+                              PH
                             </span>
                           </NavLogo__LogoText>
                         </a>

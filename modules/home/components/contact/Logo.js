@@ -1,13 +1,13 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 
-const Logo = () => <Container>JD</Container>
+const Logo = () => <Container>☎️</Container>
 
 const Container = styled.div`
   display: inline-block;
   color: ${props => props.theme.colors.colorAccent};
-  font-size: 80px;
-  line-height: 60px;
+  font-size: 45px;
+  line-height: 45px;
   letter-spacing: -5px;
   font-family: ${props => props.theme.fonts.fontSans};
   font-weight: bold;

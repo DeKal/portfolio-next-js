@@ -118,6 +118,16 @@ exports[`Certification should render without throwing an error 1`] = `
                     key=".$4"
                     onClick={[Function]}
                   />
+                  <li
+                    className={null}
+                    key=".$5"
+                    onClick={[Function]}
+                  />
+                  <li
+                    className={null}
+                    key=".$6"
+                    onClick={[Function]}
+                  />
                 </ol>
                 <div
                   className="carousel-inner"
@@ -209,7 +219,7 @@ exports[`Certification should render without throwing an error 1`] = `
                                       </Title>
                                       <CertInfo__Text>
                                         <p
-                                          className="CertInfo__Text-sc-1xe9lwl-2 bdVSIt"
+                                          className="CertInfo__Text-sc-1xe9lwl-2 YFmXU"
                                         >
                                           <Translate
                                             id="CertContentBachelor"
@@ -264,12 +274,12 @@ exports[`Certification should render without throwing an error 1`] = `
                   >
                     <CertInfo
                       className=""
-                      content="CertContentComm"
-                      cover="/images/certs/communication.webp"
-                      coverMobile="/images/certs/communication-mobile.webp"
+                      content="AwsCloudPratitionerContent"
+                      cover="/images/certs/graduation.webp"
+                      coverMobile="/images/certs/graduation-mobile.webp"
                       id="cert-info-2"
                       key="1"
-                      title="CertCom"
+                      title="AwsCloudPratitioner"
                     >
                       <CarouselItem
                         className=""
@@ -278,6 +288,254 @@ exports[`Certification should render without throwing an error 1`] = `
                         <div
                           className="carousel-item"
                           id="cert-info-2"
+                        >
+                          <CertInfo__Container>
+                            <div
+                              className="CertInfo__Container-sc-1xe9lwl-0 cYCcNv"
+                            >
+                              <CertInfo__Image
+                                alt="AwsCloudPratitioner"
+                                className="d-block w-100 h-100"
+                                src="/images/certs/graduation.webp"
+                              >
+                                <img
+                                  alt="AwsCloudPratitioner"
+                                  className="CertInfo__Image-sc-1xe9lwl-1 bJqpNd d-block w-100 h-100"
+                                  src="/images/certs/graduation.webp"
+                                />
+                              </CertInfo__Image>
+                              <CarouselCaption>
+                                <div
+                                  className="carousel-caption"
+                                >
+                                  <Info>
+                                    <div
+                                      className="Info-kxijpf-0 FEWIS"
+                                    >
+                                      <Title>
+                                        <h4
+                                          className="Title-sdbbbt-0 fIZtgO"
+                                        >
+                                          <Translate
+                                            id="AwsCloudPratitioner"
+                                          >
+                                            <WrappedTranslate
+                                              context={
+                                                Object {
+                                                  "activeLanguage": undefined,
+                                                  "addTranslation": [Function],
+                                                  "addTranslationForLanguage": [Function],
+                                                  "defaultLanguage": undefined,
+                                                  "ignoreTranslateChildren": false,
+                                                  "initialize": [Function],
+                                                  "languages": Array [],
+                                                  "renderToStaticMarkup": false,
+                                                  "setActiveLanguage": [Function],
+                                                  "translate": [Function],
+                                                }
+                                              }
+                                              id="AwsCloudPratitioner"
+                                            >
+                                              Missing translationId: AwsCloudPratitioner for language: \${ languageCode }
+                                            </WrappedTranslate>
+                                          </Translate>
+                                        </h4>
+                                      </Title>
+                                      <CertInfo__Text>
+                                        <p
+                                          className="CertInfo__Text-sc-1xe9lwl-2 YFmXU"
+                                        >
+                                          <Translate
+                                            id="AwsCloudPratitionerContent"
+                                          >
+                                            <WrappedTranslate
+                                              context={
+                                                Object {
+                                                  "activeLanguage": undefined,
+                                                  "addTranslation": [Function],
+                                                  "addTranslationForLanguage": [Function],
+                                                  "defaultLanguage": undefined,
+                                                  "ignoreTranslateChildren": false,
+                                                  "initialize": [Function],
+                                                  "languages": Array [],
+                                                  "renderToStaticMarkup": false,
+                                                  "setActiveLanguage": [Function],
+                                                  "translate": [Function],
+                                                }
+                                              }
+                                              id="AwsCloudPratitionerContent"
+                                            >
+                                              Missing translationId: AwsCloudPratitionerContent for language: \${ languageCode }
+                                            </WrappedTranslate>
+                                          </Translate>
+                                        </p>
+                                      </CertInfo__Text>
+                                    </div>
+                                  </Info>
+                                </div>
+                              </CarouselCaption>
+                            </div>
+                          </CertInfo__Container>
+                        </div>
+                      </CarouselItem>
+                    </CertInfo>
+                  </Transition>
+                  <Transition
+                    addEndListener={[Function]}
+                    appear={false}
+                    enter={true}
+                    exit={true}
+                    in={false}
+                    key=".$2"
+                    mountOnEnter={false}
+                    onEnter={null}
+                    onEntered={null}
+                    onEntering={[Function]}
+                    onExit={[Function]}
+                    onExited={[Function]}
+                    onExiting={[Function]}
+                    unmountOnExit={false}
+                  >
+                    <CertInfo
+                      className=""
+                      content="AwsSolutionArchitectAssociateContent"
+                      cover="/images/certs/graduation.webp"
+                      coverMobile="/images/certs/graduation-mobile.webp"
+                      id="cert-info-3"
+                      key="2"
+                      title="AwsSolutionArchitectAssociate"
+                    >
+                      <CarouselItem
+                        className=""
+                        id="cert-info-3"
+                      >
+                        <div
+                          className="carousel-item"
+                          id="cert-info-3"
+                        >
+                          <CertInfo__Container>
+                            <div
+                              className="CertInfo__Container-sc-1xe9lwl-0 cYCcNv"
+                            >
+                              <CertInfo__Image
+                                alt="AwsSolutionArchitectAssociate"
+                                className="d-block w-100 h-100"
+                                src="/images/certs/graduation.webp"
+                              >
+                                <img
+                                  alt="AwsSolutionArchitectAssociate"
+                                  className="CertInfo__Image-sc-1xe9lwl-1 bJqpNd d-block w-100 h-100"
+                                  src="/images/certs/graduation.webp"
+                                />
+                              </CertInfo__Image>
+                              <CarouselCaption>
+                                <div
+                                  className="carousel-caption"
+                                >
+                                  <Info>
+                                    <div
+                                      className="Info-kxijpf-0 FEWIS"
+                                    >
+                                      <Title>
+                                        <h4
+                                          className="Title-sdbbbt-0 fIZtgO"
+                                        >
+                                          <Translate
+                                            id="AwsSolutionArchitectAssociate"
+                                          >
+                                            <WrappedTranslate
+                                              context={
+                                                Object {
+                                                  "activeLanguage": undefined,
+                                                  "addTranslation": [Function],
+                                                  "addTranslationForLanguage": [Function],
+                                                  "defaultLanguage": undefined,
+                                                  "ignoreTranslateChildren": false,
+                                                  "initialize": [Function],
+                                                  "languages": Array [],
+                                                  "renderToStaticMarkup": false,
+                                                  "setActiveLanguage": [Function],
+                                                  "translate": [Function],
+                                                }
+                                              }
+                                              id="AwsSolutionArchitectAssociate"
+                                            >
+                                              Missing translationId: AwsSolutionArchitectAssociate for language: \${ languageCode }
+                                            </WrappedTranslate>
+                                          </Translate>
+                                        </h4>
+                                      </Title>
+                                      <CertInfo__Text>
+                                        <p
+                                          className="CertInfo__Text-sc-1xe9lwl-2 YFmXU"
+                                        >
+                                          <Translate
+                                            id="AwsSolutionArchitectAssociateContent"
+                                          >
+                                            <WrappedTranslate
+                                              context={
+                                                Object {
+                                                  "activeLanguage": undefined,
+                                                  "addTranslation": [Function],
+                                                  "addTranslationForLanguage": [Function],
+                                                  "defaultLanguage": undefined,
+                                                  "ignoreTranslateChildren": false,
+                                                  "initialize": [Function],
+                                                  "languages": Array [],
+                                                  "renderToStaticMarkup": false,
+                                                  "setActiveLanguage": [Function],
+                                                  "translate": [Function],
+                                                }
+                                              }
+                                              id="AwsSolutionArchitectAssociateContent"
+                                            >
+                                              Missing translationId: AwsSolutionArchitectAssociateContent for language: \${ languageCode }
+                                            </WrappedTranslate>
+                                          </Translate>
+                                        </p>
+                                      </CertInfo__Text>
+                                    </div>
+                                  </Info>
+                                </div>
+                              </CarouselCaption>
+                            </div>
+                          </CertInfo__Container>
+                        </div>
+                      </CarouselItem>
+                    </CertInfo>
+                  </Transition>
+                  <Transition
+                    addEndListener={[Function]}
+                    appear={false}
+                    enter={true}
+                    exit={true}
+                    in={false}
+                    key=".$3"
+                    mountOnEnter={false}
+                    onEnter={null}
+                    onEntered={null}
+                    onEntering={[Function]}
+                    onExit={[Function]}
+                    onExited={[Function]}
+                    onExiting={[Function]}
+                    unmountOnExit={false}
+                  >
+                    <CertInfo
+                      className=""
+                      content="CertContentComm"
+                      cover="/images/certs/communication.webp"
+                      coverMobile="/images/certs/communication-mobile.webp"
+                      id="cert-info-4"
+                      key="3"
+                      title="CertCom"
+                    >
+                      <CarouselItem
+                        className=""
+                        id="cert-info-4"
+                      >
+                        <div
+                          className="carousel-item"
+                          id="cert-info-4"
                         >
                           <CertInfo__Container>
                             <div
@@ -333,7 +591,7 @@ exports[`Certification should render without throwing an error 1`] = `
                                       </Title>
                                       <CertInfo__Text>
                                         <p
-                                          className="CertInfo__Text-sc-1xe9lwl-2 bdVSIt"
+                                          className="CertInfo__Text-sc-1xe9lwl-2 YFmXU"
                                         >
                                           <Translate
                                             id="CertContentComm"
@@ -376,7 +634,7 @@ exports[`Certification should render without throwing an error 1`] = `
                     enter={true}
                     exit={true}
                     in={false}
-                    key=".$2"
+                    key=".$4"
                     mountOnEnter={false}
                     onEnter={null}
                     onEntered={null}
@@ -391,17 +649,17 @@ exports[`Certification should render without throwing an error 1`] = `
                       content="CertContentACMPrize"
                       cover="/images/certs/award.webp"
                       coverMobile="/images/certs/award-mobile.webp"
-                      id="cert-info-3"
-                      key="2"
+                      id="cert-info-5"
+                      key="4"
                       title="CertACMPrize"
                     >
                       <CarouselItem
                         className=""
-                        id="cert-info-3"
+                        id="cert-info-5"
                       >
                         <div
                           className="carousel-item"
-                          id="cert-info-3"
+                          id="cert-info-5"
                         >
                           <CertInfo__Container>
                             <div
@@ -457,7 +715,7 @@ exports[`Certification should render without throwing an error 1`] = `
                                       </Title>
                                       <CertInfo__Text>
                                         <p
-                                          className="CertInfo__Text-sc-1xe9lwl-2 bdVSIt"
+                                          className="CertInfo__Text-sc-1xe9lwl-2 YFmXU"
                                         >
                                           <Translate
                                             id="CertContentACMPrize"
@@ -500,7 +758,7 @@ exports[`Certification should render without throwing an error 1`] = `
                     enter={true}
                     exit={true}
                     in={false}
-                    key=".$3"
+                    key=".$5"
                     mountOnEnter={false}
                     onEnter={null}
                     onEntered={null}
@@ -515,17 +773,17 @@ exports[`Certification should render without throwing an error 1`] = `
                       content="CertContentSPrize"
                       cover="/images/certs/award.webp"
                       coverMobile="/images/certs/award-mobile.webp"
-                      id="cert-info-4"
-                      key="3"
+                      id="cert-info-6"
+                      key="5"
                       title="CertSPrize"
                     >
                       <CarouselItem
                         className=""
-                        id="cert-info-4"
+                        id="cert-info-6"
                       >
                         <div
                           className="carousel-item"
-                          id="cert-info-4"
+                          id="cert-info-6"
                         >
                           <CertInfo__Container>
                             <div
@@ -581,7 +839,7 @@ exports[`Certification should render without throwing an error 1`] = `
                                       </Title>
                                       <CertInfo__Text>
                                         <p
-                                          className="CertInfo__Text-sc-1xe9lwl-2 bdVSIt"
+                                          className="CertInfo__Text-sc-1xe9lwl-2 YFmXU"
                                         >
                                           <Translate
                                             id="CertContentSPrize"
@@ -624,7 +882,7 @@ exports[`Certification should render without throwing an error 1`] = `
                     enter={true}
                     exit={true}
                     in={false}
-                    key=".$4"
+                    key=".$6"
                     mountOnEnter={false}
                     onEnter={null}
                     onEntered={null}
@@ -639,17 +897,17 @@ exports[`Certification should render without throwing an error 1`] = `
                       content="CertContentFPrize"
                       cover="/images/certs/award.webp"
                       coverMobile="/images/certs/award-mobile.webp"
-                      id="cert-info-5"
-                      key="4"
+                      id="cert-info-7"
+                      key="6"
                       title="CertFPrize"
                     >
                       <CarouselItem
                         className=""
-                        id="cert-info-5"
+                        id="cert-info-7"
                       >
                         <div
                           className="carousel-item"
-                          id="cert-info-5"
+                          id="cert-info-7"
                         >
                           <CertInfo__Container>
                             <div
@@ -705,7 +963,7 @@ exports[`Certification should render without throwing an error 1`] = `
                                       </Title>
                                       <CertInfo__Text>
                                         <p
-                                          className="CertInfo__Text-sc-1xe9lwl-2 bdVSIt"
+                                          className="CertInfo__Text-sc-1xe9lwl-2 YFmXU"
                                         >
                                           <Translate
                                             id="CertContentFPrize"

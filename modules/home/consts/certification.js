@@ -6,6 +6,18 @@ export const INFO = [
     cover: '/images/certs/graduation.webp'
   },
   {
+    title: 'AwsCloudPratitioner',
+    content: 'AwsCloudPratitionerContent',
+    coverMobile: '/images/certs/graduation-mobile.webp',
+    cover: '/images/certs/graduation.webp'
+  },
+  {
+    title: 'AwsSolutionArchitectAssociate',
+    content: 'AwsSolutionArchitectAssociateContent',
+    coverMobile: '/images/certs/graduation-mobile.webp',
+    cover: '/images/certs/graduation.webp'
+  },
+  {
     title: 'CertCom',
     content: 'CertContentComm',
     coverMobile: '/images/certs/communication-mobile.webp',

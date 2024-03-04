@@ -8,7 +8,7 @@ import NavLogo from '~/modules/home/components/nav/NavLogo'
 describe('Nav Logo', () => {
   it('should render without throwing an error', function() {
     const wrap = mountWithTheme(<NavLogo />)
-    expect(wrap.find('span').text()).toBe('JD')
+    expect(wrap.find('span').text()).toBe('PH')
 
     expect(shallowWithTheme(<NavLogo />)).toMatchSnapshot()
   })
