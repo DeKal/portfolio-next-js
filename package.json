@@ -18,7 +18,7 @@
     "@zeit/next-css": "1.0.1",
     "axios": "0.21.1",
     "bootstrap": "4.6.0",
-    "jquery": "3.5.1",
+    "jquery": "3.7.1",
     "next": "9.3.6",
     "next-pwa": "5.0.1",
     "node-sass": "^9.0.0",
