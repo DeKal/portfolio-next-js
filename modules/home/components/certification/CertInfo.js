@@ -55,4 +55,10 @@ const Image = styled.img`
 `
 const Text = styled.p`
   font-size: 13px;
+
+  a {
+    font-size: 13px;
+    color: white;
+    text-decoration: underline;
+  }
 `

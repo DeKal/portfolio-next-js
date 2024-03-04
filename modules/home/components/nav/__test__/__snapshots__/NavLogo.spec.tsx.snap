@@ -5,7 +5,7 @@ exports[`Nav Logo should render without throwing an error 1`] = `
   href="https://github.com/DeKal/portfolio-next-js"
 >
   <NavLogo__LogoText>
-    JD
+    PH
   </NavLogo__LogoText>
 </NavLogo__Logo>
 `;

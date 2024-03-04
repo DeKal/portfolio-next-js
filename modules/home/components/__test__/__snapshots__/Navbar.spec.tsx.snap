@@ -292,7 +292,7 @@ exports[`Navbar should render without throwing an error 1`] = `
                                   <span
                                     className="NavLogo__LogoText-sc-100re03-1 haQzGG"
                                   >
-                                    JD
+                                    PH
                                   </span>
                                 </NavLogo__LogoText>
                               </a>
